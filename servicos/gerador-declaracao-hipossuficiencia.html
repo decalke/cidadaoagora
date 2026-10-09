@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Declaração de Hipossuficiência / Pobreza em PDF - InfoCidadão</title>
+  <meta name="description" content="Gere online sua declaração de hipossuficiência para pedido de justiça gratuita ou isenção de taxa em concursos. Preencha e baixe o PDF pronto.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-violet-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-violet-600">Justiça</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-violet-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Hipossuficiência]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-violet-50 text-violet-700 border border-violet-200 mb-2">
+          <i data-lucide="scale" class="w-3.5 h-3.5"></i>
+          Lei nº 1.060/50 & Art. 98 do CPC (Justiça Gratuita)
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Gerador de Declaração de Hipossuficiência (Pobreza)</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Gere o documento oficial exigido para pedir Justiça Gratuita ou isenção de taxa de inscrição em concursos públicos e vestibulares.
+        </p>
+      </div>
+
+      <form id="form-hipo" onsubmit="gerarHipoPDF(event)" class="space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome Completo do Declarante</label>
+            <input type="text" id="hipo-nome" placeholder="Ex: Maria Aparecida dos Santos" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nacionalidade</label>
+            <input type="text" id="hipo-nacionalidade" value="Brasileiro(a)" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Estado Civil</label>
+            <select id="hipo-civil" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900">
+              <option value="Solteiro(a)">Solteiro(a)</option>
+              <option value="Casado(a)">Casado(a)</option>
+              <option value="Divorciado(a)">Divorciado(a)</option>
+              <option value="Viúvo(a)">Viúvo(a)</option>
+              <option value="União Estável">União Estável</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Profissão</label>
+            <input type="text" id="hipo-profissao" placeholder="Ex: Autônomo(a) / Desempregado(a)" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF</label>
+            <input type="text" id="hipo-cpf" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900 font-mono" required>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">RG / Órgão Emissor</label>
+            <input type="text" id="hipo-rg" placeholder="Ex: 12.345.678-9 SSP/SP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Cidade e Estado de Residência</label>
+            <input type="text" id="hipo-cidade" placeholder="Ex: Campinas - SP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Endereço Residencial Completo</label>
+            <input type="text" id="hipo-end" placeholder="Rua, Número, Bairro, CEP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
+          </div>
+          <div class="sm:col-span-2">
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Finalidade da Declaração</label>
+            <select id="hipo-motivo" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900">
+              <option value="requerer a concessão dos benefícios da GRATUIDADE DA JUSTIÇA">Processo Judicial / Justiça Gratuita</option>
+              <option value="requerer a ISENÇÃO DE TAXA DE INSCRIÇÃO EM CONCURSO PÚBLICO ou vestibular">Isenção de Concurso Público / Vestibular</option>
+              <option value="fins gerais perante repartições públicas e comprovação de renda">Geral (Órgãos Públicos e Assistência Social)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+          <button type="submit" class="flex-1 bg-violet-600 hover:bg-violet-700 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-md transition flex items-center justify-center gap-2">
+            <i data-lucide="download" class="w-5 h-5"></i>
+            Baixar Declaração em PDF
+          </button>
+          <button type="button" onclick="preencherExemploHipo()" class="px-5 py-3.5 border border-slate-300 text-slate-600 hover:bg-slate-100 rounded-xl font-bold text-xs transition">
+            Preencher Exemplo
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto text-center text-xs text-slate-400">
+    <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function preencherExemploHipo() {
+      document.getElementById('hipo-nome').value = 'Mariana dos Santos Ribeiro';
+      document.getElementById('hipo-profissao').value = 'Auxiliar de Serviços Gerais';
+      document.getElementById('hipo-cpf').value = '123.456.789-00';
+      document.getElementById('hipo-rg').value = '45.678.910-1 SSP/SP';
+      document.getElementById('hipo-cidade').value = 'São Paulo - SP';
+      document.getElementById('hipo-end').value = 'Rua das Palmeiras, 150, Bloco B, São Paulo - SP';
+    }
+
+    function gerarHipoPDF(e) {
+      e.preventDefault();
+      const nome = document.getElementById('hipo-nome').value.trim();
+      const nac = document.getElementById('hipo-nacionalidade').value.trim();
+      const civil = document.getElementById('hipo-civil').value;
+      const prof = document.getElementById('hipo-profissao').value.trim();
+      const cpf = document.getElementById('hipo-cpf').value.trim();
+      const rg = document.getElementById('hipo-rg').value.trim();
+      const cidade = document.getElementById('hipo-cidade').value.trim();
+      const end = document.getElementById('hipo-end').value.trim();
+      const motivo = document.getElementById('hipo-motivo').value;
+
+      const hoje = new Date();
+      const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+      const dataExtenso = `${cidade}, ${hoje.getDate()} de ${meses[hoje.getMonth()]} de ${hoje.getFullYear()}`;
+
+      const texto = `DECLARAÇÃO DE HIPOSSUFICIÊNCIA ECONÔMICA
+(LEI Nº 1.060/50 E ART. 98 DO CÓDIGO DE PROCESSO CIVIL)
+
+Eu, ${nome}, de nacionalidade ${nac}, estado civil ${civil}, profissão ${prof}, portador(a) do RG nº ${rg} e inscrito(a) no CPF/MF sob o nº ${cpf}, residente e domiciliado(a) na ${end}, na cidade de ${cidade},
+
+DECLARO, sob as penas da Lei e para todos os devidos fins de direito, em especial para ${motivo}, que não possuo condições financeiras de arcar com as custas processuais, taxas, emolumentos e honorários sem prejuízo do meu próprio sustento e de minha família.
+
+Declaro estar ciente de que a presente declaração goza de presunção relativa de veracidade (art. 99, § 3º do CPC), e que prestar declaração falsa em documento particular constitui crime tipificado no art. 299 do Código Penal Brasileiro.
+
+Por ser a expressão da verdade, firmo a presente declaração.
+
+
+${dataExtenso}.
+
+
+
+
+__________________________________________________
+Assinatura do(a) Declarante: ${nome}
+CPF: ${cpf}`;
+
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(13);
+      doc.text("DECLARAÇÃO DE HIPOSSUFICIÊNCIA", 105, 25, { align: "center" });
+
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(10.5);
+      const splitText = doc.splitTextToSize(texto, 165);
+      doc.text(splitText, 22, 40);
+
+      doc.save(`Declaracao_Hipossuficiencia_${nome.replace(/\s+/g, '_')}.pdf`);
+    }
+  </script>
+</body>
+</html>

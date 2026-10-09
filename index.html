@@ -110,13 +110,11 @@
         <p class="text-slate-200 text-sm sm:text-base mt-3 leading-relaxed">
           Verifique a situação cadastral do MEI e CNPJ, valide números de CPF, descubra a tributação de CNAEs, calcule valores exatos de rescisão CLT e consulte dados veiculares com cotação na Tabela FIPE.
         </p>
-        <div class="flex flex-wrap gap-3 mt-6">
-          <a href="servicos/consulta-mei-cnpj.html" class="bg-white text-blue-900 hover:bg-blue-50 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-lg transition-colors shadow">
-            Consultar MEI & CNPJ
-          </a>
-          <a href="servicos/consulta-veicular-fipe.html" class="bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-lg transition-colors shadow">
-            Consulta de Placa & FIPE
-          </a>
+        <div class="mt-6 flex flex-col sm:flex-row gap-2 max-w-xl">
+          <div class="relative flex-1">
+            <i data-lucide="search" class="w-5 h-5 absolute left-3.5 top-3.5 text-slate-400"></i>
+            <input type="text" id="campo-busca" placeholder="O que você precisa hoje? (Ex: recibo, mei, fipe, férias, cpf, contrato...)" class="w-full pl-11 pr-4 py-3 rounded-xl bg-white text-slate-900 placeholder-slate-400 font-medium text-xs sm:text-sm shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400" oninput="filtrarServicos()">
+          </div>
         </div>
       </div>
     </div>
@@ -130,7 +128,7 @@
         <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Selecione uma ferramenta abaixo para acessar a página individual completa:</p>
       </div>
       <span class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-        12 Ferramentas & Documentos
+        15 Ferramentas & Documentos
       </span>
     </div>
 
@@ -461,6 +459,87 @@
         </div>
       </div>
 
+      <!-- CAIXA 13: DECLARAÇÃO DE HIPOSSUFICIÊNCIA / POBREZA (PDF) -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-violet-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-violet-100 text-violet-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="scale" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-violet-600 block mb-1">Justiça Gratuita</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-violet-600 transition-colors">
+            Declaração de Hipossuficiência
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Documento formal para pedido de gratuidade judiciária ou isenção de taxas em concursos e vestibulares públicos nos termos do Art. 98 do CPC.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Justiça Gratuita</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Isenção Concurso</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Jurídico</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="w-full bg-violet-600 hover:bg-violet-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Gerar Declaração em PDF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 14: GERADOR DE ORÇAMENTO DE SERVIÇOS (PDF) -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-sky-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="calculator" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">Para Autônomos & MEI</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+            Gerador de Orçamento Simples
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Monte propostas comerciais e orçamentos detalhados de mão de obra e materiais com soma automática de valores e download de PDF timbrado.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Orçamento MEI</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cálculo Automático</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF na Hora</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-orcamento-simples.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Criar Orçamento em PDF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 15: CALCULADORA DE FÉRIAS E 13º SALÁRIO -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="badge-dollar-sign" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Benefícios CLT</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+            Calculadora de Férias & 13º Salário
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Descubra quanto você vai receber de férias (com o terço constitucional e venda de dias) e simule os valores da 1ª e 2ª parcela do 13º salário.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">1/3 de Férias</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">13º Proporcional</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cálculo Rápido</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/calculadora-ferias-decimo.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Calcular Férias e 13º</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
       <!-- CAIXA 6: CANAL DE PROMOÇÕES & OFERTAS -->
       <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border border-amber-200 p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
         <div>
@@ -621,10 +700,12 @@
       </div>
 
       <div>
-        <h4 class="text-white font-bold text-sm mb-3">Informações Legais</h4>
-        <p class="text-[11px] leading-relaxed text-slate-500 mb-2">
-          Não possuímos vínculo governamental com órgãos públicos. As consultas utilizam a base da Lei de Acesso à Informação e dados abertos.
-        </p>
+        <h4 class="text-white font-bold text-sm mb-3">Informações Legais & Contato</h4>
+        <ul class="space-y-2 text-[11px] mb-3">
+          <li><a href="conteudo/politica-privacidade.html" class="hover:text-white transition-colors text-slate-400">Política de Privacidade (LGPD)</a></li>
+          <li><a href="conteudo/termos-de-uso.html" class="hover:text-white transition-colors text-slate-400">Termos de Uso</a></li>
+          <li><a href="conteudo/contato.html" class="hover:text-white transition-colors text-slate-400">Fale Conosco / Suporte</a></li>
+        </ul>
         <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
           © 2026 InfoCidadão Brasil
         </span>
@@ -639,6 +720,19 @@
   <script>
     if (window.lucide) {
       window.lucide.createIcons();
+    }
+
+    function filtrarServicos() {
+      const q = document.getElementById('campo-busca').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('#servicos .grid > div');
+      cards.forEach(card => {
+        const texto = card.innerText.toLowerCase();
+        if (texto.includes(q)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
     }
   </script>
 </body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale Conosco - InfoCidadão</title>
+  <meta name="description" content="Entre em contato com a equipe editorial e técnica do portal InfoCidadão.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-blue-600">Cidadão</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Fale Conosco</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-blue-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Voltar ao Início</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto w-full px-4 py-8 flex-1">
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
+      <div class="border-b border-slate-200 pb-4">
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Fale Conosco & Suporte</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1">Dúvidas, sugestões de novas ferramentas ou contato comercial.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="space-y-4">
+          <div class="p-5 bg-blue-50 rounded-2xl border border-blue-200 space-y-2">
+            <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center">
+              <i data-lucide="mail" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base">E-mail Editorial e Geral</h3>
+            <p class="text-xs text-slate-600">Para correções de matérias, novas ideias e dúvidas técnicas:</p>
+            <p class="text-sm font-bold text-blue-700 font-mono">contato@infocidadao.com</p>
+          </div>
+
+          <div class="p-5 bg-emerald-50 rounded-2xl border border-emerald-200 space-y-2">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base">Privacidade e LGPD</h3>
+            <p class="text-xs text-slate-600">Para solicitações sobre tratamento de dados e privacidade:</p>
+            <p class="text-sm font-bold text-emerald-700 font-mono">privacidade@infocidadao.com</p>
+          </div>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+          <h3 class="font-bold text-slate-900 text-sm">Envie uma Mensagem Rápida</h3>
+          <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Entraremos em contato em breve.'); this.reset();" class="space-y-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Seu Nome</label>
+              <input type="text" required placeholder="Nome completo" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Seu E-mail</label>
+              <input type="email" required placeholder="seu@email.com" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Mensagem</label>
+              <textarea rows="3" required placeholder="Descreva sua dúvida ou sugestão..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-400">
+    <p>© 2026 InfoCidadão - Todos os direitos reservados.</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>

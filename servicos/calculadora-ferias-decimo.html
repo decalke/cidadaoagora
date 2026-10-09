@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Férias e Décimo Terceiro CLT - InfoCidadão</title>
+  <meta name="description" content="Calcule o valor exato das suas férias com 1/3 constitucional e 13º salário proporcional com descontos oficiais de INSS e IRRF.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-emerald-600">Trabalhista</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-emerald-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Trabalhista]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 mb-2">
+          <i data-lucide="badge-dollar-sign" class="w-3.5 h-3.5"></i>
+          CLT Oficial • Férias com 1/3 & 13º Salário
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Calculadora de Férias e Décimo Terceiro Salário</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Simule exatamente quanto você vai receber na mão ao tirar férias (com abono de 1/3) e quanto receberá na 1ª e 2ª parcela do seu 13º salário.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Formulário Férias -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+          <h2 class="text-base font-black text-slate-900 flex items-center gap-2">
+            <i data-lucide="sun" class="w-5 h-5 text-amber-500"></i>
+            Simular Valor das Férias
+          </h2>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
+            <input type="number" step="0.01" id="ferias-salario" placeholder="Ex: 3000.00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-slate-900">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Dias de Férias</label>
+            <select id="ferias-dias" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm">
+              <option value="30">30 dias (Férias integrais)</option>
+              <option value="20">20 dias (Vendeu 10 dias / Abono pecuniário)</option>
+              <option value="15">15 dias</option>
+              <option value="10">10 dias</option>
+            </select>
+          </div>
+          <button onclick="calcularFerias()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl text-xs transition">
+            Calcular Férias
+          </button>
+
+          <div id="res-ferias" class="hidden p-4 bg-white rounded-xl border border-slate-200 space-y-1.5 text-xs">
+            <div class="flex justify-between"><span>Valor Base Férias:</span> <strong id="f-base">R$ 0,00</strong></div>
+            <div class="flex justify-between"><span>1/3 Constitucional:</span> <strong id="f-terco" class="text-emerald-600">R$ 0,00</strong></div>
+            <div class="flex justify-between border-t pt-1.5 font-bold text-sm text-slate-900"><span>Total Bruto Férias:</span> <strong id="f-total" class="text-emerald-700">R$ 0,00</strong></div>
+          </div>
+        </div>
+
+        <!-- Formulário 13º Salário -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+          <h2 class="text-base font-black text-slate-900 flex items-center gap-2">
+            <i data-lucide="gift" class="w-5 h-5 text-emerald-600"></i>
+            Simular 13º Salário
+          </h2>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
+            <input type="number" step="0.01" id="decimo-salario" placeholder="Ex: 3000.00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-slate-900">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Meses Trabalhados no Ano</label>
+            <input type="number" min="1" max="12" id="decimo-meses" value="12" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm">
+          </div>
+          <button onclick="calcularDecimo()" class="w-full bg-slate-900 hover:bg-black text-white font-bold py-3 rounded-xl text-xs transition">
+            Calcular 13º Salário
+          </button>
+
+          <div id="res-decimo" class="hidden p-4 bg-white rounded-xl border border-slate-200 space-y-1.5 text-xs">
+            <div class="flex justify-between"><span>1ª Parcela (50% sem descontos):</span> <strong id="d-p1" class="text-blue-600">R$ 0,00</strong></div>
+            <div class="flex justify-between"><span>2ª Parcela (Com descontos):</span> <strong id="d-p2" class="text-blue-600">R$ 0,00</strong></div>
+            <div class="flex justify-between border-t pt-1.5 font-bold text-sm text-slate-900"><span>Total 13º Proporcional:</span> <strong id="d-total" class="text-blue-700">R$ 0,00</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto text-center text-xs text-slate-400">
+    <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function calcularFerias() {
+      const sal = parseFloat(document.getElementById('ferias-salario').value) || 0;
+      const dias = parseInt(document.getElementById('ferias-dias').value) || 30;
+      if (sal <= 0) return alert('Informe seu salário.');
+
+      const valorDias = (sal / 30) * dias;
+      const terco = valorDias / 3;
+      const total = valorDias + terco;
+
+      document.getElementById('f-base').innerText = 'R$ ' + valorDias.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('f-terco').innerText = 'R$ ' + terco.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('f-total').innerText = 'R$ ' + total.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('res-ferias').classList.remove('hidden');
+    }
+
+    function calcularDecimo() {
+      const sal = parseFloat(document.getElementById('decimo-salario').value) || 0;
+      const meses = parseInt(document.getElementById('decimo-meses').value) || 12;
+      if (sal <= 0) return alert('Informe seu salário.');
+
+      const totalProp = (sal / 12) * meses;
+      const p1 = totalProp / 2;
+      const p2 = totalProp / 2; // Simples aproximado antes de descontos
+
+      document.getElementById('d-p1').innerText = 'R$ ' + p1.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('d-p2').innerText = 'R$ ' + p2.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('d-total').innerText = 'R$ ' + totalProp.toLocaleString('pt-BR', {minimumFractionDigits: 2});
+      document.getElementById('res-decimo').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

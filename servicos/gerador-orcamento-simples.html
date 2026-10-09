@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Orçamento Simples e Serviços em PDF - InfoCidadão</title>
+  <meta name="description" content="Crie orçamentos profissionais de serviços e produtos para autônomos e MEI. Adicione itens com cálculo automático e baixe o PDF pronto.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-sky-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-sky-600">Orçamento</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-sky-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Orçamento]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-sky-50 text-sky-700 border border-sky-200 mb-2">
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+          Para Autônomos, Prestadores de Serviço e MEI
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Gerador de Proposta e Orçamento de Serviços</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Preencha os dados do cliente e adicione os itens do serviço. O sistema calcula o valor total automaticamente e gera uma proposta limpa em PDF.
+        </p>
+      </div>
+
+      <form id="form-orc" onsubmit="gerarOrcamentoPDF(event)" class="space-y-6">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-3">
+            <h3 class="text-xs font-bold uppercase text-slate-700">Seus Dados (Prestador / Empresa)</h3>
+            <input type="text" id="orc-prestador" placeholder="Seu Nome ou Razão Social" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm" required>
+            <input type="text" id="orc-prestador-doc" placeholder="Seu Telefone / WhatsApp" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm" required>
+          </div>
+
+          <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-3">
+            <h3 class="text-xs font-bold uppercase text-slate-700">Dados do Cliente</h3>
+            <input type="text" id="orc-cliente" placeholder="Nome do Cliente" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm" required>
+            <input type="text" id="orc-cliente-contato" placeholder="Telefone ou Cidade do Cliente" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm">
+          </div>
+        </div>
+
+        <!-- Tabela de Itens -->
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs font-bold uppercase text-slate-700">Itens / Serviços do Orçamento</h3>
+            <button type="button" onclick="adicionarLinhaItem()" class="text-xs bg-sky-50 text-sky-700 hover:bg-sky-100 font-bold px-3 py-1.5 rounded-lg border border-sky-200 flex items-center gap-1">
+              <i data-lucide="plus" class="w-3.5 h-3.5"></i>
+              Adicionar Item
+            </button>
+          </div>
+
+          <div id="tabela-itens" class="space-y-2">
+            <div class="linha-item grid grid-cols-12 gap-2 items-center">
+              <input type="text" placeholder="Descrição do serviço (ex: Troca de fiação)" class="col-span-7 px-3 py-2 rounded-lg border border-slate-300 text-sm item-desc" required>
+              <input type="number" value="1" min="1" placeholder="Qtd" class="col-span-2 px-3 py-2 rounded-lg border border-slate-300 text-sm text-center item-qtd" oninput="calcularTotalOrcamento()">
+              <input type="number" step="0.01" placeholder="Valor (R$)" class="col-span-3 px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold item-val" oninput="calcularTotalOrcamento()" required>
+            </div>
+          </div>
+
+          <!-- Totalizador -->
+          <div class="p-4 bg-slate-900 text-white rounded-xl flex items-center justify-between">
+            <span class="text-xs uppercase font-bold text-slate-400">Valor Total Estimado:</span>
+            <span id="valor-total-exibicao" class="text-xl font-black text-emerald-400">R$ 0,00</span>
+          </div>
+        </div>
+
+        <!-- Condições e Validade -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Validade da Proposta</label>
+            <input type="text" id="orc-validade" value="15 dias a contar desta data" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Forma de Pagamento</label>
+            <input type="text" id="orc-pagamento" placeholder="Ex: Pix à vista ou 2x no cartão" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm">
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+          <button type="submit" class="flex-1 bg-sky-600 hover:bg-sky-700 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-md transition flex items-center justify-center gap-2">
+            <i data-lucide="download" class="w-5 h-5"></i>
+            Baixar Orçamento em PDF
+          </button>
+          <button type="button" onclick="preencherExemploOrcamento()" class="px-5 py-3.5 border border-slate-300 text-slate-600 hover:bg-slate-100 rounded-xl font-bold text-xs transition">
+            Preencher Exemplo
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto text-center text-xs text-slate-400">
+    <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function adicionarLinhaItem() {
+      const container = document.getElementById('tabela-itens');
+      const div = document.createElement('div');
+      div.className = 'linha-item grid grid-cols-12 gap-2 items-center';
+      div.innerHTML = `
+        <input type="text" placeholder="Descrição do serviço" class="col-span-7 px-3 py-2 rounded-lg border border-slate-300 text-sm item-desc" required>
+        <input type="number" value="1" min="1" placeholder="Qtd" class="col-span-2 px-3 py-2 rounded-lg border border-slate-300 text-sm text-center item-qtd" oninput="calcularTotalOrcamento()">
+        <input type="number" step="0.01" placeholder="Valor (R$)" class="col-span-3 px-3 py-2 rounded-lg border border-slate-300 text-sm font-bold item-val" oninput="calcularTotalOrcamento()" required>
+      `;
+      container.appendChild(div);
+    }
+
+    function calcularTotalOrcamento() {
+      let total = 0;
+      const linhas = document.querySelectorAll('.linha-item');
+      linhas.forEach(l => {
+        const qtd = parseFloat(l.querySelector('.item-qtd').value) || 0;
+        const val = parseFloat(l.querySelector('.item-val').value) || 0;
+        total += qtd * val;
+      });
+      document.getElementById('valor-total-exibicao').innerText = 'R$ ' + total.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      return total;
+    }
+
+    function preencherExemploOrcamento() {
+      document.getElementById('orc-prestador').value = 'Eletrotécnica Silva & Serviços';
+      document.getElementById('orc-prestador-doc').value = '(11) 98765-4321';
+      document.getElementById('orc-cliente').value = 'Condomínio Residencial Bella Vista';
+      document.getElementById('orc-cliente-contato').value = 'São Paulo - SP';
+      
+      const linhas = document.querySelectorAll('.linha-item');
+      if (linhas.length > 0) {
+        linhas[0].querySelector('.item-desc').value = 'Manutenção preventiva do quadro geral e troca de disjuntores';
+        linhas[0].querySelector('.item-qtd').value = '1';
+        linhas[0].querySelector('.item-val').value = '650.00';
+      }
+      document.getElementById('orc-pagamento').value = '50% entrada e 50% na conclusão via Pix';
+      calcularTotalOrcamento();
+    }
+
+    function gerarOrcamentoPDF(e) {
+      e.preventDefault();
+
+      const prestador = document.getElementById('orc-prestador').value.trim();
+      const prestadorDoc = document.getElementById('orc-prestador-doc').value.trim();
+      const cliente = document.getElementById('orc-cliente').value.trim();
+      const clienteContato = document.getElementById('orc-cliente-contato').value.trim();
+      const validade = document.getElementById('orc-validade').value.trim();
+      const pagamento = document.getElementById('orc-pagamento').value.trim();
+      const totalNum = calcularTotalOrcamento();
+
+      const hoje = new Date();
+      const dataStr = `${hoje.getDate().toString().padStart(2, '0')}/${(hoje.getMonth()+1).toString().padStart(2, '0')}/${hoje.getFullYear()}`;
+
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+
+      // Cabeçalho
+      doc.setFillColor(14, 116, 144);
+      doc.rect(0, 0, 210, 24, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(16);
+      doc.text("ORÇAMENTO / PROPOSTA DE PRESTAÇÃO DE SERVIÇOS", 105, 15, { align: "center" });
+
+      doc.setTextColor(50, 50, 50);
+      doc.setFontSize(10);
+      doc.text(`Data de Emissão: ${dataStr}`, 15, 34);
+
+      // Dados das partes
+      doc.setFont("helvetica", "bold");
+      doc.text("EMITENTE / PRESTADOR:", 15, 43);
+      doc.setFont("helvetica", "normal");
+      doc.text(`${prestador} - Contato: ${prestadorDoc}`, 15, 48);
+
+      doc.setFont("helvetica", "bold");
+      doc.text("CLIENTE:", 15, 57);
+      doc.setFont("helvetica", "normal");
+      doc.text(`${cliente} ${clienteContato ? '- ' + clienteContato : ''}`, 15, 62);
+
+      // Linha separadora
+      doc.setDrawColor(200, 200, 200);
+      doc.line(15, 68, 195, 68);
+
+      // Itens
+      doc.setFont("helvetica", "bold");
+      doc.text("DESCRIÇÃO DOS SERVIÇOS / PRODUTOS", 15, 75);
+      doc.text("QTD", 145, 75);
+      doc.text("TOTAL", 175, 75);
+
+      let y = 83;
+      doc.setFont("helvetica", "normal");
+
+      const linhas = document.querySelectorAll('.linha-item');
+      linhas.forEach(l => {
+        const desc = l.querySelector('.item-desc').value.trim();
+        const qtd = l.querySelector('.item-qtd').value.trim();
+        const val = parseFloat(l.querySelector('.item-val').value) || 0;
+        const subtotal = (parseFloat(qtd) || 0) * val;
+
+        doc.text(doc.splitTextToSize(desc, 120), 15, y);
+        doc.text(qtd, 147, y);
+        doc.text(`R$ ${subtotal.toFixed(2)}`, 172, y);
+        y += 8;
+      });
+
+      // Linha total
+      doc.line(15, y + 2, 195, y + 2);
+      y += 10;
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(12);
+      doc.text("VALOR TOTAL:", 15, y);
+      doc.text(`R$ ${totalNum.toFixed(2)}`, 170, y);
+
+      // Condições
+      y += 14;
+      doc.setFontSize(9.5);
+      doc.setFont("helvetica", "bold");
+      doc.text("CONDIÇÕES GERAIS:", 15, y);
+      doc.setFont("helvetica", "normal");
+      doc.text(`- Validade deste orçamento: ${validade}`, 15, y + 6);
+      if (pagamento) {
+        doc.text(`- Forma de Pagamento acordada: ${pagamento}`, 15, y + 12);
+      }
+
+      doc.save(`Orcamento_${cliente.replace(/\s+/g, '_')}.pdf`);
+    }
+  </script>
+</body>
+</html>
