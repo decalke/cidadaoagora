@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Link de WhatsApp com Mensagem Pronta - InfoCidadão</title>
+  <meta name="description" content="Crie links diretos para o WhatsApp com número formatado e mensagem personalizada. Gere link curto e QR Code grátis.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-green-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-green-600">Zap</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-green-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo WhatsApp]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-green-50 text-green-700 border border-green-200 mb-2">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+          Link Direto & QR Code Grátis
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Gerador de Link do WhatsApp com Mensagem</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Crie um link personalizado para seus clientes conversarem com você no WhatsApp com apenas 1 clique, com mensagem pré-definida.
+        </p>
+      </div>
+
+      <form id="form-zap" onsubmit="gerarLinkZap(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Número do WhatsApp (com DDD)</label>
+          <div class="flex">
+            <span class="inline-flex items-center px-4 rounded-l-xl border border-r-0 border-slate-300 bg-slate-100 text-slate-600 font-bold text-sm">
+              +55 (Brasil)
+            </span>
+            <input type="tel" id="zap-numero" placeholder="(11) 99999-9999" maxlength="15" class="w-full px-4 py-3 rounded-r-xl border border-slate-300 focus:ring-2 focus:ring-green-500 text-slate-900 text-base font-bold font-mono" required oninput="mascararTelefone(this)">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Mensagem Inicial (Opcional)</label>
+          <textarea id="zap-msg" rows="3" placeholder="Ex: Olá! Gostaria de mais informações sobre seus serviços e solicitar um orçamento..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-green-500 text-slate-900 text-sm"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-md transition flex items-center justify-center gap-2">
+          <i data-lucide="link" class="w-5 h-5"></i>
+          Gerar Link do WhatsApp
+        </button>
+      </form>
+    </section>
+
+    <!-- Resultado do Link Gerado -->
+    <div id="resultado-zap" class="hidden bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-4">
+      <div class="flex items-center justify-between border-b pb-4">
+        <h2 class="text-lg font-black text-slate-900 flex items-center gap-2">
+          <i data-lucide="check-circle" class="w-5 h-5 text-green-600"></i>
+          Seu Link do WhatsApp está pronto!
+        </h2>
+      </div>
+
+      <div class="space-y-3">
+        <div>
+          <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Link Direto Gerado:</label>
+          <div class="flex flex-col sm:flex-row gap-2">
+            <input type="text" id="link-gerado" readonly class="flex-1 px-4 py-2.5 rounded-xl border border-slate-300 bg-slate-50 font-mono text-xs text-slate-800">
+            <button onclick="copiarLinkZap()" class="bg-slate-800 hover:bg-slate-900 text-white font-bold px-5 py-2.5 rounded-xl text-xs flex items-center justify-center gap-1.5 transition">
+              <i data-lucide="copy" class="w-4 h-4"></i>
+              Copiar Link
+            </button>
+            <a id="btn-testar-zap" href="#" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold px-5 py-2.5 rounded-xl text-xs flex items-center justify-center gap-1.5 transition">
+              <i data-lucide="external-link" class="w-4 h-4"></i>
+              Testar no WhatsApp
+            </a>
+          </div>
+          <p id="msg-zap-copiado" class="hidden text-xs text-emerald-600 font-bold mt-1">Link copiado para a área de transferência!</p>
+        </div>
+
+        <!-- QR Code -->
+        <div class="pt-4 border-t flex flex-col sm:flex-row items-center gap-6">
+          <div class="bg-slate-50 p-3 rounded-2xl border border-slate-200">
+            <img id="zap-qr" src="" alt="QR Code WhatsApp" class="w-36 h-36 rounded-lg">
+          </div>
+          <div class="space-y-1 text-center sm:text-left">
+            <h4 class="font-bold text-sm text-slate-900">QR Code para Compartilhar ou Imprimir</h4>
+            <p class="text-xs text-slate-500">Seus clientes podem apontar a câmera do celular diretamente para este QR Code para iniciar o chat com você.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 text-center text-xs text-slate-400">
+      <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function mascararTelefone(input) {
+      let v = input.value.replace(/\D/g, '');
+      if (v.length > 11) v = v.substring(0, 11);
+      if (v.length > 6) {
+        input.value = `(${v.substring(0, 2)}) ${v.substring(2, 7)}-${v.substring(7)}`;
+      } else if (v.length > 2) {
+        input.value = `(${v.substring(0, 2)}) ${v.substring(2)}`;
+      } else {
+        input.value = v;
+      }
+    }
+
+    function gerarLinkZap(e) {
+      e.preventDefault();
+      const numRaw = document.getElementById('zap-numero').value.replace(/\D/g, '');
+      const msg = document.getElementById('zap-msg').value.trim();
+
+      if (numRaw.length < 10) {
+        alert('Por favor, informe o DDD e o número completo.');
+        return;
+      }
+
+      const numCompleto = '55' + numRaw;
+      let url = `https://wa.me/${numCompleto}`;
+      if (msg) {
+        url += `?text=${encodeURIComponent(msg)}`;
+      }
+
+      document.getElementById('link-gerado').value = url;
+      document.getElementById('btn-testar-zap').href = url;
+      document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(url)}`;
+      document.getElementById('resultado-zap').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function copiarLinkZap() {
+      const el = document.getElementById('link-gerado');
+      el.select();
+      navigator.clipboard.writeText(el.value).then(() => {
+        const msg = document.getElementById('msg-zap-copiado');
+        msg.classList.remove('hidden');
+        setTimeout(() => msg.classList.add('hidden'), 2500);
+      });
+    }
+  </script>
+</body>
+</html>

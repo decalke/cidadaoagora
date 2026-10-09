@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Imagens PNG para JPG e Documentos - InfoCidadão</title>
+  <meta name="description" content="Converta imagens PNG para JPG grátis no seu navegador, sem enviar arquivos para a internet. Rápido, seguro e com download instantâneo.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-orange-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-orange-600">Conversor</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-orange-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Conversor]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- Seção: Conversor de Imagens PNG para JPG e JPG para PNG -->
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-orange-50 text-orange-700 border border-orange-200 mb-2">
+          <i data-lucide="image" class="w-3.5 h-3.5"></i>
+          100% no Navegador & Sem Uploads para Servidores
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Conversor de Formatos (PNG para JPG / JPG para PNG)</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Selecione uma imagem do seu celular ou computador. O processamento ocorre diretamente no seu navegador, garantindo privacidade e conversão imediata.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Dropzone de Arquivo -->
+        <div class="border-2 border-dashed border-slate-300 hover:border-orange-500 rounded-2xl p-8 text-center transition cursor-pointer bg-slate-50 relative" onclick="document.getElementById('input-arquivo').click()">
+          <input type="file" id="input-arquivo" accept="image/png, image/jpeg, image/webp" class="hidden" onchange="tratarArquivo(event)">
+          <div class="flex flex-col items-center justify-center space-y-2">
+            <div class="w-14 h-14 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center">
+              <i data-lucide="upload-cloud" class="w-7 h-7"></i>
+            </div>
+            <p class="text-sm font-bold text-slate-800">Clique para selecionar uma imagem ou arraste até aqui</p>
+            <p class="text-xs text-slate-400">Suporta PNG, JPG e WEBP</p>
+          </div>
+        </div>
+
+        <!-- Área de Opções de Conversão -->
+        <div id="painel-conversao" class="hidden bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+          <div class="flex flex-col sm:flex-row items-center gap-4">
+            <img id="img-preview" class="w-24 h-24 object-cover rounded-xl border border-slate-300 shadow-sm" alt="Prévia">
+            <div class="flex-1 space-y-1 text-center sm:text-left">
+              <h3 id="nome-arquivo" class="text-sm font-bold text-slate-800 break-all"></h3>
+              <p id="tamanho-arquivo" class="text-xs text-slate-500 font-mono"></p>
+            </div>
+            <div class="flex flex-col gap-2 w-full sm:w-auto">
+              <label class="text-xs font-bold text-slate-700 uppercase">Converter Para:</label>
+              <select id="formato-destino" class="px-4 py-2 bg-white border border-slate-300 rounded-xl text-sm font-bold text-slate-800 focus:ring-2 focus:ring-orange-500">
+                <option value="image/jpeg">JPG / JPEG (Comprime e reduz peso)</option>
+                <option value="image/png">PNG (Máxima nitidez e transparência)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="flex justify-end pt-3 border-t border-slate-200">
+            <button onclick="executarConversao()" class="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white font-extrabold px-6 py-3 rounded-xl transition shadow-md flex items-center justify-center gap-2">
+              <i data-lucide="download" class="w-4 h-4"></i>
+              Converter e Baixar Agora
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Instrução: PDF para Word -->
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center">
+          <i data-lucide="file-text" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-black text-slate-900">Como converter PDF para Word (DOCX) Gratuitamente</h2>
+          <p class="text-xs text-slate-500">Dica oficial sem precisar instalar programas suspeitos</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-600 pt-2">
+        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+          <h3 class="font-bold text-slate-800 flex items-center gap-1.5">
+            <span class="w-5 h-5 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs">1</span>
+            Via Google Drive / Google Docs (100% Grátis)
+          </h3>
+          <p>Envie o PDF para o seu Google Drive, clique com o botão direito nele e escolha <strong>"Abrir com" &rarr; "Documentos Google"</strong>. O Google converterá o texto automaticamente. Depois vá em <em>Arquivo &rarr; Fazer Download &rarr; Microsoft Word (.docx)</em>.</p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+          <h3 class="font-bold text-slate-800 flex items-center gap-1.5">
+            <span class="w-5 h-5 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs">2</span>
+            Diretamente no Microsoft Word
+          </h3>
+          <p>Abra o Word no seu computador, clique em <strong>Arquivo &rarr; Abrir</strong> e selecione o seu arquivo PDF. O próprio Word fará a conversão automática e editável instantaneamente!</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 text-center text-xs text-slate-400">
+      <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    let arquivoCarregado = null;
+    let imagemObjeto = null;
+
+    function tratarArquivo(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      arquivoCarregado = file;
+      document.getElementById('nome-arquivo').innerText = file.name;
+      document.getElementById('tamanho-arquivo').innerText = (file.size / 1024).toFixed(1) + ' KB';
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        imagemObjeto = new Image();
+        imagemObjeto.onload = function() {
+          document.getElementById('img-preview').src = evt.target.result;
+          document.getElementById('painel-conversao').classList.remove('hidden');
+        };
+        imagemObjeto.src = evt.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function executarConversao() {
+      if (!imagemObjeto) return;
+
+      const formato = document.getElementById('formato-destino').value;
+      const extensao = formato === 'image/jpeg' ? 'jpg' : 'png';
+
+      const canvas = document.createElement('canvas');
+      canvas.width = imagemObjeto.naturalWidth;
+      canvas.height = imagemObjeto.naturalHeight;
+      const ctx = canvas.getContext('2d');
+
+      // Se converter para JPEG, preenche fundo branco para evitar preto em PNGs transparentes
+      if (formato === 'image/jpeg') {
+        ctx.fillStyle = '#FFFFFF';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+      }
+
+      ctx.drawImage(imagemObjeto, 0, 0);
+
+      const dadosUrl = canvas.toDataURL(formato, 0.92);
+      const link = document.createElement('a');
+      const nomeBase = arquivoCarregado.name.substring(0, arquivoCarregado.name.lastIndexOf('.')) || 'imagem';
+      link.download = `${nomeBase}_convertido.${extensao}`;
+      link.href = dadosUrl;
+      link.click();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantão de Notícias Oficiais do Governo Federal - InfoCidadão</title>
+  <meta name="description" content="Notícias oficiais em tempo real sobre novas políticas públicas, tributos, economia, programas sociais e decisões do Governo Federal (Agência Brasil / EBC).">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">
+          IC
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-blue-600">Notícias</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Portal Principal</span>
+        </div>
+      </a>
+      <div class="flex items-center space-x-4 text-xs font-semibold">
+        <a href="../conteudo/politica.html" class="hover:text-blue-600">Política</a>
+        <a href="../conteudo/atualidades.html" class="hover:text-blue-600">Atualidades</a>
+        <a href="../index.html" class="text-blue-600 font-bold flex items-center gap-1">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          <span>Central de Serviços</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER TOPO ADSENSE -->
+  <div class="max-w-6xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Notícias]</span>
+    </div>
+  </div>
+
+  <main class="max-w-6xl mx-auto w-full px-4 py-8 flex-1 grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <div class="lg:col-span-8 space-y-6">
+
+      <!-- TÍTULO & STATUS DO AGENTE 24H -->
+      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4 mb-4">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+              Agente Oficial Ativo 24h
+            </span>
+          </div>
+          <div class="text-xs text-slate-400 font-medium flex items-center gap-1">
+            <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+            <span id="label-ultima-atualizacao">Carregando últimas publicações...</span>
+          </div>
+        </div>
+
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+          Plantão de Notícias Oficiais do Governo Federal
+        </h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-2 leading-relaxed">
+          Notícias oficiais da <strong>Agência Brasil / EBC</strong> sobre decisões, novas leis, tributos, programas sociais e projetos de desenvolvimento nacional com matérias completas no InfoCidadão.
+        </p>
+
+        <!-- Filtros Rápidos -->
+        <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-100 mt-4 text-xs font-semibold">
+          <button onclick="filtrarCategoria('todas')" class="px-3 py-1.5 rounded-lg bg-blue-600 text-white font-bold" id="btn-filtro-todas">Todas</button>
+          <button onclick="filtrarCategoria('Economia & Tributos')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Economia & Tributos</button>
+          <button onclick="filtrarCategoria('Política & Leis')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Política & Leis</button>
+          <button onclick="filtrarCategoria('Geral & Cidadania')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Geral & Cidadania</button>
+        </div>
+      </div>
+
+      <!-- FEED COM MINIATURAS DE IMAGENS LATERAIS E LINKS LOCAIS -->
+      <div id="feed-noticias" class="space-y-4">
+        <div class="text-center py-12 bg-white rounded-2xl border border-slate-200">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-600 border-r-transparent"></div>
+          <p class="text-xs text-slate-500 mt-2 font-medium">Carregando notícias em tempo real...</p>
+        </div>
+      </div>
+
+      <!-- BANNER DENTRO DO FEED -->
+      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
+        <span>[Espaço Reservado - Banner Google AdSense In-Feed Responsivo]</span>
+      </div>
+
+    </div>
+
+    <!-- LATERAL -->
+    <aside class="lg:col-span-4 space-y-6">
+      <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium min-h-[280px] flex items-center justify-center">
+        <span>[Espaço Reservado - Banner Google AdSense 300x250 Lateral Notícias]</span>
+      </div>
+
+      <!-- CARD: FONTE OFICIAL -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3 shadow-sm">
+        <h3 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+          Páginas Locais & Indexação Google
+        </h3>
+        <p class="text-xs text-slate-500 leading-relaxed">
+          Cada notícia capturada gera automaticamente uma página exclusiva no seu site com fotos em alta resolução, headline completa e espaços de anúncios para ranquear no Google News e na busca orgânica.
+        </p>
+      </div>
+
+      <!-- ATALHOS PARA SERVIÇOS -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3 shadow-sm">
+        <h3 class="font-bold text-slate-900 text-sm">Consultas Públicas Rápidas</h3>
+        <ul class="text-xs space-y-2.5 text-slate-600">
+          <li><a href="../servicos/consulta-mei-cnpj.html" class="hover:text-blue-600 flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i> Consulta MEI & CNPJ Ativo</a></li>
+          <li><a href="../servicos/validador-cpf.html" class="hover:text-blue-600 flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i> Validador Oficial de CPF</a></li>
+          <li><a href="../servicos/buscador-cnae.html" class="hover:text-blue-600 flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i> Buscador de CNAE & MEI</a></li>
+          <li><a href="../servicos/calculadora-rescisao-clt.html" class="hover:text-blue-600 flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i> Calculadora Rescisão CLT</a></li>
+          <li><a href="../servicos/consulta-veicular-fipe.html" class="hover:text-blue-600 flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i> Placa & Tabela FIPE</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12">
+    <p>InfoCidadão Brasil © 2026 - Agregador de notícias e utilidades públicas.</p>
+  </footer>
+
+  <!-- DADOS DAS NOTÍCIAS CARREGADOS DIRETAMENTE (COMPATÍVEL COM FILE:/// E WEB) -->
+  <script src="noticias_dados.js"></script>
+  <script>
+    let TODAS_NOTICIAS = [];
+
+    async function carregarNoticiasDoAgente() {
+      // 1. Tenta carregar via DADOS_NOTICIAS (funciona imediatamente sem servidor local)
+      if (typeof DADOS_NOTICIAS !== "undefined" && DADOS_NOTICIAS.noticias) {
+        TODAS_NOTICIAS = DADOS_NOTICIAS.noticias;
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_NOTICIAS.ultima_atualizacao;
+        renderizarFeed(TODAS_NOTICIAS);
+        return;
+      }
+
+      // 2. Fallback para fetch (quando estiver hospedado na internet)
+      try {
+        const response = await fetch('noticias.json?v=' + new Date().getTime());
+        if (!response.ok) throw new Error("Erro ao carregar notícias");
+        
+        const data = await response.json();
+        TODAS_NOTICIAS = data.noticias || [];
+        
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + data.ultima_atualizacao;
+        renderizarFeed(TODAS_NOTICIAS);
+      } catch (err) {
+        console.error(err);
+        document.getElementById('feed-noticias').innerHTML = `
+          <div class="p-6 bg-white rounded-2xl border border-slate-200 text-center text-slate-500 text-sm">
+            Plantão atualizando notícias do servidor oficial da EBC...
+          </div>
+        `;
+      }
+    }
+
+    function renderizarFeed(lista) {
+      const container = document.getElementById('feed-noticias');
+      if (lista.length === 0) {
+        container.innerHTML = `<div class="p-6 bg-white rounded-2xl text-center text-slate-500 text-sm">Nenhuma matéria encontrada nesta categoria.</div>`;
+        return;
+      }
+
+      container.innerHTML = lista.map(item => `
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-all flex flex-col sm:flex-row gap-4 group">
+          <!-- Miniatura da Imagem Lateral -->
+          <div class="w-full sm:w-44 h-36 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100 border border-slate-100">
+            <a href="../noticias/${item.pagina_local}">
+              <img src="${item.imagem}" alt="${item.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            </a>
+          </div>
+
+          <!-- Conteúdo: Categoria, Título Headline, Resumo e Link Interno -->
+          <div class="flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs mb-1.5">
+                <span class="font-extrabold uppercase tracking-wider text-blue-700 bg-blue-50 px-2 py-0.5 rounded text-[10px] border border-blue-200">
+                  ${item.categoria}
+                </span>
+                <span class="text-slate-400 text-[11px]">${item.coletado_em}</span>
+              </div>
+
+              <h2 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug">
+                <a href="../noticias/${item.pagina_local}">
+                  ${item.titulo}
+                </a>
+              </h2>
+
+              <p class="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+                ${item.resumo}
+              </p>
+            </div>
+
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs mt-3">
+              <span class="text-slate-400 text-[11px] truncate max-w-[200px]">Fonte: EBC / Brasil</span>
+              <a href="../noticias/${item.pagina_local}" class="font-bold text-blue-600 group-hover:text-blue-700 flex items-center gap-1 text-xs">
+                <span>Ler matéria completa</span>
+                <i data-lucide="chevron-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      `).join('');
+
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function filtrarCategoria(cat) {
+      if (cat === 'todas') {
+        renderizarFeed(TODAS_NOTICIAS);
+      } else {
+        const filtradas = TODAS_NOTICIAS.filter(n => n.categoria === cat);
+        renderizarFeed(filtradas);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      carregarNoticiasDoAgente();
+    });
+  </script>
+</body>
+</html>

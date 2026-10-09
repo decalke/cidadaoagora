@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Contrato de Prestação de Serviços Simples em PDF - InfoCidadão</title>
+  <meta name="description" content="Gere contratos simples de prestação de serviços online grátis. Preencha os dados e baixe em PDF formatado e pronto para assinar.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-indigo-600">Contrato</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-indigo-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Contrato]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 mb-2">
+          <i data-lucide="file-check" class="w-3.5 h-3.5"></i>
+          Documento Jurídico Básico & Válido
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Gerador de Contrato de Prestação de Serviços Simples</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Crie um contrato simples e seguro entre Contratante e Prestador de Serviços autônomo ou MEI. Baixe o documento em PDF pronto para assinatura.
+        </p>
+      </div>
+
+      <form id="form-contrato" onsubmit="gerarContratoPDF(event)" class="space-y-6">
+        
+        <!-- Contratante -->
+        <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200 space-y-4">
+          <h2 class="text-sm font-black text-slate-900 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xs">1</span>
+            Dados do CONTRATANTE (Quem está contratando)
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome Completo / Razão Social</label>
+              <input type="text" id="contratante-nome" placeholder="Ex: Maria dos Santos ou Empresa XYZ Ltda" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF ou CNPJ</label>
+              <input type="text" id="contratante-doc" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900 font-mono" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Endereço Completo</label>
+              <input type="text" id="contratante-end" placeholder="Rua, Número, Bairro, Cidade - UF" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contratado -->
+        <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200 space-y-4">
+          <h2 class="text-sm font-black text-slate-900 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xs">2</span>
+            Dados do CONTRATADO / PRESTADOR (Quem executará o serviço)
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome Completo / MEI</label>
+              <input type="text" id="contratado-nome" placeholder="Ex: João da Silva Serviços MEI" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF ou CNPJ</label>
+              <input type="text" id="contratado-doc" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900 font-mono" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Endereço Completo</label>
+              <input type="text" id="contratado-end" placeholder="Rua, Número, Bairro, Cidade - UF" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detalhes do Serviço -->
+        <div class="bg-slate-50 p-4 sm:p-5 rounded-xl border border-slate-200 space-y-4">
+          <h2 class="text-sm font-black text-slate-900 flex items-center gap-2">
+            <span class="w-5 h-5 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xs">3</span>
+            Termos do Serviço, Valor e Prazos
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Objeto do Contrato (Descrição detalhada do serviço)</label>
+              <textarea id="objeto-servico" rows="3" placeholder="Ex: Prestação de serviços de desenvolvimento de website institucional, incluindo design, programação e publicação..." class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required></textarea>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Valor Total Acordado (R$)</label>
+              <input type="text" id="valor-total" placeholder="Ex: 2.500,00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900 font-bold" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Condição / Forma de Pagamento</label>
+              <input type="text" id="forma-pagamento" placeholder="Ex: 50% na entrada e 50% na entrega via Pix" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Prazo de Entrega ou Vigência</label>
+              <input type="text" id="prazo-servico" placeholder="Ex: 30 dias a partir da assinatura" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Cidade e UF do Contrato</label>
+              <input type="text" id="cidade-uf" placeholder="Ex: São Paulo - SP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+          <button type="submit" class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-6 rounded-xl shadow-md transition flex items-center justify-center gap-2">
+            <i data-lucide="download" class="w-5 h-5"></i>
+            Baixar Contrato em PDF
+          </button>
+          <button type="button" onclick="preencherExemploContrato()" class="px-5 py-3.5 border border-slate-300 text-slate-600 hover:bg-slate-100 rounded-xl font-bold text-xs transition">
+            Preencher Exemplo
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Preview Box -->
+    <div id="preview-box" class="hidden bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-4">
+      <div class="flex items-center justify-between border-b pb-4">
+        <h2 class="text-lg font-black text-slate-900 flex items-center gap-2">
+          <i data-lucide="eye" class="w-5 h-5 text-indigo-600"></i>
+          Pré-visualização do Contrato Gerado
+        </h2>
+        <span class="text-xs bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-full font-bold">PDF Baixado com Sucesso!</span>
+      </div>
+      <div id="preview-conteudo" class="bg-slate-50 p-6 rounded-xl border border-slate-200 text-xs text-slate-700 font-mono whitespace-pre-wrap leading-relaxed max-h-96 overflow-y-auto"></div>
+    </div>
+
+    <div class="ad-placeholder rounded-xl p-6 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+    <!-- Explicação e Dicas Jurídicas -->
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-4">
+      <h2 class="text-xl font-black text-slate-900">Perguntas Frequentes sobre Contrato Simples</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-600">
+        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+          <h3 class="font-bold text-slate-800 mb-1">Este contrato simples tem validade jurídica?</h3>
+          <p>Sim! No Brasil, o Código Civil reconhece contratos particulares assinados pelas partes. Para conferir força executiva extra, basta colher a assinatura de 2 testemunhas.</p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-xl border border-slate-200">
+          <h3 class="font-bold text-slate-800 mb-1">Precisa reconhecer firma em cartório?</h3>
+          <p>Não é obrigatório para ter validade, mas confere maior segurança caso haja contestação futura da autenticidade da assinatura de alguma das partes.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 text-center text-xs text-slate-400">
+      <p>© 2026 InfoCidadão - Documentos e Utilidades Públicas Gratuitas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function preencherExemploContrato() {
+      document.getElementById('contratante-nome').value = 'Tech Soluções Digitais Ltda';
+      document.getElementById('contratante-doc').value = '12.345.678/0001-90';
+      document.getElementById('contratante-end').value = 'Av. Paulista, 1000, Bela Vista, São Paulo - SP';
+      
+      document.getElementById('contratado-nome').value = 'Carlos Eduardo Ferreira da Silva';
+      document.getElementById('contratado-doc').value = '123.456.789-00';
+      document.getElementById('contratado-end').value = 'Rua das Flores, 250, Apto 12, São Paulo - SP';
+
+      document.getElementById('objeto-servico').value = 'Criação de identidade visual, logotipo profissional e manual de marca em arquivos vetoriais para divulgação corporativa.';
+      document.getElementById('valor-total').value = '1.800,00';
+      document.getElementById('forma-pagamento').value = '50% (R$ 900,00) no início do projeto e 50% (R$ 900,00) na entrega final dos arquivos.';
+      document.getElementById('prazo-servico').value = '15 (quinze) dias úteis a contar da data de assinatura deste contrato.';
+      document.getElementById('cidade-uf').value = 'São Paulo - SP';
+    }
+
+    function gerarContratoPDF(e) {
+      e.preventDefault();
+
+      const cNome = document.getElementById('contratante-nome').value.trim();
+      const cDoc = document.getElementById('contratante-doc').value.trim();
+      const cEnd = document.getElementById('contratante-end').value.trim();
+
+      const pNome = document.getElementById('contratado-nome').value.trim();
+      const pDoc = document.getElementById('contratado-doc').value.trim();
+      const pEnd = document.getElementById('contratado-end').value.trim();
+
+      const objeto = document.getElementById('objeto-servico').value.trim();
+      const valor = document.getElementById('valor-total').value.trim();
+      const formaPag = document.getElementById('forma-pagamento').value.trim();
+      const prazo = document.getElementById('prazo-servico').value.trim();
+      const cidadeUf = document.getElementById('cidade-uf').value.trim();
+
+      const hoje = new Date();
+      const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+      const dataExtenso = `${hoje.getDate()} de ${meses[hoje.getMonth()]} de ${hoje.getFullYear()}`;
+
+      const textoContrato = `CONTRATO DE PRESTAÇÃO DE SERVIÇOS
+
+IDENTIFICAÇÃO DAS PARTES:
+
+CONTRATANTE: ${cNome}, inscrito(a) sob o CPF/CNPJ nº ${cDoc}, residente/sediado(a) em ${cEnd}.
+
+CONTRATADO: ${pNome}, inscrito(a) sob o CPF/CNPJ nº ${pDoc}, residente/sediado(a) em ${pEnd}.
+
+As partes acima qualificadas têm, entre si, justo e acertado o presente Contrato de Prestação de Serviços, mediante as seguintes cláusulas:
+
+CLÁUSULA PRIMEIRA - DO OBJETO
+O CONTRATADO se compromete a prestar para o CONTRATANTE os serviços consistentes em:
+${objeto}
+
+CLÁUSULA SEGUNDA - DO PREÇO E DAS CONDIÇÕES DE PAGAMENTO
+Pelos serviços prestados, o CONTRATANTE pagará ao CONTRATADO o valor total de R$ ${valor}.
+Forma e condições de pagamento: ${formaPag}.
+
+CLÁUSULA TERCEIRA - DO PRAZO
+O prazo estipulado para a entrega e execução dos serviços contratados será de: ${prazo}.
+
+CLÁUSULA QUARTA - DAS OBRIGAÇÕES GERAIS
+O CONTRATADO obriga-se a executar os serviços com diligência e perícia técnica. O CONTRATANTE compromete-se a fornecer todas as informações e meios necessários para a execução dos trabalhos.
+
+CLÁUSULA QUINTA - DO FORO
+Para dirimir quaisquer controvérsias oriundas do presente instrumento, as partes elegem o foro da Comarca de ${cidadeUf}.
+
+E, por estarem assim justos e contratados, assinam o presente instrumento em 2 (duas) vias de igual teor.
+
+${cidadeUf}, ${dataExtenso}.
+
+
+_________________________________________
+CONTRATANTE: ${cNome}
+
+
+_________________________________________
+CONTRATADO: ${pNome}
+
+
+TESTEMUNHAS:
+
+1. ___________________________ CPF: ____________________
+
+2. ___________________________ CPF: ____________________`;
+
+      // Atualiza prévia
+      document.getElementById('preview-conteudo').innerText = textoContrato;
+      document.getElementById('preview-box').classList.remove('hidden');
+
+      // Gera PDF com jsPDF
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF({
+        orientation: 'p',
+        unit: 'mm',
+        format: 'a4'
+      });
+
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(14);
+      doc.text("CONTRATO DE PRESTAÇÃO DE SERVIÇOS", 105, 20, { align: "center" });
+
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(9.5);
+
+      const splitText = doc.splitTextToSize(textoContrato, 170);
+      doc.text(splitText, 20, 32);
+
+      doc.save(`Contrato_Prestacao_Servicos_${hoje.getFullYear()}_${hoje.getMonth()+1}.pdf`);
+    }
+  </script>
+</body>
+</html>

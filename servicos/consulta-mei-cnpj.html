@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de CNPJ e Situação Cadastral MEI - InfoCidadão</title>
+  <meta name="description" content="Verifique gratuitamente se um MEI ou CNPJ está ATIVO na Receita Federal. Veja razão social, CNAE, data de abertura e opção pelo Simples Nacional.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO COM LINK PARA VOLTAR -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">
+          IC
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-blue-600">Cidadão</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-blue-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- BANNER TOPO ADSENSE -->
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo]</span>
+    </div>
+  </div>
+
+  <!-- CONTEÚDO PRINCIPAL DO SERVIÇO -->
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- CARD DA FERRAMENTA -->
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200 mb-2">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+          Base Oficial da Receita Federal em Tempo Real
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Consulta de CNPJ & Situação MEI Ativo</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Informe o número do CNPJ para checar a regularidade cadastral, razão social, CNAE e se a empresa é optante pelo regime do MEI ou Simples Nacional.
+        </p>
+      </div>
+
+      <form id="form-cnpj" onsubmit="consultarCNPJ(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Número do CNPJ (14 dígitos)</label>
+          <div class="relative">
+            <input 
+              type="text" 
+              id="input-cnpj" 
+              placeholder="00.000.000/0001-91" 
+              maxlength="18"
+              class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
+              required
+            >
+            <button 
+              type="submit" 
+              id="btn-search-cnpj"
+              class="absolute right-1.5 top-1.5 bottom-1.5 bg-blue-600 hover:bg-blue-700 text-white px-5 rounded-lg font-bold text-sm transition-colors flex items-center space-x-1.5 shadow"
+            >
+              <i data-lucide="search" class="w-4 h-4"></i>
+              <span>Consultar</span>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Loading -->
+      <div id="loading-cnpj" class="hidden text-center py-8">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-blue-600 border-r-transparent"></div>
+        <p class="text-xs text-slate-500 mt-2 font-medium">Consultando servidores da Receita Federal...</p>
+      </div>
+
+      <!-- Erro -->
+      <div id="error-cnpj" class="hidden mt-4 p-4 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-medium"></div>
+
+      <!-- Resultado -->
+      <div id="result-cnpj" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-4">
+        <div class="p-4 rounded-xl flex items-center justify-between" id="cnpj-status-box">
+          <div>
+            <span class="text-xs uppercase font-bold text-slate-500 block">Situação Cadastral</span>
+            <span id="res-situacao" class="text-xl font-black"></span>
+          </div>
+          <div id="res-mei-badge" class="px-3.5 py-1.5 rounded-full text-xs font-black uppercase"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+            <span class="text-xs text-slate-500 font-medium block">Razão Social</span>
+            <span id="res-razao" class="font-bold text-slate-900"></span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+            <span class="text-xs text-slate-500 font-medium block">Nome Fantasia</span>
+            <span id="res-fantasia" class="font-bold text-slate-900"></span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+            <span class="text-xs text-slate-500 font-medium block">Data de Abertura</span>
+            <span id="res-data-abertura" class="font-bold text-slate-900"></span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+            <span class="text-xs text-slate-500 font-medium block">Porte da Empresa</span>
+            <span id="res-porte" class="font-bold text-slate-900"></span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100 md:col-span-2">
+            <span class="text-xs text-slate-500 font-medium block">Atividade Principal (CNAE)</span>
+            <span id="res-cnae" class="font-bold text-slate-900"></span>
+          </div>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100 md:col-span-2">
+            <span class="text-xs text-slate-500 font-medium block">Município / Estado</span>
+            <span id="res-local" class="font-bold text-slate-900"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADSENSE PÓS CONSULTA (ALTO RPM) -->
+    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Contextual (Bancos PJ, Contabilidade)]</span>
+    </div>
+
+    <!-- CONTEÚDO EDUCATIVO / GUIA SEO -->
+    <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
+      <h2 class="text-lg font-bold text-slate-900">Como saber se um MEI está realmente ativo?</h2>
+      <p>
+        Para verificar se um Microempreendedor Individual (MEI) está ativo, é necessário consultar a situação cadastral do CNPJ na base pública da Receita Federal. Um MEI com situação <strong>"ATIVA"</strong> pode emitir notas fiscais, abrir conta bancária jurídica e operar normalmente no mercado.
+      </p>
+      <h3 class="text-base font-bold text-slate-900 pt-2">O que significa MEI Suspenso ou Baixado?</h3>
+      <p>
+        Caso a consulta retorne <strong>"SUSPENSA"</strong> ou <strong>"BAIXADA"</strong>, significa que a empresa não cumpriu obrigações anuais (como a DASN-SIMEI) ou solicitou o encerramento das atividades.
+      </p>
+    </article>
+
+    <!-- LINKS PARA PÁGINAS VARIANTES DE SEO -->
+    <section class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Páginas Relacionadas e Variações de Busca:</h3>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <a href="consulta-mei-gratis.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-blue-600 hover:border-blue-400">Consulta MEI Grátis Online</a>
+        <a href="como-saber-se-cnpj-ta-ativo.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-blue-600 hover:border-blue-400">Como Saber se o CNPJ está Ativo</a>
+        <a href="verificar-situacao-cadastral-empresa.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-blue-600 hover:border-blue-400">Situação Cadastral de Empresas</a>
+        <a href="comprovante-cnpj-receita.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-blue-600 hover:border-blue-400">Comprovante de CNPJ Receita Federal</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
+    <p>InfoCidadão Brasil © 2026 - Consulta pública gratuita baseada na Lei de Acesso à Informação.</p>
+  </footer>
+
+  <script src="../app.js"></script>
+</body>
+</html>

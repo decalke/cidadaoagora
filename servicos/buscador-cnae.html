@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de CNAE & Alíquotas Simples Nacional - InfoCidadão</title>
+  <meta name="description" content="Consulte a tabela oficial de CNAEs do IBGE. Saiba se sua atividade é permitida no MEI, qual o Anexo do Simples Nacional e alíquotas iniciais.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-sky-600 flex items-center justify-center text-white font-extrabold text-lg">
+          IC
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Info<span class="text-sky-600">Cidadão</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-sky-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
+      <div class="mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-sky-50 text-sky-700 border border-sky-200 mb-2">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          Base Oficial CONCLA / IBGE & Receita Federal
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Buscador de CNAE & Enquadramento Simples / MEI</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Digite a sua profissão ou código CNAE para saber se pode abrir MEI, qual o anexo do Simples Nacional e a alíquota inicial estimada para emissão de notas fiscais.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Digite uma profissão ou código (ex: cabeleireiro, programador, eletricista, 6201)</label>
+          <div class="relative">
+            <input 
+              type="text" 
+              id="input-cnae" 
+              oninput="filtrarCNAE()"
+              placeholder="Ex: pedreiro, marketing, alimentação, suporte..." 
+              class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-sky-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
+            >
+            <div class="absolute right-4 top-3.5 text-slate-400">
+              <i data-lucide="search" class="w-5 h-5"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lista Dinâmica de CNAEs -->
+        <div id="cnae-results-list" class="space-y-3 mt-4">
+          <!-- Gerado via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER CONTEXTUAL DE CONTABILIDADE / CERTIFICADO DIGITAL -->
+    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 (Softwares Financeiros, Contabilidade Digital)]</span>
+    </div>
+
+    <!-- ARTIGO EDUCATIVO SEO -->
+    <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
+      <h2 class="text-lg font-bold text-slate-900">Como escolher o código CNAE correto para sua empresa?</h2>
+      <p>
+        O <strong>CNAE (Classificação Nacional de Atividades Econômicas)</strong> é o código que determina as atividades que sua empresa está autorizada a exercer no Brasil. Escolher o código certo é fundamental para evitar pagar impostos a mais e para garantir que você não seja autuado pela Receita Federal.
+      </p>
+      <h3 class="text-base font-bold text-slate-900 pt-2">O que é o Fator R no Simples Nacional?</h3>
+      <p>
+        Muitas atividades intelectuais e de serviços (como desenvolvimento de software, consultoria e arquitetura) podem ser enquadradas tanto no <strong>Anexo V (alíquota de 15,5%)</strong> quanto no <strong>Anexo III (alíquota inicial reduzida de 6%)</strong>, dependendo de quanto a empresa gasta com folha de pagamento e pró-labore em relação ao faturamento bruto.
+      </p>
+    </article>
+
+    <section class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Páginas Relacionadas e Variações de Busca:</h3>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <a href="tabela-cnae-mei-permitidas.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-sky-600 hover:border-sky-400">Tabela de CNAEs Permitidos no MEI</a>
+        <a href="aliquotas-simples-nacional-anexo-3.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-sky-600 hover:border-sky-400">Alíquotas do Simples Nacional</a>
+        <a href="cnae-para-programador-ti.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-sky-600 hover:border-sky-400">Qual o CNAE de Programador e T.I.</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
+    <p>InfoCidadão Brasil © 2026 - Classificação oficial Concla/IBGE.</p>
+  </footer>
+
+  <script src="../app.js"></script>
+</body>
+</html>

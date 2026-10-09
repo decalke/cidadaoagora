@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InfoCidadão - Portal de Serviços, Consultas Públicas, Notícias & Finanças</title>
+  <meta name="description" content="Central de utilidade pública do cidadão brasileiro: consultas de CNPJ e MEI, CPF, tabela CNAE, cálculos trabalhistas CLT, consulta veicular FIPE, notícias e atualidades.">
+  <meta name="keywords" content="infocidadao, consulta mei, consultar cnpj, validador cpf, tabela cnae, rescisao clt, consulta fipe placa, noticias brasil">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- BARRA DE AVISO SUPERIOR -->
+  <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Portal Independente de Dados Públicos e Informações ao Cidadão</span>
+      </div>
+      <div class="flex items-center space-x-4 text-[11px] text-slate-400">
+        <a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a>
+        <span>•</span>
+        <a href="conteudo/politica.html" class="hover:text-white transition-colors">Política</a>
+        <span>•</span>
+        <a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Ofertas & Cupons</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CABEÇALHO PRINCIPAL -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-extrabold text-xl shadow-md">
+          IC
+        </div>
+        <div>
+          <span class="text-xl font-black tracking-tight text-slate-900">Info<span class="text-blue-600">Cidadão</span></span>
+          <span class="text-[11px] block text-slate-500 font-medium -mt-0.5">Central de Consultas & Utilidades</span>
+        </div>
+      </a>
+
+      <!-- Menu Principal de Navegação -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600">
+        <a href="#servicos" class="hover:text-blue-600 transition-colors">Ferramentas</a>
+        <a href="conteudo/atualidades.html" class="hover:text-blue-600 transition-colors">Atualidades</a>
+        <a href="conteudo/politica.html" class="hover:text-blue-600 transition-colors">Política</a>
+        <a href="noticias/index.html" class="hover:text-blue-600 transition-colors">Notícias</a>
+        <a href="conteudo/promocoes.html" class="text-amber-600 hover:text-amber-700 flex items-center gap-1 font-bold">
+          <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+          Promoções
+        </a>
+      </nav>
+
+      <div class="flex items-center space-x-2">
+        <a href="#servicos" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors shadow-sm flex items-center gap-1.5">
+          <i data-lucide="search" class="w-3.5 h-3.5"></i>
+          <span>Acessar Serviços</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER ADSENSE TOPO (ALTA VISIBILIDADE) -->
+  <div class="max-w-7xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 / Responsivo Topo]</span>
+    </div>
+  </div>
+
+  <!-- HERO SECTION / DESTAQUE -->
+  <section class="max-w-7xl mx-auto w-full px-4 pt-8 pb-4">
+    <div class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 rounded-2xl p-6 sm:p-10 text-white shadow-lg relative overflow-hidden">
+      <div class="relative z-10 max-w-2xl">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-blue-500/30 text-blue-200 border border-blue-400/30 mb-3">
+          100% Gratuito & Base Oficial Aberta
+        </span>
+        <h1 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
+          Todas as consultas e cálculos essenciais em um só lugar.
+        </h1>
+        <p class="text-slate-200 text-sm sm:text-base mt-3 leading-relaxed">
+          Verifique a situação cadastral do MEI e CNPJ, valide números de CPF, descubra a tributação de CNAEs, calcule valores exatos de rescisão CLT e consulte dados veiculares com cotação na Tabela FIPE.
+        </p>
+        <div class="flex flex-wrap gap-3 mt-6">
+          <a href="servicos/consulta-mei-cnpj.html" class="bg-white text-blue-900 hover:bg-blue-50 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-lg transition-colors shadow">
+            Consultar MEI & CNPJ
+          </a>
+          <a href="servicos/consulta-veicular-fipe.html" class="bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs sm:text-sm font-bold px-5 py-2.5 rounded-lg transition-colors shadow">
+            Consulta de Placa & FIPE
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE SERVIÇOS EM CAIXINHAS (GRID PRINCIPAL) -->
+  <section id="servicos" class="max-w-7xl mx-auto w-full px-4 py-8">
+    <div class="flex items-center justify-between mb-6 border-b border-slate-200 pb-4">
+      <div>
+        <h2 class="text-2xl font-black text-slate-900">Serviços e Utilitários Públicos</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Selecione uma ferramenta abaixo para acessar a página individual completa:</p>
+      </div>
+      <span class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
+        12 Ferramentas & Documentos
+      </span>
+    </div>
+
+    <!-- GRID DE CAIXAS DE SERVIÇOS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- CAIXA 1: CONSULTA CNPJ & MEI -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="building-2" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-blue-600 block mb-1">Receita Federal Oficial</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+            Consulta de CNPJ & Situação MEI Ativo
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Consulte instantaneamente a situação cadastral de qualquer empresa ou Microempreendedor Individual (MEI). Saiba se está Ativo, Razão Social, CNAE principal e data de abertura.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Situação Cadastral</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Optante MEI</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Simples Nacional</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/consulta-mei-cnpj.html" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Consulta MEI & CNPJ</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 2: VALIDADOR DE CPF & REGIÃO -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="user-check" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 block mb-1">Segurança & Verificação</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
+            Validador de CPF & Região Fiscal
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Verifique a autenticidade dos dígitos verificadores do CPF através do algoritmo matemático da Receita Federal e descubra a região fiscal de emissão do documento.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Dígitos Verificadores</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Estado de Emissão</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Certidão Oficial</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/validador-cpf.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Validador de CPF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 3: BUSCADOR DE CNAE & SIMPLES NACIONAL -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="calculator" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">Classificação IBGE / CONCLA</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
+            Buscador de CNAE & Alíquotas Simples
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Pesquise códigos CNAE por profissão para verificar se é permitido no MEI, qual o anexo correspondente do Simples Nacional e a alíquota inicial estimada para tributação.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Tabela CNAE</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Anexos I a V</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Fator R</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/buscador-cnae.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Buscador de CNAE</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 4: CALCULADORAS TRABALHISTAS CLT -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="dollar-sign" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Direitos do Trabalhador</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+            Calculadora de Rescisão & Salário Líquido
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Simulador completo de rescisão de contrato de trabalho (com ou sem justa causa, aviso prévio, férias e 13º) e cálculo de salário líquido com descontos de INSS e IRRF.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Rescisão CLT</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Desconto INSS</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Tabela IRRF</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/calculadora-rescisao-clt.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Calculadora CLT</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 5: CONSULTA VEICULAR & TABELA FIPE -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="car" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700 block mb-1">Veículos & Preço Médio</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
+            Consulta Veicular & Tabela FIPE
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Decodificador de placas Mercosul e antigas, identificação do estado de emplacamento pelo Senatran, logotipos de marcas oficiais e cotação de mercado na Tabela FIPE.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Placa Mercosul</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Preço FIPE</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Detran Estadual</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/consulta-veicular-fipe.html" class="w-full bg-amber-600 hover:bg-amber-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Consulta de Veículos</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 6: GERADOR DE RECIBO DE PAGAMENTO EM PDF -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="receipt" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Documento & PDF</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
+            Recibo de Pagamento & Autônomo
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Gerador gratuito de recibo de prestação de serviços, autônomos ou aluguel. Preencha os valores e dados das partes e baixe o PDF pronto para imprimir.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Download em PDF</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Recibo Simples</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Autônomo RPA</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-recibo-pagamento.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Gerar Recibo em PDF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 7: NOTA PROMISSÓRIA SIMPLES -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-rose-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="file-text" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-rose-600 block mb-1">Título de Crédito</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-rose-600 transition-colors">
+            Nota Promissória Simples
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Emita notas promissórias com valor por extenso automático, vencimento, CPF/CNPJ de emitente e credor. Válido juridicamente em PDF padrão bancário.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Decreto 2.044</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Automático</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Reconhecimento</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-nota-promissoria.html" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Gerar Nota Promissória</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 8: DECLARAÇÃO DE RESIDÊNCIA -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-cyan-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="home" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-cyan-600 block mb-1">Comprovante Legal</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-cyan-600 transition-colors">
+            Declaração de Residência
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Modelo oficial com base na Lei Federal 7.115/83 para quem não possui contas ou comprovantes de água e luz no próprio nome. Gere o PDF instantâneo.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Lei 7.115/83</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Sem Custo</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Imprimir / PDF</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-declaracao-residencia.html" class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Gerar Declaração em PDF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 9: CONTRATO SIMPLES DE PRESTAÇÃO DE SERVIÇOS -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="file-check" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 block mb-1">Contrato & Segurança</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
+            Gerador de Contrato Simples
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Elabore um contrato de prestação de serviços completo com cláusulas de preço, prazos, obrigações e foro entre autônomos, MEIs e contratantes.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Contrato MEI</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cláusulas Prontas</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Jurídico</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-contrato-simples.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Criar Contrato em PDF</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 10: FORMATADOR DE TEXTO & VALIDADOR DE CPF -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-teal-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="type" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-teal-600 block mb-1">Produtividade & Documentos</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors">
+            Formatador de Texto & Validador de CPF
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Converta textos para maiúsculas, minúsculas, conte caracteres e linhas, e valide ou formate números de CPF com checagem algorítmica em tempo real.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Validação de CPF</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Maiúsculas/Minúsculas</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Contador</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/formatador-texto.html" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Formatador</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 11: CONVERSOR DE FORMATOS (PNG PARA JPG / PDF) -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-orange-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="refresh-cw" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-orange-600 block mb-1">Arquivos & Imagens</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-orange-600 transition-colors">
+            Conversor de Imagens & Arquivos
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Converta imagens de PNG para JPG ou JPG para PNG direto no seu computador/celular sem enviar para a internet, com dicas de conversão de PDF para Word.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PNG para JPG</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">100% no Navegador</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF para Word</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/conversor-formatos.html" class="w-full bg-orange-600 hover:bg-orange-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Acessar Conversor</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 12: GERADOR DE LINK WHATSAPP FORMATADO -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-green-300 transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-green-100 text-green-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="message-circle" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-green-600 block mb-1">Comunicação Rápida</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-green-600 transition-colors">
+            Gerador de Link de WhatsApp com Mensagem
+          </h3>
+          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+            Gere links diretos personalizados (wa.me) e QR Codes para seus clientes iniciarem uma conversa instantânea no WhatsApp já com mensagem pronta.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Link Curto</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">QR Code Grátis</span>
+            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Mensagem Pronta</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-100">
+          <a href="servicos/gerador-link-whatsapp.html" class="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Criar Link de WhatsApp</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- CAIXA 6: CANAL DE PROMOÇÕES & OFERTAS -->
+      <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border border-amber-200 p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+        <div>
+          <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+            <i data-lucide="badge-percent" class="w-6 h-6"></i>
+          </div>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block mb-1">Economia do Cidadão</span>
+          <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-800 transition-colors">
+            Promoções, Cupons & Descontos
+          </h3>
+          <p class="text-xs text-slate-700 mt-2 leading-relaxed">
+            Seleção diária das melhores ofertas, cupons de desconto para compras online, serviços contábeis, maquininhas de cartão e ferramentas com condições especiais.
+          </p>
+          <div class="mt-4 pt-3 border-t border-amber-200/60 flex flex-wrap gap-1.5 text-[11px]">
+            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Cupons Ativos</span>
+            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Bancos Digitais</span>
+            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Economia</span>
+          </div>
+        </div>
+        <div class="mt-6 pt-4 border-t border-amber-200/60">
+          <a href="conteudo/promocoes.html" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+            <span>Ver Todas as Promoções</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BANNER ADSENSE MEIO (RETÂNGULO LARGO) -->
+  <div class="max-w-7xl mx-auto w-full px-4 my-2">
+    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 970x250 ou 728x90 Intermediário]</span>
+    </div>
+  </div>
+
+  <!-- SEÇÃO DE CONTEÚDO EDITORIAL: NOTÍCIAS, POLÍTICA & ATUALIDADES -->
+  <section class="max-w-7xl mx-auto w-full px-4 py-8">
+    <div class="flex items-center justify-between mb-6 border-b border-slate-200 pb-4">
+      <div>
+        <h2 class="text-2xl font-black text-slate-900">Informação & Conteúdo Cidadão</h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Fique por dentro das principais decisões, leis e novidades do Brasil:</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- CARD: NOTÍCIAS -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs font-bold text-blue-600 mb-2">
+            <span>PLANTÃO DE NOTÍCIAS</span>
+            <span class="text-slate-400 font-normal">Atualizado hoje</span>
+          </div>
+          <h3 class="text-base font-bold text-slate-900 leading-snug">
+            <a href="noticias/index.html" class="hover:text-blue-600 transition-colors">
+              Receita Federal atualiza regras de declaração e novas facilidades para o MEI
+            </a>
+          </h3>
+          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
+            Confira as principais mudanças tributárias, novos prazos de entrega do DASN-SIMEI e regras que impactam diretamente os pequenos negócios.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-100">
+          <a href="noticias/index.html" class="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1">
+            <span>Acessar Notícias</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- CARD: POLÍTICA -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs font-bold text-rose-600 mb-2">
+            <span>POLÍTICA NACIONAL</span>
+            <span class="text-slate-400 font-normal">Brasília</span>
+          </div>
+          <h3 class="text-base font-bold text-slate-900 leading-snug">
+            <a href="conteudo/politica.html" class="hover:text-rose-600 transition-colors">
+              Projetos de Lei no Congresso debatem retorno das cidades nas placas Mercosul
+            </a>
+          </h3>
+          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
+            Entenda como tramita o Projeto de Lei que pretende incluir o brasão do município e estado nas placas veiculares de identificação.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-100">
+          <a href="conteudo/politica.html" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1">
+            <span>Acessar Política</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- CARD: ATUALIDADES -->
+      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-600 mb-2">
+            <span>ATUALIDADES & ECONOMIA</span>
+            <span class="text-slate-400 font-normal">Finanças</span>
+          </div>
+          <h3 class="text-base font-bold text-slate-900 leading-snug">
+            <a href="conteudo/atualidades.html" class="hover:text-emerald-600 transition-colors">
+              Como a tabela do IR e do INSS afetam o seu salário líquido no bolso
+            </a>
+          </h3>
+          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
+            Guia prático para entender as faixas progressivas de desconto salarial e como planejar sua rescisão trabalhista com segurança.
+          </p>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-100">
+          <a href="conteudo/atualidades.html" class="text-xs font-bold text-emerald-600 hover:text-emerald-700 flex items-center gap-1">
+            <span>Acessar Atualidades</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- RODAPÉ COMPLETO COM LINKS SEO -->
+  <footer class="bg-slate-900 text-slate-400 text-xs mt-16 pt-12 pb-8 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
+      <div class="space-y-3">
+        <div class="flex items-center space-x-2">
+          <div class="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-sm">
+            IC
+          </div>
+          <span class="text-base font-black text-white">InfoCidadão</span>
+        </div>
+        <p class="text-slate-400 leading-relaxed text-[11px]">
+          Portal independente de utilidade pública com ferramentas de consulta gratuitas, dados abertos e conteúdo de interesse geral.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-sm mb-3">Serviços & Consultas</h4>
+        <ul class="space-y-2 text-[11px]">
+          <li><a href="servicos/consulta-mei-cnpj.html" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
+          <li><a href="servicos/validador-cpf.html" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
+          <li><a href="servicos/buscador-cnae.html" class="hover:text-white transition-colors">Tabela CNAE & Simples Nacional</a></li>
+          <li><a href="servicos/calculadora-rescisao-clt.html" class="hover:text-white transition-colors">Simulador de Rescisão Trabalhista</a></li>
+          <li><a href="servicos/consulta-veicular-fipe.html" class="hover:text-white transition-colors">Consulta de Placa & Tabela FIPE</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-sm mb-3">Conteúdo Editorial</h4>
+        <ul class="space-y-2 text-[11px]">
+          <li><a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
+          <li><a href="conteudo/politica.html" class="hover:text-white transition-colors">Política & Congresso</a></li>
+          <li><a href="conteudo/atualidades.html" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
+          <li><a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Promoções & Cupons</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-sm mb-3">Informações Legais</h4>
+        <p class="text-[11px] leading-relaxed text-slate-500 mb-2">
+          Não possuímos vínculo governamental com órgãos públicos. As consultas utilizam a base da Lei de Acesso à Informação e dados abertos.
+        </p>
+        <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
+          © 2026 InfoCidadão Brasil
+        </span>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 pt-6 text-center text-[11px] text-slate-500">
+      Desenvolvido com foco em velocidade, transparência pública e segurança de dados do usuário.
+    </div>
+  </footer>
+
+  <script>
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
