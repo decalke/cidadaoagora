@@ -107,14 +107,27 @@
         <h1 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
           Todas as consultas e cálculos essenciais em um só lugar.
         </h1>
-        <p class="text-slate-200 text-sm sm:text-base mt-3 leading-relaxed">
-          Verifique a situação cadastral do MEI e CNPJ, valide números de CPF, descubra a tributação de CNAEs, calcule valores exatos de rescisão CLT e consulte dados veiculares com cotação na Tabela FIPE.
-        </p>
-        <div class="mt-6 flex flex-col sm:flex-row gap-2 max-w-xl">
-          <div class="relative flex-1">
-            <i data-lucide="search" class="w-5 h-5 absolute left-3.5 top-3.5 text-slate-400"></i>
-            <input type="text" id="campo-busca" placeholder="O que você precisa hoje? (Ex: recibo, mei, fipe, férias, cpf, contrato...)" class="w-full pl-11 pr-4 py-3 rounded-xl bg-white text-slate-900 placeholder-slate-400 font-medium text-xs sm:text-sm shadow-md focus:outline-none focus:ring-2 focus:ring-amber-400" oninput="filtrarServicos()">
-          </div>
+        <div class="mt-6 flex flex-wrap gap-2.5 sm:gap-3">
+          <a href="servicos/consulta-mei-cnpj.html" class="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-all shadow-md flex items-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="building-2" class="w-4 h-4"></i>
+            <span>Consultar MEI & CNPJ</span>
+          </a>
+          <a href="servicos/consulta-veicular-fipe.html" class="bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs sm:text-sm font-black px-4 py-2.5 rounded-xl transition-all shadow-md flex items-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="car" class="w-4 h-4"></i>
+            <span>Placa & Tabela FIPE</span>
+          </a>
+          <a href="servicos/gerador-recibo-pagamento.html" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-all shadow-md flex items-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="receipt" class="w-4 h-4"></i>
+            <span>Gerador de Recibo (PDF)</span>
+          </a>
+          <a href="servicos/calculadora-rescisao-clt.html" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-all shadow-md flex items-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="dollar-sign" class="w-4 h-4"></i>
+            <span>Rescisão & Salário CLT</span>
+          </a>
+          <a href="servicos/validador-cpf.html" class="bg-teal-600 hover:bg-teal-500 text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition-all shadow-md flex items-center gap-2 hover:scale-[1.02]">
+            <i data-lucide="user-check" class="w-4 h-4"></i>
+            <span>Validador de CPF</span>
+          </a>
         </div>
       </div>
     </div>
@@ -155,9 +168,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/consulta-mei-cnpj.html" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/consulta-mei-cnpj.html" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="building-2" class="w-4 h-4"></i>
             <span>Acessar Consulta MEI & CNPJ</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -182,9 +196,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/validador-cpf.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/validador-cpf.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="user-check" class="w-4 h-4"></i>
             <span>Acessar Validador de CPF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -209,9 +224,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/buscador-cnae.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/buscador-cnae.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="calculator" class="w-4 h-4"></i>
             <span>Acessar Buscador de CNAE</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -236,9 +252,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calculadora-rescisao-clt.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/calculadora-rescisao-clt.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="dollar-sign" class="w-4 h-4"></i>
             <span>Acessar Calculadora CLT</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -263,9 +280,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/consulta-veicular-fipe.html" class="w-full bg-amber-600 hover:bg-amber-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/consulta-veicular-fipe.html" class="w-full bg-amber-600 hover:bg-amber-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="car" class="w-4 h-4"></i>
             <span>Acessar Consulta de Veículos</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -290,9 +308,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-recibo-pagamento.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-recibo-pagamento.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="receipt" class="w-4 h-4"></i>
             <span>Gerar Recibo em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -317,9 +336,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-nota-promissoria.html" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-nota-promissoria.html" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
             <span>Gerar Nota Promissória</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -344,9 +364,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-declaracao-residencia.html" class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-declaracao-residencia.html" class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="home" class="w-4 h-4"></i>
             <span>Gerar Declaração em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -371,9 +392,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-contrato-simples.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-contrato-simples.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="file-check" class="w-4 h-4"></i>
             <span>Criar Contrato em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -398,9 +420,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/formatador-texto.html" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/formatador-texto.html" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="type" class="w-4 h-4"></i>
             <span>Acessar Formatador</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -425,9 +448,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/conversor-formatos.html" class="w-full bg-orange-600 hover:bg-orange-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/conversor-formatos.html" class="w-full bg-orange-600 hover:bg-orange-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="refresh-cw" class="w-4 h-4"></i>
             <span>Acessar Conversor</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -452,9 +476,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-link-whatsapp.html" class="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-link-whatsapp.html" class="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>Criar Link de WhatsApp</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -479,9 +504,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="w-full bg-violet-600 hover:bg-violet-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="w-full bg-violet-600 hover:bg-violet-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="scale" class="w-4 h-4"></i>
             <span>Gerar Declaração em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -506,9 +532,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-orcamento-simples.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/gerador-orcamento-simples.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="calculator" class="w-4 h-4"></i>
             <span>Criar Orçamento em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
@@ -533,9 +560,10 @@
           </div>
         </div>
         <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calculadora-ferias-decimo.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
+          <a href="servicos/calculadora-ferias-decimo.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <i data-lucide="badge-dollar-sign" class="w-4 h-4"></i>
             <span>Calcular Férias e 13º</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
           </a>
         </div>
       </div>
