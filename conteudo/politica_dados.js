@@ -1,7 +1,33 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "09/10/2026 às 18:44:39",
+  "ultima_atualizacao": "09/10/2026 às 22:32:58",
   "total": 30,
   "noticias": [
+    {
+      "titulo": "PF nega existência de depoimento de Vorcaro sobre Lula",
+      "resumo": "A Polícia Federal (PF) negou a existência de um depoimento no qual o ex-banqueiro Daniel Vorcaro teria dado dinheiro para financiar um documentário sobre o presidente Luiz Inácio Lula da Silva, candidato à reeleição. A informação do suposto...",
+      "conteudo_completo": "A Polícia Federal (PF) negou a existência de um depoimento no qual o ex-banqueiro Daniel Vorcaro teria dado dinheiro para financiar um documentário sobre o presidente Luiz Inácio Lula da Silva, candidato à reeleição. A informação do suposto depoimento foi dada pela revista Veja nesta sexta-feira (9).\n\n\n“A Polícia Federal esclarece, em relação à reportagem intitulada ‘Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo’, publicada pela revista Veja, nesta sexta-feira (9/10), que Daniel Vorcaro não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito”, afirmou a corporação, em nota.\n\n\nNotícias relacionadas:Dino determina fim do sigilo de investigações sobre o filme Dark Horse.Polícia Federal apreende R$ 2,8 milhões no primeiro turno das eleições.À Agência Brasil, o advogado do ex-banqueiro, Daniel Bialski, disse não ter conhecimento desse suposto financiamento. Ele esclareceu que não estava à frente da defesa de Vorcaro quando as propostas de colaboração foram apresentadas, mas garante não ter havido nenhum novo depoimento à PF ou qualquer outro órgão tratando do assunto.\n\nBialski afirmou não ter tido acesso a qualquer documento comprovando tal financiamento e ressaltou que seu cliente nunca falou com ele sobre isso.\n\nDiante da notícia da Veja, a Advocacia-Geral da União (AGU) pedirá à publicação o direito de resposta e a correção das informações divulgadas. A AGU entende que houve “divulgação de informações apontadas como inverídicas e gravemente ofensivas a autoridades federais”.\n\nNotícia falsa\n\nO grupo Prerrogativas, formado por juristas do campo progressista, pediu que a Polícia Federal realizasse uma perícia no áudio também divulgado pela Veja, a 16 dias do segundo turno das eleições presidenciais, no qual o ex-banqueiro implica Lula.\n\n“Há suspeitas de que a gravação tenha sido adulterada, mediante montagem de trechos ou uso de inteligência artificial, com a finalidade de interferir no segundo turno das eleições presidenciais”, afirmou o grupo, em nota.\n\nO Prerrogativas acrescenta que não existe informações sobre quando, onde e em quais circunstâncias o áudio teria sido gravado. Além disso, afirmou à PF ter recebido a informação de que o áudio não seria autêntico ou íntegro, “tendo sido produzido por montagem de trechos gravados em contextos diversos ou por síntese de voz, com a finalidade de interferir no processo eleitoral”.\n\nO grupo alerta ainda que, caso comprovada a fraude, os responsáveis poderão responder aos crimes de fraude processual e delitos eleitorais relacionados à divulgação de informações sabidamente falsas.\n\nDark Horse\n\nO rumor se assemelha ao episódio do dinheiro dado por Vorcaro ao senador e candidato à Presidência da República Flávio Bolsonaro para ajudar a financiar um filme sobre seu pai, ex-presidente Jair Bolsonaro. \n\nAo contrário do que consta na matéria da Veja, a ajuda de Vorcaro a Flávio foi comprovada em um áudio, revelado pelo site Intercept em maio deste ano.\n\nNo áudio, cuja veracidade foi confirmada por Flávio Bolsonaro, o próprio senador e candidato à presidência pede dinheiro para custear o filme.\n\nExpressando intimidade e amizade, Bolsonaro pede ajuda para evitar o calote nos atores do filme, inclusive o ator norte-americano Jim Caviezel, que interpreta o personagem principal, e no diretor Cyrus Nowrasteh.\n\n“É porque tá num momento muito decisivo aqui do filme e como tem muita parcela pra trás, cara, tá todo mundo tenso e fico preocupado aqui com o efeito ao contrário do que a gente sonhou pro filme, né? Imagina a gente dando calote num Jim Caviezel, num Cyrus, os caras renomadíssimos lá no cinema americano, mundial. Pô, ia ser muito ruim, né?”, disse o senador, ainda em setembro de 2025.\n\nSegundo a PF, Flávio pediu R$ 131 milhões a Vorcaro para a produção do filme Dark Horse, dos quais R$ 60 milhões teriam sido pagos.",
+      "imagem": "https://imagens.ebc.com.br/FH2NyJg3N_ltYkrSI20JVlRqdrU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/movimentacao-pf_mcamgo_abr_31082023-3.jpg?itok=5pzY7Mnj",
+      "slug": "pf-nega-existencia-de-depoimento-de-vorcaro-sobre-lula",
+      "pagina_local": "pf-nega-existencia-de-depoimento-de-vorcaro-sobre-lula.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pf-nega-existencia-de-depoimento-de-vorcaro-sobre-lula",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
+      "coletado_em": "09/10/2026 às 22:32"
+    },
+    {
+      "titulo": "Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas",
+      "resumo": "Ao lado do deputado estadual Douglas Ruas (PL-RJ), candidato a governador do Rio de Janeiro, o candidato à Presidência da República pelo PL, senador Flávio Bolsonaro, disse nesta sexta-feira (9) que ambos estão alinhados em “declarar guerra...",
+      "conteudo_completo": "Ao lado do deputado estadual Douglas Ruas (PL-RJ), candidato a governador do Rio de Janeiro, o candidato à Presidência da República pelo PL, senador Flávio Bolsonaro, disse nesta sexta-feira (9) que ambos estão alinhados em “declarar guerra” ao crime organizado.\n\n\"Aos narcoterroristas de Comando Vermelho, PCC e milícias que estão aqui no Rio, estão em São Paulo, estão em todo o Brasil”.\n\nO candidato conversou com jornalistas no intervalo de um evento de campanha, no qual reuniu apoiadores e políticos, na Ilha Itanhangá, um espaço de eventos na Barra da Tijuca, bairro nobre do Rio de Janeiro.\n\nNotícias relacionadas:Brasil não será governado por sócios do Banco Master, diz Lula .Ana Elisa desativa conta no X após sofrer ameaças de morte.Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV.Em 2003, Flávio, então deputado estadual, propôs uma moção de louvor ao miliciano Adriano da Nóbrega . Em 2005, Adriano também recebeu a Medalha Tiradentes, por iniciativa de Flávio.\n\nO parlamentar também chegou a ter empregadas, em seu gabinete, a mãe e a esposa de Adriano. Flávio é ainda acusado de destinar uma emenda parlamentar de quase R$ 200 mil para um projeto esportivo a pedido de Robson Calixto, conhecido como Peixe, miliciano condenado por envolvimento na morte da vereadora Marielle Franco.\n\nJá Douglas Ruas é filho de Capitão Nelson (PL), prefeito de São Gonçalo. Em 2008, no relatório final da CPI das Milícias da Alerj, o pai de Ruas foi citado como um dos líderes da milícia na região. Ele nega as acusações.\n\nProgramas sociais \n\nNo ato de hoje, Flávio Bolsonaro chamou de \"boatos\" a informação de que ele privatizaria a Petrobras.\n\nO candidato agradeceu o apoio firmado na véspera pelo candidato derrotado à Presidência Augusto Cury (Avante) e afirmou que “está conversando” com outros partidos. O candidato afirmou que vai manter os programas sociais e se disse alvo de campanhas de notícias falsas.\n\n“Há várias mentiras circulando. Uma delas é que eu acabaria com o Bolsa Família. Isso é mentira”, declarou.\n\nO senador tem sido alvo de críticas porque no Projeto de Lei Orçamentária Anual (PLOA) de 2023, enviado ao Congresso em 2022, o governo de Jair Bolsonaro propôs uma redução de 59% nos recursos do programa Farmácia Popular, diminuindo a verba de R$ 2,04 bilhões para cerca de R$ 804 milhões (um corte de aproximadamente R$ 1,2 bilhão)\n\nA coordenadora econômica da campanha de Flávio Bolsonaro, Daniella Marques, tem dito em entrevistas que reduzirá ministérios e fará cortes em gastos públicos.\n\nEm outubro, uma reportagem da Folha de S.Paulo informou que a equipe econômica de Flávio estudava medidas que poderiam economizar até R$ 250 bilhões, incluindo mudanças na correção de aposentadorias e do BPC e nos pisos de saúde e educação. A campanha nega que essas medidas sejam posições oficiais do candidato.",
+      "imagem": "https://imagens.ebc.com.br/s3GhbhPoFLwiNxZ27ghKfgLU-oQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/09/0g0a0171.jpg?itok=OYw3libj",
+      "slug": "flavio-bolsonaro-faz-ato-no-rio-ao-lado-de-douglas-ruas",
+      "pagina_local": "flavio-bolsonaro-faz-ato-no-rio-ao-lado-de-douglas-ruas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-faz-ato-no-rio-ao-lado-de-governador-eleito",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
+      "coletado_em": "09/10/2026 às 22:32"
+    },
     {
       "titulo": "Ana Elisa desativa conta no X após sofrer ameaças de morte",
       "resumo": "A deputada federal eleita por Minas Gerais Ana Elisa Santos Silva (PT), de 21 anos, desativou sua conta na rede social X após ter sofrido ameaças de morte e violência sexual no período da campanha. Ana Elisa que, já denunciou à Polícia Civi...",
@@ -13,7 +39,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula",
@@ -26,7 +52,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV",
@@ -39,7 +65,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (9)",
@@ -52,7 +78,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Paes desiste de candidatura no Rio, após Zanin negar recurso ao STF",
@@ -65,12 +91,12 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Conheça as propostas de Flávio e Lula para a segurança pública",
       "resumo": "Os dois candidatos à Presidência da República que disputarão o segundo turno da eleição deste ano dedicam parte considerável de seus planos de governo para apresentar propostas para a segurança pública. \n\nCom formas diferentes de atuação, t...",
-      "conteudo_completo": "Os dois candidatos à Presidência da República que disputarão o segundo turno da eleição deste ano dedicam parte considerável de seus planos de governo para apresentar propostas para a segurança pública. \n\nCom formas diferentes de atuação, temas como o combate ao crime organizado e à violência contra a mulher, ampliação da segurança nas fronteiras e fortalecimento do sistema prisional estão entre as iniciativas citadas nas propostas de governo. \n\nNotícias relacionadas:CCJ do Senado aprova texto-base da PEC da Segurança Pública.Sou da Paz lança agenda de segurança pública para eleições.Segurança pública: apenas 32% se sentem seguros na cidade onde vivem.Flávio, por exemplo, defende a classificação de facções como o Comando Vermelho e Primeiro Comando da Capital como organizações narcoterroristas. Medida que também é encampada pelo presidente dos Estados Unidos, Donald Trump.\n\nLula, por sua vez, defende que o crime organizado seja enfrentado com firmeza e por meio da asfixia financeira, dentro dos limites da Constituição e do Estado Democrático de Direito, e sem comprometer a soberania brasileira. \n\nVeja abaixo as principais propostas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) para a segurança pública. Os documentos das duas campanhas foram entregues à Justiça Eleitoral.\n\nCrime organizado\n\nUm dos assuntos abordados por ambos os candidatos é o combate a facções criminosas e ao crime organizado. Flávio propõe que facções como Comando Vermelho, Primeiro Comando da Capital e milícias sejam declaradas organizações narcoterroristas e sejam combatidas com força, inteligência e integração.\n\nA proposta do candidato do PL é prender lideranças criminosas, asfixiar os negócios ilícitos e desarticular redes de lavagem de dinheiro. Além disso, ele defende abater bandidos armados com fuzis.\n\nLula defende que o crime organizado seja enfrentado com firmeza, dentro dos limites da Constituição e do Estado Democrático de Direito.\n\nO candidato do PT propõe asfixiar financeiramente o crime organizado e enfrentar o tráfico de armas e munições. \n\nOutra iniciativa é a retomada de territórios controlados por grupos armados, com a priorização de investimentos na urbanização de favelas e periferias, requalificação de espaços públicos, ampliação do acesso a serviços essenciais para estimular atividades econômicas lícitas nessas áreas. O candidato também vai trabalhar para barrar candidaturas de pessoas ligadas ao crime organizado.\n\nLula cita ainda a Lei Antifacção, sancionada neste ano, com o objetivo de enfrentar as facções criminosas, e o fortalecimento do Programa Brasil Contra o Crime Organizado, também de 2026. \n\nIntegração com estados e municípios\n \n\n\n            \n        \n    \nOperação da Polícia Militar do Rio de Janeiro contra o Comando Vermelho. Foto: Fernando Frazão/Arquivo Agência Brasil\n\n\nLula defende a valorização dos profissionais de segurança pública para fortalecer a atuação policial, assegurar o uso legítimo da força e ampliar a confiança da população nas instituições. A proposta é construir, junto com os entes federados, programas no modelo de policiamento de proximidade e ampliar o programa de estímulos para uso de câmeras corporais, com padrões nacionais para utilização, gestão e preservação das imagens.\n\nO candidato propõe ainda a construção de um Sistema Nacional de Segurança Pública mais articulado, com mais coordenação entre os diferentes entes federativos para integração de dados, cooperação entre instituições, inteligência, prevenção, repressão qualificada e políticas baseadas em evidências. \n\nA aposta é na aprovação da Proposta de Emenda Constitucional (PEC) da Segurança Pública já enviada ao Congresso Nacional, com o objetivo de revisar as atribuições de cada ente federativo e ampliar o escopo de ação do Poder Executivo federal no enfrentamento à violência. Com a PEC aprovada, o candidato pretende criar o Ministério da Segurança Pública, a fim de fazer a articulação com estados e municípios.\n\nFlávio pretende criar um sistema nacional de reconhecimento facial, chamado de Muralha Brasileira, que será integrado a bancos de dados criminais, inspirado nas iniciativas Smart Sampa, da prefeitura de São Paulo, e no Muralha Paulista, do governo do estado de São Paulo.\n\nA previsão é instalar mais de 1 milhão de novas câmeras em áreas públicas, portos e aeroportos por todo o país. Com isso, o candidato espera localizar foragidos e prevenir crimes.\n\nOutra proposta é fazer consórcios e convênios com estados e municípios para investir em inteligência, retomada de territórios alinhada a políticas públicas estruturantes, tecnologia, armamentos de última geração e valorização do policial.\n\nSegurança nas fronteiras\n \n\n\n            \n        \n    \nSoldados participam de celebração do Dia do Exército. Foto: Marcelo Camargo/Arquivo Agência Brasil\n\n\nFlávio propõe a criação de um Sistema Nacional de Fronteira, uma força de elite composta por militares do Exército, da Marinha e da Aeronáutica, equipada com “armas de guerra”, inteligência e tecnologia. A ideia é interceptar fuzis e drogas nas fronteiras terrestres, portos e aeroportos.\n\nLula tem a proposta de fortalecer as ações de segurança na Amazônia Legal, em cooperação com os estados e municípios e com os países da Organização do Tratado de Cooperação Amazônia (OTCA), além de manter as Forças Armadas presentes nas fronteiras amazônicas, com patrulhamento aéreo e fluvial e inteligência policial.\n\nPolítica penal\n \n\n\n            \n        \n    \nPenitenciária federal de segurança máxima de Brasília. - Marcelo Camargo/Arquivo Agência Brasil\n\n\nO candidato do PT quer fortalecer o sistema prisional com a modernização, o aparelhamento e o fortalecimento de unidades prisionais estratégicas. O intuito é priorizar soluções tecnológicas para o controle do ambiente prisional, inclusive sistemas de bloqueio de sinais de radiocomunicação, monitoramento e detecção de comunicações ilícitas.\n\nA proposta também prevê a qualificação contínua dos profissionais do sistema penitenciário e o aperfeiçoamento de protocolos operacionais de segurança.\n\nTambém está prevista a ampliação da capacidade operacional do sistema penitenciário federal, com o isolamento de lideranças criminosas e a implantação de um protocolo nacional de transferência de presos de alta periculosidade.\n\nPor meio do Programa Brasil contra o Crime Organizado, o candidato quer criar ainda o Centro Nacional de Inteligência Penal, como instância estratégica de coordenação e célula permanente de intercâmbio de informações entre os órgãos de administração penitenciária da União, dos estados e do Distrito Federal.\n\nJá o candidato do PL defende apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir maiores de 14 anos que cometam crimes graves como estupro, tráfico, tortura e assassinato.\n\nAlém disso, Flávio pretende construir cinco novos presídios de segurança máxima no país, dobrando o número de penitenciárias federais. O candidato pretende batizar o complexo federal de Treva para, segundo ele, \"tirar o medo do cidadão e botar medo no bandido\". \n\nEle também prevê parcerias com governos estaduais para zerar o déficit carcerário, com a criação de 500 mil vagas em presídios nos estados.\n\nOutras propostas são tirar os recursos das famílias dos detentos e destinar para as famílias das vítimas, além de trabalhar para acabar com a progressão de regime para crimes hediondos.\n\nViolência doméstica e feminicídio\n \n\n\n            \n        \n    \nMulheres fazem passeata no Dia Internacional da Mulher, por direitos e contra a violência e o feminicídio, no centro do Rio de Janeiro. Foto: Fernando Frazão/Arquivo Agência Brasil\n\n\nFlávio tem como proposta monitorar agressores de mulheres, em casos de medidas protetivas, com tornozeleiras eletrônicas. Também propõe trabalhar para endurecer a lei, obrigando assassinos e agressores de mulheres a cumprir integralmente suas penas.\n\nOutra proposta é criar uma plataforma de inteligência artificial, a ClarIA, que oferecerá atendimento 24 horas para que as mulheres possam registrar ocorrências, pedir medidas protetivas, receber orientações e ter acolhimento. A ideia é implantar um sistema nacional de avaliação de risco para que cada denúncia receba atendimento proporcional ao nível de ameaça, priorizando casos mais graves. Há plano também para ampliar os espaços de acolhimento para mulheres em situação de violência.\n\nTambém aparece como proposta a modernização e integração dos canais de denúncia, reunindo o Ligue 180, as delegacias online, o botão de emergência e as centrais de monitoramento em uma plataforma inteligente de resposta rápida.\n\nLula prevê a ampliação da rede de proteção às mulheres, com a conclusão de 30 Casas da Mulher Brasileira e dos 15 Centros de Referência da Mulher Brasileira. \n\nPara acelerar a expedição de medidas protetivas de urgência, o plano é aumentar as políticas do Centro Integrado Mulher Segura, além de distribuir aos estados kits para monitorar agressores. Haverá ainda fomento à capacitação de forças de segurança para qualificar o atendimento às mulheres vítimas de violência. \n\nO candidato pretende combater o machismo, o sexismo e o feminicídio, além de garantir autonomia econômica a elas. \n\nEstão previstas ainda a ampliação das Salas Lilás, espaços reservados, humanizados e sigilosos criados em órgãos de segurança pública, justiça, hospitais e unidades do Sistema Único de Saúde (SUS) para o acolhimento especializado de mulheres e meninas em situação de violência. \n\nRecursos para segurança\n\nO plano de governo de Lula prevê a destinação de R$ 10 bilhões do Fundo Nacional de Investimento em Infraestrutura Social (FIIS) para estados e municípios realizarem investimentos em equipamentos e infraestrutura.\n\nEm sua proposta de governo, Flávio informa que pretende dobrar os investimentos federais em segurança pública ao longo do mandato, com o objetivo de facilitar o combate ao crime, mas não informa de onde sairão os recursos.\n\nRoubos e furtos de celular\n\nO candidato do PL propõe que a pena inicial para quem roubar, furtar ou revender aparelho celular fruto do crime seja quadruplicada, sem direito a benefícios, já que o telefone móvel não é apenas um equipamento, mas um repositório de dados pessoais, como fotos, documentos e acesso a bancos, além de ser uma ferramenta de trabalho. Além disso, segundo ele, muitos brasileiros perdem a vida nesses roubos.\n\nLula, por sua vez, tem como proposta a expansão do programa Celular Seguro, que permite o bloqueio rápido do equipamento; e a Base Nacional de Celulares com Restrição, que possibilita ao cidadão verificar, antes da compra, se o aparelho tem restrição. Ele também propõe intensificar o enfrentamento a redes de receptação.\n\nOutras propostas\n\nLula também tem como propostas a manutenção de uma política de controle de armas e munições e o aprimoramento dos mecanismos de rastreabilidade desses produtos. Outra iniciativa é reforçar a prevenção e repressão qualificada a crimes financeiros e cibernéticos, com prioridade para o combate à exploração sexual de crianças e adolescentes, à violência contra mulheres e população LGBTQIAP+, ao racismo, aos crimes de ódio e às fraudes bancárias eletrônicas.\n\nFlávio apresenta a proposta de trabalhar, junto ao Congresso, para aprovar e implementar a castração química de pessoas que abusam de mulheres e crianças. Medida a ser aplicada a condenados por crime sexual, ela funcionaria através da inibição da produção de testosterona e tem funcionamento temporário, enquanto o infrator for submetido à administração do fármaco.",
+      "conteudo_completo": "Os dois candidatos à Presidência da República que disputarão o segundo turno da eleição deste ano dedicam parte considerável de seus planos de governo para apresentar propostas para a segurança pública. \n\nCom formas diferentes de atuação, temas como o combate ao crime organizado e à violência contra a mulher, ampliação da segurança nas fronteiras e fortalecimento do sistema prisional estão entre as iniciativas citadas nas propostas de governo. \n\nNotícias relacionadas:CCJ do Senado aprova texto-base da PEC da Segurança Pública.Sou da Paz lança agenda de segurança pública para eleições.Segurança pública: apenas 32% se sentem seguros na cidade onde vivem.Flávio, por exemplo, defende a classificação de facções como o Comando Vermelho e Primeiro Comando da Capital como organizações narcoterroristas. Medida que também é encampada pelo presidente dos Estados Unidos, Donald Trump.\n\nLula, por sua vez, defende que o crime organizado seja enfrentado com firmeza e por meio da asfixia financeira, dentro dos limites da Constituição e do Estado Democrático de Direito, e sem comprometer a soberania brasileira. \n\nVeja abaixo as principais propostas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) para a segurança pública. Os documentos das duas campanhas foram entregues à Justiça Eleitoral.\n\nCrime organizado\n\nUm dos assuntos abordados por ambos os candidatos é o combate a facções criminosas e ao crime organizado. Flávio propõe que facções como Comando Vermelho, Primeiro Comando da Capital e milícias sejam declaradas organizações narcoterroristas e sejam combatidas com força, inteligência e integração.\n\nA proposta do candidato do PL é prender lideranças criminosas, asfixiar os negócios ilícitos e desarticular redes de lavagem de dinheiro. Além disso, ele defende abater bandidos armados com fuzis.\n\nDurante a campanha, entretanto, Flávio Bolsonaro tem sido acusado de ligação com as milícias do Rio de Janeiro. \n\nLula defende que o crime organizado seja enfrentado com firmeza, dentro dos limites da Constituição e do Estado Democrático de Direito.\n\nO candidato do PT propõe asfixiar financeiramente o crime organizado e enfrentar o tráfico de armas e munições. \n\nOutra iniciativa é a retomada de territórios controlados por grupos armados, com a priorização de investimentos na urbanização de favelas e periferias, requalificação de espaços públicos, ampliação do acesso a serviços essenciais para estimular atividades econômicas lícitas nessas áreas. O candidato também vai trabalhar para barrar candidaturas de pessoas ligadas ao crime organizado.\n\nLula cita ainda a Lei Antifacção, sancionada neste ano, com o objetivo de enfrentar as facções criminosas, e o fortalecimento do Programa Brasil Contra o Crime Organizado, também de 2026. \n\nIntegração com estados e municípios\n \n\n\n            \n        \n    \nOperação da Polícia Militar do Rio de Janeiro contra o Comando Vermelho. Foto: Fernando Frazão/Arquivo Agência Brasil\n\n\nLula defende a valorização dos profissionais de segurança pública para fortalecer a atuação policial, assegurar o uso legítimo da força e ampliar a confiança da população nas instituições. A proposta é construir, junto com os entes federados, programas no modelo de policiamento de proximidade e ampliar o programa de estímulos para uso de câmeras corporais, com padrões nacionais para utilização, gestão e preservação das imagens.\n\nO candidato propõe ainda a construção de um Sistema Nacional de Segurança Pública mais articulado, com mais coordenação entre os diferentes entes federativos para integração de dados, cooperação entre instituições, inteligência, prevenção, repressão qualificada e políticas baseadas em evidências. \n\nA aposta é na aprovação da Proposta de Emenda Constitucional (PEC) da Segurança Pública já enviada ao Congresso Nacional, com o objetivo de revisar as atribuições de cada ente federativo e ampliar o escopo de ação do Poder Executivo federal no enfrentamento à violência. Com a PEC aprovada, o candidato pretende criar o Ministério da Segurança Pública, a fim de fazer a articulação com estados e municípios.\n\nFlávio pretende criar um sistema nacional de reconhecimento facial, chamado de Muralha Brasileira, que será integrado a bancos de dados criminais, inspirado nas iniciativas Smart Sampa, da prefeitura de São Paulo, e no Muralha Paulista, do governo do estado de São Paulo.\n\nA previsão é instalar mais de 1 milhão de novas câmeras em áreas públicas, portos e aeroportos por todo o país. Com isso, o candidato espera localizar foragidos e prevenir crimes.\n\nOutra proposta é fazer consórcios e convênios com estados e municípios para investir em inteligência, retomada de territórios alinhada a políticas públicas estruturantes, tecnologia, armamentos de última geração e valorização do policial.\n\nSegurança nas fronteiras\n \n\n\n            \n        \n    \nSoldados participam de celebração do Dia do Exército. Foto: Marcelo Camargo/Arquivo Agência Brasil\n\n\nFlávio propõe a criação de um Sistema Nacional de Fronteira, uma força de elite composta por militares do Exército, da Marinha e da Aeronáutica, equipada com “armas de guerra”, inteligência e tecnologia. A ideia é interceptar fuzis e drogas nas fronteiras terrestres, portos e aeroportos.\n\nLula tem a proposta de fortalecer as ações de segurança na Amazônia Legal, em cooperação com os estados e municípios e com os países da Organização do Tratado de Cooperação Amazônia (OTCA), além de manter as Forças Armadas presentes nas fronteiras amazônicas, com patrulhamento aéreo e fluvial e inteligência policial.\n\nPolítica penal\n \n\n\n            \n        \n    \nPenitenciária federal de segurança máxima de Brasília. - Marcelo Camargo/Arquivo Agência Brasil\n\n\nO candidato do PT quer fortalecer o sistema prisional com a modernização, o aparelhamento e o fortalecimento de unidades prisionais estratégicas. O intuito é priorizar soluções tecnológicas para o controle do ambiente prisional, inclusive sistemas de bloqueio de sinais de radiocomunicação, monitoramento e detecção de comunicações ilícitas.\n\nA proposta também prevê a qualificação contínua dos profissionais do sistema penitenciário e o aperfeiçoamento de protocolos operacionais de segurança.\n\nTambém está prevista a ampliação da capacidade operacional do sistema penitenciário federal, com o isolamento de lideranças criminosas e a implantação de um protocolo nacional de transferência de presos de alta periculosidade.\n\nPor meio do Programa Brasil contra o Crime Organizado, o candidato quer criar ainda o Centro Nacional de Inteligência Penal, como instância estratégica de coordenação e célula permanente de intercâmbio de informações entre os órgãos de administração penitenciária da União, dos estados e do Distrito Federal.\n\nJá o candidato do PL defende apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir maiores de 14 anos que cometam crimes graves como estupro, tráfico, tortura e assassinato.\n\nAlém disso, Flávio pretende construir cinco novos presídios de segurança máxima no país, dobrando o número de penitenciárias federais. O candidato pretende batizar o complexo federal de Treva para, segundo ele, \"tirar o medo do cidadão e botar medo no bandido\". \n\nEle também prevê parcerias com governos estaduais para zerar o déficit carcerário, com a criação de 500 mil vagas em presídios nos estados.\n\nOutras propostas são tirar os recursos das famílias dos detentos e destinar para as famílias das vítimas, além de trabalhar para acabar com a progressão de regime para crimes hediondos.\n\nViolência doméstica e feminicídio\n \n\n\n            \n        \n    \nMulheres fazem passeata no Dia Internacional da Mulher, por direitos e contra a violência e o feminicídio, no centro do Rio de Janeiro. Foto: Fernando Frazão/Arquivo Agência Brasil\n\n\nFlávio tem como proposta monitorar agressores de mulheres, em casos de medidas protetivas, com tornozeleiras eletrônicas. Também propõe trabalhar para endurecer a lei, obrigando assassinos e agressores de mulheres a cumprir integralmente suas penas.\n\nOutra proposta é criar uma plataforma de inteligência artificial, a ClarIA, que oferecerá atendimento 24 horas para que as mulheres possam registrar ocorrências, pedir medidas protetivas, receber orientações e ter acolhimento. A ideia é implantar um sistema nacional de avaliação de risco para que cada denúncia receba atendimento proporcional ao nível de ameaça, priorizando casos mais graves. Há plano também para ampliar os espaços de acolhimento para mulheres em situação de violência.\n\nTambém aparece como proposta a modernização e integração dos canais de denúncia, reunindo o Ligue 180, as delegacias online, o botão de emergência e as centrais de monitoramento em uma plataforma inteligente de resposta rápida.\n\nLula prevê a ampliação da rede de proteção às mulheres, com a conclusão de 30 Casas da Mulher Brasileira e dos 15 Centros de Referência da Mulher Brasileira. \n\nPara acelerar a expedição de medidas protetivas de urgência, o plano é aumentar as políticas do Centro Integrado Mulher Segura, além de distribuir aos estados kits para monitorar agressores. Haverá ainda fomento à capacitação de forças de segurança para qualificar o atendimento às mulheres vítimas de violência. \n\nO candidato pretende combater o machismo, o sexismo e o feminicídio, além de garantir autonomia econômica a elas. \n\nEstão previstas ainda a ampliação das Salas Lilás, espaços reservados, humanizados e sigilosos criados em órgãos de segurança pública, justiça, hospitais e unidades do Sistema Único de Saúde (SUS) para o acolhimento especializado de mulheres e meninas em situação de violência. \n\nRecursos para segurança\n\nO plano de governo de Lula prevê a destinação de R$ 10 bilhões do Fundo Nacional de Investimento em Infraestrutura Social (FIIS) para estados e municípios realizarem investimentos em equipamentos e infraestrutura.\n\nEm sua proposta de governo, Flávio informa que pretende dobrar os investimentos federais em segurança pública ao longo do mandato, com o objetivo de facilitar o combate ao crime, mas não informa de onde sairão os recursos.\n\nRoubos e furtos de celular\n\nO candidato do PL propõe que a pena inicial para quem roubar, furtar ou revender aparelho celular fruto do crime seja quadruplicada, sem direito a benefícios, já que o telefone móvel não é apenas um equipamento, mas um repositório de dados pessoais, como fotos, documentos e acesso a bancos, além de ser uma ferramenta de trabalho. Além disso, segundo ele, muitos brasileiros perdem a vida nesses roubos.\n\nLula, por sua vez, tem como proposta a expansão do programa Celular Seguro, que permite o bloqueio rápido do equipamento; e a Base Nacional de Celulares com Restrição, que possibilita ao cidadão verificar, antes da compra, se o aparelho tem restrição. Ele também propõe intensificar o enfrentamento a redes de receptação.\n\nOutras propostas\n\nLula também tem como propostas a manutenção de uma política de controle de armas e munições e o aprimoramento dos mecanismos de rastreabilidade desses produtos. Outra iniciativa é reforçar a prevenção e repressão qualificada a crimes financeiros e cibernéticos, com prioridade para o combate à exploração sexual de crianças e adolescentes, à violência contra mulheres e população LGBTQIAP+, ao racismo, aos crimes de ódio e às fraudes bancárias eletrônicas.\n\nFlávio apresenta a proposta de trabalhar, junto ao Congresso, para aprovar e implementar a castração química de pessoas que abusam de mulheres e crianças. Medida a ser aplicada a condenados por crime sexual, ela funcionaria através da inibição da produção de testosterona e tem funcionamento temporário, enquanto o infrator for submetido à administração do fármaco.",
       "imagem": "https://imagens.ebc.com.br/i6LlYBeer_m1Dil-b6wEX5Z6CPU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/28/_d6a9627_1.jpg?itok=6LzyQ0Vv",
       "slug": "conheca-as-propostas-de-flavio-e-lula-para-a-seguranca-publica",
       "pagina_local": "conheca-as-propostas-de-flavio-e-lula-para-a-seguranca-publica.html",
@@ -78,7 +104,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Lula celebra avanço do fim da 6x1 e defende investimento público",
@@ -91,7 +117,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Flávio Bolsonaro recebe apoio de governadores eleitos e Cury",
@@ -104,33 +130,20 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
-      "titulo": "Site oferece criptomoedas por posts de apoio a Flávio Bolsonaro",
-      "resumo": "Começou a circular esta semana um site que vende criptomoedas e promove distribuição de tokens (ativos digitais) para os usuários que compartilharem mensagens favoráveis ao candidato Flávio Bolsonaro (PL), que concorre à presidência da Repú...",
-      "conteudo_completo": "Começou a circular esta semana um site que vende criptomoedas e promove distribuição de tokens (ativos digitais) para os usuários que compartilharem mensagens favoráveis ao candidato Flávio Bolsonaro (PL), que concorre à presidência da República. \n\nO texto publicado neste site diz que, trata-se de “um movimento que une apoio ao voto 22 e a proposta de ajuda às Hyperkids a concluir sua casa em Kampala”, de acordo com reportagem publicada nesta quinta-feira (8) pelo jornal Folha de S.Paulo,  \n\nNotícias relacionadas:Flávio Bolsonaro recebe apoio de partidos e fala em mudar Constituição.TSE adia julgamento sobre candidatura de Deltan Dallagnol ao Senado.Hyperkids é um grupo formado por crianças e adolescentes de Uganda que fazem danças para chamar a atenção dos usuários de internet. O perfil tem quase 13 milhões de seguidores e faz a divulgação do esquema das criptomoedas.\n\nNo vídeo, as crianças aparecem dizendo que há “um novo token e o objetivo dele é ajudar o Brasil”. Ao final do texto, os jovens citam os nomes do deputado Nikolas Ferreira, do candidato Flávio Bolsonaro e de Pablo Marçal, empresário que se juntou recentemente à campanha de Flávio.\n\nO Artigo 57-C da Lei das Eleições de 30 de setembro de 1997, diz que é vedada a veiculação de qualquer tipo de propaganda eleitoral paga na internet, excetuando o impulsionamento de conteúdos, desde que identificado de forma inequívoca como tal e contratado exclusivamente por partidos, coligações e candidatos e seus representantes.\n\nO pesquisador Paulo Rená, do Instituto de Referência em Internet e Sociedade, avalia que a ação tem uma ilegalidade pois envolve a promessa de uma vantagem econômica atrelada a uma campanha eleitoral. \n\n“As questões que ficam é saber quem está organizando e se a campanha tem conhecimento da iniciativa. O fato de ela não ter nenhuma vinculação com o Brasil e não estar direcionada a uma causa nacional pode levar a crer também que seja uma estratégia para burlar a legislação eleitoral brasileira e também a fiscalização desse tipo de iniciativa”, diz. \n\nO site de criptomoedas informa que “a distribuição de tokens é independente de voto, preferência eleitoral ou divulgação de propaganda eleitoral”. Diz ainda que este projeto “não é oficial, não é endossado nem tem vínculo com nenhum político, partido, candidatura ou campanha eleitoral, e não é forma de doação eleitoral”.\n\nA campanha de Flávio Bolsonaro disse que desconhece a autoria do site da criptomoeda e informou que vai tomar todas as medidas judiciais contra a publicação nas esferas eleitoral, cível e criminal para a derrubada da página. O candidato também negou a contratação de perfis para divulgação de conteúdo ou produtos de campanha. \n\nNesta quinta-feira, a Coligação Brasil Pronto pra Mais, que apoia a reeleição do presidente Luiz Inácio Lula da Silva (PT), apresentou à Procuradoria-Geral Eleitoral uma denúncia sobre a distribuição de ativos virtuais em troca de propaganda política. A coligação solicita a identificação dos responsáveis e a investigação de possíveis crimes eleitorais, incluindo o uso de estrutura comercial para propaganda ou aliciamento de eleitores, previsto no Código Eleitoral.   \n\n*Com informações da TV Brasil",
-      "imagem": "https://imagens.ebc.com.br/xWWD4YkyBcxhZ6UIDWxvPayU93c=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-09-30t110408z_12355870_rc2b0q9hz3vr_rtrmadp_3_usa-fed-digital-currency.jpg?itok=MiFL3qh8",
-      "slug": "site-oferece-criptomoedas-por-posts-de-apoio-a-flavio-bolsonaro",
-      "pagina_local": "site-oferece-criptomoedas-por-posts-de-apoio-a-flavio-bolsonaro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/site-oferece-criptomoedas-por-posts-de-apoio-flavio-bolsonaro",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
+      "titulo": "TSE aciona PF após servidores receberem ameaças pelas redes sociais",
+      "resumo": "O Tribunal Superior Eleitoral (TSE) acionou a Polícia Federal (PF) após identificar ameaças recebidas por servidores da Justiça Eleitoral nas redes sociais.\n\nO tribunal é o órgão responsável pela organização das eleições. \n\nNotícias relacio...",
+      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) acionou a Polícia Federal (PF) após identificar ameaças recebidas por servidores da Justiça Eleitoral nas redes sociais.\n\nO tribunal é o órgão responsável pela organização das eleições. \n\nNotícias relacionadas:TSE adia julgamento sobre candidatura de Deltan Dallagnol ao Senado.TSE anula votos de Garotinho, e Ruas deve vencer governo no RJ.TSE desmente alegação de fraude na apuração dos votos.De acordo com o TSE, cerca de 30 mil manifestações nas redes foram registradas contra servidores até o início da tarde de quinta-feira (8).\n\nAs postagens incluem exposição de dados pessoais, ameaças contra familiares, além de desinformação e discurso de ódio.\n\nDiante das ameaças, o presidente do TSE, Kassio Nunes Marques, determinou que os servidores e seus familiares contem com efeito de segurança e apoio psicológico.\n\nO tribunal também acionou o Ministério Público e informou às plataformas que operam as redes sociais sobre a proliferação das postagens irregulares.",
+      "imagem": "https://imagens.ebc.com.br/fMygasHaWk_pGqQLL55XZRndVos=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/predio-tse_mcamgo_abr_22062023-8.jpg?itok=RTmAgZGO",
+      "slug": "tse-aciona-pf-apos-servidores-receberem-ameacas-pelas-redes-sociais",
+      "pagina_local": "tse-aciona-pf-apos-servidores-receberem-ameacas-pelas-redes-sociais.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-aciona-pf-apos-servidores-receberem-ameacas-pelas-redes-sociais",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
-    },
-    {
-      "titulo": "Douglas Ruas critica judicialização da eleição e se declara governador",
-      "resumo": "O candidato ao governo do Rio de Janeiro Douglas Ruas (PL) criticou nesta quinta-feira (8) o recurso apresentado pelo adversário Eduardo Paes (PSD) ao Supremo Tribunal Federal (STF) para garantir a disputa entre os dois no segundo turno das...",
-      "conteudo_completo": "O candidato ao governo do Rio de Janeiro Douglas Ruas (PL) criticou nesta quinta-feira (8) o recurso apresentado pelo adversário Eduardo Paes (PSD) ao Supremo Tribunal Federal (STF) para garantir a disputa entre os dois no segundo turno das eleições.\n\nMais cedo, o Tribunal Superior Eleitoral (TSE) decidiu anular os votos conquistados pelo candidato Anthony Garotinho (Republicanos) na votação de domingo (4) e determinou a retotalização dos votos, medida que permitirá a Ruas obter mais de 50% dos votos válidos e ser eleito no primeiro turno.\n\nNotícias relacionadas:TSE anula votos de Garotinho, e Ruas deve vencer governo no RJ.Zanin relata pedido de Paes para suspender eleição de Ruas em 1º turno.TSE adia julgamento sobre candidatura de Deltan Dallagnol ao Senado.A previsão é que a retotalização dos votos pelo Tribunal Regional Eleitoral (TRE) do estado seja feita no próximo sábado.\n\nRuas disse que a decisão do TSE foi clara e precisa ser respeitada.\n\n\n“Outros partidos que não estavam conosco na mesma coligação já se manifestaram reconhecendo a vontade popular. É lamentável que se insista em querer levar para o judiciário aquilo que deve ser resolvido na arena da política”, disse o candidato.\n\n\n\n            \n        \n    \nRio de Janeiro (RJ), 08/10/2026 – O candidato ao governo do Estado Douglas Ruas (PL) faz pronunciamento após decisão TSE e aguarda retotalização dos votos do 1° turno que o declararia eleito. Foto: Fernando Frazão/Agência Brasil\n\n\nA coligação de Eduardo Paes, atual prefeito da capital, disse que vai aguardar a manifestação do STF antes de realizar novos pronunciamentos.\n\n“O candidato segue confiante na realização do segundo turno, para que seja respeitada a vontade da maioria dos eleitores fluminenses”, diz a nota.\n\nNo primeiro turno, Ruas teve 49,27% dos votos válidos, contra 42,76% de Eduardo Paes (PSD). Garotinho recebeu 3,17%. O nome dele continuou na urna porque a decisão do TRE-RJ que o barrou foi tomada depois do fechamento do sistema da urna eletrônica.\n\nPromessas\n\nAtual presidente da Assembleia Legislativa do Rio de Janeiro (Alerj), Douglas Ruas discursou nesta quinta-feira como autoproclamado governador. Disse representar um “caminho novo” para o estado, diferente do que tem acontecido nas últimas décadas.\n\n“A população disse não para essa geração de políticos que fracassou. Passaram os últimos 30 anos prometendo mudanças e, pelo contrário, criaram todos os problemas para os quais nós buscamos a solução hoje”, disse o candidato.\n\nEntre setembro de 2023 e março de 2026, Ruas foi secretário das Cidades no governo de Cláudio Castro (PL). O então governador, por sua vez, ocupou o cargo entre maio de 2021 e março de 2026, quase todo esse período filiado ao mesmo partido de Ruas.\n\nO candidato do PL disse que fará uma transição harmoniosa com o atual governo e que defenderá o interesse de toda a população, não apenas dos que votaram nele. Declarou ainda que vai priorizar a “guerra ao crime organizado”.\n\n“O que nós temos é uma população que foi abandonada pelo poder público e obrigada a conviver com a presença do crime organizado”,  disse o candidato. “Nós vamos devolver as ruas do Rio para o nosso povo. Nós vamos garantir o direito de ir e vir e a liberdade econômica para todos”.",
-      "imagem": "https://imagens.ebc.com.br/T2ghMGHdTKeq8NlXK_-G52HTI78=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/_d6a0964.jpg?itok=_yHOnEjU",
-      "slug": "douglas-ruas-critica-judicializacao-da-eleicao-e-se-declara-governador",
-      "pagina_local": "douglas-ruas-critica-judicializacao-da-eleicao-e-se-declara-governador.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/douglas-ruas-critica-judicializacao-da-eleicao-e-se-declara-governador",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "STF: Fachin diz que pretende arquivar inquérito das Fake News",
@@ -143,7 +156,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "MPRJ denuncia mais oito PMs que participaram da Operação Contenção",
@@ -156,7 +169,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Eduardo Bolsonaro consta em lista de pena pendente de cumprimento",
@@ -169,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "AGU cria força-tarefa para atuar em caso de incêndio na UFPE",
@@ -182,7 +195,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "TSE determina que Lula e Janja removam vídeos contra Flávio",
@@ -195,7 +208,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Dino expõe relatório com ameaça de assassinato contra ministros do STF",
@@ -208,7 +221,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Mendonça determina remoção de vídeo de deputados contrários a Flávio",
@@ -221,7 +234,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Fux pede acesso a processos contra Jair Bolsonaro no STF",
@@ -234,7 +247,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "TRE-RJ suspende propaganda eleitoral gratuita no RJ até domingo",
@@ -247,20 +260,20 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
-      "titulo": "Zanin nega pedido feito por Paes de determinar segundo turno no Rio",
-      "resumo": "O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), negou nesta quinta-feira (8) pedido para anular a decisão do Tribunal Superior Eleitoral (TSE) que abriu caminho para a eleição do candidato Douglas Ruas (PL) no primeiro turno ...",
-      "conteudo_completo": "O ministro Cristiano Zanin, do Supremo Tribunal Federal (STF), negou nesta quinta-feira (8) pedido para anular a decisão do Tribunal Superior Eleitoral (TSE) que abriu caminho para a eleição do candidato Douglas Ruas (PL) no primeiro turno das eleições para governador do Rio de Janeiro.\n\nZanin rejeitou recurso protocolado pela campanha de Paes para suspender a decisão do TSE que anulou os votos obtidos pelo candidato Anthony Garotinho (Republicanos) na votação do último domingo (4) e determinou a retotalização dos votos, medida que permitirá que Ruas obtenha mais de 50% dos votos válidos e seja eleito.\n\nNotícias relacionadas:Zanin relata pedido de Paes para suspender eleição de Ruas em 1º turno.Douglas Ruas critica judicialização da eleição e se declara governador.Com alta da violência política no Brasil, mulheres são maiores vítimas.Na decisão, Zanin entendeu que não cabe interferência do STF no caso porque ainda cabe recurso contra a decisão no próprio TSE.\n\n\"Nesta petição, tem-se situação diversa, qual seja, de inexistência, neste momento processual, da interposição de recurso extraordinário, quanto menos a realização do exame de admissibilidade pela Presidência. Note-se, ainda, que nem mesmo o esgotamento das vias recursais no próprio TSE teria sido observado\", justificou o ministro. \n\nCom a decisão de Zanin, o Tribunal Regional Eleitoral (TRE-RJ) fica liberado para realizar a recontagem dos votos e eleger Ruas. A cerimônia está marcada para o próximo sábado (10).\n\nNo recurso rejeitado por Zanin, os advogados da coligação de Paes argumentam que a vontade manifestada pelos eleitores deveria ser reconhecida.\n\nSegundo os defensores, a anulação de votos de Garotinho não produz efeitos somente sobre o candidato. \n\n\"Negar ao eleitor fluminense o segundo turno, sob fundamento de que os votos destinados ao candidato Anthony Garotinho devem ser descartados, é desprestigiar a vontade do povo do estado do Rio de Janeiro – que, note-se, não elegeu Douglas Ruas no primeiro turno”, afirmaram.\n\nCom a nova contagem de votos, Ruas passará a obter mais de 50% dos votos válidos, excluídos brancos e nulos, regra principal para que um candidato seja declarado vencedor no primeiro turno.\n\nRuas obteve 4.271.199 votos, equivalentes a 49,27% dos votos válidos, e Eduardo Paes (PSD) conseguiu 3.706.984 votos válidos (42,76%).\n\nGarotinho recebeu 274.411 votos (3,17%). O nome dele continuou na urna porque a decisão do TRE-RJ que o barrou foi tomada após o fechamento do sistema da urna eletrônica.",
-      "imagem": "https://imagens.ebc.com.br/V2k6CHjOpLgfFVA6mY5PHvoVlxY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/15/55530224709_1026aa3ff9_o.jpg?itok=j-FXb3oL",
-      "slug": "zanin-nega-pedido-feito-por-paes-de-determinar-segundo-turno-no-rio",
-      "pagina_local": "zanin-nega-pedido-feito-por-paes-de-determinar-segundo-turno-no-rio.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-nega-pedido-feito-por-paes-de-determinar-segundo-turno-no-rio",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
+      "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
+      "resumo": "O dólar fechou em queda nesta sexta-feira (9), abaixo de R$ 5 pela segunda sessão consecutiva, enquanto a Bolsa brasileira renovou recordes históricos. A moeda estadunidense recuou cerca de 0,8% no dia e acumulou baixa de mais de 4% na sema...",
+      "conteudo_completo": "O dólar fechou em queda nesta sexta-feira (9), abaixo de R$ 5 pela segunda sessão consecutiva, enquanto a Bolsa brasileira renovou recordes históricos. A moeda estadunidense recuou cerca de 0,8% no dia e acumulou baixa de mais de 4% na semana pós-primeiro turno.\n\nA bolsa avançou aproximadamente 1,4% no pregão e encerrou acima dos 209 mil pontos. No mercado internacional, o petróleo Brent subiu e permaneceu acima de US$ 100 por barril.\n\nNotícias relacionadas:Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets.Tributos da gasolina são zerados e subsídios a combustíveis, ampliados.Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil.Números do dia:\n\n\n\tDólar comercial: R$ 4,985 (-0,78%);\n\tDólar na semana: recuo de 4,44%;\n\tIbovespa: 209.066,90 pontos (+1,38%);\n\tIbovespa na semana: avanço de 8,82%;\n\tPetróleo Brent: US$ 104,72 por barril (+0,42%);\n\tPetróleo WTI: US$ 91,85 por barril (+0,39%).\n\tDólar abaixo de R$ 5\n\n\nO dólar comercial à vista encerrou a sessão desta sexta-feira em queda de 0,78%, cotado a R$ 4,985. Por volta das 13h, a moeda chegou à mínima de R$ 4,977.\n\nNa primeira semana após o primeiro turno das eleições, a divisa acumulou desvalorização de 4,44% frente ao real. No ano, a queda chega a 9,18%.\n\nO movimento ocorreu em meio à valorização de moedas de países emergentes e às expectativas dos investidores em relação ao cenário político brasileiro após a divulgação de pesquisas eleitorais.\n\nO mercado também acompanhou a divulgação da inflação oficial. Segundo o Instituto Brasileiro de Geografia e Estatística (IBGE), o Índice Nacional de Preços ao Consumidor Amplo (IPCA) subiu 0,82% em setembro. Em 12 meses, a inflação acumulou alta de 4,58%.\n\nNo exterior, o índice DXY, que mede o desempenho da moeda norte-americana diante de uma cesta de seis divisas fortes, subia 0,08%, segundo uma das cotações divulgadas durante a tarde.\n\nBolsa bate recorde\n\nO Ibovespa, principal índice da Bolsa brasileira, avançou 1,38% nesta sexta-feira e fechou aos 209.066,90 pontos, novo recorde de encerramento. Durante o pregão, o indicador também atingiu a máxima histórica de 209.713,45 pontos.\n\nNa semana, o Ibovespa acumulou alta de 8,82%. O desempenho foi impulsionado pelo fluxo de investimentos para ações brasileiras e pelas expectativas em torno do cenário eleitoral e da política econômica a partir de 2027.\n\nAs bolsas de Nova York também fecharam em alta. O índice S&P 500, das 500 maiores empresas estadunidenses, avançou 0,60%, em uma sessão marcada pela expectativa com a temporada de resultados corporativos do terceiro trimestre e pela atenção dos investidores aos próximos dados de inflação.\n\nPetróleo sobe\n\nOs contratos futuros do petróleo fecharam em alta nesta sexta-feira, com os investidores acompanhando os riscos de interrupção da oferta, as tensões no Oriente Médio e os efeitos de condições climáticas adversas sobre a produção norte-americana.\n\nO barril do tipo Brent para dezembro, referência para as negociações internacionais, avançou 0,42% e encerrou a sessão a US$ 104,72.\n\nO petróleo WTI para novembro, do Texas, subiu 0,39%, para US$ 91,85 por barril.\n\nNa semana, o Brent acumulou valorização de 2,41%. O WTI avançou 0,81%.\n\nOs preços foram sustentados pelas preocupações com a oferta global, em meio ao conflito no Oriente Médio e a relatos de incidentes em rotas estratégicas para o transporte de petróleo. Nos Estados Unidos, a passagem do furacão Isaias também levou produtores a interromper parte da extração no Golfo do México, aumentando as preocupações com o abastecimento.\n\n* com informações da Reuters",
+      "imagem": "https://imagens.ebc.com.br/AFst1op0dU0vImU4sXJB8trnIGo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/30/2026-07-30t121533z_1_lynxmpem6t1aa_rtroptp_4_philippines-economy-reserves.jpg?itok=YplDyt23",
+      "slug": "dolar-cai-a-r-4-98-e-acumula-perda-de-4-44-na-semana",
+      "pagina_local": "dolar-cai-a-r-4-98-e-acumula-perda-de-4-44-na-semana.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -273,7 +286,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -286,7 +299,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -299,7 +312,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -312,7 +325,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -325,7 +338,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -338,7 +351,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -351,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -364,7 +377,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     },
     {
       "titulo": "Durigan prevê envio de MP do Imposto Seletivo após eleições",
@@ -377,20 +390,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
-    },
-    {
-      "titulo": "AliExpress e Correios firmam acordo para acelerar entregas no Brasil",
-      "resumo": "Os Correios e a plataforma de comércio eletrônico AliExpress renovaram a parceria para garantir a entrega dos pedidos feitos por consumidores brasileiros. \n\nAs empresas também assinaram um memorando de entendimentos que prevê ações para ace...",
-      "conteudo_completo": "Os Correios e a plataforma de comércio eletrônico AliExpress renovaram a parceria para garantir a entrega dos pedidos feitos por consumidores brasileiros. \n\nAs empresas também assinaram um memorando de entendimentos que prevê ações para acelerar as entregas no Brasil durante os períodos de maior volume de compras do ano, como a Black Friday e o dia 11 de novembro, quando acontece o principal festival de compras do e-commerce chinês. \n\nNotícias relacionadas:Correios entregam no Brasil compras feitas em sites do Paraguai.Orçamento de 2027 terá aporte de R$ 6 bilhões aos Correios.O objetivo é reduzir os prazos de entrega, aumentar a capacidade de processamento e melhorar a visibilidade no rastreamento dos pedidos. A expansão das parcerias internacionais é um dos pilares do Plano de Reestruturação dos Correios. \n\nSegundo o presidente dos Correios, Emmanuel Rondon, a parceria com o AliExpress demonstra o reconhecimento da capacidade operacional da empresa para atender um mercado em constante expansão. \n\n“Estamos preparados para o aumento do volume de encomendas previsto para o fim do ano, com uma logística robusta e integrada, que conecta o Brasil ao e-commerce global e garante mais agilidade aos consumidores”, comentou .\n\nA assinatura aconteceu em setembro, na sede do Alibaba Group, em Hangzhou, na China.",
-      "imagem": "https://imagens.ebc.com.br/czboHTp2PhkrzZmRvJJY7o1odak=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_ja_2756_0.jpg?itok=7d4FSNL1",
-      "slug": "aliexpress-e-correios-firmam-acordo-para-acelerar-entregas-no-brasil",
-      "pagina_local": "aliexpress-e-correios-firmam-acordo-para-acelerar-entregas-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aliexpress-e-correios-firmam-acordo-para-acelerar-entregas-no-brasil",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "Agência Brasil / EBC / Canais Oficiais de Imprensa do Governo",
-      "coletado_em": "09/10/2026 às 18:44"
+      "coletado_em": "09/10/2026 às 22:32"
     }
   ]
 };
