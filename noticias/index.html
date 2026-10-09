@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plantão de Notícias Oficiais do Governo Federal - InfoCidadão</title>
+  <title>Plantão de Notícias Oficiais do Governo Federal - Cidadão Agora</title>
   <meta name="description" content="Notícias oficiais em tempo real sobre novas políticas públicas, tributos, economia, programas sociais e decisões do Governo Federal (Agência Brasil / EBC).">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -21,7 +21,7 @@
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
         <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">
-          IC
+          CA
         </div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-blue-600">Notícias</span></span>
@@ -68,7 +68,7 @@
           Plantão de Notícias Oficiais do Governo Federal
         </h1>
         <p class="text-xs sm:text-sm text-slate-500 mt-2 leading-relaxed">
-          Notícias oficiais da <strong>Agência Brasil / EBC</strong> sobre decisões, novas leis, tributos, programas sociais e projetos de desenvolvimento nacional com matérias completas no InfoCidadão.
+          Notícias oficiais da <strong>Agência Brasil / EBC</strong> sobre decisões, novas leis, tributos, programas sociais e projetos de desenvolvimento nacional com matérias completas no Cidadão Agora.
         </p>
 
         <!-- Filtros Rápidos -->
@@ -101,7 +101,7 @@
         <span>[Espaço Reservado - Banner Google AdSense 300x250 Lateral Notícias]</span>
       </div>
 
-      <!-- CARD: FONTE OFICIAL -->
+      <!-- CARD: FONTE OFCAIAL -->
       <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3 shadow-sm">
         <h3 class="font-bold text-slate-900 text-sm flex items-center gap-2">
           <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
@@ -127,20 +127,20 @@
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12">
-    <p>InfoCidadão Brasil © 2026 - Agregador de notícias e utilidades públicas.</p>
+    <p>Cidadão Agora Brasil © 2026 - Agregador de notícias e utilidades públicas.</p>
   </footer>
 
   <!-- DADOS DAS NOTÍCIAS CARREGADOS DIRETAMENTE (COMPATÍVEL COM FILE:/// E WEB) -->
   <script src="noticias_dados.js"></script>
   <script>
-    let TODAS_NOTICIAS = [];
+    let TODAS_NOTCAIAS = [];
 
     async function carregarNoticiasDoAgente() {
-      // 1. Tenta carregar via DADOS_NOTICIAS (funciona imediatamente sem servidor local)
-      if (typeof DADOS_NOTICIAS !== "undefined" && DADOS_NOTICIAS.noticias) {
-        TODAS_NOTICIAS = DADOS_NOTICIAS.noticias;
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_NOTICIAS.ultima_atualizacao;
-        renderizarFeed(TODAS_NOTICIAS);
+      // 1. Tenta carregar via DADOS_NOTCAIAS (funciona imediatamente sem servidor local)
+      if (typeof DADOS_NOTCAIAS !== "undefined" && DADOS_NOTCAIAS.noticias) {
+        TODAS_NOTCAIAS = DADOS_NOTCAIAS.noticias;
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_NOTCAIAS.ultima_atualizacao;
+        renderizarFeed(TODAS_NOTCAIAS);
         return;
       }
 
@@ -150,10 +150,10 @@
         if (!response.ok) throw new Error("Erro ao carregar notícias");
         
         const data = await response.json();
-        TODAS_NOTICIAS = data.noticias || [];
+        TODAS_NOTCAIAS = data.noticias || [];
         
         document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + data.ultima_atualizacao;
-        renderizarFeed(TODAS_NOTICIAS);
+        renderizarFeed(TODAS_NOTCAIAS);
       } catch (err) {
         console.error(err);
         document.getElementById('feed-noticias').innerHTML = `
@@ -217,9 +217,9 @@
 
     function filtrarCategoria(cat) {
       if (cat === 'todas') {
-        renderizarFeed(TODAS_NOTICIAS);
+        renderizarFeed(TODAS_NOTCAIAS);
       } else {
-        const filtradas = TODAS_NOTICIAS.filter(n => n.categoria === cat);
+        const filtradas = TODAS_NOTCAIAS.filter(n => n.categoria === cat);
         renderizarFeed(filtradas);
       }
     }

@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Política Nacional, Leis, TSE & Tributos - InfoCidadão</title>
+  <title>Política Nacional, Leis, TSE & Tributos - Cidadão Agora</title>
   <meta name="description" content="Cobertura contínua de atos do Governo Federal, decisões do Congresso Nacional, Justiça Eleitoral (TSE) e novas diretrizes tributárias.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -21,7 +21,7 @@
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
         <div class="w-9 h-9 rounded-lg bg-rose-600 flex items-center justify-center text-white font-extrabold text-lg">
-          IC
+          CA
         </div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-rose-600">Política</span></span>
@@ -101,7 +101,7 @@
         <span>[Espaço Reservado - Banner Google AdSense 300x250 Lateral Política]</span>
       </div>
 
-      <!-- CARD: FONTES OFICIAIS DE DIREITO PÚBLICO -->
+      <!-- CARD: FONTES OFCAIAIS DE DIREITO PÚBLCAO -->
       <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3 shadow-sm">
         <h3 class="font-bold text-slate-900 text-sm flex items-center gap-2">
           <i data-lucide="shield-check" class="w-4 h-4 text-rose-600"></i>
@@ -127,18 +127,18 @@
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12">
-    <p>InfoCidadão Brasil © 2026 - Transparência cívica e dados oficiais abertos.</p>
+    <p>Cidadão Agora Brasil © 2026 - Transparência cívica e dados oficiais abertos.</p>
   </footer>
 
-  <!-- SCRIPT PARA CARREGAR AS NOTÍCIAS DE POLÍTICA -->
+  <!-- SCRIPT PARA CARREGAR AS NOTÍCIAS DE POLÍTCAA -->
   <script src="politica_dados.js"></script>
   <script>
     let TODAS_MATERIAS = [];
 
     async function carregarPoliticaDoAgente() {
-      if (typeof DADOS_POLITICA !== "undefined" && DADOS_POLITICA.noticias) {
-        TODAS_MATERIAS = DADOS_POLITICA.noticias;
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_POLITICA.ultima_atualizacao;
+      if (typeof DADOS_POLITCAA !== "undefined" && DADOS_POLITCAA.noticias) {
+        TODAS_MATERIAS = DADOS_POLITCAA.noticias;
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_POLITCAA.ultima_atualizacao;
         renderizarFeed(TODAS_MATERIAS);
         return;
       }

@@ -1,6 +1,6 @@
-# 🚀 Guia de Lançamento e Monetização - InfoCidadão
+﻿# 🚀 Guia de Lançamento e Monetização - Cidadão Agora
 
-Parabéns! O seu portal de utilidades públicas **InfoCidadão** foi construído e já está funcional no seu computador.
+Parabéns! O seu portal de utilidades públicas **Cidadão Agora** foi construído e já está funcional no seu computador.
 
 ---
 
@@ -18,7 +18,7 @@ Parabéns! O seu portal de utilidades públicas **InfoCidadão** foi construído
 
 ### 1. Registrar o Domínio
 - Acesse [Registro.br](https://registro.br).
-- Registre o domínio escolhido (ex: `infocidadao.com.br`) por R$ 40,00/ano.
+- Registre o domínio escolhido (ex: `cidadaoagora.com.br`) por R$ 40,00/ano.
 
 ### 2. Hospedar Gratuitamente (Custo R$ 0)
 Como este site é puramente estático e ultrarrápido (HTML + JS), você não precisa pagar servidores caros. Você pode hospedá-lo de graça na:

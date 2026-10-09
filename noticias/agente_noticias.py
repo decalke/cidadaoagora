@@ -1,4 +1,4 @@
-import urllib.request
+﻿import urllib.request
 import xml.etree.ElementTree as ET
 import json
 import os
@@ -16,8 +16,8 @@ FEEDS = [
 
 # Detecta dinamicamente a pasta raiz do projeto (funciona no Windows, Linux e GitHub Actions)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-NOTICIAS_DIR = os.path.join(BASE_DIR, "noticias")
-OUTPUT_JSON = os.path.join(NOTICIAS_DIR, "noticias.json")
+NOTCAIAS_DIR = os.path.join(BASE_DIR, "noticias")
+OUTPUT_JSON = os.path.join(NOTCAIAS_DIR, "noticias.json")
 
 def limpar_html(texto):
     if not texto:
@@ -52,14 +52,14 @@ def extrair_imagem(item):
 
 def gerar_pagina_materia(noticia):
     # Gera a página HTML individual da notícia dentro do próprio site para indexar no Google
-    arquivo_html = os.path.join(NOTICIAS_DIR, noticia["slug"] + ".html")
+    arquivo_html = os.path.join(NOTCAIAS_DIR, noticia["slug"] + ".html")
     
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{noticia['titulo']} - InfoCidadão</title>
+  <title>{noticia['titulo']} - Cidadão Agora</title>
   <meta name="description" content="{noticia['resumo']}">
   <meta property="og:title" content="{noticia['titulo']}">
   <meta property="og:description" content="{noticia['resumo']}">
@@ -81,7 +81,7 @@ def gerar_pagina_materia(noticia):
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-blue-600">Notícias</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Portal</span>
@@ -121,7 +121,7 @@ def gerar_pagina_materia(noticia):
         </p>
       </div>
 
-      <!-- IMAGEM GRANDE OFICIAL DENTRO DO PRÓPRIO SITE -->
+      <!-- IMAGEM GRANDE OFCAIAL DENTRO DO PRÓPRIO SITE -->
       <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm max-h-[480px] bg-slate-900 flex items-center justify-center">
         <img src="{noticia['imagem']}" alt="{noticia['titulo']}" class="w-full h-full object-cover">
       </div>
@@ -142,7 +142,7 @@ def gerar_pagina_materia(noticia):
         </p>
       </div>
 
-      <!-- BOX DE CRÉDITO E LINK OFICIAL DA EBC -->
+      <!-- BOX DE CRÉDITO E LINK OFCAIAL DA EBC -->
       <div class="p-5 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs mt-8">
         <div>
           <span class="text-slate-500 block font-medium">Fonte Governamental Oficial:</span>
@@ -163,7 +163,7 @@ def gerar_pagina_materia(noticia):
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
-    <p>InfoCidadão Brasil © 2026 - Cobertura de notícias oficiais e utilidades públicas.</p>
+    <p>Cidadão Agora Brasil © 2026 - Cobertura de notícias oficiais e utilidades públicas.</p>
   </footer>
 
   <script>
@@ -240,11 +240,11 @@ def coletar_e_gerar():
             json.dump(dados_salvar, f, ensure_ascii=False, indent=2)
         
         # Grava também noticias_dados.js para abrir direto no navegador sem restrição de CORS local
-        js_file = os.path.join(NOTICIAS_DIR, "noticias_dados.js")
+        js_file = os.path.join(NOTCAIAS_DIR, "noticias_dados.js")
         with open(js_file, "w", encoding="utf-8") as f:
-            f.write("const DADOS_NOTICIAS = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
+            f.write("const DADOS_NOTCAIAS = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
 
-        print(f"Concluído! {len(todas_noticias)} páginas de notícias geradas com imagens em {NOTICIAS_DIR}")
+        print(f"Concluído! {len(todas_noticias)} páginas de notícias geradas com imagens em {NOTCAIAS_DIR}")
 
 if __name__ == "__main__":
     coletar_e_gerar()

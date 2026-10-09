@@ -1,4 +1,4 @@
-import urllib.request
+﻿import urllib.request
 import xml.etree.ElementTree as ET
 import json
 import os
@@ -8,7 +8,7 @@ from datetime import datetime
 
 # Feeds Oficiais do Governo Federal sobre Política, Leis, Eleições, STF e Tributos
 # Cobertura oficial da imprensa pública (Agência Brasil / EBC / TSE / STF / Congresso)
-FEEDS_POLITICA = [
+FEEDS_POLITCAA = [
     { "orgao": "Congresso & Planalto", "categoria": "Política Nacional", "url": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml" },
     { "orgao": "Justiça & Eleitoral", "categoria": "Justiça & TSE", "url": "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml" },
     { "orgao": "Receita & Ministério da Fazenda", "categoria": "Novos Tributos & Economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml" }
@@ -16,7 +16,7 @@ FEEDS_POLITICA = [
 
 # Detecta dinamicamente a pasta raiz do projeto (funciona no Windows, Linux e GitHub Actions)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-POLITICA_DIR = os.path.join(BASE_DIR, "politica")
+POLITCAA_DIR = os.path.join(BASE_DIR, "politica")
 CONTEUDO_DIR = os.path.join(BASE_DIR, "conteudo")
 
 def limpar_html(texto):
@@ -47,7 +47,7 @@ def extrair_imagem(item):
     return "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop&q=80"
 
 def gerar_pagina_politica(noticia):
-    arquivo_html = os.path.join(POLITICA_DIR, noticia["slug"] + ".html")
+    arquivo_html = os.path.join(POLITCAA_DIR, noticia["slug"] + ".html")
     
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -76,7 +76,7 @@ def gerar_pagina_politica(noticia):
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-rose-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div class="w-9 h-9 rounded-lg bg-rose-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-rose-600">Política</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Portal Principal</span>
@@ -116,7 +116,7 @@ def gerar_pagina_politica(noticia):
         </p>
       </div>
 
-      <!-- FOTO OFICIAL GRANDE DENTRO DO SITE -->
+      <!-- FOTO OFCAIAL GRANDE DENTRO DO SITE -->
       <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm max-h-[480px] bg-slate-900 flex items-center justify-center">
         <img src="{noticia['imagem']}" alt="{noticia['titulo']}" class="w-full h-full object-cover">
       </div>
@@ -137,7 +137,7 @@ def gerar_pagina_politica(noticia):
         </p>
       </div>
 
-      <!-- BOX DE CRÉDITO E LINK OFICIAL -->
+      <!-- BOX DE CRÉDITO E LINK OFCAIAL -->
       <div class="p-5 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs mt-8">
         <div>
           <span class="text-slate-500 block font-medium">Fonte Oficial:</span>
@@ -158,7 +158,7 @@ def gerar_pagina_politica(noticia):
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
-    <p>InfoCidadão Brasil © 2026 - Cobertura de atos do Congresso, TSE, STF e Governo Federal.</p>
+    <p>Cidadão Agora Brasil © 2026 - Cobertura de atos do Congresso, TSE, STF e Governo Federal.</p>
   </footer>
 
   <script>
@@ -176,7 +176,7 @@ def rastrear_politica():
 
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Rastreando canais oficiais de política e leis...")
 
-    for feed_info in FEEDS_POLITICA:
+    for feed_info in FEEDS_POLITCAA:
         url = feed_info["url"]
         categoria = feed_info["categoria"]
         orgao = feed_info["orgao"]
@@ -208,7 +208,7 @@ def rastrear_politica():
                     materia = {
                         "titulo": titulo_limpo,
                         "resumo": resumo,
-                        "conteudo_completo": desc_texto if len(desc_texto) > 100 else resumo + " Mais desdobramentos sobre este projeto de lei e deliberação pública seguem sendo acompanhados pelo portal InfoCidadão.",
+                        "conteudo_completo": desc_texto if len(desc_texto) > 100 else resumo + " Mais desdobramentos sobre este projeto de lei e deliberação pública seguem sendo acompanhados pelo portal Cidadão Agora.",
                         "imagem": imagem_url,
                         "slug": slug,
                         "pagina_local": f"{slug}.html",
@@ -233,7 +233,7 @@ def rastrear_politica():
         }
         
         # Salva em JSON e JS para carregar 100% liso no navegador
-        for destino in [POLITICA_DIR, CONTEUDO_DIR]:
+        for destino in [POLITCAA_DIR, CONTEUDO_DIR]:
             json_file = os.path.join(destino, "politica.json")
             js_file = os.path.join(destino, "politica_dados.js")
             
@@ -241,9 +241,9 @@ def rastrear_politica():
                 json.dump(dados_salvar, f, ensure_ascii=False, indent=2)
             
             with open(js_file, "w", encoding="utf-8") as f:
-                f.write("const DADOS_POLITICA = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
+                f.write("const DADOS_POLITCAA = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
 
-        print(f"Concluído! {len(materias_politica)} matérias políticas geradas com imagens em {POLITICA_DIR}")
+        print(f"Concluído! {len(materias_politica)} matérias políticas geradas com imagens em {POLITCAA_DIR}")
 
 if __name__ == "__main__":
     rastrear_politica()

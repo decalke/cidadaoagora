@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gerador de Link de WhatsApp com Mensagem Pronta - InfoCidadão</title>
+  <title>Gerador de Link de WhatsApp com Mensagem Pronta - Cidadão Agora</title>
   <meta name="description" content="Crie links diretos para o WhatsApp com número formatado e mensagem personalizada. Gere link curto e QR Code grátis.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -19,9 +19,9 @@
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-green-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div class="w-9 h-9 rounded-lg bg-green-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-green-600">Zap</span></span>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-green-600">Zap</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
         </div>
       </a>
@@ -122,7 +122,7 @@
 
   <footer class="bg-white border-t border-slate-200 py-6 mt-auto">
     <div class="max-w-5xl mx-auto px-4 text-center text-xs text-slate-400">
-      <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+      <p>© 2026 Cidadão Agora - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
     </div>
   </footer>
 
@@ -154,12 +154,12 @@
       const numCompleto = '55' + numRaw;
       let url = `https://wa.me/${numCompleto}`;
       if (msg) {
-        url += `?text=${encodeURIComponent(msg)}`;
+        url += `?text=${encodeURCAomponent(msg)}`;
       }
 
       document.getElementById('link-gerado').value = url;
       document.getElementById('btn-testar-zap').href = url;
-      document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(url)}`;
+      document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURCAomponent(url)}`;
       document.getElementById('resultado-zap').classList.remove('hidden');
       lucide.createIcons();
     }

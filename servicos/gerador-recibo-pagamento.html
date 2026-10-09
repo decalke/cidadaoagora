@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gerador de Recibo de Pagamento Online em PDF - InfoCidadão</title>
+  <title>Gerador de Recibo de Pagamento Online em PDF - Cidadão Agora</title>
   <meta name="description" content="Gere recibos de pagamento de prestação de serviços e autônomos grátis. Preencha e baixe em PDF ou imprima na hora.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -20,9 +20,9 @@
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div class="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-emerald-600">Recibo</span></span>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-emerald-600">Recibo</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
         </div>
       </a>
@@ -119,7 +119,7 @@
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
-    <p>InfoCidadão Brasil © 2026 - Ferramenta utilitária de emissão de recibos.</p>
+    <p>Cidadão Agora Brasil © 2026 - Ferramenta utilitária de emissão de recibos.</p>
   </footer>
 
   <script>
@@ -174,7 +174,7 @@
 
       docPdf.setFontSize(8);
       docPdf.setTextColor(150, 150, 150);
-      docPdf.text("Emitido gratuitamente via InfoCidadão - infocidadao.com.br", 105, 280, { align: "center" });
+      docPdf.text("Emitido gratuitamente via Cidadão Agora - cidadaoagora.com.br", 105, 280, { align: "center" });
 
       docPdf.save(`Recibo-${emissor.replace(/\\s+/g, '_')}.pdf`);
     }

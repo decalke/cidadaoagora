@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gerador de Declaração de Hipossuficiência / Pobreza em PDF - InfoCidadão</title>
+  <title>Gerador de Declaração de Hipossuficiência / Pobreza em PDF - Cidadão Agora</title>
   <meta name="description" content="Gere online sua declaração de hipossuficiência para pedido de justiça gratuita ou isenção de taxa em concursos. Preencha e baixe o PDF pronto.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -20,9 +20,9 @@
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-violet-600 flex items-center justify-center text-white font-extrabold text-lg">IC</div>
+        <div class="w-9 h-9 rounded-lg bg-violet-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-violet-600">Justiça</span></span>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-violet-600">Justiça</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
         </div>
       </a>
@@ -97,7 +97,7 @@
             <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Finalidade da Declaração</label>
             <select id="hipo-motivo" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900">
               <option value="requerer a concessão dos benefícios da GRATUIDADE DA JUSTIÇA">Processo Judicial / Justiça Gratuita</option>
-              <option value="requerer a ISENÇÃO DE TAXA DE INSCRIÇÃO EM CONCURSO PÚBLICO ou vestibular">Isenção de Concurso Público / Vestibular</option>
+              <option value="requerer a ISENÇÃO DE TAXA DE INSCRIÇÃO EM CONCURSO PÚBLCAO ou vestibular">Isenção de Concurso Público / Vestibular</option>
               <option value="fins gerais perante repartições públicas e comprovação de renda">Geral (Órgãos Públicos e Assistência Social)</option>
             </select>
           </div>
@@ -122,7 +122,7 @@
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 mt-auto text-center text-xs text-slate-400">
-    <p>© 2026 InfoCidadão - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
+    <p>© 2026 Cidadão Agora - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
   </footer>
 
   <script>
@@ -153,7 +153,7 @@
       const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
       const dataExtenso = `${cidade}, ${hoje.getDate()} de ${meses[hoje.getMonth()]} de ${hoje.getFullYear()}`;
 
-      const texto = `DECLARAÇÃO DE HIPOSSUFICIÊNCIA ECONÔMICA
+      const texto = `DECLARAÇÃO DE HIPOSSUFCAIÊNCIA ECONÔMCAA
 (LEI Nº 1.060/50 E ART. 98 DO CÓDIGO DE PROCESSO CIVIL)
 
 Eu, ${nome}, de nacionalidade ${nac}, estado civil ${civil}, profissão ${prof}, portador(a) do RG nº ${rg} e inscrito(a) no CPF/MF sob o nº ${cpf}, residente e domiciliado(a) na ${end}, na cidade de ${cidade},
@@ -179,7 +179,7 @@ CPF: ${cpf}`;
 
       doc.setFont("helvetica", "bold");
       doc.setFontSize(13);
-      doc.text("DECLARAÇÃO DE HIPOSSUFICIÊNCIA", 105, 25, { align: "center" });
+      doc.text("DECLARAÇÃO DE HIPOSSUFCAIÊNCIA", 105, 25, { align: "center" });
 
       doc.setFont("helvetica", "normal");
       doc.setFontSize(10.5);
