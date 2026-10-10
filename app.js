@@ -595,7 +595,7 @@ function verificarPlaca(event) {
   let raw = input.value.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
 
   if (raw.length !== 7) {
-    alert("Digite uma placa válida com 7 caracteres (letras e números). Exemplo: RLP5H69");
+    alert("Digite uma placa válida com 7 caracteres (letras e números). Exemplo: ABC1D23 ou ABC1234");
     return;
   }
 
@@ -690,15 +690,8 @@ function popularSeletoresFipe(placa) {
     <option value="${idx}">${fab.marca}</option>
   `).join('');
 
-  // Se for a placa do teste (RLP5H69 ou RLP-5769), seleciona Hyundai por padrão
-  let marcaIndex = 0;
-  if (placa.includes("RLP5H69") || placa.includes("RLP5769") || placa.includes("RLP")) {
-    const hyundaiIndex = FABRICANTES_BRASIL.findIndex(f => f.marca === "Hyundai");
-    if (hyundaiIndex !== -1) marcaIndex = hyundaiIndex;
-  }
-
-  selectMarca.selectedIndex = marcaIndex;
-  atualizarModelosFipe(marcaIndex);
+  selectMarca.selectedIndex = 0;
+  atualizarModelosFipe(0);
 }
 
 function atualizarModelosFipe(marcaIndex) {
