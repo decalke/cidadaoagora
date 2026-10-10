@@ -128,7 +128,7 @@
   </footer>
 
   <script>
-    lucide.createIcons();
+    if (window.lucide) window.lucide.createIcons();
 
     function preencherExemploHipo() {
       document.getElementById('hipo-nome').value = 'Mariana dos Santos Ribeiro';

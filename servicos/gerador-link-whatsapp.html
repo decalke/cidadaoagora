@@ -129,7 +129,7 @@
   </footer>
 
   <script>
-    lucide.createIcons();
+    if (window.lucide) window.lucide.createIcons();
 
     function mascararTelefone(input) {
       let v = input.value.replace(/\D/g, '');
@@ -163,7 +163,7 @@
       document.getElementById('btn-testar-zap').href = url;
       document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURCAomponent(url)}`;
       document.getElementById('resultado-zap').classList.remove('hidden');
-      lucide.createIcons();
+      if (window.lucide) window.lucide.createIcons();
     }
 
     function copiarLinkZap() {

@@ -183,7 +183,7 @@
   </footer>
 
   <script>
-    lucide.createIcons();
+    if (window.lucide) window.lucide.createIcons();
 
     function preencherExemploContrato() {
       document.getElementById('contratante-nome').value = 'Tech Soluções Digitais Ltda';

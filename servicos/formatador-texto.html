@@ -133,7 +133,7 @@
   </footer>
 
   <script>
-    lucide.createIcons();
+    if (window.lucide) window.lucide.createIcons();
 
     // Validador de CPF
     function validarCPFAlgoritmo(cpfLimpo) {
@@ -168,7 +168,7 @@
           resultado.className = 'mt-4 p-4 rounded-xl text-sm font-bold flex items-center gap-2 bg-rose-50 text-rose-800 border border-rose-200';
           resultado.innerHTML = '<i data-lucide="alert-circle" class="w-5 h-5 text-rose-600"></i> CPF Inválido! A combinação de dígitos não confere.';
         }
-        lucide.createIcons();
+        if (window.lucide) window.lucide.createIcons();
       } else if (val.length === 0) {
         resultado.classList.add('hidden');
       }

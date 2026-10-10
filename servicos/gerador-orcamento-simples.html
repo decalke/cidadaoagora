@@ -131,7 +131,7 @@
   </footer>
 
   <script>
-    lucide.createIcons();
+    if (window.lucide) window.lucide.createIcons();
 
     function adicionarLinhaItem() {
       const container = document.getElementById('tabela-itens');
