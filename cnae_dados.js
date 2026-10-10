@@ -1,4 +1,4 @@
-const CNAE_DATABASE = [
+window.CNAE_DATABASE = [
   {
     "codigo": "4929-9/02",
     "codigo_limpo": "4929902",

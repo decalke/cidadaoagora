@@ -57,25 +57,36 @@
         </p>
       </div>
 
-      <div class="space-y-4">
+      <form id="form-cnae" onsubmit="event.preventDefault(); filtrarCNAE(); fecharSugestoes();" class="space-y-4">
         <div>
           <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Buscar por Nome, Profissão ou Número do CNAE</label>
-          <div class="relative">
-            <input 
-              type="text" 
-              id="input-cnae" 
-              oninput="filtrarCNAE()"
-              placeholder="Ex: pet shop, 4771-7/04, programador, 6201, mecânica, 5611..." 
-              class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-sky-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
-            >
-            <div class="absolute right-4 top-3.5 text-slate-400">
-              <i data-lucide="search" class="w-5 h-5"></i>
+          <div class="relative flex flex-col sm:flex-row gap-2">
+            <div class="relative flex-1">
+              <input 
+                type="text" 
+                id="input-cnae" 
+                oninput="aoDigitarCNAE(this.value)"
+                onfocus="aoDigitarCNAE(this.value)"
+                autocomplete="off"
+                placeholder="Ex: moto, pet shop, 4771-7/04, programador, 6201..." 
+                class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-sky-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
+              >
+              <!-- Dropdown de Sugestões Rápidas enquanto digita -->
+              <div id="cnae-sugestoes" class="hidden absolute left-0 right-0 top-full mt-1 bg-white border border-slate-200 rounded-xl shadow-xl z-50 max-h-60 overflow-y-auto divide-y divide-slate-100"></div>
             </div>
+            <button 
+              type="submit" 
+              class="bg-sky-600 hover:bg-sky-700 text-white font-bold px-6 py-3.5 rounded-xl shadow-sm transition-colors flex items-center justify-center gap-2 whitespace-nowrap text-sm"
+            >
+              <i data-lucide="search" class="w-4 h-4"></i>
+              <span>Buscar CNAE</span>
+            </button>
           </div>
           <p class="text-[11px] text-slate-400 mt-1.5">
-            Dica: Digite o número com ou sem pontuação (ex: <strong>4771704</strong> ou <strong>4771-7/04</strong>) ou o nome da atividade (ex: <strong>pet shop</strong>, <strong>veterinário</strong>, <strong>barbeiro</strong>).
+            Dica: Digite o número com ou sem pontuação (ex: <strong>4771704</strong> ou <strong>4771-7/04</strong>) ou o nome da atividade (ex: <strong>moto</strong>, <strong>pet shop</strong>, <strong>veterinário</strong>, <strong>barbeiro</strong>).
           </p>
         </div>
+      </form>
 
         <!-- Lista Dinâmica de CNAEs -->
         <div id="cnae-results-list" class="space-y-3 mt-4">

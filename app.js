@@ -2,8 +2,8 @@
 // INFOCIDADÃO - LÓGICA PRINCIPAL DO PORTAL
 // ==========================================
 
-// Base com os principais CNAEs mais buscados no Brasil e enquadramento MEI / Simples
-const CNAE_DATABASE = [
+// Base Oficial de CNAEs (usa a base completa de cnae_dados.js se carregada, ou fallback)
+var CNAE_DATABASE = (typeof window !== 'undefined' && window.CNAE_DATABASE) ? window.CNAE_DATABASE : [
   { codigo: "6201-5/01", descricao: "Desenvolvimento de programas de computador sob encomenda", mei: false, anexo: "Anexo III ou V (Fator R)", aliquota: "A partir de 6%" },
   { codigo: "6202-3/00", descricao: "Desenvolvimento e customização de programas de computador", mei: false, anexo: "Anexo III ou V (Fator R)", aliquota: "A partir de 6%" },
   { codigo: "6209-1/00", descricao: "Suporte técnico, manutenção e outros serviços em tecnologia da informação", mei: false, anexo: "Anexo III", aliquota: "A partir de 6%" },
@@ -382,6 +382,80 @@ function filtrarCNAE() {
 
   renderCNAEList(filtrados);
 }
+
+// ==========================================
+// AUTOCOMPLETAR E SUGESTÕES EM TEMPO REAL
+// ==========================================
+function aoDigitarCNAE(valor) {
+  filtrarCNAE();
+  
+  const boxSugestoes = document.getElementById('cnae-sugestoes');
+  if (!boxSugestoes) return;
+
+  const termo = (valor || "").trim();
+  if (termo.length < 2) {
+    boxSugestoes.innerHTML = '';
+    boxSugestoes.classList.add('hidden');
+    return;
+  }
+
+  const normalizar = (str) => (str || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const termoNorm = normalizar(termo);
+  const apenasNum = termo.replace(/\D/g, "");
+
+  // Localiza as top 6 sugestões mais relevantes
+  const sugestoes = CNAE_DATABASE.filter(item => {
+    if (apenasNum && item.codigo_limpo && item.codigo_limpo.startsWith(apenasNum)) return true;
+    const descNorm = normalizar(item.descricao);
+    if (descNorm.includes(termoNorm)) return true;
+    if (item.sinonimos && normalizar(item.sinonimos).includes(termoNorm)) return true;
+    return false;
+  }).slice(0, 6);
+
+  if (sugestoes.length === 0) {
+    boxSugestoes.innerHTML = '';
+    boxSugestoes.classList.add('hidden');
+    return;
+  }
+
+  boxSugestoes.innerHTML = sugestoes.map(item => `
+    <div onclick="selecionarSugestaoCNAE('${item.codigo}')" class="p-3 hover:bg-sky-50 cursor-pointer flex items-center justify-between gap-3 text-left transition-colors">
+      <div class="flex items-center gap-2 overflow-hidden">
+        <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100 text-slate-700 font-mono shrink-0">${item.codigo}</span>
+        <span class="text-xs text-slate-800 font-medium truncate">${item.descricao}</span>
+      </div>
+      <span class="text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0 ${item.mei ? 'bg-emerald-100 text-emerald-800' : 'bg-slate-100 text-slate-600'}">
+        ${item.mei ? 'MEI' : 'Não MEI'}
+      </span>
+    </div>
+  `).join('');
+
+  boxSugestoes.classList.remove('hidden');
+}
+
+function selecionarSugestaoCNAE(codigo) {
+  const inputEl = document.getElementById('input-cnae');
+  if (inputEl) {
+    inputEl.value = codigo;
+    filtrarCNAE();
+  }
+  fecharSugestoes();
+}
+
+function fecharSugestoes() {
+  const boxSugestoes = document.getElementById('cnae-sugestoes');
+  if (boxSugestoes) {
+    boxSugestoes.classList.add('hidden');
+  }
+}
+
+// Fecha dropdown ao clicar fora
+document.addEventListener('click', (e) => {
+  const container = document.getElementById('form-cnae');
+  if (container && !container.contains(e.target)) {
+    fecharSugestoes();
+  }
+});
 
 function buscarExemploCNAE(termo) {
   switchTab('cnae');
