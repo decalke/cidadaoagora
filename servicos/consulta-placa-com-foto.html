@@ -346,66 +346,173 @@
   <script>
     if (window.lucide) window.lucide.createIcons();
 
-    // 1. BANCO DE LOGOTIPOS EM VETOR SVG DAS PRINCIPAIS MONTADORAS (100% GRATUITO E LEVE)
+    // 1. LIMPEZA PROFILÁTICA DE CACHES ANTIGOS COM DADOS GENÉRICOS OU FOTO ERRADA (BMW)
+    try {
+      ['cache_foto_mod_hb20', 'cache_foto_mod_veiculo_nacional_cadastrado', 'placa_foto_cache_RLP5H69'].forEach(k => {
+        const item = localStorage.getItem(k);
+        if (item && (item.includes('photo-1580273916550') || item.includes('regcheck') || item.includes('AUTOMÓVEL'))) {
+          localStorage.removeItem(k);
+        }
+      });
+    } catch(e) {}
+
+    // 2. BANCO DE LOGOTIPOS EM VETOR SVG DAS PRINCIPAIS MONTADORAS (100% GRATUITO E LEVE)
     const LOGOS_MONTADORAS = {
       'TOYOTA': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#E60012"><ellipse cx="50" cy="50" rx="46" ry="32" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="46" rx="28" ry="16" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="50" rx="14" ry="30" fill="none" stroke="#D90011" stroke-width="6"/></svg>`,
       'VOLKSWAGEN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#001E50"><circle cx="50" cy="50" r="46" fill="none" stroke="#001E50" stroke-width="6"/><path d="M26 30 L40 68 L50 44 L60 68 L74 30 M34 76 L50 34 L66 76" fill="none" stroke="#001E50" stroke-width="5" stroke-linejoin="round"/></svg>`,
+      'VW': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#001E50"><circle cx="50" cy="50" r="46" fill="none" stroke="#001E50" stroke-width="6"/><path d="M26 30 L40 68 L50 44 L60 68 L74 30 M34 76 L50 34 L66 76" fill="none" stroke="#001E50" stroke-width="5" stroke-linejoin="round"/></svg>`,
       'CHEVROLET': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#C99700"><polygon points="20,0 80,0 80,20 100,20 100,40 80,40 80,60 20,60 20,40 0,40 0,20 20,20" fill="#E5A823" stroke="#8A6500" stroke-width="2"/></svg>`,
+      'GM': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#C99700"><polygon points="20,0 80,0 80,20 100,20 100,40 80,40 80,60 20,60 20,40 0,40 0,20 20,20" fill="#E5A823" stroke="#8A6500" stroke-width="2"/></svg>`,
       'FIAT': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#990000"><rect width="100" height="50" rx="10" fill="#8F0C25"/><text x="50" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">FIAT</text></svg>`,
       'JEEP': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#1C3F29"><text x="50" y="36" font-family="Impact, Arial, sans-serif" font-weight="bold" font-size="34" fill="#0F1B35" text-anchor="middle" letter-spacing="2">Jeep</text></svg>`,
       'HYUNDAI': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#002C6C"><ellipse cx="50" cy="30" rx="46" ry="26" fill="none" stroke="#002C6C" stroke-width="5"/><path d="M35 15 L35 45 M35 30 L65 30 M65 15 L65 45" stroke="#002C6C" stroke-width="6" stroke-linecap="round"/></svg>`,
       'HONDA': `<svg viewBox="0 0 100 80" class="w-12 h-10" fill="#0F1B35"><rect x="10" y="5" width="80" height="70" rx="12" fill="none" stroke="#0F1B35" stroke-width="6"/><path d="M28 20 L35 60 L65 60 L72 20 M35 40 L65 40" fill="none" stroke="#0F1B35" stroke-width="6" stroke-linecap="round"/></svg>`,
       'RENAULT': `<svg viewBox="0 0 80 100" class="w-10 h-12" fill="#E6A100"><polygon points="40,5 75,50 40,95 5,50" fill="none" stroke="#0F1B35" stroke-width="8"/><polygon points="40,28 58,50 40,72 22,50" fill="none" stroke="#0F1B35" stroke-width="6"/></svg>`,
       'FORD': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#002C6C"><ellipse cx="50" cy="25" rx="48" ry="22" fill="#002C6C" stroke="#FFFFFF" stroke-width="2"/><text x="50" y="32" font-family="'Brush Script MT', cursive, sans-serif" font-style="italic" font-weight="bold" font-size="24" fill="#FFFFFF" text-anchor="middle">Ford</text></svg>`,
-      'NISSAN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#C3002F"><circle cx="50" cy="50" r="42" fill="none" stroke="#777777" stroke-width="7"/><rect x="8" y="38" width="84" height="24" rx="3" fill="#777777"/><text x="50" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">NISSAN</text></svg>`
+      'NISSAN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#C3002F"><circle cx="50" cy="50" r="42" fill="none" stroke="#777777" stroke-width="7"/><rect x="8" y="38" width="84" height="24" rx="3" fill="#777777"/><text x="50" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">NISSAN</text></svg>`,
+      'BMW': `<svg viewBox="0 0 100 100" class="w-12 h-12"><circle cx="50" cy="50" r="46" fill="#000" stroke="#fff" stroke-width="2"/><circle cx="50" cy="50" r="32" fill="#fff"/><path d="M50 18 A32 32 0 0 1 82 50 L50 50 Z" fill="#0066B1"/><path d="M18 50 A32 32 0 0 1 50 82 L50 50 Z" fill="#0066B1"/><text x="50" y="14" font-family="Arial" font-weight="bold" font-size="10" fill="#fff" text-anchor="middle">BMW</text></svg>`
     };
 
-    // 2. CATÁLOGO INICIAL DE FOTOS DE ESTÚDIO DOS CARROS MAIS VENDIDOS NO BRASIL
+    // 3. CATÁLOGO LOCAL DE FOTOS DE ESTÚDIO OFICIAIS DOS CARROS MAIS VENDIDOS NO BRASIL
+    // Fotos reais armazenadas no servidor próprio com fundo limpo (Zero risco de 429 ou bloqueio externo)
     const FOTOS_CATALOGO_BASE = {
-      'corolla': 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=600&q=80',
-      'gol': 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80',
-      'onix': 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80',
-      'renegade': 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80',
-      'toro': 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=600&q=80',
-      'palio': 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80',
-      'compass': 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80',
-      'civic': 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?auto=format&fit=crop&w=600&q=80',
-      'hb20': 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80',
-      'kwid': 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80'
+      'hb20': '../img/carros/hb20.jpg',
+      'onix': '../img/carros/onix.jpg',
+      'gol': '../img/carros/gol.jpg',
+      'polo': '../img/carros/polo.jpg',
+      'strada': '../img/carros/strada.jpg',
+      'argo': '../img/carros/argo.jpg',
+      'mobi': '../img/carros/mobi.jpg',
+      'toro': '../img/carros/toro.jpg',
+      'corolla': '../img/carros/corolla.jpg',
+      'renegade': '../img/carros/renegade.jpg',
+      'compass': '../img/carros/compass.jpg',
+      'kwid': '../img/carros/kwid.png',
+      'civic': '../img/carros/civic.jpg',
+      'hrv': '../img/carros/hrv.jpg',
+      'hr-v': '../img/carros/hrv.jpg',
+      'tcross': '../img/carros/tcross.jpg',
+      't-cross': '../img/carros/tcross.jpg'
     };
 
-    // 3. MOTOR DE CACHE DUPLO INTELIGENTE: POR PLACA E POR MODELO DE VEÍCULO
+    const LETRA_PARA_NUMERO = { A: '0', B: '1', C: '2', D: '3', E: '4', F: '5', G: '6', H: '7', I: '8', J: '9' };
+    const NUMERO_PARA_LETRA = { '0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G', '7': 'H', '8': 'I', '9': 'J' };
+
     function normalizarChaveModelo(modelo) {
       return (modelo || '').toLowerCase().trim().replace(/[^a-z0-9]/g, '_');
     }
 
-    // Busca foto no cache de modelos (reutiliza fotos de outras consultas do mesmo carro!)
-    function obterFotoModeloComCache(modelo, marca) {
-      const modLower = (modelo || '').toLowerCase();
-      const chaveMod = normalizarChaveModelo(modelo);
-      const chaveMarcaMod = normalizarChaveModelo(`${marca}_${modelo}`);
+    // Busca foto no catálogo oficial local ou cache
+    function obterFotoModeloComCache(modelo, marca, modeloBase) {
+      const modLower = `${modeloBase || ''} ${modelo || ''}`.toLowerCase();
+      const chaveMod = normalizarChaveModelo(modeloBase || modelo);
 
-      // 1. Checa no localStorage se este modelo já teve foto salva em consultas anteriores
-      const fotoCacheModelo = localStorage.getItem(`cache_foto_mod_${chaveMod}`) || 
-                              localStorage.getItem(`cache_foto_mod_${chaveMarcaMod}`);
-      if (fotoCacheModelo) {
-        console.log(`[Cache de Foto] Reutilizando foto existente para o modelo "${modelo}":`, fotoCacheModelo);
+      // 1. Checa no localStorage se este modelo já teve foto válida em consultas anteriores
+      const fotoCacheModelo = localStorage.getItem(`cache_foto_mod_${chaveMod}`);
+      if (fotoCacheModelo && !fotoCacheModelo.includes('photo-1580273916550') && !fotoCacheModelo.includes('regcheck')) {
         return { url: fotoCacheModelo, origem: 'Reutilizada do Cache de Modelos' };
       }
 
-      // 2. Checa no catálogo estático base
-      for (const [chave, url] of Object.entries(FOTOS_CATALOGO_BASE)) {
+      // 2. Checa no catálogo estático local de alta fidelidade
+      for (const [chave, path] of Object.entries(FOTOS_CATALOGO_BASE)) {
         if (modLower.includes(chave)) {
-          // Salva no cache de modelos para próximas consultas
-          localStorage.setItem(`cache_foto_mod_${chaveMod}`, url);
-          return { url: url, origem: 'Catálogo de Estúdio HD' };
+          localStorage.setItem(`cache_foto_mod_${chaveMod}`, path);
+          return { url: path, origem: 'Catálogo de Estúdio HD Oficial' };
         }
       }
 
-      // 3. API pública aberta de catálogo automotivo (Regcheck/CarImagery com HTTPS)
-      const urlDinamica = `https://www.regcheck.org.uk/image.aspx/@${btoa(unescape(encodeURIComponent(`${marca} ${modelo}`)))}`;
-      localStorage.setItem(`cache_foto_mod_${chaveMod}`, urlDinamica);
-      return { url: urlDinamica, origem: 'Catálogo Automotivo Oficial' };
+      return null;
+    }
+
+    // Busca foto complementar de forma segura na Wikipedia (sem falhar com BMW)
+    async function buscarFotoDinamicaWikipedia(marca, modelo) {
+      try {
+        const termo = `${marca} ${modelo}`.trim();
+        const url = `https://pt.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(termo)}&prop=pageimages&format=json&pithumbsize=600&origin=*`;
+        const res = await fetch(url);
+        if (res.ok) {
+          const data = await res.json();
+          const pages = data.query?.pages;
+          for (const k in pages) {
+            if (pages[k]?.thumbnail?.source) {
+              return pages[k].thumbnail.source;
+            }
+          }
+        }
+      } catch (err) {
+        console.warn('Erro ao buscar foto na Wikipedia:', err);
+      }
+      return null;
+    }
+
+    // Consulta de cotação FIPE em tempo real via API pública oficial (Parallelum)
+    async function consultarFipeNoCliente(veiculo) {
+      try {
+        let codMarca = veiculo.marcaDetalhes?.fipeId ? String(veiculo.marcaDetalhes.fipeId) : null;
+        if (!codMarca || isNaN(Number(codMarca))) {
+          const resMarcas = await fetch('https://parallelum.com.br/fipe/api/v1/carros/marcas');
+          if (!resMarcas.ok) return null;
+          const marcas = await resMarcas.json();
+          const mStr = (veiculo.marca || veiculo.fabricante || '').toUpperCase();
+          const mEncontrada = marcas.find(m => m.nome.toUpperCase().includes(mStr) || mStr.includes(m.nome.toUpperCase()));
+          if (mEncontrada) codMarca = mEncontrada.codigo;
+        }
+        if (!codMarca) return null;
+
+        const resModelos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos`);
+        if (!resModelos.ok) return null;
+        const { modelos } = await resModelos.json();
+
+        const modStr = (veiculo.modelo || '').toUpperCase();
+        const verStr = (veiculo.versao || '').toUpperCase();
+        const termos = `${modStr} ${verStr}`.replace(/[()\/\\-]/g, ' ').split(/\s+/).filter(t => t.length >= 3);
+
+        let melhorMod = null;
+        let maxPts = -1;
+
+        for (const m of modelos) {
+          const nMod = m.nome.toUpperCase();
+          let pts = 0;
+          if (modStr && nMod.includes(modStr)) pts += 10;
+          for (const t of termos) {
+            if (nMod.includes(t) || (t.length >= 5 && nMod.includes(t.slice(0, 5)))) pts += 5;
+          }
+          if (pts > maxPts) {
+            maxPts = pts;
+            melhorMod = m;
+          }
+        }
+
+        if (!melhorMod || maxPts <= 0) {
+          melhorMod = modelos.find(m => m.nome.toUpperCase().includes(modStr)) || null;
+        }
+        if (!melhorMod) return null;
+
+        const resAnos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos`);
+        if (!resAnos.ok) return null;
+        const anos = await resAnos.json();
+
+        const anoDesejado = String(veiculo.ano_modelo || veiculo.ano_fabricacao || '');
+        let anoObj = anos.find(a => a.codigo.startsWith(anoDesejado)) || anos[0];
+        if (!anoObj) return null;
+
+        const resFipe = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos/${anoObj.codigo}`);
+        if (!resFipe.ok) return null;
+        const fipeFinal = await resFipe.json();
+
+        return {
+          valor: fipeFinal.Valor,
+          marca: fipeFinal.Marca,
+          modelo: fipeFinal.Modelo,
+          anoModelo: fipeFinal.AnoModelo,
+          combustivel: fipeFinal.Combustivel,
+          codigoFipe: fipeFinal.CodigoFipe,
+          mesReferencia: fipeFinal.MesReferencia
+        };
+      } catch (e) {
+        console.warn("Erro ao buscar FIPE no cliente:", e);
+        return null;
+      }
     }
 
     function obterLogoMarca(marca) {
@@ -421,6 +528,7 @@
       document.getElementById('input-placa-foto').value = placa;
       executarExibicaoComCache(placa, {
         modelo: modelo,
+        modeloBase: modelo,
         marca: marca,
         ano: ano,
         cor: cor,
@@ -451,9 +559,16 @@
       if (dadosCachePlaca) {
         try {
           const dadosParsed = JSON.parse(dadosCachePlaca);
-          console.log(`[Cache de Placa] Placa ${raw} carregada do cache local instantaneamente! Zero chamadas de API.`);
-          executarExibicaoComCache(raw, dadosParsed, true);
-          return;
+          const eInvalido = dadosParsed.marca === "AUTOMÓVEL" || 
+                            dadosParsed.modelo === "Veículo Nacional Cadastrado" ||
+                            (dadosParsed.fotoUrl && (dadosParsed.fotoUrl.includes('regcheck') || dadosParsed.fotoUrl.includes('photo-1580273916550')));
+          if (eInvalido) {
+            localStorage.removeItem(cacheKeyPlaca);
+          } else {
+            console.log(`[Cache de Placa] Placa ${raw} carregada do cache local instantaneamente! Zero chamadas de API.`);
+            executarExibicaoComCache(raw, dadosParsed, true);
+            return;
+          }
         } catch (err) {
           localStorage.removeItem(cacheKeyPlaca);
         }
@@ -475,7 +590,7 @@
 
       let veiculoFinal = null;
 
-      // 1. Tenta chamada à API de veículos se disponível
+      // 1. Tenta chamada à API de veículos real
       try {
         const apiRes = await fetch('/api/veiculo', {
           method: 'POST',
@@ -486,12 +601,32 @@
         if (apiRes.ok) {
           const data = await apiRes.json();
           if (data && data.sucesso && data.veiculo) {
+            let precoFipe = data.fipe && data.fipe.valor ? data.fipe.valor : null;
+            let nomeModeloExibicao = data.veiculo.modelo || 'Automóvel';
+
+            // Se a FIPE não veio do backend, busca no cliente via Parallelum FIPE
+            if (!precoFipe) {
+              const fipeCli = await consultarFipeNoCliente(data.veiculo);
+              if (fipeCli && fipeCli.valor) {
+                precoFipe = fipeCli.valor;
+                if (fipeCli.modelo) nomeModeloExibicao = fipeCli.modelo;
+              }
+            }
+
+            const anoFab = data.veiculo.ano_fabricacao || '';
+            const anoMod = data.veiculo.ano_modelo || anoFab || '';
+            const anoFormatado = (anoFab && anoMod && String(anoFab) !== String(anoMod)) ? `${anoFab}/${anoMod}` : (anoMod || anoFab || '2021');
+
+            const cidadeUf = data.veiculo.cidade || `${estadoInfo.estado} (${estadoInfo.uf})`;
+
             veiculoFinal = {
-              modelo: data.veiculo.modelo || 'Automóvel Nacional',
-              marca: data.veiculo.marca || 'VEÍCULO',
-              ano: data.veiculo.ano || '2021',
+              modelo: nomeModeloExibicao,
+              modeloBase: data.veiculo.modelo || 'Automóvel',
+              marca: data.veiculo.marca || data.veiculo.fabricante || 'VEÍCULO',
+              ano: anoFormatado,
               cor: data.veiculo.cor || 'Prata',
-              precoFipe: data.fipe && data.fipe.valor ? data.fipe.valor : 'R$ 78.500',
+              cidade: cidadeUf,
+              precoFipe: precoFipe || 'Consulte FIPE oficial',
               estadoInfo: estadoInfo,
               origem: 'Base Pública Oficial'
             };
@@ -501,16 +636,18 @@
         console.warn('API externa não respondeu, utilizando decodificador SENATRAN:', e);
       }
 
-      // 2. Se a API não respondeu ou em modo teste, usa os dados decodificados SENATRAN
+      // 2. Se a API não respondeu ou em modo teste, usa os dados decodificados SENATRAN com transparência
       if (!veiculoFinal) {
         veiculoFinal = {
-          modelo: "Veículo Nacional Cadastrado",
-          marca: "AUTOMÓVEL",
-          ano: "2021",
-          cor: "Prata Metálico",
-          precoFipe: "R$ 78.900",
+          modelo: "Veículo sob Faixa SENATRAN",
+          modeloBase: "Veículo",
+          marca: "SENATRAN",
+          ano: "Consulte no DETRAN",
+          cor: "Consulte no DETRAN",
+          cidade: `${estadoInfo.estado} (${estadoInfo.uf})`,
+          precoFipe: "Consulte a Tabela FIPE",
           estadoInfo: estadoInfo,
-          origem: 'Decodificação SENATRAN'
+          origem: 'Decodificação Oficial SENATRAN'
         };
       }
 
@@ -528,7 +665,7 @@
       const resDiv = document.getElementById('resultado-placa-foto');
       resDiv.classList.remove('hidden');
 
-      const modelo = dados.modelo || 'Veículo Nacional';
+      const modelo = dados.modelo || 'Veículo';
       const marca = dados.marca || 'AUTOMÓVEL';
       const ano = dados.ano || '2021';
       const cor = dados.cor || 'Prata';
@@ -539,46 +676,83 @@
       document.getElementById('res-modelo-nome').innerText = modelo;
       document.getElementById('logo-montadora-svg').innerHTML = obterLogoMarca(marca);
 
-      // 2. Foto do Veículo (Busca ou Reutiliza do Cache de Modelos!)
+      // 2. Foto do Veículo (Busca no catálogo ou Wikipedia com fallback elegante)
       const imgEl = document.getElementById('res-foto-carro');
       const fallbackEl = document.getElementById('res-foto-fallback');
       const legendaEl = document.getElementById('res-foto-legenda');
       
-      const fotoObj = obterFotoModeloComCache(modelo, marca);
+      const fotoObj = obterFotoModeloComCache(modelo, marca, dados.modeloBase);
 
-      imgEl.classList.remove('hidden');
-      fallbackEl.classList.add('hidden');
-      imgEl.src = fotoObj.url;
-      legendaEl.innerText = `${fotoObj.origem}${vemDoCache ? ' • Cache Local Ativo' : ''}`;
+      if (fotoObj && fotoObj.url) {
+        imgEl.classList.remove('hidden');
+        fallbackEl.classList.add('hidden');
+        imgEl.src = fotoObj.url;
+        legendaEl.innerText = `${fotoObj.origem}${vemDoCache ? ' • Cache Local Ativo' : ''}`;
+      } else {
+        imgEl.classList.add('hidden');
+        fallbackEl.classList.remove('hidden');
+        legendaEl.innerText = 'Foto em processo de catalogação';
+
+        buscarFotoDinamicaWikipedia(marca, dados.modeloBase || modelo).then(wikiUrl => {
+          if (wikiUrl) {
+            imgEl.classList.remove('hidden');
+            fallbackEl.classList.add('hidden');
+            imgEl.src = wikiUrl;
+            legendaEl.innerText = `Catálogo Oficial Wikipedia${vemDoCache ? ' • Cache Local Ativo' : ''}`;
+            const chave = normalizarChaveModelo(dados.modeloBase || modelo);
+            localStorage.setItem(`cache_foto_mod_${chave}`, wikiUrl);
+          }
+        });
+      }
 
       imgEl.onerror = function() {
         imgEl.classList.add('hidden');
         fallbackEl.classList.remove('hidden');
+        legendaEl.innerText = 'Identificação do Modelo Registrada';
       };
 
       // 3. Badges e Dados
       document.getElementById('res-ano-fabricacao').innerText = `Ano: ${ano}`;
       document.getElementById('res-cor-veiculo').innerText = `Cor: ${cor}`;
       
-      const uf = dados.estadoInfo ? dados.estadoInfo.uf : 'SP';
-      const estadoNome = dados.estadoInfo ? dados.estadoInfo.estado : 'São Paulo';
-      document.getElementById('res-origem-estado').innerText = `${estadoNome} (${uf})`;
-      document.getElementById('res-uf-completo').innerText = `${estadoNome} - ${uf}`;
+      const uf = dados.estadoInfo ? dados.estadoInfo.uf : 'SC';
+      const estadoNome = dados.estadoInfo ? dados.estadoInfo.estado : 'Santa Catarina';
+      const localizacaoExibicao = dados.cidade || `${estadoNome} (${uf})`;
+      document.getElementById('res-origem-estado').innerText = localizacaoExibicao;
+      document.getElementById('res-uf-completo').innerText = localizacaoExibicao;
       document.getElementById('res-faixa-serie').innerText = `Faixa Oficial: ${placa.slice(0, 3)}`;
 
-      // 4. Placa Mockup
+      // 4. Placa Mockup e Conversão de Padrão
       document.getElementById('mockup-placa-texto').innerText = placa;
       const isMercosul = /^[A-Z]{3}[0-9][A-Z][0-9]{2}$/.test(placa);
       document.getElementById('badge-tipo-placa').innerText = isMercosul ? 'Padrão Mercosul' : 'Padrão Cinza';
+
+      let conversaoTexto = "Não aplicável";
+      if (isMercosul) {
+        const lMercosul = placa.charAt(4);
+        const digAntigo = LETRA_PARA_NUMERO[lMercosul] || "0";
+        conversaoTexto = `${placa.slice(0, 3)}-${placa.charAt(3)}${digAntigo}${placa.slice(5)} (Cinza)`;
+      } else if (/^[A-Z]{3}[0-9]{4}$/.test(placa)) {
+        const digAntigo = placa.charAt(4);
+        const lMercosul = NUMERO_PARA_LETRA[digAntigo] || "A";
+        conversaoTexto = `${placa.slice(0, 3)}${placa.charAt(3)}${lMercosul}${placa.slice(5)} (Mercosul)`;
+      }
+      document.getElementById('res-conversao-placa').innerText = conversaoTexto;
 
       // 5. FIPE e IPVA
       document.getElementById('res-fipe-nome').innerText = `${marca} ${modelo} ${ano}`;
       document.getElementById('res-fipe-valor').innerText = precoFipe;
 
-      const numValor = parseFloat(precoFipe.replace(/[^\d]/g, '')) / 100 || 80000;
-      document.getElementById('ipva-4').innerText = 'R$ ' + (numValor * 0.04).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
-      document.getElementById('ipva-3').innerText = 'R$ ' + (numValor * 0.035).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
-      document.getElementById('ipva-2').innerText = 'R$ ' + (numValor * 0.02).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+      const numValor = parseFloat(precoFipe.replace(/[^\d]/g, '')) / 100 || 0;
+      if (numValor > 0) {
+        document.getElementById('ipva-4').innerText = 'R$ ' + (numValor * 0.04).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+        document.getElementById('ipva-3').innerText = 'R$ ' + (numValor * 0.035).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+        document.getElementById('ipva-2').innerText = 'R$ ' + (numValor * 0.02).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+      } else {
+        document.getElementById('ipva-4').innerText = 'Consultar FIPE';
+        document.getElementById('ipva-3').innerText = 'Consultar FIPE';
+        document.getElementById('ipva-2').innerText = 'Consultar FIPE';
+      }
 
       resDiv.scrollIntoView({ behavior: 'smooth' });
     }
