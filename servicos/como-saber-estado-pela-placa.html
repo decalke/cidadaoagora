@@ -85,18 +85,59 @@
     </div>
   </header>
 
-  <main class="max-w-5xl mx-auto w-full px-4 py-8 flex-1 space-y-8">
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-8">
 
-    <!-- HERO DO GUIA INFORMATIVO -->
-    <article class="ds-card p-6 sm:p-10 space-y-6">
-      <div class="space-y-3">
+    <!-- HERO BANNER COM FOTO REAL E TEXTO INTEGRADO -->
+    <section class="w-full">
+      <div class="relative rounded-3xl overflow-hidden shadow-lg border border-[#D9E1EC] min-h-[380px] sm:min-h-[430px] flex items-center bg-slate-900">
+        <!-- Foto Realista Gerada -->
+        <img 
+          src="../img/banner-placa-mercosul.jpg" 
+          alt="Homem com o cotovelo no capô do carro mostrando a placa Mercosul" 
+          class="absolute inset-0 w-full h-full object-cover object-center md:object-right"
+        >
+        <!-- Gradiente Escuro de Alto Contraste -->
+        <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#0F1B35]/95 via-[#0F1B35]/85 to-black/30"></div>
+
+        <!-- Conteúdo Escrito Dentro do Banner -->
+        <div class="relative z-10 max-w-xl p-6 sm:p-10 space-y-4 text-white">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-blue-600/40 text-blue-100 border border-blue-400/30 backdrop-blur-xs">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Padrão Oficial Mercosul & Senatran</span>
+          </div>
+
+          <h1 class="text-2xl sm:text-4xl font-black tracking-tight leading-tight text-white drop-shadow-sm">
+            Como Saber o Estado pela Placa do Carro? Modelo Mercosul vs Antigo
+          </h1>
+
+          <p class="text-xs sm:text-sm text-blue-100 leading-relaxed font-normal max-w-md drop-shadow-xs">
+            Entenda como funciona o sistema de emplacamento brasileiro, a regra de conversão de números para letras e como pesquisar dados de qualquer veículo em tempo real.
+          </p>
+
+          <div class="pt-2 flex flex-wrap items-center gap-3">
+            <a href="consulta-veicular-fipe.html" class="px-5 py-3 rounded-xl bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] font-black text-xs flex items-center justify-center gap-2 transition shadow-md touch-target">
+              <i data-lucide="search" class="w-4 h-4"></i>
+              <span>Consultar Placa & FIPE Grátis</span>
+            </a>
+            <a href="#guia-placas" class="px-4 py-3 rounded-xl bg-white/15 hover:bg-white/25 text-white font-bold text-xs flex items-center justify-center gap-2 transition border border-white/20 backdrop-blur-xs touch-target">
+              <i data-lucide="book-open" class="w-4 h-4"></i>
+              <span>Ler Guia Completo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUIA INFORMATIVO PRINCIPAL -->
+    <article id="guia-placas" class="ds-card p-6 sm:p-10 space-y-6">
+      <div class="space-y-2">
         <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200">
           <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
-          <span>Guia Completo Senatran & Trânsito Brasileiro</span>
+          <span>Guia Explicativo & Regras Oficiais</span>
         </div>
-        <h1 class="text-2xl sm:text-4xl font-black text-[#0F1B35] leading-tight">
-          Como Saber o Estado pela Placa do Carro? Entenda o Modelo Mercosul e o Antigo
-        </h1>
+        <h2 class="text-xl sm:text-3xl font-black text-[#0F1B35] leading-tight">
+          Guia Detalhado: Como Funciona o Sistema de Placas no Brasil
+        </h2>
         <p class="text-sm sm:text-base text-[#526078] leading-relaxed">
           Descubra como funciona o sistema de emplacamento no Brasil, como identificar o Estado de origem pelas letras, a regra de conversão de números para letras e as principais diferenças de segurança entre o padrão Mercosul e a placa cinza antiga.
         </p>
