@@ -252,8 +252,12 @@ body {
   padding: 1.5rem;
 }
 
-/* Ad placeholder limpo */
-.ad-placeholder {
-  border: 1px dashed var(--border);
-  background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+/* Container oficial de anúncios AdSense */
+.ad-slot-wrapper {
+  margin: 1.5rem 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
