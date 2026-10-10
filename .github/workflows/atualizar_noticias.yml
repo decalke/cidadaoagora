@@ -1,4 +1,4 @@
-﻿name: Atualizacao Automatica de Noticias e Politica 24h
+name: Atualizacao Automatica de Noticias e Politica 24h
 
 on:
   schedule:
@@ -34,6 +34,10 @@ jobs:
       - name: Executar Agente de Política e Leis Oficiais
         run: |
           python conteudo/agente_politica.py
+
+      - name: Executar Agente de Atualidades & Finanças
+        run: |
+          python conteudo/agente_atualidades.py
 
       - name: Salvar e Publicar alterações no site
         run: |

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -13,8 +13,8 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atualidades & Finanças Pessoais - Cidadão Agora</title>
-  <meta name="description" content="Tendências econômicas, dicas de finanças pessoais, mercado de trabalho, inflação e impactos no cotidiano do brasileiro.">
+  <title>Atualidades & Finanças do Cidadão - Cidadão Agora</title>
+  <meta name="description" content="Acompanhe tendências econômicas, benefícios sociais, mercado de trabalho, inflação e direitos do consumidor atualizados em tempo real.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
@@ -26,6 +26,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
+  <!-- CABEÇALHO -->
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
@@ -34,13 +35,13 @@
         </div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-emerald-600">Atualidades</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Voltar para a Página Inicial</span>
+          <span class="text-[10px] block text-slate-400 font-medium">Finanças, Trabalho & Benefícios</span>
         </div>
       </a>
       <div class="flex items-center space-x-4 text-xs font-semibold">
-        <a href="noticias.html" class="hover:text-blue-600">Notícias</a>
-        <a href="politica.html" class="hover:text-blue-600">Política</a>
-        <a href="../index.html" class="text-blue-600 font-bold flex items-center gap-1">
+        <a href="noticias.html" class="hover:text-emerald-600">Notícias</a>
+        <a href="politica.html" class="hover:text-emerald-600">Política</a>
+        <a href="../index.html" class="text-emerald-600 font-bold flex items-center gap-1">
           <i data-lucide="arrow-left" class="w-4 h-4"></i>
           <span>Central de Serviços</span>
         </a>
@@ -48,91 +49,206 @@
     </div>
   </header>
 
+  <!-- BANNER TOPO ADSENSE -->
   <div class="max-w-6xl mx-auto w-full px-4 pt-4">
     <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Editorial]</span>
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Atualidades]</span>
     </div>
   </div>
 
   <main class="max-w-6xl mx-auto w-full px-4 py-8 flex-1 grid grid-cols-1 lg:grid-cols-12 gap-8">
-    <div class="lg:col-span-8 space-y-8">
-      <div>
-        <span class="text-xs font-bold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
-          Economia & Comportamento
-        </span>
-        <h1 class="text-3xl font-black text-slate-900 mt-2">Atualidades, Mercado de Trabalho & Finanças</h1>
-        <p class="text-sm text-slate-500 mt-1">
-          Guias explicativos e tendências para planejar seus gastos, economizar e entender as finanças do dia a dia.
+    <div class="lg:col-span-8 space-y-6">
+
+      <!-- TÍTULO & STATUS DO AGENTE 24H -->
+      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4 mb-4">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+              Agente de Atualidades 24h Ativo
+            </span>
+          </div>
+          <div class="text-xs text-slate-400 font-medium flex items-center gap-1">
+            <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+            <span id="label-ultima-atualizacao">Atualizando dados...</span>
+          </div>
+        </div>
+
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+          Atualidades, Finanças Pessoais & Direitos do Cidadão
+        </h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-2 leading-relaxed">
+          Notícias atualizadas automaticamente a cada hora com foco no bolso do trabalhador: <strong>inflação, FGTS, benefícios sociais, mercado de trabalho e direitos do consumidor</strong>.
         </p>
+
+        <!-- Filtros Rápidos -->
+        <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-100 mt-4 text-xs font-semibold">
+          <button onclick="filtrarCategoria('todas')" class="px-3 py-1.5 rounded-lg bg-emerald-600 text-white font-bold" id="btn-filtro-todas">Todas</button>
+          <button onclick="filtrarCategoria('Finanças do Cidadão')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Finanças & Economia</button>
+          <button onclick="filtrarCategoria('Trabalho & Benefícios')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Trabalho & Benefícios</button>
+        </div>
       </div>
 
-      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-slate-300 transition-colors space-y-3">
-        <div class="flex items-center gap-2 text-xs text-slate-400 font-medium">
-          <span class="text-emerald-600 font-bold">FINANÇAS DO TRABALHADOR</span>
-          <span>•</span>
-          <span>Planejamento</span>
+      <!-- FEED COM MINIATURAS E MATÉRIAS COMPLETAS -->
+      <div id="feed-atualidades" class="space-y-4">
+        <div class="text-center py-12 bg-white rounded-2xl border border-slate-200">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-emerald-600 border-r-transparent"></div>
+          <p class="text-xs text-slate-500 mt-2 font-medium">Carregando matérias de atualidades em tempo real...</p>
         </div>
-        <h2 class="text-xl font-bold text-slate-900 hover:text-emerald-600 transition-colors">
-          Como os descontos progressivos de INSS e IRRF afetam o poder de compra em 2026
-        </h2>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          Com as novas alíquotas progressivas, muitos trabalhadores recebem um valor líquido na conta bancária muito diferente do salário contratado na carteira de trabalho. Aprenda a ler os dados do seu holerite e calcular quanto sobra de verdade após as deduções obrigatórias.
-        </p>
-        <div class="pt-2">
-          <a href="../servicos/calculadora-rescisao-clt.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200">
-            <i data-lucide="dollar-sign" class="w-3.5 h-3.5"></i>
-            Simule seu salário líquido na nossa calculadora gratuita
-          </a>
-        </div>
-      </article>
-
-      <article class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:border-slate-300 transition-colors space-y-3">
-        <div class="flex items-center gap-2 text-xs text-slate-400 font-medium">
-          <span class="text-blue-600 font-bold">MERCADO AUTOMOTIVO</span>
-          <span>•</span>
-          <span>Veículos</span>
-        </div>
-        <h2 class="text-xl font-bold text-slate-900 hover:text-emerald-600 transition-colors">
-          Carros seminovos ou 0km: o que a Tabela FIPE indica para o comprador neste semestre
-        </h2>
-        <p class="text-sm text-slate-600 leading-relaxed">
-          A estabilização da cadeia de suprimentos e as novas taxas de juros alteraram significativamente a curva de depreciação de veículos populares como HB20, Onix e Polo. Entenda quando é o melhor momento para negociar seu veículo usado usando a FIPE como balizador.
-        </p>
-        <div class="pt-2">
-          <a href="../servicos/consulta-veicular-fipe.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-blue-600 hover:text-blue-700 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-100">
-            <i data-lucide="car" class="w-3.5 h-3.5"></i>
-            Consulte a cotação média de veículos na Tabela FIPE
-          </a>
-        </div>
-      </article>
+      </div>
 
       <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
         <span>[Espaço Reservado - Banner Google AdSense In-Article Responsivo]</span>
       </div>
+
     </div>
 
     <aside class="lg:col-span-4 space-y-6">
+      
+      <!-- BANNER LATERAL ADSENSE (RPM ALTO) -->
       <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium min-h-[280px] flex items-center justify-center">
         <span>[Espaço Reservado - Banner Google AdSense 300x250 Lateral Finanças]</span>
       </div>
 
+      <!-- CARD DE FERRAMENTAS RECOMENDADAS -->
+      <div class="bg-gradient-to-br from-emerald-600 to-teal-700 text-white p-6 rounded-2xl shadow-sm space-y-3">
+        <span class="text-[10px] font-black uppercase tracking-wider bg-white/20 px-2 py-0.5 rounded">Simuladores Cidadão</span>
+        <h3 class="font-black text-lg leading-snug">Calculadoras & Consultas Oficiais</h3>
+        <p class="text-xs text-emerald-100 leading-relaxed">
+          Economize tempo e confira seus cálculos trabalhistas, impostos e valores veiculares de graça:
+        </p>
+        <div class="space-y-2 pt-1 text-xs">
+          <a href="../servicos/consulta-veicular-fipe.html" class="block bg-white text-emerald-900 font-bold p-2.5 rounded-xl text-center hover:bg-emerald-50 transition shadow-sm">
+            Consultar Placa & Tabela FIPE
+          </a>
+          <a href="../servicos/calculadora-rescisao-clt.html" class="block bg-emerald-800/80 text-white font-bold p-2.5 rounded-xl text-center hover:bg-emerald-800 transition">
+            Simulador de Rescisão Trabalhista
+          </a>
+          <a href="../servicos/consulta-mei-cnpj.html" class="block bg-emerald-800/80 text-white font-bold p-2.5 rounded-xl text-center hover:bg-emerald-800 transition">
+            Consulta Situação MEI / CNPJ
+          </a>
+        </div>
+      </div>
+
+      <!-- EDITORIAS DO PORTAL -->
       <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3">
-        <h3 class="font-bold text-slate-900 text-sm">Editorias</h3>
+        <h3 class="font-bold text-slate-900 text-sm">Outras Editorias</h3>
         <ul class="text-xs space-y-2 text-slate-600">
-          <li><a href="noticias.html" class="hover:text-blue-600 flex items-center justify-between"><span>Plantão de Notícias</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
-          <li><a href="politica.html" class="hover:text-blue-600 flex items-center justify-between"><span>Política Nacional</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
-          <li><a href="promocoes.html" class="hover:text-blue-600 flex items-center justify-between"><span>Promoções & Descontos</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
+          <li><a href="noticias.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Plantão de Notícias Gerais</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
+          <li><a href="politica.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Política Nacional & TSE</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
+          <li><a href="promocoes.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Promoções & Descontos</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
         </ul>
       </div>
+
     </aside>
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12">
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12 space-y-2">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="termos-de-uso.html" class="hover:text-slate-800 underline">Termos de Uso</a>
+      <span>•</span>
+      <a href="contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
     <p>Cidadão Agora Brasil © 2026 - Conteúdo informativo e utilidades públicas.</p>
   </footer>
 
+  <!-- SCRIPT DINÂMICO PARA CARREGAR O FEED DE ATUALIDADES -->
+  <script src="atualidades_dados.js"></script>
   <script>
-    if (window.lucide) window.lucide.createIcons();
+    let TODAS_ATUALIDADES = [];
+
+    async function carregarAtualidadesDoAgente() {
+      if (typeof DADOS_ATUALIDADES !== "undefined" && DADOS_ATUALIDADES.atualidades) {
+        TODAS_ATUALIDADES = DADOS_ATUALIDADES.atualidades;
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_ATUALIDADES.ultima_atualizacao;
+        renderizarFeed(TODAS_ATUALIDADES);
+        return;
+      }
+
+      try {
+        const response = await fetch('atualidades.json?v=' + new Date().getTime());
+        if (!response.ok) throw new Error("Erro ao carregar atualidades");
+        
+        const data = await response.json();
+        TODAS_ATUALIDADES = data.atualidades || [];
+        
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + data.ultima_atualizacao;
+        renderizarFeed(TODAS_ATUALIDADES);
+      } catch (err) {
+        console.error(err);
+        document.getElementById('feed-atualidades').innerHTML = `
+          <div class="p-6 bg-white rounded-2xl border border-slate-200 text-center text-slate-500 text-sm">
+            Plantão atualizando notícias de economia e atualidades...
+          </div>
+        `;
+      }
+    }
+
+    function renderizarFeed(lista) {
+      const container = document.getElementById('feed-atualidades');
+      if (lista.length === 0) {
+        container.innerHTML = `<div class="p-6 bg-white rounded-2xl text-center text-slate-500 text-sm">Nenhuma matéria encontrada nesta editoria.</div>`;
+        return;
+      }
+
+      container.innerHTML = lista.map(item => `
+        <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-emerald-400 transition-all flex flex-col sm:flex-row gap-4 group">
+          <!-- Miniatura da Imagem Lateral -->
+          <div class="w-full sm:w-44 h-36 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100 border border-slate-100">
+            <a href="../atualidades/${item.pagina_local}">
+              <img src="${item.imagem}" alt="${item.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            </a>
+          </div>
+
+          <!-- Conteúdo da Matéria -->
+          <div class="flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs mb-1.5">
+                <span class="font-extrabold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded text-[10px] border border-emerald-200">
+                  ${item.categoria}
+                </span>
+                <span class="text-slate-400 text-[11px]">${item.coletado_em}</span>
+              </div>
+
+              <h2 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors leading-snug">
+                <a href="../atualidades/${item.pagina_local}">
+                  ${item.titulo}
+                </a>
+              </h2>
+
+              <p class="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+                ${item.resumo}
+              </p>
+            </div>
+
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs mt-3">
+              <span class="text-slate-400 text-[11px] truncate max-w-[200px]">Editoria: ${item.orgao}</span>
+              <a href="../atualidades/${item.pagina_local}" class="font-bold text-emerald-600 group-hover:text-emerald-700 flex items-center gap-1 text-xs">
+                <span>Ler matéria completa</span>
+                <i data-lucide="chevron-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      `).join('');
+
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function filtrarCategoria(cat) {
+      if (cat === 'todas') {
+        renderizarFeed(TODAS_ATUALIDADES);
+      } else {
+        const filtradas = TODAS_ATUALIDADES.filter(n => n.categoria === cat);
+        renderizarFeed(filtradas);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      carregarAtualidadesDoAgente();
+    });
   </script>
 </body>
 </html>
