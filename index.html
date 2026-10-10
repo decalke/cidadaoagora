@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google AdSense Oficial -->
@@ -752,9 +752,46 @@
     </div>
   </footer>
 
+  <!-- BANNER DE CONSENTIMENTO LGPD / COOKIES (REQUISITO GOOGLE ADSENSE) -->
+  <div id="lgpd-banner" class="fixed bottom-0 left-0 right-0 bg-slate-900/95 text-slate-100 p-4 border-t border-slate-700 shadow-2xl z-50 backdrop-blur-md transition-all duration-300" style="display: none;">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-start gap-3">
+        <i data-lucide="shield-check" class="w-6 h-6 text-emerald-400 shrink-0 mt-0.5"></i>
+        <p class="text-xs text-slate-300 leading-relaxed">
+          Utilizamos cookies e tecnologias similares para personalizar anúncios do Google AdSense, fornecer funcionalidades sociais e analisar nosso tráfego em conformidade com a <strong>LGPD</strong>. Ao continuar navegando, você concorda com a nossa <a href="conteudo/politica-privacidade.html" class="text-emerald-400 hover:underline font-semibold">Política de Privacidade</a>.
+        </p>
+      </div>
+      <div class="flex items-center gap-3 shrink-0">
+        <a href="conteudo/politica-privacidade.html" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-lg border border-slate-700 hover:bg-slate-800 transition-colors">
+          Saber mais
+        </a>
+        <button onclick="aceitarCookiesLGPD()" class="text-xs font-bold bg-emerald-500 hover:bg-emerald-600 text-slate-950 px-5 py-2 rounded-lg transition-colors shadow-sm">
+          Aceitar e Prosseguir
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script>
     if (window.lucide) {
       window.lucide.createIcons();
+    }
+
+    // Gerenciador de Consentimento LGPD
+    (function verificarConsentimento() {
+      if (!localStorage.getItem('lgpd_consent_cidadaoagora')) {
+        const banner = document.getElementById('lgpd-banner');
+        if (banner) banner.style.display = 'block';
+      }
+    })();
+
+    function aceitarCookiesLGPD() {
+      localStorage.setItem('lgpd_consent_cidadaoagora', 'true');
+      const banner = document.getElementById('lgpd-banner');
+      if (banner) {
+        banner.style.opacity = '0';
+        setTimeout(() => banner.style.display = 'none', 300);
+      }
     }
 
     function filtrarServicos() {
