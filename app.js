@@ -901,6 +901,44 @@ async function verificarPlacaUnificada(event) {
   }
 }
 
+const LOGOS_MONTADORAS = {
+  "VOLKSWAGEN": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+  "VW": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
+  "CHEVROLET": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet-logo.png",
+  "GM": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet-logo.png",
+  "FIAT": "https://upload.wikimedia.org/wikipedia/commons/1/12/Fiat_Automobiles_logo.svg",
+  "HYUNDAI": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
+  "TOYOTA": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg",
+  "JEEP": "https://upload.wikimedia.org/wikipedia/commons/1/17/Jeep_logo.svg",
+  "RENAULT": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Renault_2021_Textlogo.svg",
+  "HONDA": "https://upload.wikimedia.org/wikipedia/commons/3/38/Honda.svg",
+  "FORD": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_motor_company_logo.svg",
+  "NISSAN": "https://upload.wikimedia.org/wikipedia/commons/8/82/Nissan_logo.png",
+  "PEUGEOT": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Peugeot_2021_Logo.svg",
+  "CITROEN": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Citro%C3%ABn_2022.svg",
+  "CITROËN": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Citro%C3%ABn_2022.svg",
+  "MITSUBISHI": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mitsubishi_Motors_Logo.svg",
+  "BMW": "https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
+  "MERCEDES": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
+  "MERCEDES-BENZ": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg",
+  "AUDI": "https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg",
+  "CHERY": "https://upload.wikimedia.org/wikipedia/commons/2/25/Chery_logo.png",
+  "CAOA CHERY": "https://upload.wikimedia.org/wikipedia/commons/2/25/Chery_logo.png",
+  "BYD": "https://upload.wikimedia.org/wikipedia/commons/0/05/BYD_Auto_logo.svg",
+  "GWM": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Great_Wall_Motor_Logo.svg"
+};
+
+function obterLogoMarca(marcaStr) {
+  if (!marcaStr) return null;
+  const upper = marcaStr.toUpperCase().trim();
+  for (const [chave, url] of Object.entries(LOGOS_MONTADORAS)) {
+    if (upper.includes(chave) || chave.includes(upper)) {
+      return url;
+    }
+  }
+  return null;
+}
+
 function exibirDadosVeiculoReal(veiculo, fipe, ipvaEstimado) {
   const elNomeModelo = document.getElementById('res-fipe-modelo-nome');
   if (elNomeModelo) {
@@ -930,6 +968,29 @@ function exibirDadosVeiculoReal(veiculo, fipe, ipvaEstimado) {
   const elMesRef = document.getElementById('res-fipe-mes-ref');
   if (elMesRef) {
     elMesRef.innerText = fipe?.mesReferencia || 'Mês Atual';
+  }
+
+  // Atualiza o logo oficial da montadora correspondente
+  const logoContainer = document.getElementById('res-fipe-logo-container');
+  const imgLogo = document.getElementById('res-fipe-logo');
+  const marcaAlvo = veiculo.marca || veiculo.fabricante || fipe?.marca || '';
+  const urlLogo = obterLogoMarca(marcaAlvo);
+
+  if (imgLogo && logoContainer) {
+    if (urlLogo) {
+      imgLogo.src = urlLogo;
+      imgLogo.alt = marcaAlvo;
+      imgLogo.classList.remove('hidden');
+      logoContainer.innerHTML = `<img id="res-fipe-logo" src="${urlLogo}" alt="${marcaAlvo}" class="max-h-full max-w-full object-contain">`;
+    } else {
+      // Fallback elegante com as iniciais da montadora caso não haja logo cadastrado
+      const inicial = marcaAlvo.slice(0, 3).toUpperCase() || 'VEI';
+      logoContainer.innerHTML = `
+        <div class="w-full h-full rounded-xl bg-amber-500 text-white font-black text-sm flex items-center justify-center tracking-wider shadow-inner">
+          ${inicial}
+        </div>
+      `;
+    }
   }
 
   // Preenche dados do IPVA
