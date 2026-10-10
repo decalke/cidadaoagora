@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google AdSense Oficial -->
@@ -26,7 +26,7 @@
           CA
         </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-sky-600">Cidadão</span></span>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-sky-600">Agora</span></span>
           <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
         </div>
       </a>
@@ -59,19 +59,22 @@
 
       <div class="space-y-4">
         <div>
-          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Digite uma profissão ou código (ex: cabeleireiro, programador, eletricista, 6201)</label>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Buscar por Nome, Profissão ou Número do CNAE</label>
           <div class="relative">
             <input 
               type="text" 
               id="input-cnae" 
               oninput="filtrarCNAE()"
-              placeholder="Ex: pedreiro, marketing, alimentação, suporte..." 
+              placeholder="Ex: pet shop, 4771-7/04, programador, 6201, mecânica, 5611..." 
               class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-sky-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
             >
             <div class="absolute right-4 top-3.5 text-slate-400">
               <i data-lucide="search" class="w-5 h-5"></i>
             </div>
           </div>
+          <p class="text-[11px] text-slate-400 mt-1.5">
+            Dica: Digite o número com ou sem pontuação (ex: <strong>4771704</strong> ou <strong>4771-7/04</strong>) ou o nome da atividade (ex: <strong>pet shop</strong>, <strong>veterinário</strong>, <strong>barbeiro</strong>).
+          </p>
         </div>
 
         <!-- Lista Dinâmica de CNAEs -->
@@ -113,6 +116,7 @@
     <p>Cidadão Agora Brasil © 2026 - Classificação oficial Concla/IBGE.</p>
   </footer>
 
+  <script src="../cnae_dados.js"></script>
   <script src="../app.js"></script>
 </body>
 </html>

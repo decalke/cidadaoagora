@@ -283,23 +283,38 @@ function validarCPF(event) {
 // ==========================================
 function renderCNAEList(items) {
   const container = document.getElementById('cnae-results-list');
-  if (items.length === 0) {
+  if (!container) return;
+  if (!items || items.length === 0) {
     container.innerHTML = `
-      <div class="text-center py-6 text-slate-400 text-sm">
-        Nenhum CNAE encontrado para o termo pesquisado. Tente outra palavra-chave.
+      <div class="text-center py-8 text-slate-400 text-sm bg-white rounded-xl border border-dashed border-slate-300">
+        <i data-lucide="search-x" class="w-8 h-8 mx-auto text-slate-300 mb-2"></i>
+        Nenhum CNAE encontrado para o termo ou código pesquisado.
+        <p class="text-xs text-slate-400 mt-1">Tente pesquisar por palavras parciais (ex: pet, animal, roupa, frete) ou dígitos do código.</p>
       </div>
     `;
+    if (window.lucide) window.lucide.createIcons();
     return;
   }
 
-  container.innerHTML = items.map(item => `
-    <div class="p-4 rounded-xl border border-slate-200 hover:border-blue-400 transition-colors bg-white shadow-sm space-y-2">
+  const exibidos = items.slice(0, 50);
+  const totalTexto = items.length > 50 
+    ? `<div class="text-xs text-slate-500 font-medium pb-1 flex items-center justify-between">
+         <span>Exibindo os primeiros <strong>50</strong> de <strong>${items.length}</strong> resultados encontrados:</span>
+         <span class="text-[11px] text-sky-600 font-semibold">Refine a busca para filtrar</span>
+       </div>`
+    : `<div class="text-xs text-slate-500 font-medium pb-1">
+         <strong>${items.length}</strong> atividade(s) encontrada(s):
+       </div>`;
+
+  container.innerHTML = totalTexto + exibidos.map(item => `
+    <div class="p-4 rounded-xl border border-slate-200 hover:border-sky-400 transition-colors bg-white shadow-sm space-y-2">
       <div class="flex items-start justify-between gap-3">
         <div>
           <span class="inline-block px-2.5 py-0.5 rounded text-xs font-bold bg-slate-100 text-slate-800 font-mono">
             CNAE: ${item.codigo}
           </span>
           <h4 class="font-semibold text-slate-900 text-sm mt-1">${item.descricao}</h4>
+          ${item.sinonimos ? `<span class="text-[11px] text-slate-400 block mt-0.5">Termos relacionados: ${item.sinonimos}</span>` : ''}
         </div>
         <div>
           ${item.mei 
@@ -314,19 +329,57 @@ function renderCNAEList(items) {
       </div>
     </div>
   `).join('');
+  if (window.lucide) window.lucide.createIcons();
 }
 
 function filtrarCNAE() {
-  const query = document.getElementById('input-cnae').value.toLowerCase().trim();
-  if (!query) {
-    renderCNAEList(CNAE_DATABASE);
+  const inputEl = document.getElementById('input-cnae');
+  if (!inputEl) return;
+  const rawQuery = inputEl.value.trim();
+  if (!rawQuery) {
+    renderCNAEList(CNAE_DATABASE.slice(0, 30));
     return;
   }
 
-  const filtrados = CNAE_DATABASE.filter(item => 
-    item.descricao.toLowerCase().includes(query) || 
-    item.codigo.includes(query)
-  );
+  // Normalização do texto de busca (sem acentos e minúsculo)
+  const normalizar = (str) => (str || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+  const queryNorm = normalizar(rawQuery);
+  const apenasNumeros = rawQuery.replace(/\D/g, "");
+
+  const filtrados = CNAE_DATABASE.filter(item => {
+    // 1. Busca por código formatado ou apenas dígitos numéricos
+    if (apenasNumeros && item.codigo_limpo && item.codigo_limpo.includes(apenasNumeros)) {
+      return true;
+    }
+    if (item.codigo.toLowerCase().includes(queryNorm)) {
+      return true;
+    }
+
+    // 2. Busca por texto da descrição oficial
+    const descNorm = normalizar(item.descricao);
+    if (descNorm.includes(queryNorm)) {
+      return true;
+    }
+
+    // 3. Busca por sinônimos populares (ex: pet shop, ração, barbeiro, pedreiro)
+    if (item.sinonimos) {
+      const sinNorm = normalizar(item.sinonimos);
+      if (sinNorm.includes(queryNorm)) {
+        return true;
+      }
+    }
+
+    // 4. Busca por palavras individuais (todas as palavras devem bater)
+    const palavras = queryNorm.split(/\s+/).filter(p => p.length > 2);
+    if (palavras.length > 1) {
+      const matchTodas = palavras.every(p => descNorm.includes(p) || (item.sinonimos && normalizar(item.sinonimos).includes(p)));
+      if (matchTodas) return true;
+    }
+
+    return false;
+  });
+
   renderCNAEList(filtrados);
 }
 
