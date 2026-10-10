@@ -144,19 +144,22 @@
       <div class="pt-2 border-t border-[#D9E1EC]/70">
         <span class="text-[11px] font-bold uppercase text-[#526078] block mb-2">Exemplos populares para testar agora com 1 clique:</span>
         <div class="flex flex-wrap gap-2 text-xs">
-          <button type="button" onclick="testarPlacaExemplo('ABC1D23', 'Toyota Corolla', 'TOYOTA', '2022', 'Prata', 'R$ 138.500')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
+          <button type="button" onclick="testarPlacaExemplo('RLP5H69', 'Hyundai HB20 Platinum', 'HYUNDAI', '2021/2022', 'Prata', 'R$ 76.110,00')" class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-800 font-semibold border border-blue-200 hover:bg-blue-100 transition">
+            🚗 Hyundai HB20 (RLP5H69)
+          </button>
+          <button type="button" onclick="testarPlacaExemplo('ABC1D23', 'Toyota Corolla', 'TOYOTA', '2022', 'Prata', 'R$ 138.500,00')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
             🚗 Toyota Corolla (ABC1D23)
           </button>
-          <button type="button" onclick="testarPlacaExemplo('BRA2E19', 'Volkswagen Gol 1.0', 'VOLKSWAGEN', '2020', 'Branco', 'R$ 51.200')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
+          <button type="button" onclick="testarPlacaExemplo('BRA2E19', 'Volkswagen Gol 1.0', 'VOLKSWAGEN', '2020', 'Branco', 'R$ 51.200,00')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
             🚗 VW Gol (BRA2E19)
           </button>
-          <button type="button" onclick="testarPlacaExemplo('BHZ3C45', 'Chevrolet Onix Plus', 'CHEVROLET', '2021', 'Azul', 'R$ 74.800')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
+          <button type="button" onclick="testarPlacaExemplo('BHZ3C45', 'Chevrolet Onix Plus', 'CHEVROLET', '2021', 'Azul', 'R$ 74.800,00')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
             🚗 Chevrolet Onix (BHZ3C45)
           </button>
-          <button type="button" onclick="testarPlacaExemplo('SAO9B88', 'Jeep Renegade Longitude', 'JEEP', '2021', 'Preto', 'R$ 95.400')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
+          <button type="button" onclick="testarPlacaExemplo('SAO9B88', 'Jeep Renegade Longitude', 'JEEP', '2021', 'Preto', 'R$ 95.400,00')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
             🚙 Jeep Renegade (SAO9B88)
           </button>
-          <button type="button" onclick="testarPlacaExemplo('CUR8F22', 'Fiat Toro Freedom', 'FIAT', '2022', 'Vermelho', 'R$ 118.900')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
+          <button type="button" onclick="testarPlacaExemplo('CUR8F22', 'Fiat Toro Freedom', 'FIAT', '2022', 'Vermelho', 'R$ 118.900,00')" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-700 font-medium border border-slate-200 transition">
             🛻 Fiat Toro (CUR8F22)
           </button>
         </div>
@@ -660,6 +663,22 @@
       executarExibicaoComCache(raw, veiculoFinal, false);
     }
 
+    function extrairValorNumericoFipe(str) {
+      if (typeof str === 'number') return str;
+      if (!str) return 0;
+      const texto = String(str).trim();
+      
+      // Se contiver vírgula (ex: "R$ 76.110,00" ou "76110,00")
+      if (texto.includes(',')) {
+        const limpo = texto.replace(/[^\d,]/g, '').replace(',', '.');
+        return parseFloat(limpo) || 0;
+      }
+      
+      // Se for formato com ponto de milhar (ex: "R$ 78.500" ou "78.500")
+      const apenasDigitos = texto.replace(/\D/g, '');
+      return parseFloat(apenasDigitos) || 0;
+    }
+
     // 6. RENDERIZAÇÃO VISUAL COM FOTO REUTILIZÁVEL E LOGO
     function executarExibicaoComCache(placa, dados, vemDoCache) {
       const resDiv = document.getElementById('resultado-placa-foto');
@@ -669,7 +688,7 @@
       const marca = dados.marca || 'AUTOMÓVEL';
       const ano = dados.ano || '2021';
       const cor = dados.cor || 'Prata';
-      const precoFipe = dados.precoFipe || 'R$ 78.900';
+      const precoFipe = dados.precoFipe || 'R$ 78.900,00';
 
       // 1. Marca & Logo
       document.getElementById('res-marca-nome').innerText = marca;
@@ -741,14 +760,15 @@
 
       // 5. FIPE e IPVA
       document.getElementById('res-fipe-nome').innerText = `${marca} ${modelo} ${ano}`;
-      document.getElementById('res-fipe-valor').innerText = precoFipe;
 
-      const numValor = parseFloat(precoFipe.replace(/[^\d]/g, '')) / 100 || 0;
+      const numValor = extrairValorNumericoFipe(precoFipe);
       if (numValor > 0) {
-        document.getElementById('ipva-4').innerText = 'R$ ' + (numValor * 0.04).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
-        document.getElementById('ipva-3').innerText = 'R$ ' + (numValor * 0.035).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
-        document.getElementById('ipva-2').innerText = 'R$ ' + (numValor * 0.02).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
+        document.getElementById('res-fipe-valor').innerText = numValor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        document.getElementById('ipva-4').innerText = (numValor * 0.04).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        document.getElementById('ipva-3').innerText = (numValor * 0.035).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        document.getElementById('ipva-2').innerText = (numValor * 0.02).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
       } else {
+        document.getElementById('res-fipe-valor').innerText = precoFipe;
         document.getElementById('ipva-4').innerText = 'Consultar FIPE';
         document.getElementById('ipva-3').innerText = 'Consultar FIPE';
         document.getElementById('ipva-2').innerText = 'Consultar FIPE';
