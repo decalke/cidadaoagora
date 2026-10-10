@@ -105,9 +105,18 @@
       </nav>
 
       <div class="flex items-center space-x-2">
-        <a href="#busca-servicos" class="btn-primary text-xs !py-2 !px-4">
-          <i data-lucide="search" class="w-4 h-4"></i>
-          <span>Buscar Serviço</span>
+        <a href="conteudo/atualidades.html" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 hover:bg-blue-50 border border-[#D9E1EC] hover:border-blue-300 text-xs font-semibold text-[#172033] transition-all group shadow-2xs" title="Ver cotações completas e indicadores em Atualidades">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
+          <span class="text-[#0F1B35] font-mono flex items-center gap-1">
+            <span class="text-[10px] font-bold text-[#526078] uppercase">USD</span>
+            <span id="header-dolar" class="font-bold">R$ 5,38</span>
+          </span>
+          <span class="text-[#D9E1EC] hidden sm:inline">|</span>
+          <span class="text-[#0F1B35] font-mono hidden sm:flex items-center gap-1">
+            <span class="text-[10px] font-bold text-[#526078] uppercase">Selic</span>
+            <span id="header-selic" class="font-bold">15,00%</span>
+          </span>
+          <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-[#526078] group-hover:text-[#2563EB] group-hover:translate-x-0.5 transition-transform"></i>
         </a>
       </div>
     </div>
@@ -116,7 +125,7 @@
   <main class="flex-1">
 
     <!-- HERO SECTION LIMPA E ACESSÍVEL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
-    <section id="busca-servicos" class="max-w-7xl mx-auto w-full px-4 pt-6 pb-2">
+    <section id="hero-servicos" class="max-w-7xl mx-auto w-full px-4 pt-6 pb-2">
       <div class="bg-gradient-to-r from-[#0F1B35] via-[#1E40AF] to-[#0F1B35] rounded-2xl p-6 sm:p-10 text-white shadow-md relative overflow-hidden">
         <div class="relative z-10 max-w-4xl mx-auto text-center space-y-4">
           
@@ -132,33 +141,6 @@
           <p class="text-blue-100 text-xs sm:text-sm max-w-2xl mx-auto leading-relaxed">
             Acesse dados públicos de empresas, veículos, direitos trabalhistas e geradores de documentos oficiais sem burocracia e sem cadastro.
           </p>
-
-          <!-- BUSCADOR PRINCIPAL DE SERVIÇOS NO TOPO DA HOME -->
-          <div class="pt-2 max-w-2xl mx-auto">
-            <form onsubmit="event.preventDefault(); focarFiltroServicos();" class="relative" role="search">
-              <label for="campo-busca" class="sr-only">O que você precisa consultar ou calcular?</label>
-              <div class="relative flex items-center">
-                <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 pointer-events-none"></i>
-                <input 
-                  type="text" 
-                  id="campo-busca" 
-                  oninput="filtrarServicosAoDigitar()"
-                  placeholder="O que você precisa consultar ou calcular?" 
-                  class="w-full pl-12 pr-28 py-4 rounded-xl text-slate-900 bg-white border-2 border-white/80 focus:border-[#F59E0B] focus:ring-4 focus:ring-[#F59E0B]/20 text-base shadow-lg outline-none transition-all placeholder:text-slate-400"
-                  autocomplete="off"
-                >
-                <button 
-                  type="button" 
-                  onclick="limparOuFocarBusca()" 
-                  id="btn-limpar-busca"
-                  class="absolute right-2 px-3 py-2 rounded-lg bg-[#2563EB] hover:bg-[#1E40AF] text-white text-xs font-bold transition-colors flex items-center gap-1 touch-target"
-                >
-                  <span id="texto-btn-busca">Buscar</span>
-                </button>
-              </div>
-            </form>
-            <p id="busca-feedback" aria-live="polite" class="text-xs text-blue-200 mt-2 text-left sm:text-center hidden"></p>
-          </div>
 
           <!-- 5 ATALHOS PRIORITÁRIOS NO HERO -->
           <div class="pt-3">
@@ -1011,9 +993,30 @@
       window.lucide.createIcons();
     }
 
+    // Atualização em tempo real da mini-pílula de cotações no topo
+    async function carregarCotacaoTopo() {
+      try {
+        const res = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL');
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.USDBRL) {
+            const val = parseFloat(data.USDBRL.bid).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const elDolar = document.getElementById('header-dolar');
+            if (elDolar) elDolar.textContent = 'R$ ' + val;
+          }
+        }
+      } catch (e) {
+        // Fallback estático já preservado
+      }
+    }
+    carregarCotacaoTopo();
+
+
     // Busca de serviços em tempo real
     function filtrarServicosAoDigitar() {
-      const termo = document.getElementById('campo-busca').value.toLowerCase().trim();
+      const campo = document.getElementById('campo-busca');
+      if (!campo) return;
+      const termo = campo.value.toLowerCase().trim();
       const feedback = document.getElementById('busca-feedback');
       const itens = document.querySelectorAll('#grid-todos-servicos .item-servico');
       let encontrados = 0;
