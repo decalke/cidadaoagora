@@ -869,10 +869,16 @@ async function verificarPlacaUnificada(event) {
   if (dadosEmCache) {
     try {
       const dataCached = JSON.parse(dadosEmCache);
-      exibirDadosVeiculoReal(dataCached.veiculo, dataCached.fipe, dataCached.ipvaEstimado);
-      console.log(`[Cache Local] Veículo carregado da memória local: ${raw}`);
-      finalizarBuscaVisual(submitBtn, btnOriginalHtml);
-      return;
+      // Se o cache tiver o dado do veículo E o valor da FIPE preenchido, usa do cache!
+      if (dataCached.veiculo && dataCached.fipe?.valor) {
+        exibirDadosVeiculoReal(dataCached.veiculo, dataCached.fipe, dataCached.ipvaEstimado);
+        console.log(`[Cache Local] Veículo e FIPE carregados da memória local: ${raw}`);
+        finalizarBuscaVisual(submitBtn, btnOriginalHtml);
+        return;
+      } else {
+        // Se o cache anterior era incompleto (sem FIPE), limpa para forçar busca nova
+        localStorage.removeItem(cacheKey);
+      }
     } catch (e) {
       localStorage.removeItem(cacheKey);
     }
@@ -911,11 +917,16 @@ async function verificarPlacaUnificada(event) {
     if (apiRes.ok) {
       const data = await apiRes.json();
       if (data.sucesso && data.veiculo) {
+        // Se a FIPE não veio do backend, busca diretamente no navegador (grátis)
+        if (!data.fipe?.valor) {
+          data.fipe = await consultarFipeNoCliente(data.veiculo);
+        }
+
         // Incrementa o contador de consultas do usuário
         usoDiario.contador += 1;
         localStorage.setItem('uso_consultas_placa', JSON.stringify(usoDiario));
 
-        // Salva os dados desta placa no cache do navegador (economia total)
+        // Salva os dados completos desta placa no cache do navegador
         localStorage.setItem(cacheKey, JSON.stringify(data));
 
         exibirDadosVeiculoReal(data.veiculo, data.fipe, data.ipvaEstimado);
@@ -931,9 +942,77 @@ async function verificarPlacaUnificada(event) {
     }
   } catch (err) {
     console.warn("API de consulta veicular indisponível no momento. Usando catálogo FIPE local.", err);
-    popularSeletoresFipe();
   } finally {
     finalizarBuscaVisual(submitBtn, btnOriginalHtml);
+  }
+}
+
+async function consultarFipeNoCliente(veiculo) {
+  try {
+    let codMarca = veiculo.marcaDetalhes?.fipeId ? String(veiculo.marcaDetalhes.fipeId) : null;
+    if (!codMarca || isNaN(Number(codMarca))) {
+      const resMarcas = await fetch('https://parallelum.com.br/fipe/api/v1/carros/marcas');
+      if (!resMarcas.ok) return null;
+      const marcas = await resMarcas.json();
+      const mStr = (veiculo.marca || veiculo.fabricante || '').toUpperCase();
+      const mEncontrada = marcas.find(m => m.nome.toUpperCase().includes(mStr) || mStr.includes(m.nome.toUpperCase()));
+      if (mEncontrada) codMarca = mEncontrada.codigo;
+    }
+    if (!codMarca) return null;
+
+    const resModelos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos`);
+    if (!resModelos.ok) return null;
+    const { modelos } = await resModelos.json();
+
+    const modStr = (veiculo.modelo || '').toUpperCase();
+    const verStr = (veiculo.versao || '').toUpperCase();
+    const termos = `${modStr} ${verStr}`.replace(/[()\/\\-]/g, ' ').split(/\s+/).filter(t => t.length >= 3);
+
+    let melhorMod = null;
+    let maxPts = -1;
+
+    for (const m of modelos) {
+      const nMod = m.nome.toUpperCase();
+      let pts = 0;
+      if (modStr && nMod.includes(modStr)) pts += 10;
+      for (const t of termos) {
+        if (nMod.includes(t) || (t.length >= 5 && nMod.includes(t.slice(0, 5)))) pts += 5;
+      }
+      if (pts > maxPts) {
+        maxPts = pts;
+        melhorMod = m;
+      }
+    }
+
+    if (!melhorMod || maxPts <= 0) {
+      melhorMod = modelos.find(m => m.nome.toUpperCase().includes(modStr)) || null;
+    }
+    if (!melhorMod) return null;
+
+    const resAnos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos`);
+    if (!resAnos.ok) return null;
+    const anos = await resAnos.json();
+
+    const anoDesejado = String(veiculo.ano_modelo || veiculo.ano_fabricacao || '');
+    let anoObj = anos.find(a => a.codigo.startsWith(anoDesejado)) || anos[0];
+    if (!anoObj) return null;
+
+    const resFipe = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos/${anoObj.codigo}`);
+    if (!resFipe.ok) return null;
+    const fipeFinal = await resFipe.json();
+
+    return {
+      valor: fipeFinal.Valor,
+      marca: fipeFinal.Marca,
+      modelo: fipeFinal.Modelo,
+      anoModelo: fipeFinal.AnoModelo,
+      combustivel: fipeFinal.Combustivel,
+      codigoFipe: fipeFinal.CodigoFipe,
+      mesReferencia: fipeFinal.MesReferencia
+    };
+  } catch (e) {
+    console.warn("Erro ao buscar FIPE no cliente:", e);
+    return null;
   }
 }
 
