@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "10/10/2026 às 02:13:15",
+  "ultima_atualizacao": "10/10/2026 às 09:39:10",
   "total": 36,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-do-rj-identifica-desvios-de-r-400-milhoes-na-cedae-saude",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-r-498-e-acumula-perda-de-444-na-semana",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/reforma-tributaria-86-das-notas-fiscais-destacam-cbs",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bancos-comecam-devolver-r-13-bilhao-apostadores-de-bets",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pix-ultrapassa-1-bilhao-de-chaves-cadastradas-no-brasil",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tributos-da-gasolina-sao-zerados-e-subsidios-combustiveis-ampliados",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inpc-inflacao-que-corrige-salarios-acumula-429-em-12-meses",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/credito-extraordinario-de-r-75-bi-reforca-subsidios-combustiveis",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -130,7 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/industria-aponta-juros-altos-como-principal-barreira-ao-credito",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC pelo fim da 6x1 para quarta-feira",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-pelo-fim-da-6x1-para-quarta-feira",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Estudantes fazem atos pelo país em apoio a Lula",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/estudantes-fazem-atos-pelo-pais-em-apoio-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "PF nega existência de depoimento de Vorcaro sobre Lula",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pf-nega-existencia-de-depoimento-de-vorcaro-sobre-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-faz-ato-no-rio-ao-lado-de-douglas-ruas",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Ana Elisa desativa conta no X após sofrer ameaças de morte",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ana-elisa-desativa-conta-no-x-apos-sofrer-ameacas-de-morte",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/brasil-nao-sera-governado-por-socios-do-banco-master-diz-lula-em-ato",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/comeca-nesta-sexta-propaganda-eleitoral-gratuita-no-radio-e-na-tv",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (9)",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-sexta-feira-9",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Paes desiste de candidatura no Rio, após Zanin negar recurso ao STF",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/paes-desiste-de-candidatura-no-rio-apos-zanin-negar-recurso-ao-stf",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Conheça as propostas de Flávio e Lula para a segurança pública",
@@ -260,7 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/conheca-propostas-de-flavio-e-lula-para-seguranca-publica",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Belém se prepara para receber o Círio de Nazaré",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/belem-se-prepara-para-receber-o-cirio-de-nazare",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Piloto morre após queda de avião em pátio de manutenção do metrô de BH",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/piloto-morre-apos-queda-de-aviao-em-patio-de-manutencao-do-metro-de-bh",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "PRF inicia Operação Nossa Senhora Aparecida 2026 nesta sexta",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/prf-inicia-operacao-nossa-senhora-aparecida-2026-nesta-sexta",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Caldeira de usina explode e mata dois homens no interior de SP",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/caldeira-de-usina-explode-e-mata-dois-homens-no-interior-de-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 112 milhões; confira os números sorteados",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-112-milhoes-confira-os-numeros-sorteados",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Juiz é encontrado morto dentro de veículo em chamas no interior de SP",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/juiz-e-encontrado-morto-dentro-de-veiculo-em-chamas-no-interior-de-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Reitor da UFPE estima prejuízo de incêndio em cerca R$ 100 milhões",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/reitor-da-ufpe-estima-prejuizo-de-incendio-em-cerca-r-100-milhoes",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "PF vai investigar incêndio na Universidade Federal de Pernambuco",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-vai-investigar-incendio-na-universidade-federal-de-pernambuco",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Incêndio causa danos a prédio da Universidade Federal de Pernambuco",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/incendio-causa-danos-predio-da-universidade-federal-de-pernambuco",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 100 milhões nesta quinta",
@@ -390,7 +390,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-de-r-100-milhoes-nesta-quinta",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "TSE manda suspender site que oferece criptomoedas por apoio a Flávio",
@@ -403,7 +403,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-manda-suspender-site-que-oferece-criptomoedas-por-apoio-flavio",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
@@ -416,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/edson-fachin-manda-pf-investigar-ameacas-contra-flavio-dino",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Justiça derruba decisão que liberou operação de plataforma de apostas",
@@ -429,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-derruba-decisao-que-liberou-operacao-de-plataforma-de-apostas",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Pesquisa mostra que 82% são contra crianças de até 3 anos com celular",
@@ -442,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/pesquisa-mostra-que-82-sao-contra-criancas-de-ate-3-anos-com-celular",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "CBF divulga calendário masculino para 2027 com pausa da Copa Feminina",
@@ -455,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/cbf-divulga-calendario-masculino-para-2027-com-pausa-da-copa-feminina",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Fifa: um em cada cinco ataques virtuais na Copa do Mundo foi racista",
@@ -468,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/fifa-um-em-cada-cinco-ataques-virtuais-na-copa-do-mundo-foi-racista",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     }
   ]
 };

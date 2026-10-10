@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "10/10/2026 às 02:13:22",
+  "ultima_atualizacao": "10/10/2026 às 09:39:14",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Estudantes fazem atos pelo país em apoio a Lula",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "PF nega existência de depoimento de Vorcaro sobre Lula",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Ana Elisa desativa conta no X após sofrer ameaças de morte",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (9)",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Paes desiste de candidatura no Rio, após Zanin negar recurso ao STF",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Conheça as propostas de Flávio e Lula para a segurança pública",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "TSE manda suspender site que oferece criptomoedas por apoio a Flávio",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Justiça derruba decisão que liberou operação de plataforma de apostas",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "TSE aciona PF após servidores receberem ameaças pelas redes sociais",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "STF: Fachin diz que pretende arquivar inquérito das Fake News",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "MPRJ denuncia mais oito PMs que participaram da Operação Contenção",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Eduardo Bolsonaro consta em lista de pena pendente de cumprimento",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "AGU cria força-tarefa para atuar em caso de incêndio na UFPE",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "TSE determina que Lula e Janja removam vídeos contra Flávio",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Dino expõe relatório com ameaça de assassinato contra ministros do STF",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Governo do RJ identifica desvios de R$ 400 milhões na Cedae Saúde",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 02:13"
+      "coletado_em": "10/10/2026 às 09:39"
     }
   ]
 };
