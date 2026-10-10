@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+  <!-- Google AdSense Oficial -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendário de Feriados Nacionais e Dias Úteis - Cidadão Agora</title>
+  <meta name="description" content="Confira o calendário oficial de feriados nacionais, pontos facultativos federais e emendas do ano. Planeje viagens, folgas e prazos úteis com dados da BrasilAPI.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-rose-600 flex items-center justify-center text-white font-extrabold text-lg">
+          CA
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-rose-600">Agora</span></span>
+          <span class="text-[10px] block text-rose-700 font-extrabold uppercase tracking-wider">Feriados Oficiais</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-rose-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- BANNER TOPO ADSENSE -->
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Feriados]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- SELETOR DO ANO E LISTA DE FERIADOS -->
+    <section class="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-6">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-rose-50 text-rose-800 border border-rose-200 mb-2">
+            <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+            Portarias Federais Oficiais
+          </div>
+          <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Calendário de Feriados Nacionais</h1>
+          <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+            Consulte os feriados oficiais da legislação brasileira e planeje dias úteis e pontes.
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <label class="text-xs font-bold text-slate-600 uppercase">Ano:</label>
+          <select id="select-ano" onchange="carregarFeriados()" class="px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-slate-900 text-sm bg-white outline-none focus:ring-2 focus:ring-rose-500 shadow-xs">
+            <option value="2026" selected>2026</option>
+            <option value="2027">2027</option>
+            <option value="2025">2025</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- LISTA DINÂMICA DE FERIADOS -->
+      <div id="lista-feriados" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="col-span-full text-center py-10">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-rose-600 border-r-transparent"></div>
+          <p class="text-xs text-slate-500 mt-2 font-medium">Carregando calendário oficial...</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- BANNER IN-ARTICLE (ALTO RPM) -->
+    <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 In-Article Turismo & Viagens]</span>
+    </div>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center space-y-2">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
+    <p>Cidadão Agora Brasil © 2026 - Dados oficiais de feriados sincronizados via BrasilAPI.</p>
+  </footer>
+
+  <script>
+    const DIAS_SEMANA = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
+    const MESES = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
+
+    async function carregarFeriados() {
+      const ano = document.getElementById('select-ano').value;
+      const container = document.getElementById('lista-feriados');
+      container.innerHTML = `
+        <div class="col-span-full text-center py-10">
+          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-rose-600 border-r-transparent"></div>
+          <p class="text-xs text-slate-500 mt-2 font-medium">Carregando calendário de ${ano}...</p>
+        </div>
+      `;
+
+      try {
+        const res = await fetch(`https://brasilapi.com.br/api/feriados/v1/${ano}`);
+        if (!res.ok) throw new Error("Erro na API");
+        const feriados = await res.json();
+
+        container.innerHTML = feriados.map(f => {
+          const [anoPart, mesPart, diaPart] = f.date.split('-');
+          const dataObj = new Date(parseInt(anoPart), parseInt(mesPart) - 1, parseInt(diaPart));
+          const diaSemana = DIAS_SEMANA[dataObj.getDay()];
+          const nomeMes = MESES[parseInt(mesPart) - 1];
+
+          return `
+            <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-3.5 hover:border-rose-300 transition-all">
+              <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex flex-col items-center justify-center font-black shrink-0">
+                <span class="text-xs uppercase">${nomeMes}</span>
+                <span class="text-base leading-none">${diaPart}</span>
+              </div>
+              <div class="flex-1">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">${diaSemana}</span>
+                <h3 class="font-bold text-slate-900 text-sm mt-0.5 leading-snug">${f.name}</h3>
+                <span class="text-[10px] font-semibold text-rose-700 bg-rose-50 px-2 py-0.5 rounded border border-rose-100 inline-block mt-2">
+                  Feriado Nacional Oficial
+                </span>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+      } catch (e) {
+        container.innerHTML = `
+          <div class="col-span-full p-6 text-center text-rose-700 bg-rose-50 rounded-2xl border border-rose-200 text-xs font-semibold">
+            Não foi possível carregar os feriados no momento. Tente novamente mais tarde.
+          </div>
+        `;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      carregarFeriados();
+    });
+  </script>
+</body>
+</html>

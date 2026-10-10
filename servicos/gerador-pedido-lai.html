@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+  <!-- Google AdSense Oficial -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Pedido de Informação (LAI - Lei 12.527) - Cidadão Agora</title>
+  <meta name="description" content="Gere modelos formais de pedidos da Lei de Acesso à Informação (LAI) para protocolar em Prefeituras, Câmaras, Ministérios e órgãos públicos via Fala.BR.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-sky-600 flex items-center justify-center text-white font-extrabold text-lg">
+          CA
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-sky-600">Agora</span></span>
+          <span class="text-[10px] block text-sky-700 font-extrabold uppercase tracking-wider">Transparência & LAI</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-sky-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- BANNER TOPO ADSENSE -->
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo LAI]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- GERADOR DE PEDIDO LAI -->
+    <section class="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-sky-50 text-sky-800 border border-sky-200 mb-2">
+          <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+          Direito Constitucional à Transparência (Lei nº 12.527/2011)
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Gerador de Pedido de Informação (LAI)</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Preencha o formulário abaixo para gerar uma petição formal e fundamentada na Lei de Acesso à Informação para protocolar no <strong>Fala.BR (Governo Federal)</strong> ou nos e-SIC estaduais e municipais.
+        </p>
+      </div>
+
+      <form id="form-lai" onsubmit="gerarTextoLAI(event)" class="space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Órgão Público Destinatário</label>
+            <input type="text" id="lai-orgao" placeholder="Ex: Prefeitura Municipal, Ministério da Saúde..." required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Assunto / Categoria</label>
+            <select id="lai-tema" onchange="sugerirTexto()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none bg-white font-medium">
+              <option value="licitacoes">Contratos e Licitações Públicas</option>
+              <option value="gastos">Prestação de Contas e Gastos Públicos</option>
+              <option value="concurso">Concursos Públicos e Nomeações</option>
+              <option value="obras">Andamento de Obras Públicas e Cronograma</option>
+              <option value="personalizado">Outro Assunto Específico</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Informações Específicas Solicitadas</label>
+          <textarea id="lai-detalhes" rows="4" required placeholder="Descreva os dados, números de contratos ou períodos que deseja obter..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 rounded-xl text-sm transition flex items-center justify-center gap-2 shadow">
+          <i data-lucide="copy" class="w-4 h-4"></i>
+          <span>Gerar Pedido Formatado</span>
+        </button>
+      </form>
+
+      <!-- RESULTADO FORMATADO -->
+      <div id="result-lai" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-4">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold uppercase text-sky-700">Texto Formal Pronto para Copiar:</span>
+          <button onclick="copiarTextoLAI()" class="px-3 py-1.5 rounded-lg bg-sky-100 hover:bg-sky-200 text-sky-800 text-xs font-bold flex items-center gap-1 transition">
+            <i data-lucide="clipboard-copy" class="w-3.5 h-3.5"></i>
+            <span id="btn-copiar-label">Copiar Texto</span>
+          </button>
+        </div>
+        <textarea id="lai-saida" readonly rows="9" class="w-full p-4 rounded-xl border border-slate-300 bg-slate-50 font-mono text-xs text-slate-800 leading-relaxed outline-none"></textarea>
+        
+        <div class="p-4 bg-sky-50 rounded-xl border border-sky-200 text-xs text-sky-950 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <span>Onde protocolar este pedido gratuitamente:</span>
+          <a href="https://falabr.cgu.gov.br/" target="_blank" rel="noopener noreferrer" class="font-bold text-sky-700 hover:underline flex items-center gap-1 shrink-0">
+            Acessar Plataforma Fala.BR (CGU) →
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center space-y-2">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
+    <p>Cidadão Agora Brasil © 2026 - Ferramenta cívica de estímulo ao controle social da administração pública.</p>
+  </footer>
+
+  <script>
+    function sugerirTexto() {
+      const tema = document.getElementById('lai-tema').value;
+      const campo = document.getElementById('lai-detalhes');
+      if (tema === 'licitacoes') {
+        campo.value = "Solicito cópia integral em formato aberto (PDF/planilha) do edital, ata de julgamento e contratos vigentes relacionados aos serviços de...";
+      } else if (tema === 'gastos') {
+        campo.value = "Solicito o demonstrativo analítico de despesas e empenhos liquidados pelo órgão no período de MM/AAAA a MM/AAAA, detalhando favorecidos e valores...";
+      } else if (tema === 'obras') {
+        campo.value = "Solicito informações sobre o cronograma físico-financeiro atualizado, medições realizadas e empresa responsável pela obra localizada em...";
+      }
+    }
+
+    function gerarTextoLAI(event) {
+      event.preventDefault();
+      const orgao = document.getElementById('lai-orgao').value.trim();
+      const detalhes = document.getElementById('lai-detalhes').value.trim();
+
+      const texto = `À Autoridade Responsável pelo Serviço de Informação ao Cidadão (SIC)
+${orgao}
+
+Assunto: Pedido de Acesso à Informação com base na Lei Federal nº 12.527/2011 (LAI).
+
+Prezados Senhores,
+
+Com fundamento no artigo 5º, inciso XXXIII da Constituição Federal e na Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), venho por meio deste solicitar formalmente o fornecimento das seguintes informações públicas:
+
+${detalhes}
+
+Ressalto que, nos termos do artigo 11 da referida legislação, o órgão público tem o dever de autorizar ou conceder o acesso imediato à informação disponível ou responder no prazo regulamentar de até 20 (vinte) dias.
+
+Solicito preferencialmente o envio dos documentos e respostas em formato eletrônico aberto (planilhas / PDF pesquisável).
+
+Nestes termos,
+Pede deferimento.`;
+
+      document.getElementById('lai-saida').value = texto;
+      const res = document.getElementById('result-lai');
+      res.classList.remove('hidden');
+      res.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function copiarTextoLAI() {
+      const txt = document.getElementById('lai-saida');
+      txt.select();
+      navigator.clipboard.writeText(txt.value);
+      const label = document.getElementById('btn-copiar-label');
+      label.innerText = 'Copiado com sucesso!';
+      setTimeout(() => label.innerText = 'Copiar Texto', 2500);
+    }
+
+    if (window.lucide) window.lucide.createIcons();
+    sugerirTexto();
+  </script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+  <!-- Google AdSense Oficial -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Reajuste de Aluguel (IGP-M e IPCA) - Cidadão Agora</title>
+  <meta name="description" content="Calcule o reajuste anual do seu aluguel pelos índices oficiais IGP-M (FGV) ou IPCA (IBGE). Descubra o novo valor da locação e a variação acumulada.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .ad-placeholder {
+      border: 1px dashed #cbd5e1;
+      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+
+  <!-- CABEÇALHO -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5">
+        <div class="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-extrabold text-lg">
+          CA
+        </div>
+        <div>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-indigo-600">Agora</span></span>
+          <span class="text-[10px] block text-indigo-700 font-extrabold uppercase tracking-wider">Reajuste de Locação</span>
+        </div>
+      </a>
+      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-indigo-600 flex items-center gap-1">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- BANNER TOPO ADSENSE -->
+  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
+    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Aluguel]</span>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- CALCULADORA DE REAJUSTE DE ALUGUEL -->
+    <section class="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-indigo-50 text-indigo-800 border border-indigo-200 mb-2">
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+          Simulação Baseada na Lei do Inquilinato (Lei 8.245/91)
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Calculadora de Reajuste de Aluguel</h1>
+        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+          Calcule com precisão o novo valor mensal do contrato de locação utilizando os acumulados oficiais do <strong>IGP-M (FGV)</strong> ou do <strong>IPCA (IBGE)</strong>.
+        </p>
+      </div>
+
+      <form id="form-aluguel" onsubmit="calcularAluguel(event)" class="space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Valor Atual do Aluguel (R$)</label>
+            <input 
+              type="number" 
+              id="input-valor-aluguel" 
+              placeholder="Ex: 1500" 
+              step="0.01" 
+              required
+              class="w-full px-4 py-3 rounded-xl border border-slate-300 font-bold text-slate-900 text-base outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm"
+            >
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Índice Contratual</label>
+            <select id="select-indice" onchange="atualizarTaxaSugerida()" class="w-full px-3.5 py-3 rounded-xl border border-slate-300 font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm bg-white">
+              <option value="ipca">IPCA (IBGE) - Padrão Mais Utilizado</option>
+              <option value="igpm">IGP-M (FGV) - Tradicional Imobiliário</option>
+              <option value="personalizado">Outro Percentual (Personalizado)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Taxa Acumulada em 12 Meses (%)</label>
+            <input 
+              type="number" 
+              id="input-taxa" 
+              value="4.29" 
+              step="0.01" 
+              required
+              class="w-full px-4 py-3 rounded-xl border border-slate-300 font-bold text-indigo-700 text-base outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm"
+            >
+          </div>
+        </div>
+
+        <button 
+          type="submit" 
+          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3.5 px-6 rounded-xl font-bold text-sm transition-colors flex items-center justify-center gap-2 shadow"
+        >
+          <i data-lucide="check-circle" class="w-4 h-4"></i>
+          <span>Calcular Novo Valor do Aluguel</span>
+        </button>
+      </form>
+
+      <!-- RESULTADO DO CÁLCULO -->
+      <div id="result-aluguel" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-6">
+        
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-indigo-50 via-slate-50 to-indigo-100/50 border border-indigo-200">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <span class="text-xs uppercase font-extrabold text-indigo-700 tracking-wider">Novo Aluguel Reajustado</span>
+              <h2 id="res-novo-valor" class="text-3xl sm:text-4xl font-black text-slate-900 leading-tight mt-0.5"></h2>
+              <p class="text-xs text-slate-500 mt-1">Válido para os próximos 12 meses de vigência do contrato.</p>
+            </div>
+            <div class="bg-white p-3.5 rounded-xl border border-indigo-200 shadow-xs sm:text-right shrink-0">
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Acréscimo Mensal</span>
+              <span id="res-diferenca" class="font-mono text-xl font-black text-indigo-700"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <span class="text-[11px] text-slate-400 font-bold uppercase block">Valor Anterior</span>
+            <span id="res-valor-anterior" class="font-bold text-slate-900 text-base mt-0.5 block"></span>
+          </div>
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <span class="text-[11px] text-slate-400 font-bold uppercase block">Percentual Aplicado</span>
+            <span id="res-percentual" class="font-bold text-indigo-700 text-base mt-0.5 block"></span>
+          </div>
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <span class="text-[11px] text-slate-400 font-bold uppercase block">Impacto em 12 Meses</span>
+            <span id="res-acumulado-ano" class="font-bold text-slate-900 text-base mt-0.5 block"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BANNER IN-ARTICLE (ALTO RPM) -->
+    <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 In-Article Aluguel & Financiamento]</span>
+    </div>
+
+    <!-- GUIA PRÁTICO SEO -->
+    <article class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
+      <h2 class="text-lg font-bold text-slate-900">Como funciona o reajuste anual de aluguel pela Lei do Inquilinato?</h2>
+      <p>
+        No Brasil, a Lei nº 8.245/1991 (Lei do Inquilinato) proíbe o reajuste com periodicidade inferior a 1 ano (12 meses). O contrato deve estipular expressamente qual índice será utilizado.
+      </p>
+      <p>
+        Historicamente, o <strong>IGP-M (Índice Geral de Preços do Mercado)</strong> foi o mais usado, mas devido à alta volatilidade cambial, a maioria dos contratos recentes adota o <strong>IPCA (Índice Nacional de Preços ao Consumidor Amplo)</strong>, que reflete mais fielmente a inflação oficial do custo de vida.
+      </p>
+    </article>
+
+  </main>
+
+  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center space-y-2">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
+    <p>Cidadão Agora Brasil © 2026 - Cálculos baseados na legislação civil e índices públicos.</p>
+  </footer>
+
+  <script>
+    function atualizarTaxaSugerida() {
+      const idx = document.getElementById('select-indice').value;
+      const inputTaxa = document.getElementById('input-taxa');
+      if (idx === 'ipca') {
+        inputTaxa.value = '4.29';
+      } else if (idx === 'igpm') {
+        inputTaxa.value = '3.85';
+      }
+    }
+
+    function formatarMoeda(val) {
+      return val.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
+
+    function calcularAluguel(event) {
+      event.preventDefault();
+      const anterior = parseFloat(document.getElementById('input-valor-aluguel').value) || 0;
+      const taxa = parseFloat(document.getElementById('input-taxa').value) || 0;
+
+      if (anterior <= 0) {
+        alert("Informe um valor válido de aluguel.");
+        return;
+      }
+
+      const acrescimo = anterior * (taxa / 100);
+      const novoValor = anterior + acrescimo;
+      const totalAno = acrescimo * 12;
+
+      document.getElementById('res-novo-valor').innerText = formatarMoeda(novoValor);
+      document.getElementById('res-diferenca').innerText = `+ ${formatarMoeda(acrescimo)}`;
+      document.getElementById('res-valor-anterior').innerText = formatarMoeda(anterior);
+      document.getElementById('res-percentual').innerText = `${taxa.toFixed(2)}% ao ano`;
+      document.getElementById('res-acumulado-ano').innerText = `+ ${formatarMoeda(totalAno)} no ano`;
+
+      const box = document.getElementById('result-aluguel');
+      box.classList.remove('hidden');
+      box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    if (window.lucide) window.lucide.createIcons();
+  </script>
+</body>
+</html>
