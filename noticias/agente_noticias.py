@@ -134,6 +134,7 @@ def gerar_pagina_materia(noticia):
   <meta property="og:description" content="{noticia['resumo']}">
   <meta property="og:image" content="{noticia['imagem']}">
   <meta property="og:type" content="article">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
