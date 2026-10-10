@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -20,73 +20,385 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
   <meta name="theme-color" content="#2563EB">
-  <title>Como Saber o Estado pela Placa do Carro? Consulta Senatran - Cidadão Agora</title>
-  <meta name="description" content="Entenda a distribuição das séries alfanuméricas das placas Mercosul e saiba como identificar a unidade federativa de registro de veículos.">
+  <title>Como Saber o Estado pela Placa do Carro? Modelo Mercosul vs Antigo - Cidadão Agora</title>
+  <meta name="description" content="Guia completo sobre placas brasileiras: como funciona o modelo Mercosul, diferenças para a placa cinza antiga, conversão de letras e tabela de faixas por Estado.">
+
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
+          }
+        }
+      }
     }
-  </style>
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
+          CA
+        </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-blue-600">Agora</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Central de Utilidades</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Veículos & Legislação</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-blue-600 flex items-center gap-1">
-        <i data-lucide="arrow-left" class="w-4 h-4"></i>
-        <span>Página Inicial</span>
+      <a href="consulta-veicular-fipe.html" class="btn-primary text-xs !py-2 !px-3.5">
+        <i data-lucide="car" class="w-4 h-4"></i>
+        <span>Consultar Placa & FIPE</span>
       </a>
     </div>
   </header>
 
-  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
-    <div class="my-6 text-center w-full overflow-hidden flex justify-center">
-  <!-- Banner_Cidadao_Responsivo -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-1173007636108448"
-           data-ad-slot="2396617448"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-</div>
-  </div>
+  <main class="max-w-5xl mx-auto w-full px-4 py-8 flex-1 space-y-8">
 
-  <main class="max-w-5xl mx-auto w-full px-4 py-8 flex-1 space-y-6">
-    <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 shadow-sm">
-      <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">Guia Informativo</span>
-      <h1 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">Como Saber o Estado e Cidade de Registro pela Placa Veicular</h1>
-      <p class="text-slate-600 text-sm leading-relaxed">Entenda a distribuição das séries alfanuméricas das placas Mercosul e saiba como identificar a unidade federativa de registro de veículos.</p>
-
-      <div class="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl my-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div>
-          <h3 class="font-bold text-slate-900 text-base">Utilize a ferramenta oficial gratuita agora:</h3>
-          <p class="text-xs text-slate-600 mt-1">Consulte os dados em tempo real sem custo e sem necessidade de cadastro.</p>
+    <!-- HERO DO GUIA INFORMATIVO -->
+    <article class="ds-card p-6 sm:p-10 space-y-6">
+      <div class="space-y-3">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          <span>Guia Completo Senatran & Trânsito Brasileiro</span>
         </div>
-        <a href="consulta-mei-cnpj.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs py-3 px-5 rounded-xl transition-colors shadow whitespace-nowrap">
-          Acessar Ferramenta Principal
+        <h1 class="text-2xl sm:text-4xl font-black text-[#0F1B35] leading-tight">
+          Como Saber o Estado pela Placa do Carro? Entenda o Modelo Mercosul e o Antigo
+        </h1>
+        <p class="text-sm sm:text-base text-[#526078] leading-relaxed">
+          Descubra como funciona o sistema de emplacamento no Brasil, como identificar o Estado de origem pelas letras, a regra de conversão de números para letras e as principais diferenças de segurança entre o padrão Mercosul e a placa cinza antiga.
+        </p>
+      </div>
+
+      <!-- CTA DESTAQUE PARA CONSULTA VEICULAR COMPLETA -->
+      <div class="p-6 bg-gradient-to-r from-blue-50 via-indigo-50 to-blue-50 border border-blue-200 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-5 shadow-xs">
+        <div class="space-y-1 text-center md:text-left">
+          <span class="text-xs font-bold uppercase tracking-wider text-[#1E40AF] block">Ferramenta Pública Gratuita</span>
+          <h3 class="text-lg font-black text-[#0F1B35]">Quer consultar os dados de um carro ou moto agora?</h3>
+          <p class="text-xs text-[#526078] max-w-xl">
+            Digite qualquer placa (Mercosul ou cinza) e descubra marca, modelo, ano de fabricação, cor, valor atualizado na Tabela FIPE e estimativa de IPVA.
+          </p>
+        </div>
+        <a href="consulta-veicular-fipe.html" class="btn-primary text-xs !py-3.5 !px-6 shadow-sm whitespace-nowrap self-stretch md:self-auto text-center">
+          <i data-lucide="search" class="w-4 h-4"></i>
+          <span>Acessar Consulta de Placa Grátis</span>
         </a>
       </div>
 
-      <h2 class="text-lg font-bold text-slate-900 pt-4">Por que é importante manter suas informações regulares?</h2>
-      <p class="text-slate-600 text-sm leading-relaxed">
-        Estar em conformidade com as exigências dos órgãos públicos garante que o trabalhador, autônomo ou empreendedor tenha pleno acesso a direitos constitucionais, emissão de notas fiscais, crédito bancário em condições justas e segurança jurídica em qualquer negociação.
-      </p>
+      <!-- SEÇÃO 1: COMO FUNCIONA O SISTEMA BRASILEIRO -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="cpu" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>1. Como Funciona a Placa de um Veículo no Brasil?</span>
+        </h2>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          No Brasil, a placa de identificação veicular funciona como o <strong>"CPF" do automóvel</strong>. Ela é gerada pelo <strong>Senatran</strong> (Secretaria Nacional de Trânsito) no momento do primeiro registro do veículo zero quilômetro e fica vinculada de forma definitiva ao número de chassi (código VIN) até a baixa total do veículo.
+        </p>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          Mesmo que o proprietário mude de cidade, de Estado ou transfira o automóvel para outra pessoa, a combinação alfanumérica básica da placa <strong>permanece a mesma</strong> para toda a vida útil do veículo.
+        </p>
+      </section>
+
+      <!-- SEÇÃO 2: COMPARATIVO MERCOSUL VS MODELO ANTIGO (CINZA) -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="layers" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>2. Comparativo: Placa Mercosul vs. Placa Antiga (Cinza)</span>
+        </h2>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          O padrão de placas mudou oficialmente no Brasil a partir de 2018 para aumentar o número de combinações disponíveis e combater fraudes e clonagens veiculares. Veja as principais diferenças técnicas:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+          <!-- Card Modelo Antigo -->
+          <div class="p-5 rounded-2xl bg-slate-50 border border-[#D9E1EC] space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold uppercase text-slate-500 bg-slate-200 px-2.5 py-0.5 rounded-full">Padrão Anterior (1990 - 2018)</span>
+              <span class="text-xs font-mono font-bold text-slate-700 bg-white border border-slate-300 px-2 py-0.5 rounded">ABC-1234</span>
+            </div>
+            <h3 class="font-bold text-[#0F1B35] text-base">Placa Cinza com Tarjeta</h3>
+            <ul class="text-xs text-[#526078] space-y-2 leading-relaxed">
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="x" class="w-3.5 h-3.5 text-rose-500 shrink-0 mt-0.5"></i>
+                <span><strong>Formato:</strong> 3 letras seguidas de 4 números (ex: <code>ABC-1234</code>).</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="x" class="w-3.5 h-3.5 text-rose-500 shrink-0 mt-0.5"></i>
+                <span><strong>Identificação Física:</strong> Tarjeta metálica com o nome da cidade e UF fixada com lacre plástico ou de chumbo.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="x" class="w-3.5 h-3.5 text-rose-500 shrink-0 mt-0.5"></i>
+                <span><strong>Desvantagem:</strong> Mudança de cidade exigia pagar pela troca da tarjeta metálica e novo lacre no Detran.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="x" class="w-3.5 h-3.5 text-rose-500 shrink-0 mt-0.5"></i>
+                <span><strong>Capacidade:</strong> Aproximadamente 175 milhões de combinações possíveis.</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card Modelo Mercosul -->
+          <div class="p-5 rounded-2xl bg-blue-50/60 border border-blue-200 space-y-3">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold uppercase text-blue-700 bg-blue-100 px-2.5 py-0.5 rounded-full">Padrão Oficial Atual</span>
+              <span class="text-xs font-mono font-bold text-blue-900 bg-white border border-blue-300 px-2 py-0.5 rounded">ABC1D23</span>
+            </div>
+            <h3 class="font-bold text-[#0F1B35] text-base">Placa Mercosul (PIV)</h3>
+            <ul class="text-xs text-[#526078] space-y-2 leading-relaxed">
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Formato:</strong> 3 letras, 1 número, 1 letra e 2 números (ex: <code>ABC1D23</code>).</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Sem Tarjeta:</strong> Não traz o nome da cidade nem do Estado estampado na chapa de metal. A consulta é 100% digital.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Anti-Fraude:</strong> Possui <strong>QR Code</strong> serializado gravado a laser, marcas d'água e ondas de relevo.</span>
+              </li>
+              <li class="flex items-start gap-1.5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5"></i>
+                <span><strong>Capacidade:</strong> Mais de 450 milhões de combinações, garantindo placas por décadas.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 3: REGRA DE CONVERSÃO ANTIGA PARA MERCOSUL -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="arrow-right-left" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>3. Regra de Conversão: Como a Placa Cinza Vira Mercosul?</span>
+        </h2>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          Quando um carro com placa antiga precisa migrar para o padrão Mercosul, a combinação não é sorteada do zero. A regra oficial do Senatran é simples: <strong>o segundo número é substituído pela letra correspondente</strong>, de acordo com a tabela:
+        </p>
+
+        <div class="bg-white rounded-xl border border-[#D9E1EC] overflow-x-auto shadow-2xs">
+          <table class="w-full text-xs text-center border-collapse">
+            <thead>
+              <tr class="bg-slate-50 border-b border-[#D9E1EC] font-bold text-[#0F1B35]">
+                <th class="p-3">Dígito Antigo</th>
+                <th class="p-3">0</th>
+                <th class="p-3">1</th>
+                <th class="p-3">2</th>
+                <th class="p-3">3</th>
+                <th class="p-3">4</th>
+                <th class="p-3">5</th>
+                <th class="p-3">6</th>
+                <th class="p-3">7</th>
+                <th class="p-3">8</th>
+                <th class="p-3">9</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="font-mono font-bold text-[#2563EB]">
+                <td class="p-3 bg-slate-50 text-slate-700 font-sans font-bold">Vira a Letra</td>
+                <td class="p-3">A</td>
+                <td class="p-3">B</td>
+                <td class="p-3">C</td>
+                <td class="p-3">D</td>
+                <td class="p-3">E</td>
+                <td class="p-3">F</td>
+                <td class="p-3">G</td>
+                <td class="p-3">H</td>
+                <td class="p-3">I</td>
+                <td class="p-3">J</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-900 leading-relaxed flex items-center gap-3">
+          <i data-lucide="check-circle" class="w-5 h-5 text-emerald-600 shrink-0"></i>
+          <div>
+            <strong>Exemplo Prático de Conversão:</strong><br>
+            Uma placa antiga <code>ABC-1234</code> vira <code>ABC1C34</code> (o número 2 virou a letra <strong>C</strong>).<br>
+            Uma placa antiga <code>XYZ-9080</code> vira <code>XYZ9A80</code> (o número 0 virou a letra <strong>A</strong>).
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 4: CORES DAS PLACAS MERCOSUL -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="palette" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>4. O que Significam as Cores nas Placas Mercosul?</span>
+        </h2>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          No modelo antigo, a cor de todo o fundo da chapa mudava (vermelha para aluguel, branca para oficial, cinza para particular). Na placa Mercosul, <strong>o fundo é sempre branco reflexivo</strong>. O que muda é a <strong>cor das letras e números (caracteres)</strong>:
+        </p>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-black shrink-0 border border-slate-300"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Preto</strong>
+              <span class="text-[11px] text-[#526078]">Veículos particulares / passeio</span>
+            </div>
+          </div>
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-red-600 shrink-0"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Vermelho</strong>
+              <span class="text-[11px] text-[#526078]">Comercial, táxi, frete, autoescola</span>
+            </div>
+          </div>
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-blue-600 shrink-0"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Azul</strong>
+              <span class="text-[11px] text-[#526078]">Veículos oficiais e governamentais</span>
+            </div>
+          </div>
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-slate-400 shrink-0"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Cinza Prata</strong>
+              <span class="text-[11px] text-[#526078]">Colecionador (antigos clássicos)</span>
+            </div>
+          </div>
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-emerald-600 shrink-0"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Verde</strong>
+              <span class="text-[11px] text-[#526078]">Especiais, testes de montadora</span>
+            </div>
+          </div>
+          <div class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] flex items-center gap-2.5">
+            <span class="w-4 h-4 rounded-full bg-amber-500 shrink-0"></span>
+            <div>
+              <strong class="text-xs text-[#0F1B35] block">Dourado</strong>
+              <span class="text-[11px] text-[#526078]">Corpo diplomático e consular</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 5: TABELA DE FAIXAS POR ESTADO (COMO SABER O ESTADO DE ORIGEM) -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="map-pin" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>5. Tabela de Letras: Como Saber o Estado de Primeiro Registro?</span>
+        </h2>
+        <p class="text-sm text-[#526078] leading-relaxed">
+          Desde 1990, o Senatran dividiu lotes de combinações alfabéticas iniciais para cada um dos 26 Estados e o Distrito Federal. Sabendo as três primeiras letras da placa, é possível descobrir a <strong>Unidade Federativa de primeiro emplacamento</strong> do automóvel:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">São Paulo (SP)</strong>
+            <span class="text-[#526078] font-mono">BFA a GKI, QSN a QSZ</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Rio de Janeiro (RJ)</strong>
+            <span class="text-[#526078] font-mono">KMF a LVE, RIO, RIP, RIR</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Minas Gerais (MG)</strong>
+            <span class="text-[#526078] font-mono">GKL a HOK, NXX a NYG, OLO a OMH, RFA a RGD</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Paraná (PR)</strong>
+            <span class="text-[#526078] font-mono">AAA a BEZ, RHJ a RHK</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Santa Catarina (SC)</strong>
+            <span class="text-[#526078] font-mono">LXS a MIZ, OKD a OKH, RAA a RAJ</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Rio Grande do Sul (RS)</strong>
+            <span class="text-[#526078] font-mono">IAQ a JDO, IXX a IYZ</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Bahia (BA)</strong>
+            <span class="text-[#526078] font-mono">JHQ a JSZ, NTO a NTS, OKI a OLG, PJH a PLZ</span>
+          </div>
+          <div class="p-3.5 bg-slate-50 rounded-xl border border-[#D9E1EC]">
+            <strong class="text-[#0F1B35] block font-bold mb-1">Distrito Federal (DF)</strong>
+            <span class="text-[#526078] font-mono">JDN a JDR, JDT a JEU, OVM a OVV, REC a REZ</span>
+          </div>
+        </div>
+
+        <p class="text-xs text-[#526078] italic">
+          * Nota: Embora a faixa de letras identifique onde o carro foi originalmente emplacado na fábrica, a cidade atual onde ele reside e paga IPVA pode ser confirmada em tempo real na consulta veicular oficial.
+        </p>
+      </section>
+
+      <!-- SEÇÃO 6: QUANDO É OBRIGATÓRIO TROCAR DE PLACA -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="alert-circle" class="w-5 h-5 text-[#2563EB]"></i>
+          <span>6. Quando Você é Obrigado a Trocar para a Placa Mercosul?</span>
+        </h2>
+        <div class="space-y-2 text-sm text-[#526078] leading-relaxed">
+          <p>
+            Você <strong>NÃO</strong> é obrigado a trocar a placa cinza antiga por uma Mercosul apenas por estética ou sem motivo. A placa antiga continua plenamente válida para circular.
+          </p>
+          <p>
+            A substituição pelo padrão Mercosul só é exigida por lei nas seguintes situações:
+          </p>
+          <ul class="list-disc pl-5 space-y-1.5 text-xs text-[#526078]">
+            <li>Emplacamento de veículos zero quilômetro;</li>
+            <li>Transferência de propriedade de veículo que mude de município ou de Estado;</li>
+            <li>Mudança de categoria do automóvel (ex: transformar carro particular em táxi ou transporte de aplicativo);</li>
+            <li>Em caso de placa antiga furtada, danificada, perdida ou ilegível;</li>
+            <li>Instalação de segunda placa traseira (para carretinhas, reboques ou suportes de bicicleta).</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BOX FINAL DE AÇÃO -->
+      <div class="pt-6 border-t border-[#D9E1EC] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <h4 class="font-bold text-[#0F1B35] text-sm">Deseja pesquisar os dados oficiais de um automóvel?</h4>
+          <p class="text-xs text-[#526078]">Acesse a ferramenta oficial do Cidadão Agora para consulta veicular e FIPE gratuita.</p>
+        </div>
+        <a href="consulta-veicular-fipe.html" class="btn-primary text-xs !py-3 !px-5 shadow-sm whitespace-nowrap">
+          <span>Consultar Placa Veicular Agora</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
     </article>
 
+    <!-- BANNER DE ANÚNCIO OFICIAL GOOGLE ADSENSE RESPONSIVO -->
     <div class="my-6 text-center w-full overflow-hidden flex justify-center">
-  <!-- Banner_Cidadao_Responsivo -->
+      <!-- Banner_Cidadao_Responsivo -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-1173007636108448"
@@ -96,11 +408,39 @@
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-</div>
+    </div>
+
+    <!-- LINKS PARA OUTRAS FERRAMENTAS VEICULARES E RELACIONADAS -->
+    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
+      <h3 class="text-sm font-bold uppercase tracking-wider text-[#0F1B35] mb-3">
+        Outras Consultas Úteis para o Seu Dia a Dia:
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <a href="consulta-veicular-fipe.html" class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] hover:border-[#2563EB] transition-colors block text-xs">
+          <span class="font-bold text-[#0F1B35] block mb-0.5">Consulta Veicular & FIPE</span>
+          <span class="text-[#526078]">Pesquise placa, modelo, ano, valor de mercado e IPVA.</span>
+        </a>
+        <a href="consulta-mei-cnpj.html" class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] hover:border-[#2563EB] transition-colors block text-xs">
+          <span class="font-bold text-[#0F1B35] block mb-0.5">Consulta CNPJ & MEI</span>
+          <span class="text-[#526078]">Consulte situação cadastral e dados de empresas na Receita.</span>
+        </a>
+        <a href="validador-cpf.html" class="p-3.5 bg-white rounded-xl border border-[#D9E1EC] hover:border-[#2563EB] transition-colors block text-xs">
+          <span class="font-bold text-[#0F1B35] block mb-0.5">Validador de CPF</span>
+          <span class="text-[#526078]">Confira dígitos verificadores e região fiscal de emissão.</span>
+        </a>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
-    <p>Cidadão Agora Brasil © 2026 - Conteúdo informativo e utilidades públicas.</p>
+  <!-- RODAPÉ PADRONIZADO -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-8 text-center text-xs text-[#526078] mt-auto">
+    <div class="max-w-5xl mx-auto px-4 space-y-2">
+      <p class="font-medium">Cidadão Agora Brasil © 2026 - Central de Consultas, Transparência & Legislação de Trânsito.</p>
+      <p class="text-[11px] text-slate-400">
+        Informações fundamentadas em resoluções do Contran (Conselho Nacional de Trânsito) e diretrizes oficiais do Senatran.
+      </p>
+    </div>
   </footer>
 
   <script>
