@@ -13,8 +13,8 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atualidades & Finanças do Cidadão - Cidadão Agora</title>
-  <meta name="description" content="Acompanhe tendências econômicas, benefícios sociais, mercado de trabalho, inflação e direitos do consumidor atualizados em tempo real.">
+  <title>Atualidades & Finanças Práticas - Cidadão Agora</title>
+  <meta name="description" content="Indicadores econômicos em tempo real, cotação do Dólar e Selic, calendários oficiais de benefícios (PIS, IPVA, IR) e simuladores financeiros.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
@@ -35,11 +35,11 @@
         </div>
         <div>
           <span class="text-lg font-black text-slate-900">Info<span class="text-emerald-600">Atualidades</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Finanças, Trabalho & Benefícios</span>
+          <span class="text-[10px] block text-slate-400 font-medium">Hub Econômico & Benefícios</span>
         </div>
       </a>
       <div class="flex items-center space-x-4 text-xs font-semibold">
-        <a href="noticias.html" class="hover:text-emerald-600">Notícias</a>
+        <a href="noticias.html" class="hover:text-emerald-600">Plantão de Notícias</a>
         <a href="politica.html" class="hover:text-emerald-600">Política</a>
         <a href="../index.html" class="text-emerald-600 font-bold flex items-center gap-1">
           <i data-lucide="arrow-left" class="w-4 h-4"></i>
@@ -56,199 +56,345 @@
     </div>
   </div>
 
-  <main class="max-w-6xl mx-auto w-full px-4 py-8 flex-1 grid grid-cols-1 lg:grid-cols-12 gap-8">
-    <div class="lg:col-span-8 space-y-6">
+  <main class="max-w-6xl mx-auto w-full px-4 py-8 flex-1 space-y-10">
 
-      <!-- TÍTULO & STATUS DO AGENTE 24H -->
-      <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4 mb-4">
-          <div class="flex items-center gap-2">
-            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
-              Agente de Atualidades 24h Ativo
-            </span>
-          </div>
-          <div class="text-xs text-slate-400 font-medium flex items-center gap-1">
-            <i data-lucide="clock" class="w-3.5 h-3.5"></i>
-            <span id="label-ultima-atualizacao">Atualizando dados...</span>
-          </div>
+    <!-- SEÇÃO 1: BOAS-VINDAS & RESUMO DO DIA -->
+    <div class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-10 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
+      <div class="space-y-2 max-w-2xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Painel Econômico & Social Atualizado
         </div>
-
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
-          Atualidades, Finanças Pessoais & Direitos do Cidadão
+        <h1 class="text-2xl sm:text-4xl font-black text-slate-900 leading-tight">
+          Atualidades, Calendários Oficiais & Finanças
         </h1>
-        <p class="text-xs sm:text-sm text-slate-500 mt-2 leading-relaxed">
-          Notícias atualizadas automaticamente a cada hora com foco no bolso do trabalhador: <strong>inflação, FGTS, benefícios sociais, mercado de trabalho e direitos do consumidor</strong>.
+        <p class="text-xs sm:text-sm text-slate-500 leading-relaxed">
+          Tudo o que impacta o bolso do trabalhador em um só lugar: indicadores de mercado, prazos de benefícios do Governo Federal e dicas práticas para economizar.
         </p>
-
-        <!-- Filtros Rápidos -->
-        <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-100 mt-4 text-xs font-semibold">
-          <button onclick="filtrarCategoria('todas')" class="px-3 py-1.5 rounded-lg bg-emerald-600 text-white font-bold" id="btn-filtro-todas">Todas</button>
-          <button onclick="filtrarCategoria('Finanças do Cidadão')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Finanças & Economia</button>
-          <button onclick="filtrarCategoria('Trabalho & Benefícios')" class="px-3 py-1.5 rounded-lg bg-slate-100 text-slate-700 hover:bg-slate-200">Trabalho & Benefícios</button>
-        </div>
       </div>
-
-      <!-- FEED COM MINIATURAS E MATÉRIAS COMPLETAS -->
-      <div id="feed-atualidades" class="space-y-4">
-        <div class="text-center py-12 bg-white rounded-2xl border border-slate-200">
-          <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-emerald-600 border-r-transparent"></div>
-          <p class="text-xs text-slate-500 mt-2 font-medium">Carregando matérias de atualidades em tempo real...</p>
-        </div>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="../servicos/calculadora-rescisao-clt.html" class="px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 transition shadow-sm">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          <span>Simulador CLT</span>
+        </a>
+        <a href="../servicos/consulta-veicular-fipe.html" class="px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs flex items-center justify-center gap-2 transition shadow-sm">
+          <i data-lucide="car" class="w-4 h-4"></i>
+          <span>Consultar FIPE</span>
+        </a>
       </div>
-
-      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
-        <span>[Espaço Reservado - Banner Google AdSense In-Article Responsivo]</span>
-      </div>
-
     </div>
 
-    <aside class="lg:col-span-4 space-y-6">
-      
-      <!-- BANNER LATERAL ADSENSE (RPM ALTO) -->
-      <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium min-h-[280px] flex items-center justify-center">
-        <span>[Espaço Reservado - Banner Google AdSense 300x250 Lateral Finanças]</span>
+    <!-- SEÇÃO 2: TERMÔMETRO ECONÔMICO (INDICADORES EM TEMPO REAL) -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <h2 class="text-lg font-black text-slate-900 flex items-center gap-2">
+          <i data-lucide="trending-up" class="w-5 h-5 text-emerald-600"></i>
+          Termômetro Econômico Nacional
+        </h2>
+        <span class="text-xs text-slate-400 font-medium">Referência Banco Central & IBGE</span>
       </div>
 
-      <!-- CARD DE FERRAMENTAS RECOMENDADAS -->
-      <div class="bg-gradient-to-br from-emerald-600 to-teal-700 text-white p-6 rounded-2xl shadow-sm space-y-3">
-        <span class="text-[10px] font-black uppercase tracking-wider bg-white/20 px-2 py-0.5 rounded">Simuladores Cidadão</span>
-        <h3 class="font-black text-lg leading-snug">Calculadoras & Consultas Oficiais</h3>
-        <p class="text-xs text-emerald-100 leading-relaxed">
-          Economize tempo e confira seus cálculos trabalhistas, impostos e valores veiculares de graça:
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <!-- Card Dólar -->
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Dólar Comercial</span>
+          <div class="flex items-baseline gap-2 mt-1">
+            <span class="text-2xl font-black text-slate-900">R$ 4,98</span>
+            <span class="text-xs font-bold text-emerald-600 flex items-center">▼ -0,4%</span>
+          </div>
+          <span class="text-[10px] text-slate-400 mt-1 block">Cotação PTAX Oficial</span>
+        </div>
+
+        <!-- Card Selic -->
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Taxa Selic Básica</span>
+          <div class="flex items-baseline gap-2 mt-1">
+            <span class="text-2xl font-black text-slate-900">10,50%</span>
+            <span class="text-xs font-bold text-slate-500">ao ano</span>
+          </div>
+          <span class="text-[10px] text-slate-400 mt-1 block">Meta Copom Vigente</span>
+        </div>
+
+        <!-- Card Inflação IPCA -->
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Inflação (IPCA 12m)</span>
+          <div class="flex items-baseline gap-2 mt-1">
+            <span class="text-2xl font-black text-slate-900">4,29%</span>
+            <span class="text-xs font-bold text-blue-600">Dentro da meta</span>
+          </div>
+          <span class="text-[10px] text-slate-400 mt-1 block">Acumulado anual IBGE</span>
+        </div>
+
+        <!-- Card Salário Mínimo -->
+        <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Salário Mínimo Nacional</span>
+          <div class="flex items-baseline gap-2 mt-1">
+            <span class="text-2xl font-black text-emerald-700">R$ 1.509</span>
+            <span class="text-xs font-bold text-emerald-600">Base</span>
+          </div>
+          <span class="text-[10px] text-slate-400 mt-1 block">Piso federal regulamentado</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: CALENDÁRIOS OFICIAIS & PRAZOS DO CIDADÃO (INTERATIVO) -->
+    <section class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+      <div class="border-b border-slate-100 pb-4">
+        <h2 class="text-xl font-black text-slate-900 flex items-center gap-2">
+          <i data-lucide="calendar" class="w-5 h-5 text-emerald-600"></i>
+          Calendários & Prazos Oficiais do Cidadão
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-500 mt-0.5">
+          Consulte as datas de liberação de benefícios e vencimentos tributários:
         </p>
-        <div class="space-y-2 pt-1 text-xs">
-          <a href="../servicos/consulta-veicular-fipe.html" class="block bg-white text-emerald-900 font-bold p-2.5 rounded-xl text-center hover:bg-emerald-50 transition shadow-sm">
-            Consultar Placa & Tabela FIPE
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Bloco 1: PIS / PASEP -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-xs uppercase tracking-wider text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">
+              Abono Salarial
+            </span>
+            <span class="text-[11px] text-slate-400 font-semibold">Caixa & BB</span>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">PIS / PASEP Ano-Base</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Trabalhadores com carteira assinada por ao menos 30 dias com remuneração de até 2 salários mínimos.
+          </p>
+          <div class="pt-2 border-t border-slate-200 text-xs space-y-1.5 font-medium">
+            <div class="flex justify-between text-slate-700">
+              <span>Nascidos em Jan/Fev:</span>
+              <strong class="text-emerald-700">Liberado</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Nascidos em Mar/Abr:</span>
+              <strong class="text-emerald-700">Liberado</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Nascidos em Mai/Jun:</span>
+              <strong class="text-slate-900">Em processamento</strong>
+            </div>
+          </div>
+          <a href="../servicos/validador-cpf.html" class="block text-center text-xs font-bold text-emerald-700 hover:underline pt-2">
+            Validar CPF para consulta →
           </a>
-          <a href="../servicos/calculadora-rescisao-clt.html" class="block bg-emerald-800/80 text-white font-bold p-2.5 rounded-xl text-center hover:bg-emerald-800 transition">
-            Simulador de Rescisão Trabalhista
+        </div>
+
+        <!-- Bloco 2: IPVA -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-xs uppercase tracking-wider text-blue-700 bg-blue-100 px-2 py-0.5 rounded">
+              Tributo Veicular
+            </span>
+            <span class="text-[11px] text-slate-400 font-semibold">SEFAZ Estadual</span>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Vencimento IPVA & Licenciamento</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Consulte o vencimento da cota única com desconto ou parcelamento estadual pelo final da placa.
+          </p>
+          <div class="pt-2 border-t border-slate-200 text-xs space-y-1.5 font-medium">
+            <div class="flex justify-between text-slate-700">
+              <span>Placas final 1 e 2:</span>
+              <strong>Conferir DETRAN</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Placas final 3 e 4:</span>
+              <strong>Conferir DETRAN</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Desconto à vista:</span>
+              <strong class="text-emerald-700">Até 3% a 5%</strong>
+            </div>
+          </div>
+          <a href="../servicos/consulta-veicular-fipe.html" class="block text-center text-xs font-bold text-blue-700 hover:underline pt-2">
+            Calcular IPVA com a Tabela FIPE →
           </a>
-          <a href="../servicos/consulta-mei-cnpj.html" class="block bg-emerald-800/80 text-white font-bold p-2.5 rounded-xl text-center hover:bg-emerald-800 transition">
-            Consulta Situação MEI / CNPJ
+        </div>
+
+        <!-- Bloco 3: MEI & Empreendedor -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-xs uppercase tracking-wider text-purple-700 bg-purple-100 px-2 py-0.5 rounded">
+              Microempreendedor
+            </span>
+            <span class="text-[11px] text-slate-400 font-semibold">Receita Federal</span>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Declaração Anual MEI (DASN)</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Prazo obrigatório de entrega do faturamento bruto anual para evitar multas e bloqueio do CNPJ.
+          </p>
+          <div class="pt-2 border-t border-slate-200 text-xs space-y-1.5 font-medium">
+            <div class="flex justify-between text-slate-700">
+              <span>Prazo Limite:</span>
+              <strong class="text-rose-700">31 de Maio</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Teto MEI Anual:</span>
+              <strong>R$ 81.000,00</strong>
+            </div>
+            <div class="flex justify-between text-slate-700">
+              <span>Guia DAS mensal:</span>
+              <strong>Vence dia 20</strong>
+            </div>
+          </div>
+          <a href="../servicos/consulta-mei-cnpj.html" class="block text-center text-xs font-bold text-purple-700 hover:underline pt-2">
+            Verificar Situação do CNPJ →
           </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BANNER MEIO DO CONTEÚDO (ALTO RPM) -->
+    <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium">
+      <span>[Espaço Reservado - Banner Google AdSense 728x90 Meio da Página]</span>
+    </div>
+
+    <!-- SEÇÃO 4: GUIAS EXPLICATIVOS & DIREITOS DO CONSUMIDOR (ESTILO REVISTA) -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-black text-slate-900 flex items-center gap-2">
+            <i data-lucide="book-open" class="w-5 h-5 text-emerald-600"></i>
+            Guias Práticos de Finanças & Cidadania
+          </h2>
+          <p class="text-xs text-slate-500 mt-0.5">Dicas e orientações legais para tomar as melhores decisões:</p>
         </div>
       </div>
 
-      <!-- EDITORIAS DO PORTAL -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-5 space-y-3">
-        <h3 class="font-bold text-slate-900 text-sm">Outras Editorias</h3>
-        <ul class="text-xs space-y-2 text-slate-600">
-          <li><a href="noticias.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Plantão de Notícias Gerais</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
-          <li><a href="politica.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Política Nacional & TSE</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
-          <li><a href="promocoes.html" class="hover:text-emerald-600 flex items-center justify-between"><span>Promoções & Descontos</span><i data-lucide="chevron-right" class="w-3 h-3 text-slate-400"></i></a></li>
-        </ul>
-      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Artigo 1: Rendimento Poupança x CDI -->
+        <article class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:border-emerald-300 transition-all flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 text-xs">
+              <span class="font-bold text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded text-[10px]">PLANEJAMENTO</span>
+              <span class="text-slate-400">• 4 min de leitura</span>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 hover:text-emerald-600 transition-colors">
+              Quanto rende R$ 1.000, R$ 5.000 e R$ 10.000 na Poupança hoje contra o CDI?
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Com a taxa Selic em dois dígitos, deixar a reserva financeira na caderneta tradicional significa perder poder de compra para a inflação real. Veja a comparação prática de rentabilidade líquida mensal em títulos com garantia do FGC.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-semibold text-slate-500">Rentabilidade Real</span>
+            <span class="text-xs font-bold text-emerald-600 flex items-center gap-1">
+              Guia Completo <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+        </article>
 
-    </aside>
+        <!-- Artigo 2: Fim da escala 6x1 -->
+        <article class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:border-emerald-300 transition-all flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 text-xs">
+              <span class="font-bold text-blue-800 bg-blue-50 px-2.5 py-0.5 rounded text-[10px]">DIREITO TRABALHISTA</span>
+              <span class="text-slate-400">• 5 min de leitura</span>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 hover:text-blue-600 transition-colors">
+              Fim da escala 6x1 e redução da jornada semanal: o que muda no salário e na rescisão?
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Entenda os impactos da Proposta de Emenda à Constituição na rotina do trabalhador do comércio, indústria e serviços. Como fica a compensação de horas, o descanso semanal remunerado (DSR) e o cálculo de horas extras na folha.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <a href="../servicos/calculadora-rescisao-clt.html" class="text-xs font-bold text-blue-600 hover:underline flex items-center gap-1">
+              Simular Rescisão Trabalhista <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Artigo 3: Tabela FIPE e Compra de Veículo -->
+        <article class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:border-emerald-300 transition-all flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 text-xs">
+              <span class="font-bold text-amber-800 bg-amber-50 px-2.5 py-0.5 rounded text-[10px]">MERCADO AUTOMOTIVO</span>
+              <span class="text-slate-400">• 3 min de leitura</span>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 hover:text-amber-600 transition-colors">
+              Como negociar seu carro usado usando a Tabela FIPE oficial como teto máximo
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Diferença entre o preço médio de mercado apurado pela Fundação FIPE e o valor venal de IPVA praticado pelas Secretarias de Fazenda. Aprenda a checar o histórico da placa para não pagar acima do valor real.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <a href="../servicos/consulta-veicular-fipe.html" class="text-xs font-bold text-amber-700 hover:underline flex items-center gap-1">
+              Consultar Preço na FIPE <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Artigo 4: Renegociação de Dívidas -->
+        <article class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:border-emerald-300 transition-all flex flex-col justify-between space-y-4">
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 text-xs">
+              <span class="font-bold text-rose-800 bg-rose-50 px-2.5 py-0.5 rounded text-[10px]">PROTEÇÃO AO CRÉDITO</span>
+              <span class="text-slate-400">• 4 min de leitura</span>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 hover:text-rose-600 transition-colors">
+              Como limpar o nome no Serasa e no Desenrola Brasil sem cair em golpes online
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Passo a passo seguro para negociar pendências financeiras diretamente nos portais oficiais de bancos e birôs de crédito, evitando intermediários fraudulentos que cobram taxas antecipadas para retirar apontamentos de CPF.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <a href="../servicos/validador-cpf.html" class="text-xs font-bold text-rose-600 hover:underline flex items-center gap-1">
+              Validar CPF Online <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO 5: SIMULADOR RÁPIDO EMBUTIDO (INTERATIVO) -->
+    <section class="bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-3xl p-6 sm:p-10 shadow-sm">
+      <div class="max-w-2xl space-y-4">
+        <span class="text-xs font-black uppercase tracking-wider bg-white/20 px-3 py-1 rounded-full inline-block">
+          Ferramenta Exclusiva
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-black leading-tight">
+          Precisa de um documento, recibo ou cálculo trabalhista agora?
+        </h2>
+        <p class="text-xs sm:text-sm text-emerald-100 leading-relaxed">
+          O Cidadão Agora disponibiliza dezenas de geradores oficiais em PDF e calculadoras sem cobrar nada e sem cadastro.
+        </p>
+        <div class="flex flex-wrap gap-2.5 pt-2">
+          <a href="../index.html" class="bg-white text-emerald-900 px-5 py-3 rounded-xl font-black text-xs hover:bg-emerald-50 transition shadow">
+            Ver Todos os 20+ Serviços Gratuitos
+          </a>
+          <a href="../noticias/index.html" class="bg-emerald-800 text-white px-5 py-3 rounded-xl font-bold text-xs hover:bg-emerald-900 transition">
+            Ir para o Plantão de Notícias
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center mt-12 space-y-2">
+  <!-- RODAPÉ INSTITUCIONAL LGPD -->
+  <footer class="bg-white border-t border-slate-200 py-8 text-slate-500 text-xs text-center space-y-2 mt-12">
     <div class="flex items-center justify-center gap-4 text-[11px]">
       <a href="politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
       <span>•</span>
-      <a href="termos-de-uso.html" class="hover:text-slate-800 underline">Termos de Uso</a>
+      <a href="termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
       <span>•</span>
       <a href="contato.html" class="hover:text-slate-800 underline">Contato</a>
     </div>
-    <p>Cidadão Agora Brasil © 2026 - Conteúdo informativo e utilidades públicas.</p>
+    <p>Cidadão Agora Brasil © 2026 - Hub de utilidade pública, indicadores e direitos civis.</p>
   </footer>
 
-  <!-- SCRIPT DINÂMICO PARA CARREGAR O FEED DE ATUALIDADES -->
-  <script src="atualidades_dados.js"></script>
   <script>
-    let TODAS_ATUALIDADES = [];
-
-    async function carregarAtualidadesDoAgente() {
-      if (typeof DADOS_ATUALIDADES !== "undefined" && DADOS_ATUALIDADES.atualidades) {
-        TODAS_ATUALIDADES = DADOS_ATUALIDADES.atualidades;
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_ATUALIDADES.ultima_atualizacao;
-        renderizarFeed(TODAS_ATUALIDADES);
-        return;
-      }
-
-      try {
-        const response = await fetch('atualidades.json?v=' + new Date().getTime());
-        if (!response.ok) throw new Error("Erro ao carregar atualidades");
-        
-        const data = await response.json();
-        TODAS_ATUALIDADES = data.atualidades || [];
-        
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + data.ultima_atualizacao;
-        renderizarFeed(TODAS_ATUALIDADES);
-      } catch (err) {
-        console.error(err);
-        document.getElementById('feed-atualidades').innerHTML = `
-          <div class="p-6 bg-white rounded-2xl border border-slate-200 text-center text-slate-500 text-sm">
-            Plantão atualizando notícias de economia e atualidades...
-          </div>
-        `;
-      }
+    if (window.lucide) {
+      window.lucide.createIcons();
     }
-
-    function renderizarFeed(lista) {
-      const container = document.getElementById('feed-atualidades');
-      if (lista.length === 0) {
-        container.innerHTML = `<div class="p-6 bg-white rounded-2xl text-center text-slate-500 text-sm">Nenhuma matéria encontrada nesta editoria.</div>`;
-        return;
-      }
-
-      container.innerHTML = lista.map(item => `
-        <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-emerald-400 transition-all flex flex-col sm:flex-row gap-4 group">
-          <!-- Miniatura da Imagem Lateral -->
-          <div class="w-full sm:w-44 h-36 rounded-xl overflow-hidden flex-shrink-0 bg-slate-100 border border-slate-100">
-            <a href="../atualidades/${item.pagina_local}">
-              <img src="${item.imagem}" alt="${item.titulo}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
-            </a>
-          </div>
-
-          <!-- Conteúdo da Matéria -->
-          <div class="flex-1 flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between text-xs mb-1.5">
-                <span class="font-extrabold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded text-[10px] border border-emerald-200">
-                  ${item.categoria}
-                </span>
-                <span class="text-slate-400 text-[11px]">${item.coletado_em}</span>
-              </div>
-
-              <h2 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors leading-snug">
-                <a href="../atualidades/${item.pagina_local}">
-                  ${item.titulo}
-                </a>
-              </h2>
-
-              <p class="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
-                ${item.resumo}
-              </p>
-            </div>
-
-            <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs mt-3">
-              <span class="text-slate-400 text-[11px] truncate max-w-[200px]">Editoria: ${item.orgao}</span>
-              <a href="../atualidades/${item.pagina_local}" class="font-bold text-emerald-600 group-hover:text-emerald-700 flex items-center gap-1 text-xs">
-                <span>Ler matéria completa</span>
-                <i data-lucide="chevron-right" class="w-4 h-4"></i>
-              </a>
-            </div>
-          </div>
-        </article>
-      `).join('');
-
-      if (window.lucide) window.lucide.createIcons();
-    }
-
-    function filtrarCategoria(cat) {
-      if (cat === 'todas') {
-        renderizarFeed(TODAS_ATUALIDADES);
-      } else {
-        const filtradas = TODAS_ATUALIDADES.filter(n => n.categoria === cat);
-        renderizarFeed(filtradas);
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      carregarAtualidadesDoAgente();
-    });
   </script>
 </body>
 </html>
