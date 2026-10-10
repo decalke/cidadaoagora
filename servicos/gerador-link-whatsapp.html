@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google AdSense Oficial -->
@@ -149,19 +149,19 @@
       const msg = document.getElementById('zap-msg').value.trim();
 
       if (numRaw.length < 10) {
-        alert('Por favor, informe o DDD e o número completo.');
+        alert('Por favor, informe o DDD e o número completo (ex: 11 99999-9999).');
         return;
       }
 
       const numCompleto = '55' + numRaw;
       let url = `https://wa.me/${numCompleto}`;
       if (msg) {
-        url += `?text=${encodeURCAomponent(msg)}`;
+        url += `?text=${encodeURIComponent(msg)}`;
       }
 
       document.getElementById('link-gerado').value = url;
       document.getElementById('btn-testar-zap').href = url;
-      document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURCAomponent(url)}`;
+      document.getElementById('zap-qr').src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(url)}`;
       document.getElementById('resultado-zap').classList.remove('hidden');
       if (window.lucide) window.lucide.createIcons();
     }
@@ -169,11 +169,24 @@
     function copiarLinkZap() {
       const el = document.getElementById('link-gerado');
       el.select();
-      navigator.clipboard.writeText(el.value).then(() => {
-        const msg = document.getElementById('msg-zap-copiado');
+      el.setSelectionRange(0, 99999);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(el.value).then(mostrarFeedbackCopiado).catch(() => {
+          document.execCommand('copy');
+          mostrarFeedbackCopiado();
+        });
+      } else {
+        document.execCommand('copy');
+        mostrarFeedbackCopiado();
+      }
+    }
+
+    function mostrarFeedbackCopiado() {
+      const msg = document.getElementById('msg-zap-copiado');
+      if (msg) {
         msg.classList.remove('hidden');
         setTimeout(() => msg.classList.add('hidden'), 2500);
-      });
+      }
     }
   </script>
 </body>
