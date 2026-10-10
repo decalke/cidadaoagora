@@ -33,36 +33,55 @@ function normalizarTexto(txt: string): string {
 
 /**
  * Consulta a FIPE gratuitamente via API pública aberta oficial (Parallelum / FIPE)
- * Faz match inteligente por marca, modelo e ano retornados da base veicular
+ * Faz match inteligente e de alta precisão usando fipeId e termos de marca/modelo/versão.
  */
 async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado | null> {
   try {
-    // 1. Obter marcas de carros da FIPE
-    const marcasRes = await fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas", {
-      headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" },
-    });
-    if (!marcasRes.ok) return null;
-    const marcas: Array<{ codigo: string; nome: string }> = await marcasRes.json();
+    let codigoMarca: string | null = null;
 
-    const marcaVeiculo = normalizarTexto(veiculo.marca || veiculo.fabricante || "");
-    const marcaEncontrada = marcas.find((m) => {
-      const nomeNorm = normalizarTexto(m.nome);
-      return nomeNorm.includes(marcaVeiculo) || marcaVeiculo.includes(nomeNorm);
-    });
+    // 1. Se a APIBrasil já entregou o fipeId da marca (ex: Hyundai fipeId = 26 ou VW = 59)
+    if (veiculo.marcaDetalhes?.fipeId) {
+      codigoMarca = String(veiculo.marcaDetalhes.fipeId).trim();
+    }
 
-    if (!marcaEncontrada) return null;
+    // Caso não tenha fipeId numérico direto, busca pelo nome da marca
+    if (!codigoMarca || isNaN(Number(codigoMarca))) {
+      const marcasRes = await fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas", {
+        headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" },
+      });
+      if (!marcasRes.ok) return null;
+      const marcas: Array<{ codigo: string; nome: string }> = await marcasRes.json();
 
-    // 2. Listar modelos da montadora encontrada
-    const modelosRes = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos`, {
+      const marcaVeiculo = normalizarTexto(veiculo.marca || veiculo.fabricante || "");
+      const marcaEncontrada = marcas.find((m) => {
+        const nomeNorm = normalizarTexto(m.nome);
+        return nomeNorm.includes(marcaVeiculo) || marcaVeiculo.includes(nomeNorm);
+      });
+      if (marcaEncontrada) {
+        codigoMarca = marcaEncontrada.codigo;
+      }
+    }
+
+    if (!codigoMarca) return null;
+
+    // 2. Listar modelos da montadora
+    const modelosRes = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codigoMarca}/modelos`, {
       headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" },
     });
     if (!modelosRes.ok) return null;
     const modelosData: { modelos: Array<{ codigo: number; nome: string }> } = await modelosRes.json();
 
-    // Palavras-chave do modelo para match aproximado
-    const modeloOriginal = normalizarTexto(veiculo.modeloDetalhes?.sintetico || veiculo.modelo || "");
-    const versaoOriginal = normalizarTexto(veiculo.versao || "");
-    const termosBusca = `${modeloOriginal} ${versaoOriginal}`.split(/[\s/\\-]+/).filter(t => t.length >= 2);
+    // Palavras-chave para correspondência inteligente
+    const modeloStr = normalizarTexto(veiculo.modelo || "");
+    const versaoStr = normalizarTexto(veiculo.versao || "");
+    const textoCompleto = `${modeloStr} ${versaoStr}`;
+
+    // Extrai palavras com mais de 2 letras descartando ruídos como (NACIONAL), / etc.
+    const palavrasChave = textoCompleto
+      .replace(/[()\/\\-]/g, " ")
+      .split(/\s+/)
+      .map(p => p.trim())
+      .filter(p => p.length >= 3 && !["NACIONAL", "IMPORTADO", "FLEX", "GASOLINA", "ALCOOL"].includes(p));
 
     let melhorModelo: { codigo: number; nome: string } | null = null;
     let maiorPontuacao = -1;
@@ -70,40 +89,55 @@ async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado |
     for (const mod of modelosData.modelos) {
       const nomeMod = normalizarTexto(mod.nome);
       let pontuacao = 0;
-      for (const termo of termosBusca) {
-        if (nomeMod.includes(termo)) {
-          pontuacao += termo.length;
+
+      // Se contém o nome principal do modelo (ex: "HB20" ou "GOL" ou "TORO")
+      if (modeloStr && nomeMod.includes(modeloStr)) {
+        pontuacao += 10;
+      }
+
+      for (const palavra of palavrasChave) {
+        // Verifica se a palavra está contida inteira ou como prefixo (ex: PLATINU -> PLATINUM)
+        if (nomeMod.includes(palavra) || (palavra.length >= 5 && nomeMod.includes(palavra.slice(0, 5)))) {
+          pontuacao += 5;
         }
       }
+
       if (pontuacao > maiorPontuacao) {
         maiorPontuacao = pontuacao;
         melhorModelo = mod;
       }
     }
 
-    if (!melhorModelo || maiorPontuacao === 0) {
-      // Fallback: se não pontuou com versão, tenta match direto no sintetico
-      melhorModelo = modelosData.modelos.find(m => normalizarTexto(m.nome).includes(modeloOriginal)) || null;
+    if (!melhorModelo || maiorPontuacao <= 0) {
+      melhorModelo = modelosData.modelos.find(m => normalizarTexto(m.nome).includes(modeloStr)) || null;
     }
 
     if (!melhorModelo) return null;
 
     // 3. Listar anos disponíveis do modelo
     const anosRes = await fetch(
-      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${melhorModelo.codigo}/anos`,
+      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${codigoMarca}/modelos/${melhorModelo.codigo}/anos`,
       { headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" } }
     );
     if (!anosRes.ok) return null;
     const anos: Array<{ codigo: string; nome: string }> = await anosRes.json();
 
-    const anoStr = String(veiculo.ano_modelo || veiculo.ano_fabricacao || "");
-    const anoEncontrado = anos.find((a) => a.codigo.startsWith(anoStr)) || anos[0];
+    const anoDesejado = String(veiculo.ano_modelo || veiculo.ano_fabricacao || "");
+    let anoEncontrado = anos.find(a => a.codigo.startsWith(anoDesejado));
+
+    if (!anoEncontrado && veiculo.ano_fabricacao) {
+      anoEncontrado = anos.find(a => a.codigo.startsWith(String(veiculo.ano_fabricacao)));
+    }
+
+    if (!anoEncontrado) {
+      anoEncontrado = anos[0]; // fallback para ano mais próximo
+    }
 
     if (!anoEncontrado) return null;
 
     // 4. Obter valor FIPE consolidado
     const fipeRes = await fetch(
-      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${melhorModelo.codigo}/anos/${anoEncontrado.codigo}`,
+      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${codigoMarca}/modelos/${melhorModelo.codigo}/anos/${anoEncontrado.codigo}`,
       { headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" } }
     );
     if (!fipeRes.ok) return null;
@@ -118,7 +152,8 @@ async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado |
       codigoFipe: fipeFinal.CodigoFipe,
       mesReferencia: fipeFinal.MesReferencia,
     };
-  } catch {
+  } catch (err) {
+    console.error("Erro na busca gratuita FIPE:", err);
     return null;
   }
 }
@@ -127,7 +162,6 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
   const { request, env } = context;
 
   // 1. Limite de 5 consultas por IP / Usuário
-  const clientIp = request.headers.get("CF-Connecting-IP") || request.headers.get("x-real-ip") || "anonimo";
   const userConsultasHeader = request.headers.get("x-user-consultas");
   const qtdConsultasFeitas = parseInt(userConsultasHeader || "0", 10);
 
@@ -173,9 +207,8 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
   }
 
   // 2. ECONOMIA DE CRÉDITOS: Cache em Memória do Servidor
-  // Se a placa já foi consultada antes, retorna do cache e gasta R$ 0,00!
   const itemCache = CACHE_PLACAS_MEMORIA.get(placa);
-  if (itemCache && Date.now() - itemCache.timestamp < 1000 * 60 * 60 * 24 * 30) { // 30 dias de cache
+  if (itemCache && Date.now() - itemCache.timestamp < 1000 * 60 * 60 * 24 * 30) {
     return new Response(
       JSON.stringify({
         ...itemCache.dados,
