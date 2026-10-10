@@ -80,83 +80,169 @@
         </div>
       </form>
 
-      <!-- Resultado da Placa com Card FIPE e Seletores -->
-      <div id="result-placa" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-4">
-        <div class="p-5 rounded-2xl bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 border border-amber-200">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div class="flex items-center space-x-4">
-              <div id="res-veiculo-logo-container" class="w-16 h-16 rounded-xl bg-white border border-amber-200 shadow-sm flex items-center justify-center p-2 flex-shrink-0">
-                <img id="res-veiculo-logo" src="" alt="Marca" class="max-h-full max-w-full object-contain">
+      <!-- Resultado da Decodificação da Placa -->
+      <div id="result-placa" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-5">
+        <!-- Card Principal da Placa -->
+        <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 border border-amber-200">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div class="flex items-center gap-5">
+              <!-- Visual da Placa -->
+              <div id="res-placa-visual" class="w-48 bg-white border-2 border-slate-900 rounded-xl shadow-md overflow-hidden flex-shrink-0">
+                <!-- Cabeçalho Mercosul ou Padrão -->
+                <div id="res-placa-header" class="bg-blue-700 text-white px-3 py-1 flex items-center justify-between font-sans">
+                  <div class="flex items-center gap-1.5">
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block"></span>
+                    <span class="text-[10px] font-black tracking-widest uppercase">BRASIL</span>
+                  </div>
+                  <span class="text-[9px] font-bold tracking-wider opacity-90">MERCOSUL</span>
+                </div>
+                <!-- Caracteres da Placa -->
+                <div class="py-3 px-2 text-center bg-white">
+                  <span id="placa-formatada" class="font-mono text-2xl sm:text-3xl font-black text-slate-900 tracking-wider uppercase"></span>
+                </div>
               </div>
+
               <div>
-                <span class="text-xs uppercase font-extrabold text-amber-700 tracking-wider">Veículo Identificado</span>
-                <h3 id="res-veiculo-modelo" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight"></h3>
-                <div class="flex flex-wrap items-center gap-2 mt-1">
-                  <span id="placa-tipo" class="text-xs font-semibold text-slate-600 bg-white px-2 py-0.5 rounded border border-amber-200"></span>
-                  <span id="placa-estado" class="text-xs font-bold text-amber-800"></span>
+                <span class="text-xs uppercase font-extrabold text-amber-800 tracking-wider block">Decodificação da Placa</span>
+                <h3 id="res-placa-titulo" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight">
+                  Placa Identificada
+                </h3>
+                <div class="flex flex-wrap items-center gap-2 mt-2">
+                  <span id="placa-tipo" class="text-xs font-semibold text-slate-700 bg-white px-2.5 py-1 rounded-md border border-amber-200 shadow-sm"></span>
+                  <span id="placa-estado" class="text-xs font-bold text-amber-900 bg-amber-200/60 px-2.5 py-1 rounded-md"></span>
                 </div>
               </div>
             </div>
 
-            <div class="flex flex-col sm:items-end justify-center">
-              <div class="px-4 py-2 bg-white rounded-lg border-2 border-slate-900 font-mono text-xl font-black text-slate-900 shadow-sm inline-block" id="placa-formatada"></div>
-              <div class="mt-2 text-right">
-                <span class="text-[11px] uppercase font-bold text-slate-500 block">Preço Médio FIPE</span>
-                <span id="res-veiculo-preco-fipe" class="text-lg font-black text-emerald-700"></span>
-              </div>
+            <div class="flex flex-col md:items-end justify-center">
+              <span class="text-xs font-bold text-slate-500 uppercase">Status no Registro Nacional</span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold bg-emerald-100 text-emerald-800 border border-emerald-300 mt-1">
+                <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+                Padrão Regular Registrado
+              </span>
             </div>
           </div>
         </div>
 
+        <!-- Grid de Dados Técnicos Oficiais da Placa -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-sm">
-          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
-            <span class="text-[11px] text-slate-500 font-medium block">Estado de Registro</span>
-            <span id="res-veiculo-uf" class="font-bold text-slate-900 text-sm"></span>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 shadow-xs">
+            <span class="text-[11px] text-slate-500 font-bold uppercase block mb-1">Estado de Emplacamento</span>
+            <span id="res-veiculo-uf" class="font-black text-slate-900 text-sm"></span>
           </div>
-          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
-            <span class="text-[11px] text-slate-500 font-medium block">Série Alfanumérica Oficial</span>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 shadow-xs">
+            <span class="text-[11px] text-slate-500 font-bold uppercase block mb-1">Faixa Oficial SENATRAN</span>
             <span id="res-veiculo-serie" class="font-semibold text-slate-900 text-sm"></span>
           </div>
-          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
-            <span class="text-[11px] text-slate-500 font-medium block">Placa Antiga Correspondente</span>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 shadow-xs">
+            <span class="text-[11px] text-slate-500 font-bold uppercase block mb-1">Conversão de Placa Oficial</span>
             <span id="res-veiculo-antiga" class="font-mono font-bold text-slate-900 text-sm"></span>
           </div>
-          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200">
-            <span class="text-[11px] text-slate-500 font-medium block">Status no Sistema de Trânsito</span>
-            <span class="inline-block px-2 py-0.5 rounded text-xs font-bold bg-emerald-100 text-emerald-800">
-              Padrão Regular
-            </span>
+          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200 shadow-xs">
+            <span class="text-[11px] text-slate-500 font-bold uppercase block mb-1">Regra de Conversão</span>
+            <span id="res-veiculo-regra" class="text-xs font-medium text-slate-600">5º caractere (0=A, ..., 7=H)</span>
           </div>
         </div>
 
-        <!-- Seletor Interativo FIPE -->
+        <!-- Acesso aos Órgãos Oficiais (DETRAN e SENATRAN) -->
         <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200 space-y-3">
-          <h4 class="font-bold text-sm text-slate-900 flex items-center gap-2">
-            <i data-lucide="tag" class="w-4 h-4 text-amber-600"></i>
-            Alterar Marca ou Modelo para Cotação FIPE:
-          </h4>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <div>
-              <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Marca do Veículo</label>
-              <select id="select-fipe-marca" onchange="aoMudarMarcaFipe()" class="w-full px-3 py-2 rounded-lg border border-slate-300 bg-white font-medium text-slate-800 outline-none focus:ring-2 focus:ring-amber-500"></select>
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
             </div>
             <div>
-              <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Modelo / Versão</label>
-              <select id="select-fipe-modelo" onchange="aoMudarModeloFipe()" class="w-full px-3 py-2 rounded-lg border border-slate-300 bg-white font-medium text-slate-800 outline-none focus:ring-2 focus:ring-amber-500"></select>
+              <h4 class="font-bold text-sm text-slate-900">
+                Consulta Oficial de Débitos, Multas, IPVA e Chassi no DETRAN Estadual:
+              </h4>
+              <p class="text-xs text-slate-500 leading-relaxed mt-1" id="placa-detran-desc">
+                Em respeito à Lei Geral de Proteção de Dados (LGPD) e às resoluções do SENATRAN, dados protegidos por sigilo (número de chassi, modelo exato e dados do proprietário) são disponibilizados com segurança nos portais oficiais dos DETRANs estaduais.
+              </p>
             </div>
+          </div>
+          <div class="flex flex-wrap gap-2.5 pt-1 pl-11" id="placa-botoes-oficiais"></div>
+        </div>
+      </div>
+
+      <!-- SEÇÃO COMPLETA: TABELA FIPE (Preço Médio de Mercado) -->
+      <div id="secao-fipe" class="mt-8 border-t border-slate-200 pt-8 space-y-6">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 mb-2">
+            <i data-lucide="trending-up" class="w-3.5 h-3.5"></i>
+            Tabela FIPE Oficial - Cotação Nacional de Veículos
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-slate-900">Consulta e Cotação na Tabela FIPE</h2>
+          <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+            Consulte a cotação média de mercado oficial da Fundação Instituto de Pesquisas Econômicas (FIPE). Faça uma busca rápida pelo modelo ou selecione a montadora e versão:
+          </p>
+        </div>
+
+        <!-- Busca Rápida de Veículo -->
+        <div class="space-y-1.5 relative">
+          <label class="block text-xs font-bold text-slate-700 uppercase">Busca Rápida de Veículo</label>
+          <div class="relative">
+            <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-3.5 text-slate-400"></i>
+            <input 
+              type="text" 
+              id="input-busca-fipe" 
+              placeholder="Digite o modelo (ex: HB20, Corolla, Gol, Onix, Creta...)"
+              oninput="aoBuscarFipeRapido(this.value)"
+              autocomplete="off"
+              class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900 text-sm font-medium outline-none transition-all shadow-xs"
+            >
+          </div>
+          <!-- Dropdown com sugestões rápidas -->
+          <div id="fipe-sugestoes" class="hidden absolute left-0 right-0 top-full mt-1 bg-white border border-slate-200 rounded-xl shadow-xl z-30 max-h-60 overflow-y-auto divide-y divide-slate-100"></div>
+        </div>
+
+        <!-- Seletores de Marca e Modelo -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Marca / Fabricante</label>
+            <select id="select-fipe-marca" onchange="aoMudarMarcaFipe()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-emerald-500 shadow-xs"></select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Modelo / Versão</label>
+            <select id="select-fipe-modelo" onchange="aoMudarModeloFipe()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-emerald-500 shadow-xs"></select>
           </div>
         </div>
 
-        <!-- Acesso aos Órgãos Oficiais -->
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3">
-          <h4 class="font-bold text-sm text-slate-800 flex items-center gap-2">
-            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
-            Consulta Oficial de Multas e Débitos no DETRAN Estadual:
-          </h4>
-          <p class="text-xs text-slate-500 leading-relaxed" id="placa-detran-desc">
-            Consulte débitos, IPVA, licenciamento e emissão de CRLV digital diretamente no Detran oficial do estado do veículo.
-          </p>
-          <div class="flex flex-wrap gap-2 pt-1" id="placa-botoes-oficiais"></div>
+        <!-- Card de Cotação FIPE em Destaque -->
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100/50 border border-emerald-200 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+            <div class="flex items-center space-x-4">
+              <div id="res-fipe-logo-container" class="w-16 h-16 rounded-xl bg-white border border-emerald-200 shadow-xs flex items-center justify-center p-2.5 flex-shrink-0">
+                <img id="res-fipe-logo" src="" alt="Marca" class="max-h-full max-w-full object-contain">
+              </div>
+              <div>
+                <span class="text-xs uppercase font-extrabold text-emerald-800 tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+                  Cotação Oficial Tabela FIPE
+                </span>
+                <h3 id="res-fipe-modelo-nome" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight"></h3>
+                <div class="flex flex-wrap items-center gap-2 mt-1">
+                  <span id="res-fipe-ano" class="text-xs font-bold text-slate-700 bg-white px-2.5 py-0.5 rounded border border-emerald-200"></span>
+                  <span id="res-fipe-combustivel" class="text-xs font-semibold text-emerald-800 bg-emerald-100/80 px-2 py-0.5 rounded"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:items-end justify-center bg-white sm:bg-transparent p-4 sm:p-0 rounded-xl border sm:border-0 border-emerald-200">
+              <span class="text-xs uppercase font-bold text-slate-500 block">Preço Médio de Mercado FIPE</span>
+              <span id="res-fipe-preco" class="text-2xl sm:text-3xl font-black text-emerald-700 tracking-tight"></span>
+              <span id="res-fipe-codigo" class="text-[11px] font-mono text-slate-400 font-semibold mt-0.5"></span>
+            </div>
+          </div>
+
+          <div class="mt-5 pt-4 border-t border-emerald-200/60 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+            <div class="flex items-center gap-1.5">
+              <i data-lucide="calendar" class="w-3.5 h-3.5 text-emerald-600"></i>
+              <span>Mês de referência: <strong id="res-fipe-mes-ref" class="text-slate-800">Mês Atual</strong></span>
+            </div>
+            <a href="https://veiculos.fipe.org.br/" target="_blank" class="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-900 underline">
+              <span>Consultar certidão na Fundação FIPE</span>
+              <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -189,6 +275,7 @@
     <p>Cidadão Agora Brasil © 2026 - Consulta veicular baseada em dados públicos e FIPE.</p>
   </footer>
 
+  <script src="../dados_placas.js"></script>
   <script src="../app.js"></script>
 </body>
 </html>
