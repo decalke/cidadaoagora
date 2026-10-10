@@ -862,38 +862,89 @@ async function verificarPlacaUnificada(event) {
     `;
   }
 
-  // Chamada à API para obter o veículo real e a Tabela FIPE
+  // 1. Verificação de Cache Local no Navegador (Gasta R$ 0,00 e é instantâneo)
+  const cacheKey = `placa_cache_${raw}`;
+  const dadosEmCache = localStorage.getItem(cacheKey);
+
+  if (dadosEmCache) {
+    try {
+      const dataCached = JSON.parse(dadosEmCache);
+      exibirDadosVeiculoReal(dataCached.veiculo, dataCached.fipe, dataCached.ipvaEstimado);
+      console.log(`[Cache Local] Veículo carregado da memória local: ${raw}`);
+      finalizarBuscaVisual(submitBtn, btnOriginalHtml);
+      return;
+    } catch (e) {
+      localStorage.removeItem(cacheKey);
+    }
+  }
+
+  // 2. Limite de 5 consultas por usuário (salvo no navegador)
+  const MAX_CONSULTAS = 5;
+  const hoje = new Date().toISOString().slice(0, 10);
+  let usoDiario = JSON.parse(localStorage.getItem('uso_consultas_placa') || '{"data":"","contador":0}');
+
+  if (usoDiario.data !== hoje) {
+    usoDiario = { data: hoje, contador: 0 };
+  }
+
+  if (usoDiario.contador >= MAX_CONSULTAS) {
+    alert("Você atingiu o limite de 5 consultas gratuitas por hoje para preservar os recursos do portal. Tente novamente amanhã!");
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = btnOriginalHtml;
+    }
+    popularSeletoresFipe();
+    return;
+  }
+
+  // 3. Chamada à API para obter o veículo real e a Tabela FIPE
   try {
     const apiRes = await fetch('/api/veiculo', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'x-user-consultas': String(usoDiario.contador)
+      },
       body: JSON.stringify({ placa: raw })
     });
 
     if (apiRes.ok) {
       const data = await apiRes.json();
       if (data.sucesso && data.veiculo) {
+        // Incrementa o contador de consultas do usuário
+        usoDiario.contador += 1;
+        localStorage.setItem('uso_consultas_placa', JSON.stringify(usoDiario));
+
+        // Salva os dados desta placa no cache do navegador (economia total)
+        localStorage.setItem(cacheKey, JSON.stringify(data));
+
         exibirDadosVeiculoReal(data.veiculo, data.fipe, data.ipvaEstimado);
       } else {
         popularSeletoresFipe();
       }
     } else {
+      const erroData = await apiRes.json().catch(() => ({}));
+      if (erroData.limiteAtingido) {
+        alert(erroData.erro || "Limite de 5 consultas atingido.");
+      }
       popularSeletoresFipe();
     }
   } catch (err) {
     console.warn("API de consulta veicular indisponível no momento. Usando catálogo FIPE local.", err);
     popularSeletoresFipe();
   } finally {
-    if (submitBtn) {
-      submitBtn.disabled = false;
-      submitBtn.innerHTML = btnOriginalHtml;
-    }
+    finalizarBuscaVisual(submitBtn, btnOriginalHtml);
   }
+}
 
+function finalizarBuscaVisual(submitBtn, originalHtml) {
+  if (submitBtn) {
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = originalHtml;
+  }
   if (typeof window !== 'undefined' && window.lucide) {
     window.lucide.createIcons();
   }
-
   const resultContainer = document.getElementById('result-placa');
   if (resultContainer) {
     resultContainer.classList.remove('hidden');

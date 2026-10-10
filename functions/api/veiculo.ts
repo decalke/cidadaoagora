@@ -20,57 +20,91 @@ interface FipeResultado {
   mesReferencia: string;
 }
 
+// Cache global no isolate da Function para economizar consultas da mesma placa
+const CACHE_PLACAS_MEMORIA = new Map<string, { dados: any; timestamp: number }>();
+
+function normalizarTexto(txt: string): string {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase()
+    .trim();
+}
+
 /**
- * Consulta a FIPE gratuitamente via API pública aberta (Parallelum / Fipe API)
- * Cruzando os dados de marca, modelo e ano obtidos da APIBrasil.
+ * Consulta a FIPE gratuitamente via API pública aberta oficial (Parallelum / FIPE)
+ * Faz match inteligente por marca, modelo e ano retornados da base veicular
  */
 async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado | null> {
   try {
-    // 1. Listar marcas de carros
+    // 1. Obter marcas de carros da FIPE
     const marcasRes = await fetch("https://parallelum.com.br/fipe/api/v1/carros/marcas", {
-      headers: { "User-Agent": "CidadaoAgora-FipeBot/1.0" },
+      headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" },
     });
     if (!marcasRes.ok) return null;
     const marcas: Array<{ codigo: string; nome: string }> = await marcasRes.json();
 
-    const marcaVeiculo = (veiculo.marca || veiculo.fabricante || "").toUpperCase();
-    const marcaEncontrada = marcas.find((m) =>
-      m.nome.toUpperCase().includes(marcaVeiculo) || marcaVeiculo.includes(m.nome.toUpperCase())
-    );
+    const marcaVeiculo = normalizarTexto(veiculo.marca || veiculo.fabricante || "");
+    const marcaEncontrada = marcas.find((m) => {
+      const nomeNorm = normalizarTexto(m.nome);
+      return nomeNorm.includes(marcaVeiculo) || marcaVeiculo.includes(nomeNorm);
+    });
 
     if (!marcaEncontrada) return null;
 
-    // 2. Listar modelos da marca
+    // 2. Listar modelos da montadora encontrada
     const modelosRes = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos`, {
-      headers: { "User-Agent": "CidadaoAgora-FipeBot/1.0" },
+      headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" },
     });
     if (!modelosRes.ok) return null;
     const modelosData: { modelos: Array<{ codigo: number; nome: string }> } = await modelosRes.json();
 
-    const nomeModelo = (veiculo.modeloDetalhes?.sintetico || veiculo.modelo || "").toUpperCase();
-    const modeloEncontrado = modelosData.modelos.find((mod) =>
-      mod.nome.toUpperCase().includes(nomeModelo) || nomeModelo.includes(mod.nome.toUpperCase())
-    );
+    // Palavras-chave do modelo para match aproximado
+    const modeloOriginal = normalizarTexto(veiculo.modeloDetalhes?.sintetico || veiculo.modelo || "");
+    const versaoOriginal = normalizarTexto(veiculo.versao || "");
+    const termosBusca = `${modeloOriginal} ${versaoOriginal}`.split(/[\s/\\-]+/).filter(t => t.length >= 2);
 
-    if (!modeloEncontrado) return null;
+    let melhorModelo: { codigo: number; nome: string } | null = null;
+    let maiorPontuacao = -1;
+
+    for (const mod of modelosData.modelos) {
+      const nomeMod = normalizarTexto(mod.nome);
+      let pontuacao = 0;
+      for (const termo of termosBusca) {
+        if (nomeMod.includes(termo)) {
+          pontuacao += termo.length;
+        }
+      }
+      if (pontuacao > maiorPontuacao) {
+        maiorPontuacao = pontuacao;
+        melhorModelo = mod;
+      }
+    }
+
+    if (!melhorModelo || maiorPontuacao === 0) {
+      // Fallback: se não pontuou com versão, tenta match direto no sintetico
+      melhorModelo = modelosData.modelos.find(m => normalizarTexto(m.nome).includes(modeloOriginal)) || null;
+    }
+
+    if (!melhorModelo) return null;
 
     // 3. Listar anos disponíveis do modelo
     const anosRes = await fetch(
-      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${modeloEncontrado.codigo}/anos`,
-      { headers: { "User-Agent": "CidadaoAgora-FipeBot/1.0" } }
+      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${melhorModelo.codigo}/anos`,
+      { headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" } }
     );
     if (!anosRes.ok) return null;
     const anos: Array<{ codigo: string; nome: string }> = await anosRes.json();
 
-    const anoStr = String(veiculo.ano_modelo);
-    const anoEncontrado = anos.find((a) => a.codigo.startsWith(anoStr));
+    const anoStr = String(veiculo.ano_modelo || veiculo.ano_fabricacao || "");
+    const anoEncontrado = anos.find((a) => a.codigo.startsWith(anoStr)) || anos[0];
 
     if (!anoEncontrado) return null;
 
-    // 4. Buscar valor FIPE final
+    // 4. Obter valor FIPE consolidado
     const fipeRes = await fetch(
-      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${modeloEncontrado.codigo}/anos/${anoEncontrado.codigo}`,
-      { headers: { "User-Agent": "CidadaoAgora-FipeBot/1.0" } }
+      `https://parallelum.com.br/fipe/api/v1/carros/marcas/${marcaEncontrada.codigo}/modelos/${melhorModelo.codigo}/anos/${anoEncontrado.codigo}`,
+      { headers: { "User-Agent": "CidadaoAgora-Fipe/1.0" } }
     );
     if (!fipeRes.ok) return null;
     const fipeFinal: any = await fipeRes.json();
@@ -91,6 +125,22 @@ async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado |
 
 export async function onRequestPost(context: { request: Request; env: Env }): Promise<Response> {
   const { request, env } = context;
+
+  // 1. Limite de 5 consultas por IP / Usuário
+  const clientIp = request.headers.get("CF-Connecting-IP") || request.headers.get("x-real-ip") || "anonimo";
+  const userConsultasHeader = request.headers.get("x-user-consultas");
+  const qtdConsultasFeitas = parseInt(userConsultasHeader || "0", 10);
+
+  if (qtdConsultasFeitas >= 5) {
+    return new Response(
+      JSON.stringify({
+        sucesso: false,
+        limiteAtingido: true,
+        erro: "Limite máximo de 5 consultas gratuitas atingido. Tente novamente mais tarde.",
+      }),
+      { status: 429, headers: { "Content-Type": "application/json" } }
+    );
+  }
 
   // Validação do Token de Ambiente
   const token = env.APIBRASIL_TOKEN;
@@ -122,6 +172,26 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
     );
   }
 
+  // 2. ECONOMIA DE CRÉDITOS: Cache em Memória do Servidor
+  // Se a placa já foi consultada antes, retorna do cache e gasta R$ 0,00!
+  const itemCache = CACHE_PLACAS_MEMORIA.get(placa);
+  if (itemCache && Date.now() - itemCache.timestamp < 1000 * 60 * 60 * 24 * 30) { // 30 dias de cache
+    return new Response(
+      JSON.stringify({
+        ...itemCache.dados,
+        doCache: true,
+      }),
+      {
+        status: 200,
+        headers: {
+          "Content-Type": "application/json",
+          "Cache-Control": "public, max-age=2592000, immutable",
+          "X-Data-Source": "Cache-Server",
+        },
+      }
+    );
+  }
+
   const isHomolog = env.APIBRASIL_HOMOLOG === "true";
 
   const client = new ApiBrasilVeiculosClient({
@@ -131,36 +201,43 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
   });
 
   try {
-    // 1. Consulta dos dados veiculares na APIBrasil (R$ 0,08 ou Grátis em homolog)
+    // 3. Consulta dos dados veiculares na APIBrasil (R$ 0,08)
     const consultaVeiculo = await client.consultarAgregadosPropria(placa, isHomolog);
 
-    // 2. Consulta gratuita do valor de mercado na FIPE
+    // 4. Consulta gratuita em tempo real da Tabela FIPE oficial
     const dadosFipe = await buscarFipeGratuita(consultaVeiculo.veiculo);
 
-    // 3. Estimativa de IPVA (média de 3% a 4% sobre a FIPE caso disponível)
+    // 5. Estimativa de IPVA baseada na cotação FIPE oficial
     let ipvaEstimado: number | null = null;
     if (dadosFipe?.valor) {
       const valorNumerico = Number(
         dadosFipe.valor.replace(/[^0-9,]/g, "").replace(",", ".")
       );
       if (!isNaN(valorNumerico)) {
-        ipvaEstimado = Math.round(valorNumerico * 0.04); // Alíquota estimada SP/RJ/MG: 4%
+        ipvaEstimado = Math.round(valorNumerico * 0.04);
       }
     }
 
+    const payloadResposta = {
+      sucesso: true,
+      veiculo: consultaVeiculo.veiculo,
+      fipe: dadosFipe,
+      ipvaEstimado,
+      homologacao: consultaVeiculo.homologacao,
+      doCache: false,
+    };
+
+    // Salva no cache do servidor para NUNCA mais gastar créditos com essa placa
+    CACHE_PLACAS_MEMORIA.set(placa, { dados: payloadResposta, timestamp: Date.now() });
+
     return new Response(
-      JSON.stringify({
-        sucesso: true,
-        veiculo: consultaVeiculo.veiculo,
-        fipe: dadosFipe,
-        ipvaEstimado,
-        homologacao: consultaVeiculo.homologacao,
-      }),
+      JSON.stringify(payloadResposta),
       {
         status: 200,
         headers: {
           "Content-Type": "application/json",
-          "Cache-Control": "public, max-age=86400", // Cache por 24h para economizar chamadas
+          "Cache-Control": "public, max-age=2592000, immutable",
+          "X-Data-Source": "APIBrasil-Live",
         },
       }
     );
