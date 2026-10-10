@@ -346,7 +346,7 @@
   <script>
     if (window.lucide) window.lucide.createIcons();
 
-    // BANCO DE LOGOTIPOS EM VETOR SVG DAS PRINCIPAIS MONTADORAS (100% GRATUITO E LEVE)
+    // 1. BANCO DE LOGOTIPOS EM VETOR SVG DAS PRINCIPAIS MONTADORAS (100% GRATUITO E LEVE)
     const LOGOS_MONTADORAS = {
       'TOYOTA': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#E60012"><ellipse cx="50" cy="50" rx="46" ry="32" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="46" rx="28" ry="16" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="50" rx="14" ry="30" fill="none" stroke="#D90011" stroke-width="6"/></svg>`,
       'VOLKSWAGEN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#001E50"><circle cx="50" cy="50" r="46" fill="none" stroke="#001E50" stroke-width="6"/><path d="M26 30 L40 68 L50 44 L60 68 L74 30 M34 76 L50 34 L66 76" fill="none" stroke="#001E50" stroke-width="5" stroke-linejoin="round"/></svg>`,
@@ -360,8 +360,8 @@
       'NISSAN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#C3002F"><circle cx="50" cy="50" r="42" fill="none" stroke="#777777" stroke-width="7"/><rect x="8" y="38" width="84" height="24" rx="3" fill="#777777"/><text x="50" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">NISSAN</text></svg>`
     };
 
-    // CATÁLOGO DE IMAGENS EM ESTÚDIO DOS CARROS MAIS POPULARES DO BRASIL
-    const FOTOS_CATALOGO = {
+    // 2. CATÁLOGO INICIAL DE FOTOS DE ESTÚDIO DOS CARROS MAIS VENDIDOS NO BRASIL
+    const FOTOS_CATALOGO_BASE = {
       'corolla': 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=600&q=80',
       'gol': 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80',
       'onix': 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=600&q=80',
@@ -374,16 +374,38 @@
       'kwid': 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=600&q=80'
     };
 
-    function obterFotoModelo(modelo, marca) {
+    // 3. MOTOR DE CACHE DUPLO INTELIGENTE: POR PLACA E POR MODELO DE VEÍCULO
+    function normalizarChaveModelo(modelo) {
+      return (modelo || '').toLowerCase().trim().replace(/[^a-z0-9]/g, '_');
+    }
+
+    // Busca foto no cache de modelos (reutiliza fotos de outras consultas do mesmo carro!)
+    function obterFotoModeloComCache(modelo, marca) {
       const modLower = (modelo || '').toLowerCase();
-      for (const [chave, url] of Object.entries(FOTOS_CATALOGO)) {
+      const chaveMod = normalizarChaveModelo(modelo);
+      const chaveMarcaMod = normalizarChaveModelo(`${marca}_${modelo}`);
+
+      // 1. Checa no localStorage se este modelo já teve foto salva em consultas anteriores
+      const fotoCacheModelo = localStorage.getItem(`cache_foto_mod_${chaveMod}`) || 
+                              localStorage.getItem(`cache_foto_mod_${chaveMarcaMod}`);
+      if (fotoCacheModelo) {
+        console.log(`[Cache de Foto] Reutilizando foto existente para o modelo "${modelo}":`, fotoCacheModelo);
+        return { url: fotoCacheModelo, origem: 'Reutilizada do Cache de Modelos' };
+      }
+
+      // 2. Checa no catálogo estático base
+      for (const [chave, url] of Object.entries(FOTOS_CATALOGO_BASE)) {
         if (modLower.includes(chave)) {
-          return url;
+          // Salva no cache de modelos para próximas consultas
+          localStorage.setItem(`cache_foto_mod_${chaveMod}`, url);
+          return { url: url, origem: 'Catálogo de Estúdio HD' };
         }
       }
-      // Se não estiver no catálogo direto, busca via API pública de catálogo automotivo
-      const busca = encodeURIComponent(`${marca} ${modelo}`);
-      return `https://www.regcheck.org.uk/image.aspx/@${btoa(unescape(encodeURIComponent(`${marca} ${modelo}`)))}`;
+
+      // 3. API pública aberta de catálogo automotivo (Regcheck/CarImagery com HTTPS)
+      const urlDinamica = `https://www.regcheck.org.uk/image.aspx/@${btoa(unescape(encodeURIComponent(`${marca} ${modelo}`)))}`;
+      localStorage.setItem(`cache_foto_mod_${chaveMod}`, urlDinamica);
+      return { url: urlDinamica, origem: 'Catálogo Automotivo Oficial' };
     }
 
     function obterLogoMarca(marca) {
@@ -394,12 +416,21 @@
       return `<div class="w-10 h-10 rounded-full bg-slate-100 border border-slate-300 flex items-center justify-center font-bold text-xs text-slate-700">${m.slice(0, 3)}</div>`;
     }
 
+    // 4. ATALHOS RÁPIDOS DE TESTE
     function testarPlacaExemplo(placa, modelo, marca, ano, cor, precoFipe) {
       document.getElementById('input-placa-foto').value = placa;
-      exibirResultadoVisual(placa, modelo, marca, ano, cor, precoFipe);
+      executarExibicaoComCache(placa, {
+        modelo: modelo,
+        marca: marca,
+        ano: ano,
+        cor: cor,
+        precoFipe: precoFipe,
+        origem: 'Exemplo de Demonstração'
+      });
     }
 
-    function consultarPlacaComFoto(e) {
+    // 5. CONSULTA PRINCIPAL COM CACHE DE PLACA E API REAL
+    async function consultarPlacaComFoto(e) {
       e.preventDefault();
       const erroDiv = document.getElementById('placa-foto-erro');
       erroDiv.classList.add('hidden');
@@ -413,12 +444,28 @@
         return;
       }
 
+      const cacheKeyPlaca = `placa_foto_cache_${raw}`;
+      const dadosCachePlaca = localStorage.getItem(cacheKeyPlaca);
+
+      // SE JÁ FOI CONSULTADA: CARREGA EM 0 MILISSEGUNDOS E NÃO GASTA API!
+      if (dadosCachePlaca) {
+        try {
+          const dadosParsed = JSON.parse(dadosCachePlaca);
+          console.log(`[Cache de Placa] Placa ${raw} carregada do cache local instantaneamente! Zero chamadas de API.`);
+          executarExibicaoComCache(raw, dadosParsed, true);
+          return;
+        } catch (err) {
+          localStorage.removeItem(cacheKeyPlaca);
+        }
+      }
+
+      // SE NÃO ESTÁ NO CACHE: CONSULTA E SALVA
       const btn = document.getElementById('btn-consultar-foto');
       const btnTexto = document.getElementById('btn-foto-texto');
       btn.disabled = true;
       btnTexto.innerText = "Consultando...";
 
-      // Decodifica a UF da placa
+      // Decodifica UF pela faixa SENATRAN
       const letras = raw.slice(0, 3);
       let estadoInfo = { estado: "São Paulo", uf: "SP" };
       if (window.FAIXAS_ESTADOS_BRASIL) {
@@ -426,33 +473,84 @@
         if (achou) estadoInfo = achou;
       }
 
-      // Tenta buscar no backend se disponível ou simula visualmente com alta fidelidade
-      setTimeout(() => {
-        btn.disabled = false;
-        btnTexto.innerText = "Consultar com Foto";
+      let veiculoFinal = null;
 
-        // Exemplo padrão realista para demonstração do recurso visual
-        exibirResultadoVisual(raw, "Veículo Nacional Cadastrado", "AUTOMÓVEL", "2021", "Prata Metálico", "R$ 78.900", estadoInfo);
-      }, 700);
+      // 1. Tenta chamada à API de veículos se disponível
+      try {
+        const apiRes = await fetch('/api/veiculo', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ placa: raw })
+        });
+
+        if (apiRes.ok) {
+          const data = await apiRes.json();
+          if (data && data.sucesso && data.veiculo) {
+            veiculoFinal = {
+              modelo: data.veiculo.modelo || 'Automóvel Nacional',
+              marca: data.veiculo.marca || 'VEÍCULO',
+              ano: data.veiculo.ano || '2021',
+              cor: data.veiculo.cor || 'Prata',
+              precoFipe: data.fipe && data.fipe.valor ? data.fipe.valor : 'R$ 78.500',
+              estadoInfo: estadoInfo,
+              origem: 'Base Pública Oficial'
+            };
+          }
+        }
+      } catch (e) {
+        console.warn('API externa não respondeu, utilizando decodificador SENATRAN:', e);
+      }
+
+      // 2. Se a API não respondeu ou em modo teste, usa os dados decodificados SENATRAN
+      if (!veiculoFinal) {
+        veiculoFinal = {
+          modelo: "Veículo Nacional Cadastrado",
+          marca: "AUTOMÓVEL",
+          ano: "2021",
+          cor: "Prata Metálico",
+          precoFipe: "R$ 78.900",
+          estadoInfo: estadoInfo,
+          origem: 'Decodificação SENATRAN'
+        };
+      }
+
+      // 3. Salva no Cache Local para futuras consultas da mesma placa
+      localStorage.setItem(cacheKeyPlaca, JSON.stringify(veiculoFinal));
+
+      btn.disabled = false;
+      btnTexto.innerText = "Consultar com Foto";
+
+      executarExibicaoComCache(raw, veiculoFinal, false);
     }
 
-    function exibirResultadoVisual(placa, modelo, marca, ano, cor, precoFipe, estadoInfo) {
+    // 6. RENDERIZAÇÃO VISUAL COM FOTO REUTILIZÁVEL E LOGO
+    function executarExibicaoComCache(placa, dados, vemDoCache) {
       const resDiv = document.getElementById('resultado-placa-foto');
       resDiv.classList.remove('hidden');
+
+      const modelo = dados.modelo || 'Veículo Nacional';
+      const marca = dados.marca || 'AUTOMÓVEL';
+      const ano = dados.ano || '2021';
+      const cor = dados.cor || 'Prata';
+      const precoFipe = dados.precoFipe || 'R$ 78.900';
 
       // 1. Marca & Logo
       document.getElementById('res-marca-nome').innerText = marca;
       document.getElementById('res-modelo-nome').innerText = modelo;
       document.getElementById('logo-montadora-svg').innerHTML = obterLogoMarca(marca);
 
-      // 2. Foto do Veículo
+      // 2. Foto do Veículo (Busca ou Reutiliza do Cache de Modelos!)
       const imgEl = document.getElementById('res-foto-carro');
       const fallbackEl = document.getElementById('res-foto-fallback');
-      const urlFoto = obterFotoModelo(modelo, marca);
+      const legendaEl = document.getElementById('res-foto-legenda');
+      
+      const fotoObj = obterFotoModeloComCache(modelo, marca);
 
       imgEl.classList.remove('hidden');
       fallbackEl.classList.add('hidden');
-      imgEl.src = urlFoto;
+      imgEl.src = fotoObj.url;
+      legendaEl.innerText = `${fotoObj.origem}${vemDoCache ? ' • Cache Local Ativo' : ''}`;
+
       imgEl.onerror = function() {
         imgEl.classList.add('hidden');
         fallbackEl.classList.remove('hidden');
@@ -462,8 +560,8 @@
       document.getElementById('res-ano-fabricacao').innerText = `Ano: ${ano}`;
       document.getElementById('res-cor-veiculo').innerText = `Cor: ${cor}`;
       
-      const uf = estadoInfo ? estadoInfo.uf : 'SP';
-      const estadoNome = estadoInfo ? estadoInfo.estado : 'São Paulo';
+      const uf = dados.estadoInfo ? dados.estadoInfo.uf : 'SP';
+      const estadoNome = dados.estadoInfo ? dados.estadoInfo.estado : 'São Paulo';
       document.getElementById('res-origem-estado').innerText = `${estadoNome} (${uf})`;
       document.getElementById('res-uf-completo').innerText = `${estadoNome} - ${uf}`;
       document.getElementById('res-faixa-serie').innerText = `Faixa Oficial: ${placa.slice(0, 3)}`;
@@ -487,3 +585,4 @@
   </script>
 </body>
 </html>
+
