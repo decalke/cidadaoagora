@@ -739,7 +739,20 @@ const FABRICANTES_BRASIL = [
   }
 ];
 
-function verificarPlaca(event) {
+// Tabela aproximada de alíquotas de IPVA para automóveis por Estado (%)
+const ALIQUOTAS_IPVA_ESTADOS = {
+  SP: 4.0, RJ: 4.0, MG: 4.0,
+  PR: 3.5, DF: 3.5, GO: 3.75,
+  RS: 3.0, BA: 2.5, PE: 3.0, CE: 3.0,
+  SC: 2.0, ES: 2.0, AC: 2.0, MT: 3.0, MS: 3.0,
+  AM: 2.0, PA: 2.5, MA: 2.5, PB: 2.5, RN: 3.0,
+  AL: 3.0, SE: 3.0, PI: 2.5, RO: 2.0, RR: 3.0,
+  AP: 3.0, TO: 3.5
+};
+
+let estadoPlacaAtual = { uf: "SP", estado: "São Paulo" };
+
+function verificarPlacaUnificada(event) {
   event.preventDefault();
   const input = document.getElementById('input-placa');
   if (!input) return;
@@ -759,6 +772,7 @@ function verificarPlaca(event) {
 
   const letras = raw.slice(0, 3);
   const infoEstado = identificarEstadoPlaca(letras);
+  estadoPlacaAtual = infoEstado;
 
   const elVisualHeader = document.getElementById('res-placa-header');
 
@@ -836,6 +850,9 @@ function verificarPlaca(event) {
       </a>
     `;
   }
+
+  // Atualiza ou inicializa os seletores da Tabela FIPE
+  popularSeletoresFipe();
 
   if (typeof window !== 'undefined' && window.lucide) {
     window.lucide.createIcons();
@@ -919,6 +936,26 @@ function aplicarDadosVeiculoFipe(fab, mod) {
   if (imgLogo) {
     imgLogo.src = fab.logo;
     imgLogo.alt = fab.marca;
+  }
+
+  // Atualiza a Estimativa de IPVA baseada no Estado da Placa
+  const uf = estadoPlacaAtual.uf || "SP";
+  const aliq = ALIQUOTAS_IPVA_ESTADOS[uf] || 3.0;
+
+  const elIpvaBadge = document.getElementById('res-ipva-uf-badge');
+  if (elIpvaBadge) elIpvaBadge.innerText = `${estadoPlacaAtual.estado} (${uf}) - ${aliq.toFixed(2)}%`;
+
+  const elIpvaVenal = document.getElementById('res-ipva-venal');
+  if (elIpvaVenal) elIpvaVenal.innerText = mod.preco;
+
+  const elIpvaAliq = document.getElementById('res-ipva-aliquota');
+  if (elIpvaAliq) elIpvaAliq.innerText = `${aliq.toFixed(2)} %`;
+
+  const elIpvaValor = document.getElementById('res-ipva-valor');
+  if (elIpvaValor) {
+    const valorNumerico = parseFloat(mod.preco.replace(/[^0-9]/g, '')) / 100 || 0;
+    const valorIpva = (valorNumerico * aliq) / 100;
+    elIpvaValor.innerText = valorIpva.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
   }
 }
 
