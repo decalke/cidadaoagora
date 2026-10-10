@@ -2,8 +2,15 @@
 // INFOCIDADÃO - LÓGICA PRINCIPAL DO PORTAL
 // ==========================================
 
-// Base Oficial de CNAEs (usa a base completa de cnae_dados.js se carregada, ou fallback)
-var CNAE_DATABASE = (typeof window !== 'undefined' && window.CNAE_DATABASE) ? window.CNAE_DATABASE : [
+// Base Oficial de CNAEs com Fallback Inteligente
+function getCNAEDatabase() {
+  if (typeof window !== 'undefined' && window.CNAE_DATABASE && window.CNAE_DATABASE.length > 50) {
+    return window.CNAE_DATABASE;
+  }
+  return CNAE_FALLBACK;
+}
+
+const CNAE_FALLBACK = [
   { codigo: "6201-5/01", descricao: "Desenvolvimento de programas de computador sob encomenda", mei: false, anexo: "Anexo III ou V (Fator R)", aliquota: "A partir de 6%" },
   { codigo: "6202-3/00", descricao: "Desenvolvimento e customização de programas de computador", mei: false, anexo: "Anexo III ou V (Fator R)", aliquota: "A partir de 6%" },
   { codigo: "6209-1/00", descricao: "Suporte técnico, manutenção e outros serviços em tecnologia da informação", mei: false, anexo: "Anexo III", aliquota: "A partir de 6%" },
@@ -29,8 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     window.lucide.createIcons();
   }
   const cnaeContainer = document.getElementById('cnae-results-list');
-  if (cnaeContainer && typeof CNAE_DATABASE !== 'undefined') {
-    renderCNAEList(CNAE_DATABASE);
+  if (cnaeContainer) {
+    renderCNAEList(getCNAEDatabase());
   }
   setupCNPJMask();
   setupCPFMask();
@@ -335,9 +342,10 @@ function renderCNAEList(items) {
 function filtrarCNAE() {
   const inputEl = document.getElementById('input-cnae');
   if (!inputEl) return;
+  const db = getCNAEDatabase();
   const rawQuery = inputEl.value.trim();
   if (!rawQuery) {
-    renderCNAEList(CNAE_DATABASE.slice(0, 30));
+    renderCNAEList(db.slice(0, 30));
     return;
   }
 
@@ -347,12 +355,12 @@ function filtrarCNAE() {
   const queryNorm = normalizar(rawQuery);
   const apenasNumeros = rawQuery.replace(/\D/g, "");
 
-  const filtrados = CNAE_DATABASE.filter(item => {
+  const filtrados = db.filter(item => {
     // 1. Busca por código formatado ou apenas dígitos numéricos
     if (apenasNumeros && item.codigo_limpo && item.codigo_limpo.includes(apenasNumeros)) {
       return true;
     }
-    if (item.codigo.toLowerCase().includes(queryNorm)) {
+    if (item.codigo && item.codigo.toLowerCase().includes(queryNorm)) {
       return true;
     }
 
@@ -402,9 +410,10 @@ function aoDigitarCNAE(valor) {
   const normalizar = (str) => (str || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const termoNorm = normalizar(termo);
   const apenasNum = termo.replace(/\D/g, "");
+  const db = getCNAEDatabase();
 
   // Localiza as top 6 sugestões mais relevantes
-  const sugestoes = CNAE_DATABASE.filter(item => {
+  const sugestoes = db.filter(item => {
     if (apenasNum && item.codigo_limpo && item.codigo_limpo.startsWith(apenasNum)) return true;
     const descNorm = normalizar(item.descricao);
     if (descNorm.includes(termoNorm)) return true;
