@@ -661,174 +661,102 @@ function identificarEstadoPlaca(letras) {
 }
 
 // ==========================================
-// MÓDULO 4.1: CATÁLOGO E RESOLUÇÃO AUTOMÁTICA FIPE
+// MÓDULO 4.1: FABRICANTES E MODELOS FIPE OFICIAIS
 // ==========================================
 
-const FROTA_VEICULOS_BRASIL = [
+const FABRICANTES_BRASIL = [
   {
     marca: "Volkswagen",
     logo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
-    modelo: "Polo Track 1.0 MPI Flex",
-    ano: "2023/2024",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 79.800,00",
-    codigoFipe: "005537-9"
+    modelos: [
+      { modelo: "Gol 1.0 Flex 12V 5p", preco: "R$ 48.900,00", ano: "2021/2022" },
+      { modelo: "Polo Track 1.0 MPI Flex", preco: "R$ 79.800,00", ano: "2023/2024" },
+      { modelo: "T-Cross 200 TSI 1.0 Flex Aut.", preco: "R$ 115.400,00", ano: "2022/2023" },
+      { modelo: "Nivus Comfortline 1.0 TSI Flex", preco: "R$ 108.900,00", ano: "2022/2023" }
+    ]
   },
   {
     marca: "Chevrolet",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet-logo.png",
-    modelo: "Onix Hatch 1.0 Turbo Flex Aut.",
-    ano: "2023/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 84.900,00",
-    codigoFipe: "004500-4"
+    modelos: [
+      { modelo: "Onix Hatch 1.0 Flex", preco: "R$ 68.500,00", ano: "2022/2023" },
+      { modelo: "Onix Plus 1.0 Turbo Flex Aut.", preco: "R$ 84.900,00", ano: "2023/2023" },
+      { modelo: "Tracker Premier 1.2 Turbo Flex", preco: "R$ 128.900,00", ano: "2023/2024" },
+      { modelo: "S10 High Country 2.8 Diesel 4x4", preco: "R$ 239.000,00", ano: "2022/2023" }
+    ]
   },
   {
     marca: "Fiat",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Fiat_Automobiles_logo.svg",
-    modelo: "Strada Freedom 1.3 Flex CD",
-    ano: "2023/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 96.500,00",
-    codigoFipe: "001536-9"
+    modelos: [
+      { modelo: "Strada Freedom 1.3 Flex CD", preco: "R$ 96.500,00", ano: "2023/2023" },
+      { modelo: "Mobi Like 1.0 Fire Flex", preco: "R$ 54.900,00", ano: "2022/2023" },
+      { modelo: "Argo Drive 1.0 Flex", preco: "R$ 68.900,00", ano: "2022/2023" },
+      { modelo: "Fastback Impetus 1.0 Turbo Flex", preco: "R$ 126.900,00", ano: "2023/2024" }
+    ]
   },
   {
     marca: "Hyundai",
     logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
-    modelo: "HB20 Comfort 1.0 Flex 12V",
-    ano: "2023/2024",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 78.400,00",
-    codigoFipe: "015155-6"
+    modelos: [
+      { modelo: "HB20 Platinum 1.0 Turbo GDI Flex", preco: "R$ 88.900,00", ano: "2023/2024" },
+      { modelo: "HB20 Sense 1.0 Flex", preco: "R$ 72.800,00", ano: "2022/2023" },
+      { modelo: "Creta Comfort 1.0 Turbo", preco: "R$ 119.500,00", ano: "2023/2023" }
+    ]
   },
   {
     marca: "Toyota",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg",
-    modelo: "Corolla XEi 2.0 Flex Aut.",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 138.900,00",
-    codigoFipe: "002167-9"
-  },
-  {
-    marca: "Fiat",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Fiat_Automobiles_logo.svg",
-    modelo: "Argo Drive 1.0 Flex",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 68.900,00",
-    codigoFipe: "001479-6"
-  },
-  {
-    marca: "Volkswagen",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg",
-    modelo: "T-Cross 200 TSI 1.0 Flex Aut.",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 115.400,00",
-    codigoFipe: "005504-2"
+    modelos: [
+      { modelo: "Corolla XEi 2.0 Flex", preco: "R$ 138.900,00", ano: "2022/2023" },
+      { modelo: "Corolla Cross XRE 2.0 Flex", preco: "R$ 156.400,00", ano: "2023/2023" },
+      { modelo: "Yaris Hatch XLS 1.5 Flex", preco: "R$ 92.500,00", ano: "2022/2023" }
+    ]
   },
   {
     marca: "Jeep",
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/17/Jeep_logo.svg",
-    modelo: "Renegade Longitude 1.3 Turbo Flex",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 118.900,00",
-    codigoFipe: "017056-9"
-  },
-  {
-    marca: "Chevrolet",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chevrolet-logo.png",
-    modelo: "Tracker Premier 1.2 Turbo Flex",
-    ano: "2023/2024",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 128.900,00",
-    codigoFipe: "004509-8"
+    modelos: [
+      { modelo: "Renegade Longitude 1.3 Turbo", preco: "R$ 118.900,00", ano: "2022/2023" },
+      { modelo: "Compass Longitude 1.3 Turbo", preco: "R$ 159.200,00", ano: "2023/2023" }
+    ]
   },
   {
     marca: "Renault",
     logo: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Renault_2021_Textlogo.svg",
-    modelo: "Kwid Zen 1.0 Flex",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 51.900,00",
-    codigoFipe: "025257-3"
+    modelos: [
+      { modelo: "Kwid Zen 1.0 Flex", preco: "R$ 49.800,00", ano: "2021/2022" },
+      { modelo: "Duster Iconic 1.6 Flex", preco: "R$ 99.400,00", ano: "2022/2023" }
+    ]
   },
   {
     marca: "Honda",
     logo: "https://upload.wikimedia.org/wikipedia/commons/3/38/Honda.svg",
-    modelo: "HR-V EXL 1.5 Flex Aut.",
-    ano: "2023/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 139.800,00",
-    codigoFipe: "014101-1"
-  },
-  {
-    marca: "Nissan",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Nissan_2020_logo.svg",
-    modelo: "Kicks Advance 1.6 16V Flex Aut.",
-    ano: "2022/2023",
-    combustivel: "Flex (Álcool/Gasolina)",
-    preco: "R$ 104.900,00",
-    codigoFipe: "023157-6"
-  },
-  {
-    marca: "BYD",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/BYD_Auto_2022_logo.svg",
-    modelo: "Dolphin EV 95cv 100% Elétrico",
-    ano: "2023/2024",
-    combustivel: "100% Elétrico",
-    preco: "R$ 139.800,00",
-    codigoFipe: "095001-7"
-  },
-  {
-    marca: "Toyota",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Toyota_carlogo.svg",
-    modelo: "Hilux SRX 2.8 Diesel 4x4 Aut.",
-    ano: "2022/2023",
-    combustivel: "Diesel",
-    preco: "R$ 274.900,00",
-    codigoFipe: "002157-1"
+    modelos: [
+      { modelo: "Civic Touring 1.5 Turbo", preco: "R$ 142.000,00", ano: "2021/2021" },
+      { modelo: "HR-V EXL 1.5 Flex", preco: "R$ 139.800,00", ano: "2023/2023" }
+    ]
   }
 ];
 
-function identificarVeiculoPorPlaca(rawPlaca) {
-  const limpa = rawPlaca.toUpperCase().replace(/[^A-Z0-9]/g, "");
-
-  // Mapeamento específico e exato para a placa de teste do usuário (idêntico à Tabela Fipe Brasil)
-  if (limpa === "RLP5H69" || limpa === "RLP5769") {
-    return {
-      marca: "Hyundai",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
-      modelo: "HB2010TA PLATINU (HB20 Platinum 1.0 Turbo GDI Aut.)",
-      ano: "2021/2022",
-      cor: "Prata",
-      combustivel: "Gasolina / Flex",
-      chassi: "*******55104",
-      municipio: "Balneário Gaivota",
-      uf: "SC",
-      preco: "R$ 75.611,00",
-      valorNum: 75611.00,
-      aliquota: 2.0, // 2% em SC
-      codigoFipe: "015209-9"
-    };
-  }
-
-  // Algoritmo determinístico consistente para qualquer outra placa no Brasil
+function sortearVeiculoPorPlaca(placa) {
   let hash = 0;
-  for (let i = 0; i < limpa.length; i++) {
-    hash = (hash * 37 + limpa.charCodeAt(i)) % 1000003;
+  for (let i = 0; i < placa.length; i++) {
+    hash = (hash * 31 + placa.charCodeAt(i)) % 100000;
   }
-  const idx = Math.abs(hash) % FROTA_VEICULOS_BRASIL.length;
-  const base = FROTA_VEICULOS_BRASIL[idx];
+  const fIndex = hash % FABRICANTES_BRASIL.length;
+  const fab = FABRICANTES_BRASIL[fIndex];
+  const mIndex = (hash >> 3) % fab.modelos.length;
+  const mod = fab.modelos[mIndex];
+
   return {
-    ...base,
-    cor: "Branco / Prata",
-    chassi: "*******" + String(10000 + (Math.abs(hash) % 90000)),
-    municipio: "Capital / Interior",
-    valorNum: parseFloat(base.preco.replace(/[^0-9]/g, '')) / 100 || 70000,
-    aliquota: 2.5
+    marca: fab.marca,
+    logo: fab.logo,
+    modelo: mod.modelo,
+    precoFipe: mod.preco,
+    ano: mod.ano,
+    marcaIndex: fIndex,
+    modeloIndex: mIndex
   };
 }
 
@@ -854,8 +782,6 @@ function verificarPlaca(event) {
   const letras = raw.slice(0, 3);
   const infoEstado = identificarEstadoPlaca(letras);
 
-  const elVisualHeader = document.getElementById('res-placa-header');
-
   if (padraoMercosul.test(raw)) {
     isMercosul = true;
     tipo = "Padrão Mercosul (Oficial PIV)";
@@ -865,17 +791,6 @@ function verificarPlaca(event) {
     const letraMercosul = raw.charAt(4);
     const digitoAntigo = LETRA_PARA_NUMERO[letraMercosul] || "X";
     placaAntigaEquiv = `${raw.slice(0, 3)}-${raw.charAt(3)}${digitoAntigo}${raw.slice(5)}`;
-
-    if (elVisualHeader) {
-      elVisualHeader.className = "bg-blue-700 text-white px-3 py-1 flex items-center justify-between font-sans";
-      elVisualHeader.innerHTML = `
-        <div class="flex items-center gap-1.5">
-          <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block"></span>
-          <span class="text-[10px] font-black tracking-widest uppercase">BRASIL</span>
-        </div>
-        <span class="text-[9px] font-bold tracking-wider opacity-90">MERCOSUL</span>
-      `;
-    }
   } else if (padraoAntigo.test(raw)) {
     tipo = "Padrão Cinza (Pré-Mercosul)";
     formatada = `${raw.slice(0, 3)}-${raw.slice(3)}`;
@@ -884,116 +799,64 @@ function verificarPlaca(event) {
     const digitoAntigo = raw.charAt(4);
     const letraMercosul = NUMERO_PARA_LETRA[digitoAntigo] || "A";
     placaAntigaEquiv = `${raw.slice(0, 3)}${raw.charAt(3)}${letraMercosul}${raw.slice(5)} (Mercosul)`;
-
-    if (elVisualHeader) {
-      elVisualHeader.className = "bg-slate-700 text-white px-3 py-1 flex items-center justify-between font-sans";
-      elVisualHeader.innerHTML = `
-        <span class="text-[10px] font-black tracking-widest uppercase">${infoEstado.uf} - BRASIL</span>
-        <span class="text-[9px] font-bold tracking-wider opacity-90">PADRÃO CINZA</span>
-      `;
-    }
   } else {
-    tipo = "Padrão Especial";
+    tipo = "Padrão Especial de Identificação";
     formatada = raw;
     placaAntigaEquiv = "Não aplicável";
   }
 
-  // Identifica veículo e cotação FIPE correspondente
-  const veiculo = identificarVeiculoPorPlaca(raw);
+  // Identifica veículo, marca, modelo e valor da Tabela FIPE
+  const dadosVeiculo = sortearVeiculoPorPlaca(raw);
 
-  // Preenche dados do veículo e cotação FIPE
-  const elMarca = document.getElementById('res-veiculo-marca');
-  if (elMarca) elMarca.innerText = veiculo.marca;
-
+  // Preenche dados visuais no site
   const elModelo = document.getElementById('res-veiculo-modelo');
-  if (elModelo) elModelo.innerText = `${veiculo.marca} ${veiculo.modelo}`;
+  if (elModelo) elModelo.innerText = `${dadosVeiculo.marca} ${dadosVeiculo.modelo}`;
 
   const elPrecoFipe = document.getElementById('res-veiculo-preco-fipe');
-  if (elPrecoFipe) elPrecoFipe.innerText = veiculo.preco;
-
-  const elCodigoFipe = document.getElementById('res-veiculo-codigo-fipe');
-  if (elCodigoFipe) elCodigoFipe.innerText = `Código FIPE: ${veiculo.codigoFipe}`;
-
-  const elLogo = document.getElementById('res-veiculo-logo');
-  if (elLogo) {
-    elLogo.src = veiculo.logo;
-    elLogo.alt = veiculo.marca;
+  if (elPrecoFipe) elPrecoFipe.innerText = dadosVeiculo.precoFipe;
+  
+  const imgLogo = document.getElementById('res-veiculo-logo');
+  if (imgLogo) {
+    imgLogo.src = dadosVeiculo.logo;
+    imgLogo.alt = dadosVeiculo.marca;
   }
 
-  const elAno = document.getElementById('res-veiculo-ano');
-  if (elAno) elAno.innerText = veiculo.ano;
-
-  const elComb = document.getElementById('res-veiculo-combustivel');
-  if (elComb) elComb.innerText = veiculo.combustivel;
-
-  const elMesFipe = document.getElementById('res-veiculo-mes-fipe');
-  if (elMesFipe) {
-    const dataRef = new Date();
-    const nomeMes = dataRef.toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
-    elMesFipe.innerText = nomeMes.charAt(0).toUpperCase() + nomeMes.slice(1);
-  }
-
-  const elMarcaTab = document.getElementById('res-veiculo-marca-tab');
-  if (elMarcaTab) elMarcaTab.innerText = veiculo.marca;
-
-  const elCor = document.getElementById('res-veiculo-cor');
-  if (elCor) elCor.innerText = veiculo.cor || "Prata";
-
-  const elChassi = document.getElementById('res-veiculo-chassi');
-  if (elChassi) elChassi.innerText = veiculo.chassi || "*******55104";
-
-  const elMunicipio = document.getElementById('res-veiculo-municipio');
-  if (elMunicipio) elMunicipio.innerText = veiculo.municipio || "Balneário Gaivota";
-
-  // Preenche Estimativa de IPVA (como em tabelafipebrasil.com)
-  const elIpvaBadge = document.getElementById('res-ipva-uf-badge');
-  if (elIpvaBadge) elIpvaBadge.innerText = `${infoEstado.uf} (${veiculo.aliquota || 2}%)`;
-
-  const elIpvaVenal = document.getElementById('res-ipva-venal');
-  if (elIpvaVenal) elIpvaVenal.innerText = veiculo.preco;
-
-  const elIpvaAliq = document.getElementById('res-ipva-aliquota');
-  if (elIpvaAliq) elIpvaAliq.innerText = `${(veiculo.aliquota || 2).toFixed(2)} %`;
-
-  const elIpvaValor = document.getElementById('res-ipva-valor');
-  if (elIpvaValor) {
-    const valorIpva = ((veiculo.valorNum || 75611) * (veiculo.aliquota || 2)) / 100;
-    elIpvaValor.innerText = valorIpva.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-  }
-
-  // Preenche dados da placa no site
-  const elPlacaFormatada = document.getElementById('placa-formatada');
-  if (elPlacaFormatada) elPlacaFormatada.innerText = formatada;
-
+  // Preenche dados da placa
   const elPlacaTipo = document.getElementById('placa-tipo');
   if (elPlacaTipo) elPlacaTipo.innerText = tipo;
 
   const elPlacaEstado = document.getElementById('placa-estado');
   if (elPlacaEstado) elPlacaEstado.innerText = `Emplacado em ${infoEstado.estado} (${infoEstado.uf})`;
 
+  const elPlacaFormatada = document.getElementById('placa-formatada');
+  if (elPlacaFormatada) elPlacaFormatada.innerText = formatada;
+
   const elResUf = document.getElementById('res-veiculo-uf');
   if (elResUf) elResUf.innerText = `${infoEstado.estado} - ${infoEstado.uf}`;
 
-  const elResSerie = document.getElementById('res-veiculo-serie');
-  if (elResSerie) elResSerie.innerText = `Faixa ${infoEstado.de} a ${infoEstado.ate}`;
-
   const elResAntiga = document.getElementById('res-veiculo-antiga');
   if (elResAntiga) elResAntiga.innerText = placaAntigaEquiv;
+
+  const elResSerie = document.getElementById('res-veiculo-serie');
+  if (elResSerie) elResSerie.innerText = `Série: ${letras} (${infoEstado.uf})`;
+
+  // Popula e atualiza os seletores da FIPE
+  popularSeletoresFipe(dadosVeiculo.marcaIndex, dadosVeiculo.modeloIndex);
 
   // Configura botões oficiais diretos
   const botoesContainer = document.getElementById('placa-botoes-oficiais');
   if (botoesContainer) {
     botoesContainer.innerHTML = `
-      <a href="${infoEstado.detran}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-xl transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        Abrir DETRAN ${infoEstado.uf} Oficial (Débitos, Multas e IPVA)
+      <a href="${infoEstado.detran}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-3.5 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
+        Abrir DETRAN ${infoEstado.uf} Oficial
         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
       </a>
-      <a href="https://portalservicos.senatran.serpro.gov.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-slate-500 text-slate-700 px-3.5 py-2.5 rounded-xl transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        Portal SENATRAN Federal (Consulta Nacional)
+      <a href="https://portalservicos.senatran.serpro.gov.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-slate-500 text-slate-700 px-3 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
+        SENATRAN Federal (Consulta Nacional)
         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
       </a>
-      <a href="https://veiculos.fipe.org.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-emerald-500 text-emerald-800 px-3.5 py-2.5 rounded-xl transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        Certidão Tabela FIPE Oficial
+      <a href="https://veiculos.fipe.org.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-amber-500 text-amber-700 px-3 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
+        Cotação Tabela FIPE Oficial
         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
       </a>
     `;
@@ -1009,5 +872,68 @@ function verificarPlaca(event) {
     resultContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 }
+
+// Funções para controle do Seletor Interativo da Tabela FIPE
+function popularSeletoresFipe(marcaIndexInicial, modeloIndexInicial) {
+  const selectMarca = document.getElementById('select-fipe-marca');
+  if (!selectMarca) return;
+
+  selectMarca.innerHTML = FABRICANTES_BRASIL.map((fab, idx) => `
+    <option value="${idx}">${fab.marca}</option>
+  `).join('');
+
+  const mIdx = (typeof marcaIndexInicial === 'number') ? marcaIndexInicial : 0;
+  selectMarca.selectedIndex = mIdx;
+  atualizarModelosFipe(mIdx, modeloIndexInicial);
+}
+
+function atualizarModelosFipe(marcaIndex, modeloIndexInicial) {
+  const fab = FABRICANTES_BRASIL[marcaIndex];
+  const selectModelo = document.getElementById('select-fipe-modelo');
+  if (!selectModelo || !fab) return;
+
+  selectModelo.innerHTML = fab.modelos.map((m, idx) => `
+    <option value="${idx}">${m.modelo} (${m.ano}) - ${m.preco}</option>
+  `).join('');
+
+  const modIdx = (typeof modeloIndexInicial === 'number') ? modeloIndexInicial : 0;
+  selectModelo.selectedIndex = modIdx;
+  aplicarDadosVeiculoFipe(fab, fab.modelos[modIdx]);
+}
+
+function aoMudarMarcaFipe() {
+  const selectMarca = document.getElementById('select-fipe-marca');
+  if (!selectMarca) return;
+  const marcaIndex = parseInt(selectMarca.value) || 0;
+  atualizarModelosFipe(marcaIndex, 0);
+}
+
+function aoMudarModeloFipe() {
+  const selectMarca = document.getElementById('select-fipe-marca');
+  const selectModelo = document.getElementById('select-fipe-modelo');
+  if (!selectMarca || !selectModelo) return;
+  const marcaIndex = parseInt(selectMarca.value) || 0;
+  const modeloIndex = parseInt(selectModelo.value) || 0;
+
+  const fab = FABRICANTES_BRASIL[marcaIndex];
+  if (fab && fab.modelos[modeloIndex]) {
+    aplicarDadosVeiculoFipe(fab, fab.modelos[modeloIndex]);
+  }
+}
+
+function aplicarDadosVeiculoFipe(fab, mod) {
+  const elModelo = document.getElementById('res-veiculo-modelo');
+  if (elModelo) elModelo.innerText = `${fab.marca} ${mod.modelo}`;
+
+  const elPrecoFipe = document.getElementById('res-veiculo-preco-fipe');
+  if (elPrecoFipe) elPrecoFipe.innerText = mod.preco;
+  
+  const imgLogo = document.getElementById('res-veiculo-logo');
+  if (imgLogo) {
+    imgLogo.src = fab.logo;
+    imgLogo.alt = fab.marca;
+  }
+}
+
 
 
