@@ -59,7 +59,7 @@
         </div>
         <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Validador e Formatador de CPF</h1>
         <p class="text-xs sm:text-sm text-slate-500 mt-1">
-          Digite ou cole qualquer número de CPF para verificar se os dígitos verificadores da Receita Federal são autênticos.
+          Digite ou cole qualquer número de CPF para verificar se os dígitos verificadores do CPF são matematicamente válidos.
         </p>
       </div>
 
@@ -171,10 +171,10 @@
         resultado.classList.remove('hidden');
         if (validarCPFAlgoritmo(val)) {
           resultado.className = 'mt-4 p-4 rounded-xl text-sm font-bold flex items-center gap-2 bg-emerald-50 text-emerald-800 border border-emerald-200';
-          resultado.innerHTML = '<i data-lucide="check-circle" class="w-5 h-5 text-emerald-600"></i> CPF Válido! Os dígitos verificadores estão corretos.';
+          resultado.innerHTML = '<i data-lucide="check-circle" class="w-5 h-5 text-emerald-600"></i> CPF com dígitos verificadores válidos. A validação confirma apenas a consistência matemática do número.';
         } else {
           resultado.className = 'mt-4 p-4 rounded-xl text-sm font-bold flex items-center gap-2 bg-rose-50 text-rose-800 border border-rose-200';
-          resultado.innerHTML = '<i data-lucide="alert-circle" class="w-5 h-5 text-rose-600"></i> CPF Inválido! A combinação de dígitos não confere.';
+          resultado.innerHTML = '<i data-lucide="alert-circle" class="w-5 h-5 text-rose-600"></i> Dígitos verificadores inconsistentes. A combinação de dígitos não confere.';
         }
         if (window.lucide) window.lucide.createIcons();
       } else if (val.length === 0) {

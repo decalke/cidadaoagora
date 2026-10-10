@@ -271,16 +271,26 @@ function validarCPF(event) {
   const nonoDigito = cpfClean.charAt(8);
   resRegiao.innerText = REGIOES_FISCAIS_CPF[nonoDigito] || "Região não identificada";
 
+  const elExplicacao = document.getElementById('res-cpf-explicacao');
+
   if (isValid) {
-    statusBox.className = "p-4 rounded-lg flex items-center justify-between bg-emerald-50 border border-emerald-200 text-emerald-800";
-    resStatus.innerText = "CPF Válido e Autêntico";
-    resBadge.className = "px-3 py-1.5 rounded-full text-xs font-bold uppercase bg-emerald-100 text-emerald-800 border border-emerald-300";
-    resBadge.innerText = "Dígitos Verificados";
+    statusBox.className = "p-4 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-emerald-50 border border-emerald-200 text-emerald-800";
+    resStatus.innerText = "CPF com dígitos verificadores válidos";
+    resBadge.className = "px-3 py-1.5 rounded-full text-xs font-bold uppercase bg-emerald-100 text-emerald-800 border border-emerald-300 self-start sm:self-auto";
+    resBadge.innerText = "Dígitos Válidos";
+    if (elExplicacao) {
+      elExplicacao.innerText = "A validação confirma apenas a consistência matemática do número. Para consultar a situação cadastral oficial, acesse a Receita Federal.";
+      elExplicacao.className = "text-xs text-emerald-700 mt-1.5 block leading-relaxed";
+    }
   } else {
-    statusBox.className = "p-4 rounded-lg flex items-center justify-between bg-rose-50 border border-rose-200 text-rose-800";
-    resStatus.innerText = "CPF Inválido ou Inexistente";
-    resBadge.className = "px-3 py-1.5 rounded-full text-xs font-bold uppercase bg-rose-100 text-rose-800 border border-rose-300";
+    statusBox.className = "p-4 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-rose-50 border border-rose-200 text-rose-800";
+    resStatus.innerText = "Dígitos verificadores inconsistentes";
+    resBadge.className = "px-3 py-1.5 rounded-full text-xs font-bold uppercase bg-rose-100 text-rose-800 border border-rose-300 self-start sm:self-auto";
     resBadge.innerText = "Falha nos Dígitos";
+    if (elExplicacao) {
+      elExplicacao.innerText = "A sequência informada não atende ao cálculo do algoritmo de Módulo 11 da Receita Federal. Verifique os números digitados.";
+      elExplicacao.className = "text-xs text-rose-700 mt-1.5 block leading-relaxed";
+    }
   }
 
   resultDiv.classList.remove('hidden');

@@ -89,7 +89,7 @@
         </div>
         <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Validador de CPF & Região Fiscal de Emissão</h1>
         <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
-          Verifique instantaneamente se a sequência numérica do CPF é autêntica e identifique os estados federativos correspondentes à região fiscal de registro.
+          Verifique se os dígitos verificadores do CPF são matematicamente válidos e identifique os estados federativos correspondentes à região fiscal de registro.
         </p>
       </div>
 
@@ -124,12 +124,13 @@
 
       <!-- Resultado CPF com aria-live -->
       <div id="result-cpf" class="hidden border-t border-[#D9E1EC] pt-6 space-y-4" aria-live="polite">
-        <div id="cpf-status-box" class="p-4 rounded-xl flex items-center justify-between">
+        <div id="cpf-status-box" class="p-4 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <span class="text-xs uppercase font-bold text-[#526078] block">Resultado da Validação</span>
             <span id="res-cpf-status" class="text-xl font-black"></span>
+            <p id="res-cpf-explicacao" class="text-xs mt-1 block leading-relaxed"></p>
           </div>
-          <div id="res-cpf-badge" class="px-3.5 py-1.5 rounded-full text-xs font-black uppercase"></div>
+          <div id="res-cpf-badge" class="px-3.5 py-1.5 rounded-full text-xs font-black uppercase self-start sm:self-auto"></div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
