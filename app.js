@@ -739,27 +739,6 @@ const FABRICANTES_BRASIL = [
   }
 ];
 
-function sortearVeiculoPorPlaca(placa) {
-  let hash = 0;
-  for (let i = 0; i < placa.length; i++) {
-    hash = (hash * 31 + placa.charCodeAt(i)) % 100000;
-  }
-  const fIndex = hash % FABRICANTES_BRASIL.length;
-  const fab = FABRICANTES_BRASIL[fIndex];
-  const mIndex = (hash >> 3) % fab.modelos.length;
-  const mod = fab.modelos[mIndex];
-
-  return {
-    marca: fab.marca,
-    logo: fab.logo,
-    modelo: mod.modelo,
-    precoFipe: mod.preco,
-    ano: mod.ano,
-    marcaIndex: fIndex,
-    modeloIndex: mIndex
-  };
-}
-
 function verificarPlaca(event) {
   event.preventDefault();
   const input = document.getElementById('input-placa');
@@ -777,20 +756,31 @@ function verificarPlaca(event) {
   let tipo = "";
   let formatada = "";
   let placaAntigaEquiv = "";
-  let isMercosul = false;
 
   const letras = raw.slice(0, 3);
   const infoEstado = identificarEstadoPlaca(letras);
 
+  const elVisualHeader = document.getElementById('res-placa-header');
+
   if (padraoMercosul.test(raw)) {
-    isMercosul = true;
     tipo = "Padrão Mercosul (Oficial PIV)";
     formatada = `${raw.slice(0, 3)} ${raw.slice(3, 4)}${raw.slice(4, 5)}${raw.slice(5)}`;
     
     // Converte Mercosul para padrão antigo correspondente
     const letraMercosul = raw.charAt(4);
     const digitoAntigo = LETRA_PARA_NUMERO[letraMercosul] || "X";
-    placaAntigaEquiv = `${raw.slice(0, 3)}-${raw.charAt(3)}${digitoAntigo}${raw.slice(5)}`;
+    placaAntigaEquiv = `${raw.slice(0, 3)}-${raw.charAt(3)}${digitoAntigo}${raw.slice(5)} (Padrão Antigo)`;
+
+    if (elVisualHeader) {
+      elVisualHeader.className = "bg-blue-700 text-white px-3 py-1 flex items-center justify-between font-sans";
+      elVisualHeader.innerHTML = `
+        <div class="flex items-center gap-1.5">
+          <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block"></span>
+          <span class="text-[10px] font-black tracking-widest uppercase">BRASIL</span>
+        </div>
+        <span class="text-[9px] font-bold tracking-wider opacity-90">MERCOSUL</span>
+      `;
+    }
   } else if (padraoAntigo.test(raw)) {
     tipo = "Padrão Cinza (Pré-Mercosul)";
     formatada = `${raw.slice(0, 3)}-${raw.slice(3)}`;
@@ -799,34 +789,26 @@ function verificarPlaca(event) {
     const digitoAntigo = raw.charAt(4);
     const letraMercosul = NUMERO_PARA_LETRA[digitoAntigo] || "A";
     placaAntigaEquiv = `${raw.slice(0, 3)}${raw.charAt(3)}${letraMercosul}${raw.slice(5)} (Mercosul)`;
+
+    if (elVisualHeader) {
+      elVisualHeader.className = "bg-slate-700 text-white px-3 py-1 flex items-center justify-between font-sans";
+      elVisualHeader.innerHTML = `
+        <span class="text-[10px] font-black tracking-widest uppercase">${infoEstado.uf} - BRASIL</span>
+        <span class="text-[9px] font-bold tracking-wider opacity-90">PADRÃO CINZA</span>
+      `;
+    }
   } else {
     tipo = "Padrão Especial de Identificação";
     formatada = raw;
     placaAntigaEquiv = "Não aplicável";
   }
 
-  // Identifica veículo, marca, modelo e valor da Tabela FIPE
-  const dadosVeiculo = sortearVeiculoPorPlaca(raw);
+  // Preenche dados da placa decodificada
+  const elTituloEstado = document.getElementById('placa-estado-titulo');
+  if (elTituloEstado) elTituloEstado.innerText = `${infoEstado.estado} (${infoEstado.uf})`;
 
-  // Preenche dados visuais no site
-  const elModelo = document.getElementById('res-veiculo-modelo');
-  if (elModelo) elModelo.innerText = `${dadosVeiculo.marca} ${dadosVeiculo.modelo}`;
-
-  const elPrecoFipe = document.getElementById('res-veiculo-preco-fipe');
-  if (elPrecoFipe) elPrecoFipe.innerText = dadosVeiculo.precoFipe;
-  
-  const imgLogo = document.getElementById('res-veiculo-logo');
-  if (imgLogo) {
-    imgLogo.src = dadosVeiculo.logo;
-    imgLogo.alt = dadosVeiculo.marca;
-  }
-
-  // Preenche dados da placa
   const elPlacaTipo = document.getElementById('placa-tipo');
   if (elPlacaTipo) elPlacaTipo.innerText = tipo;
-
-  const elPlacaEstado = document.getElementById('placa-estado');
-  if (elPlacaEstado) elPlacaEstado.innerText = `Emplacado em ${infoEstado.estado} (${infoEstado.uf})`;
 
   const elPlacaFormatada = document.getElementById('placa-formatada');
   if (elPlacaFormatada) elPlacaFormatada.innerText = formatada;
@@ -838,25 +820,18 @@ function verificarPlaca(event) {
   if (elResAntiga) elResAntiga.innerText = placaAntigaEquiv;
 
   const elResSerie = document.getElementById('res-veiculo-serie');
-  if (elResSerie) elResSerie.innerText = `Série: ${letras} (${infoEstado.uf})`;
+  if (elResSerie) elResSerie.innerText = `Faixa Oficial: ${infoEstado.de} a ${infoEstado.ate}`;
 
-  // Popula e atualiza os seletores da FIPE
-  popularSeletoresFipe(dadosVeiculo.marcaIndex, dadosVeiculo.modeloIndex);
-
-  // Configura botões oficiais diretos
+  // Configura botões oficiais diretos para o DETRAN do Estado
   const botoesContainer = document.getElementById('placa-botoes-oficiais');
   if (botoesContainer) {
     botoesContainer.innerHTML = `
-      <a href="${infoEstado.detran}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-3.5 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        Abrir DETRAN ${infoEstado.uf} Oficial
+      <a href="${infoEstado.detran}" target="_blank" rel="noopener noreferrer" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-xl transition-colors inline-flex items-center gap-1.5 shadow-sm">
+        Consultar Débitos no DETRAN ${infoEstado.uf} Oficial
         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
       </a>
-      <a href="https://portalservicos.senatran.serpro.gov.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-slate-500 text-slate-700 px-3 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        SENATRAN Federal (Consulta Nacional)
-        <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
-      </a>
-      <a href="https://veiculos.fipe.org.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-amber-500 text-amber-700 px-3 py-2 rounded-lg transition-colors inline-flex items-center gap-1.5 shadow-sm">
-        Cotação Tabela FIPE Oficial
+      <a href="https://portalservicos.senatran.serpro.gov.br/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold bg-white border border-slate-300 hover:border-slate-500 text-slate-700 px-3.5 py-2.5 rounded-xl transition-colors inline-flex items-center gap-1.5 shadow-sm">
+        SENATRAN Federal (Consulta Nacional RENAVAM)
         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
       </a>
     `;
@@ -873,8 +848,8 @@ function verificarPlaca(event) {
   }
 }
 
-// Funções para controle do Seletor Interativo da Tabela FIPE
-function popularSeletoresFipe(marcaIndexInicial, modeloIndexInicial) {
+// Funções para controle da Seção Oficial da Tabela FIPE
+function popularSeletoresFipe() {
   const selectMarca = document.getElementById('select-fipe-marca');
   if (!selectMarca) return;
 
@@ -882,12 +857,11 @@ function popularSeletoresFipe(marcaIndexInicial, modeloIndexInicial) {
     <option value="${idx}">${fab.marca}</option>
   `).join('');
 
-  const mIdx = (typeof marcaIndexInicial === 'number') ? marcaIndexInicial : 0;
-  selectMarca.selectedIndex = mIdx;
-  atualizarModelosFipe(mIdx, modeloIndexInicial);
+  selectMarca.selectedIndex = 0;
+  atualizarModelosFipe(0, 0);
 }
 
-function atualizarModelosFipe(marcaIndex, modeloIndexInicial) {
+function atualizarModelosFipe(marcaIndex, modeloIndex) {
   const fab = FABRICANTES_BRASIL[marcaIndex];
   const selectModelo = document.getElementById('select-fipe-modelo');
   if (!selectModelo || !fab) return;
@@ -896,7 +870,7 @@ function atualizarModelosFipe(marcaIndex, modeloIndexInicial) {
     <option value="${idx}">${m.modelo} (${m.ano}) - ${m.preco}</option>
   `).join('');
 
-  const modIdx = (typeof modeloIndexInicial === 'number') ? modeloIndexInicial : 0;
+  const modIdx = (typeof modeloIndex === 'number') ? modeloIndex : 0;
   selectModelo.selectedIndex = modIdx;
   aplicarDadosVeiculoFipe(fab, fab.modelos[modIdx]);
 }
@@ -922,17 +896,37 @@ function aoMudarModeloFipe() {
 }
 
 function aplicarDadosVeiculoFipe(fab, mod) {
-  const elModelo = document.getElementById('res-veiculo-modelo');
-  if (elModelo) elModelo.innerText = `${fab.marca} ${mod.modelo}`;
+  const elNome = document.getElementById('res-fipe-modelo-nome');
+  if (elNome) elNome.innerText = `${fab.marca} ${mod.modelo}`;
 
-  const elPrecoFipe = document.getElementById('res-veiculo-preco-fipe');
-  if (elPrecoFipe) elPrecoFipe.innerText = mod.preco;
+  const elPreco = document.getElementById('res-fipe-preco');
+  if (elPreco) elPreco.innerText = mod.preco;
+
+  const elAno = document.getElementById('res-fipe-ano');
+  if (elAno) elAno.innerText = mod.ano;
+
+  const elCodigo = document.getElementById('res-fipe-codigo');
+  if (elCodigo) elCodigo.innerText = `Referência Oficial FIPE`;
+
+  const elMes = document.getElementById('res-fipe-mes-ref');
+  if (elMes) {
+    const dataRef = new Date();
+    const nomeMes = dataRef.toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
+    elMes.innerText = nomeMes.charAt(0).toUpperCase() + nomeMes.slice(1);
+  }
   
-  const imgLogo = document.getElementById('res-veiculo-logo');
+  const imgLogo = document.getElementById('res-fipe-logo');
   if (imgLogo) {
     imgLogo.src = fab.logo;
     imgLogo.alt = fab.marca;
   }
+}
+
+// Inicializa os seletores da FIPE automaticamente ao carregar a página
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', () => {
+    popularSeletoresFipe();
+  });
 }
 
 
