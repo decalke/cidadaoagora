@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -140,15 +140,15 @@
     <p>Cidadão Agora Brasil © 2026 - Transparência cívica e dados oficiais abertos.</p>
   </footer>
 
-  <!-- SCRIPT PARA CARREGAR AS NOTÍCIAS DE POLÍTCAA -->
+  <!-- SCRIPT PARA CARREGAR AS NOTÍCIAS DE POLÍTICA -->
   <script src="politica_dados.js"></script>
   <script>
     let TODAS_MATERIAS = [];
 
     async function carregarPoliticaDoAgente() {
-      if (typeof DADOS_POLITCAA !== "undefined" && DADOS_POLITCAA.noticias) {
-        TODAS_MATERIAS = DADOS_POLITCAA.noticias;
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_POLITCAA.ultima_atualizacao;
+      if (typeof DADOS_POLITICA !== "undefined" && (DADOS_POLITICA.politica || DADOS_POLITICA.noticias)) {
+        TODAS_MATERIAS = DADOS_POLITICA.politica || DADOS_POLITICA.noticias || [];
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_POLITICA.ultima_atualizacao;
         renderizarFeed(TODAS_MATERIAS);
         return;
       }
@@ -158,7 +158,7 @@
         if (!response.ok) throw new Error("Erro ao carregar política");
         
         const data = await response.json();
-        TODAS_MATERIAS = data.noticias || [];
+        TODAS_MATERIAS = data.politica || data.noticias || [];
         
         document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + data.ultima_atualizacao;
         renderizarFeed(TODAS_MATERIAS);
