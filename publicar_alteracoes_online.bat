@@ -5,7 +5,7 @@ echo    PUBLICANDO ATUALIZACOES NO SITE ONLINE (CLOUDFLARE)
 echo =======================================================
 echo.
 
-cd /d "C:\Users\clebi\Desktop\InfoCidadao"
+cd /d "C:\Users\clebi\Documents\antigravity\happy-faraday"
 
 echo 1. Puxando eventuais noticias novas geradas pelo robo na nuvem...
 git pull origin main
@@ -25,7 +25,7 @@ git push origin main
 echo.
 echo =======================================================
 echo SUCESSO! Em cerca de 20 segundos o site estara atualizado em:
-echo https://infocidadao.pages.dev/
+echo https://cidadaoagora.com.br/
 echo =======================================================
 echo.
 pause
