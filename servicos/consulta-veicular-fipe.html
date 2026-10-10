@@ -85,7 +85,46 @@
       <!-- RESULTADO UNIFICADO: APARECE APÓS A DIGITAÇÃO DA PLACA -->
       <div id="result-placa" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-6">
         
-        <!-- CARD 1: IDENTIFICAÇÃO DA PLACA E ESTADO -->
+        <!-- CARD 1: COTAÇÃO OFICIAL TABELA FIPE (AGORA EM PRIMEIRO LUGAR) -->
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100/50 border border-emerald-200 shadow-sm">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+            <div class="flex items-center space-x-4 sm:space-x-5">
+              <div id="res-fipe-logo-container" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white border border-emerald-200 shadow-xs flex items-center justify-center p-2.5 flex-shrink-0">
+                <img id="res-fipe-logo" src="" alt="Marca" class="max-h-full max-w-full object-contain">
+              </div>
+              <div>
+                <span class="text-xs uppercase font-extrabold text-emerald-800 tracking-wider flex items-center gap-1.5">
+                  <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+                  Cotação Oficial Tabela FIPE
+                </span>
+                <h3 id="res-fipe-modelo-nome" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight mt-0.5"></h3>
+                <div class="flex flex-wrap items-center gap-2 mt-1.5">
+                  <span id="res-fipe-ano" class="text-xs font-bold text-slate-700 bg-white px-2.5 py-0.5 rounded border border-emerald-200"></span>
+                  <span id="res-fipe-combustivel" class="text-xs font-semibold text-emerald-800 bg-emerald-100/80 px-2 py-0.5 rounded">Flex / Gasolina</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:items-end justify-center bg-white sm:bg-transparent p-4 sm:p-0 rounded-xl border sm:border-0 border-emerald-200">
+              <span class="text-xs uppercase font-bold text-slate-500 block">Preço Médio FIPE</span>
+              <span id="res-fipe-preco" class="text-2xl sm:text-3xl font-black text-emerald-700 tracking-tight"></span>
+              <span id="res-fipe-codigo" class="text-[11px] font-mono text-slate-500 font-semibold mt-0.5"></span>
+            </div>
+          </div>
+
+          <div class="mt-5 pt-4 border-t border-emerald-200/60 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
+            <div class="flex items-center gap-1.5">
+              <i data-lucide="calendar" class="w-3.5 h-3.5 text-emerald-600"></i>
+              <span>Mês de referência: <strong id="res-fipe-mes-ref" class="text-slate-800">Mês Atual</strong></span>
+            </div>
+            <a href="https://veiculos.fipe.org.br/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-900 underline">
+              <span>Certidão na Fundação FIPE</span>
+              <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 2: IDENTIFICAÇÃO DA PLACA E ESTADO -->
         <div class="p-6 rounded-2xl bg-gradient-to-r from-amber-50 via-orange-50 to-amber-100 border border-amber-200">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-5">
             <div>
@@ -131,74 +170,6 @@
           <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
             <span class="text-[11px] text-slate-400 font-bold uppercase block">Conversão de Padrão</span>
             <span id="res-veiculo-antiga" class="font-mono font-bold text-amber-900 text-sm mt-0.5 block"></span>
-          </div>
-        </div>
-
-        <!-- ETAPA 2 DENTRO DA MESMA BUSCA: VINCULAR MODELO FIPE DO VEÍCULO -->
-        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div>
-              <h4 class="font-black text-base text-slate-900 flex items-center gap-2">
-                <i data-lucide="car" class="w-5 h-5 text-amber-600"></i>
-                Vincular Modelo do Veículo para Tabela FIPE & IPVA:
-              </h4>
-              <p class="text-xs text-slate-500 mt-0.5">
-                Por sigilo do SENATRAN, confirme a montadora e modelo deste veículo para gerar a cotação oficial FIPE e o IPVA estimado:
-              </p>
-            </div>
-            <span class="text-xs font-bold text-amber-800 bg-amber-100 px-3 py-1 rounded-full self-start sm:self-auto">
-              Etapa Rápida
-            </span>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Montadora / Fabricante</label>
-              <select id="select-fipe-marca" onchange="aoMudarMarcaFipe()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-xs"></select>
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Modelo / Versão</label>
-              <select id="select-fipe-modelo" onchange="aoMudarModeloFipe()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 bg-white font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-xs"></select>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD OFICIAL DA COTAÇÃO FIPE VINCULADA -->
-        <div class="p-6 rounded-2xl bg-gradient-to-br from-emerald-50 via-slate-50 to-emerald-100/50 border border-emerald-200 shadow-xs">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
-            <div class="flex items-center space-x-4 sm:space-x-5">
-              <div id="res-fipe-logo-container" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white border border-emerald-200 shadow-xs flex items-center justify-center p-2.5 flex-shrink-0">
-                <img id="res-fipe-logo" src="" alt="Marca" class="max-h-full max-w-full object-contain">
-              </div>
-              <div>
-                <span class="text-xs uppercase font-extrabold text-emerald-800 tracking-wider flex items-center gap-1.5">
-                  <i data-lucide="tag" class="w-3.5 h-3.5"></i>
-                  Cotação Oficial Tabela FIPE
-                </span>
-                <h3 id="res-fipe-modelo-nome" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight mt-0.5"></h3>
-                <div class="flex flex-wrap items-center gap-2 mt-1.5">
-                  <span id="res-fipe-ano" class="text-xs font-bold text-slate-700 bg-white px-2.5 py-0.5 rounded border border-emerald-200"></span>
-                  <span id="res-fipe-combustivel" class="text-xs font-semibold text-emerald-800 bg-emerald-100/80 px-2 py-0.5 rounded">Flex / Gasolina</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="flex flex-col sm:items-end justify-center bg-white sm:bg-transparent p-4 sm:p-0 rounded-xl border sm:border-0 border-emerald-200">
-              <span class="text-xs uppercase font-bold text-slate-500 block">Preço Médio FIPE</span>
-              <span id="res-fipe-preco" class="text-2xl sm:text-3xl font-black text-emerald-700 tracking-tight"></span>
-              <span id="res-fipe-codigo" class="text-[11px] font-mono text-slate-500 font-semibold mt-0.5"></span>
-            </div>
-          </div>
-
-          <div class="mt-5 pt-4 border-t border-emerald-200/60 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
-            <div class="flex items-center gap-1.5">
-              <i data-lucide="calendar" class="w-3.5 h-3.5 text-emerald-600"></i>
-              <span>Mês de referência: <strong id="res-fipe-mes-ref" class="text-slate-800">Mês Atual</strong></span>
-            </div>
-            <a href="https://veiculos.fipe.org.br/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-900 underline">
-              <span>Certidão na Fundação FIPE</span>
-              <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
-            </a>
           </div>
         </div>
 
