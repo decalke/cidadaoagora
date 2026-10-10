@@ -15,46 +15,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gerador de Recibo de Pagamento Online (PDF, JPG, PNG) - Cidadão Agora</title>
   <meta name="description" content="Gere recibos de pagamento de prestação de serviços e autônomos grátis. Escolha o tamanho (A4, 1/2 folha ou filipeta) e baixe em PDF, JPG ou PNG.">
+
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
+          }
+        }
+      }
+    }
+  </script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-    }
     .opcao-card input:checked + div {
-      border-color: #059669;
-      background-color: #ecfdf5;
-      ring-width: 2px;
-      --tw-ring-color: #10b981;
+      border-color: #2563EB;
+      background-color: #EFF6FF;
+      box-shadow: 0 0 0 2px #2563EB;
     }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
 
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">CA</div>
         <div>
-          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-emerald-600">Recibo</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Documentos & Recibos</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-emerald-600 flex items-center gap-1">
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Todos os Serviços</span>
       </a>
     </div>
   </header>
-
-  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
-    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo Recibo]</span>
-    </div>
-  </div>
 
   <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
 

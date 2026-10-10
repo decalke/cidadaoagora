@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   setupCNPJMask();
   setupCPFMask();
+  setupPlacaMask();
 });
 
 // ==========================================
@@ -752,14 +753,61 @@ const ALIQUOTAS_IPVA_ESTADOS = {
 
 let estadoPlacaAtual = { uf: "SP", estado: "São Paulo" };
 
+function exibirErroValidacaoPlaca(msg) {
+  const errBox = document.getElementById('placa-erro-msg');
+  if (errBox) {
+    errBox.innerHTML = `
+      <div class="flex items-start gap-2">
+        <svg class="w-4 h-4 text-red-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10" stroke-width="2"></circle>
+          <line x1="12" y1="8" x2="12" y2="12" stroke-width="2"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16" stroke-width="2"></line>
+        </svg>
+        <span>${msg}</span>
+      </div>
+    `;
+    errBox.classList.remove('hidden');
+  }
+  const input = document.getElementById('input-placa');
+  if (input) {
+    input.setAttribute('aria-invalid', 'true');
+    input.focus();
+  }
+}
+
+function limparErroValidacaoPlaca() {
+  const errBox = document.getElementById('placa-erro-msg');
+  if (errBox) {
+    errBox.innerHTML = '';
+    errBox.classList.add('hidden');
+  }
+  const input = document.getElementById('input-placa');
+  if (input) {
+    input.removeAttribute('aria-invalid');
+  }
+}
+
+function setupPlacaMask() {
+  const input = document.getElementById('input-placa');
+  if (!input) return;
+  input.addEventListener('input', (e) => {
+    limparErroValidacaoPlaca();
+    let val = e.target.value.toUpperCase().replace(/[^A-Z0-9-]/g, '');
+    if (val.length > 8) val = val.slice(0, 8);
+    e.target.value = val;
+  });
+}
+
 async function verificarPlacaUnificada(event) {
   event.preventDefault();
+  limparErroValidacaoPlaca();
+
   const input = document.getElementById('input-placa');
   if (!input) return;
   let raw = input.value.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
 
   if (raw.length !== 7) {
-    alert("Digite uma placa válida com 7 caracteres (letras e números). Exemplo: ABC1D23 ou ABC1234");
+    exibirErroValidacaoPlaca("Digite uma placa válida com 7 caracteres.<br>Exemplos: ABC1234 ou ABC1D23.");
     return;
   }
 
@@ -772,7 +820,7 @@ async function verificarPlacaUnificada(event) {
         <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
         <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
       </svg>
-      <span>Buscando...</span>
+      <span>Consultando dados do veículo…</span>
     `;
   }
 
@@ -894,11 +942,13 @@ async function verificarPlacaUnificada(event) {
   }
 
   if (usoDiario.contador >= MAX_CONSULTAS) {
-    alert("Você atingiu o limite de 5 consultas gratuitas por hoje para preservar os recursos do portal. Tente novamente amanhã!");
+    exibirErroValidacaoPlaca("Você atingiu o limite de 5 consultas gratuitas por hoje para preservar os recursos do portal. Tente novamente amanhã!");
     if (submitBtn) {
       submitBtn.disabled = false;
       submitBtn.innerHTML = btnOriginalHtml;
     }
+    const fipeManualDiv = document.getElementById('fipe-manual-fallback');
+    if (fipeManualDiv) fipeManualDiv.classList.remove('hidden');
     popularSeletoresFipe();
     return;
   }
@@ -931,17 +981,24 @@ async function verificarPlacaUnificada(event) {
 
         exibirDadosVeiculoReal(data.veiculo, data.fipe, data.ipvaEstimado);
       } else {
+        const fipeManualDiv = document.getElementById('fipe-manual-fallback');
+        if (fipeManualDiv) fipeManualDiv.classList.remove('hidden');
         popularSeletoresFipe();
       }
     } else {
       const erroData = await apiRes.json().catch(() => ({}));
       if (erroData.limiteAtingido) {
-        alert(erroData.erro || "Limite de 5 consultas atingido.");
+        exibirErroValidacaoPlaca(erroData.erro || "Limite de 5 consultas atingido.");
       }
+      const fipeManualDiv = document.getElementById('fipe-manual-fallback');
+      if (fipeManualDiv) fipeManualDiv.classList.remove('hidden');
       popularSeletoresFipe();
     }
   } catch (err) {
     console.warn("API de consulta veicular indisponível no momento. Usando catálogo FIPE local.", err);
+    const fipeManualDiv = document.getElementById('fipe-manual-fallback');
+    if (fipeManualDiv) fipeManualDiv.classList.remove('hidden');
+    popularSeletoresFipe();
   } finally {
     finalizarBuscaVisual(submitBtn, btnOriginalHtml);
   }
@@ -1143,6 +1200,17 @@ function exibirDadosVeiculoReal(veiculo, fipe, ipvaEstimado) {
       elIpvaValor.innerText = formatarMoeda(valorNum * (aliquotaPadrao / 100));
     }
   }
+
+  // Se a FIPE não teve correspondência automática, mostra busca manual sem ocultar os dados do veículo
+  const fipeManualDiv = document.getElementById('fipe-manual-fallback');
+  if (fipeManualDiv) {
+    if (!fipe || !fipe.valor) {
+      fipeManualDiv.classList.remove('hidden');
+      popularSeletoresFipe();
+    } else {
+      fipeManualDiv.classList.add('hidden');
+    }
+  }
 }
 
 // Funções para controle da Seção Oficial da Tabela FIPE
@@ -1155,7 +1223,14 @@ function popularSeletoresFipe() {
   `).join('');
 
   selectMarca.selectedIndex = 0;
-  atualizarModelosFipe(0, 0);
+  const fab = FABRICANTES_BRASIL[0];
+  const selectModelo = document.getElementById('select-fipe-modelo');
+  if (selectModelo && fab) {
+    selectModelo.innerHTML = fab.modelos.map((m, idx) => `
+      <option value="${idx}">${m.modelo} (${m.ano}) - ${m.preco}</option>
+    `).join('');
+    selectModelo.selectedIndex = 0;
+  }
 }
 
 function atualizarModelosFipe(marcaIndex, modeloIndex) {

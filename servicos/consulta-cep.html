@@ -15,157 +15,204 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consulta de CEP e Endereço Oficial dos Correios - Cidadão Agora</title>
   <meta name="description" content="Consulte CEPs de todo o Brasil gratuitamente. Encontre logradouro, bairro, cidade, estado (UF), código IBGE e DDD oficial de forma rápida e segura.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-    }
-  </style>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
-  <!-- CABEÇALHO -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-teal-600 flex items-center justify-center text-white font-extrabold text-lg">
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
           CA
         </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-teal-600">Agora</span></span>
-          <span class="text-[10px] block text-teal-700 font-extrabold uppercase tracking-wider">Busca de CEP Oficial</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Cidadania & Endereços</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-teal-600 flex items-center gap-1">
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Todos os Serviços</span>
       </a>
     </div>
   </header>
 
-  <!-- BANNER TOPO ADSENSE -->
-  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
-    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo CEP]</span>
-    </div>
-  </div>
-
+  <!-- CONTEÚDO PRINCIPAL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
   <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
 
     <!-- BUSCADOR CENTRALIZADO DE CEP -->
-    <section class="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
+    <section class="ds-card p-6 sm:p-8 space-y-6">
       <div>
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-teal-50 text-teal-800 border border-teal-200 mb-2">
-          <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
-          Base Oficial dos Correios & BrasilAPI
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+          <span>Base Oficial Integrada: Correios & BrasilAPI</span>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Consulta de CEP & Endereço Completo</h1>
-        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
-          Informe o CEP com 8 dígitos para localizar instantaneamente a rua, bairro, município, estado, DDD e código IBGE oficial.
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Consulta de CEP & Endereço Completo</h1>
+        <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
+          Digite os 8 números do CEP para localizar instantaneamente a rua, bairro, município, estado, código IBGE e DDD oficial com mapa direto.
         </p>
       </div>
 
-      <!-- Formulário de Busca por CEP -->
-      <form id="form-cep" onsubmit="consultarCEP(event)" class="space-y-4">
+      <!-- FORMULÁRIO -->
+      <form id="form-cep" onsubmit="consultarCEP(event)" class="space-y-4" novalidate>
         <div>
-          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Digite o Código Postal (CEP)</label>
-          <div class="relative">
-            <input 
-              type="text" 
-              id="input-cep" 
-              placeholder="Ex: 01310-100 ou 88010000" 
-              maxlength="9"
-              class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-teal-500 text-slate-900 text-lg font-mono tracking-wider outline-none transition-all shadow-sm font-bold"
-              required
-            >
+          <label for="input-cep" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+            Digite o CEP (8 dígitos)
+          </label>
+          <div class="flex flex-col sm:flex-row gap-2.5">
+            <div class="relative flex-1">
+              <input 
+                type="text" 
+                id="input-cep" 
+                name="cep"
+                placeholder="Ex: 01001-000 ou 88301000" 
+                maxlength="9"
+                autocomplete="off"
+                class="ds-input font-mono text-base font-bold min-h-[48px]"
+                required
+              >
+            </div>
             <button 
               type="submit" 
               id="btn-busca-cep"
-              class="absolute right-1.5 top-1.5 bottom-1.5 bg-teal-600 hover:bg-teal-700 text-white px-5 rounded-lg font-bold text-sm transition-colors flex items-center space-x-1.5 shadow"
+              class="btn-primary text-sm min-h-[48px] px-6 shadow-sm whitespace-nowrap"
             >
               <i data-lucide="search" class="w-4 h-4"></i>
-              <span>Buscar Endereço</span>
+              <span>Consultar CEP</span>
             </button>
           </div>
+          <div id="cep-erro-msg" class="ds-alert ds-alert-danger mt-3 text-xs font-semibold hidden" aria-live="polite" role="alert"></div>
         </div>
       </form>
 
-      <!-- CARD DE RESULTADO DO ENDEREÇO -->
-      <div id="result-cep" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-6">
+      <!-- RESULTADO DETALHADO DO ENDEREÇO COM ARIA-LIVE -->
+      <div id="result-cep" class="hidden border-t border-[#D9E1EC] pt-6 space-y-6" aria-live="polite">
         
-        <div class="p-6 rounded-2xl bg-gradient-to-br from-teal-50 via-slate-50 to-teal-100/50 border border-teal-200">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <!-- CARD PRINCIPAL DE IDENTIFICAÇÃO -->
+        <div class="p-6 rounded-2xl bg-gradient-to-r from-blue-50/60 via-white to-blue-50/40 border border-blue-200">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-blue-200/60 pb-4">
             <div>
-              <span class="text-xs uppercase font-extrabold text-teal-700 tracking-wider flex items-center gap-1.5">
-                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
-                Endereço Localizado com Sucesso
-              </span>
-              <h2 id="res-cep-logradouro" class="text-xl sm:text-2xl font-black text-slate-900 leading-tight mt-0.5"></h2>
-              <p id="res-cep-complemento" class="text-xs text-slate-500 mt-1"></p>
+              <span class="ds-badge ds-badge-brand mb-1">Logradouro Encontrado</span>
+              <h2 id="res-cep-logradouro" class="text-xl sm:text-2xl font-black text-[#0F1B35] leading-tight mt-0.5"></h2>
+              <p id="res-cep-complemento" class="text-xs text-[#526078] mt-1"></p>
             </div>
-            <div class="bg-white p-3.5 rounded-xl border border-teal-200 shadow-xs sm:text-right shrink-0">
-              <span class="text-[10px] text-slate-400 font-bold uppercase block">Código Postal</span>
-              <span id="res-cep-formatado" class="font-mono text-xl font-black text-teal-800"></span>
+            <div class="bg-white p-3.5 rounded-xl border border-blue-200 shrink-0 text-center sm:text-right">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#526078] block">CEP Oficial</span>
+              <span id="res-cep-formatado" class="font-mono text-xl font-black text-[#2563EB]"></span>
             </div>
           </div>
-        </div>
 
-        <!-- GRID DE DADOS DETALHADOS -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-sm">
-          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-            <span class="text-[11px] text-slate-400 font-bold uppercase block">Bairro</span>
-            <span id="res-cep-bairro" class="font-bold text-slate-900 text-base mt-0.5 block"></span>
+          <!-- DETALHAMENTO EM GRID -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 text-xs">
+            <div class="bg-white p-3 rounded-xl border border-[#D9E1EC]">
+              <span class="text-[10px] text-[#526078] font-bold uppercase block">Bairro</span>
+              <span id="res-cep-bairro" class="font-bold text-[#0F1B35] text-sm mt-0.5 block"></span>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-[#D9E1EC]">
+              <span class="text-[10px] text-[#526078] font-bold uppercase block">Cidade</span>
+              <span id="res-cep-cidade" class="font-bold text-[#0F1B35] text-sm mt-0.5 block"></span>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-[#D9E1EC]">
+              <span class="text-[10px] text-[#526078] font-bold uppercase block">Estado (UF)</span>
+              <span id="res-cep-uf" class="font-bold text-[#0F1B35] text-sm mt-0.5 block"></span>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-[#D9E1EC]">
+              <span class="text-[10px] text-[#526078] font-bold uppercase block">DDD Telefônico</span>
+              <span id="res-cep-ddd" class="font-bold text-[#2563EB] text-sm mt-0.5 block"></span>
+            </div>
           </div>
-          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-            <span class="text-[11px] text-slate-400 font-bold uppercase block">Cidade / Município</span>
-            <span id="res-cep-cidade" class="font-bold text-slate-900 text-base mt-0.5 block"></span>
-          </div>
-          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-            <span class="text-[11px] text-slate-400 font-bold uppercase block">Estado (UF)</span>
-            <span id="res-cep-uf" class="font-bold text-slate-900 text-base mt-0.5 block"></span>
-          </div>
-          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
-            <span class="text-[11px] text-slate-400 font-bold uppercase block">DDD & Região Telefônica</span>
-            <span id="res-cep-ddd" class="font-bold text-teal-700 text-base mt-0.5 block"></span>
-          </div>
-        </div>
 
-        <!-- CÓDIGO IBGE E MAPA DE ATALHO -->
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
-          <div class="flex items-center gap-2">
-            <i data-lucide="info" class="w-4 h-4 text-slate-400"></i>
-            <span>Código Oficial do Município (IBGE): <strong id="res-cep-ibge" class="font-mono text-slate-800"></strong></span>
+          <!-- AÇÕES DIRETAS -->
+          <div class="mt-4 pt-4 border-t border-blue-200/60 flex flex-wrap items-center justify-between gap-3 text-xs">
+            <span class="text-[#526078]">Código IBGE do Município: <strong id="res-cep-ibge" class="text-[#0F1B35] font-mono"></strong></span>
+            <a id="btn-maps" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs !py-2 !px-3.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+              <span>Abrir no Google Maps</span>
+              <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+            </a>
           </div>
-          <a id="btn-maps" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-bold text-teal-700 hover:text-teal-900 underline">
-            <span>Abrir localização no Google Maps</span>
-            <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
-          </a>
         </div>
 
       </div>
     </section>
 
-    <!-- BANNER MEIO DO CONTEÚDO (ALTO RPM) -->
-    <div class="ad-placeholder rounded-2xl p-4 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 In-Article CEP]</span>
+    <!-- BANNER ADSENSE APÓS O PRIMEIRO RESULTADO DA FERRAMENTA -->
+    <div class="max-w-5xl mx-auto w-full px-1">
+      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-[#526078] font-medium">
+        <span>[Espaço Reservado - Banner Google AdSense 728x90 Contextual (Mudanças, Correios, Imóveis)]</span>
+      </div>
     </div>
 
-    <!-- GUIA PRÁTICO SEO -->
-    <article class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
-      <h2 class="text-lg font-bold text-slate-900">Como funciona a estrutura de CEP no Brasil?</h2>
+    <!-- ARTIGO EDUCATIVO SEO -->
+    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
+      <h2 class="text-lg font-bold text-[#0F1B35]">Como funciona a estrutura de números do CEP no Brasil?</h2>
       <p>
-        O Código de Endereçamento Postal (CEP) foi criado pelos Correios para organizar e acelerar a triagem de correspondências e encomendas em todo o território nacional. A numeração é composta por 8 dígitos no formato <strong>XXXXX-XXX</strong>.
+        O Código de Endereçamento Postal (CEP) foi criado pelos Correios para facilitar a triagem e entrega de encomendas e correspondências. Ele é composto por 8 dígitos no formato <strong>XXXXX-YYY</strong>:
       </p>
-      <p>
-        O primeiro dígito representa uma das dez Regiões Postais do Brasil (ex: 0 para Grande São Paulo, 1 para interior de SP, 8 para Paraná e Santa Catarina, etc.). Os dígitos seguintes detalham a sub-região, setor, sub-setor e o logradouro exato.
-      </p>
+      <ul class="list-disc pl-5 space-y-1.5 text-xs text-[#526078]">
+        <li><strong>Primeiro dígito:</strong> Representa a Região Postal (ex: 0 para Grande São Paulo, 1 para Interior de SP, 8 para Paraná e Santa Catarina).</li>
+        <li><strong>Segundo dígito:</strong> Sub-região postal.</li>
+        <li><strong>Terceiro dígito:</strong> Setor geográfico.</li>
+        <li><strong>Quarto e quinto dígitos:</strong> Sub-setor e divisão.</li>
+        <li><strong>Três últimos dígitos (sufixo):</strong> Identificam o logradouro específico, avenida, rua ou condomínio.</li>
+      </ul>
     </article>
+
+    <!-- PÁGINAS RELACIONADAS SEO -->
+    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-[#526078] mb-3">Consultas Relacionadas:</h3>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <a href="calendario-feriados.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Calendário de Feriados Oficiais</a>
+        <a href="gerador-pedido-lai.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Gerador de Pedido LAI (e-SIC)</a>
+        <a href="consulta-mei-cnpj.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Consulta MEI & CNPJ</a>
+      </div>
+    </section>
 
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center space-y-2">
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-6 text-[#526078] text-xs text-center space-y-2 mt-8">
     <div class="flex items-center justify-center gap-4 text-[11px]">
       <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
       <span>•</span>
@@ -173,29 +220,45 @@
       <span>•</span>
       <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
     </div>
-    <p>Cidadão Agora Brasil © 2026 - Consulta baseada em dados públicos dos Correios e BrasilAPI.</p>
+    <p>Cidadão Agora Brasil © 2026 - Consulta pública gratuita de endereços e CEPs.</p>
   </footer>
 
   <script>
-    // Máscara automática de CEP
+    // Máscara dinâmica de CEP
     const inputCep = document.getElementById('input-cep');
-    inputCep.addEventListener('input', (e) => {
-      let v = e.target.value.replace(/\D/g, '');
-      if (v.length > 8) v = v.slice(0, 8);
-      if (v.length > 5) {
-        v = v.replace(/^(\d{5})(\d{1,3})$/, '$1-$2');
+    if (inputCep) {
+      inputCep.addEventListener('input', (e) => {
+        let val = e.target.value.replace(/\D/g, '');
+        if (val.length > 8) val = val.slice(0, 8);
+        if (val.length > 5) {
+          val = val.replace(/^(\d{5})(\d{1,3})$/, '$1-$2');
+        }
+        e.target.value = val;
+        const errBox = document.getElementById('cep-erro-msg');
+        if (errBox) errBox.classList.add('hidden');
+      });
+    }
+
+    function exibirErroCEP(msg) {
+      const errBox = document.getElementById('cep-erro-msg');
+      if (errBox) {
+        errBox.textContent = msg;
+        errBox.classList.remove('hidden');
       }
-      e.target.value = v;
-    });
+    }
 
     async function consultarCEP(event) {
       event.preventDefault();
-      const cepLimpo = inputCep.value.replace(/\D/g, '');
+      const input = document.getElementById('input-cep');
+      const cepLimpo = input.value.replace(/\D/g, '');
 
       if (cepLimpo.length !== 8) {
-        alert("Digite um CEP válido com 8 dígitos.");
+        exibirErroCEP("Digite um CEP válido com 8 números.");
         return;
       }
+
+      const errBox = document.getElementById('cep-erro-msg');
+      if (errBox) errBox.classList.add('hidden');
 
       const btn = document.getElementById('btn-busca-cep');
       const btnHtmlOriginal = btn.innerHTML;
@@ -205,11 +268,10 @@
           <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
           <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
         </svg>
-        <span>Buscando...</span>
+        <span>Buscando endereço…</span>
       `;
 
       try {
-        // Tenta primeiro o ViaCEP com fallback instantâneo na BrasilAPI
         let data = null;
         try {
           const resVia = await fetch(`https://viacep.com.br/ws/${cepLimpo}/json/`);
@@ -250,11 +312,10 @@
         }
 
         if (!data) {
-          alert("CEP não encontrado. Verifique os números e tente novamente.");
+          exibirErroCEP("CEP não encontrado. Verifique os números e tente novamente.");
           return;
         }
 
-        // Preenche na tela
         document.getElementById('res-cep-logradouro').innerText = data.logradouro;
         document.getElementById('res-cep-complemento').innerText = data.complemento ? `Complemento: ${data.complemento}` : 'Numeração padrão do logradouro';
         document.getElementById('res-cep-formatado').innerText = data.cep;
@@ -272,7 +333,7 @@
         resBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
       } catch (err) {
-        alert("Não foi possível consultar o CEP no momento. Verifique sua conexão e tente novamente.");
+        exibirErroCEP("Não foi possível consultar o CEP no momento. Verifique sua conexão e tente novamente.");
       } finally {
         btn.disabled = false;
         btn.innerHTML = btnHtmlOriginal;

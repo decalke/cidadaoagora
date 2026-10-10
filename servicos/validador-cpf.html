@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -15,147 +15,188 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Validador Oficial de CPF & Região Fiscal - Cidadão Agora</title>
   <meta name="description" content="Valide números de CPF pelo algoritmo oficial da Receita Federal e descubra a região fiscal de emissão. 100% seguro e sem armazenar dados.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-    }
-  </style>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
-  <!-- CABEÇALHO -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-extrabold text-lg">
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
           CA
         </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-indigo-600">Cidadão</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Segurança & Cidadania</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-indigo-600 flex items-center gap-1">
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Todos os Serviços</span>
       </a>
     </div>
   </header>
 
-  <!-- BANNER TOPO ADSENSE -->
-  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
-    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo]</span>
-    </div>
-  </div>
-
-  <!-- CONTEÚDO PRINCIPAL -->
+  <!-- CONTEÚDO PRINCIPAL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
   <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
 
-    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
-      <div class="mb-6">
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 mb-2">
+    <section class="ds-card p-6 sm:p-8 space-y-6">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
           <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
-          Algoritmo Matemático Oficial Módulo 11
+          <span>Algoritmo Matemático Oficial Módulo 11</span>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Validador de CPF & Região Fiscal de Emissão</h1>
-        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Validador de CPF & Região Fiscal de Emissão</h1>
+        <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
           Verifique instantaneamente se a sequência numérica do CPF é autêntica e identifique os estados federativos correspondentes à região fiscal de registro.
         </p>
       </div>
 
-      <form id="form-cpf" onsubmit="validarCPF(event)" class="space-y-4">
+      <form id="form-cpf" onsubmit="validarCPF(event)" class="space-y-4" novalidate>
         <div>
-          <label class="block text-xs font-bold text-slate-700 uppercase mb-1.5">Número do CPF (11 dígitos)</label>
-          <div class="relative">
-            <input 
-              type="text" 
-              id="input-cpf" 
-              placeholder="000.000.000-00" 
-              maxlength="14"
-              class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-indigo-500 text-slate-900 text-base outline-none transition-all shadow-sm font-medium"
-              required
-            >
+          <label for="input-cpf" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+            Número do CPF (11 dígitos)
+          </label>
+          <div class="flex flex-col sm:flex-row gap-2.5">
+            <div class="relative flex-1">
+              <input 
+                type="text" 
+                id="input-cpf" 
+                name="cpf"
+                placeholder="000.000.000-00" 
+                maxlength="14"
+                autocomplete="off"
+                class="ds-input font-mono text-base font-bold min-h-[48px]"
+                required
+              >
+            </div>
             <button 
               type="submit" 
-              class="absolute right-1.5 top-1.5 bottom-1.5 bg-indigo-600 hover:bg-indigo-700 text-white px-5 rounded-lg font-bold text-sm transition-colors flex items-center space-x-1.5 shadow"
+              class="btn-primary text-sm min-h-[48px] px-6 shadow-sm whitespace-nowrap"
             >
               <i data-lucide="check-circle" class="w-4 h-4"></i>
-              <span>Validar</span>
+              <span>Validar CPF</span>
             </button>
           </div>
         </div>
       </form>
 
-      <!-- Resultado CPF -->
-      <div id="result-cpf" class="hidden mt-6 border-t border-slate-100 pt-6 space-y-4">
+      <!-- Resultado CPF com aria-live -->
+      <div id="result-cpf" class="hidden border-t border-[#D9E1EC] pt-6 space-y-4" aria-live="polite">
         <div id="cpf-status-box" class="p-4 rounded-xl flex items-center justify-between">
           <div>
-            <span class="text-xs uppercase font-bold text-slate-500 block">Resultado da Validação</span>
+            <span class="text-xs uppercase font-bold text-[#526078] block">Resultado da Validação</span>
             <span id="res-cpf-status" class="text-xl font-black"></span>
           </div>
           <div id="res-cpf-badge" class="px-3.5 py-1.5 rounded-full text-xs font-black uppercase"></div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-            <span class="text-xs text-slate-500 font-medium block">CPF Formatado</span>
-            <span id="res-cpf-formatado" class="font-bold text-slate-900 font-mono text-base"></span>
+          <div class="bg-white p-3.5 rounded-xl border border-[#D9E1EC]">
+            <span class="text-xs text-[#526078] font-medium block">CPF Formatado</span>
+            <span id="res-cpf-formatado" class="font-bold text-[#0F1B35] font-mono text-base mt-0.5 block"></span>
           </div>
-          <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
-            <span class="text-xs text-slate-500 font-medium block">Região Fiscal de Origem (9º Dígito)</span>
-            <span id="res-cpf-regiao" class="font-bold text-slate-900 text-base"></span>
+          <div class="bg-white p-3.5 rounded-xl border border-[#D9E1EC]">
+            <span class="text-xs text-[#526078] font-medium block">Região Fiscal de Origem (9º Dígito)</span>
+            <span id="res-cpf-regiao" class="font-bold text-[#0F1B35] text-base mt-0.5 block"></span>
           </div>
         </div>
 
-        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2 text-xs text-slate-600">
-          <h4 class="font-bold text-slate-900 text-sm flex items-center gap-1.5">
-            <i data-lucide="external-link" class="w-4 h-4 text-indigo-600"></i>
-            Comprovante Oficial de Situação Cadastral:
+        <div class="bg-slate-50 p-4 rounded-xl border border-[#D9E1EC] space-y-2 text-xs text-[#526078]">
+          <h4 class="font-bold text-[#0F1B35] text-sm flex items-center gap-1.5">
+            <i data-lucide="external-link" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Comprovante Oficial de Situação Cadastral:</span>
           </h4>
           <p>Para emitir a certidão oficial de regularidade com QR Code fornecida pelo governo federal:</p>
-          <a href="https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp" target="_blank" class="inline-flex items-center gap-1 font-bold text-indigo-600 hover:text-indigo-800">
-            Acessar Consulta Pública na Receita Federal
+          <a href="https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/consultapublica.asp" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-bold text-[#2563EB] hover:text-[#1E40AF]">
+            <span>Acessar Consulta Pública na Receita Federal</span>
             <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- BANNER MEIO ADSENSE -->
-    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Contextual (Empréstimo, Cartão, Limpa Nome)]</span>
+    <!-- BANNER APÓS RESULTADO DA FERRAMENTA -->
+    <div class="max-w-5xl mx-auto w-full px-1">
+      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-[#526078] font-medium">
+        <span>[Espaço Reservado - Banner Google AdSense 728x90 Contextual (Empréstimo, Cartão, Limpa Nome)]</span>
+      </div>
     </div>
 
     <!-- CONTEÚDO EDUCATIVO / ARTIGO SEO -->
-    <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
-      <h2 class="text-lg font-bold text-slate-900">Como funciona a validação matemática do CPF?</h2>
+    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
+      <h2 class="text-lg font-bold text-[#0F1B35]">Como funciona a validação matemática do CPF?</h2>
       <p>
         O Cadastro de Pessoas Físicas (CPF) é composto por 11 dígitos, sendo os 9 primeiros a base identificadora e os 2 últimos os chamados <strong>dígitos verificadores (DV)</strong>. Esses dígitos são calculados a partir de uma fórmula matemática de multiplicação ponderada conhecida como algoritmo de Módulo 11.
       </p>
-      <h3 class="text-base font-bold text-slate-900 pt-2">O que indica o 9º dígito do CPF?</h3>
+      <h3 class="text-base font-bold text-[#0F1B35] pt-2">O que indica o 9º dígito do CPF?</h3>
       <p>
         O nono dígito indica diretamente em qual das 10 Regiões Fiscais do Brasil o documento foi emitido originalmente. Por exemplo: o dígito <strong>8</strong> pertence ao estado de São Paulo, o dígito <strong>7</strong> ao Rio de Janeiro e Espírito Santo, e o dígito <strong>9</strong> aos estados do Paraná e Santa Catarina.
       </p>
     </article>
 
     <!-- LINKS PARA PÁGINAS VARIANTES DE SEO -->
-    <section class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
-      <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Páginas Relacionadas e Variações de Busca:</h3>
+    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-[#526078] mb-3">Páginas Relacionadas e Variações de Busca:</h3>
       <div class="flex flex-wrap gap-2 text-xs">
-        <a href="validar-cpf-online.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-indigo-600 hover:border-indigo-400">Validar CPF Online Grátis</a>
-        <a href="como-descobrir-estado-do-cpf.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-indigo-600 hover:border-indigo-400">Descobrir Estado pelo CPF</a>
-        <a href="verificar-se-cpf-e-valido.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-indigo-600 hover:border-indigo-400">Verificar se o CPF é Válido</a>
+        <a href="validar-cpf-online.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Validar CPF Online Grátis</a>
+        <a href="como-descobrir-estado-do-cpf.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Descobrir Estado pelo CPF</a>
+        <a href="consulta-mei-cnpj.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Consulta MEI & CNPJ</a>
       </div>
     </section>
 
   </main>
 
-  <!-- RODAPÉ -->
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-6 text-[#526078] text-xs text-center space-y-2 mt-8">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
     <p>Cidadão Agora Brasil © 2026 - Consulta e utilidade pública gratuita.</p>
   </footer>
 

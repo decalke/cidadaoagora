@@ -17,7 +17,10 @@
   <meta name="description" content="Central de utilidade pública do cidadão brasileiro: consultas de CNPJ e MEI, CPF, tabela CNAE, cálculos trabalhistas CLT, consulta veicular FIPE, notícias e atualidades.">
   <meta name="keywords" content="cidadaoagora, consulta mei, consultar cnpj, validador cpf, tabela cnae, rescisao clt, consulta fipe placa, noticias brasil">
 
-  <!-- Tailwind CSS via CDN -->
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="css/design-system.css">
+
+  <!-- Tailwind CSS via CDN com Tokens Padronizados -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -25,14 +28,30 @@
         extend: {
           colors: {
             brand: {
-              50: '#eff6ff',
-              100: '#dbeafe',
-              500: '#3b82f6',
-              600: '#2563eb',
-              700: '#1d4ed8',
-              800: '#1e40af',
-              900: '#1e3a8a',
-            }
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
           }
         }
       }
@@ -40,826 +59,882 @@
   </script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-    }
-  </style>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
 
-  <!-- BARRA DE AVISO SUPERIOR -->
-  <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+  <!-- BARRA DE AVISO INSTITUCIONAL -->
+  <div class="bg-[#0F1B35] text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span>Portal Independente de Dados Públicos e Informações ao Cidadão</span>
+        <span class="font-medium">Portal Independente de Dados Públicos e Informações ao Cidadão</span>
       </div>
-      <div class="flex items-center space-x-4 text-[11px] text-slate-400">
+      <div class="flex items-center space-x-4 text-[11px] text-slate-300">
         <a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a>
         <span>•</span>
         <a href="conteudo/politica.html" class="hover:text-white transition-colors">Política</a>
         <span>•</span>
-        <a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Ofertas & Cupons</a>
+        <a href="conteudo/atualidades.html" class="hover:text-white transition-colors">Atualidades</a>
       </div>
     </div>
   </div>
 
   <!-- CABEÇALHO PRINCIPAL -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="index.html" class="flex items-center space-x-3">
-        <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-extrabold text-xl shadow-md">
+      <a href="index.html" class="flex items-center space-x-3 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-xl shadow-sm">
           CA
         </div>
         <div>
-          <span class="text-xl font-black tracking-tight text-slate-900">Cidadão<span class="text-blue-600">Agora</span></span>
-          <span class="text-[11px] block text-slate-500 font-medium -mt-0.5">Central de Consultas & Utilidades</span>
+          <span class="text-xl font-black tracking-tight text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[11px] block text-[#526078] font-medium -mt-0.5">Central de Consultas & Utilidades</span>
         </div>
       </a>
 
-      <!-- Menu Principal de Navegação -->
-      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-slate-600">
-        <a href="#servicos" class="hover:text-blue-600 transition-colors">Ferramentas</a>
-        <a href="conteudo/atualidades.html" class="hover:text-blue-600 transition-colors">Atualidades</a>
-        <a href="conteudo/politica.html" class="hover:text-blue-600 transition-colors">Política</a>
-        <a href="noticias/index.html" class="hover:text-blue-600 transition-colors">Notícias</a>
-        <a href="conteudo/promocoes.html" class="text-amber-600 hover:text-amber-700 flex items-center gap-1 font-bold">
-          <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+      <!-- Menu Principal de Navegação (Hierarquia Equilibrada, Promoções com menor prioridade) -->
+      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
+        <a href="#mais-acessados" class="hover:text-[#2563EB] transition-colors">Mais Acessados</a>
+        <a href="#todos-servicos" class="hover:text-[#2563EB] transition-colors">Serviços</a>
+        <a href="conteudo/atualidades.html" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
+        <a href="conteudo/politica.html" class="hover:text-[#2563EB] transition-colors">Política</a>
+        <a href="noticias/index.html" class="hover:text-[#2563EB] transition-colors">Notícias</a>
+        <a href="conteudo/promocoes.html" class="hover:text-[#2563EB] transition-colors text-slate-500 font-normal">
           Promoções
         </a>
       </nav>
 
       <div class="flex items-center space-x-2">
-        <a href="#servicos" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition-colors shadow-sm flex items-center gap-1.5">
-          <i data-lucide="search" class="w-3.5 h-3.5"></i>
-          <span>Acessar Serviços</span>
+        <a href="#busca-servicos" class="btn-primary text-xs !py-2 !px-4">
+          <i data-lucide="search" class="w-4 h-4"></i>
+          <span>Buscar Serviço</span>
         </a>
       </div>
     </div>
   </header>
 
-  <!-- BANNER ADSENSE TOPO (ALTA VISIBILIDADE) -->
-  <div class="max-w-7xl mx-auto w-full px-4 pt-4">
-    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 / Responsivo Topo]</span>
-    </div>
-  </div>
+  <main class="flex-1">
 
-  <!-- HERO SECTION / DESTAQUE -->
-  <section class="max-w-7xl mx-auto w-full px-4 pt-8 pb-4">
-    <div class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 rounded-2xl p-6 sm:p-10 text-white shadow-lg relative overflow-hidden">
-      <div class="relative z-10 w-full">
-        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-blue-500/30 text-blue-200 border border-blue-400/30 mb-3">
-          100% Gratuito & Base Oficial Aberta
+    <!-- HERO SECTION LIMPA E ACESSÍVEL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
+    <section id="busca-servicos" class="max-w-7xl mx-auto w-full px-4 pt-6 pb-2">
+      <div class="bg-gradient-to-r from-[#0F1B35] via-[#1E40AF] to-[#0F1B35] rounded-2xl p-6 sm:p-10 text-white shadow-md relative overflow-hidden">
+        <div class="relative z-10 max-w-4xl mx-auto text-center space-y-4">
+          
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-blue-100 border border-white/20">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>100% Gratuito & Base Oficial Aberta</span>
+          </div>
+
+          <h1 class="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
+            Consultas públicas e ferramentas essenciais para o cidadão
+          </h1>
+
+          <p class="text-blue-100 text-xs sm:text-sm max-w-2xl mx-auto leading-relaxed">
+            Acesse dados públicos de empresas, veículos, direitos trabalhistas e geradores de documentos oficiais sem burocracia e sem cadastro.
+          </p>
+
+          <!-- BUSCADOR PRINCIPAL DE SERVIÇOS NO TOPO DA HOME -->
+          <div class="pt-2 max-w-2xl mx-auto">
+            <form onsubmit="event.preventDefault(); focarFiltroServicos();" class="relative" role="search">
+              <label for="campo-busca" class="sr-only">O que você precisa consultar ou calcular?</label>
+              <div class="relative flex items-center">
+                <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-4 pointer-events-none"></i>
+                <input 
+                  type="text" 
+                  id="campo-busca" 
+                  oninput="filtrarServicosAoDigitar()"
+                  placeholder="O que você precisa consultar ou calcular?" 
+                  class="w-full pl-12 pr-28 py-4 rounded-xl text-slate-900 bg-white border-2 border-white/80 focus:border-[#F59E0B] focus:ring-4 focus:ring-[#F59E0B]/20 text-base shadow-lg outline-none transition-all placeholder:text-slate-400"
+                  autocomplete="off"
+                >
+                <button 
+                  type="button" 
+                  onclick="limparOuFocarBusca()" 
+                  id="btn-limpar-busca"
+                  class="absolute right-2 px-3 py-2 rounded-lg bg-[#2563EB] hover:bg-[#1E40AF] text-white text-xs font-bold transition-colors flex items-center gap-1 touch-target"
+                >
+                  <span id="texto-btn-busca">Buscar</span>
+                </button>
+              </div>
+            </form>
+            <p id="busca-feedback" aria-live="polite" class="text-xs text-blue-200 mt-2 text-left sm:text-center hidden"></p>
+          </div>
+
+          <!-- 5 ATALHOS PRIORITÁRIOS NO HERO -->
+          <div class="pt-3">
+            <span class="text-[11px] uppercase tracking-wider text-blue-200 font-bold block mb-2.5">
+              Atalhos Rápidos Mais Procurados:
+            </span>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 w-full">
+              <!-- 1. MEI & CNPJ -->
+              <a href="servicos/consulta-mei-cnpj.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                <i data-lucide="building-2" class="w-4 h-4 shrink-0 text-blue-300"></i>
+                <span class="truncate">MEI & CNPJ</span>
+              </a>
+              <!-- 2. Placa & FIPE (Destaque contextual âmbar conforme design system) -->
+              <a href="servicos/consulta-veicular-fipe.html" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-3 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
+                <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
+                <span class="truncate">Placa & FIPE</span>
+              </a>
+              <!-- 3. Validador CPF -->
+              <a href="servicos/validador-cpf.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                <i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-300"></i>
+                <span class="truncate">Validar CPF</span>
+              </a>
+              <!-- 4. Rescisão CLT -->
+              <a href="servicos/calculadora-rescisao-clt.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0 text-indigo-300"></i>
+                <span class="truncate">Rescisão CLT</span>
+              </a>
+              <!-- 5. Recibo (PDF) -->
+              <a href="servicos/gerador-recibo-pagamento.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center col-span-2 sm:col-span-1">
+                <i data-lucide="receipt" class="w-4 h-4 shrink-0 text-teal-300"></i>
+                <span class="truncate">Gerar Recibo</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: MAIS ACESSADOS (EXATAMENTE AS 6 FERRAMENTAS PRIORITÁRIAS) -->
+    <section id="mais-acessados" class="max-w-7xl mx-auto w-full px-4 pt-8 pb-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-3 border-b border-[#D9E1EC] gap-2">
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="ds-badge ds-badge-accent">Destaque</span>
+            <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Mais Acessados</h2>
+          </div>
+          <p class="text-xs sm:text-sm text-[#526078] mt-0.5">As 6 ferramentas públicas mais procuradas pelos cidadãos brasileiros:</p>
+        </div>
+        <span class="text-xs font-bold text-[#1E40AF] bg-[#EFF6FF] px-3 py-1.5 rounded-full border border-blue-200 self-start sm:self-auto">
+          6 Ferramentas Principais
         </span>
-        <h1 class="text-3xl sm:text-4xl font-black tracking-tight leading-tight">
-          Todas as consultas e cálculos essenciais em um só lugar.
-        </h1>
-        <p class="text-slate-200 text-xs sm:text-sm mt-2 max-w-3xl leading-relaxed">
-          Acesse diretamente as ferramentas mais utilizadas do cidadão brasileiro com apenas um clique:
+      </div>
+
+      <!-- GRID COM 6 CARDS: 1 COLUNA MOBILE, 2 A 3 DESKTOP -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        <!-- 1. CONSULTA CNPJ E MEI -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+                <i data-lucide="building-2" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Empresas & Receita Federal</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Consulta CNPJ e MEI
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Consulte a situação cadastral ativa de empresas e Microempreendedores Individuais, razão social, CNAE principal e data de abertura.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/consulta-mei-cnpj.html" class="btn-primary w-full text-xs">
+              <span>Consultar CNPJ e MEI</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. CONSULTA VEICULAR E FIPE -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group border-amber-200/80">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
+                <i data-lucide="car" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block">Veículos & Preço Médio</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-amber-800 transition-colors mt-0.5">
+                Consulta Veicular e FIPE
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Verifique a placa Mercosul ou padrão antigo, UF de registro, cotação oficial na Tabela FIPE e estimativa de IPVA.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/consulta-veicular-fipe.html" class="btn-accent w-full text-xs">
+              <span>Consultar Veículo & FIPE</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. VALIDADOR DE CPF -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-emerald-50 text-[#059669] flex items-center justify-center">
+                <i data-lucide="user-check" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-800 block">Segurança & Cidadania</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Validador de CPF
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Verifique a autenticidade matemática dos dígitos verificadores do CPF e descubra a região fiscal de emissão do documento.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/validador-cpf.html" class="btn-primary w-full text-xs">
+              <span>Validar CPF Grátis</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. CALCULADORA DE RESCISÃO -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+                <i data-lucide="dollar-sign" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Trabalho & CLT</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Calculadora de Rescisão
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Simule os valores da rescisão do contrato de trabalho com ou sem justa causa, aviso prévio, férias e décimo terceiro proporcional.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/calculadora-rescisao-clt.html" class="btn-primary w-full text-xs">
+              <span>Calcular Rescisão CLT</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. GERADOR DE RECIBO -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center">
+                <i data-lucide="receipt" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-teal-800 block">Documentos & PDF</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Gerador de Recibo
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Gere recibos de prestação de serviços, autônomos ou aluguel com preenchimento automático por extenso e baixe o PDF pronto.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-recibo-pagamento.html" class="btn-primary w-full text-xs">
+              <span>Gerar Recibo em PDF</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. CONSULTA DE CEP -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Cidadania & Correios</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Consulta de CEP
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Localize logradouro, bairro, cidade, estado (UF), código IBGE e DDD oficial com mapa e dados oficiais da BrasilAPI e Correios.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/consulta-cep.html" class="btn-primary w-full text-xs">
+              <span>Consultar CEP Oficial</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BANNER ADSENSE APÓS O PRIMEIRO BLOCO DE SERVIÇOS (CONFORME REQUISITO UI/UX) -->
+    <div class="max-w-7xl mx-auto w-full px-4 my-6">
+      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-[#526078] font-medium">
+        <span>[Espaço Reservado - Banner Google AdSense 970x250 / 728x90 Intermediário Responsivo]</span>
+      </div>
+    </div>
+
+    <!-- SEÇÃO: TODOS OS SERVIÇOS AGRUPADOS POR CATEGORIA -->
+    <section id="todos-servicos" class="max-w-7xl mx-auto w-full px-4 py-6 space-y-8">
+      <div class="border-b border-[#D9E1EC] pb-4">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Todos os Serviços por Categoria</h2>
+        <p class="text-xs sm:text-sm text-[#526078] mt-0.5">
+          Navegue pelas ferramentas organizadas por área temática:
         </p>
 
-        <!-- 5 BOTÕES LADO A LADO OCUPANDO 100% DA LARGURA -->
-        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 w-full">
-          <a href="servicos/consulta-mei-cnpj.html" class="bg-blue-600 hover:bg-blue-500 text-white text-xs sm:text-sm font-bold px-3 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:scale-[1.02] text-center">
-            <i data-lucide="building-2" class="w-4 h-4 shrink-0"></i>
-            <span class="truncate">MEI & CNPJ</span>
-          </a>
-          <a href="servicos/consulta-veicular-fipe.html" class="bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs sm:text-sm font-black px-3 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:scale-[1.02] text-center">
-            <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
-            <span class="truncate">Placa & FIPE</span>
-          </a>
-          <a href="servicos/gerador-recibo-pagamento.html" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold px-3 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:scale-[1.02] text-center">
-            <i data-lucide="receipt" class="w-4 h-4 shrink-0"></i>
-            <span class="truncate">Recibo (PDF)</span>
-          </a>
-          <a href="servicos/calculadora-rescisao-clt.html" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-bold px-3 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:scale-[1.02] text-center">
-            <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0"></i>
-            <span class="truncate">Rescisão CLT</span>
-          </a>
-          <a href="servicos/validador-cpf.html" class="bg-teal-600 hover:bg-teal-500 text-white text-xs sm:text-sm font-bold px-3 py-3 rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:scale-[1.02] text-center">
-            <i data-lucide="user-check" class="w-4 h-4 shrink-0"></i>
-            <span class="truncate">Validar CPF</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO DE SERVIÇOS EM CAIXINHAS (GRID PRINCIPAL) -->
-  <section id="servicos" class="max-w-7xl mx-auto w-full px-4 py-8">
-    <div class="flex items-center justify-between mb-6 border-b border-slate-200 pb-4">
-      <div>
-        <h2 class="text-2xl font-black text-slate-900">Serviços e Utilitários Públicos</h2>
-        <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Selecione uma ferramenta abaixo para acessar a página individual completa:</p>
-      </div>
-      <span class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-        15 Ferramentas & Documentos
-      </span>
-    </div>
-
-    <!-- GRID DE CAIXAS DE SERVIÇOS -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-      <!-- CAIXA 1: CONSULTA CNPJ & MEI -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="building-2" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-blue-600 block mb-1">Receita Federal Oficial</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
-            Consulta de CNPJ & Situação MEI Ativo
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Consulte instantaneamente a situação cadastral de qualquer empresa ou Microempreendedor Individual (MEI). Saiba se está Ativo, Razão Social, CNAE principal e data de abertura.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Situação Cadastral</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Optante MEI</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Simples Nacional</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/consulta-mei-cnpj.html" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="building-2" class="w-4 h-4"></i>
-            <span>Acessar Consulta MEI & CNPJ</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
+        <!-- FILTRO RÁPIDO DE CATEGORIAS -->
+        <div class="flex items-center gap-2 overflow-x-auto pt-4 pb-1 no-scrollbar text-xs font-bold">
+          <button onclick="filtrarCategoria('todas')" class="cat-pill active px-4 py-2 rounded-xl bg-[#2563EB] text-white shadow-xs whitespace-nowrap">Todas</button>
+          <button onclick="filtrarCategoria('empresas')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Empresas</button>
+          <button onclick="filtrarCategoria('veiculos')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Veículos</button>
+          <button onclick="filtrarCategoria('trabalho')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Trabalho</button>
+          <button onclick="filtrarCategoria('documentos')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Documentos</button>
+          <button onclick="filtrarCategoria('financas')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Finanças</button>
+          <button onclick="filtrarCategoria('cidadania')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Cidadania</button>
         </div>
       </div>
 
-      <!-- CAIXA 2: VALIDADOR DE CPF & REGIÃO -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="user-check" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 block mb-1">Segurança & Verificação</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-            Validador de CPF & Região Fiscal
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Verifique a autenticidade dos dígitos verificadores do CPF através do algoritmo matemático da Receita Federal e descubra a região fiscal de emissão do documento.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Dígitos Verificadores</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Estado de Emissão</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Certidão Oficial</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/validador-cpf.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="user-check" class="w-4 h-4"></i>
-            <span>Acessar Validador de CPF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
+      <!-- GRID COMPLETO DOS SERVIÇOS (COM DATA-CATEGORY PARA FILTRAGEM INSTANTÂNEA) -->
+      <div id="grid-todos-servicos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
-      <!-- CAIXA 3: BUSCADOR DE CNAE & SIMPLES NACIONAL -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="calculator" class="w-6 h-6"></i>
+        <!-- CATEGORIA: EMPRESAS -->
+        <!-- Buscador de CNAE -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="calculator" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Buscador de CNAE & Simples Nacional
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Pesquise códigos CNAE por profissão, verifique se é permitido no MEI e consulte os anexos e alíquotas do Simples.
+            </p>
           </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">Classificação IBGE / CONCLA</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
-            Buscador de CNAE & Alíquotas Simples
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Pesquise códigos CNAE por profissão para verificar se é permitido no MEI, qual o anexo correspondente do Simples Nacional e a alíquota inicial estimada para tributação.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Tabela CNAE</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Anexos I a V</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Fator R</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/buscador-cnae.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="calculator" class="w-4 h-4"></i>
-            <span>Acessar Buscador de CNAE</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 4: CALCULADORAS TRABALHISTAS CLT -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="dollar-sign" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Direitos do Trabalhador</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-            Calculadora de Rescisão & Salário Líquido
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Simulador completo de rescisão de contrato de trabalho (com ou sem justa causa, aviso prévio, férias e 13º) e cálculo de salário líquido com descontos de INSS e IRRF.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Rescisão CLT</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Desconto INSS</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Tabela IRRF</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calculadora-rescisao-clt.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="dollar-sign" class="w-4 h-4"></i>
-            <span>Acessar Calculadora CLT</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 5: CONSULTA VECAULAR & TABELA FIPE -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="car" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700 block mb-1">Veículos & Preço Médio</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
-            Consulta Veicular & Tabela FIPE
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Decodificador de placas Mercosul e antigas, identificação do estado de emplacamento pelo Senatran, logotipos de marcas oficiais e cotação de mercado na Tabela FIPE.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Placa Mercosul</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Preço FIPE</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Detran Estadual</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/consulta-veicular-fipe.html" class="w-full bg-amber-600 hover:bg-amber-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="car" class="w-4 h-4"></i>
-            <span>Acessar Consulta de Veículos</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 6: GERADOR DE RECIBO DE PAGAMENTO EM PDF -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="receipt" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Documento & PDF</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-            Recibo de Pagamento & Autônomo
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Gerador gratuito de recibo de prestação de serviços, autônomos ou aluguel. Preencha os valores e dados das partes e baixe o PDF pronto para imprimir.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Download em PDF</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Recibo Simples</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Autônomo RPA</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-recibo-pagamento.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="receipt" class="w-4 h-4"></i>
-            <span>Gerar Recibo em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 7: NOTA PROMISSÓRIA SIMPLES -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-rose-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="file-text" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-rose-600 block mb-1">Título de Crédito</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-rose-600 transition-colors">
-            Nota Promissória Simples
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Emita notas promissórias com valor por extenso automático, vencimento, CPF/CNPJ de emitente e credor. Válido juridicamente em PDF padrão bancário.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Decreto 2.044</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Automático</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Reconhecimento</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-nota-promissoria.html" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="file-text" class="w-4 h-4"></i>
-            <span>Gerar Nota Promissória</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 8: DECLARAÇÃO DE RESIDÊNCIA -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-cyan-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="home" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-cyan-600 block mb-1">Comprovante Legal</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-cyan-600 transition-colors">
-            Declaração de Residência
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Modelo oficial com base na Lei Federal 7.115/83 para quem não possui contas ou comprovantes de água e luz no próprio nome. Gere o PDF instantâneo.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Lei 7.115/83</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Sem Custo</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Imprimir / PDF</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-declaracao-residencia.html" class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="home" class="w-4 h-4"></i>
-            <span>Gerar Declaração em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 9: CONTRATO SIMPLES DE PRESTAÇÃO DE SERVIÇOS -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="file-check" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 block mb-1">Contrato & Segurança</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-            Gerador de Contrato Simples
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Elabore um contrato de prestação de serviços completo com cláusulas de preço, prazos, obrigações e foro entre autônomos, MEIs e contratantes.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Contrato MEI</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cláusulas Prontas</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Jurídico</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-contrato-simples.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="file-check" class="w-4 h-4"></i>
-            <span>Criar Contrato em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 10: FORMATADOR DE TEXTO & VALIDADOR DE CPF -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-teal-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="type" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-teal-600 block mb-1">Produtividade & Documentos</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors">
-            Formatador de Texto & Validador de CPF
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Converta textos para maiúsculas, minúsculas, conte caracteres e linhas, e valide ou formate números de CPF com checagem algorítmica em tempo real.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Validação de CPF</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Maiúsculas/Minúsculas</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Contador</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/formatador-texto.html" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="type" class="w-4 h-4"></i>
-            <span>Acessar Formatador</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 11: CONVERSOR DE FORMATOS (PNG PARA JPG / PDF) -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-orange-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="refresh-cw" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-orange-600 block mb-1">Arquivos & Imagens</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-orange-600 transition-colors">
-            Conversor de Imagens & Arquivos
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Converta imagens de PNG para JPG ou JPG para PNG direto no seu computador/celular sem enviar para a internet, com dicas de conversão de PDF para Word.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PNG para JPG</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">100% no Navegador</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF para Word</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/conversor-formatos.html" class="w-full bg-orange-600 hover:bg-orange-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="refresh-cw" class="w-4 h-4"></i>
-            <span>Acessar Conversor</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 12: GERADOR DE LINK WHATSAPP FORMATADO -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-green-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-green-100 text-green-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="message-circle" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-green-600 block mb-1">Comunicação Rápida</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-green-600 transition-colors">
-            Gerador de Link de WhatsApp com Mensagem
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Gere links diretos personalizados (wa.me) e QR Codes para seus clientes iniciarem uma conversa instantânea no WhatsApp já com mensagem pronta.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Link Curto</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">QR Code Grátis</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Mensagem Pronta</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-link-whatsapp.html" class="w-full bg-green-600 hover:bg-green-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="message-circle" class="w-4 h-4"></i>
-            <span>Criar Link de WhatsApp</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 13: DECLARAÇÃO DE HIPOSSUFCAIÊNCIA / POBREZA (PDF) -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-violet-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-violet-100 text-violet-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="scale" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-violet-600 block mb-1">Justiça Gratuita</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-violet-600 transition-colors">
-            Declaração de Hipossuficiência
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Documento formal para pedido de gratuidade judiciária ou isenção de taxas em concursos e vestibulares públicos nos termos do Art. 98 do CPC.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Justiça Gratuita</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Isenção Concurso</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF Jurídico</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="w-full bg-violet-600 hover:bg-violet-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="scale" class="w-4 h-4"></i>
-            <span>Gerar Declaração em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 14: GERADOR DE ORÇAMENTO DE SERVIÇOS (PDF) -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-sky-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="calculator" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">Para Autônomos & MEI</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
-            Gerador de Orçamento Simples
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Monte propostas comerciais e orçamentos detalhados de mão de obra e materiais com soma automática de valores e download de PDF timbrado.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Orçamento MEI</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cálculo Automático</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">PDF na Hora</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-orcamento-simples.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="calculator" class="w-4 h-4"></i>
-            <span>Criar Orçamento em PDF</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 15: CALCULADORA DE FÉRIAS E 13º SALÁRIO -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-emerald-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="badge-dollar-sign" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 block mb-1">Benefícios CLT</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-            Calculadora de Férias & 13º Salário
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Descubra quanto você vai receber de férias (com o terço constitucional e venda de dias) e simule os valores da 1ª e 2ª parcela do 13º salário.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">1/3 de Férias</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">13º Proporcional</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Cálculo Rápido</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calculadora-ferias-decimo.html" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="badge-dollar-sign" class="w-4 h-4"></i>
-            <span>Calcular Férias e 13º</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 16: CONSULTA DE CEP & ENDEREÇO COMPLETO -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-teal-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="map-pin" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-teal-600 block mb-1">Correios & BrasilAPI</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors">
-            Consulta de CEP & Endereço
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Localize rua, bairro, cidade, estado (UF), código IBGE e DDD oficial com mapa instantâneo a partir do CEP.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Logradouro</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Bairro & UF</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">DDD Oficial</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/consulta-cep.html" class="w-full bg-teal-600 hover:bg-teal-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="map-pin" class="w-4 h-4"></i>
-            <span>Consultar CEP</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 17: CALCULADORA DE REAJUSTE DE ALUGUEL -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="calculator" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-indigo-600 block mb-1">Locação & Imóveis</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
-            Calculadora Reajuste Aluguel
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Simule o aumento anual do aluguel pelos índices oficiais IPCA e IGP-M nos termos da Lei do Inquilinato.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">IPCA (IBGE)</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">IGP-M (FGV)</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Lei 8.245/91</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calculadora-reajuste-aluguel.html" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="calculator" class="w-4 h-4"></i>
-            <span>Calcular Reajuste</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 18: CALENDÁRIO DE FERIADOS NACIONAIS -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-rose-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="calendar" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-rose-600 block mb-1">Planejamento & Folgas</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-rose-600 transition-colors">
-            Calendário de Feriados Oficiais
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Consulte todos os feriados nacionais, pontes e pontos facultativos federais do ano em uma interface limpa.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Feriados 2026</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Pontos Facultativos</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Dias Úteis</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/calendario-feriados.html" class="w-full bg-rose-600 hover:bg-rose-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="calendar" class="w-4 h-4"></i>
-            <span>Ver Feriados do Ano</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 19: GERADOR DE PEDIDO LAI -->
-      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-sky-300 transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="file-text" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-sky-600 block mb-1">Cidadania & Transparência</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
-            Gerador de Pedido LAI (e-SIC)
-          </h3>
-          <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-            Gere requerimentos formais fundamentados na Lei de Acesso à Informação para protocolar em prefeituras e ministérios.
-          </p>
-          <div class="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Lei 12.527</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Fala.BR</span>
-            <span class="bg-slate-100 px-2 py-0.5 rounded text-slate-600 font-medium">Texto Pronto</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <a href="servicos/gerador-pedido-lai.html" class="w-full bg-sky-600 hover:bg-sky-700 text-white py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-colors shadow-sm">
-            <i data-lucide="file-text" class="w-4 h-4"></i>
-            <span>Gerar Pedido LAI</span>
-            <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- CAIXA 20: CANAL DE PROMOÇÕES & OFERTAS -->
-      <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border border-amber-200 p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
-        <div>
-          <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
-            <i data-lucide="badge-percent" class="w-6 h-6"></i>
-          </div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block mb-1">Economia do Cidadão</span>
-          <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-800 transition-colors">
-            Promoções, Cupons & Descontos
-          </h3>
-          <p class="text-xs text-slate-700 mt-2 leading-relaxed">
-            Seleção diária das melhores ofertas, cupons de desconto para compras online, serviços contábeis, maquininhas de cartão e ferramentas com condições especiais.
-          </p>
-          <div class="mt-4 pt-3 border-t border-amber-200/60 flex flex-wrap gap-1.5 text-[11px]">
-            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Cupons Ativos</span>
-            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Bancos Digitais</span>
-            <span class="bg-white/80 px-2 py-0.5 rounded text-slate-700 font-medium">Economia</span>
-          </div>
-        </div>
-        <div class="mt-6 pt-4 border-t border-amber-200/60">
-          <a href="conteudo/promocoes.html" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm">
-            <span>Ver Todas as Promoções</span>
-            <i data-lucide="arrow-right" class="w-4 h-4"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- BANNER ADSENSE MEIO (RETÂNGULO LARGO) -->
-  <div class="max-w-7xl mx-auto w-full px-4 my-2">
-    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 970x250 ou 728x90 Intermediário]</span>
-    </div>
-  </div>
-
-  <!-- SEÇÃO DE CONTEÚDO EDITORIAL: NOTÍCIAS, POLÍTCAA & ATUALIDADES -->
-  <section class="max-w-7xl mx-auto w-full px-4 py-8">
-    <div class="flex items-center justify-between mb-6 border-b border-slate-200 pb-4">
-      <div>
-        <h2 class="text-2xl font-black text-slate-900">Informação & Conteúdo Cidadão</h2>
-        <p class="text-xs sm:text-sm text-slate-500 mt-0.5">Fique por dentro das principais decisões, leis e novidades do Brasil:</p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-      <!-- CARD: NOTÍCIAS -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs font-bold text-blue-600 mb-2">
-            <span>PLANTÃO DE NOTÍCIAS</span>
-            <span class="text-slate-400 font-normal">Atualizado hoje</span>
-          </div>
-          <h3 class="text-base font-bold text-slate-900 leading-snug">
-            <a href="noticias/index.html" class="hover:text-blue-600 transition-colors">
-              Receita Federal atualiza regras de declaração e novas facilidades para o MEI
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/buscador-cnae.html" class="btn-primary w-full text-xs">
+              <span>Buscar CNAE</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
-          </h3>
-          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
-            Confira as principais mudanças tributárias, novos prazos de entrega do DASN-SIMEI e regras que impactam diretamente os pequenos negócios.
-          </p>
-        </div>
-        <div class="mt-4 pt-3 border-t border-slate-100">
-          <a href="noticias/index.html" class="text-xs font-bold text-blue-600 hover:text-blue-700 flex items-center gap-1">
-            <span>Acessar Notícias</span>
-            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-          </a>
-        </div>
-      </article>
-
-      <!-- CARD: POLÍTCAA -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs font-bold text-rose-600 mb-2">
-            <span>POLÍTCAA NACIONAL</span>
-            <span class="text-slate-400 font-normal">Brasília</span>
           </div>
-          <h3 class="text-base font-bold text-slate-900 leading-snug">
-            <a href="conteudo/politica.html" class="hover:text-rose-600 transition-colors">
-              Projetos de Lei no Congresso debatem retorno das cidades nas placas Mercosul
-            </a>
-          </h3>
-          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
-            Entenda como tramita o Projeto de Lei que pretende incluir o brasão do município e estado nas placas veiculares de identificação.
-          </p>
         </div>
-        <div class="mt-4 pt-3 border-t border-slate-100">
-          <a href="conteudo/politica.html" class="text-xs font-bold text-rose-600 hover:text-rose-700 flex items-center gap-1">
-            <span>Acessar Política</span>
-            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-          </a>
-        </div>
-      </article>
 
-      <!-- CARD: ATUALIDADES -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm hover:border-blue-400 transition-colors flex flex-col justify-between">
-        <div>
-          <div class="flex items-center justify-between text-xs font-bold text-emerald-600 mb-2">
-            <span>ATUALIDADES & ECONOMIA</span>
-            <span class="text-slate-400 font-normal">Finanças</span>
+        <!-- Gerador de Orçamento Simples -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Gerador de Orçamento Simples
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Crie propostas comerciais detalhadas para clientes com cálculo automático de mão de obra e baixe em PDF.
+            </p>
           </div>
-          <h3 class="text-base font-bold text-slate-900 leading-snug">
-            <a href="conteudo/atualidades.html" class="hover:text-emerald-600 transition-colors">
-              Como a tabela do IR e do INSS afetam o seu salário líquido no bolso
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-orcamento-simples.html" class="btn-primary w-full text-xs">
+              <span>Criar Orçamento</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
-          </h3>
-          <p class="text-xs text-slate-500 mt-2 line-clamp-3 leading-relaxed">
-            Guia prático para entender as faixas progressivas de desconto salarial e como planejar sua rescisão trabalhista com segurança.
-          </p>
+          </div>
         </div>
-        <div class="mt-4 pt-3 border-t border-slate-100">
-          <a href="conteudo/atualidades.html" class="text-xs font-bold text-emerald-600 hover:text-emerald-700 flex items-center gap-1">
-            <span>Acessar Atualidades</span>
-            <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
-          </a>
+
+        <!-- Gerador de Link WhatsApp -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Gerador de Link WhatsApp
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Gere links curtos wa.me e QR Code para clientes iniciarem conversa rápida com mensagem personalizada.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-link-whatsapp.html" class="btn-primary w-full text-xs">
+              <span>Gerar Link WhatsApp</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
         </div>
-      </article>
 
-    </div>
-  </section>
+        <!-- CATEGORIA: VEÍCULOS -->
+        <!-- Como Saber o Estado pela Placa -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="veiculos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
+              <i data-lucide="map" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800">Veículos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Como Saber o Estado pela Placa
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Guia completo e tabela de faixas oficiais de letras do SENATRAN para identificar a origem de qualquer veículo.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/como-saber-estado-pela-placa.html" class="btn-primary w-full text-xs">
+              <span>Consultar Tabela UF</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
 
-  <!-- RODAPÉ COMPLETO COM LINKS SEO -->
-  <footer class="bg-slate-900 text-slate-400 text-xs mt-16 pt-12 pb-8 border-t border-slate-800">
+        <!-- Conversão de Placas Mercosul -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="veiculos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
+              <i data-lucide="refresh-cw" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800">Veículos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Consulta Veicular e Tabela FIPE
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Consulte dados cadastrais da placa, origem do emplacamento e cotação oficial na Tabela FIPE.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/consulta-veicular-fipe.html" class="btn-primary w-full text-xs">
+              <span>Consultar Veículo</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CATEGORIA: TRABALHO -->
+        <!-- Calculadora de Férias e 13º -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="trabalho">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="badge-dollar-sign" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Trabalho</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Calculadora de Férias & 13º Salário
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Simule o valor a receber com 1/3 constitucional, abono pecuniário e as parcelas do décimo terceiro salário.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/calculadora-ferias-decimo.html" class="btn-primary w-full text-xs">
+              <span>Calcular Férias & 13º</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Gerador de Contrato Simples -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="trabalho">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="file-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Trabalho</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Contrato de Prestação de Serviços
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Elabore contrato formal entre autônomos, MEIs e contratantes com cláusulas jurídicas válidas em PDF.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-contrato-simples.html" class="btn-primary w-full text-xs">
+              <span>Gerar Contrato</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CATEGORIA: DOCUMENTOS -->
+        <!-- Nota Promissória Simples -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="file-text" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Nota Promissória Simples
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Emita título de crédito legal conforme Decreto 2.044 com valor por extenso automático e download em PDF.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-nota-promissoria.html" class="btn-primary w-full text-xs">
+              <span>Gerar Nota Promissória</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Declaração de Residência -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="home" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Declaração de Residência
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Modelo oficial fundamentado na Lei Federal 7.115/83 para comprovação legal de endereço sem comprovante no nome.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-declaracao-residencia.html" class="btn-primary w-full text-xs">
+              <span>Gerar Declaração</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Declaração de Hipossuficiência -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="scale" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Declaração de Hipossuficiência
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Documento para pedido de justiça gratuita ou isenção de taxa em concursos nos termos do Art. 98 do CPC.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="btn-primary w-full text-xs">
+              <span>Gerar Hipossuficiência</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Formatador de Texto -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="type" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Formatador de Texto & Caracteres
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Converta textos para maiúsculas e minúsculas, conte caracteres, limpe quebras de linha e padronize documentos.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/formatador-texto.html" class="btn-primary w-full text-xs">
+              <span>Formatar Texto</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Conversor de Imagens -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="image" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Conversor de Imagens e Arquivos
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Converta imagens de PNG para JPG ou JPG para PNG diretamente no navegador sem enviar arquivos para servidores.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/conversor-formatos.html" class="btn-primary w-full text-xs">
+              <span>Converter Imagens</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CATEGORIA: FINANÇAS -->
+        <!-- Calculadora de Reajuste de Aluguel -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="financas">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="trending-up" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Finanças</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Calculadora Reajuste Aluguel
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Calcule o reajuste anual de aluguel pelos índices oficiais IPCA e IGP-M conforme a Lei do Inquilinato.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/calculadora-reajuste-aluguel.html" class="btn-primary w-full text-xs">
+              <span>Calcular Aluguel</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Termômetro Econômico -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="financas">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Finanças</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Termômetro Econômico Nacional
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Acompanhe em tempo real a Taxa Selic, Dólar, Euro, IPCA acumulado e Salário Mínimo do Banco Central.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="conteudo/atualidades.html" class="btn-primary w-full text-xs">
+              <span>Ver Indicadores Oficiais</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CATEGORIA: CIDADANIA -->
+        <!-- Calendário de Feriados -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="calendar" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Cidadania</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Calendário de Feriados Oficiais
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Consulte todos os feriados nacionais, pontes e pontos facultativos federais do ano em uma interface limpa.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/calendario-feriados.html" class="btn-primary w-full text-xs">
+              <span>Ver Feriados do Ano</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Gerador de Pedido LAI -->
+        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
+          <div class="space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+              <i data-lucide="file-question" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Cidadania</span>
+              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
+                Gerador de Pedido LAI (e-SIC)
+              </h3>
+            </div>
+            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
+              Crie pedidos de informação pública fundamentados na Lei 12.527 para protocolar em prefeituras e órgãos federais.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
+            <a href="servicos/gerador-pedido-lai.html" class="btn-primary w-full text-xs">
+              <span>Gerar Pedido LAI</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SEÇÃO EDITORIAL: NOTÍCIAS, POLÍTICA & PROMOÇÕES (POSICIONADAS APÓS A ÁREA DE SERVIÇOS) -->
+    <section class="max-w-7xl mx-auto w-full px-4 py-8">
+      <div class="border-b border-[#D9E1EC] pb-4 mb-6">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Informação, Decisões & Oportunidades</h2>
+        <p class="text-xs sm:text-sm text-[#526078] mt-0.5">
+          Fique por dentro das principais notícias legislativas e direitos do cidadão:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- CARD: PLANTÃO DE NOTÍCIAS -->
+        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
+          <div>
+            <div class="flex items-center justify-between text-xs font-bold text-[#2563EB] mb-2">
+              <span class="ds-badge ds-badge-brand">Plantão de Notícias</span>
+              <span class="text-[#526078] font-normal">Atualizado hoje</span>
+            </div>
+            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
+              <a href="noticias/index.html" class="hover:text-[#2563EB] transition-colors">
+                Receita Federal atualiza regras de declaração e facilidades para o MEI
+              </a>
+            </h3>
+            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
+              Confira as mudanças tributárias, novos prazos de entrega do DASN-SIMEI e impactos para pequenos empreendedores.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
+            <a href="noticias/index.html" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
+              <span>Acessar Notícias</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD: POLÍTICA NACIONAL -->
+        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
+          <div>
+            <div class="flex items-center justify-between text-xs font-bold text-[#2563EB] mb-2">
+              <span class="ds-badge ds-badge-brand">Política Nacional</span>
+              <span class="text-[#526078] font-normal">Congresso</span>
+            </div>
+            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
+              <a href="conteudo/politica.html" class="hover:text-[#2563EB] transition-colors">
+                Projetos de Lei no Congresso debatem retorno das cidades nas placas Mercosul
+              </a>
+            </h3>
+            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
+              Entenda como tramita o Projeto de Lei que pretende incluir o brasão do município e estado nas placas veiculares.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
+            <a href="conteudo/politica.html" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
+              <span>Acessar Política</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- CARD: OPORTUNIDADES & PROMOÇÕES (POSICIONADO COM PRIORIDADE VISUAL CONTROLADA) -->
+        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
+          <div>
+            <div class="flex items-center justify-between text-xs font-bold text-[#526078] mb-2">
+              <span class="ds-badge bg-slate-100 text-slate-700 border border-slate-200">Economia</span>
+              <span class="text-[#526078] font-normal">Utilidades</span>
+            </div>
+            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
+              <a href="conteudo/promocoes.html" class="hover:text-[#2563EB] transition-colors">
+                Promoções, Cupons & Descontos para Serviços do Cidadão
+              </a>
+            </h3>
+            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
+              Condições especiais em serviços de contabilidade online, maquininhas, certificados digitais e bancos.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
+            <a href="conteudo/promocoes.html" class="text-xs font-bold text-[#526078] hover:text-[#2563EB] flex items-center gap-1 touch-target">
+              <span>Ver Cupons & Benefícios</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ COMPLETO COM LINKS SEO E CRÉDITOS LGPD -->
+  <footer class="bg-[#0F1B35] text-slate-400 text-xs mt-12 pt-12 pb-8 border-t border-slate-800">
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
       <div class="space-y-3">
         <div class="flex items-center space-x-2">
-          <div class="w-7 h-7 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-sm">
+          <div class="w-8 h-8 rounded-lg bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-sm">
             CA
           </div>
           <span class="text-base font-black text-white">Cidadão Agora</span>
         </div>
         <p class="text-slate-400 leading-relaxed text-[11px]">
-          Portal independente de utilidade pública com ferramentas de consulta gratuitas, dados abertos e conteúdo de interesse geral.
+          Portal independente de utilidade pública com ferramentas de consulta gratuitas, dados abertos oficiais e direitos civis.
         </p>
       </div>
 
       <div>
-        <h4 class="text-white font-bold text-sm mb-3">Serviços & Consultas</h4>
+        <h4 class="text-white font-bold text-sm mb-3">Serviços Mais Procurados</h4>
         <ul class="space-y-2 text-[11px]">
           <li><a href="servicos/consulta-mei-cnpj.html" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
+          <li><a href="servicos/consulta-veicular-fipe.html" class="hover:text-white transition-colors">Consulta Veicular & Tabela FIPE</a></li>
           <li><a href="servicos/validador-cpf.html" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
-          <li><a href="servicos/buscador-cnae.html" class="hover:text-white transition-colors">Tabela CNAE & Simples Nacional</a></li>
-          <li><a href="servicos/calculadora-rescisao-clt.html" class="hover:text-white transition-colors">Simulador de Rescisão Trabalhista</a></li>
-          <li><a href="servicos/consulta-veicular-fipe.html" class="hover:text-white transition-colors">Consulta de Placa & Tabela FIPE</a></li>
+          <li><a href="servicos/calculadora-rescisao-clt.html" class="hover:text-white transition-colors">Calculadora de Rescisão CLT</a></li>
+          <li><a href="servicos/gerador-recibo-pagamento.html" class="hover:text-white transition-colors">Gerador de Recibo em PDF</a></li>
+          <li><a href="servicos/consulta-cep.html" class="hover:text-white transition-colors">Consulta de CEP e Endereço</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="text-white font-bold text-sm mb-3">Conteúdo Editorial</h4>
+        <h4 class="text-white font-bold text-sm mb-3">Conteúdo & Informação</h4>
         <ul class="space-y-2 text-[11px]">
           <li><a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
           <li><a href="conteudo/politica.html" class="hover:text-white transition-colors">Política & Congresso</a></li>
           <li><a href="conteudo/atualidades.html" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
-          <li><a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Promoções & Cupons</a></li>
+          <li><a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Benefícios & Cupons</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="text-white font-bold text-sm mb-3">Informações Legais & Contato</h4>
+        <h4 class="text-white font-bold text-sm mb-3">Privacidade & Contato</h4>
         <ul class="space-y-2 text-[11px] mb-3">
-          <li><a href="conteudo/politica-privacidade.html" class="hover:text-white transition-colors text-slate-400">Política de Privacidade (LGPD)</a></li>
-          <li><a href="conteudo/termos-de-uso.html" class="hover:text-white transition-colors text-slate-400">Termos de Uso</a></li>
-          <li><a href="conteudo/contato.html" class="hover:text-white transition-colors text-slate-400">Fale Conosco / Suporte</a></li>
+          <li><a href="conteudo/politica-privacidade.html" class="hover:text-white transition-colors text-slate-300">Política de Privacidade (LGPD)</a></li>
+          <li><a href="conteudo/termos-de-uso.html" class="hover:text-white transition-colors text-slate-300">Termos de Uso</a></li>
+          <li><a href="conteudo/contato.html" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
         </ul>
         <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
           © 2026 Cidadão Agora Brasil
@@ -868,36 +943,143 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-4 pt-6 text-center text-[11px] text-slate-500">
-      Desenvolvido com foco em velocidade, transparência pública e segurança de dados do usuário.
+      Desenvolvido com foco em velocidade, transparência pública, acessibilidade WCAG AA e segurança de dados do usuário.
     </div>
   </footer>
 
-  <!-- BANNER DE CONSENTIMENTO LGPD / COOKIES (REQUISITO GOOGLE ADSENSE) -->
-  <div id="lgpd-banner" class="fixed bottom-0 left-0 right-0 bg-slate-900/95 text-slate-100 p-4 border-t border-slate-700 shadow-2xl z-50 backdrop-blur-md transition-all duration-300" style="display: none;">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+  <!-- BANNER DE COOKIES LGPD ACESSÍVEL COM OPÇÕES EQUIVALENTES (NÃO COBRE CONTEÚDO CRÍTICO) -->
+  <div id="lgpd-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-xl bg-[#0F1B35]/95 text-slate-100 p-5 rounded-2xl border border-slate-700 shadow-2xl z-50 backdrop-blur-md transition-all duration-300" style="display: none;" role="region" aria-label="Consentimento de Cookies LGPD">
+    <div class="space-y-3">
       <div class="flex items-start gap-3">
-        <i data-lucide="shield-check" class="w-6 h-6 text-emerald-400 shrink-0 mt-0.5"></i>
+        <i data-lucide="shield-check" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
         <p class="text-xs text-slate-300 leading-relaxed">
-          Utilizamos cookies e tecnologias similares para personalizar anúncios do Google AdSense, fornecer funcionalidades sociais e analisar nosso tráfego em conformidade com a <strong>LGPD</strong>. Ao continuar navegando, você concorda com a nossa <a href="conteudo/politica-privacidade.html" class="text-emerald-400 hover:underline font-semibold">Política de Privacidade</a>.
+          Utilizamos cookies essenciais e tecnologias analíticas para aprimorar sua experiência e manter ferramentas gratuitas, em conformidade com a <strong>LGPD</strong>. Você pode configurar suas preferências.
         </p>
       </div>
-      <div class="flex items-center gap-3 shrink-0">
-        <a href="conteudo/politica-privacidade.html" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-lg border border-slate-700 hover:bg-slate-800 transition-colors">
-          Saber mais
-        </a>
-        <button onclick="aceitarCookiesLGPD()" class="text-xs font-bold bg-emerald-500 hover:bg-emerald-600 text-slate-950 px-5 py-2 rounded-lg transition-colors shadow-sm">
-          Aceitar e Prosseguir
+      <div class="flex flex-wrap items-center justify-end gap-2 pt-1 border-t border-slate-800">
+        <button type="button" onclick="recusarCookiesNaoEssenciais()" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-xl border border-slate-700 hover:bg-slate-800 transition touch-target">
+          Recusar não essenciais
+        </button>
+        <button type="button" onclick="abrirConfiguracoesCookies()" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-xl border border-slate-700 hover:bg-slate-800 transition touch-target">
+          Configurar
+        </button>
+        <button type="button" onclick="aceitarTodosCookies()" class="text-xs font-bold bg-[#2563EB] hover:bg-[#1E40AF] text-white px-4 py-2 rounded-xl transition shadow-sm touch-target">
+          Aceitar
         </button>
       </div>
     </div>
   </div>
 
+  <!-- MODAL DE CONFIGURAÇÃO DE COOKIES -->
+  <div id="modal-cookies" class="ds-modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-cookies-titulo">
+    <div class="ds-modal space-y-4">
+      <div class="flex items-center justify-between border-b border-[#D9E1EC] pb-3">
+        <h3 id="modal-cookies-titulo" class="text-base font-bold text-[#0F1B35]">Preferências de Privacidade & Cookies</h3>
+        <button type="button" onclick="fecharConfiguracoesCookies()" class="p-1 rounded-lg text-slate-400 hover:text-slate-700 touch-target" aria-label="Fechar">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="space-y-3 text-xs text-[#526078] leading-relaxed">
+        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+          <div class="flex items-center justify-between">
+            <strong class="text-slate-900">Cookies Essenciais (Obrigatórios)</strong>
+            <span class="ds-badge ds-badge-success">Ativo</span>
+          </div>
+          <p class="mt-1">Necessários para segurança, navegação e funcionamento dos cálculos e formulários.</p>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+          <div class="flex items-center justify-between">
+            <strong class="text-slate-900">Cookies de Análise e Métricas</strong>
+            <label class="relative inline-flex items-center cursor-pointer">
+              <input type="checkbox" id="check-analytics" class="sr-only peer" checked>
+              <div class="w-9 h-5 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#2563EB]"></div>
+            </label>
+          </div>
+          <p class="mt-1">Auxiliam a entender quais ferramentas são mais acessadas para contínua melhoria.</p>
+        </div>
+      </div>
+      <div class="pt-3 border-t border-[#D9E1EC] flex justify-end gap-2">
+        <button type="button" onclick="fecharConfiguracoesCookies()" class="btn-secondary text-xs">Cancelar</button>
+        <button type="button" onclick="salvarConfiguracoesCookies()" class="btn-primary text-xs">Salvar Preferências</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS FUNCIONAIS: FILTRAGEM DINÂMICA E CONSENTIMENTO -->
   <script>
     if (window.lucide) {
       window.lucide.createIcons();
     }
 
-    // Gerenciador de Consentimento LGPD
+    // Busca de serviços em tempo real
+    function filtrarServicosAoDigitar() {
+      const termo = document.getElementById('campo-busca').value.toLowerCase().trim();
+      const feedback = document.getElementById('busca-feedback');
+      const itens = document.querySelectorAll('#grid-todos-servicos .item-servico');
+      let encontrados = 0;
+
+      if (!termo) {
+        itens.forEach(it => it.style.display = '');
+        if (feedback) feedback.classList.add('hidden');
+        return;
+      }
+
+      itens.forEach(item => {
+        const texto = item.innerText.toLowerCase();
+        if (texto.includes(termo)) {
+          item.style.display = '';
+          encontrados++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      if (feedback) {
+        feedback.classList.remove('hidden');
+        if (encontrados > 0) {
+          feedback.textContent = `Mostrando ${encontrados} ferramenta(s) para "${termo}".`;
+        } else {
+          feedback.textContent = `Nenhuma ferramenta encontrada para "${termo}". Tente buscar por CNPJ, placa, rescisão, etc.`;
+        }
+      }
+    }
+
+    function limparOuFocarBusca() {
+      const campo = document.getElementById('campo-busca');
+      if (campo.value) {
+        campo.value = '';
+        filtrarServicosAoDigitar();
+      }
+      campo.focus();
+    }
+
+    function focarFiltroServicos() {
+      document.getElementById('todos-servicos').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Filtro por Categoria de Serviços
+    function filtrarCategoria(categoria) {
+      const pílulas = document.querySelectorAll('.cat-pill');
+      pílulas.forEach(btn => {
+        btn.classList.remove('bg-[#2563EB]', 'text-white', 'shadow-xs');
+        btn.classList.add('bg-white', 'border', 'border-[#D9E1EC]', 'text-[#526078]');
+      });
+
+      // Ativa o botão clicado
+      event.target.classList.add('bg-[#2563EB]', 'text-white', 'shadow-xs');
+      event.target.classList.remove('bg-white', 'border', 'border-[#D9E1EC]', 'text-[#526078]');
+
+      const itens = document.querySelectorAll('#grid-todos-servicos .item-servico');
+      itens.forEach(item => {
+        if (categoria === 'todas' || item.getAttribute('data-categoria') === categoria) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Gestão de Consentimento LGPD (Conforme Requisito com Aceitar / Recusar / Configurar)
     (function verificarConsentimento() {
       if (!localStorage.getItem('lgpd_consent_cidadaoagora')) {
         const banner = document.getElementById('lgpd-banner');
@@ -905,8 +1087,17 @@
       }
     })();
 
-    function aceitarCookiesLGPD() {
-      localStorage.setItem('lgpd_consent_cidadaoagora', 'true');
+    function aceitarTodosCookies() {
+      localStorage.setItem('lgpd_consent_cidadaoagora', 'todos');
+      fecharBannerLGPD();
+    }
+
+    function recusarCookiesNaoEssenciais() {
+      localStorage.setItem('lgpd_consent_cidadaoagora', 'essenciais');
+      fecharBannerLGPD();
+    }
+
+    function fecharBannerLGPD() {
       const banner = document.getElementById('lgpd-banner');
       if (banner) {
         banner.style.opacity = '0';
@@ -914,17 +1105,21 @@
       }
     }
 
-    function filtrarServicos() {
-      const q = document.getElementById('campo-busca').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('#servicos .grid > div');
-      cards.forEach(card => {
-        const texto = card.innerText.toLowerCase();
-        if (texto.includes(q)) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+    function abrirConfiguracoesCookies() {
+      const modal = document.getElementById('modal-cookies');
+      if (modal) modal.classList.remove('hidden');
+    }
+
+    function fecharConfiguracoesCookies() {
+      const modal = document.getElementById('modal-cookies');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function salvarConfiguracoesCookies() {
+      const analyticsAtivo = document.getElementById('check-analytics')?.checked;
+      localStorage.setItem('lgpd_consent_cidadaoagora', analyticsAtivo ? 'custom_analytics' : 'essenciais');
+      fecharConfiguracoesCookies();
+      fecharBannerLGPD();
     }
   </script>
 </body>

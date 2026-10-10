@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -15,72 +15,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Rescisão de Contrato CLT & Salário Líquido - Cidadão Agora</title>
   <meta name="description" content="Calcule valores a receber na demissão com ou sem justa causa, aviso prévio, 13º e férias proporcionais. Veja também descontos de INSS e IRRF no salário.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .ad-placeholder {
-      border: 1px dashed #cbd5e1;
-      background: repeating-linear-gradient(45deg, #f8fafc, #f8fafc 10px, #f1f5f9 10px, #f1f5f9 20px);
-    }
-  </style>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
-  <!-- CABEÇALHO -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              900: '#0F1B35',
+              800: '#172B53',
+              700: '#1E40AF',
+              600: '#2563EB',
+              50: '#EFF6FF'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              hover: '#D97706',
+              light: '#FEF3C7'
+            },
+            success: '#059669',
+            danger: '#DC2626',
+            surface: {
+              DEFAULT: '#FFFFFF',
+              muted: '#F6F8FC'
+            },
+            'text-primary': '#172033',
+            'text-secondary': '#526078',
+            border: '#D9E1EC'
+          },
+          borderRadius: {
+            'xl': '12px',
+            '2xl': '16px'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-extrabold text-lg">
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
           CA
         </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Info<span class="text-emerald-600">Cidadão</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Trabalho & CLT</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-emerald-600 flex items-center gap-1">
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Todos os Serviços</span>
       </a>
     </div>
   </header>
 
-  <div class="max-w-5xl mx-auto w-full px-4 pt-4">
-    <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo]</span>
-    </div>
-  </div>
-
+  <!-- CONTEÚDO PRINCIPAL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
   <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
 
-    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
-      <div class="mb-6">
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 mb-2">
+    <section class="ds-card p-6 sm:p-8 space-y-6">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
           <i data-lucide="landmark" class="w-3.5 h-3.5"></i>
-          Regras Atualizadas da CLT & Reforma Trabalhista
+          <span>Regras Atualizadas da CLT & Legislação Vigente</span>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Simulador de Rescisão Trabalhista & Salário Líquido</h1>
-        <p class="text-xs sm:text-sm text-slate-500 mt-1 leading-relaxed">
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Simulador de Rescisão Trabalhista & Salário Líquido</h1>
+        <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
           Descubra quanto você tem direito a receber ao sair da empresa ou quanto sobra no seu bolso com os descontos da folha de pagamento.
         </p>
       </div>
 
       <!-- Seletor do Tipo de Cálculo -->
-      <div class="flex gap-4 border-b border-slate-200 pb-3 mb-6">
-        <button onclick="setCalcMode('rescisao')" id="btn-mode-rescisao" class="font-bold text-emerald-600 border-b-2 border-emerald-600 pb-1 text-sm">Rescisão de Contrato</button>
-        <button onclick="setCalcMode('salario')" id="btn-mode-salario" class="font-medium text-slate-500 pb-1 text-sm hover:text-slate-800">Salário Líquido (Holerite)</button>
+      <div class="flex gap-4 border-b border-[#D9E1EC] pb-3 mb-6">
+        <button onclick="setCalcMode('rescisao')" id="btn-mode-rescisao" class="font-bold text-[#2563EB] border-b-2 border-[#2563EB] pb-2 text-sm touch-target">
+          Rescisão de Contrato
+        </button>
+        <button onclick="setCalcMode('salario')" id="btn-mode-salario" class="font-medium text-[#526078] pb-2 text-sm hover:text-[#0F1B35] touch-target">
+          Salário Líquido (Holerite)
+        </button>
       </div>
 
       <!-- Formulário Rescisão -->
       <div id="form-rescisao" class="space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
-            <input type="number" id="calc-salario" placeholder="Ex: 3500" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-emerald-500">
+            <label for="calc-salario" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Salário Bruto (R$)
+            </label>
+            <input type="number" id="calc-salario" placeholder="Ex: 3500" class="ds-input font-bold text-base min-h-[44px]">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Motivo da Demissão</label>
-            <select id="calc-motivo" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-emerald-500 bg-white font-medium">
+            <label for="calc-motivo" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Motivo da Demissão
+            </label>
+            <select id="calc-motivo" class="ds-input font-medium text-sm min-h-[44px] bg-white">
               <option value="sem_justa_causa">Demissão sem justa causa (pelo empregador)</option>
               <option value="pedido_demissao">Pedido de demissão (pelo empregado)</option>
               <option value="com_justa_causa">Demissão com justa causa</option>
@@ -88,44 +124,48 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Meses Trabalhados no Ano</label>
-            <input type="number" id="calc-meses" min="1" max="12" value="8" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-emerald-500">
+            <label for="calc-meses" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Meses Trabalhados no Ano
+            </label>
+            <input type="number" id="calc-meses" min="1" max="12" value="8" class="ds-input font-bold text-base min-h-[44px]">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Aviso Prévio</label>
-            <select id="calc-aviso" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-emerald-500 bg-white font-medium">
+            <label for="calc-aviso" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Aviso Prévio
+            </label>
+            <select id="calc-aviso" class="ds-input font-medium text-sm min-h-[44px] bg-white">
               <option value="indenizado">Indenizado (Recebe valor integral)</option>
               <option value="trabalhado">Trabalhado</option>
               <option value="dispensado">Dispensado / Não cumprido</option>
             </select>
           </div>
         </div>
-        <button onclick="calcularRescisao()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-3.5 rounded-xl font-bold text-sm transition-colors shadow">
+        <button onclick="calcularRescisao()" class="btn-primary w-full text-sm min-h-[48px] shadow-sm">
           Calcular Valores a Receber na Rescisão
         </button>
 
-        <!-- Resultado Rescisão -->
-        <div id="resultado-rescisao" class="hidden mt-6 bg-slate-50 border border-slate-200 rounded-xl p-5 space-y-3">
-          <h3 class="text-base font-bold text-slate-900 border-b border-slate-200 pb-2">Estimativa do Termo de Rescisão:</h3>
+        <!-- Resultado Rescisão com aria-live -->
+        <div id="resultado-rescisao" class="hidden mt-6 bg-slate-50 border border-[#D9E1EC] rounded-xl p-5 space-y-3" aria-live="polite">
+          <h3 class="text-base font-bold text-[#0F1B35] border-b border-[#D9E1EC] pb-2">Estimativa do Termo de Rescisão:</h3>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">Saldo de Salário:</span>
-            <span id="res-saldo-salario" class="font-bold text-slate-900">R$ 0,00</span>
+            <span class="text-[#526078]">Saldo de Salário:</span>
+            <span id="res-saldo-salario" class="font-bold text-[#0F1B35]">R$ 0,00</span>
           </div>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">13º Salário Proporcional:</span>
-            <span id="res-decimo" class="font-bold text-slate-900">R$ 0,00</span>
+            <span class="text-[#526078]">13º Salário Proporcional:</span>
+            <span id="res-decimo" class="font-bold text-[#0F1B35]">R$ 0,00</span>
           </div>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">Férias Proporcionais + 1/3 Constitucional:</span>
-            <span id="res-ferias" class="font-bold text-slate-900">R$ 0,00</span>
+            <span class="text-[#526078]">Férias Proporcionais + 1/3 Constitucional:</span>
+            <span id="res-ferias" class="font-bold text-[#0F1B35]">R$ 0,00</span>
           </div>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">Aviso Prévio:</span>
-            <span id="res-aviso" class="font-bold text-slate-900">R$ 0,00</span>
+            <span class="text-[#526078]">Aviso Prévio:</span>
+            <span id="res-aviso" class="font-bold text-[#0F1B35]">R$ 0,00</span>
           </div>
-          <div class="flex justify-between text-base py-3 font-extrabold text-emerald-800 bg-emerald-50 px-4 rounded-xl border border-emerald-200">
+          <div class="flex justify-between text-base py-3 font-extrabold text-blue-900 bg-blue-50 px-4 rounded-xl border border-blue-200">
             <span>Total Bruto Estimado:</span>
-            <span id="res-total-rescisao" class="text-lg">R$ 0,00</span>
+            <span id="res-total-rescisao" class="text-lg text-[#2563EB]">R$ 0,00</span>
           </div>
         </div>
       </div>
@@ -134,61 +174,76 @@
       <div id="form-salario" class="hidden space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
-            <input type="number" id="calc-salario-liq" placeholder="Ex: 4000" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-blue-500">
+            <label for="calc-salario-liq" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Salário Bruto (R$)
+            </label>
+            <input type="number" id="calc-salario-liq" placeholder="Ex: 4000" class="ds-input font-bold text-base min-h-[44px]">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Número de Dependentes</label>
-            <input type="number" id="calc-dependentes" value="0" min="0" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-slate-900 outline-none focus:ring-2 focus:ring-blue-500">
+            <label for="calc-dependentes" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1">
+              Número de Dependentes
+            </label>
+            <input type="number" id="calc-dependentes" value="0" min="0" class="ds-input font-bold text-base min-h-[44px]">
           </div>
         </div>
-        <button onclick="calcularSalarioLiquido()" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3.5 rounded-xl font-bold text-sm transition-colors shadow">
+        <button onclick="calcularSalarioLiquido()" class="btn-primary w-full text-sm min-h-[48px] shadow-sm">
           Calcular Salário Líquido no Bolso
         </button>
 
-        <div id="resultado-salario" class="hidden mt-6 bg-slate-50 border border-slate-200 rounded-xl p-5 space-y-3">
-          <h3 class="text-base font-bold text-slate-900 border-b border-slate-200 pb-2">Demonstrativo de Descontos:</h3>
+        <div id="resultado-salario" class="hidden mt-6 bg-slate-50 border border-[#D9E1EC] rounded-xl p-5 space-y-3" aria-live="polite">
+          <h3 class="text-base font-bold text-[#0F1B35] border-b border-[#D9E1EC] pb-2">Demonstrativo de Descontos:</h3>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">Desconto do INSS:</span>
+            <span class="text-[#526078]">Desconto do INSS:</span>
             <span id="res-inss" class="font-bold text-rose-600">- R$ 0,00</span>
           </div>
           <div class="flex justify-between text-sm py-1 border-b border-slate-100">
-            <span class="text-slate-600">Imposto de Renda Retido na Fonte (IRRF):</span>
+            <span class="text-[#526078]">Imposto de Renda Retido na Fonte (IRRF):</span>
             <span id="res-irrf" class="font-bold text-rose-600">- R$ 0,00</span>
           </div>
-          <div class="flex justify-between text-base py-3 font-extrabold text-blue-800 bg-blue-50 px-4 rounded-xl border border-blue-200">
+          <div class="flex justify-between text-base py-3 font-extrabold text-blue-900 bg-blue-50 px-4 rounded-xl border border-blue-200">
             <span>Salário Líquido a Receber:</span>
-            <span id="res-liquido" class="text-lg">R$ 0,00</span>
+            <span id="res-liquido" class="text-lg text-[#2563EB]">R$ 0,00</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- BANNER DE EMPRÉSTIMO CONSIGNADO E ANTECIPAÇÃO FGTS (ALTO CPC) -->
-    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium">
-      <span>[Espaço Reservado - Banner Google AdSense 728x90 (Antecipação Saque FGTS, Cartão de Crédito)]</span>
+    <!-- BANNER DE ANÚNCIO APÓS O PRIMEIRO BLOCO DA FERRAMENTA -->
+    <div class="max-w-5xl mx-auto w-full px-1">
+      <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-[#526078] font-medium">
+        <span>[Espaço Reservado - Banner Google AdSense 728x90 (Antecipação Saque FGTS, Cartão de Crédito)]</span>
+      </div>
     </div>
 
-    <!-- GUIA PRÁTCAO SEO -->
-    <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-slate-600">
-      <h2 class="text-lg font-bold text-slate-900">Quais direitos o empregado tem na demissão sem justa causa?</h2>
+    <!-- GUIA PRÁTICO SEO -->
+    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
+      <h2 class="text-lg font-bold text-[#0F1B35]">Quais direitos o empregado tem na demissão sem justa causa?</h2>
       <p>
         Ao ser demitido sem justa causa, o trabalhador CLT tem direito a receber o saldo de salário dos dias trabalhados no mês, o 13º salário proporcional, as férias vencidas e proporcionais com o acréscimo de 1/3 constitucional, aviso prévio indenizado ou trabalhado, saque integral do FGTS com a multa rescisória de 40%, além das guias do seguro-desemprego.
       </p>
     </article>
 
-    <section class="bg-slate-100 rounded-2xl p-6 border border-slate-200">
-      <h3 class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">Páginas Relacionadas e Variações de Busca:</h3>
+    <!-- LINKS PARA PÁGINAS VARIANTES DE SEO -->
+    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-[#526078] mb-3">Páginas Relacionadas e Variações de Busca:</h3>
       <div class="flex flex-wrap gap-2 text-xs">
-        <a href="calcular-demissao-sem-justa-causa.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-emerald-600 hover:border-emerald-400">Calcular Demissão Sem Justa Causa</a>
-        <a href="simulador-aviso-previo-indenizado.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-emerald-600 hover:border-emerald-400">Simulador de Aviso Prévio</a>
-        <a href="como-calcular-salario-liquido-inss.html" class="bg-white px-3 py-1.5 rounded-lg border border-slate-200 font-medium text-emerald-600 hover:border-emerald-400">Como Calcular Salário com INSS</a>
+        <a href="calcular-demissao-sem-justa-causa.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Calcular Demissão Sem Justa Causa</a>
+        <a href="calculadora-ferias-decimo.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Calculadora de Férias e 13º</a>
+        <a href="gerador-contrato-simples.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Contrato de Prestação de Serviços</a>
       </div>
     </section>
 
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-6 text-[#526078] text-xs text-center space-y-2 mt-8">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Contato</a>
+    </div>
     <p>Cidadão Agora Brasil © 2026 - Cálculos baseados na Consolidação das Leis do Trabalho.</p>
   </footer>
 
