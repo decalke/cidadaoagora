@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "10/10/2026 às 15:48:43",
+  "ultima_atualizacao": "10/10/2026 às 19:56:58",
   "total": 20,
   "atualidades": [
     {
@@ -13,20 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
-    },
-    {
-      "titulo": "Governo do RJ identifica desvios de R$ 400 milhões na Cedae Saúde",
-      "resumo": "Uma auditoria realizada pelo governo do estado do Rio de Janeiro identificou indícios de desvios superiores a R$ 400 milhões na Caixa de Assistência dos Empregados da Cedae (Cedae Saúde). \n\nO levantamento apontou possíve...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Uma auditoria realizada pelo governo do estado do Rio de Janeiro identificou indícios de desvios superiores a R$ 400 milhões na Caixa de Assistência dos Empregados da Cedae (Cedae Saúde). \n\nO levantamento apontou possíveis irregularidades no pagamento por serviços e suspeita de favorecimento de empresas ligadas à antiga direção da entidade. \n\nNotícias relacionadas:PF e CGU apuram fraudes em contratações e desvios de recursos federais.O relatório será encaminhado ao Ministério Público estadual (MPRJ) para aprofundamento da apuração dos fatos e adoção de medidas judiciais.\n\nA Cedae Saúde é uma empresa criada em 1988, que gerencia a assistência de saúde de funcionários ativos, dependentes, aposentados e pensionistas, totalizando 17 mil beneficiados.  \n\nO levantamento começou após a exoneração do então presidente da Cedae Saúde, Eric Frederik Gualberto, em junho de 2026. Ao assumir, a nova diretoria da entidade constatou que os arquivos com nomes de fornecedores e a contabilidade de dezembro de 2023 a abril de 2026 foram apagados. \n\nOs auditores, entretanto, conseguiram recuperar os dados, que apontaram indícios de favorecimento de empresas ligadas à antiga administração. A investigação revelou que quatro empresas que fazem parte de uma offshore ligada a Eric nas Ilhas Virgens Britânicas receberam R$ 95 milhões durante sua gestão na Cedae Saúde.\n\nA Diretoria Financeira e de Relações com Investidores da antiga gestão Cedae fazia repasses mensais para o funcionamento da Cedae Saúde. Entretanto, a gestão atual constatou que os valores para o custeio da entidade eram muito acima do necessário. \n\nO repasse era, em média, R$ 20 milhões por mês para a Cedae Saúde. Atualmente, o valor gira em torno de R$ 6 milhões, uma redução de 70%.</p>",
-      "imagem": "https://imagens.ebc.com.br/f-ltoV9viiRpSEx8Ni7SpUrdbGY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tmazs_150120_dsc30225581.jpg?itok=IeISzkeu",
-      "slug": "governo-do-rj-identifica-desvios-de-r-400-milhoes-na-cedae-saude",
-      "pagina_local": "governo-do-rj-identifica-desvios-de-r-400-milhoes-na-cedae-saude.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-do-rj-identifica-desvios-de-r-400-milhoes-na-cedae-saude",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -39,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -52,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -65,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -78,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -91,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -104,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -117,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -130,7 +117,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
+    },
+    {
+      "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
+      "resumo": "Os juros altos são o principal obstáculo para a indústria brasileira acessar crédito, segundo pesquisa divulgada nesta sexta-feira (9) pela Confederação Nacional da Indústria (CNI).\n\nEntre as empresas que tiveram dificul...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os juros altos são o principal obstáculo para a indústria brasileira acessar crédito, segundo pesquisa divulgada nesta sexta-feira (9) pela Confederação Nacional da Indústria (CNI).\n\nEntre as empresas que tiveram dificuldades para obter financiamento de curto ou médio prazo, 76% apontaram as taxas elevadas como uma das principais barreiras. Nas operações de longo prazo, com vencimento superior a cinco anos, os juros foram citados por 69% dos empresários.\n\nNotícias relacionadas:Faturamento da indústria cai 3,5% em agosto, informa CNI.BC reduz juros básicos para 13,75% ao ano.Focus: mercado eleva previsão da inflação para 5,01% em 2026.A Sondagem Especial 107 – Condições de Acesso ao Crédito em 2026 ouviu 1.701 empresas industriais, de 3 a 12 de agosto, sobre as condições enfrentadas entre fevereiro e julho. O universo da pesquisa inclui 692 pequenas, 612 médias e 397 grandes empresas industriais em todo o país.\n\nApesar de ainda liderarem o ranking de obstáculos, as taxas perderam peso em relação à pesquisa anterior. Em 2025, eram apontadas por 80% das empresas nas operações de curto e médio prazo e por 71% nas de longo prazo.\n\n“A queda dos juros leva um tempo para se refletir no custo do crédito, que ainda chega bastante elevado para as empresas”, afirma em nota Maria Virgínia Colusso, analista de Políticas e Indústria da CNI.\n\nOutras barreiras\n\nDepois dos juros, as exigências de garantias reais aparecem como o principal entrave nas operações de curto e médio prazo. O problema foi citado por 33,4% das empresas. No crédito de longo prazo, o percentual ficou em 31,5%.\n\nA burocracia foi mencionada por 13,6% dos empresários nas operações de curto e médio prazo. Já no longo prazo, a segunda dificuldade foi o prazo de carência considerado insuficiente, citado por 18,9%.\n\nPrincipais obstáculos\n\n\n\tJuros elevados: 76% no curto/médio prazo e 69% no longo prazo;\n\tGarantias reais: 33,4% e 31,5%, respectivamente;\n\tBurocracia: 13,6% no curto/médio prazo;\n\tCarência insuficiente: 18,9% no longo prazo.\n\n\nBusca por crédito\n\nQuase metade das empresas industriais, 49,9%, não tentou contratar ou renovar crédito de curto ou médio prazo no período analisado. Apenas 22,9% conseguiram contratar ou renovar financiamento, e 7,5% tentaram, mas não obtiveram os recursos.\n\nNo crédito de longo prazo, 54% não buscaram financiamento. Outros 15,5% conseguiram contratar ou renovar operações, e 9,2% tentaram, sem sucesso.\n\nConsiderando apenas as empresas que efetivamente buscaram crédito, a taxa de frustração aumentou em relação a 2025:\n\n\n\tCurto/médio prazo: 24,7%, contra 20% em 2025;\n\tLongo prazo: 37,2%, contra 33% no ano anterior.\n\n\nAs pequenas empresas tiveram os maiores índices de insucesso. No longo prazo, por exemplo, 48,2% das pequenas e 48,1% das médias não conseguiram obter o crédito procurado, ante 29,9% das grandes.\n\n \n\n\n            \n        \n    \nCédulas de R$ 100 Foto: Rafa Neddermeyer/Agência Brasil\n\n\nCrédito para despesas\n\nA pesquisa também identificou que empresas industriais continuam recorrendo a linhas de longo prazo para financiar despesas do dia a dia. Entre as que buscaram, contrataram ou renovaram esse tipo de crédito, 28,7% indicaram o capital de giro como principal finalidade.\n\nO percentual ficou acima do registrado para investimentos em máquinas e equipamentos (23,6%) e construção ou instalações (11,6%).\n\nSegundo a CNI, o movimento chama atenção porque linhas de longo prazo normalmente são destinadas a investimentos, enquanto despesas como folha de pagamento, materiais e insumos costumam ser financiadas por operações de menor duração.\n\nNo curto e médio prazo, quase 60% das empresas apontaram o capital de giro como principal finalidade do crédito.\n\nMenos custos\n\nPara as empresas, a redução dos custos tributários e administrativos seria a principal medida para facilitar o acesso ao crédito. A alternativa foi escolhida por 38,4% dos entrevistados para operações de curto e médio prazo e por 31,2% para as de longo prazo.\n\nTambém aparecem entre as principais sugestões:\n\n\n\tAmpliação das linhas públicas: 22,8% no curto/médio prazo e 26,3% no longo;\n\tSimplificação das exigências bancárias: 21,1% e 22,1%, respectivamente.</p>",
+      "imagem": "https://imagens.ebc.com.br/5qY0LzUlSltXv-TCCZpEDyXsFBw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/02/04/bndes_libera_r_280_mi_para_fabrica_de_bateria_da_transicao_energetica.jpg?itok=wdTkIaiz",
+      "slug": "industria-aponta-juros-altos-como-principal-barreira-ao-credito",
+      "pagina_local": "industria-aponta-juros-altos-como-principal-barreira-ao-credito.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/industria-aponta-juros-altos-como-principal-barreira-ao-credito",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Acidente na BR-393, no RJ, deixa cinco mortos e nove feridos",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "PM do Rio reforça policiamento para o feriado de segunda-feira",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 112 milhões neste domingo",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Belém se prepara para receber o Círio de Nazaré",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Piloto morre após queda de avião em pátio de manutenção do metrô de BH",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "PRF inicia Operação Nossa Senhora Aparecida 2026 nesta sexta",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Caldeira de usina explode e mata dois homens no interior de SP",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 112 milhões; confira os números sorteados",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Juiz é encontrado morto dentro de veículo em chamas no interior de SP",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     },
     {
       "titulo": "Reitor da UFPE estima prejuízo de incêndio em cerca R$ 100 milhões",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 15:48"
+      "coletado_em": "10/10/2026 às 19:56"
     }
   ]
 };
