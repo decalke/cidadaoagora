@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "10/10/2026 às 19:56:50",
+  "ultima_atualizacao": "10/10/2026 às 23:25:11",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Após ameaças de morte, deputada eleita Ana Elisa receberá proteção",
+      "resumo": "Em meio a ameaças de morte e estupro nas redes sociais contra a deputada federal eleita Ana Elisa, do Partido dos Trabalhadores (PT), o Ministério dos Direitos Humanos e da Cidadania (MDHC) solicitou providências para garantir a proteção da...",
+      "conteudo_completo": "Em meio a ameaças de morte e estupro nas redes sociais contra a deputada federal eleita Ana Elisa, do Partido dos Trabalhadores (PT), o Ministério dos Direitos Humanos e da Cidadania (MDHC) solicitou providências para garantir a proteção da parlamentar por meio do Programa Estadual de Proteção de Minas Gerais.\n\nLogo após o primeiro turno das eleições, realizado no último domingo (4), Ana Elisa relatou os ataques nas redes sociais e disse temer pela própria vida. Segundo ela, as ameaças já existiam, mas se intensificaram após a disseminação de notícias falsas.\n\n\nNotícias relacionadas:PF desmente Veja; Padilha aciona Justiça sobre fake news contra Lula.Aumentam agressões políticas em mês de luta contra violência à mulher.Alcolumbre marca votação da PEC pelo fim da 6x1 para quarta-feira.“Estou sofrendo mais ameaças de morte. Acredito que ninguém mereça ser ameaçado de morte por estar politicamente engajado. O debate político, para mim, nunca foi sobre isso. Minha equipe desativou minha conta no Twitter porque estávamos recebendo ameaças de morte a cada dois minutos, além de ameaças de estupro. Estou totalmente vulnerável. Eu, por enquanto, não tenho uma força-tarefa de segurança”, afirmou.\n\n\nO Ministério dos Direitos Humanos e da Cidadania não detalhou as medidas que serão adotadas, por razões de segurança e para preservar a integridade da deputada federal eleita.\n\nSegundo a pasta, a equipe do Programa Estadual de Proteção de Minas Gerais atuará em conjunto com o Programa de Proteção aos Defensores de Direitos Humanos, Comunicadores e Ambientalistas para acompanhar e avaliar o caso.\n\nPara isso, o ministério solicitou à Secretaria de Desenvolvimento Social de Minas Gerais, responsável pelo programa estadual, a realização de uma análise de risco, a articulação com os órgãos de inteligência policial e a adoção de providências para investigar as ameaças e identificar os responsáveis.\n\nA reportagem não conseguiu obter informações sobre o caso com a Secretaria de Desenvolvimento Social nem com o Ministério Público de Minas Gerais.\n\nAna Elisa, de 21 anos, nasceu em Divinópolis, no interior do estado. Estudante de Direito, trabalhava como estagiária no Tribunal Regional do Trabalho de Minas Gerais. Eleita com mais de 524 mil votos, foi a segunda deputada federal mais votada do estado. Também se tornou a mulher mais votada da história de Minas Gerais para a Câmara dos Deputados e a deputada federal mais jovem já eleita no Brasil.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ana-elisa-desativa-conta-no-x-apos-sofrer-ameacas-de-morte\" target=\"_blank\">Em meio a ameaças de morte e estupro nas redes sociais contra a deputada federal eleita Ana Elisa, do Partido dos Trabalhadores (PT)</a>, o Ministério dos Direitos Humanos e da Cidadania (MDHC) solicitou providências para garantir a proteção da parlamentar por meio do Programa Estadual de Proteção de Minas Gerais.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705024&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705024&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Logo após o primeiro turno das eleições, realizado no último domingo (4), Ana Elisa relatou os ataques nas redes sociais e disse temer pela própria vida. Segundo ela, as ameaças já existiam, mas se intensificaram após a disseminação de notícias falsas.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Estou sofrendo mais ameaças de morte. Acredito que ninguém mereça ser ameaçado de morte por estar politicamente engajado. O debate político, para mim, nunca foi sobre isso. Minha equipe desativou minha conta no Twitter porque estávamos recebendo ameaças de morte a cada dois minutos, além de ameaças de estupro. Estou totalmente vulnerável. Eu, por enquanto, não tenho uma força-tarefa de segurança”, afirmou.</p>\n</blockquote>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Estou sofrendo mais ameaças de morte. Acredito que ninguém mereça ser ameaçado de morte por estar politicamente engajado. O debate político, para mim, nunca foi sobre isso. Minha equipe desativou minha conta no Twitter porque estávamos recebendo ameaças de morte a cada dois minutos, além de ameaças de estupro. Estou totalmente vulnerável. Eu, por enquanto, não tenho uma força-tarefa de segurança”, afirmou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/outubro/nota-a-imprensa\" target=\"_blank\">O Ministério dos Direitos Humanos e da Cidadania não detalhou as medidas que serão adotadas, por razões de segurança e para preservar a integridade da deputada federal eleita.</a></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a pasta, a equipe do Programa Estadual de Proteção de Minas Gerais atuará em conjunto com o Programa de Proteção aos Defensores de Direitos Humanos, Comunicadores e Ambientalistas para acompanhar e avaliar o caso.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para isso, o ministério solicitou à Secretaria de Desenvolvimento Social de Minas Gerais, responsável pelo programa estadual, a realização de uma análise de risco, a articulação com os órgãos de inteligência policial e a adoção de providências para investigar as ameaças e identificar os responsáveis.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A reportagem não conseguiu obter informações sobre o caso com a Secretaria de Desenvolvimento Social nem com o Ministério Público de Minas Gerais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ana Elisa, de 21 anos, nasceu em Divinópolis, no interior do estado. Estudante de Direito, trabalhava como estagiária no Tribunal Regional do Trabalho de Minas Gerais. <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mineira-de-21-anos-e-mulher-mais-jovem-a-ser-eleita-deputada-federal\" target=\"_blank\">Eleita com mais de 524 mil votos, foi a segunda deputada federal mais votada do estado.</a> Também se tornou a mulher mais votada da história de Minas Gerais para a Câmara dos Deputados e a deputada federal mais jovem já eleita no Brasil.</p>",
+      "imagem": "https://imagens.ebc.com.br/ALdYqO37zJGpgEgGtyRXt7vaDvQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/saveclip.app_831437435_18180061774442464_2968565828559737228_n-1.jpg?itok=EiQsO7g2",
+      "slug": "apos-ameacas-de-morte-deputada-eleita-ana-elisa-recebera-protecao",
+      "pagina_local": "apos-ameacas-de-morte-deputada-eleita-ana-elisa-recebera-protecao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/apos-ameacas-de-morte-deputada-eleita-ana-elisa-recebera-protecao",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "10/10/2026 às 23:25"
+    },
     {
       "titulo": "PF desmente Veja; Padilha aciona Justiça sobre fake news contra Lula",
       "resumo": "Representado por membros da Advocacia-Geral da União (AGU), o ministro da Saúde Alexandre Padilha notificou a revista Veja (editora Abril), solicitando a publicação do direito de resposta à matéria publicada nessa sexta-feira (9) sobre um s...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Aumentam agressões políticas em mês de luta contra violência à mulher",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC pelo fim da 6x1 para quarta-feira",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Estudantes fazem atos pelo país em apoio a Lula",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "PF nega existência de depoimento de Vorcaro sobre Lula",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Ana Elisa desativa conta no X após sofrer ameaças de morte",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV",
@@ -126,27 +140,13 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
-    },
-    {
-      "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (9)",
-      "resumo": "Os candidatos à presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Brasília e no Rio de Janeiro, nesta sexta-feira (9).\n\nLuiz Inácio Lula da Silva (PT)\nÀs 8h, participa de caminhada com Leandro Grass...",
-      "conteudo_completo": "Os candidatos à presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Brasília e no Rio de Janeiro, nesta sexta-feira (9).\n\nLuiz Inácio Lula da Silva (PT)\nÀs 8h, participa de caminhada com Leandro Grass, candidato a governo do Distrito Federal, em Ceilândia, Brasília.\n\nFlávio Bolsonaro (PL)\nÀs 12h, participa de encontro com Douglas Ruas e lideranças na Barra da Tijuca, no Rio de Janeiro (RJ).\n \n\nA ordem de apresentação da agenda dos candidatos a presidente segue alternância diária.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos à presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Brasília e no Rio de Janeiro, nesta sexta-feira (9).<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1704882&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1704882&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Luiz Inácio Lula da Silva (PT)</strong><br/>\nÀs 8h, participa de caminhada com Leandro Grass, candidato a governo do Distrito Federal, em Ceilândia, Brasília.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Flávio Bolsonaro (PL)</strong><br/>\nÀs 12h, participa de encontro com Douglas Ruas e lideranças na Barra da Tijuca, no Rio de Janeiro (RJ).<br/>\n </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ordem de apresentação da agenda dos candidatos a presidente segue alternância diária.</p>",
-      "imagem": "https://imagens.ebc.com.br/Qjn25j4kWuBB0OOSqVFyv-s7K54=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/banner_agenda_-_1170x700.png?itok=KJR_nOUL",
-      "slug": "confira-a-agenda-dos-presidenciaveis-nesta-sexta-feira-9",
-      "pagina_local": "confira-a-agenda-dos-presidenciaveis-nesta-sexta-feira-9.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-sexta-feira-9",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Após retotalização dos votos, Douglas Ruas tem 50,88% dos votos no RJ",
       "resumo": "O candidato a governador do Rio de Janeiro Douglas Ruas (PL) ficou com 50,88% dos votos do primeiro turno das eleições, após retotalização feita pelo Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) neste sábado (10). O número ultrapa...",
       "conteudo_completo": "O candidato a governador do Rio de Janeiro Douglas Ruas (PL) ficou com 50,88% dos votos do primeiro turno das eleições, após retotalização feita pelo Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) neste sábado (10). O número ultrapassa os 50% dos votos necessários para a eleição do chefe do Executivo em primeiro turno.\n\n“O candidato mais votado para o cargo de governador do estado do Rio de Janeiro foi o candidato Douglas Ruas, alcançando mais da metade dos votos válidos, o suficiente para vencer no primeiro turno das eleições”, indicou o desembargador Cláudio Mello Tavares, presidente do TRE-RJ.\n\nNotícias relacionadas:Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas.Paes desiste de candidatura no Rio, após Zanin negar recurso ao STF.Douglas Ruas critica judicialização da eleição e se declara governador.Em segundo lugar, ficou Eduardo Paes (PSD), com 44,16 % dos votos. O cálculo foi feito após decisão da Justiça Eleitoral ter determinado inválidos os 274.411 votos obtidos pelo candidato Anthony Garotinho (Republicanos), que teve 3,71%.\n\nPrazo\n\nAntes de anunciar o resultado, Tavares informou que. com a retotalização, haverá um prazo de três dias para que o resultado seja divulgado. Depois desse prazo, haverá dois dias para a apresentação de eventuais recursos. Após este período cumprido, será marcada sessão plenária da Corte para análise e julgamento de eventuais contestações.\n\nO desembargador do TRE-RJ anunciou que superada as etapas recursais, a sessão de anúncio de Douglas Ruas como governador será em 15 de outubro, às 15h no TRE-RJ.\n\nSegundo colocado, Eduardo Paes adiantou que desistiu da candidatura.  O candidato disse em nota nesta sexta-feira (9), que embora a maioria dos eleitores fluminenses tenha votado para que a eleição para governador do Rio de Janeiro fosse resolvida em segundo turno, a decisão da Justiça deve ser respeitada.\n\nMesmos votos\n\nO presidente do TRE-RJ afirmou que os votos são os mesmos que foram dados no resultado do primeiro turno. “Não há voto novo. Os votos são exatamente os mesmos que os fluminenses depositaram nas urnas no dia 4 de outubro. O que muda é a base de cálculo”, apontou.\n\nO desembargador informou que os preparativos e a propaganda eleitoral para segundo turno ao cargo de governador do Rio permanecem suspensos enquanto o plenário do Tribunal não proclamar o nome de Douglas Ruas, o que só pode ocorrer após o prazo de análise de eventuais recursos. \n\nEntenda\n\nA retotalização dos votos para governador do Rio de Janeiro foi necessária após o TSE declarar nulos os 274.411 votos recebidos por Anthony Garotinho  no primeiro turno das eleições. Com a exclusão desses votos do total de válidos, a Justiça Eleitoral precisou recalcular os percentuais obtidos pelos candidatos.\n\nGarotinho concorreu sub judice, ou seja, com a situação eleitoral ainda pendente de decisão judicial. O TRE-RJ havia considerado o candidato inelegível em razão de uma condenação por improbidade administrativa. Enquanto recorria da decisão, ele obteve o direito de disputar a eleição e aparecer nas urnas.\n\nNa sexta-feira (2), antes da votação, o ministro Floriano de Azevedo Marques, relator do caso no TSE, decidiu que os votos recebidos por Garotinho deveriam ser registrados como anulados sub judice. No domingo, dia da eleição, porém, o ministro Nunes Marques determinou que esses votos fossem contabilizados como válidos até o julgamento do recurso.\n\nNo dia seguinte à votação, Garotinho desistiu do recurso. O TSE, contudo, rejeitou a desistência e julgou o caso nesta quinta-feira (8), declarando nulos os votos recebidos pelo candidato.\n\nCom a anulação, os percentuais dos demais candidatos foram recalculados com base no novo total de votos válidos. Douglas Ruas (PL), que havia recebido 4.271.199 votos, correspondentes a 49,27% dos votos válidos antes da exclusão dos votos de Garotinho, passou a superar a marca de 50%, o que abre caminho para sua eleição no primeiro turno. Eduardo Paes (PSD) havia obtido 3.706.984 votos, equivalentes a 42,76% do total válido antes da retotalização.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O candidato a governador do Rio de Janeiro Douglas Ruas (PL) ficou com 50,88% dos votos do primeiro turno das eleições, após retotalização feita pelo Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) neste sábado (10).</strong> O número ultrapassa os 50% dos votos necessários para a eleição do chefe do Executivo em primeiro turno.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705021&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705021&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em segundo lugar, ficou Eduardo Paes (PSD), com 44,16 % dos votos. O cálculo foi feito após decisão da Justiça Eleitoral ter determinado inválidos os 274.411 votos obtidos pelo candidato Anthony Garotinho (Republicanos), que teve 3,71%.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Prazo</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Antes de anunciar o resultado, o presidente do TRE-RJ, desembargador Cláudio Mello Tavares, informou que com a retotalização, haverá um prazo de três dias para que o resultado seja divulgado. Depois desse prazo, haverá dois dias para a apresentação de eventuais recursos. Após este período cumprido, será marcada sessão plenária da Corte para análise e julgamento de eventuais contestações.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O desembargador do TRE-RJ anunciou que superada as etapas recursais, a sessão de anúncio de Douglas Ruas como governador será em 15 de outubro, às 15h no TRE-RJ.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo colocado, Eduardo Paes adiantou que <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/paes-desiste-de-candidatura-no-rio-apos-zanin-negar-recurso-ao-stf\" target=\"_blank\">desistiu da candidatura</a>.  O candidato disse em nota nesta sexta-feira (9), que embora a maioria dos eleitores fluminenses tenha votado para que a eleição para governador do Rio de Janeiro fosse resolvida em segundo turno, a decisão da Justiça deve ser respeitada.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Entenda</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A retotalização dos votos para governador do Rio de Janeiro foi necessária após o <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-anula-votos-de-garotinho-e-abre-caminho-para-ruas-vencer-governo-do-rio-no-1o-turno\" target=\"_blank\">TSE declarar nulos os 274.411 votos recebidos por Anthony Garotinho</a>  no primeiro turno das eleições. Com a exclusão desses votos do total de válidos, a Justiça Eleitoral precisou recalcular os percentuais obtidos pelos candidatos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Garotinho concorreu sub judice, ou seja, com a situação eleitoral ainda pendente de decisão judicial. O TRE-RJ havia considerado o candidato inelegível em razão de uma condenação por improbidade administrativa. Enquanto recorria da decisão, ele obteve o direito de disputar a eleição e aparecer nas urnas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na sexta-feira (2), antes da votação, o ministro Floriano de Azevedo Marques, relator do caso no TSE, decidiu que os votos recebidos por Garotinho deveriam ser registrados como anulados sub judice. No domingo, dia da eleição, porém, o ministro Nunes Marques determinou que esses votos fossem contabilizados como válidos até o julgamento do recurso.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No dia seguinte à votação, Garotinho desistiu do recurso. O TSE, contudo, rejeitou a desistência e julgou o caso nesta quinta-feira (8), declarando nulos os votos recebidos pelo candidato.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com a anulação, os percentuais dos demais candidatos foram recalculados com base no novo total de votos válidos. Douglas Ruas (PL), que havia recebido 4.271.199 votos, correspondentes a 49,27% dos votos válidos antes da exclusão dos votos de Garotinho, passou a superar a marca de 50%, o que abre caminho para sua eleição no primeiro turno. Eduardo Paes (PSD) havia obtido 3.706.984 votos, equivalentes a 42,76% do total válido antes da retotalização.</p>",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O candidato a governador do Rio de Janeiro Douglas Ruas (PL) ficou com 50,88% dos votos do primeiro turno das eleições, após retotalização feita pelo Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) neste sábado (10).</strong> O número ultrapassa os 50% dos votos necessários para a eleição do chefe do Executivo em primeiro turno.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705021&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705021&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O candidato mais votado para o cargo de governador do estado do Rio de Janeiro foi o candidato Douglas Ruas, alcançando mais da metade dos votos válidos, o suficiente para vencer no primeiro turno das eleições”, indicou o desembargador Cláudio Mello Tavares, presidente do TRE-RJ.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em segundo lugar, ficou Eduardo Paes (PSD), com 44,16 % dos votos. O cálculo foi feito após decisão da Justiça Eleitoral ter determinado inválidos os 274.411 votos obtidos pelo candidato Anthony Garotinho (Republicanos), que teve 3,71%.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Prazo</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Antes de anunciar o resultado, Tavares informou que. com a retotalização, haverá um prazo de três dias para que o resultado seja divulgado. Depois desse prazo, haverá dois dias para a apresentação de eventuais recursos. Após este período cumprido, será marcada sessão plenária da Corte para análise e julgamento de eventuais contestações.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O desembargador do TRE-RJ anunciou que superada as etapas recursais, a sessão de anúncio de Douglas Ruas como governador será em 15 de outubro, às 15h no TRE-RJ.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo colocado, Eduardo Paes adiantou que <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/paes-desiste-de-candidatura-no-rio-apos-zanin-negar-recurso-ao-stf\" target=\"_blank\">desistiu da candidatura</a>.  O candidato disse em nota nesta sexta-feira (9), que embora a maioria dos eleitores fluminenses tenha votado para que a eleição para governador do Rio de Janeiro fosse resolvida em segundo turno, a decisão da Justiça deve ser respeitada.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Mesmos votos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente do TRE-RJ afirmou que os votos são os mesmos que foram dados no resultado do primeiro turno. “Não há voto novo. Os votos são exatamente os mesmos que os fluminenses depositaram nas urnas no dia 4 de outubro. O que muda é a base de cálculo”, apontou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O desembargador informou que os preparativos e a propaganda eleitoral para segundo turno ao cargo de governador do Rio permanecem suspensos enquanto o plenário do Tribunal não proclamar o nome de Douglas Ruas, o que só pode ocorrer após o prazo de análise de eventuais recursos. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Entenda</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A retotalização dos votos para governador do Rio de Janeiro foi necessária após o <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-anula-votos-de-garotinho-e-abre-caminho-para-ruas-vencer-governo-do-rio-no-1o-turno\" target=\"_blank\">TSE declarar nulos os 274.411 votos recebidos por Anthony Garotinho</a>  no primeiro turno das eleições. Com a exclusão desses votos do total de válidos, a Justiça Eleitoral precisou recalcular os percentuais obtidos pelos candidatos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Garotinho concorreu sub judice, ou seja, com a situação eleitoral ainda pendente de decisão judicial. O TRE-RJ havia considerado o candidato inelegível em razão de uma condenação por improbidade administrativa. Enquanto recorria da decisão, ele obteve o direito de disputar a eleição e aparecer nas urnas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na sexta-feira (2), antes da votação, o ministro Floriano de Azevedo Marques, relator do caso no TSE, decidiu que os votos recebidos por Garotinho deveriam ser registrados como anulados sub judice. No domingo, dia da eleição, porém, o ministro Nunes Marques determinou que esses votos fossem contabilizados como válidos até o julgamento do recurso.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No dia seguinte à votação, Garotinho desistiu do recurso. O TSE, contudo, rejeitou a desistência e julgou o caso nesta quinta-feira (8), declarando nulos os votos recebidos pelo candidato.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com a anulação, os percentuais dos demais candidatos foram recalculados com base no novo total de votos válidos. Douglas Ruas (PL), que havia recebido 4.271.199 votos, correspondentes a 49,27% dos votos válidos antes da exclusão dos votos de Garotinho, passou a superar a marca de 50%, o que abre caminho para sua eleição no primeiro turno. Eduardo Paes (PSD) havia obtido 3.706.984 votos, equivalentes a 42,76% do total válido antes da retotalização.</p>",
       "imagem": "https://imagens.ebc.com.br/9koqmuBdzkJGWPf21suRSRUiWRA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/_d6a0924.jpg?itok=ddKNzITc",
       "slug": "apos-retotalizacao-dos-votos-douglas-ruas-tem-50-88-dos-votos-no-rj",
       "pagina_local": "apos-retotalizacao-dos-votos-douglas-ruas-tem-50-88-dos-votos-no-rj.html",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Justiça determina que Vasco e Boca Juniors seja realizada no Maracanã",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "TSE manda suspender site que oferece criptomoedas por apoio a Flávio",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Governo do RJ identifica desvios de R$ 400 milhões na Cedae Saúde",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Justiça derruba decisão que liberou operação de plataforma de apostas",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "TSE aciona PF após servidores receberem ameaças pelas redes sociais",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "STF: Fachin diz que pretende arquivar inquérito das Fake News",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "MPRJ denuncia mais oito PMs que participaram da Operação Contenção",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Eduardo Bolsonaro consta em lista de pena pendente de cumprimento",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Bets: mais de R$ 1 bilhão foram devolvidos a apostadores",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 19:56"
+      "coletado_em": "10/10/2026 às 23:25"
     }
   ]
 };
