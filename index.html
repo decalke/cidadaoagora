@@ -109,12 +109,12 @@
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
           <span class="text-[#0F1B35] font-mono flex items-center gap-1">
             <span class="text-[10px] font-bold text-[#526078] uppercase">USD</span>
-            <span id="header-dolar" class="font-bold">R$ 5,38</span>
+            <span id="header-dolar" class="font-bold">R$ 4,99</span>
           </span>
           <span class="text-[#D9E1EC] hidden sm:inline">|</span>
           <span class="text-[#0F1B35] font-mono hidden sm:flex items-center gap-1">
             <span class="text-[10px] font-bold text-[#526078] uppercase">Selic</span>
-            <span id="header-selic" class="font-bold">15,00%</span>
+            <span id="header-selic" class="font-bold">13,75%</span>
           </span>
           <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-[#526078] group-hover:text-[#2563EB] group-hover:translate-x-0.5 transition-transform"></i>
         </a>
@@ -1026,8 +1026,9 @@
       window.lucide.createIcons();
     }
 
-    // Atualização em tempo real da mini-pílula de cotações no topo
+    // Atualização em tempo real da mini-pílula de cotações e Selic no topo
     async function carregarCotacaoTopo() {
+      // 1. Cotação do Dólar Comercial
       try {
         const res = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL');
         if (res.ok) {
@@ -1039,7 +1040,22 @@
           }
         }
       } catch (e) {
-        // Fallback estático já preservado
+        // Mantém fallback estático R$ 4,99
+      }
+
+      // 2. Taxa Selic Oficial do Banco Central (BACEN SGS Série 432 / 1178)
+      try {
+        const resSelic = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json');
+        if (resSelic.ok) {
+          const dataSelic = await resSelic.json();
+          if (dataSelic && dataSelic[0] && dataSelic[0].valor) {
+            const valSelic = parseFloat(dataSelic[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            const elSelic = document.getElementById('header-selic');
+            if (elSelic) elSelic.textContent = valSelic + '%';
+          }
+        }
+      } catch (e) {
+        // Mantém fallback estático 13,75%
       }
     }
     carregarCotacaoTopo();
