@@ -138,23 +138,37 @@
             </div>
           </div>
 
-          <!-- Especificações FIPE -->
+          <!-- Especificações Detalhadas do Veículo -->
           <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2.5 text-sm">
             <h4 class="text-xs font-extrabold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
               <i data-lucide="tag" class="w-3.5 h-3.5 text-amber-600"></i>
-              Detalhes da Cotação FIPE
+              Ficha & Cotação FIPE
             </h4>
-            <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
-              <span class="text-[10px] text-slate-400 font-bold uppercase block">Ano Modelo</span>
-              <span id="res-veiculo-ano" class="font-bold text-slate-900 text-sm"></span>
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div class="bg-white p-2 rounded-lg border border-slate-200/80">
+                <span class="text-[10px] text-slate-400 font-bold uppercase block">Marca</span>
+                <span id="res-veiculo-marca-tab" class="font-bold text-slate-900"></span>
+              </div>
+              <div class="bg-white p-2 rounded-lg border border-slate-200/80">
+                <span class="text-[10px] text-slate-400 font-bold uppercase block">Ano Modelo</span>
+                <span id="res-veiculo-ano" class="font-bold text-slate-900"></span>
+              </div>
+              <div class="bg-white p-2 rounded-lg border border-slate-200/80">
+                <span class="text-[10px] text-slate-400 font-bold uppercase block">Cor</span>
+                <span id="res-veiculo-cor" class="font-bold text-slate-900">Prata</span>
+              </div>
+              <div class="bg-white p-2 rounded-lg border border-slate-200/80">
+                <span class="text-[10px] text-slate-400 font-bold uppercase block">Combustível</span>
+                <span id="res-veiculo-combustivel" class="font-medium text-slate-800"></span>
+              </div>
             </div>
             <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
-              <span class="text-[10px] text-slate-400 font-bold uppercase block">Combustível</span>
-              <span id="res-veiculo-combustivel" class="font-medium text-slate-800 text-sm"></span>
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Chassi Parcial (Segurança LGPD)</span>
+              <span id="res-veiculo-chassi" class="font-mono font-bold text-slate-800 text-xs">*******55104</span>
             </div>
             <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
-              <span class="text-[10px] text-slate-400 font-bold uppercase block">Mês de Referência Oficial</span>
-              <span id="res-veiculo-mes-fipe" class="font-medium text-slate-800 text-sm"></span>
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Mês de Referência FIPE</span>
+              <span id="res-veiculo-mes-fipe" class="font-medium text-slate-800 text-xs"></span>
             </div>
           </div>
 
@@ -165,18 +179,50 @@
               Origem & Emplacamento
             </h4>
             <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
-              <span class="text-[10px] text-slate-400 font-bold uppercase block">Estado Federativo</span>
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Estado Federativo (UF)</span>
               <span id="res-veiculo-uf" class="font-bold text-slate-900 text-sm"></span>
             </div>
             <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Município de Registro</span>
+              <span id="res-veiculo-municipio" class="font-semibold text-slate-800 text-sm">Balneário Gaivota</span>
+            </div>
+            <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
               <span class="text-[10px] text-slate-400 font-bold uppercase block">Faixa Alfanumérica SENATRAN</span>
-              <span id="res-veiculo-serie" class="font-medium text-slate-800 text-sm"></span>
+              <span id="res-veiculo-serie" class="font-medium text-slate-800 text-xs"></span>
             </div>
             <div class="bg-white p-2.5 rounded-lg border border-slate-200/80">
               <span class="text-[10px] text-slate-400 font-bold uppercase block">Placa Antiga Correspondente</span>
-              <span id="res-veiculo-antiga" class="font-mono font-bold text-slate-900 text-sm"></span>
+              <span id="res-veiculo-antiga" class="font-mono font-bold text-amber-900 text-sm"></span>
             </div>
           </div>
+        </div>
+
+        <!-- 2.1 Estimativa de IPVA Estadual (como na Tabela Fipe Brasil) -->
+        <div class="p-5 rounded-2xl bg-gradient-to-r from-blue-50 to-slate-50 border border-blue-200/80 space-y-3">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-black text-slate-900 uppercase tracking-wider flex items-center gap-2">
+              <i data-lucide="calculator" class="w-4 h-4 text-blue-600"></i>
+              Estimativa de IPVA do Veículo
+            </h4>
+            <span class="text-[11px] font-bold text-blue-800 bg-blue-100 px-2.5 py-0.5 rounded-full" id="res-ipva-uf-badge"></span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div class="bg-white p-3 rounded-xl border border-blue-100 shadow-xs">
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Valor Venal Base FIPE</span>
+              <span id="res-ipva-venal" class="font-black text-slate-900 text-base"></span>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-blue-100 shadow-xs">
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Alíquota Estadual Estimada</span>
+              <span id="res-ipva-aliquota" class="font-black text-blue-700 text-base"></span>
+            </div>
+            <div class="bg-white p-3 rounded-xl border border-blue-100 shadow-xs">
+              <span class="text-[10px] text-slate-400 font-bold uppercase block">Valor Estimado do IPVA</span>
+              <span id="res-ipva-valor" class="font-black text-emerald-700 text-base"></span>
+            </div>
+          </div>
+          <p class="text-[11px] text-slate-500">
+            * Valores de alíquota variam conforme a legislação tributária estadual (geralmente entre 1% e 4% para automóveis de passeio). Consulte guias oficiais no DETRAN/SEFAZ.
+          </p>
         </div>
 
         <!-- 3. Acesso aos Órgãos Oficiais (DETRAN e SENATRAN) -->
