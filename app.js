@@ -752,7 +752,7 @@ const ALIQUOTAS_IPVA_ESTADOS = {
 
 let estadoPlacaAtual = { uf: "SP", estado: "São Paulo" };
 
-function verificarPlacaUnificada(event) {
+async function verificarPlacaUnificada(event) {
   event.preventDefault();
   const input = document.getElementById('input-placa');
   if (!input) return;
@@ -761,6 +761,19 @@ function verificarPlacaUnificada(event) {
   if (raw.length !== 7) {
     alert("Digite uma placa válida com 7 caracteres (letras e números). Exemplo: ABC1D23 ou ABC1234");
     return;
+  }
+
+  const submitBtn = event.target.querySelector('button[type="submit"]');
+  const btnOriginalHtml = submitBtn ? submitBtn.innerHTML : "";
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = `
+      <svg class="animate-spin -ml-1 mr-2 h-4 w-4 text-white inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+      </svg>
+      <span>Buscando...</span>
+    `;
   }
 
   const padraoAntigo = /^[A-Z]{3}[0-9]{4}$/;
@@ -780,7 +793,6 @@ function verificarPlacaUnificada(event) {
     tipo = "Padrão Mercosul (Oficial PIV)";
     formatada = `${raw.slice(0, 3)} ${raw.slice(3, 4)}${raw.slice(4, 5)}${raw.slice(5)}`;
     
-    // Converte Mercosul para padrão antigo correspondente
     const letraMercosul = raw.charAt(4);
     const digitoAntigo = LETRA_PARA_NUMERO[letraMercosul] || "X";
     placaAntigaEquiv = `${raw.slice(0, 3)}-${raw.charAt(3)}${digitoAntigo}${raw.slice(5)} (Padrão Antigo)`;
@@ -799,7 +811,6 @@ function verificarPlacaUnificada(event) {
     tipo = "Padrão Cinza (Pré-Mercosul)";
     formatada = `${raw.slice(0, 3)}-${raw.slice(3)}`;
     
-    // Converte Antigo para padrão Mercosul correspondente
     const digitoAntigo = raw.charAt(4);
     const letraMercosul = NUMERO_PARA_LETRA[digitoAntigo] || "A";
     placaAntigaEquiv = `${raw.slice(0, 3)}${raw.charAt(3)}${letraMercosul}${raw.slice(5)} (Mercosul)`;
@@ -851,8 +862,33 @@ function verificarPlacaUnificada(event) {
     `;
   }
 
-  // Atualiza ou inicializa os seletores da Tabela FIPE
-  popularSeletoresFipe();
+  // Chamada à API para obter o veículo real e a Tabela FIPE
+  try {
+    const apiRes = await fetch('/api/veiculo', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ placa: raw })
+    });
+
+    if (apiRes.ok) {
+      const data = await apiRes.json();
+      if (data.sucesso && data.veiculo) {
+        exibirDadosVeiculoReal(data.veiculo, data.fipe, data.ipvaEstimado);
+      } else {
+        popularSeletoresFipe();
+      }
+    } else {
+      popularSeletoresFipe();
+    }
+  } catch (err) {
+    console.warn("API de consulta veicular indisponível no momento. Usando catálogo FIPE local.", err);
+    popularSeletoresFipe();
+  } finally {
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = btnOriginalHtml;
+    }
+  }
 
   if (typeof window !== 'undefined' && window.lucide) {
     window.lucide.createIcons();
@@ -862,6 +898,59 @@ function verificarPlacaUnificada(event) {
   if (resultContainer) {
     resultContainer.classList.remove('hidden');
     resultContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function exibirDadosVeiculoReal(veiculo, fipe, ipvaEstimado) {
+  const elNomeModelo = document.getElementById('res-fipe-modelo-nome');
+  if (elNomeModelo) {
+    elNomeModelo.innerText = `${veiculo.marca || ''} ${veiculo.modelo || ''} ${veiculo.versao || ''}`.trim();
+  }
+
+  const elAno = document.getElementById('res-fipe-ano');
+  if (elAno) {
+    elAno.innerText = `${veiculo.ano_fabricacao || ''}/${veiculo.ano_modelo || ''}`;
+  }
+
+  const elCombustivel = document.getElementById('res-fipe-combustivel');
+  if (elCombustivel) {
+    elCombustivel.innerText = veiculo.combustivel || 'Flex / Gasolina';
+  }
+
+  const elPreco = document.getElementById('res-fipe-preco');
+  if (elPreco) {
+    elPreco.innerText = fipe?.valor || 'Consulte FIPE oficial';
+  }
+
+  const elCodigo = document.getElementById('res-fipe-codigo');
+  if (elCodigo) {
+    elCodigo.innerText = fipe?.codigoFipe ? `Código FIPE: ${fipe.codigoFipe}` : (veiculo.chassi ? `Chassi Mascarado: ${veiculo.chassi.slice(0, 8)}...` : '');
+  }
+
+  const elMesRef = document.getElementById('res-fipe-mes-ref');
+  if (elMesRef) {
+    elMesRef.innerText = fipe?.mesReferencia || 'Mês Atual';
+  }
+
+  // Preenche dados do IPVA
+  const aliquotaPadrao = ALIQUOTAS_IPVA_ESTADOS[estadoPlacaAtual.uf] || 3.0;
+  const elIpvaBadge = document.getElementById('res-ipva-uf-badge');
+  if (elIpvaBadge) elIpvaBadge.innerText = `${estadoPlacaAtual.estado} (${aliquotaPadrao}%)`;
+
+  const elIpvaVenal = document.getElementById('res-ipva-venal');
+  if (elIpvaVenal) elIpvaVenal.innerText = fipe?.valor || 'Base FIPE';
+
+  const elIpvaAliquota = document.getElementById('res-ipva-aliquota');
+  if (elIpvaAliquota) elIpvaAliquota.innerText = `${aliquotaPadrao.toFixed(1)}% ao ano`;
+
+  const elIpvaValor = document.getElementById('res-ipva-valor');
+  if (elIpvaValor) {
+    if (ipvaEstimado) {
+      elIpvaValor.innerText = formatarMoeda(ipvaEstimado);
+    } else if (fipe?.valor) {
+      const valorNum = parseFloat(fipe.valor.replace(/[^0-9,]/g, '').replace(',', '.')) || 0;
+      elIpvaValor.innerText = formatarMoeda(valorNum * (aliquotaPadrao / 100));
+    }
   }
 }
 
