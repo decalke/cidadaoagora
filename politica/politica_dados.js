@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "10/10/2026 às 23:25:11",
+  "ultima_atualizacao": "11/10/2026 às 05:16:02",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Lula faz comício em Natal e Flávio participa de moto-carreata no Rio",
+      "resumo": "Os candidatos à presidência da República Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) tiveram agenda pública neste sábado (10) em Natal e no Rio de Janeiro, respectivamente.  \n\nEm comício lotado na capital do Rio Grande do Norte, ...",
+      "conteudo_completo": "Os candidatos à presidência da República Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) tiveram agenda pública neste sábado (10) em Natal e no Rio de Janeiro, respectivamente.  \n\nEm comício lotado na capital do Rio Grande do Norte, Lula fez comparativos entre investimentos feitos na região Nordeste em governos de direita e de esquerda. \n\nNotícias relacionadas:TSE manda suspender site que oferece criptomoedas por apoio a Flávio.Após ameaças de morte, deputada eleita Ana Elisa receberá proteção .PF desmente Veja; Padilha aciona Justiça sobre fake news contra Lula.“Vocês sabem o que era o Nordeste antes do PT ganhar a Presidência. E vocês sabem o que virou depois que ganhamos”, disse o presidente, candidato à reeleição, ao lado da governadora Fátima Bezerra, do candidato ao governo estadual Cadu de Lula, e dos governadores eleitos do Ceará, Elmano de Freitas; da Bahia, Jerônimo Rodrigues; do Piauí, Rafael Fontes, e Lucas Ribeiro, da paraíba. \n\n“O Pé de Meia foi uma revolução que fizemos para garantir que 500 mil jovens não desistissem do ensino médio, para ajudar no orçamento familiar. Tudo isso eles vão cortar. Porque a educação nesse país nunca despertou interesse da elite brasileira.” \n \n\n\n            \n        \n    \nNatal (RN), 10/10/2026 - Presidente da República, Luiz Inácio Lula da Silva, durante ato de campanha em Natal: o evento \"Lula no Rio Grande do Norte: O Brasil Pronto Pra Mais\", realizado no cruzamento rua Baraúna com a cel. Estevam.. Foto: Ricardo Stuckert/Lula Oficial\n\n\nLula questionou onde seriam os cortes que resultariam na proposta de tesouraço de R$ 250 bilhões, apresentada publicamente por Flávio. O campanha do candidato do PL nega foco de corte em programas sociais. \n\n\n“Não conheço ninguém da elite brasileira que governou esse país que teve coragem de cortar dos ricos, dos banqueiros, dos empresários, do sistema financeiro, dos fazendeiros. Eles sempre cortam dos pobres”, afirma Lula.  \n\n\nAo comentar especificamente o conflito entre Estados Unidos e Irã, Lula destacou que a guerra no Oriente Médio trouxe “prejuízo extraordinário” ao mundo inteiro.  \n\n“No Brasil, hoje, a gasolina diminuiu porque a gente está utilizando dinheiro do petróleo que a Petrobras exporta. Estamos subsidiando para que o preço da guerra não chegue ao povo brasileiro, não chegue no feijão do povo, no pão do povo, no leite do povo.” \n\nMoto-carreata \n\nEm São Gonçalo, na região metropolitana do Rio de Janeiro, o candidato do PL à Presidência da República, Flávio Bolsonaro, participou de uma grande moto-carreata e afirmou que vai “levar mais tecnologia, emprego e desenvolvimento a toda população fluminense”.  \n\n“Eu quero agradecer a vocês de coração. Eu tô aqui de corpo e alma, nas mãos de Deus e nos braços de vocês, para mudar o destino da nossa nação”, afirmou Flávio Bolsonaro, ao lado do candidato ao governo do Rio, Douglas Ruas.  \n\nDurante a agenda, Flávio também declarou que, caso seja eleito, deseja receber a faixa presidencial das mãos do pai, Jair Bolsonaro, preso e condenado a vinte e sete anos pela tentativa de golpe na democracia brasileira. \n\nNo início da tarde, no Rio de Janeiro, Flávio Bolsonaro participou de uma agenda com mulheres e afirmou, que se for eleito, vai dar atenção às mães atípicas. \n\n\n“Não vai ter um só dia no Rio de Janeiro que vocês não ouvirão falar sobre inclusão”, disse ao lado da vice-governadora eleita do Rio de Janeiro, Fernanda Louback, e de Daniella Marques, coordenadora do eixo Brasil por Elas no plano de governo do presidenciável do PL. \n \n\n\n\n            \n        \n    \nSão Gonçalo (RJ), 10/10/2026 - Candidato à presidência do Brasil, Flávio Bolsonaro, durante ato em São Gonçalo. Foto: Charles Vieira/Campanha Flávio Bolsonaro\n\n\nInclusão\n\nDe acordo com Flávio, assim como a política para mulheres, as políticas de inclusão estarão presentes em todos os ministérios. “Uma política transversal vai estar na educação, vai estar na segurança, na assistência social, no turismo em todos os lugares”, afirmou. \n\nFlávio tem sido questionado sobre políticas para as mulheres, já que durante o governo do seu pai o ministério dedicado às mulheres passou a englobar também as pautas de família e direitos humanos. Outros ministérios como Cultura e Esporte foram extintos. \n\nNa área de inclusão, o governo de Jair Bolsonaro publicou um decreto (10.502/2020) suspenso posteriormente pelo Supremo Tribunal Federal (STF) por risco de enfraquecimento da inclusão escolar, com direcionamento de pessoas com deficiência apenas para escolas especiais.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos à presidência da República Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) tiveram agenda pública neste sábado (10) em Natal e no Rio de Janeiro, respectivamente.  <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705026&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705026&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Em comício lotado na capital do Rio Grande do Norte, Lula fez comparativos entre investimentos feitos na região Nordeste em governos de direita e de esquerda. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vocês sabem o que era o Nordeste antes do PT ganhar a Presidência. E vocês sabem o que virou depois que ganhamos”, disse o presidente, candidato à reeleição, ao lado da governadora Fátima Bezerra, do candidato ao governo estadual Cadu de Lula, e dos governadores eleitos do Ceará, Elmano de Freitas; da Bahia, Jerônimo Rodrigues; do Piauí, Rafael Fontes, e Lucas Ribeiro, da paraíba. </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O Pé de Meia foi uma revolução que fizemos para garantir que 500 mil jovens não desistissem do ensino médio, para ajudar no orçamento familiar. Tudo isso eles vão cortar. Porque a educação nesse país nunca despertou interesse da elite brasileira.” <br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula questionou onde seriam os cortes que resultariam na proposta de tesouraço de R$ 250 bilhões, apresentada publicamente por Flávio. O campanha do candidato do PL nega foco de corte em programas sociais. </p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Não conheço ninguém da elite brasileira que governou esse país que teve coragem de cortar dos ricos, dos banqueiros, dos empresários, do sistema financeiro, dos fazendeiros. Eles sempre cortam dos pobres”, afirma Lula.  </p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não conheço ninguém da elite brasileira que governou esse país que teve coragem de cortar dos ricos, dos banqueiros, dos empresários, do sistema financeiro, dos fazendeiros. Eles sempre cortam dos pobres”, afirma Lula.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao comentar especificamente o conflito entre Estados Unidos e Irã, Lula destacou que a guerra no Oriente Médio trouxe “prejuízo extraordinário” ao mundo inteiro.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“No Brasil, hoje, a gasolina diminuiu porque a gente está utilizando dinheiro do petróleo que a Petrobras exporta. Estamos subsidiando para que o preço da guerra não chegue ao povo brasileiro, não chegue no feijão do povo, no pão do povo, no leite do povo.” </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Moto-carreata </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Em São Gonçalo, na região metropolitana do Rio de Janeiro, o candidato do PL à Presidência da República, Flávio Bolsonaro, participou de uma grande moto-carreata e afirmou que vai “levar mais tecnologia, emprego e desenvolvimento a toda população fluminense”.  </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu quero agradecer a vocês de coração. Eu tô aqui de corpo e alma, nas mãos de Deus e nos braços de vocês, para mudar o destino da nossa nação”, afirmou Flávio Bolsonaro, ao lado do candidato ao governo do Rio, Douglas Ruas.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante a agenda, Flávio também declarou que, caso seja eleito, deseja receber a faixa presidencial das mãos do pai, Jair Bolsonaro, preso e condenado a vinte e sete anos pela tentativa de golpe na democracia brasileira. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No início da tarde, no Rio de Janeiro, Flávio Bolsonaro participou de uma agenda com mulheres e afirmou, que se for eleito, vai dar atenção às mães atípicas. </p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Não vai ter um só dia no Rio de Janeiro que vocês não ouvirão falar sobre inclusão”, disse ao lado da vice-governadora eleita do Rio de Janeiro, Fernanda Louback, e de Daniella Marques, coordenadora do eixo Brasil por Elas no plano de governo do presidenciável do PL. <br/>\n </p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não vai ter um só dia no Rio de Janeiro que vocês não ouvirão falar sobre inclusão”, disse ao lado da vice-governadora eleita do Rio de Janeiro, Fernanda Louback, e de Daniella Marques, coordenadora do eixo Brasil por Elas no plano de governo do presidenciável do PL. <br/>\n </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Inclusão</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com Flávio, assim como a política para mulheres, as políticas de inclusão estarão presentes em todos os ministérios. “Uma política transversal vai estar na educação, vai estar na segurança, na assistência social, no turismo em todos os lugares”, afirmou. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio tem sido questionado sobre políticas para as mulheres, já que durante o governo do seu pai o ministério dedicado às mulheres passou a englobar também as pautas de família e direitos humanos. Outros ministérios como Cultura e Esporte foram extintos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na área de inclusão, o governo de Jair Bolsonaro publicou um decreto (10.502/2020) suspenso posteriormente pelo Supremo Tribunal Federal (STF) por risco de enfraquecimento da inclusão escolar, com direcionamento de pessoas com deficiência apenas para escolas especiais.   </p>",
+      "imagem": "https://imagens.ebc.com.br/BCwG9WqEddx_437jbgL9RkbzXcA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/10/lula_e_flavio_v2.jpg?itok=HlZh_qQ4",
+      "slug": "lula-faz-comicio-em-natal-e-flavio-participa-de-moto-carreata-no-rio",
+      "pagina_local": "lula-faz-comicio-em-natal-e-flavio-participa-de-moto-carreata-no-rio.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-comicio-em-natal-e-flavio-participa-de-moto-carreata-no-rio",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "11/10/2026 às 05:15"
+    },
     {
       "titulo": "Após ameaças de morte, deputada eleita Ana Elisa receberá proteção",
       "resumo": "Em meio a ameaças de morte e estupro nas redes sociais contra a deputada federal eleita Ana Elisa, do Partido dos Trabalhadores (PT), o Ministério dos Direitos Humanos e da Cidadania (MDHC) solicitou providências para garantir a proteção da...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "PF desmente Veja; Padilha aciona Justiça sobre fake news contra Lula",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Aumentam agressões políticas em mês de luta contra violência à mulher",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC pelo fim da 6x1 para quarta-feira",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Estudantes fazem atos pelo país em apoio a Lula",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "PF nega existência de depoimento de Vorcaro sobre Lula",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Flávio Bolsonaro faz ato no Rio ao lado de Douglas Ruas",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Ana Elisa desativa conta no X após sofrer ameaças de morte",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Brasil não será governado por sócios do Banco Master, diz Lula",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
-    },
-    {
-      "titulo": "Começa nesta sexta a propaganda eleitoral gratuita no rádio e na TV",
-      "resumo": "A propaganda eleitoral gratuita no rádio e na televisão para o segundo turno das Eleições 2026 começa nesta sexta-feira (9) e vai até 23 de outubro. \n\nAlém dos candidatos à Presidência da República, terão espaço candidatos ao governo de cin...",
-      "conteudo_completo": "A propaganda eleitoral gratuita no rádio e na televisão para o segundo turno das Eleições 2026 começa nesta sexta-feira (9) e vai até 23 de outubro. \n\nAlém dos candidatos à Presidência da República, terão espaço candidatos ao governo de cinco unidades da Federação e do Distrito Federal que não elegeram seus representantes em primeiro turno.\n\nNotícias relacionadas:TRE-RJ suspende propaganda eleitoral gratuita no RJ até domingo .TSE recebeu mais de 50 mil denúncias de propaganda irregular.No rádio, a propaganda política será veiculada às 7h e ao meio-dia. Na TV, o horário eleitoral vai das 13h às 20h30. As exibições serão divididas em dois blocos diários de dez minutos para cada cargo, sendo divididos de forma igualitária entre os candidatos.\n\nNo caso de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) serão duas inserções para cada candidato em cada veículo, com duração de cinco minutos cada, de segunda-feira a sábado.\n\nJá nos estados do Acre, Amazonas, Espírito Santo, Rio Grande do Norte, Tocantins e Distrito Federal, os candidatos ao cargo de governador terão 5 minutos cada, nos dez minutos depois das propagandas dos candidatos à Presidência.\n\nRio de Janeiro\n\nO estado do Rio de Janeiro não entrou na divisão do tempo após a decisão do Tribunal Superior Eleitoral, nesta quinta-feira (8), de manter a rejeição da candidatura de Anthony Garotinho (Republicanos), anulando os votos do candidato e cancelando o segundo turno no estado.\n\nAs emissoras também reservam 25 minutos diários para inserções de 30 ou 60 segundos, distribuídas de forma igualitária, conforme as regras previstas na legislação eleitoral.\n\nOs candidatos para a Presidência da República ou para um governo estadual terão 12 minutos e 30 segundos diários cada, de segunda-feira a domingo.\n\n&gt;&gt; Clique aqui e confira a tabela completa das inserções neste segundo turno",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A propaganda eleitoral gratuita no rádio e na televisão para o segundo turno das Eleições 2026 começa nesta sexta-feira (9) e vai até 23 de outubro. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1704915&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1704915&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além dos candidatos à Presidência da República, terão espaço candidatos ao governo de cinco unidades da Federação e do Distrito Federal que não elegeram seus representantes em primeiro turno.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>No rádio, a propaganda política será veiculada às 7h e ao meio-dia. Na TV, o horário eleitoral vai das 13h às 20h30. </strong>As exibições serão divididas em dois blocos diários de dez minutos para cada cargo, sendo divididos de forma igualitária entre os candidatos.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No caso de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) serão duas inserções para cada candidato em cada veículo, com duração de cinco minutos cada, de segunda-feira a sábado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Já nos estados do Acre, Amazonas, Espírito Santo, Rio Grande do Norte, Tocantins e Distrito Federal, os candidatos ao cargo de governador terão 5 minutos cada, nos dez minutos depois das propagandas dos candidatos à Presidência.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Rio de Janeiro</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O estado do Rio de Janeiro não entrou na divisão do tempo após a <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-anula-votos-de-garotinho-e-abre-caminho-para-ruas-vencer-governo-do-rio-no-1o-turno\" target=\"_blank\">decisão do Tribunal Superior Eleitoral</a>, nesta quinta-feira (8), de manter a rejeição da candidatura de Anthony Garotinho (Republicanos), anulando os votos do candidato e cancelando o segundo turno no estado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As emissoras também reservam 25 minutos diários para inserções de 30 ou 60 segundos, distribuídas de forma igualitária, conforme as regras previstas na legislação eleitoral.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos para a Presidência da República ou para um governo estadual terão 12 minutos e 30 segundos diários cada, de segunda-feira a domingo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propaganda-eleitoral-gratuita-eleicoes-2026/arquivos/segundo-turno/relatorio-escala-horaria/@@display-file/file/relatorio-escala-hor\" target=\"_blank\">&gt;&gt; Clique aqui e confira a tabela completa das inserções neste segundo turno</a></p>",
-      "imagem": "https://imagens.ebc.com.br/yex5gbK0cErnmQIB1Zc1LiSFbD4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/horario_eleitoral.jpg?itok=NvicCG2A",
-      "slug": "comeca-nesta-sexta-a-propaganda-eleitoral-gratuita-no-radio-e-na-tv",
-      "pagina_local": "comeca-nesta-sexta-a-propaganda-eleitoral-gratuita-no-radio-e-na-tv.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/comeca-nesta-sexta-propaganda-eleitoral-gratuita-no-radio-e-na-tv",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Após retotalização dos votos, Douglas Ruas tem 50,88% dos votos no RJ",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Justiça determina que Vasco e Boca Juniors seja realizada no Maracanã",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "TSE manda suspender site que oferece criptomoedas por apoio a Flávio",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Governo do RJ identifica desvios de R$ 400 milhões na Cedae Saúde",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Edson Fachin manda PF investigar ameaças contra Flávio Dino",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "Justiça derruba decisão que liberou operação de plataforma de apostas",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:15"
     },
     {
       "titulo": "TSE aciona PF após servidores receberem ameaças pelas redes sociais",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "STF: Fachin diz que pretende arquivar inquérito das Fake News",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "MPRJ denuncia mais oito PMs que participaram da Operação Contenção",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Eduardo Bolsonaro consta em lista de pena pendente de cumprimento",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Bets: mais de R$ 1 bilhão foram devolvidos a apostadores",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "10/10/2026 às 23:25"
+      "coletado_em": "11/10/2026 às 05:16"
     }
   ]
 };
