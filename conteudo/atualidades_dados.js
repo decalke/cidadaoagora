@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "11/10/2026 às 12:31:07",
+  "ultima_atualizacao": "11/10/2026 às 17:57:54",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -130,7 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
+    },
+    {
+      "titulo": "Mega-Sena acumula para R$ 150 milhões; confira os números sorteados",
+      "resumo": "Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.069, que foram sorteadas na manhã deste domingo (11) no Espaço da Sorte, na capital paulista. O prêmio acumulou e está estimado em R$ 150 milhões para o próximo ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.069, que foram sorteadas na manhã deste domingo (11) no Espaço da Sorte, na capital paulista. O prêmio acumulou e está estimado em R$ 150 milhões para o próximo sorteio.\n\nOs números sorteados são: 05, 19, 22, 44, 47 e 57.\n\n\n\t150 apostas acertaram cinco dezenas e irão receber R$ 26.095,23 cada\n\t9.096 apostas acertaram quatro dezenas e irão receber R$ 709,33 cada\n\n\nO próximo sorteio ocorrerá na quarta-feira (14). A aposta simples, com seis dezenas, custa R$ 6.</p>",
+      "imagem": "https://imagens.ebc.com.br/P7lxcGm8k6UohJ5Os3uzi8kr8QQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena_mcajr_abr_2904223680.jpg?itok=vZ2eHAv_",
+      "slug": "mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados",
+      "pagina_local": "mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Acidente na BR-393, no RJ, deixa cinco mortos e nove feridos",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "PM do Rio reforça policiamento para o feriado de segunda-feira",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 112 milhões neste domingo",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Belém se prepara para receber o Círio de Nazaré",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Piloto morre após queda de avião em pátio de manutenção do metrô de BH",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "PRF inicia Operação Nossa Senhora Aparecida 2026 nesta sexta",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Caldeira de usina explode e mata dois homens no interior de SP",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 112 milhões; confira os números sorteados",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     },
     {
       "titulo": "Juiz é encontrado morto dentro de veículo em chamas no interior de SP",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
-    },
-    {
-      "titulo": "Reitor da UFPE estima prejuízo de incêndio em cerca R$ 100 milhões",
-      "resumo": "O incêndio que atingiu um prédio no campus Recife da Universidade Federal de Pernambuco (UFPE), na noite desta quarta-feira (7), causou um prejuízo estimado em cerca de R$ 100 milhões, segundo o reitor da instituição, Al...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O incêndio que atingiu um prédio no campus Recife da Universidade Federal de Pernambuco (UFPE), na noite desta quarta-feira (7), causou um prejuízo estimado em cerca de R$ 100 milhões, segundo o reitor da instituição, Alfredo Gomes. A informação foi divulgada em entrevista coletiva na manhã desta quinta-feira (8).\n\nSegundo ele, o prédio afetado pelas chamas acomodava diversos laboratórios de pesquisa em áreas como fármacos, genética e informática, além de dependências de faculdades como a de educação física.\n\n\nNotícias relacionadas:Incêndio causa danos a prédio da Universidade Federal de Pernambuco.PF vai investigar incêndio na Universidade Federal de Pernambuco.“Nós perdemos o andar superior completamente. Estimamos, em termos de equipamentos, insumos e material, de uma maneira geral, algo próximo a R$ 100 milhões [de prejuízo financeiro]”, disse.\n\n\nO reitor disse que agora a universidade fará reuniões com as equipes dos projetos que funcionavam no local para apurar de forma mais precisa esse cálculo.\n\n“Outra grande perda no laboratório foram as pesquisas. Funcionavam ali vários grupos de pesquisa, em torno de 80 dissertações e teses de doutorado. É uma perda irreparável porque são dados de 20 anos de pesquisa que também eram guardados nos espaços”.\n\nTambém será avaliado o quanto o incêndio afetou a estrutura do prédio.\n\n“Mas devemos ter um outro prédio para o funcionamento das unidades e acomodar a pesquisa e os trabalhos que realizavam lá”.\n\nInvestigação\n\nNa manhã desta quinta, a Polícia Federal (PF) informou que vai instaurar inquérito policial para investigar o incêndio. Segundo a PF, o objetivo é “apurar todas as circunstâncias e causas prováveis”.\n\nA PF também informou que já esteve em tratativas com o reitor da universidade e com o comando do Corpo de Bombeiros. Além disso, peritos federais já se deslocaram para a UFPE para examinar o local.\n\nIncêndios em série\n\nEste é o terceiro incêndio em instalações da UFPE em menos de duas semanas. No dia 30 de setembro, chamas atingiram o Laboratório de Óptica Não-Linear do departamento de Física e causaram grande dano à sala.\n\nJá no último domingo (4), houve um  incêndio no Laboratório de Citogenética e Evolução Vegetal, do Centro de Biociências. Segundo a UFPE, os dois incêndios anteriores ficaram restritos às salas onde ocorreram e não deixaram vítimas.\n\n*texto ampliado às 12h40</p>",
-      "imagem": "https://imagens.ebc.com.br/VZvXnxAGaugueuiynmCvhXbtcpM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/whatsapp-image-2026-03-31-at-15.12.38_copy.jpg?itok=tTenreYl",
-      "slug": "reitor-da-ufpe-estima-prejuizo-de-incendio-em-cerca-r-100-milhoes",
-      "pagina_local": "reitor-da-ufpe-estima-prejuizo-de-incendio-em-cerca-r-100-milhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/reitor-da-ufpe-estima-prejuizo-de-incendio-em-cerca-r-100-milhoes",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "11/10/2026 às 12:31"
+      "coletado_em": "11/10/2026 às 17:57"
     }
   ]
 };
