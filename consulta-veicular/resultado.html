@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Veicular | Resultado Prévio</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    params.set('tela', 'resultado');
+    window.location.replace('index.html?' + params.toString());
+  </script>
+</head>
+<body class="bg-slate-50 flex items-center justify-center min-h-screen text-slate-500 text-sm">
+  Carregando resultado prévio do veículo...
+</body>
+</html>

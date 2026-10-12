@@ -145,6 +145,12 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cidadaoagora.com.br/consulta-veicular/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://cidadaoagora.com.br/servicos/conversor-formatos.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>

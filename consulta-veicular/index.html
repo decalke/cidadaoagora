@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Veicular | Histórico Completo de Veículos pela Placa</title>
+  <meta name="description" content="Descubra tudo sobre o veículo antes de comprar. Consulte pela placa débitos, restrições, leilão, sinistros e laudo cautelar por apenas R$ 9,90.">
+  <meta name="keywords" content="consulta veicular, historico veicular, checar placa, leilao pela placa, multas placa, compra segura carro">
+  <link rel="canonical" href="https://cidadaoagora.com.br/consulta-veicular/">
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cobalto: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a'
+            },
+            amarelo: {
+              400: '#facc15',
+              500: '#eab308',
+              600: '#ca8a04'
+            },
+            limao: {
+              50: '#f7fee7',
+              100: '#ecfccb',
+              500: '#84cc16',
+              600: '#65a30d',
+              700: '#4d7c0f'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Analytics 4 & AdSense -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .glass-box {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .scanner-line {
+      background: linear-gradient(90deg, transparent 0%, #3b82f6 50%, transparent 100%);
+      animation: scan 2s ease-in-out infinite alternate;
+    }
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 0.3; }
+      100% { transform: translateY(180px); opacity: 1; }
+    }
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .print-only { display: block !important; }
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-900 antialiased min-h-screen flex flex-col selection:bg-cobalto-100 selection:text-cobalto-800">
+
+  <!-- AVISO SUPERIOR: DADOS DEMONSTRATIVOS (LGPD & COMPLIANCE) -->
+  <div class="bg-cobalto-900 text-slate-300 text-[11px] py-1.5 px-4 text-center border-b border-cobalto-800 flex items-center justify-center gap-2 no-print">
+    <span class="w-2 h-2 rounded-full bg-limao-500 inline-block"></span>
+    <span><strong>Ambiente Seguro:</strong> Plataforma demonstrativa de histórico automotivo em conformidade com as diretrizes da LGPD.</span>
+  </div>
+
+  <!-- CABEÇALHO PRINCIPAL -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
+      
+      <!-- LOGO ABSTRATO "CONSULTA VEICULAR" (Sem marcas ou logos reais) -->
+      <a href="#home" onclick="irParaTela('home')" class="flex items-center gap-2.5 group">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-cobalto-700 flex items-center justify-center text-amarelo-400 shadow-md group-hover:scale-105 transition-transform">
+          <!-- Ícone abstrato de carro com radar -->
+          <svg viewBox="0 0 24 24" class="w-6 h-6 stroke-current fill-none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 3c-.1.2-.1.4-.1.6v4.5c0 .6.4 1 1 1h2"/>
+            <circle cx="7" cy="17" r="2"/>
+            <circle cx="17" cy="17" r="2"/>
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-base sm:text-xl font-black tracking-tight text-cobalto-800 leading-none">
+            Consulta Veicular
+          </span>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 mt-0.5">
+            Histórico & Laudo de Procedência
+          </span>
+        </div>
+      </a>
+
+      <!-- MENU PRINCIPAL DESKTOP -->
+      <nav class="hidden md:flex items-center gap-7 text-xs font-bold text-slate-600">
+        <a href="#beneficios" onclick="irParaTela('home'); scrollToId('beneficios')" class="hover:text-cobalto-700 transition-colors">Benefícios</a>
+        <a href="#como-funciona" onclick="irParaTela('home'); scrollToId('como-funciona')" class="hover:text-cobalto-700 transition-colors">Como funciona</a>
+        <a href="#perguntas" onclick="irParaTela('home'); scrollToId('perguntas')" class="hover:text-cobalto-700 transition-colors">Perguntas</a>
+      </nav>
+
+      <!-- BOTÃO ACESSAR (DESTAQUE AMARELO) -->
+      <div class="flex items-center gap-2">
+        <button 
+          type="button" 
+          onclick="focarConsulta()" 
+          class="bg-amarelo-400 hover:bg-amarelo-500 active:bg-amarelo-600 text-slate-900 font-extrabold text-xs sm:text-sm px-4 py-2 sm:px-5 sm:py-2.5 rounded-full shadow-sm hover:shadow transition-all flex items-center gap-1.5 touch-target"
+        >
+          <i data-lucide="shield-check" class="w-4 h-4 text-slate-900"></i>
+          <span>Acessar</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- CONTROLADOR CENTRAL DE TELAS / NAVEGADOR DE ESTADOS -->
+  <main class="flex-1 flex flex-col">
+
+    <!-- ========================================== -->
+    <!-- 1. TELA: PÁGINA INICIAL (HOME)            -->
+    <!-- ========================================== -->
+    <section id="tela-home" class="view-panel block space-y-12 sm:space-y-16">
+      
+      <!-- HERO PRINCIPAL -->
+      <div class="relative overflow-hidden pt-8 pb-14 sm:pt-14 sm:pb-20 bg-gradient-to-b from-blue-50/60 via-white to-[#F8FAFC]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+            
+            <!-- Coluna Esquerda: Texto + Card de Consulta -->
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+              
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-100 text-cobalto-800 text-xs font-bold border border-blue-200">
+                <span class="w-2 h-2 rounded-full bg-limao-500"></span>
+                <span>Dados de Procedência & Laudo Cautelar Automotivo</span>
+              </div>
+
+              <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-cobalto-900 tracking-tight leading-[1.12]">
+                Descubra tudo <br class="hidden sm:inline">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cobalto-700 via-cobalto-600 to-blue-600">antes de comprar</span>
+              </h1>
+
+              <p class="text-sm sm:text-lg text-slate-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                Consulte a placa e receba informações importantes para negociar com mais segurança.
+              </p>
+
+              <!-- CARD DE CONSULTA PRINCIPAL -->
+              <div id="card-consulta-hero" class="bg-white rounded-3xl p-5 sm:p-7 border border-slate-200 shadow-xl max-w-lg mx-auto lg:mx-0 space-y-5">
+                
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-black uppercase tracking-wider text-cobalto-800 flex items-center gap-1.5">
+                    <i data-lucide="search" class="w-4 h-4 text-cobalto-600"></i>
+                    Consulte pela placa
+                  </span>
+                  <span class="text-[11px] font-bold text-limao-700 bg-limao-50 px-2.5 py-1 rounded-full border border-limao-200">
+                    Relatório em instantes
+                  </span>
+                </div>
+
+                <!-- FORMULÁRIO DE CONSULTA DA PLACA -->
+                <form id="form-hero-consulta" onsubmit="iniciarConsulta(event)" class="space-y-4">
+                  
+                  <!-- Mockup de Placa Mercosul com Input Centralizado -->
+                  <div class="relative max-w-xs sm:max-w-sm mx-auto">
+                    <div class="w-full bg-white border-[3px] border-slate-900 rounded-2xl shadow-md overflow-hidden text-center transition-all focus-within:ring-4 focus-within:ring-blue-500/20 focus-within:border-cobalto-600">
+                      
+                      <!-- Tarja Azul Oficial com Faixa Mercosul -->
+                      <div class="bg-[#003399] text-white px-3 py-1.5 flex items-center justify-between font-sans select-none">
+                        <div class="flex items-center gap-1.5">
+                          <span class="w-2.5 h-2.5 rounded-full bg-amarelo-400 inline-block"></span>
+                          <span class="text-[10px] font-black tracking-widest uppercase">BRASIL</span>
+                        </div>
+                        <span class="text-[9px] font-extrabold tracking-wider opacity-90">MERCOSUL</span>
+                      </div>
+
+                      <!-- Input com Máscara e Autofoco -->
+                      <div class="py-2.5 px-3 bg-white">
+                        <input 
+                          type="text" 
+                          id="input-placa-home" 
+                          maxlength="8" 
+                          placeholder="ABC1D23" 
+                          autocomplete="off" 
+                          spellcheck="false"
+                          class="w-full font-mono text-3xl sm:text-4xl font-black text-slate-900 tracking-[0.2em] uppercase text-center bg-transparent border-0 outline-none placeholder:text-slate-300"
+                          aria-label="Digite a placa do veículo para consulta"
+                          required
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- BOTÃO PRINCIPAL (AMARELO VIVO) + DESTAQUE DE PREÇO -->
+                  <div class="flex flex-col sm:flex-row items-center gap-3">
+                    
+                    <div class="w-full sm:w-auto bg-blue-50 border border-blue-200 rounded-xl px-3.5 py-2.5 text-center flex items-center justify-center gap-1.5 shrink-0">
+                      <i data-lucide="tag" class="w-4 h-4 text-cobalto-700"></i>
+                      <span class="text-xs text-cobalto-900 font-medium">Relatório completo a partir de</span>
+                      <strong class="text-xs font-black text-cobalto-800">R$ 9,90</strong>
+                    </div>
+
+                    <button 
+                      type="submit" 
+                      class="w-full sm:flex-1 bg-amarelo-400 hover:bg-amarelo-500 active:bg-amarelo-600 text-slate-950 font-black text-sm py-3 px-6 rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 touch-target"
+                    >
+                      <span>Consultar agora</span>
+                      <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </button>
+                  </div>
+
+                  <div id="msg-erro-home" class="hidden text-xs text-rose-700 bg-rose-50 border border-rose-200 p-2.5 rounded-xl font-medium text-center"></div>
+
+                </form>
+
+                <!-- Atalhos com Exemplos Populares -->
+                <div class="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-center lg:justify-start gap-1.5 text-xs text-slate-500">
+                  <span class="text-[10px] font-bold uppercase text-slate-400 mr-1">Exemplos rápidos:</span>
+                  <button type="button" onclick="preencherExemplo('ABC1D23')" class="px-2 py-0.5 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-cobalto-700 font-mono text-[11px]">ABC1D23</button>
+                  <button type="button" onclick="preencherExemplo('RLP5H69')" class="px-2 py-0.5 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-cobalto-700 font-mono text-[11px]">RLP5H69</button>
+                  <button type="button" onclick="preencherExemplo('XYZ9K88')" class="px-2 py-0.5 rounded-md bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-cobalto-700 font-mono text-[11px]">XYZ9K88</button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Coluna Direita: Imagem do Carro Vermelho Moderno + Preview Elegante de Relatório -->
+            <div class="lg:col-span-5 relative flex items-center justify-center">
+              
+              <div class="relative w-full max-w-lg">
+                
+                <!-- Preview Elegante de Relatório Flutuante -->
+                <div class="glass-box rounded-3xl p-5 shadow-xl mb-4 sm:mb-6 border border-white/80 space-y-3 relative z-20">
+                  
+                  <div class="flex items-center justify-between border-b border-slate-100 pb-2.5">
+                    <div class="flex items-center gap-2">
+                      <div class="w-8 h-8 rounded-lg bg-blue-100 text-cobalto-700 flex items-center justify-center">
+                        <i data-lucide="file-check-2" class="w-4 h-4"></i>
+                      </div>
+                      <div>
+                        <h3 class="text-xs font-black text-slate-900">Histórico completo</h3>
+                        <p class="text-[10px] text-slate-500">Auditoria preliminar</p>
+                      </div>
+                    </div>
+
+                    <span class="inline-flex items-center gap-1 text-[11px] font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200">
+                      <i data-lucide="check" class="w-3 h-3 text-limao-600 stroke-[3]"></i>
+                      Sem restrições
+                    </span>
+                  </div>
+
+                  <!-- 6 Itens de Diagnóstico Rápido -->
+                  <div class="grid grid-cols-2 gap-2 text-xs">
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Situação do veículo</span>
+                      <strong class="text-xs font-bold text-limao-700 flex items-center gap-1 mt-0.5">
+                        <span class="w-1.5 h-1.5 rounded-full bg-limao-500"></span> Regular
+                      </strong>
+                    </div>
+
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Proprietários</span>
+                      <strong class="text-xs font-bold text-slate-800 block mt-0.5">1 registro</strong>
+                    </div>
+
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Sinistros</span>
+                      <span class="text-[11px] font-bold text-limao-700 bg-limao-100/70 px-1.5 py-0.2 rounded mt-0.5 inline-block">Nada consta</span>
+                    </div>
+
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Passagens por leilão</span>
+                      <span class="text-[11px] font-bold text-limao-700 bg-limao-100/70 px-1.5 py-0.2 rounded mt-0.5 inline-block">Nada consta</span>
+                    </div>
+
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Quilometragem</span>
+                      <span class="text-xs font-bold text-cobalto-700 block mt-0.5">Auditorada</span>
+                    </div>
+
+                    <div class="bg-slate-50 p-2 rounded-xl border border-slate-200/70">
+                      <span class="text-[10px] text-slate-500 block">Débitos</span>
+                      <span class="text-[11px] font-bold text-limao-700 bg-limao-100/70 px-1.5 py-0.2 rounded mt-0.5 inline-block">Nada consta</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Foto do Carro Vermelho Moderno SUV -->
+                <div class="relative z-10 flex items-center justify-center">
+                  <img 
+                    src="../img/hero-carro-suv-vermelho.jpg" 
+                    alt="Carro vermelho moderno para consulta de procedência" 
+                    class="w-full max-w-md object-contain drop-shadow-2xl rounded-2xl transform hover:scale-[1.02] transition-transform duration-300"
+                    loading="eager"
+                  >
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- FAIXA DE BENEFÍCIOS (Três Pilares Essenciais) -->
+          <div id="beneficios" class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 sm:pt-14">
+            
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 text-cobalto-700 flex items-center justify-center shrink-0">
+                <i data-lucide="file-text" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Histórico completo</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Informações claras e confiáveis sobre o veículo antes de negociar.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+                <i data-lucide="shield-check" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Compra mais segura</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Evite surpresas indesejadas e faça um negócio muito mais tranquilo.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs flex items-center gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-limao-50 text-limao-700 flex items-center justify-center shrink-0">
+                <i data-lucide="zap" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Dados em poucos minutos</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Receba seu laudo na tela do computador ou celular sem complicação.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SEÇÃO: O QUE VOCÊ CONSULTA? (9 Cards Requisitados) -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
+        
+        <div class="text-center max-w-2xl mx-auto space-y-2">
+          <span class="text-xs font-bold text-cobalto-700 bg-blue-50 px-3 py-1 rounded-full uppercase tracking-wider">
+            Cobertura Completa
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-black text-cobalto-900">
+            O que você consulta?
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-600">
+            Verificamos os 9 pontos fundamentais para você não cair em golpes nem assumir dívidas alheias:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          
+          <!-- Card 1 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">1. Situação do Veículo</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Confirmação de dados cadastrais, ano de fabricação, modelo, cor e município de registro.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="banknote" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">2. Débitos & Multas</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Verificação de multas em aberto, IPVA em atraso, taxa de licenciamento e débitos estaduais.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="scale" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">3. Restrições</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Bloqueios administrativos, tributários ou restrições judiciais que impedem a transferência.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="gavel" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">4. Passagem por Leilão</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Histórico em leiloeiros oficiais, leilões de seguradoras, bancos e recuperados de financiamento.
+            </p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="alert-octagon" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">5. Histórico de Sinistro</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Apontamentos de colisão grave, indenizações de seguradoras e indicativo de perda total.
+            </p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="alert-triangle" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">6. Recall Pendente</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Campanhas de segurança abertas pelo fabricante para troca de peças defeituosas.
+            </p>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="shield-alert" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">7. Roubo & Furto</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Consulta a alertas policiais ativos para evitar negociação de veículos ilícitos.
+            </p>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="gauge" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">8. Quilometragem</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Registros históricos de hodômetro anotados em vistorias prévias para detectar adulterações.
+            </p>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-2.5">
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-cobalto-700 flex items-center justify-center">
+              <i data-lucide="lock" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm font-bold text-slate-900">9. Gravame & Financiamento</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Identificação de alienação fiduciária, arrendamento ou reserva de domínio ativa no veículo.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SEÇÃO: COMO FUNCIONA EM 3 PASSOS -->
+      <section id="como-funciona" class="py-12 sm:py-16 bg-white border-t border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
+          
+          <div class="text-center max-w-2xl mx-auto space-y-2">
+            <span class="text-xs font-bold text-cobalto-700 bg-blue-50 px-3 py-1 rounded-full uppercase tracking-wider">
+              Simples & Rápido
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-black text-cobalto-900">
+              Como funciona
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-600">
+              O processo leva menos de 1 minuto em apenas três passos descomplicados:
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-cobalto-700 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+                1
+              </div>
+              <h3 class="text-base font-bold text-slate-900">Informe a placa</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Digite a placa do carro desejado no padrão Mercosul ou cinza antigo.
+              </p>
+            </div>
+
+            <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-amarelo-400 text-slate-950 font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+                2
+              </div>
+              <h3 class="text-base font-bold text-slate-900">Escolha o relatório</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Confira o resultado prévio e confirme o desbloqueio por uma taxa de R$ 9,90.
+              </p>
+            </div>
+
+            <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 text-center space-y-3">
+              <div class="w-12 h-12 rounded-full bg-limao-600 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+                3
+              </div>
+              <h3 class="text-base font-bold text-slate-900">Receba os dados</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Acesse o laudo completo na hora e negocie com segurança e poder de barganha.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SEÇÃO FAQ (PERGUNTAS FREQUENTES) -->
+      <section id="perguntas" class="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
+        
+        <div class="text-center space-y-2">
+          <span class="text-xs font-bold text-cobalto-700 bg-blue-50 px-3 py-1 rounded-full uppercase tracking-wider">
+            Tire suas dúvidas
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-black text-cobalto-900">
+            Perguntas frequentes
+          </h2>
+        </div>
+
+        <div class="space-y-3 text-xs sm:text-sm">
+          
+          <details class="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs group cursor-pointer">
+            <summary class="font-bold text-slate-900 flex items-center justify-between list-none">
+              <span>Preciso de documento ou RENAVAM para consultar?</span>
+              <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+            </summary>
+            <p class="text-slate-600 mt-3 leading-relaxed">
+              Não. Apenas a placa do veículo é necessária para iniciar a consulta e checar os registros preliminares.
+            </p>
+          </details>
+
+          <details class="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs group cursor-pointer">
+            <summary class="font-bold text-slate-900 flex items-center justify-between list-none">
+              <span>O relatório pode ser impresso ou compartilhado?</span>
+              <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+            </summary>
+            <p class="text-slate-600 mt-3 leading-relaxed">
+              Sim. A tela de relatório conta com ferramenta nativa para exportar em PDF ou imprimir na hora, perfeito para apresentar ao vendedor ou comprador.
+            </p>
+          </details>
+
+          <details class="bg-white p-5 rounded-2xl border border-slate-200 shadow-2xs group cursor-pointer">
+            <summary class="font-bold text-slate-900 flex items-center justify-between list-none">
+              <span>Existe cobrança de assinatura ou mensalidade?</span>
+              <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+            </summary>
+            <p class="text-slate-600 mt-3 leading-relaxed">
+              Não. O pagamento é único por consulta (R$ 9,90) sem planos automáticos ou surpresas na fatura.
+            </p>
+          </details>
+
+        </div>
+
+      </section>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- 2. TELA: TELA DE CONSULTA (LOADING MODERNO)-->
+    <!-- ========================================== -->
+    <section id="tela-consulta" class="view-panel hidden py-12 sm:py-20 px-4">
+      <div class="max-w-lg mx-auto bg-white rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-2xl text-center space-y-6">
+        
+        <!-- Placa no Topo -->
+        <div class="inline-block bg-slate-900 text-white font-mono text-xl sm:text-2xl font-black px-5 py-2 rounded-xl tracking-widest uppercase border border-slate-700 shadow-inner">
+          <span id="loading-placa-texto">ABC1D23</span>
+        </div>
+
+        <!-- Animação Sofisticada de Radar / Busca -->
+        <div class="relative w-36 h-36 mx-auto flex items-center justify-center">
+          <div class="absolute inset-0 rounded-full border-4 border-blue-100 animate-ping opacity-60"></div>
+          <div class="absolute inset-2 rounded-full border-2 border-cobalto-500 animate-spin border-t-transparent"></div>
+          <div class="w-24 h-24 rounded-full bg-blue-50 text-cobalto-700 flex items-center justify-center shadow-inner relative z-10">
+            <i data-lucide="radar" class="w-10 h-10 animate-pulse"></i>
+          </div>
+        </div>
+
+        <!-- Mensagens de Carregamento -->
+        <div class="space-y-2">
+          <h2 class="text-lg sm:text-xl font-black text-cobalto-900">
+            Estamos consultando as fontes disponíveis para este veículo
+          </h2>
+          <p id="loading-status-msg" class="text-xs text-slate-500 min-h-[36px]">
+            Conectando aos registros cadastrais e bases de leilões...
+          </p>
+        </div>
+
+        <!-- Barra de Progresso Suave -->
+        <div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden">
+          <div id="loading-progress-bar" class="bg-cobalto-600 h-full w-1/4 transition-all duration-300"></div>
+        </div>
+
+        <!-- Aviso Demonstrativo -->
+        <div class="pt-2 text-[11px] text-slate-400">
+          <span>Ambiente de Demonstração Interativo • Consulta simulada com alta fidelidade</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- 3. TELA: RESULTADO PRÉVIO COM BLOQUEIOS   -->
+    <!-- ========================================== -->
+    <section id="tela-resultado" class="view-panel hidden py-8 sm:py-14 px-4 max-w-4xl mx-auto space-y-8">
+      
+      <!-- Cabeçalho do Resultado -->
+      <div class="text-center space-y-2">
+        <span class="text-xs font-bold text-limao-700 bg-limao-50 px-3 py-1 rounded-full uppercase tracking-wider border border-limao-200">
+          Veículo Encontrado
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-cobalto-900">
+          Seu relatório está pronto
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-600">
+          Confirmamos o cadastro do veículo. Desbloqueie o laudo completo para visualizar os detalhes confidenciais.
+        </p>
+      </div>
+
+      <!-- Card do Veículo Encontrado (Com Foto Genérica e Placa Ocultada) -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-lg space-y-6">
+        
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          
+          <!-- Foto do Carro -->
+          <div class="md:col-span-5 flex items-center justify-center bg-slate-50 rounded-2xl p-4 border border-slate-200">
+            <img 
+              id="previo-carro-img" 
+              src="../img/hero-carro-suv-vermelho.jpg" 
+              alt="Veículo localizado" 
+              class="w-full max-h-44 object-contain rounded-xl"
+            >
+          </div>
+
+          <!-- Dados do Veículo com Marca/Modelo Fictícios -->
+          <div class="md:col-span-7 space-y-3">
+            
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold uppercase tracking-wider text-cobalto-700" id="previo-marca">Veloce Motors</span>
+              <span class="text-xs font-mono font-bold bg-slate-900 text-white px-2.5 py-1 rounded-lg" id="previo-placa-oculta">ABC1 • *23</span>
+            </div>
+
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900" id="previo-modelo">
+              Strada Cross 1.0 Turbo Flex
+            </h3>
+
+            <div class="grid grid-cols-3 gap-2 text-xs pt-1">
+              <div class="bg-slate-50 p-2 rounded-xl border border-slate-200">
+                <span class="text-[10px] text-slate-400 block">Ano</span>
+                <strong id="previo-ano" class="text-xs text-slate-800">2023 / 2024</strong>
+              </div>
+              <div class="bg-slate-50 p-2 rounded-xl border border-slate-200">
+                <span class="text-[10px] text-slate-400 block">Cor</span>
+                <strong id="previo-cor" class="text-xs text-slate-800">Vermelho</strong>
+              </div>
+              <div class="bg-slate-50 p-2 rounded-xl border border-slate-200">
+                <span class="text-[10px] text-slate-400 block">Status Geral</span>
+                <strong class="text-xs text-limao-700 font-bold">Verificado</strong>
+              </div>
+            </div>
+
+            <div class="bg-blue-50 p-3 rounded-xl border border-blue-200 flex items-center justify-between text-xs">
+              <span class="text-cobalto-900 font-medium">Cotação FIPE de Referência:</span>
+              <strong id="previo-fipe" class="font-black text-cobalto-800 text-sm">R$ 89.400,00</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARDS BLOQUEADOS (Destaques confidenciais com cadeado 🔒) -->
+      <div class="space-y-4">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500">
+          Informações confidenciais prontas para liberação:
+        </h4>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3.5">
+          
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Passagem por Leilão</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">NADA CONSTA EM BASE</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Histórico de Sinistros</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">INDENIZACAO SEGURADORA</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Débitos & Multas Estaduais</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">IPVA E LICENCIAMENTO</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Gravame & Alienação</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">SNG ALIENACAO FIDUCIARIA</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Restrições Renajud</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">BLOQUEIO JUDICIAL NENHUM</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-2xs flex items-center justify-between">
+            <div class="space-y-1">
+              <span class="text-xs font-bold text-slate-800 block">Quilometragem Auditada</span>
+              <span class="filter blur-xs select-none text-[11px] text-slate-400 block">28400 KM VERIFICADOS</span>
+            </div>
+            <i data-lucide="lock" class="w-5 h-5 text-amarelo-500"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BOTÃO DE CONVERSÃO PRINCIPAL -->
+      <div class="bg-cobalto-900 rounded-3xl p-6 sm:p-8 text-white text-center sm:text-left flex flex-col sm:flex-row sm:items-center justify-between gap-6 shadow-xl">
+        <div class="space-y-1">
+          <span class="text-xs font-bold text-amarelo-400 uppercase tracking-wider block">Liberação Instantânea</span>
+          <h3 class="text-xl sm:text-2xl font-black text-white">Desbloqueie o relatório completo agora</h3>
+          <p class="text-xs text-slate-300">Receba acesso imediato na tela e laudo em PDF para download.</p>
+        </div>
+
+        <button 
+          type="button" 
+          onclick="irParaPagamento()" 
+          class="bg-amarelo-400 hover:bg-amarelo-500 active:bg-amarelo-600 text-slate-950 font-black text-base py-4 px-8 rounded-2xl shadow-lg transition-transform hover:scale-105 shrink-0 touch-target"
+        >
+          Desbloquear relatório por R$ 9,90
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- 4. TELA: TELA DE PAGAMENTO (CHECKOUT)     -->
+    <!-- ========================================== -->
+    <section id="tela-pagamento" class="view-panel hidden py-8 sm:py-14 px-4 max-w-xl mx-auto space-y-6">
+      
+      <div class="text-center space-y-1">
+        <span class="text-xs font-bold text-cobalto-700 bg-blue-50 px-3 py-1 rounded-full uppercase tracking-wider">
+          Checkout Seguro
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-black text-cobalto-900">
+          Concluir Desbloqueio
+        </h2>
+      </div>
+
+      <!-- Resumo do Pedido -->
+      <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm space-y-4">
+        
+        <h3 class="text-xs font-black uppercase tracking-wider text-slate-500">Resumo do pedido</h3>
+        
+        <div class="flex items-center justify-between pb-3 border-b border-slate-100 text-xs">
+          <div>
+            <strong class="text-slate-900 text-sm block" id="checkout-veiculo-nome">Veloce Strada Cross</strong>
+            <span class="text-slate-500 font-mono" id="checkout-placa-txt">ABC1D23</span>
+          </div>
+          <span class="text-xs font-bold text-limao-700 bg-limao-50 px-2 py-0.5 rounded-md border border-limao-200">Pronto</span>
+        </div>
+
+        <div class="flex items-center justify-between text-sm pt-1">
+          <span class="text-slate-600">Total a pagar:</span>
+          <strong class="text-2xl font-black text-cobalto-800">R$ 9,90</strong>
+        </div>
+
+      </div>
+
+      <!-- Opções Visuais para Pix e Cartão (SEM LOGOS REAIS) -->
+      <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm space-y-5">
+        
+        <label class="text-xs font-black uppercase tracking-wider text-slate-500 block">Forma de pagamento</label>
+
+        <div class="grid grid-cols-2 gap-3 text-xs font-bold">
+          
+          <button 
+            type="button" 
+            id="btn-metodo-pix" 
+            onclick="selecionarMetodo('pix')" 
+            class="p-4 rounded-2xl border-2 border-cobalto-600 bg-blue-50/50 text-cobalto-800 flex flex-col items-center gap-2 transition-all"
+          >
+            <!-- Ícone abstrato de chave/QR -->
+            <svg viewBox="0 0 24 24" class="w-6 h-6 stroke-current fill-none" stroke-width="2">
+              <rect x="3" y="3" width="7" height="7"/>
+              <rect x="14" y="3" width="7" height="7"/>
+              <rect x="14" y="14" width="7" height="7"/>
+              <rect x="3" y="14" width="7" height="7"/>
+            </svg>
+            <span>PIX Instantâneo</span>
+          </button>
+
+          <button 
+            type="button" 
+            id="btn-metodo-cartao" 
+            onclick="selecionarMetodo('cartao')" 
+            class="p-4 rounded-2xl border border-slate-200 hover:border-slate-300 text-slate-600 flex flex-col items-center gap-2 transition-all"
+          >
+            <!-- Ícone abstrato de cartão de crédito -->
+            <svg viewBox="0 0 24 24" class="w-6 h-6 stroke-current fill-none" stroke-width="2">
+              <rect x="2" y="5" width="20" height="14" rx="2"/>
+              <line x1="2" y1="10" x2="22" y2="10"/>
+            </svg>
+            <span>Cartão de Crédito</span>
+          </button>
+
+        </div>
+
+        <!-- Painel Pix -->
+        <div id="painel-pix" class="space-y-4 pt-2">
+          
+          <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-center space-y-2">
+            <!-- QR Code Abstrato em SVG Puro -->
+            <div class="w-32 h-32 bg-white p-2 rounded-xl mx-auto border border-slate-200 shadow-2xs flex items-center justify-center">
+              <svg viewBox="0 0 100 100" class="w-full h-full text-slate-900" fill="currentColor">
+                <rect width="28" height="28" x="6" y="6"/><rect width="20" height="20" x="10" y="10" fill="#fff"/><rect width="12" height="12" x="14" y="14"/>
+                <rect width="28" height="28" x="66" y="6"/><rect width="20" height="20" x="70" y="10" fill="#fff"/><rect width="12" height="12" x="74" y="14"/>
+                <rect width="28" height="28" x="6" y="66"/><rect width="20" height="20" x="10" y="70" fill="#fff"/><rect width="12" height="12" x="14" y="74"/>
+                <rect x="42" y="8" width="6" height="6"/><rect x="52" y="14" width="8" height="6"/><rect x="40" y="38" width="12" height="8"/><rect x="66" y="44" width="6" height="6"/><rect x="42" y="64" width="8" height="6"/><rect x="60" y="72" width="12" height="8"/>
+              </svg>
+            </div>
+            <p class="text-xs text-slate-600">Aponte a câmera do aplicativo do seu banco para o código.</p>
+          </div>
+
+          <div class="space-y-1">
+            <span class="text-[11px] font-bold text-slate-500">Chave Pix Copia e Cola:</span>
+            <div class="flex gap-2">
+              <input 
+                type="text" 
+                readonly 
+                value="00020126580014br.gov.bcb.pix0136consultaveicular-pix-demo52040000530398654059.905802BR" 
+                class="w-full text-xs font-mono bg-slate-100 p-2.5 rounded-xl border border-slate-200 text-slate-600 select-all"
+              >
+              <button type="button" onclick="copiarPixDemo(this)" class="bg-cobalto-700 hover:bg-cobalto-800 text-white font-bold text-xs px-3.5 rounded-xl shrink-0">Copiar</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Painel Cartão -->
+        <div id="painel-cartao" class="hidden space-y-3 pt-2 text-xs">
+          <div>
+            <label class="font-bold text-slate-700 block mb-1">Número do cartão</label>
+            <input type="text" placeholder="0000 0000 0000 0000" maxlength="19" class="w-full p-2.5 rounded-xl border border-slate-200 font-mono">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="font-bold text-slate-700 block mb-1">Validade</label>
+              <input type="text" placeholder="MM/AA" maxlength="5" class="w-full p-2.5 rounded-xl border border-slate-200 font-mono text-center">
+            </div>
+            <div>
+              <label class="font-bold text-slate-700 block mb-1">Código CVV</label>
+              <input type="text" placeholder="123" maxlength="4" class="w-full p-2.5 rounded-xl border border-slate-200 font-mono text-center">
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTÃO DE CONFIRMAÇÃO DO CHECKOUT -->
+        <button 
+          type="button" 
+          onclick="confirmarPagamentoESeguir()" 
+          class="w-full bg-amarelo-400 hover:bg-amarelo-500 active:bg-amarelo-600 text-slate-950 font-black text-sm py-4 rounded-2xl shadow-md transition-all flex items-center justify-center gap-2 touch-target"
+        >
+          <span>Confirmar pagamento e ver relatório</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+
+      </div>
+
+      <!-- Selo Visual: Ambiente Seguro -->
+      <div class="bg-blue-50/70 p-4 rounded-2xl border border-blue-200 flex items-center justify-center gap-2 text-xs text-cobalto-800 font-bold">
+        <i data-lucide="shield-check" class="w-4 h-4 text-cobalto-700"></i>
+        <span>Ambiente seguro • Criptografia ativa de ponta a ponta</span>
+      </div>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- 5. TELA: RELATÓRIO COMPLETO               -->
+    <!-- ========================================== -->
+    <section id="tela-relatorio" class="view-panel hidden py-8 sm:py-14 px-4 max-w-5xl mx-auto space-y-8">
+      
+      <!-- Barra de Ações do Relatório (Exportar / Imprimir) -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200 no-print">
+        <div>
+          <span class="text-xs font-bold text-limao-700 bg-limao-50 px-3 py-1 rounded-full uppercase tracking-wider border border-limao-200">
+            Laudo Desbloqueado com Sucesso
+          </span>
+          <h2 class="text-xl sm:text-3xl font-black text-cobalto-900 mt-1">
+            Relatório de Procedência Veicular
+          </h2>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button 
+            type="button" 
+            onclick="window.print()" 
+            class="bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-bold text-xs px-4 py-2.5 rounded-xl transition-all flex items-center gap-1.5 touch-target"
+          >
+            <i data-lucide="printer" class="w-4 h-4"></i>
+            <span>Imprimir / Salvar PDF</span>
+          </button>
+          
+          <button 
+            type="button" 
+            onclick="irParaTela('home')" 
+            class="bg-cobalto-700 hover:bg-cobalto-800 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition-all touch-target"
+          >
+            Nova consulta
+          </button>
+        </div>
+      </div>
+
+      <!-- CABEÇALHO DO LAUDO COM RESUMO DO VEÍCULO & INDICADOR DE RISCO -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-md space-y-6">
+        
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-slate-100">
+          
+          <!-- Identificação -->
+          <div class="space-y-1">
+            <span class="text-xs font-bold uppercase tracking-wider text-cobalto-700" id="relatorio-marca">Veloce Motors</span>
+            <h3 class="text-2xl sm:text-3xl font-black text-slate-900" id="relatorio-modelo">Strada Cross 1.0 Turbo Flex</h3>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs text-slate-600">
+              <span class="font-mono font-bold bg-slate-900 text-white px-2 py-0.5 rounded-md" id="relatorio-placa">ABC1D23</span>
+              <span id="relatorio-ano-cor">Ano: 2023/2024 • Vermelho Carmim</span>
+              <span>•</span>
+              <span id="relatorio-data-emissao">Emitido em: 11/10/2026</span>
+            </div>
+          </div>
+
+          <!-- INDICADOR GERAL DE RISCO (Baixo, Médio ou Alto) -->
+          <div id="relatorio-risco-box" class="bg-limao-50 border-2 border-limao-500 p-4 rounded-2xl flex items-center gap-3.5 shrink-0">
+            <div class="w-12 h-12 rounded-xl bg-limao-500 text-white flex items-center justify-center font-black text-xl">
+              <i data-lucide="shield-check" class="w-7 h-7"></i>
+            </div>
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 block">Indicador Geral de Risco</span>
+              <strong id="relatorio-risco-texto" class="text-lg font-black text-limao-700 block">Baixo Risco (96/100)</strong>
+              <span class="text-[11px] text-slate-600">Recomendado para Negociação</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Grade de Especificações Técnicas -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Combustível</span>
+            <strong id="relatorio-combustivel" class="text-xs text-slate-800">Flex</strong>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Cotação FIPE</span>
+            <strong id="relatorio-fipe" class="text-xs text-cobalto-700 font-black">R$ 89.400,00</strong>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Quilometragem Auditada</span>
+            <strong id="relatorio-km" class="text-xs text-slate-800">28.400 km</strong>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Proprietários Anteriores</span>
+            <strong id="relatorio-proprietarios" class="text-xs text-slate-800">1 registro</strong>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SEÇÕES ORGANIZADAS EM CARDS (Dados do Veículo, Histórico, Débitos, Leilão, etc.) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        
+        <!-- CARD: LEILÃO & APREENSÃO -->
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-xs space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <i data-lucide="gavel" class="w-5 h-5 text-cobalto-700"></i>
+              <h4 class="text-sm font-bold text-slate-900">Passagem por Leilão</h4>
+            </div>
+            <span id="badge-status-leilao" class="text-xs font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200">
+              Nada Consta
+            </span>
+          </div>
+          <p id="detalhe-leilao" class="text-xs text-slate-600 leading-relaxed">
+            Não foram encontradas passagens por leilões de seguradoras, financeiras ou órgãos estaduais.
+          </p>
+        </div>
+
+        <!-- CARD: SINISTRO & PERDA TOTAL -->
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-xs space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <i data-lucide="alert-octagon" class="w-5 h-5 text-cobalto-700"></i>
+              <h4 class="text-sm font-bold text-slate-900">Histórico de Sinistro</h4>
+            </div>
+            <span class="text-xs font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200">
+              Nada Consta
+            </span>
+          </div>
+          <p id="detalhe-sinistro" class="text-xs text-slate-600 leading-relaxed">
+            Veículo sem registro de indenização integral ou danos estruturais. Aceitação regular em seguradoras.
+          </p>
+        </div>
+
+        <!-- CARD: DÉBITOS & MULTAS -->
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-xs space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <i data-lucide="banknote" class="w-5 h-5 text-cobalto-700"></i>
+              <h4 class="text-sm font-bold text-slate-900">Débitos & Multas</h4>
+            </div>
+            <span id="badge-status-debitos" class="text-xs font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200">
+              Quitado
+            </span>
+          </div>
+          <p id="detalhe-debitos" class="text-xs text-slate-600 leading-relaxed">
+            IPVA, taxa de licenciamento e multas estaduais devidamente liquidados e em dia.
+          </p>
+        </div>
+
+        <!-- CARD: GRAVAME & RESTRIÇÕES -->
+        <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-xs space-y-3">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <i data-lucide="lock" class="w-5 h-5 text-cobalto-700"></i>
+              <h4 class="text-sm font-bold text-slate-900">Gravame & Restrições Judiciais</h4>
+            </div>
+            <span class="text-xs font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200">
+              Sem Bloqueios
+            </span>
+          </div>
+          <p id="detalhe-gravame" class="text-xs text-slate-600 leading-relaxed">
+            Sem restrições no Renajud e sem alienação fiduciária ativa no Sistema Nacional de Gravames (SNG).
+          </p>
+        </div>
+
+      </div>
+
+      <!-- TIMELINE DE EVENTOS HISTÓRICOS -->
+      <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-xs space-y-6">
+        
+        <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+          <div class="flex items-center gap-2">
+            <i data-lucide="clock" class="w-5 h-5 text-cobalto-700"></i>
+            <h4 class="text-sm font-bold text-slate-900">Timeline de Eventos Históricos</h4>
+          </div>
+          <span class="text-[11px] text-slate-500 font-medium">Ordem Cronológica</span>
+        </div>
+
+        <div id="relatorio-timeline-container" class="space-y-4 pl-2 border-l-2 border-blue-100 text-xs">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+
+      </div>
+
+      <!-- AVISO LEGAL: DADOS DEMONSTRATIVOS -->
+      <div class="bg-slate-100 p-4 rounded-2xl border border-slate-200 text-center text-[11px] text-slate-500 space-y-1">
+        <p><strong>Nota Informativa:</strong> Este laudo foi gerado no ambiente demonstrativo do Consulta Veicular para fins de exibição e teste de usabilidade. Dados simulados com base nas melhores práticas do mercado automotivo.</p>
+        <p>Código do Laudo: <span id="relatorio-codigo-laudo" class="font-mono text-slate-700 font-bold"></span></p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL (LINKS, TERMOS E LGPD) -->
+  <footer class="bg-white border-t border-slate-200 py-8 text-slate-500 text-xs mt-auto no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-4">
+      
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 rounded-lg bg-cobalto-700 text-amarelo-400 flex items-center justify-center font-black text-xs">
+            CV
+          </div>
+          <span class="font-extrabold text-slate-900">Consulta Veicular</span>
+          <span class="text-slate-300">•</span>
+          <span class="text-slate-500">Tecnologia para Compra Segura</span>
+        </div>
+
+        <div class="flex items-center gap-4 text-xs font-medium">
+          <a href="../conteudo/politica-privacidade.html" class="hover:text-cobalto-700 underline">Política de Privacidade (LGPD)</a>
+          <span>•</span>
+          <a href="../conteudo/termos-de-uso.html" class="hover:text-cobalto-700 underline">Termos de Uso</a>
+          <span>•</span>
+          <a href="../conteudo/contato.html" class="hover:text-cobalto-700 underline">Suporte</a>
+        </div>
+
+      </div>
+
+      <div class="pt-3 border-t border-slate-100 text-[11px] text-slate-400 leading-relaxed text-center sm:text-left">
+        <p>Consulta Veicular © 2026. Todos os direitos reservados. Não possuímos vínculo governamental direto com DETRAN ou SENATRAN. Todas as consultas respeitam rigorosamente a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD).</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPT DE SERVIÇOS & LÓGICA DE NAVEGAÇÃO -->
+  <script src="js/service.js"></script>
+  <script>
+    // Inicialização de Ícones
+    if (window.lucide) window.lucide.createIcons();
+
+    // Gerenciador de Telas (Home -> Consulta -> Resultado -> Pagamento -> Relatório)
+    function irParaTela(nomeTela) {
+      const telas = ['home', 'consulta', 'resultado', 'pagamento', 'relatorio'];
+      telas.forEach(t => {
+        const el = document.getElementById(`tela-${t}`);
+        if (el) {
+          if (t === nomeTela) {
+            el.classList.remove('hidden');
+            el.classList.add('block');
+          } else {
+            el.classList.add('hidden');
+            el.classList.remove('block');
+          }
+        }
+      });
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function scrollToId(id) {
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }, 50);
+    }
+
+    function focarConsulta() {
+      irParaTela('home');
+      setTimeout(() => {
+        const input = document.getElementById('input-placa-home');
+        if (input) {
+          input.focus();
+          input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 100);
+    }
+
+    function preencherExemplo(placa) {
+      const input = document.getElementById('input-placa-home');
+      if (input) {
+        input.value = placa;
+        iniciarConsulta(new Event('submit'));
+      }
+    }
+
+    // Fluxo de Consulta e Transição de Telas
+    async function iniciarConsulta(e) {
+      if (e && e.preventDefault) e.preventDefault();
+      
+      const input = document.getElementById('input-placa-home');
+      const placa = (input.value || '').trim();
+      const erroEl = document.getElementById('msg-erro-home');
+      erroEl.classList.add('hidden');
+
+      if (!ConsultaVeicularService.validarPlaca(placa)) {
+        erroEl.innerText = "Por favor, informe uma placa válida com 7 caracteres (Exemplo: ABC1D23 ou ABC-1234).";
+        erroEl.classList.remove('hidden');
+        return;
+      }
+
+      // 1. Muda para a Tela 2: Consulta (Estado de Loading Sofisticado)
+      irParaTela('consulta');
+      document.getElementById('loading-placa-texto').innerText = ConsultaVeicularService.formatarPlaca(placa);
+      
+      const progressBar = document.getElementById('loading-progress-bar');
+      const statusMsg = document.getElementById('loading-status-msg');
+
+      try {
+        const dadosVeiculo = await ConsultaVeicularService.consultarVeiculoMock(placa, (etapa) => {
+          if (progressBar) progressBar.style.width = `${etapa.pct}%`;
+          if (statusMsg) statusMsg.innerText = etapa.msg;
+        });
+
+        // 2. Transita para a Tela 3: Resultado Prévio
+        prepararTelaResultadoPrevio(dadosVeiculo);
+        irParaTela('resultado');
+
+      } catch (err) {
+        alert(err.message || "Erro ao consultar veículo.");
+        irParaTela('home');
+      }
+    }
+
+    function prepararTelaResultadoPrevio(dados) {
+      document.getElementById('previo-marca').innerText = dados.marca;
+      document.getElementById('previo-modelo').innerText = dados.modelo;
+      document.getElementById('previo-placa-oculta').innerText = dados.placaOculta;
+      document.getElementById('previo-ano').innerText = `${dados.anoFab} / ${dados.anoMod}`;
+      document.getElementById('previo-cor').innerText = dados.cor;
+      document.getElementById('previo-fipe').innerText = dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      
+      if (dados.fotoUrl) {
+        document.getElementById('previo-carro-img').src = dados.fotoUrl;
+      }
+    }
+
+    function irParaPagamento() {
+      const dados = ConsultaVeicularService.obterVeiculoAtual();
+      document.getElementById('checkout-veiculo-nome').innerText = `${dados.marca} ${dados.modelo}`;
+      document.getElementById('checkout-placa-txt').innerText = dados.placaFormatada;
+      irParaTela('pagamento');
+    }
+
+    function selecionarMetodo(metodo) {
+      const painelPix = document.getElementById('painel-pix');
+      const painelCartao = document.getElementById('painel-cartao');
+      const btnPix = document.getElementById('btn-metodo-pix');
+      const btnCartao = document.getElementById('btn-metodo-cartao');
+
+      if (metodo === 'pix') {
+        painelPix.classList.remove('hidden');
+        painelCartao.classList.add('hidden');
+        btnPix.className = "p-4 rounded-2xl border-2 border-cobalto-600 bg-blue-50/50 text-cobalto-800 flex flex-col items-center gap-2 transition-all";
+        btnCartao.className = "p-4 rounded-2xl border border-slate-200 hover:border-slate-300 text-slate-600 flex flex-col items-center gap-2 transition-all";
+      } else {
+        painelPix.classList.add('hidden');
+        painelCartao.classList.remove('hidden');
+        btnCartao.className = "p-4 rounded-2xl border-2 border-cobalto-600 bg-blue-50/50 text-cobalto-800 flex flex-col items-center gap-2 transition-all";
+        btnPix.className = "p-4 rounded-2xl border border-slate-200 hover:border-slate-300 text-slate-600 flex flex-col items-center gap-2 transition-all";
+      }
+    }
+
+    function copiarPixDemo(btn) {
+      navigator.clipboard.writeText("00020126580014br.gov.bcb.pix0136consultaveicular-pix-demo52040000530398654059.905802BR").then(() => {
+        const old = btn.innerText;
+        btn.innerText = "Copiado!";
+        setTimeout(() => btn.innerText = old, 2000);
+      });
+    }
+
+    function confirmarPagamentoESeguir() {
+      ConsultaVeicularService.registrarPagamento("Relatório Completo", 9.90);
+      const dados = ConsultaVeicularService.obterVeiculoAtual();
+      prepararTelaRelatorioCompleto(dados);
+      irParaTela('relatorio');
+    }
+
+    function prepararTelaRelatorioCompleto(dados) {
+      document.getElementById('relatorio-marca').innerText = dados.marca;
+      document.getElementById('relatorio-modelo').innerText = dados.modelo;
+      document.getElementById('relatorio-placa').innerText = dados.placaFormatada;
+      document.getElementById('relatorio-ano-cor').innerText = `Ano: ${dados.anoFab}/${dados.anoMod} • Cor: ${dados.cor}`;
+      document.getElementById('relatorio-combustivel').innerText = dados.combustivel;
+      document.getElementById('relatorio-fipe').innerText = dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      document.getElementById('relatorio-km').innerText = dados.quilometragem.media;
+      document.getElementById('relatorio-proprietarios').innerText = `${dados.proprietarios} registro(s)`;
+      document.getElementById('relatorio-codigo-laudo').innerText = dados.codigoLaudo;
+
+      // Indicador de Risco
+      const riscoBox = document.getElementById('relatorio-risco-box');
+      const riscoTexto = document.getElementById('relatorio-risco-texto');
+      if (dados.risco === 'baixo') {
+        riscoBox.className = "bg-limao-50 border-2 border-limao-500 p-4 rounded-2xl flex items-center gap-3.5 shrink-0";
+        riscoTexto.innerText = `Baixo Risco (${dados.scoreRisco}/100)`;
+        riscoTexto.className = "text-lg font-black text-limao-700 block";
+      } else if (dados.risco === 'medio') {
+        riscoBox.className = "bg-amber-50 border-2 border-amber-500 p-4 rounded-2xl flex items-center gap-3.5 shrink-0";
+        riscoTexto.innerText = `Risco Médio (${dados.scoreRisco}/100)`;
+        riscoTexto.className = "text-lg font-black text-amber-800 block";
+      } else {
+        riscoBox.className = "bg-rose-50 border-2 border-rose-500 p-4 rounded-2xl flex items-center gap-3.5 shrink-0";
+        riscoTexto.innerText = `Alto Risco (${dados.scoreRisco}/100)`;
+        riscoTexto.className = "text-lg font-black text-rose-800 block";
+      }
+
+      // Detalhes dos Cards
+      document.getElementById('detalhe-leilao').innerText = dados.leilao.detalhe;
+      const badgeLeilao = document.getElementById('badge-status-leilao');
+      if (dados.leilao.consta) {
+        badgeLeilao.className = "text-xs font-bold text-amber-800 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200";
+        badgeLeilao.innerText = "Apontamento";
+      } else {
+        badgeLeilao.className = "text-xs font-bold text-limao-700 bg-limao-50 px-2.5 py-0.5 rounded-full border border-limao-200";
+        badgeLeilao.innerText = "Nada Consta";
+      }
+
+      document.getElementById('detalhe-sinistro').innerText = dados.sinistro.detalhe;
+      document.getElementById('detalhe-debitos').innerText = dados.debitos.detalhe;
+      document.getElementById('detalhe-gravame').innerText = dados.gravame.detalhe;
+
+      // Timeline de Eventos
+      const timelineCont = document.getElementById('relatorio-timeline-container');
+      timelineCont.innerHTML = dados.timeline.map(item => `
+        <div class="relative pl-4">
+          <span class="absolute -left-[21px] top-1 w-3 h-3 rounded-full ${item.tipo === 'positivo' ? 'bg-limao-500' : item.tipo === 'alerta' ? 'bg-amber-500' : 'bg-cobalto-600'}"></span>
+          <span class="text-[10px] text-slate-400 font-bold block">${item.data}</span>
+          <strong class="text-xs text-slate-900 block">${item.titulo}</strong>
+          <p class="text-[11px] text-slate-600 mt-0.5">${item.detalhe}</p>
+        </div>
+      `).join('');
+    }
+
+    // Suporte a Deep Link / Query Params (?tela=relatorio ou ?placa=ABC1D23)
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const telaParam = urlParams.get('tela');
+      const placaParam = urlParams.get('placa');
+
+      if (placaParam) {
+        const input = document.getElementById('input-placa-home');
+        if (input) input.value = placaParam;
+      }
+
+      if (telaParam && ['home', 'consulta', 'resultado', 'pagamento', 'relatorio'].includes(telaParam)) {
+        if (telaParam === 'relatorio') {
+          const dados = ConsultaVeicularService.obterVeiculoAtual();
+          prepararTelaRelatorioCompleto(dados);
+        } else if (telaParam === 'resultado') {
+          const dados = ConsultaVeicularService.obterVeiculoAtual();
+          prepararTelaResultadoPrevio(dados);
+        } else if (telaParam === 'pagamento') {
+          const dados = ConsultaVeicularService.obterVeiculoAtual();
+          document.getElementById('checkout-veiculo-nome').innerText = `${dados.marca} ${dados.modelo}`;
+          document.getElementById('checkout-placa-txt').innerText = dados.placaFormatada;
+        }
+        irParaTela(telaParam);
+      }
+    });
+  </script>
+</body>
+</html>
