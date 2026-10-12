@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+  <!-- Google AdSense Oficial -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <script defer src="../js/ads-safe.js"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/consulta-processual">
+  <title>Consulta Processual Gratuita & Certidões Judiciais - Cidadão Agora</title>
+  <meta name="description" content="Consulte processos judiciais em andamento por CPF, CNPJ, Nome ou Número de Processo gratuitamente nos Tribunais de Justiça (TJ), TRF, TRT e TST.">
+  <meta name="keywords" content="consulta processual, consultar processo por cpf, processo por nome gratis, certidao negativa processos, jusbrasil gratis, escavador gratis, datajud">
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#2563EB">
+
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+  <link rel="stylesheet" href="../css/tailwind.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
+          CA
+        </div>
+        <div>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-emerald-700 font-extrabold uppercase tracking-wider">Consulta Jurídica Grátis</span>
+        </div>
+      </a>
+      <a href="/" class="btn-secondary text-xs !py-2 !px-3.5">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- HERO DO SERVIÇO -->
+    <section class="ds-card p-6 sm:p-8 space-y-6">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 mb-2">
+          <i data-lucide="scale" class="w-3.5 h-3.5"></i>
+          <span>100% Gratuito: Sem Assinatura & Sem Cobrança Oculta</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Consulta Processual & Certidões Públicas</h1>
+        <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
+          Verifique se existem processos judiciais vinculados ao seu <strong>CPF</strong>, <strong>CNPJ</strong>, <strong>Nome Completo</strong> ou <strong>Número do Processo (CNJ)</strong> de forma oficial, direta e sem precisar pagar planos do Jusbrasil.
+        </p>
+      </div>
+
+      <!-- SELETOR DE MODO DE CONSULTA -->
+      <div class="flex flex-wrap gap-2 border-b border-[#D9E1EC] pb-3" role="tablist">
+        <button 
+          type="button" 
+          id="tab-doc" 
+          onclick="trocarAbaConsulta('doc')" 
+          class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-[#2563EB] text-white shadow-xs transition flex items-center gap-2"
+          role="tab"
+          aria-selected="true"
+        >
+          <i data-lucide="user-search" class="w-4 h-4"></i>
+          <span>Por CPF, CNPJ ou Nome</span>
+        </button>
+        <button 
+          type="button" 
+          id="tab-num" 
+          onclick="trocarAbaConsulta('num')" 
+          class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white text-[#526078] border border-[#D9E1EC] hover:bg-slate-50 transition flex items-center gap-2"
+          role="tab"
+          aria-selected="false"
+        >
+          <i data-lucide="file-text" class="w-4 h-4"></i>
+          <span>Por Número do Processo (CNJ)</span>
+        </button>
+        <button 
+          type="button" 
+          id="tab-cert" 
+          onclick="trocarAbaConsulta('cert')" 
+          class="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white text-[#526078] border border-[#D9E1EC] hover:bg-slate-50 transition flex items-center gap-2"
+          role="tab"
+          aria-selected="false"
+        >
+          <i data-lucide="award" class="w-4 h-4"></i>
+          <span>Certidões Negativas Oficiais</span>
+        </button>
+      </div>
+
+      <!-- PAINEL 1: CONSULTA POR CPF / CNPJ / NOME -->
+      <div id="painel-doc" class="space-y-4">
+        <form id="form-doc" onsubmit="executarBuscaPessoa(event)" class="space-y-4" novalidate>
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
+            
+            <div class="md:col-span-4">
+              <label for="tipo-busca" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+                Tipo de Pesquisa
+              </label>
+              <select id="tipo-busca" onchange="ajustarMascaraBusca()" class="ds-input font-bold text-sm min-h-[48px]">
+                <option value="cpf">CPF da Pessoa Física</option>
+                <option value="cnpj">CNPJ da Empresa</option>
+                <option value="nome">Nome Completo das Partes</option>
+              </select>
+            </div>
+
+            <div class="md:col-span-5">
+              <label for="input-termo" id="label-termo" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+                Número do CPF
+              </label>
+              <input 
+                type="text" 
+                id="input-termo" 
+                placeholder="000.000.000-00" 
+                class="ds-input font-mono text-base font-bold min-h-[48px]"
+                required
+              >
+            </div>
+
+            <div class="md:col-span-3">
+              <label for="select-uf" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+                Estado (Tribunal)
+              </label>
+              <select id="select-uf" class="ds-input font-bold text-sm min-h-[48px]">
+                <option value="SP" selected>SP - São Paulo (TJSP)</option>
+                <option value="RJ">RJ - Rio de Janeiro (TJRJ)</option>
+                <option value="MG">MG - Minas Gerais (TJMG)</option>
+                <option value="RS">RS - Rio Grande do Sul (TJRS)</option>
+                <option value="PR">PR - Paraná (TJPR)</option>
+                <option value="BA">BA - Bahia (TJBA)</option>
+                <option value="SC">SC - Santa Catarina (TJSC)</option>
+                <option value="PE">PE - Pernambuco (TJPE)</option>
+                <option value="CE">CE - Ceará (TJCE)</option>
+                <option value="GO">GO - Goiás (TJGO)</option>
+                <option value="DF">DF - Distrito Federal (TJDFT)</option>
+                <option value="ES">ES - Espírito Santo (TJES)</option>
+                <option value="PA">PA - Pará (TJPA)</option>
+                <option value="AM">AM - Amazonas (TJAM)</option>
+                <option value="MT">MT - Mato Grosso (TJMT)</option>
+                <option value="MS">MS - Mato Grosso do Sul (TJMS)</option>
+                <option value="MA">MA - Maranhão (TJMA)</option>
+                <option value="PB">PB - Paraíba (TJPB)</option>
+                <option value="RN">RN - Rio Grande do Norte (TJRN)</option>
+                <option value="AL">AL - Alagoas (TJAL)</option>
+                <option value="PI">PI - Piauí (TJPI)</option>
+                <option value="SE">SE - Sergipe (TJSE)</option>
+                <option value="RO">RO - Rondônia (TJRO)</option>
+                <option value="TO">TO - Tocantins (TJTO)</option>
+                <option value="AC">AC - Acre (TJAC)</option>
+                <option value="AP">AP - Amapá (TJAP)</option>
+                <option value="RR">RR - Roraima (TJRR)</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3 items-center justify-between pt-1">
+            <span class="text-xs text-[#526078] flex items-center gap-1.5">
+              <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+              Acesso público garantido pelo Art. 5º da Constituição Federal.
+            </span>
+            <button 
+              type="submit" 
+              class="btn-primary w-full sm:w-auto text-sm min-h-[48px] px-8 shadow-sm flex items-center justify-center gap-2"
+            >
+              <i data-lucide="search" class="w-4 h-4"></i>
+              <span>Consultar Processos Gratuitamente</span>
+            </button>
+          </div>
+        </form>
+
+        <!-- RESULTADO DA BUSCA DE PESSOA/EMPRESA -->
+        <div id="resultado-doc" class="hidden border-t border-[#D9E1EC] pt-6 space-y-4" aria-live="polite">
+          <div class="p-4 rounded-xl bg-blue-50/80 border border-blue-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <div>
+              <span class="text-[11px] uppercase font-black text-blue-700 tracking-wider block">Portais Oficiais Sincronizados</span>
+              <h2 id="res-doc-titulo" class="text-lg font-black text-[#0F1B35] mt-0.5"></h2>
+              <p class="text-xs text-[#526078] mt-0.5">Abaixo estão os canais diretos e gratuitos para abrir a consulta completa no tribunal sem mensalidades:</p>
+            </div>
+            <span class="px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 border border-emerald-300">
+              Acesso Público Aberto
+            </span>
+          </div>
+
+          <!-- CARDS DE ACESSO DIRETO POR TRIBUNAL -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4" id="cards-tribunais-doc">
+            <!-- Gerado via JavaScript de acordo com o Estado -->
+          </div>
+
+          <div class="bg-amber-50 border border-amber-200 p-4 rounded-xl text-xs text-amber-900 space-y-1.5">
+            <div class="font-bold flex items-center gap-1.5 text-amber-800">
+              <i data-lucide="info" class="w-4 h-4"></i>
+              <span>Como funciona sem pagar nada ao Jusbrasil:</span>
+            </div>
+            <p>
+              Ao clicar no portal do tribunal correspondente acima, a busca pública oficial será aberta. A Justiça brasileira não cobra para consultar a existência de processos cíveis, criminais ou trabalhistas.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAINEL 2: CONSULTA POR NÚMERO DO PROCESSO (DATAJUD) -->
+      <div id="painel-num" class="hidden space-y-4">
+        <form id="form-num" onsubmit="consultarPorNumeroProcesso(event)" class="space-y-4" novalidate>
+          <div>
+            <label for="input-num-processo" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
+              Número Único do Processo no Padrão CNJ (20 dígitos)
+            </label>
+            <div class="flex flex-col sm:flex-row gap-2.5">
+              <input 
+                type="text" 
+                id="input-num-processo" 
+                placeholder="0000000-00.0000.0.00.0000" 
+                maxlength="25"
+                class="ds-input font-mono text-base font-bold min-h-[48px] flex-1"
+                required
+              >
+              <button 
+                type="submit" 
+                class="btn-primary text-sm min-h-[48px] px-6 shadow-sm whitespace-nowrap flex items-center justify-center gap-2"
+              >
+                <i data-lucide="search" class="w-4 h-4"></i>
+                <span>Ver Andamento</span>
+              </button>
+            </div>
+            <span class="text-[11px] text-[#526078] mt-1 block">
+              Exemplo: <code>0000001-23.2024.8.26.0100</code> (O 8º e 9º dígitos indicam o ramo e o tribunal).
+            </span>
+          </div>
+        </form>
+
+        <!-- RESULTADO DA CONSULTA POR NÚMERO -->
+        <div id="resultado-num" class="hidden border-t border-[#D9E1EC] pt-6 space-y-4" aria-live="polite">
+          <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] space-y-3 shadow-xs">
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-3">
+              <div>
+                <span class="text-[10px] uppercase font-bold text-slate-400 block tracking-wider">Número CNJ</span>
+                <span id="res-num-codigo" class="font-mono text-base font-black text-blue-700"></span>
+              </div>
+              <span id="res-num-ramo" class="px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-800 border border-blue-200"></span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <span class="text-slate-500 font-semibold block">Tribunal Identificado:</span>
+                <strong id="res-num-tribunal" class="text-slate-900 block mt-0.5 text-sm"></strong>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <span class="text-slate-500 font-semibold block">Ramo da Justiça:</span>
+                <strong id="res-num-justica" class="text-slate-900 block mt-0.5 text-sm"></strong>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                <span class="text-slate-500 font-semibold block">Ano de Ajuizamento:</span>
+                <strong id="res-num-ano" class="text-slate-900 block mt-0.5 text-sm"></strong>
+              </div>
+            </div>
+
+            <div class="pt-2 flex flex-col sm:flex-row gap-3">
+              <a 
+                id="btn-link-tribunal-direto" 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-primary w-full text-xs justify-center"
+              >
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                <span>Abrir Processo Integral no Tribunal Oficial</span>
+              </a>
+              <a 
+                id="btn-link-datajud-cnj" 
+                href="https://www.cnj.jus.br/sistemas/datajud/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-secondary w-full text-xs justify-center"
+              >
+                <i data-lucide="database" class="w-4 h-4"></i>
+                <span>Metadados Nacionais no DataJud (CNJ)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAINEL 3: CERTIDÕES NEGATIVAS JUDICIAIS OFICIAIS -->
+      <div id="painel-cert" class="hidden space-y-4">
+        <p class="text-xs sm:text-sm text-[#526078] leading-relaxed">
+          Precisa comprovar que não possui processos ou pendências judiciais para empregos, concursos, venda de imóveis ou licitações? Emita as certidões oficiais gratuitas emitidas diretamente pelo Poder Judiciário:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <!-- CNDT - Justiça do Trabalho -->
+          <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-l-4 border-l-blue-600">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="ds-badge ds-badge-accent">Federal / Gratuita</span>
+                <i data-lucide="briefcase" class="w-5 h-5 text-blue-600"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#0F1B35] mt-2">Certidão Negativa Trabalhista (CNDT)</h3>
+              <p class="text-xs text-[#526078] mt-1 leading-relaxed">
+                Emitida pelo TST e pela Justiça do Trabalho. Comprova se a pessoa física ou jurídica possui condenações trabalhistas transitadas em julgado.
+              </p>
+            </div>
+            <a 
+              href="https://cndt-certidao.tst.jus.br/inicio.faces" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-primary text-xs w-full justify-center"
+            >
+              <span>Emitir CNDT no TST Oficial</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Justiça Federal -->
+          <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-l-4 border-l-emerald-600">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="ds-badge ds-badge-success">Cível & Criminal</span>
+                <i data-lucide="landmark" class="w-5 h-5 text-emerald-600"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#0F1B35] mt-2">Certidão da Justiça Federal</h3>
+              <p class="text-xs text-[#526078] mt-1 leading-relaxed">
+                Comprova ausência de processos na Justiça Federal (crimes federais, execuções fiscais da União, INSS e Caixa Econômica Federal).
+              </p>
+            </div>
+            <a 
+              href="https://www.cjf.jus.br/cjf/certidao-negativa" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-primary text-xs w-full justify-center"
+            >
+              <span>Emitir no Portal do CJF</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Tribunais Estaduais (TJ) -->
+          <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-l-4 border-l-amber-500">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="ds-badge ds-badge-accent">Por Estado</span>
+                <i data-lucide="building-2" class="w-5 h-5 text-amber-600"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#0F1B35] mt-2">Certidões do Tribunal de Justiça Estadual</h3>
+              <p class="text-xs text-[#526078] mt-1 leading-relaxed">
+                Certidão de Distribuição Cível, Criminal e Falências/Recuperações Judiciais emitidas online pelo TJ do seu estado de residência.
+              </p>
+            </div>
+            <button 
+              type="button" 
+              onclick="trocarAbaConsulta('doc')" 
+              class="btn-secondary text-xs w-full justify-center"
+            >
+              <span>Selecionar Meu Estado</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Antecedentes Criminais Polícia Federal -->
+          <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-l-4 border-l-indigo-600">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="ds-badge ds-badge-accent">Governo Federal</span>
+                <i data-lucide="shield" class="w-5 h-5 text-indigo-600"></i>
+              </div>
+              <h3 class="text-base font-bold text-[#0F1B35] mt-2">Antecedentes Criminais (Polícia Federal)</h3>
+              <p class="text-xs text-[#526078] mt-1 leading-relaxed">
+                Documento oficial fornecido pelo Departamento de Polícia Federal que atesta a existência ou inexistência de registros criminais.
+              </p>
+            </div>
+            <a 
+              href="https://servicos.dpf.gov.br/antecedentes-criminais/certidao" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-primary text-xs w-full justify-center"
+            >
+              <span>Emitir na Polícia Federal</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- BANNER DE ANÚNCIO RESPONSIVO SEGURO -->
+    <div class="w-full my-6 text-center overflow-hidden flex justify-center">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-1173007636108448"
+           data-ad-slot="2396617448"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- SEÇÃO INFORMATIVA E FAQ -->
+    <section class="ds-card p-6 sm:p-8 space-y-4">
+      <h2 class="text-lg sm:text-xl font-black text-[#0F1B35]">Dúvidas Frequentes sobre a Consulta de Processos</h2>
+      
+      <div class="space-y-3 text-xs sm:text-sm text-[#526078]">
+        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+          <strong class="text-[#0F1B35] block mb-1">Qualquer pessoa pode consultar um processo judicial no Brasil?</strong>
+          <p>
+            Sim. Conforme a Constituição Federal, os atos processuais são públicos, com exceção daqueles que tramitam em segredo de justiça (como ações de direito de família, pensão alimentícia e investigações sob sigilo).
+          </p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+          <strong class="text-[#0F1B35] block mb-1">Por que o Jusbrasil cobra se os dados são públicos?</strong>
+          <p>
+            O Jusbrasil é uma empresa privada que cobra pelo serviço de organização, filtros avançados e alertas em Diários Oficiais. Porém, as fontes oficiais dos tribunais e do CNJ são totalmente gratuitas e não exigem nenhum tipo de pagamento.
+          </p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+          <strong class="text-[#0F1B35] block mb-1">Como saber em qual tribunal meu processo está?</strong>
+          <p>
+            A numeração única do CNJ identifica o tribunal pelo 8º e 9º dígitos. Por exemplo: <code>.8.26.</code> é o Tribunal de Justiça de São Paulo (TJSP), <code>.5.02.</code> é a Justiça do Trabalho da 2ª Região (TRT-2 SP) e <code>.4.03.</code> é a Justiça Federal da 3ª Região (TRF-3 SP/MS).
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-[#0F1B35] text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <div>
+        <strong class="text-white block text-sm">Cidadão Agora</strong>
+        <span>Serviços de Utilidade Pública & Acesso à Informação</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px]">
+        <a href="/conteudo/termos-de-uso" class="hover:text-white transition">Termos de Uso</a>
+        <span>•</span>
+        <a href="/conteudo/politica-privacidade" class="hover:text-white transition">Privacidade (LGPD)</a>
+        <span>•</span>
+        <a href="/conteudo/contato" class="hover:text-white transition">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dicionário dos Tribunais Estaduais com links oficiais diretos de consulta gratuita
+    const TRIBUNAIS_ESTADOS = {
+      'SP': { nome: 'Tribunal de Justiça de São Paulo', sigla: 'TJSP', url: 'https://esaj.tjsp.jus.br/cpopg/open.do', trt: 'TRT-2 / TRT-15', urlTrt: 'https://pje.trt2.jus.br/consultaprocessual/', trf: 'TRF-3 (SP/MS)', urlTrf: 'https://web.trf3.jus.br/consultas/' },
+      'RJ': { nome: 'Tribunal de Justiça do Rio de Janeiro', sigla: 'TJRJ', url: 'http://www4.tjrj.jus.br/ConsultaProcessoWebV2/consultaProc.do', trt: 'TRT-1 (RJ)', urlTrt: 'https://pje.trt1.jus.br/consultaprocessual/', trf: 'TRF-2 (RJ/ES)', urlTrf: 'https://www.trf2.jus.br/consultas' },
+      'MG': { nome: 'Tribunal de Justiça de Minas Gerais', sigla: 'TJMG', url: 'https://www.tjmg.jus.br/portal-tjmg/processos/consulta-processual/', trt: 'TRT-3 (MG)', urlTrt: 'https://pje.trt3.jus.br/consultaprocessual/', trf: 'TRF-6 (MG)', urlTrf: 'https://portal.trf6.jus.br/' },
+      'RS': { nome: 'Tribunal de Justiça do Rio Grande do Sul', sigla: 'TJRS', url: 'https://www.tjrs.jus.br/novo/busca-processual/', trt: 'TRT-4 (RS)', urlTrt: 'https://pje.trt4.jus.br/consultaprocessual/', trf: 'TRF-4 (Sul)', urlTrf: 'https://www.trf4.jus.br/' },
+      'PR': { nome: 'Tribunal de Justiça do Paraná', sigla: 'TJPR', url: 'https://www.tjpr.jus.br/consulta-processual', trt: 'TRT-9 (PR)', urlTrt: 'https://pje.trt9.jus.br/consultaprocessual/', trf: 'TRF-4 (Sul)', urlTrf: 'https://www.trf4.jus.br/' },
+      'BA': { nome: 'Tribunal de Justiça da Bahia', sigla: 'TJBA', url: 'https://projudi.tjba.jus.br/', trt: 'TRT-5 (BA)', urlTrt: 'https://pje.trt5.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'SC': { nome: 'Tribunal de Justiça de Santa Catarina', sigla: 'TJSC', url: 'https://esaj.tjsc.jus.br/cpopg/open.do', trt: 'TRT-12 (SC)', urlTrt: 'https://pje.trt12.jus.br/consultaprocessual/', trf: 'TRF-4 (Sul)', urlTrf: 'https://www.trf4.jus.br/' },
+      'PE': { nome: 'Tribunal de Justiça de Pernambuco', sigla: 'TJPE', url: 'https://www.tjpe.jus.br/consultaprocessual2/', trt: 'TRT-6 (PE)', urlTrt: 'https://pje.trt6.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'CE': { nome: 'Tribunal de Justiça do Ceará', sigla: 'TJCE', url: 'https://esaj.tjce.jus.br/cpopg/open.do', trt: 'TRT-7 (CE)', urlTrt: 'https://pje.trt7.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'GO': { nome: 'Tribunal de Justiça de Goiás', sigla: 'TJGO', url: 'https://projudi.tjgo.jus.br/', trt: 'TRT-18 (GO)', urlTrt: 'https://pje.trt18.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'DF': { nome: 'Tribunal de Justiça do Distrito Federal', sigla: 'TJDFT', url: 'https://www.tjdft.jus.br/consultas/processos', trt: 'TRT-10 (DF/TO)', urlTrt: 'https://pje.trt10.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'ES': { nome: 'Tribunal de Justiça do Espírito Santo', sigla: 'TJES', url: 'https://www.tjes.jus.br/consultaprocessual/', trt: 'TRT-17 (ES)', urlTrt: 'https://pje.trt17.jus.br/consultaprocessual/', trf: 'TRF-2 (RJ/ES)', urlTrf: 'https://www.trf2.jus.br/' },
+      'PA': { nome: 'Tribunal de Justiça do Pará', sigla: 'TJPA', url: 'https://pje.tjpa.jus.br/', trt: 'TRT-8 (PA/AP)', urlTrt: 'https://pje.trt8.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'AM': { nome: 'Tribunal de Justiça do Amazonas', sigla: 'TJAM', url: 'https://consultas.tjam.jus.br/', trt: 'TRT-11 (AM/RR)', urlTrt: 'https://pje.trt11.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'MT': { nome: 'Tribunal de Justiça de Mato Grosso', sigla: 'TJMT', url: 'https://pje.tjmt.jus.br/', trt: 'TRT-23 (MT)', urlTrt: 'https://pje.trt23.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'MS': { nome: 'Tribunal de Justiça de Mato Grosso do Sul', sigla: 'TJMS', url: 'https://esaj.tjms.jus.br/cpopg5/open.do', trt: 'TRT-24 (MS)', urlTrt: 'https://pje.trt24.jus.br/consultaprocessual/', trf: 'TRF-3 (SP/MS)', urlTrf: 'https://web.trf3.jus.br/' },
+      'MA': { nome: 'Tribunal de Justiça do Maranhão', sigla: 'TJMA', url: 'https://pje.tjma.jus.br/', trt: 'TRT-16 (MA)', urlTrt: 'https://pje.trt16.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'PB': { nome: 'Tribunal de Justiça da Paraíba', sigla: 'TJPB', url: 'https://pje.tjpb.jus.br/', trt: 'TRT-13 (PB)', urlTrt: 'https://pje.trt13.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'RN': { nome: 'Tribunal de Justiça do Rio Grande do Norte', sigla: 'TJRN', url: 'https://pje.tjrn.jus.br/', trt: 'TRT-21 (RN)', urlTrt: 'https://pje.trt21.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'AL': { nome: 'Tribunal de Justiça de Alagoas', sigla: 'TJAL', url: 'https://esaj.tjal.jus.br/cpopg/open.do', trt: 'TRT-19 (AL)', urlTrt: 'https://pje.trt19.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'PI': { nome: 'Tribunal de Justiça do Piauí', sigla: 'TJPI', url: 'https://pje.tjpi.jus.br/', trt: 'TRT-22 (PI)', urlTrt: 'https://pje.trt22.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'SE': { nome: 'Tribunal de Justiça de Sergipe', sigla: 'TJSE', url: 'https://www.tjse.jus.br/portal/consultas/processual', trt: 'TRT-20 (SE)', urlTrt: 'https://pje.trt20.jus.br/consultaprocessual/', trf: 'TRF-5', urlTrf: 'https://www.trf5.jus.br/' },
+      'RO': { nome: 'Tribunal de Justiça de Rondônia', sigla: 'TJRO', url: 'https://pje.tjro.jus.br/', trt: 'TRT-14 (RO/AC)', urlTrt: 'https://pje.trt14.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'TO': { nome: 'Tribunal de Justiça do Tocantins', sigla: 'TJTO', url: 'https://eproc1.tjto.jus.br/', trt: 'TRT-10 (DF/TO)', urlTrt: 'https://pje.trt10.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'AC': { nome: 'Tribunal de Justiça do Acre', sigla: 'TJAC', url: 'https://esaj.tjac.jus.br/cpopg/open.do', trt: 'TRT-14 (RO/AC)', urlTrt: 'https://pje.trt14.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'AP': { nome: 'Tribunal de Justiça do Amapá', sigla: 'TJAP', url: 'https://tucujuris.tjap.jus.br/', trt: 'TRT-8 (PA/AP)', urlTrt: 'https://pje.trt8.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' },
+      'RR': { nome: 'Tribunal de Justiça de Roraima', sigla: 'TJRR', url: 'https://projudi.tjrr.jus.br/', trt: 'TRT-11 (AM/RR)', urlTrt: 'https://pje.trt11.jus.br/consultaprocessual/', trf: 'TRF-1', urlTrf: 'https://portal.trf1.jus.br/' }
+    };
+
+    function trocarAbaConsulta(aba) {
+      const tabs = ['doc', 'num', 'cert'];
+      tabs.forEach(t => {
+        const btn = document.getElementById('tab-' + t);
+        const painel = document.getElementById('painel-' + t);
+        if (t === aba) {
+          btn.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-[#2563EB] text-white shadow-xs transition flex items-center gap-2';
+          btn.setAttribute('aria-selected', 'true');
+          painel.classList.remove('hidden');
+        } else {
+          btn.className = 'px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white text-[#526078] border border-[#D9E1EC] hover:bg-slate-50 transition flex items-center gap-2';
+          btn.setAttribute('aria-selected', 'false');
+          painel.classList.add('hidden');
+        }
+      });
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function ajustarMascaraBusca() {
+      const tipo = document.getElementById('tipo-busca').value;
+      const input = document.getElementById('input-termo');
+      const label = document.getElementById('label-termo');
+
+      input.value = '';
+      if (tipo === 'cpf') {
+        label.textContent = 'Número do CPF (11 dígitos)';
+        input.placeholder = '000.000.000-00';
+        input.maxLength = 14;
+      } else if (tipo === 'cnpj') {
+        label.textContent = 'Número do CNPJ (14 dígitos)';
+        input.placeholder = '00.000.000/0000-00';
+        input.maxLength = 18;
+      } else {
+        label.textContent = 'Nome Completo da Pessoa ou Razão Social';
+        input.placeholder = 'Ex: João da Silva Santos';
+        input.maxLength = 100;
+      }
+    }
+
+    // Formatação automática de entrada (CPF / CNPJ)
+    document.getElementById('input-termo').addEventListener('input', function(e) {
+      const tipo = document.getElementById('tipo-busca').value;
+      let val = e.target.value.replace(/\D/g, '');
+      if (tipo === 'cpf') {
+        if (val.length > 11) val = val.slice(0, 11);
+        if (val.length > 9) val = val.replace(/^(\d{3})(\d{3})(\d{3})(\d{1,2})/, '$1.$2.$3-$4');
+        else if (val.length > 6) val = val.replace(/^(\d{3})(\d{3})(\d{1,3})/, '$1.$2.$3');
+        else if (val.length > 3) val = val.replace(/^(\d{3})(\d{1,3})/, '$1.$2');
+        e.target.value = val;
+      } else if (tipo === 'cnpj') {
+        if (val.length > 14) val = val.slice(0, 14);
+        if (val.length > 12) val = val.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{1,2})/, '$1.$2.$3/$4-$5');
+        else if (val.length > 8) val = val.replace(/^(\d{2})(\d{3})(\d{3})(\d{1,4})/, '$1.$2.$3/$4');
+        else if (val.length > 5) val = val.replace(/^(\d{2})(\d{3})(\d{1,3})/, '$1.$2.$3');
+        else if (val.length > 2) val = val.replace(/^(\d{2})(\d{1,3})/, '$1.$2');
+        e.target.value = val;
+      }
+    });
+
+    // Formatação de Número CNJ
+    document.getElementById('input-num-processo').addEventListener('input', function(e) {
+      let val = e.target.value.replace(/\D/g, '');
+      if (val.length > 20) val = val.slice(0, 20);
+      if (val.length > 16) val = val.replace(/^(\d{7})(\d{2})(\d{4})(\d{1})(\d{2})(\d{1,4})/, '$1-$2.$3.$4.$5.$6');
+      else if (val.length > 14) val = val.replace(/^(\d{7})(\d{2})(\d{4})(\d{1})(\d{1,2})/, '$1-$2.$3.$4.$5');
+      else if (val.length > 13) val = val.replace(/^(\d{7})(\d{2})(\d{4})(\d{1})/, '$1-$2.$3.$4');
+      else if (val.length > 9) val = val.replace(/^(\d{7})(\d{2})(\d{1,4})/, '$1-$2.$3');
+      else if (val.length > 7) val = val.replace(/^(\d{7})(\d{1,2})/, '$1-$2');
+      e.target.value = val;
+    });
+
+    function executarBuscaPessoa(e) {
+      e.preventDefault();
+      const termo = document.getElementById('input-termo').value.trim();
+      const uf = document.getElementById('select-uf').value;
+      const tipo = document.getElementById('tipo-busca').value;
+
+      if (!termo) return;
+
+      const tribunal = TRIBUNAIS_ESTADOS[uf] || TRIBUNAIS_ESTADOS['SP'];
+      const resultadoDiv = document.getElementById('resultado-doc');
+      const cardsDiv = document.getElementById('cards-tribunais-doc');
+      const tituloRes = document.getElementById('res-doc-titulo');
+
+      tituloRes.textContent = `Consultas Públicas para "${termo}" no Estado de ${uf}`;
+
+      cardsDiv.innerHTML = `
+        <!-- Card Estadual -->
+        <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-t-4 border-t-blue-600">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-2 py-0.5 rounded">Justiça Estadual (TJ)</span>
+              <i data-lucide="scale" class="w-4 h-4 text-blue-600"></i>
+            </div>
+            <h3 class="text-sm font-bold text-[#0F1B35] mt-2">${tribunal.sigla} - ${tribunal.nome}</h3>
+            <p class="text-xs text-[#526078] mt-1">
+              Abrange 90% das ações: cobranças, indenizações cíveis, direito de família, despejos e varas criminais.
+            </p>
+          </div>
+          <a href="${tribunal.url}" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs w-full justify-center">
+            <span>Abrir Consulta no ${tribunal.sigla}</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card Trabalhista -->
+        <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-t-4 border-t-emerald-600">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">Justiça do Trabalho (TRT)</span>
+              <i data-lucide="briefcase" class="w-4 h-4 text-emerald-600"></i>
+            </div>
+            <h3 class="text-sm font-bold text-[#0F1B35] mt-2">${tribunal.trt}</h3>
+            <p class="text-xs text-[#526078] mt-1">
+              Verifique reclamações trabalhistas, acordos, rescisões discutidas e certidão de débitos (CNDT).
+            </p>
+          </div>
+          <a href="${tribunal.urlTrt}" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs w-full justify-center">
+            <span>Abrir Consulta no ${tribunal.trt.split(' ')[0]}</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+        <!-- Card Federal -->
+        <div class="ds-card p-4 flex flex-col justify-between space-y-3 border-t-4 border-t-indigo-600">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-[10px] font-black uppercase text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Justiça Federal (TRF)</span>
+              <i data-lucide="landmark" class="w-4 h-4 text-indigo-600"></i>
+            </div>
+            <h3 class="text-sm font-bold text-[#0F1B35] mt-2">${tribunal.trf}</h3>
+            <p class="text-xs text-[#526078] mt-1">
+              Ações contra órgãos federais, aposentadorias do INSS, execuções fiscais da União e Caixa Federal.
+            </p>
+          </div>
+          <a href="${tribunal.urlTrf}" target="_blank" rel="noopener noreferrer" class="btn-primary text-xs w-full justify-center">
+            <span>Abrir Consulta no TRF</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      `;
+
+      resultadoDiv.classList.remove('hidden');
+      if (window.lucide) window.lucide.createIcons();
+      resultadoDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function consultarPorNumeroProcesso(e) {
+      e.preventDefault();
+      const rawNum = document.getElementById('input-num-processo').value.trim();
+      const cleanNum = rawNum.replace(/\D/g, '');
+
+      if (cleanNum.length !== 20) {
+        alert('Por favor, digite o número completo do processo no padrão CNJ (20 dígitos).');
+        return;
+      }
+
+      // Decomposição CNJ: NNNNNNN-DD.AAAA.J.TR.OOOO
+      // J = Ramo da Justiça
+      // TR = Tribunal
+      const ano = cleanNum.slice(9, 13);
+      const ramoCod = cleanNum.slice(13, 14);
+      const tribunalCod = cleanNum.slice(14, 16);
+
+      const RAMOS = {
+        '1': 'Supremo Tribunal Federal (STF)',
+        '2': 'Conselho Nacional de Justiça (CNJ)',
+        '3': 'Superior Tribunal de Justiça (STJ)',
+        '4': 'Justiça Federal (TRF)',
+        '5': 'Justiça do Trabalho (TRT)',
+        '6': 'Justiça Eleitoral (TRE)',
+        '7': 'Justiça Militar da União',
+        '8': 'Justiça dos Estados e DF (TJ)',
+        '9': 'Justiça Militar Estadual'
+      };
+
+      const ramoDesc = RAMOS[ramoCod] || 'Justiça Comum';
+      let tribDesc = `Tribunal Código ${tribunalCod}`;
+      let urlDirect = 'https://www.cnj.jus.br/sistemas/datajud/';
+
+      if (ramoCod === '8') {
+        const ufs = {
+          '01': 'TJAC', '02': 'TJAL', '03': 'TJAP', '04': 'TJAM', '05': 'TJBA', '06': 'TJCE',
+          '07': 'TJDFT', '08': 'TJES', '09': 'TJGO', '10': 'TJMA', '11': 'TJMT', '12': 'TJMS',
+          '13': 'TJMG', '14': 'TJPA', '15': 'TJPB', '16': 'TJPR', '17': 'TJPE', '18': 'TJPI',
+          '19': 'TJRJ', '20': 'TJRN', '21': 'TJRS', '22': 'TJRO', '23': 'TJRR', '24': 'TJSC',
+          '25': 'TJSE', '26': 'TJSP', '27': 'TJTO'
+        };
+        const sigla = ufs[tribunalCod] || 'TJ Estadual';
+        tribDesc = `${sigla} (Justiça Estadual)`;
+        // Se for TJSP, link direto do e-SAJ com o número
+        if (tribunalCod === '26') {
+          urlDirect = `https://esaj.tjsp.jus.br/cpopg/search.do?conversationId=&cbPesquisa=NUMPROC&numeroDigitoAnoUnificado=${cleanNum.slice(0, 13)}&foroNumeroUnificado=${cleanNum.slice(16, 20)}&dadosConsulta.valorConsultaNuUnificado=${rawNum}`;
+        }
+      } else if (ramoCod === '5') {
+        tribDesc = `TRT da ${parseInt(tribunalCod, 10)}ª Região (Trabalhista)`;
+        urlDirect = `https://pje.trt${parseInt(tribunalCod, 10)}.jus.br/consultaprocessual/`;
+      } else if (ramoCod === '4') {
+        tribDesc = `TRF da ${parseInt(tribunalCod, 10)}ª Região (Federal)`;
+      }
+
+      document.getElementById('res-num-codigo').textContent = rawNum;
+      document.getElementById('res-num-ramo').textContent = ramoDesc;
+      document.getElementById('res-num-tribunal').textContent = tribDesc;
+      document.getElementById('res-num-justica').textContent = ramoDesc;
+      document.getElementById('res-num-ano').textContent = ano;
+
+      const btnLink = document.getElementById('btn-link-tribunal-direto');
+      btnLink.href = urlDirect;
+
+      const resDiv = document.getElementById('resultado-num');
+      resDiv.classList.remove('hidden');
+      if (window.lucide) window.lucide.createIcons();
+      resDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
