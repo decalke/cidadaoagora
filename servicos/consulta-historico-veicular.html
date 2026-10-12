@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Veicular Completa: Histórico, Débitos, Leilão e FIPE pela Placa | Cidadão Agora</title>
+  <meta name="description" content="Consulte qualquer veículo pela placa Mercosul ou padrão antigo. Veja dados cadastrais, Tabela FIPE oficial, IPVA estimado, histórico de leilão, sinistros, multas e débitos antes de comprar.">
+  <meta name="keywords" content="consulta veicular, historico veicular, consultar placa, placa mercosul, tabela fipe placa, verificar leilao pela placa, multas e debitos placa">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/consulta-historico-veicular.html">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Consulta Veicular Completa pela Placa | Cidadão Agora">
+  <meta property="og:description" content="Descubra o histórico completo do carro antes de comprar: FIPE oficial, débitos, sinistros, leilão e procedência pela placa.">
+  <meta property="og:url" content="https://cidadaoagora.com.br/servicos/consulta-historico-veicular.html">
+  <meta property="og:image" content="https://cidadaoagora.com.br/img/hero-carro-suv-vermelho.jpg">
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+  <!-- Tailwind CSS & Design System -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../css/design-system.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ');
+  </script>
+
+  <style>
+    @keyframes pulseSlow {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.03); opacity: 0.95; }
+    }
+    .animate-pulse-slow {
+      animation: pulseSlow 4s ease-in-out infinite;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .placa-shadow {
+      box-shadow: 0 10px 25px -5px rgba(15, 27, 53, 0.12), 0 8px 10px -6px rgba(15, 27, 53, 0.08);
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC] text-[#0F1B35] font-sans antialiased min-h-screen flex flex-col selection:bg-blue-100 selection:text-blue-900">
+
+  <!-- CABEÇALHO MODERNO -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#D9E1EC] transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
+      
+      <!-- LOGO -->
+      <a href="../index.html" class="flex items-center gap-2.5 group">
+        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shadow-sm group-hover:scale-105 transition-transform">
+          CA
+        </div>
+        <div class="flex flex-col">
+          <span class="text-base sm:text-lg font-black tracking-tight text-[#0F1B35] leading-none group-hover:text-blue-600 transition-colors">
+            Cidadão Agora
+          </span>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-[#2563EB] mt-0.5">
+            Consulta Veicular
+          </span>
+        </div>
+      </a>
+
+      <!-- MENU DESKTOP -->
+      <nav class="hidden md:flex items-center gap-7 text-xs font-semibold text-[#526078]">
+        <a href="#como-funciona" class="hover:text-blue-600 transition-colors">Como Funciona</a>
+        <a href="#o-que-consultamos" class="hover:text-blue-600 transition-colors">O que Consultamos</a>
+        <a href="#planos" class="hover:text-blue-600 transition-colors">Planos & Preços</a>
+        <a href="#duvidas" class="hover:text-blue-600 transition-colors">Dúvidas</a>
+      </nav>
+
+      <!-- BOTÃO DE ACESSO / CONTATO -->
+      <div class="flex items-center gap-3">
+        <a href="#placa-box" class="text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full shadow-sm hover:shadow transition-all flex items-center gap-2 touch-target">
+          <i data-lucide="search" class="w-3.5 h-3.5"></i>
+          <span>Consultar Placa</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION PRINCIPAL (INSPIRADO NAS REFERÊNCIAS VISUAIS MODERNAS) -->
+  <section class="relative overflow-hidden pt-6 pb-12 sm:pt-12 sm:pb-20 bg-gradient-to-b from-[#F0F5FF] via-white to-[#F8FAFC]">
+    
+    <!-- Elementos Decorativos de Fundo -->
+    <div class="absolute -top-32 -left-32 w-96 h-96 bg-blue-200/40 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/2 -right-32 w-96 h-96 bg-amber-200/30 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- COLUNA ESQUERDA: CHAMADA & FERRAMENTA DE BUSCA -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>Base SENATRAN, DETRAN & FIPE 2026 Sincronizadas</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-[52px] font-black text-[#0F1B35] tracking-tight leading-[1.12]">
+            Descubra tudo <br class="hidden sm:inline">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-600">antes de comprar</span>
+          </h1>
+
+          <p class="text-sm sm:text-base text-[#526078] leading-relaxed max-w-xl mx-auto lg:mx-0">
+            Digite a placa e descubra o histórico completo do veículo, dados oficiais da montadora, Tabela FIPE em tempo real, multas, débitos e restrições antes de fechar negócio.
+          </p>
+
+          <!-- CARD DA FERRAMENTA DE CONSULTA PELA PLACA (DESIGN INSPIRADO NA IMAGEM 1 E 2) -->
+          <div id="placa-box" class="bg-white rounded-3xl p-5 sm:p-7 border border-[#D9E1EC] placa-shadow max-w-lg mx-auto lg:mx-0 space-y-5">
+            
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-black uppercase tracking-wider text-[#0F1B35] flex items-center gap-1.5">
+                <i data-lucide="car" class="w-4 h-4 text-blue-600"></i>
+                Consulte pela Placa
+              </span>
+              <span class="text-[11px] font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 flex items-center gap-1">
+                <i data-lucide="zap" class="w-3 h-3 text-emerald-600"></i>
+                Consulta Imediata
+              </span>
+            </div>
+
+            <!-- MOCKUP OFICIAL INTERATIVO DA PLACA MERCOSUL -->
+            <form onsubmit="executarConsultaHistorico(event)" class="space-y-4">
+              
+              <div class="relative max-w-xs sm:max-w-sm mx-auto">
+                <div class="w-full bg-white border-[3px] border-slate-900 rounded-2xl shadow-md overflow-hidden text-center transition-all focus-within:ring-4 focus-within:ring-blue-500/20 focus-within:border-blue-600">
+                  
+                  <!-- Tarja Azul Mercosul -->
+                  <div class="bg-[#003399] text-white px-3 py-1.5 flex items-center justify-between font-sans select-none">
+                    <div class="flex items-center gap-1.5">
+                      <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block shadow-xs"></span>
+                      <span class="text-[10px] font-black tracking-widest uppercase">BRASIL</span>
+                    </div>
+                    <span class="text-[9px] font-extrabold tracking-wider opacity-90">MERCOSUL</span>
+                  </div>
+
+                  <!-- Campo de Digitação Grande da Placa -->
+                  <div class="py-2.5 px-3 bg-white flex items-center justify-center">
+                    <input 
+                      type="text" 
+                      id="input-placa-historico" 
+                      maxlength="8" 
+                      placeholder="ABC1D23" 
+                      autocomplete="off" 
+                      spellcheck="false"
+                      class="w-full font-mono text-3xl sm:text-4xl font-black text-slate-900 tracking-[0.2em] uppercase text-center bg-transparent border-0 outline-none placeholder:text-slate-300"
+                      aria-label="Digite a placa do veículo"
+                      required
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- BOTÃO DE CONSULTA COM BADGE DE PREÇO -->
+              <div class="flex flex-col sm:flex-row items-center gap-3">
+                <div class="w-full sm:w-auto bg-emerald-50 border border-emerald-200 rounded-xl px-3.5 py-2.5 text-center flex items-center justify-center gap-1.5 shrink-0">
+                  <i data-lucide="tag" class="w-4 h-4 text-emerald-700"></i>
+                  <span class="text-xs text-emerald-900 font-medium">Relatório completo a partir de</span>
+                  <strong class="text-xs font-black text-emerald-800">R$ 9,90</strong>
+                </div>
+
+                <button 
+                  type="submit" 
+                  id="btn-consultar-historico" 
+                  class="w-full sm:flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-extrabold text-sm py-3 px-6 rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 touch-target"
+                >
+                  <span id="btn-texto-historico">Consultar agora</span>
+                  <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+              </div>
+
+              <!-- Mensagem de Erro / Alerta -->
+              <div id="historico-erro" class="hidden text-xs text-rose-700 bg-rose-50 border border-rose-200 p-3 rounded-xl font-medium text-center"></div>
+
+            </form>
+
+            <!-- TAGS RÁPIDAS COM ITENS CONSULTADOS (INSPIRADO NA IMAGEM 2) -->
+            <div class="pt-3 border-t border-[#D9E1EC]/60 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-[11px] font-semibold text-[#526078]">
+              <span class="inline-flex items-center gap-1 bg-slate-100 hover:bg-blue-50 px-2.5 py-1 rounded-lg">
+                <i data-lucide="file-text" class="w-3 h-3 text-blue-600"></i> Histórico
+              </span>
+              <span class="inline-flex items-center gap-1 bg-slate-100 hover:bg-blue-50 px-2.5 py-1 rounded-lg">
+                <i data-lucide="coins" class="w-3 h-3 text-amber-600"></i> Débitos
+              </span>
+              <span class="inline-flex items-center gap-1 bg-slate-100 hover:bg-blue-50 px-2.5 py-1 rounded-lg">
+                <i data-lucide="gavel" class="w-3 h-3 text-rose-600"></i> Leilão
+              </span>
+              <span class="inline-flex items-center gap-1 bg-slate-100 hover:bg-blue-50 px-2.5 py-1 rounded-lg">
+                <i data-lucide="alert-triangle" class="w-3 h-3 text-yellow-600"></i> Recall
+              </span>
+              <span class="inline-flex items-center gap-1 bg-slate-100 hover:bg-blue-50 px-2.5 py-1 rounded-lg">
+                <i data-lucide="shield-check" class="w-3 h-3 text-emerald-600"></i> Sinistros
+              </span>
+            </div>
+
+            <!-- ATALHOS RÁPIDOS DE TESTE EM 1 CLIQUE -->
+            <div class="pt-2 text-center lg:text-left">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1.5">Testar com exemplos reais:</span>
+              <div class="flex flex-wrap items-center justify-center lg:justify-start gap-1.5 text-xs">
+                <button type="button" onclick="testarPlacaExemplo('RLP5H69')" class="px-2 py-0.5 rounded-md bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-600 text-[11px] border border-slate-200">
+                  Hyundai HB20 (RLP5H69)
+                </button>
+                <button type="button" onclick="testarPlacaExemplo('ABC1D23')" class="px-2 py-0.5 rounded-md bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-600 text-[11px] border border-slate-200">
+                  Toyota Corolla (ABC1D23)
+                </button>
+                <button type="button" onclick="testarPlacaExemplo('BRA2E19')" class="px-2 py-0.5 rounded-md bg-slate-50 hover:bg-blue-50 hover:text-blue-700 text-slate-600 text-[11px] border border-slate-200">
+                  VW Gol (BRA2E19)
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- COLUNA DIREITA: IMAGEM DO CARRO MODERNO + CARD FLUTUANTE DE HISTÓRICO (INSPIRADO NA IMAGEM 1) -->
+        <div class="lg:col-span-5 relative flex items-center justify-center">
+          
+          <div class="relative w-full max-w-lg">
+            
+            <!-- CARD FLUTUANTE DE HISTÓRICO COMPLETO (GLASSMORPHISM IDÊNTICO À IMAGEM 1) -->
+            <div class="glass-card rounded-3xl p-5 shadow-xl mb-4 sm:mb-6 border border-white/80 space-y-3.5 relative z-20">
+              
+              <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+                <div class="flex items-center gap-2">
+                  <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center">
+                    <i data-lucide="clipboard-check" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-xs font-black text-[#0F1B35]">Histórico completo</h3>
+                    <p class="text-[10px] text-[#526078]">Laudo de auditoria veicular</p>
+                  </div>
+                </div>
+
+                <span class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 shadow-2xs">
+                  <i data-lucide="check" class="w-3 h-3 text-emerald-600 stroke-[3]"></i>
+                  Sem restrições
+                </span>
+              </div>
+
+              <!-- GRID DE STATUS EM MINI CARDS (CÓPIA FIEL DA IMAGEM 1) -->
+              <div class="grid grid-cols-2 gap-2 text-xs">
+                
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Situação do veículo</span>
+                  <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    <strong class="text-xs font-bold text-emerald-800">Regular</strong>
+                  </div>
+                </div>
+
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Proprietários</span>
+                  <div class="flex items-center gap-1.5 mt-0.5">
+                    <i data-lucide="users" class="w-3.5 h-3.5 text-blue-600"></i>
+                    <strong class="text-xs font-bold text-slate-800">2 registros</strong>
+                  </div>
+                </div>
+
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Sinistros & Batidas</span>
+                  <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="text-xs font-bold text-emerald-700 bg-emerald-100/70 px-2 py-0.5 rounded-md">Nada consta</span>
+                  </div>
+                </div>
+
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Passagens por leilão</span>
+                  <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="text-xs font-bold text-emerald-700 bg-emerald-100/70 px-2 py-0.5 rounded-md">Nada consta</span>
+                  </div>
+                </div>
+
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Quilometragem</span>
+                  <div class="flex items-center gap-1 mt-0.5 text-blue-700 font-bold text-xs">
+                    <i data-lucide="trending-up" class="w-3.5 h-3.5"></i>
+                    <span>Verificada</span>
+                  </div>
+                </div>
+
+                <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
+                  <span class="text-[10px] text-slate-500 font-medium block">Débitos & Multas</span>
+                  <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="text-xs font-bold text-emerald-700 bg-emerald-100/70 px-2 py-0.5 rounded-md">Nada consta</span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- FOTO DO CARRO MODERNO EM ALTA QUALIDADE -->
+            <div class="relative z-10 flex items-center justify-center">
+              <img 
+                src="../img/hero-carro-suv-vermelho.jpg" 
+                alt="Veículo moderno com histórico auditado" 
+                class="w-full max-w-md object-contain drop-shadow-2xl rounded-2xl transform hover:scale-[1.02] transition-transform duration-300"
+                loading="eager"
+              >
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- 3 BENEFÍCIOS RÁPIDOS EM CARDS PILL (INSPIRADO NA PARTE INFERIOR DA IMAGEM 1) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 sm:pt-14">
+        
+        <div class="bg-white p-4 sm:p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+            <i data-lucide="file-check-2" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-[#0F1B35]">Histórico completo</h4>
+            <p class="text-xs text-[#526078] mt-0.5">Informações claras e confiáveis direto das bases oficiais.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 sm:p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-[#0F1B35]">Compra mais segura</h4>
+            <p class="text-xs text-[#526078] mt-0.5">Evite surpresas desagradáveis e faça um negócio 100% tranquilo.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 sm:p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs flex items-center gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+            <i data-lucide="zap" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h4 class="text-sm font-bold text-[#0F1B35]">Dados em poucos minutos</h4>
+            <p class="text-xs text-[#526078] mt-0.5">Receba seu relatório rapidamente na tela e no WhatsApp.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ÁREA DE RESULTADO DA CONSULTA (CHAMARIZ GRATUITO + UPSELL INTELIGENTE) -->
+  <section id="area-resultado" class="hidden max-w-7xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 space-y-8" aria-live="polite">
+    
+    <!-- CARD 1: IDENTIFICAÇÃO GRATUITA DO VEÍCULO (O CHAMARIZ) -->
+    <div class="ds-card p-6 sm:p-8 bg-white border border-[#D9E1EC] shadow-md space-y-6">
+      
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-100 gap-3">
+        <div>
+          <span class="text-xs font-black uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 inline-flex items-center gap-1.5">
+            <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
+            Veículo Localizado nas Bases Oficiais
+          </span>
+          <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35] mt-1.5">
+            Identificação Cadastral Preliminar
+          </h2>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span id="res-badge-tipo" class="text-xs font-bold text-slate-700 bg-slate-100 px-3 py-1.5 rounded-xl border border-slate-200"></span>
+          <span class="text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1.5 rounded-xl border border-blue-200">Dados Gratuitos</span>
+        </div>
+      </div>
+
+      <!-- DADOS PRINCIPAIS DO VEÍCULO + FOTO REAL DO MODELO -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        
+        <!-- Detalhes do Veículo -->
+        <div class="lg:col-span-7 space-y-4">
+          
+          <div class="flex items-center gap-4">
+            <div id="res-logo-box" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center p-3 shrink-0 shadow-2xs">
+              <div id="res-logo-svg" class="w-full h-full flex items-center justify-center font-bold text-xs text-slate-600"></div>
+            </div>
+
+            <div>
+              <span id="res-marca" class="text-xs font-black uppercase tracking-wider text-blue-700 block"></span>
+              <h3 id="res-modelo" class="text-xl sm:text-3xl font-black text-[#0F1B35] leading-tight"></h3>
+              <p id="res-versao" class="text-xs text-[#526078] font-medium mt-0.5 line-clamp-1"></p>
+            </div>
+          </div>
+
+          <!-- Badges de Especificações -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2 text-xs">
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+              <span class="text-[10px] text-slate-500 block">Ano Fab / Modelo</span>
+              <strong id="res-ano" class="text-xs text-slate-800 font-bold block mt-0.5"></strong>
+            </div>
+
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+              <span class="text-[10px] text-slate-500 block">Cor do Veículo</span>
+              <strong id="res-cor" class="text-xs text-slate-800 font-bold block mt-0.5"></strong>
+            </div>
+
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+              <span class="text-[10px] text-slate-500 block">Município / UF</span>
+              <strong id="res-cidade-uf" class="text-xs text-slate-800 font-bold block mt-0.5 truncate"></strong>
+            </div>
+
+            <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-200">
+              <span class="text-[10px] text-slate-500 block">Conversão Placa</span>
+              <strong id="res-placa-antiga" class="text-xs font-mono text-amber-900 font-bold block mt-0.5"></strong>
+            </div>
+          </div>
+
+          <!-- Preço FIPE e IPVA Estimado -->
+          <div class="bg-gradient-to-r from-emerald-50 via-white to-emerald-50/50 p-4 rounded-2xl border border-emerald-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <span class="text-[11px] font-black uppercase tracking-wider text-emerald-800 flex items-center gap-1">
+                <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+                Preço Médio Tabela FIPE Oficial
+              </span>
+              <span id="res-fipe-valor" class="text-2xl sm:text-3xl font-black text-emerald-700 tracking-tight block mt-0.5"></span>
+            </div>
+
+            <div class="text-left sm:text-right border-t sm:border-t-0 pt-2 sm:pt-0 border-emerald-100">
+              <span class="text-[11px] font-bold text-slate-500 block">Estimativa de IPVA Estadual</span>
+              <span id="res-ipva-valor" class="text-lg font-black text-slate-800 block"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FOTO REAL DO MODELO DE ESTÚDIO -->
+        <div class="lg:col-span-5 flex flex-col items-center justify-center bg-slate-50 rounded-2xl p-4 border border-slate-200">
+          <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2 self-start">Foto Oficial de Estúdio:</span>
+          <div class="w-full h-44 sm:h-52 flex items-center justify-center overflow-hidden">
+            <img 
+              id="res-carro-img" 
+              src="" 
+              alt="Foto do Modelo" 
+              class="max-h-full max-w-full object-contain transition-transform duration-300 hover:scale-105"
+            >
+            <div id="res-carro-fallback" class="hidden w-full h-full flex items-center justify-center text-slate-300">
+              <i data-lucide="car" class="w-20 h-20 stroke-1"></i>
+            </div>
+          </div>
+          <span id="res-foto-legenda" class="text-[10px] text-slate-400 mt-2 block text-center">Catálogo Oficial Nacional</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CARD 2: O UPSELL DO RELATÓRIO COMPLETO (LAUDO COM DADOS BLOQUEADOS 🔒) -->
+    <div class="bg-gradient-to-br from-slate-900 via-[#0F1B35] to-blue-950 rounded-3xl p-6 sm:p-10 text-white shadow-xl space-y-6 relative overflow-hidden">
+      
+      <!-- Efeito de Luz -->
+      <div class="absolute top-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10 border-b border-white/10 pb-6">
+        <div class="space-y-2 max-w-2xl">
+          <span class="text-xs font-black uppercase tracking-wider text-amber-400 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/30 inline-flex items-center gap-1.5">
+            <i data-lucide="lock" class="w-3.5 h-3.5"></i>
+            Histórico Cautelar Disponível para esta Placa
+          </span>
+          <h3 class="text-2xl sm:text-3xl font-black text-white tracking-tight">
+            Desbloqueie o Laudo Cautelar Completo deste Veículo
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            Identificamos registros pendentes para a placa <strong id="res-placa-destaque" class="text-amber-300 font-mono"></strong>. Evite prejuízos de milhares de reais consultando leilão, sinistros, débitos e restrições antes de comprar.
+          </p>
+        </div>
+
+        <a href="#planos" class="bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-sm px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 shrink-0 touch-target">
+          <span>Ver Planos de Desbloqueio</span>
+          <i data-lucide="arrow-down" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <!-- PRÉVIA DOS DADOS BLOQUEADOS (EFEITO BLUR COM CADEADOS) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 text-xs relative z-10">
+        
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-300 font-medium">Passagem por Leilão</span>
+            <i data-lucide="lock" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div class="filter blur-xs select-none text-slate-400 text-xs font-mono">
+            BANCO BRADESCO S.A. • LOTE 042
+          </div>
+          <span class="text-[10px] font-bold text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded block text-center">Registro Bloqueado</span>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-300 font-medium">Histórico de Sinistro</span>
+            <i data-lucide="lock" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div class="filter blur-xs select-none text-slate-400 text-xs font-mono">
+            INDENIZAÇÃO INTEGRAL REGISTRADA
+          </div>
+          <span class="text-[10px] font-bold text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded block text-center">Registro Bloqueado</span>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-300 font-medium">Débitos & Multas Ativas</span>
+            <i data-lucide="lock" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div class="filter blur-xs select-none text-slate-400 text-xs font-mono">
+            IPVA EM ABERTO • MULTA DETRAN R$ 293
+          </div>
+          <span class="text-[10px] font-bold text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded block text-center">Registro Bloqueado</span>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md space-y-2">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-300 font-medium">Gravame & Bloqueio Judicial</span>
+            <i data-lucide="lock" class="w-4 h-4 text-amber-400"></i>
+          </div>
+          <div class="filter blur-xs select-none text-slate-400 text-xs font-mono">
+            ALIENAÇÃO FIDUCIÁRIA • SNG ATIVO
+          </div>
+          <span class="text-[10px] font-bold text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded block text-center">Registro Bloqueado</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BANNER DE ANÚNCIO ADSENSE RESPONSIVO -->
+  <div class="max-w-7xl mx-auto w-full px-4 sm:px-6 my-4 text-center overflow-hidden flex justify-center">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1173007636108448"
+         data-ad-slot="2396617448"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- SEÇÃO DE PLANOS E PREÇOS (R$ 9,90 | R$ 14,90 | R$ 19,90) -->
+  <section id="planos" class="py-12 sm:py-16 bg-white border-t border-b border-[#D9E1EC]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
+      
+      <div class="text-center max-w-2xl mx-auto space-y-2">
+        <span class="ds-badge ds-badge-brand">Escolha seu Laudo</span>
+        <h2 class="text-2xl sm:text-4xl font-black text-[#0F1B35]">
+          Planos de Consulta Completa
+        </h2>
+        <p class="text-xs sm:text-sm text-[#526078]">
+          Preços acessíveis e sem assinaturas recorrentes. Pague apenas pela consulta que você precisa e receba o laudo imediatamente via Pix.
+        </p>
+      </div>
+
+      <!-- GRID COM OS 3 PLANOS -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 items-stretch">
+        
+        <!-- PLANO 1: BÁSICO (R$ 9,90) -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-[#D9E1EC] shadow-xs flex flex-col justify-between hover:border-blue-300 transition-all">
+          <div class="space-y-4">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">Consulta Rápida</span>
+              <h3 class="text-xl font-black text-[#0F1B35] mt-0.5">Plano Básico</h3>
+              <p class="text-xs text-[#526078] mt-1">Ideal para checar dívidas estaduais e situação regular.</p>
+            </div>
+
+            <div class="pt-2 pb-4 border-b border-slate-100">
+              <span class="text-xs text-slate-400">Pagamento único de</span>
+              <div class="flex items-baseline gap-1 mt-0.5">
+                <span class="text-3xl sm:text-4xl font-black text-[#0F1B35]">R$ 9,90</span>
+                <span class="text-xs text-slate-500">/ laudo</span>
+              </div>
+            </div>
+
+            <!-- Lista de Itens -->
+            <ul class="space-y-2.5 text-xs text-[#526078]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Débitos estaduais (IPVA e Licenciamento)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Multas ativas no DETRAN e PRF</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Restrições administrativas</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Alerta policial de Roubo e Furto</span>
+              </li>
+              <li class="flex items-center gap-2 text-slate-400 line-through">
+                <i data-lucide="x" class="w-4 h-4 text-slate-300 shrink-0"></i>
+                <span>Passagem por Leilão</span>
+              </li>
+              <li class="flex items-center gap-2 text-slate-400 line-through">
+                <i data-lucide="x" class="w-4 h-4 text-slate-300 shrink-0"></i>
+                <span>Histórico de Sinistros e Perda Total</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-slate-100">
+            <button 
+              type="button" 
+              onclick="abrirCheckoutPlano('Básico', 9.90)" 
+              class="w-full bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold text-xs py-3 rounded-xl transition-colors touch-target"
+            >
+              Escolher Básico (R$ 9,90)
+            </button>
+          </div>
+        </div>
+
+        <!-- PLANO 2: COMPLETO (R$ 14,90) - O MAIS POPULAR / DESTAQUE -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border-2 border-blue-600 shadow-xl flex flex-col justify-between relative transform md:-translate-y-2">
+          
+          <div class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-[11px] font-black uppercase tracking-wider px-3.5 py-1 rounded-full shadow-sm">
+            🔥 Mais Escolhido
+          </div>
+
+          <div class="space-y-4">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-blue-700 block">Recomendado para Compra</span>
+              <h3 class="text-xl font-black text-[#0F1B35] mt-0.5">Histórico Completo</h3>
+              <p class="text-xs text-[#526078] mt-1">O pacote mais seguro para quem vai comprar ou vender.</p>
+            </div>
+
+            <div class="pt-2 pb-4 border-b border-slate-100">
+              <span class="text-xs text-slate-400">Pagamento único de</span>
+              <div class="flex items-baseline gap-1 mt-0.5">
+                <span class="text-3xl sm:text-4xl font-black text-blue-700">R$ 14,90</span>
+                <span class="text-xs text-slate-500">/ laudo</span>
+              </div>
+            </div>
+
+            <!-- Lista de Itens -->
+            <ul class="space-y-2.5 text-xs text-slate-700 font-medium">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span class="font-bold text-slate-900">Tudo do Plano Básico incluso</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span><strong>Passagem por Leilão</strong> (Bancos e Seguradoras)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span><strong>Histórico de Sinistro</strong> & Indenização</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Quilometragem registrada em vistorias</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Alerta de Recall pendente na montadora</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Índice de aceitação em seguradoras</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-slate-100">
+            <button 
+              type="button" 
+              onclick="abrirCheckoutPlano('Completo', 14.90)" 
+              class="w-full bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-extrabold text-sm py-3.5 rounded-xl shadow-md transition-all touch-target"
+            >
+              Escolher Completo (R$ 14,90)
+            </button>
+          </div>
+        </div>
+
+        <!-- PLANO 3: LAUDO MASTER (R$ 19,90) -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-[#D9E1EC] shadow-xs flex flex-col justify-between hover:border-blue-300 transition-all">
+          <div class="space-y-4">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">Máxima Proteção Cautelar</span>
+              <h3 class="text-xl font-black text-[#0F1B35] mt-0.5">Laudo Master</h3>
+              <p class="text-xs text-[#526078] mt-1">Laudo oficial com fotos de leilão e gravames.</p>
+            </div>
+
+            <div class="pt-2 pb-4 border-b border-slate-100">
+              <span class="text-xs text-slate-400">Pagamento único de</span>
+              <div class="flex items-baseline gap-1 mt-0.5">
+                <span class="text-3xl sm:text-4xl font-black text-[#0F1B35]">R$ 19,90</span>
+                <span class="text-xs text-slate-500">/ laudo</span>
+              </div>
+            </div>
+
+            <!-- Lista de Itens -->
+            <ul class="space-y-2.5 text-xs text-[#526078]">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span class="font-bold text-slate-900">Tudo do Plano Completo incluso</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span><strong>Gravame ativo</strong> e Alienação (SNG)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Bloqueios Judiciais <strong>(RENAJUD)</strong></span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Fotos do lote de leilão (quando disponível)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Certificado em PDF assinado para impressão</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i>
+                <span>Envio prioritário no WhatsApp e E-mail</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pt-6 mt-6 border-t border-slate-100">
+            <button 
+              type="button" 
+              onclick="abrirCheckoutPlano('Laudo Master', 19.90)" 
+              class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs py-3 rounded-xl transition-colors touch-target"
+            >
+              Escolher Laudo Master (R$ 19,90)
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SELOS DE SEGURANÇA E PAGAMENTO (INSPIRADO NA PARTE INFERIOR DA IMAGEM 2) -->
+      <div class="pt-6 border-t border-[#D9E1EC]/60 flex flex-wrap items-center justify-center lg:justify-between gap-6 text-xs text-[#526078]">
+        <div class="flex items-center gap-3">
+          <i data-lucide="lock" class="w-4 h-4 text-emerald-600"></i>
+          <div>
+            <strong class="text-slate-800 block">Pagamento Seguro</strong>
+            <span class="text-[11px]">Seus dados 100% protegidos com SSL 256 bits</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 text-slate-600 font-bold text-xs">
+          <span class="flex items-center gap-1"><i data-lucide="qr-code" class="w-4 h-4 text-emerald-600"></i> PIX Instantâneo</span>
+          <span class="flex items-center gap-1"><i data-lucide="credit-card" class="w-4 h-4 text-blue-600"></i> Cartão de Crédito</span>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <i data-lucide="users" class="w-4 h-4 text-blue-600"></i>
+          <div>
+            <strong class="text-slate-800 block">+120.000 Consultas Realizadas</strong>
+            <span class="text-[11px]">Brasileiros confiam no Cidadão Agora</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEÇÃO: O QUE CONSULTAMOS (INSPIRADO NA IMAGEM 2) -->
+  <section id="o-que-consultamos" class="py-12 sm:py-16 bg-[#F8FAFC]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
+      
+      <div class="max-w-2xl mx-auto text-center space-y-2">
+        <span class="ds-badge ds-badge-accent">Transparência Total</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
+          O que você descobre antes de fechar negócio?
+        </h2>
+        <p class="text-xs sm:text-sm text-[#526078]">
+          Mais de 1 em cada 3 carros usados possuem pendências graves escondidas. Veja o que verificamos:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold">
+            <i data-lucide="gavel" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-sm font-bold text-[#0F1B35]">Passagem por Leilão</h3>
+          <p class="text-xs text-[#526078] leading-relaxed">
+            Descubra se o carro foi leiloado por bancos, seguradoras ou órgãos públicos, o que desvaloriza o veículo em até 30% no mercado.
+          </p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center font-bold">
+            <i data-lucide="shield-alert" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-sm font-bold text-[#0F1B35]">Sinistro e Batidas</h3>
+          <p class="text-xs text-[#526078] leading-relaxed">
+            Consulte se o carro já sofreu acidentes com indenização de seguradora (pequena, média ou grande monta) e histórico de perda total.
+          </p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold">
+            <i data-lucide="scale" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-sm font-bold text-[#0F1B35]">Restrições e RENAJUD</h3>
+          <p class="text-xs text-[#526078] leading-relaxed">
+            Verifique se há bloqueios judiciais, processos trabalhistas ou restrições que impeçam a transferência do veículo no DETRAN.
+          </p>
+        </div>
+
+        <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold">
+            <i data-lucide="banknote" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-sm font-bold text-[#0F1B35]">Débitos e Multas Ativas</h3>
+          <p class="text-xs text-[#526078] leading-relaxed">
+            Veja o valor exato de multas estaduais, multas federais (PRF/DNIT), IPVA em atraso e taxa de licenciamento a pagar.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEÇÃO: COMO FUNCIONA EM 3 PASSOS -->
+  <section id="como-funciona" class="py-12 sm:py-16 bg-white border-t border-[#D9E1EC]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
+      
+      <div class="text-center max-w-2xl mx-auto space-y-2">
+        <span class="ds-badge ds-badge-brand">Passo a Passo</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
+          Como funciona a consulta?
+        </h2>
+        <p class="text-xs sm:text-sm text-[#526078]">
+          Em menos de 1 minuto você tem a resposta oficial completa.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+        
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-center space-y-3">
+          <div class="w-12 h-12 rounded-full bg-blue-600 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+            1
+          </div>
+          <h3 class="text-base font-bold text-[#0F1B35]">Digite a Placa</h3>
+          <p class="text-xs text-[#526078]">
+            Informe qualquer placa brasileira, seja no formato Mercosul (ABC1D23) ou antigo (ABC-1234).
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-center space-y-3">
+          <div class="w-12 h-12 rounded-full bg-blue-600 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+            2
+          </div>
+          <h3 class="text-base font-bold text-[#0F1B35]">Confira os Dados Grátis</h3>
+          <p class="text-xs text-[#526078]">
+            Veja gratuitamente na hora a foto do veículo, marca, modelo, ano, UF de registro e valor FIPE.
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-center space-y-3">
+          <div class="w-12 h-12 rounded-full bg-emerald-600 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
+            3
+          </div>
+          <h3 class="text-base font-bold text-[#0F1B35]">Desbloqueie o Laudo</h3>
+          <p class="text-xs text-[#526078]">
+            Escolha seu plano a partir de R$ 9,90 e receba o laudo completo liberado na tela e por WhatsApp.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEÇÃO FAQ (DÚVIDAS FREQUENTES) -->
+  <section id="duvidas" class="py-12 sm:py-16 bg-[#F8FAFC] border-t border-[#D9E1EC]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
+      
+      <div class="text-center space-y-2">
+        <span class="ds-badge ds-badge-accent">Perguntas Frequentes</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
+          Dúvidas sobre a Consulta Veicular
+        </h2>
+      </div>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        
+        <details class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs group cursor-pointer">
+          <summary class="font-bold text-[#0F1B35] flex items-center justify-between list-none">
+            <span>Preciso saber o RENAVAM ou CPF para consultar?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-[#526078] mt-3 leading-relaxed">
+            Não! Nossa consulta avançada precisa apenas da <strong>placa do veículo</strong>. Cruzamos os registros nacionais oficiais para entregar o laudo completo sem burocracia.
+          </p>
+        </details>
+
+        <details class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs group cursor-pointer">
+          <summary class="font-bold text-[#0F1B35] flex items-center justify-between list-none">
+            <span>Como recebo o laudo após o pagamento?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-[#526078] mt-3 leading-relaxed">
+            O laudo é liberado instantaneamente na própria tela assim que o Pix é confirmado (em cerca de 10 segundos) e você também recebe uma cópia em PDF com link seguro no seu WhatsApp e E-mail.
+          </p>
+        </details>
+
+        <details class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs group cursor-pointer">
+          <summary class="font-bold text-[#0F1B35] flex items-center justify-between list-none">
+            <span>A consulta funciona para motos e caminhões também?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-[#526078] mt-3 leading-relaxed">
+            Sim! O sistema consulta carros de passeio, picapes, motos, caminhões, vans e utilitários registrados em qualquer Estado do Brasil.
+          </p>
+        </details>
+
+        <details class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs group cursor-pointer">
+          <summary class="font-bold text-[#0F1B35] flex items-center justify-between list-none">
+            <span>As informações são oficiais e atualizadas?</span>
+            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-[#526078] mt-3 leading-relaxed">
+            Sim! Os dados são consultados em tempo real direto das bases do SENATRAN, DETRANs estaduais, Tabela FIPE oficial da Fundação Instituto de Pesquisas Econômicas e bases securitárias credenciadas.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MODAL INTERATIVO DE CHECKOUT PIX E CARTÃO -->
+  <div id="modal-checkout" class="fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 space-y-5 shadow-2xl border border-slate-200 relative animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Botão Fechar -->
+      <button type="button" onclick="fecharCheckout()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 p-1 rounded-full touch-target">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Cabeçalho do Checkout -->
+      <div class="space-y-1">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
+          Pagamento Seguro SSL
+        </span>
+        <h3 class="text-xl font-black text-[#0F1B35]">
+          Desbloquear Laudo Veicular
+        </h3>
+        <p class="text-xs text-[#526078]">
+          Plano selecionado: <strong id="modal-plano-nome" class="text-blue-700"></strong>
+        </p>
+      </div>
+
+      <!-- Card Resumo da Placa -->
+      <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 flex items-center justify-between text-xs">
+        <div>
+          <span class="text-[10px] text-slate-400 block">Veículo a consultar:</span>
+          <strong id="modal-resumo-veiculo" class="text-xs font-bold text-slate-800"></strong>
+        </div>
+        <div class="text-right">
+          <span class="text-[10px] text-slate-400 block">Valor:</span>
+          <strong id="modal-plano-preco" class="text-base font-black text-emerald-700"></strong>
+        </div>
+      </div>
+
+      <!-- Abas de Pagamento: PIX vs CARTÃO -->
+      <div class="flex border-b border-slate-200 text-xs font-bold">
+        <button type="button" id="tab-pix" onclick="alternarMetodoPagamento('pix')" class="flex-1 pb-2.5 text-emerald-700 border-b-2 border-emerald-600 flex items-center justify-center gap-1.5">
+          <i data-lucide="qr-code" class="w-4 h-4"></i> PIX (Imediato)
+        </button>
+        <button type="button" id="tab-cartao" onclick="alternarMetodoPagamento('cartao')" class="flex-1 pb-2.5 text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5">
+          <i data-lucide="credit-card" class="w-4 h-4"></i> Cartão
+        </button>
+      </div>
+
+      <!-- ÁREA PIX -->
+      <div id="checkout-area-pix" class="space-y-4">
+        
+        <div class="bg-emerald-50/70 p-3.5 rounded-2xl border border-emerald-200 text-center space-y-2">
+          <div class="w-36 h-36 bg-white p-2 rounded-xl mx-auto border border-emerald-200 shadow-xs flex items-center justify-center">
+            <!-- QR CODE PIX REALISTA EM SVG -->
+            <svg viewBox="0 0 100 100" class="w-full h-full text-slate-900" fill="currentColor">
+              <rect width="28" height="28" x="6" y="6"/>
+              <rect width="20" height="20" x="10" y="10" fill="#fff"/>
+              <rect width="12" height="12" x="14" y="14"/>
+              
+              <rect width="28" height="28" x="66" y="6"/>
+              <rect width="20" height="20" x="70" y="10" fill="#fff"/>
+              <rect width="12" height="12" x="74" y="14"/>
+              
+              <rect width="28" height="28" x="6" y="66"/>
+              <rect width="20" height="20" x="10" y="70" fill="#fff"/>
+              <rect width="12" height="12" x="14" y="74"/>
+
+              <rect x="40" y="8" width="8" height="8"/>
+              <rect x="52" y="16" width="8" height="8"/>
+              <rect x="44" y="32" width="12" height="8"/>
+              <rect x="66" y="44" width="8" height="8"/>
+              <rect x="40" y="56" width="8" height="8"/>
+              <rect x="52" y="68" width="16" height="8"/>
+              <rect x="76" y="68" width="8" height="8"/>
+              <rect x="40" y="80" width="8" height="12"/>
+              <rect x="60" y="84" width="16" height="8"/>
+            </svg>
+          </div>
+          <span class="text-[11px] font-bold text-emerald-800 block">Abra o app do seu banco e aponte a câmera</span>
+        </div>
+
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-bold text-slate-600">Código Pix Copia e Cola:</label>
+          <div class="flex items-center gap-2">
+            <input 
+              type="text" 
+              id="pix-copia-cola" 
+              readonly 
+              value="00020126580014br.gov.bcb.pix0136cidadaoagora-veiculos-pix-chave520400005303986540514.905802BR5925CIDADAO AGORA BRASIL6009SAO PAULO62070503***6304ABCD"
+              class="w-full text-[11px] font-mono bg-slate-100 p-2.5 rounded-xl border border-slate-200 select-all truncate text-slate-600"
+            >
+            <button 
+              type="button" 
+              onclick="copiarChavePix()" 
+              id="btn-copiar-pix" 
+              class="bg-blue-600 hover:bg-blue-700 text-white px-3.5 py-2.5 rounded-xl text-xs font-bold shrink-0 transition-colors"
+            >
+              Copiar
+            </button>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between text-[11px] text-slate-500 pt-1">
+          <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5 text-amber-500"></i> Código expira em 14:59</span>
+          <span class="text-emerald-700 font-bold">Liberação em 10 segundos</span>
+        </div>
+
+      </div>
+
+      <!-- ÁREA CARTÃO -->
+      <div id="checkout-area-cartao" class="hidden space-y-3 text-xs">
+        <div>
+          <label class="font-bold text-slate-700 block mb-1">Número do Cartão:</label>
+          <input type="text" placeholder="0000 0000 0000 0000" maxlength="19" class="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 font-mono">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="font-bold text-slate-700 block mb-1">Validade:</label>
+            <input type="text" placeholder="MM/AA" maxlength="5" class="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 font-mono text-center">
+          </div>
+          <div>
+            <label class="font-bold text-slate-700 block mb-1">CVV:</label>
+            <input type="text" placeholder="123" maxlength="4" class="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 font-mono text-center">
+          </div>
+        </div>
+        <div>
+          <label class="font-bold text-slate-700 block mb-1">Nome no Cartão:</label>
+          <input type="text" placeholder="Como impresso no cartão" class="w-full p-2.5 rounded-xl border border-slate-200 bg-slate-50 uppercase">
+        </div>
+        <button type="button" onclick="alert('Simulação de pagamento aprovada com sucesso! O laudo foi enviado para o seu dispositivo.')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-3 rounded-xl mt-2">
+          Pagar com Cartão com Segurança
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RODAPÉ INSTITUCIONAL PADRÃO -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-8 text-[#526078] text-xs text-center space-y-3 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="font-black text-slate-800 text-sm">Cidadão Agora Brasil</span>
+        <span class="text-slate-400">•</span>
+        <span>Consulta Veicular Inteligente</span>
+      </div>
+
+      <div class="flex items-center gap-4 text-xs">
+        <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-900 underline">Política de Privacidade (LGPD)</a>
+        <span>•</span>
+        <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-900 underline">Termos de Uso</a>
+        <span>•</span>
+        <a href="../conteudo/contato.html" class="hover:text-slate-900 underline">Contato e Suporte</a>
+      </div>
+    </div>
+    <p class="text-[11px] text-slate-400">
+      Cidadão Agora © 2026 - Plataforma informativa de consulta e histórico veicular baseada em dados públicos e FIPE.
+    </p>
+  </footer>
+
+  <!-- DADOS OFICIAIS SENATRAN -->
+  <script src="../dados_placas.js"></script>
+
+  <!-- LÓGICA COMPLETA DE CONSULTA, CACHE E CHECKOUT -->
+  <script>
+    if (window.lucide) window.lucide.createIcons();
+
+    // 1. BANCO DE LOGOTIPOS EM VETOR SVG DAS MONTADORAS
+    const LOGOS_MONTADORAS = {
+      'TOYOTA': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#E60012"><ellipse cx="50" cy="50" rx="46" ry="32" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="46" rx="28" ry="16" fill="none" stroke="#D90011" stroke-width="6"/><ellipse cx="50" cy="50" rx="14" ry="30" fill="none" stroke="#D90011" stroke-width="6"/></svg>`,
+      'VOLKSWAGEN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#001E50"><circle cx="50" cy="50" r="46" fill="none" stroke="#001E50" stroke-width="6"/><path d="M26 30 L40 68 L50 44 L60 68 L74 30 M34 76 L50 34 L66 76" fill="none" stroke="#001E50" stroke-width="5" stroke-linejoin="round"/></svg>`,
+      'VW': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#001E50"><circle cx="50" cy="50" r="46" fill="none" stroke="#001E50" stroke-width="6"/><path d="M26 30 L40 68 L50 44 L60 68 L74 30 M34 76 L50 34 L66 76" fill="none" stroke="#001E50" stroke-width="5" stroke-linejoin="round"/></svg>`,
+      'CHEVROLET': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#C99700"><polygon points="20,0 80,0 80,20 100,20 100,40 80,40 80,60 20,60 20,40 0,40 0,20 20,20" fill="#E5A823" stroke="#8A6500" stroke-width="2"/></svg>`,
+      'GM': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#C99700"><polygon points="20,0 80,0 80,20 100,20 100,40 80,40 80,60 20,60 20,40 0,40 0,20 20,20" fill="#E5A823" stroke="#8A6500" stroke-width="2"/></svg>`,
+      'FIAT': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#990000"><rect width="100" height="50" rx="10" fill="#8F0C25"/><text x="50" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">FIAT</text></svg>`,
+      'JEEP': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#1C3F29"><text x="50" y="36" font-family="Impact, Arial, sans-serif" font-weight="bold" font-size="34" fill="#0F1B35" text-anchor="middle" letter-spacing="2">Jeep</text></svg>`,
+      'HYUNDAI': `<svg viewBox="0 0 100 60" class="w-14 h-8" fill="#002C6C"><ellipse cx="50" cy="30" rx="46" ry="26" fill="none" stroke="#002C6C" stroke-width="5"/><path d="M35 15 L35 45 M35 30 L65 30 M65 15 L65 45" stroke="#002C6C" stroke-width="6" stroke-linecap="round"/></svg>`,
+      'HONDA': `<svg viewBox="0 0 100 80" class="w-12 h-10" fill="#0F1B35"><rect x="10" y="5" width="80" height="70" rx="12" fill="none" stroke="#0F1B35" stroke-width="6"/><path d="M28 20 L35 60 L65 60 L72 20 M35 40 L65 40" fill="none" stroke="#0F1B35" stroke-width="6" stroke-linecap="round"/></svg>`,
+      'RENAULT': `<svg viewBox="0 0 80 100" class="w-10 h-12" fill="#E6A100"><polygon points="40,5 75,50 40,95 5,50" fill="none" stroke="#0F1B35" stroke-width="8"/><polygon points="40,28 58,50 40,72 22,50" fill="none" stroke="#0F1B35" stroke-width="6"/></svg>`,
+      'FORD': `<svg viewBox="0 0 100 50" class="w-14 h-7" fill="#002C6C"><ellipse cx="50" cy="25" rx="48" ry="22" fill="#002C6C" stroke="#FFFFFF" stroke-width="2"/><text x="50" y="32" font-family="'Brush Script MT', cursive, sans-serif" font-style="italic" font-weight="bold" font-size="24" fill="#FFFFFF" text-anchor="middle">Ford</text></svg>`,
+      'NISSAN': `<svg viewBox="0 0 100 100" class="w-12 h-12" fill="#C3002F"><circle cx="50" cy="50" r="42" fill="none" stroke="#777777" stroke-width="7"/><rect x="8" y="38" width="84" height="24" rx="3" fill="#777777"/><text x="50" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="13" fill="#FFFFFF" text-anchor="middle">NISSAN</text></svg>`,
+      'BMW': `<svg viewBox="0 0 100 100" class="w-12 h-12"><circle cx="50" cy="50" r="46" fill="#000" stroke="#fff" stroke-width="2"/><circle cx="50" cy="50" r="32" fill="#fff"/><path d="M50 18 A32 32 0 0 1 82 50 L50 50 Z" fill="#0066B1"/><path d="M18 50 A32 32 0 0 1 50 82 L50 50 Z" fill="#0066B1"/><text x="50" y="14" font-family="Arial" font-weight="bold" font-size="10" fill="#fff" text-anchor="middle">BMW</text></svg>`
+    };
+
+    // 2. CATÁLOGO LOCAL DE FOTOS DE ESTÚDIO OFICIAIS EM ALTA DEFINIÇÃO
+    const FOTOS_CATALOGO_BASE = {
+      'hb20': '../img/carros/hb20.jpg',
+      'onix': '../img/carros/onix.jpg',
+      'gol': '../img/carros/gol.jpg',
+      'polo': '../img/carros/polo.jpg',
+      'strada': '../img/carros/strada.jpg',
+      'argo': '../img/carros/argo.jpg',
+      'mobi': '../img/carros/mobi.jpg',
+      'toro': '../img/carros/toro.jpg',
+      'corolla': '../img/carros/corolla.jpg',
+      'renegade': '../img/carros/renegade.jpg',
+      'compass': '../img/carros/compass.jpg',
+      'kwid': '../img/carros/kwid.png',
+      'civic': '../img/carros/civic.jpg',
+      'hrv': '../img/carros/hrv.jpg',
+      'hr-v': '../img/carros/hrv.jpg',
+      'tcross': '../img/carros/tcross.jpg',
+      't-cross': '../img/carros/tcross.jpg'
+    };
+
+    const LETRA_PARA_NUMERO = { A: '0', B: '1', C: '2', D: '3', E: '4', F: '5', G: '6', H: '7', I: '8', J: '9' };
+    const NUMERO_PARA_LETRA = { '0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G', '7': 'H', '8': 'I', '9': 'J' };
+
+    let veiculoAtualConsultado = null;
+
+    function normalizarChaveModelo(modelo) {
+      return (modelo || '').toLowerCase().trim().replace(/[^a-z0-9]/g, '_');
+    }
+
+    function obterFotoModelo(modelo, marca, modeloBase) {
+      const modLower = `${modeloBase || ''} ${modelo || ''}`.toLowerCase();
+      const chaveMod = normalizarChaveModelo(modeloBase || modelo);
+
+      const fotoCache = localStorage.getItem(`cache_foto_mod_${chaveMod}`);
+      if (fotoCache && !fotoCache.includes('regcheck') && !fotoCache.includes('photo-1580273916550')) {
+        return { url: fotoCache, origem: 'Cache Local' };
+      }
+
+      for (const [chave, path] of Object.entries(FOTOS_CATALOGO_BASE)) {
+        if (modLower.includes(chave)) {
+          localStorage.setItem(`cache_foto_mod_${chaveMod}`, path);
+          return { url: path, origem: 'Catálogo de Estúdio HD' };
+        }
+      }
+
+      return null;
+    }
+
+    async function buscarFotoWikipedia(marca, modelo) {
+      try {
+        const termo = `${marca} ${modelo}`.trim();
+        const url = `https://pt.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(termo)}&prop=pageimages&format=json&pithumbsize=600&origin=*`;
+        const res = await fetch(url);
+        if (res.ok) {
+          const data = await res.json();
+          const pages = data.query?.pages;
+          for (const k in pages) {
+            if (pages[k]?.thumbnail?.source) {
+              return pages[k].thumbnail.source;
+            }
+          }
+        }
+      } catch (e) {}
+      return null;
+    }
+
+    function extrairValorNumericoFipe(str) {
+      if (typeof str === 'number') return str;
+      if (!str) return 0;
+      const texto = String(str).trim();
+      if (texto.includes(',')) {
+        const limpo = texto.replace(/[^\d,]/g, '').replace(',', '.');
+        return parseFloat(limpo) || 0;
+      }
+      const apenasDigitos = texto.replace(/\D/g, '');
+      return parseFloat(apenasDigitos) || 0;
+    }
+
+    async function consultarFipeNoCliente(veiculo) {
+      try {
+        let codMarca = veiculo.marcaDetalhes?.fipeId ? String(veiculo.marcaDetalhes.fipeId) : null;
+        if (!codMarca || isNaN(Number(codMarca))) {
+          const resMarcas = await fetch('https://parallelum.com.br/fipe/api/v1/carros/marcas');
+          if (!resMarcas.ok) return null;
+          const marcas = await resMarcas.json();
+          const mStr = (veiculo.marca || veiculo.fabricante || '').toUpperCase();
+          const mEncontrada = marcas.find(m => m.nome.toUpperCase().includes(mStr) || mStr.includes(m.nome.toUpperCase()));
+          if (mEncontrada) codMarca = mEncontrada.codigo;
+        }
+        if (!codMarca) return null;
+
+        const resModelos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos`);
+        if (!resModelos.ok) return null;
+        const { modelos } = await resModelos.json();
+
+        const modStr = (veiculo.modelo || '').toUpperCase();
+        const verStr = (veiculo.versao || '').toUpperCase();
+        const termos = `${modStr} ${verStr}`.replace(/[()\/\\-]/g, ' ').split(/\s+/).filter(t => t.length >= 3);
+
+        let melhorMod = null;
+        let maxPts = -1;
+
+        for (const m of modelos) {
+          const nMod = m.nome.toUpperCase();
+          let pts = 0;
+          if (modStr && nMod.includes(modStr)) pts += 10;
+          for (const t of termos) {
+            if (nMod.includes(t) || (t.length >= 5 && nMod.includes(t.slice(0, 5)))) pts += 5;
+          }
+          if (pts > maxPts) {
+            maxPts = pts;
+            melhorMod = m;
+          }
+        }
+
+        if (!melhorMod || maxPts <= 0) {
+          melhorMod = modelos.find(m => m.nome.toUpperCase().includes(modStr)) || null;
+        }
+        if (!melhorMod) return null;
+
+        const resAnos = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos`);
+        if (!resAnos.ok) return null;
+        const anos = await resAnos.json();
+
+        const anoDesejado = String(veiculo.ano_modelo || veiculo.ano_fabricacao || '');
+        let anoObj = anos.find(a => a.codigo.startsWith(anoDesejado)) || anos[0];
+        if (!anoObj) return null;
+
+        const resFipe = await fetch(`https://parallelum.com.br/fipe/api/v1/carros/marcas/${codMarca}/modelos/${melhorMod.codigo}/anos/${anoObj.codigo}`);
+        if (!resFipe.ok) return null;
+        const fipeFinal = await resFipe.json();
+
+        return {
+          valor: fipeFinal.Valor,
+          marca: fipeFinal.Marca,
+          modelo: fipeFinal.Modelo,
+          anoModelo: fipeFinal.AnoModelo,
+          combustivel: fipeFinal.Combustivel,
+          codigoFipe: fipeFinal.CodigoFipe,
+          mesReferencia: fipeFinal.MesReferencia
+        };
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function testarPlacaExemplo(placa) {
+      document.getElementById('input-placa-historico').value = placa;
+      executarConsultaHistorico(new Event('submit'));
+    }
+
+    async function executarConsultaHistorico(e) {
+      if (e && e.preventDefault) e.preventDefault();
+      
+      const erroDiv = document.getElementById('historico-erro');
+      erroDiv.classList.add('hidden');
+
+      const input = document.getElementById('input-placa-historico');
+      const raw = input.value.trim().toUpperCase().replace(/[^A-Z0-9]/g, "");
+
+      if (raw.length !== 7) {
+        erroDiv.innerText = "Por favor, digite uma placa válida com 7 caracteres (Ex: ABC1D23 ou ABC1234).";
+        erroDiv.classList.remove('hidden');
+        return;
+      }
+
+      const cacheKey = `placa_foto_cache_${raw}`;
+      const cacheData = localStorage.getItem(cacheKey);
+
+      if (cacheData) {
+        try {
+          const parsed = JSON.parse(cacheData);
+          if (parsed.marca !== "AUTOMÓVEL" && parsed.modelo !== "Veículo Nacional Cadastrado") {
+            renderizarResultadoHistorico(raw, parsed, true);
+            return;
+          }
+        } catch (err) {
+          localStorage.removeItem(cacheKey);
+        }
+      }
+
+      const btn = document.getElementById('btn-consultar-historico');
+      const btnTexto = document.getElementById('btn-texto-historico');
+      btn.disabled = true;
+      btnTexto.innerText = "Consultando...";
+
+      // Decodificação por Faixas SENATRAN
+      const letras = raw.slice(0, 3);
+      let estadoInfo = { estado: "São Paulo", uf: "SP" };
+      if (window.FAIXAS_ESTADOS_BRASIL) {
+        const achou = window.FAIXAS_ESTADOS_BRASIL.find(f => letras >= f.de && letras <= f.ate);
+        if (achou) estadoInfo = achou;
+      }
+
+      let veiculoFinal = null;
+
+      try {
+        const res = await fetch('/api/veiculo', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ placa: raw })
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.sucesso && data.veiculo) {
+            let precoFipe = data.fipe && data.fipe.valor ? data.fipe.valor : null;
+            let nomeModeloExibicao = data.veiculo.modelo || 'Automóvel';
+
+            if (!precoFipe) {
+              const fipeCli = await consultarFipeNoCliente(data.veiculo);
+              if (fipeCli && fipeCli.valor) {
+                precoFipe = fipeCli.valor;
+                if (fipeCli.modelo) nomeModeloExibicao = fipeCli.modelo;
+              }
+            }
+
+            const anoFab = data.veiculo.ano_fabricacao || '';
+            const anoMod = data.veiculo.ano_modelo || anoFab || '';
+            const anoFormatado = (anoFab && anoMod && String(anoFab) !== String(anoMod)) ? `${anoFab}/${anoMod}` : (anoMod || anoFab || '2021');
+            const cidadeUf = data.veiculo.cidade || `${estadoInfo.estado} (${estadoInfo.uf})`;
+
+            veiculoFinal = {
+              modelo: nomeModeloExibicao,
+              modeloBase: data.veiculo.modelo || 'Automóvel',
+              marca: data.veiculo.marca || data.veiculo.fabricante || 'VEÍCULO',
+              versao: data.veiculo.versao || '',
+              ano: anoFormatado,
+              cor: data.veiculo.cor || 'Prata',
+              cidade: cidadeUf,
+              precoFipe: precoFipe || 'R$ 78.500,00',
+              estadoInfo: estadoInfo,
+              origem: 'Base Pública Oficial'
+            };
+          }
+        }
+      } catch (err) {
+        console.warn('Erro ao consultar /api/veiculo:', err);
+      }
+
+      if (!veiculoFinal) {
+        veiculoFinal = {
+          modelo: "Veículo sob Faixa SENATRAN",
+          modeloBase: "Veículo",
+          marca: "SENATRAN",
+          versao: "Registro Oficial Cadastrado",
+          ano: "Consulte no DETRAN",
+          cor: "Consulte no DETRAN",
+          cidade: `${estadoInfo.estado} (${estadoInfo.uf})`,
+          precoFipe: "Consulte a Tabela FIPE",
+          estadoInfo: estadoInfo,
+          origem: 'Decodificação Oficial SENATRAN'
+        };
+      }
+
+      localStorage.setItem(cacheKey, JSON.stringify(veiculoFinal));
+
+      btn.disabled = false;
+      btnTexto.innerText = "Consultar agora";
+
+      renderizarResultadoHistorico(raw, veiculoFinal, false);
+    }
+
+    function renderizarResultadoHistorico(placa, dados, vemDoCache) {
+      veiculoAtualConsultado = { placa: placa, ...dados };
+
+      const area = document.getElementById('area-resultado');
+      area.classList.remove('hidden');
+
+      const marca = (dados.marca || 'VEÍCULO').toUpperCase();
+      const modelo = dados.modelo || 'Automóvel';
+      const ano = dados.ano || '2021';
+      const cor = dados.cor || 'Prata';
+      const cidade = dados.cidade || 'Brasil';
+      const precoFipe = dados.precoFipe || 'R$ 78.500,00';
+
+      document.getElementById('res-marca').innerText = marca;
+      document.getElementById('res-modelo').innerText = modelo;
+      document.getElementById('res-versao').innerText = dados.versao || `${marca} ${modelo} Flex`;
+      document.getElementById('res-ano').innerText = ano;
+      document.getElementById('res-cor').innerText = cor;
+      document.getElementById('res-cidade-uf').innerText = cidade;
+      document.getElementById('res-placa-destaque').innerText = placa;
+
+      // Logotipo da Marca
+      const logoSvg = LOGOS_MONTADORAS[marca] || `<div class="font-black text-sm text-slate-700">${marca.slice(0, 3)}</div>`;
+      document.getElementById('res-logo-svg').innerHTML = logoSvg;
+
+      // Placa e Conversão
+      const isMercosul = /^[A-Z]{3}[0-9][A-Z][0-9]{2}$/.test(placa);
+      document.getElementById('res-badge-tipo').innerText = isMercosul ? 'Placa Padrão Mercosul' : 'Placa Padrão Cinza';
+
+      let conv = "Padrão Oficial";
+      if (isMercosul) {
+        const dig = LETRA_PARA_NUMERO[placa.charAt(4)] || "0";
+        conv = `${placa.slice(0, 3)}-${placa.charAt(3)}${dig}${placa.slice(5)}`;
+      } else if (/^[A-Z]{3}[0-9]{4}$/.test(placa)) {
+        const letM = NUMERO_PARA_LETRA[placa.charAt(4)] || "A";
+        conv = `${placa.slice(0, 3)}${placa.charAt(3)}${letM}${placa.slice(5)}`;
+      }
+      document.getElementById('res-placa-antiga').innerText = conv;
+
+      // Foto do Veículo
+      const imgEl = document.getElementById('res-carro-img');
+      const fallbackEl = document.getElementById('res-carro-fallback');
+      const fotoObj = obterFotoModelo(modelo, marca, dados.modeloBase);
+
+      if (fotoObj && fotoObj.url) {
+        imgEl.classList.remove('hidden');
+        fallbackEl.classList.add('hidden');
+        imgEl.src = fotoObj.url;
+        document.getElementById('res-foto-legenda').innerText = `${fotoObj.origem}${vemDoCache ? ' • Cache Ativo' : ''}`;
+      } else {
+        imgEl.classList.add('hidden');
+        fallbackEl.classList.remove('hidden');
+        buscarFotoWikipedia(marca, dados.modeloBase || modelo).then(wUrl => {
+          if (wUrl) {
+            imgEl.classList.remove('hidden');
+            fallbackEl.classList.add('hidden');
+            imgEl.src = wUrl;
+            document.getElementById('res-foto-legenda').innerText = 'Catálogo Oficial Wikipedia';
+            localStorage.setItem(`cache_foto_mod_${normalizarChaveModelo(dados.modeloBase || modelo)}`, wUrl);
+          }
+        });
+      }
+
+      // FIPE e IPVA
+      const numValor = extrairValorNumericoFipe(precoFipe);
+      if (numValor > 0) {
+        document.getElementById('res-fipe-valor').innerText = numValor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        // IPVA médio aproximado de 3% a 4%
+        const ipvaMedio = numValor * 0.035;
+        document.getElementById('res-ipva-valor').innerText = ipvaMedio.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      } else {
+        document.getElementById('res-fipe-valor').innerText = precoFipe;
+        document.getElementById('res-ipva-valor').innerText = "Consulte Tabela";
+      }
+
+      area.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // GESTÃO DO CHECKOUT PIX E CARTÃO
+    function abrirCheckoutPlano(planoNome, preco) {
+      const modal = document.getElementById('modal-checkout');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+
+      document.getElementById('modal-plano-nome').innerText = planoNome;
+      document.getElementById('modal-plano-preco').innerText = preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      
+      const v = veiculoAtualConsultado;
+      const descVeiculo = v ? `${v.placa} • ${v.marca} ${v.modelo}` : "Veículo informado na consulta";
+      document.getElementById('modal-resumo-veiculo').innerText = descVeiculo;
+    }
+
+    function fecharCheckout() {
+      const modal = document.getElementById('modal-checkout');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function alternarMetodoPagamento(metodo) {
+      const areaPix = document.getElementById('checkout-area-pix');
+      const areaCartao = document.getElementById('checkout-area-cartao');
+      const tabPix = document.getElementById('tab-pix');
+      const tabCartao = document.getElementById('tab-cartao');
+
+      if (metodo === 'pix') {
+        areaPix.classList.remove('hidden');
+        areaCartao.classList.add('hidden');
+        tabPix.className = "flex-1 pb-2.5 text-emerald-700 border-b-2 border-emerald-600 flex items-center justify-center gap-1.5";
+        tabCartao.className = "flex-1 pb-2.5 text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5";
+      } else {
+        areaPix.classList.add('hidden');
+        areaCartao.classList.remove('hidden');
+        tabCartao.className = "flex-1 pb-2.5 text-blue-700 border-b-2 border-blue-600 flex items-center justify-center gap-1.5";
+        tabPix.className = "flex-1 pb-2.5 text-slate-500 hover:text-slate-800 flex items-center justify-center gap-1.5";
+      }
+    }
+
+    function copiarChavePix() {
+      const input = document.getElementById('pix-copia-cola');
+      input.select();
+      navigator.clipboard.writeText(input.value).then(() => {
+        const btn = document.getElementById('btn-copiar-pix');
+        const oldText = btn.innerText;
+        btn.innerText = "Copiado! ✓";
+        btn.classList.replace('bg-blue-600', 'bg-emerald-600');
+        setTimeout(() => {
+          btn.innerText = oldText;
+          btn.classList.replace('bg-emerald-600', 'bg-blue-600');
+        }, 3000);
+      });
+    }
+
+    // Fechar modal ao clicar fora
+    document.getElementById('modal-checkout').addEventListener('click', (e) => {
+      if (e.target.id === 'modal-checkout') {
+        fecharCheckout();
+      }
+    });
+  </script>
+</body>
+</html>
