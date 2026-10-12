@@ -158,6 +158,28 @@ async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado |
   }
 }
 
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, x-user-consultas",
+  "Access-Control-Max-Age": "86400",
+};
+
+export async function onRequestOptions(): Promise<Response> {
+  return new Response(null, { status: 204, headers: CORS_HEADERS });
+}
+
+function responderComCors(dados: any, status = 200, headersExtras: Record<string, string> = {}): Response {
+  return new Response(JSON.stringify(dados), {
+    status,
+    headers: {
+      "Content-Type": "application/json",
+      ...CORS_HEADERS,
+      ...headersExtras,
+    },
+  });
+}
+
 export async function onRequestPost(context: { request: Request; env: Env }): Promise<Response> {
   const { request, env } = context;
 
@@ -166,61 +188,46 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
   const qtdConsultasFeitas = parseInt(userConsultasHeader || "0", 10);
 
   if (qtdConsultasFeitas >= 5) {
-    return new Response(
-      JSON.stringify({
-        sucesso: false,
-        limiteAtingido: true,
-        erro: "Limite máximo de 5 consultas gratuitas atingido. Tente novamente mais tarde.",
-      }),
-      { status: 429, headers: { "Content-Type": "application/json" } }
-    );
+    return responderComCors({
+      sucesso: false,
+      limiteAtingido: true,
+      erro: "Limite máximo de 5 consultas gratuitas atingido. Tente novamente mais tarde.",
+    }, 429);
   }
 
   // Validação do Token de Ambiente
   const token = env.APIBRASIL_TOKEN;
   if (!token) {
-    return new Response(
-      JSON.stringify({
-        sucesso: false,
-        erro: "Configuração do servidor incompleta: APIBRASIL_TOKEN ausente nas variáveis de ambiente.",
-      }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
-    );
+    return responderComCors({
+      sucesso: false,
+      erro: "Configuração do servidor incompleta: APIBRASIL_TOKEN ausente nas variáveis de ambiente.",
+    }, 500);
   }
 
   let body: { placa?: string };
   try {
     body = await request.json();
   } catch {
-    return new Response(
-      JSON.stringify({ sucesso: false, erro: "Corpo da requisição JSON inválido." }),
-      { status: 400, headers: { "Content-Type": "application/json" } }
-    );
+    return responderComCors({ sucesso: false, erro: "Corpo da requisição JSON inválido." }, 400);
   }
 
   const placa = (body.placa || "").replace(/[^a-zA-Z0-9]/g, "").toUpperCase();
   if (placa.length !== 7) {
-    return new Response(
-      JSON.stringify({ sucesso: false, erro: "Placa inválida. Forneça 7 caracteres alfanuméricos." }),
-      { status: 400, headers: { "Content-Type": "application/json" } }
-    );
+    return responderComCors({ sucesso: false, erro: "Placa inválida. Forneça 7 caracteres alfanuméricos." }, 400);
   }
 
   // 2. ECONOMIA DE CRÉDITOS: Cache em Memória do Servidor
   const itemCache = CACHE_PLACAS_MEMORIA.get(placa);
   if (itemCache && Date.now() - itemCache.timestamp < 1000 * 60 * 60 * 24 * 30) {
-    return new Response(
-      JSON.stringify({
+    return responderComCors(
+      {
         ...itemCache.dados,
         doCache: true,
-      }),
+      },
+      200,
       {
-        status: 200,
-        headers: {
-          "Content-Type": "application/json",
-          "Cache-Control": "public, max-age=2592000, immutable",
-          "X-Data-Source": "Cache-Server",
-        },
+        "Cache-Control": "public, max-age=2592000, immutable",
+        "X-Data-Source": "Cache-Server",
       }
     );
   }
@@ -263,38 +270,23 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
     // Salva no cache do servidor para NUNCA mais gastar créditos com essa placa
     CACHE_PLACAS_MEMORIA.set(placa, { dados: payloadResposta, timestamp: Date.now() });
 
-    return new Response(
-      JSON.stringify(payloadResposta),
-      {
-        status: 200,
-        headers: {
-          "Content-Type": "application/json",
-          "Cache-Control": "public, max-age=2592000, immutable",
-          "X-Data-Source": "APIBrasil-Live",
-        },
-      }
-    );
+    return responderComCors(payloadResposta, 200, {
+      "Cache-Control": "public, max-age=2592000, immutable",
+      "X-Data-Source": "APIBrasil-Live",
+    });
   } catch (err: unknown) {
     if (err instanceof ApiBrasilSaldoInsuficienteError) {
-      return new Response(
-        JSON.stringify({
-          sucesso: false,
-          erro: "Serviço de consulta temporariamente indisponível. Recarga pendente no provedor.",
-        }),
-        { status: 503, headers: { "Content-Type": "application/json" } }
-      );
+      return responderComCors({
+        sucesso: false,
+        erro: "Serviço de consulta temporariamente indisponível. Recarga pendente no provedor.",
+      }, 503);
     }
 
     if (err instanceof ApiBrasilError) {
-      return new Response(
-        JSON.stringify({ sucesso: false, erro: err.message, status: err.statusCode }),
-        { status: err.statusCode >= 400 && err.statusCode < 600 ? err.statusCode : 500, headers: { "Content-Type": "application/json" } }
-      );
+      const statusCode = err.statusCode >= 400 && err.statusCode < 600 ? err.statusCode : 500;
+      return responderComCors({ sucesso: false, erro: err.message, status: err.statusCode }, statusCode);
     }
 
-    return new Response(
-      JSON.stringify({ sucesso: false, erro: "Ocorreu um erro ao processar a consulta veicular." }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
-    );
+    return responderComCors({ sucesso: false, erro: "Ocorreu um erro ao processar a consulta veicular." }, 500);
   }
 }

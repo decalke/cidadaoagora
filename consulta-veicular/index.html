@@ -967,15 +967,20 @@
         
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b border-slate-100">
           
-          <!-- Identificação -->
-          <div class="space-y-1">
-            <span class="text-xs font-bold uppercase tracking-wider text-cobalto-700" id="relatorio-marca">Veloce Motors</span>
-            <h3 class="text-2xl sm:text-3xl font-black text-slate-900" id="relatorio-modelo">Strada Cross 1.0 Turbo Flex</h3>
-            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs text-slate-600">
-              <span class="font-mono font-bold bg-slate-900 text-white px-2 py-0.5 rounded-md" id="relatorio-placa">ABC1D23</span>
-              <span id="relatorio-ano-cor">Ano: 2023/2024 • Vermelho Carmim</span>
-              <span>•</span>
-              <span id="relatorio-data-emissao">Emitido em: 11/10/2026</span>
+          <div class="flex items-center gap-4">
+            <div class="w-24 h-20 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center p-1.5 shrink-0 overflow-hidden">
+              <img id="relatorio-carro-img" src="../img/hero-carro-suv-vermelho.jpg" alt="Foto do veículo" class="max-h-full max-w-full object-contain">
+            </div>
+            <!-- Identificação -->
+            <div class="space-y-1">
+              <span class="text-xs font-bold uppercase tracking-wider text-cobalto-700" id="relatorio-marca">Veloce Motors</span>
+              <h3 class="text-2xl sm:text-3xl font-black text-slate-900" id="relatorio-modelo">Strada Cross 1.0 Turbo Flex</h3>
+              <div class="flex flex-wrap items-center gap-2 pt-1 text-xs text-slate-600">
+                <span class="font-mono font-bold bg-slate-900 text-white px-2 py-0.5 rounded-md" id="relatorio-placa">ABC1D23</span>
+                <span id="relatorio-ano-cor">Ano: 2023/2024 • Vermelho Carmim</span>
+                <span>•</span>
+                <span id="relatorio-data-emissao">Emitido em: 11/10/2026</span>
+              </div>
             </div>
           </div>
 
@@ -994,7 +999,7 @@
         </div>
 
         <!-- Grade de Especificações Técnicas -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 text-xs">
           <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
             <span class="text-[10px] text-slate-400 block">Combustível</span>
             <strong id="relatorio-combustivel" class="text-xs text-slate-800">Flex</strong>
@@ -1002,6 +1007,14 @@
           <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
             <span class="text-[10px] text-slate-400 block">Cotação FIPE</span>
             <strong id="relatorio-fipe" class="text-xs text-cobalto-700 font-black">R$ 89.400,00</strong>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Estimativa IPVA</span>
+            <strong id="relatorio-ipva" class="text-xs text-emerald-700 font-black">R$ 1.522,00</strong>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
+            <span class="text-[10px] text-slate-400 block">Município / UF</span>
+            <strong id="relatorio-municipio" class="text-xs text-slate-800">Florianópolis - SC</strong>
           </div>
           <div class="bg-slate-50 p-3 rounded-xl border border-slate-200">
             <span class="text-[10px] text-slate-400 block">Quilometragem Auditada</span>
@@ -1144,6 +1157,7 @@
   </footer>
 
   <!-- SCRIPT DE SERVIÇOS & LÓGICA DE NAVEGAÇÃO -->
+  <script src="../dados_placas.js"></script>
   <script src="js/service.js"></script>
   <script>
     // Inicialização de Ícones
@@ -1239,7 +1253,11 @@
       document.getElementById('previo-placa-oculta').innerText = dados.placaOculta;
       document.getElementById('previo-ano').innerText = `${dados.anoFab} / ${dados.anoMod}`;
       document.getElementById('previo-cor').innerText = dados.cor;
-      document.getElementById('previo-fipe').innerText = dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+      const precoFipe = typeof dados.fipeEstimada === 'number' && dados.fipeEstimada > 0
+        ? dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+        : (dados.fipeTexto || 'Consulte FIPE oficial');
+      document.getElementById('previo-fipe').innerText = precoFipe;
       
       if (dados.fotoUrl) {
         document.getElementById('previo-carro-img').src = dados.fotoUrl;
@@ -1293,7 +1311,27 @@
       document.getElementById('relatorio-placa').innerText = dados.placaFormatada;
       document.getElementById('relatorio-ano-cor').innerText = `Ano: ${dados.anoFab}/${dados.anoMod} • Cor: ${dados.cor}`;
       document.getElementById('relatorio-combustivel').innerText = dados.combustivel;
-      document.getElementById('relatorio-fipe').innerText = dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+      const precoFipe = typeof dados.fipeEstimada === 'number' && dados.fipeEstimada > 0
+        ? dados.fipeEstimada.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+        : (dados.fipeTexto || 'Consulte FIPE oficial');
+      document.getElementById('relatorio-fipe').innerText = precoFipe;
+
+      const elIpva = document.getElementById('relatorio-ipva');
+      if (elIpva) {
+        elIpva.innerText = typeof dados.ipvaEstimado === 'number' && dados.ipvaEstimado > 0
+          ? dados.ipvaEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+          : (dados.ipvaEstimado || 'Consulte DETRAN');
+      }
+
+      const elMunicipio = document.getElementById('relatorio-municipio');
+      if (elMunicipio) {
+        elMunicipio.innerText = dados.cidadeRegistro || `${dados.ufRegistro || 'Brasil'}`;
+      }
+
+      if (dados.fotoUrl && document.getElementById('relatorio-carro-img')) {
+        document.getElementById('relatorio-carro-img').src = dados.fotoUrl;
+      }
       document.getElementById('relatorio-km').innerText = dados.quilometragem.media;
       document.getElementById('relatorio-proprietarios').innerText = `${dados.proprietarios} registro(s)`;
       document.getElementById('relatorio-codigo-laudo').innerText = dados.codigoLaudo;
