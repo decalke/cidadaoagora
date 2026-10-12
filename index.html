@@ -100,14 +100,15 @@
       </a>
 
       <!-- Menu Principal de Navegação (Hierarquia Equilibrada, Promoções com menor prioridade) -->
-      <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
+      <nav class="hidden md:flex items-center space-x-5 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
         <a href="#mais-acessados" class="hover:text-[#2563EB] transition-colors">Mais Acessados</a>
         <a href="#todos-servicos" class="hover:text-[#2563EB] transition-colors">Serviços</a>
         <a href="conteudo/atualidades.html" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
         <a href="conteudo/politica.html" class="hover:text-[#2563EB] transition-colors">Política</a>
         <a href="noticias/index.html" class="hover:text-[#2563EB] transition-colors">Notícias</a>
-        <a href="conteudo/promocoes.html" class="hover:text-[#2563EB] transition-colors text-slate-500 font-normal">
-          Promoções
+        <a href="consulta-veicular/" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-black transition shadow-xs touch-target">
+          <i data-lucide="car" class="w-3.5 h-3.5 text-slate-950"></i>
+          <span>Consulta Veicular</span>
         </a>
       </nav>
 
@@ -184,6 +185,72 @@
           </div>
 
         </div>
+      </div>
+    </section>
+
+    <!-- BANNER DE DESTAQUE PREMIUM: NOVA CONSULTA VEICULAR -->
+    <section class="max-w-7xl mx-auto w-full px-4 pt-4 pb-2">
+      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0F1B35] via-[#172B53] to-[#1E40AF] border-2 border-amber-400/50 p-6 sm:p-8 text-white shadow-xl group">
+        
+        <!-- Elementos de Fundo Decorativos -->
+        <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-0 right-1/4 w-48 h-48 bg-amber-400/10 rounded-full blur-2xl pointer-events-none"></div>
+
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+          
+          <!-- Lado Esquerdo: Chamada e Benefícios -->
+          <div class="lg:col-span-8 space-y-3.5">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 shadow-xs">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-slate-950"></i>
+                <span>Novo Serviço em Destaque</span>
+              </span>
+              <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white/10 text-emerald-300 border border-white/15">
+                <i data-lucide="shield-check" class="w-3 h-3"></i>
+                <span>Conexão API Brasil Oficial</span>
+              </span>
+            </div>
+
+            <h2 class="text-xl sm:text-3xl font-black text-white tracking-tight leading-tight">
+              Consulta Veicular Completa: <span class="text-amber-400">Descubra tudo antes de comprar</span>
+            </h2>
+
+            <p class="text-xs sm:text-sm text-slate-200 leading-relaxed max-w-2xl">
+              Consulte qualquer placa brasileira e acesse o histórico detalhado: <strong>leilão, sinistros, multas de trânsito, débitos de IPVA, gravame</strong>, fotos de estúdio e cotação oficial na <strong>Tabela FIPE</strong>.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-3 pt-1 text-xs text-slate-200 font-semibold">
+              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Fotos Reais do Modelo</span>
+              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Auditoria de Leilão</span>
+              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Preço FIPE & IPVA</span>
+              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Laudo em PDF</span>
+            </div>
+          </div>
+
+          <!-- Lado Direito: Preço e Botão de Ação -->
+          <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-center lg:items-end justify-center gap-3">
+            <div class="text-center lg:text-right hidden sm:block">
+              <span class="text-[11px] uppercase tracking-wider text-slate-300 font-bold block">Relatório com Desbloqueio Imediato</span>
+              <strong class="text-xl sm:text-2xl font-black text-amber-400 block">A partir de R$ 9,90</strong>
+            </div>
+
+            <a 
+              href="consulta-veicular/" 
+              class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-sm sm:text-base px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group/btn touch-target"
+            >
+              <i data-lucide="car" class="w-5 h-5 text-slate-950"></i>
+              <span>Acessar Consulta Veicular</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 text-slate-950 group-hover/btn:translate-x-1 transition-transform"></i>
+            </a>
+
+            <span class="text-[11px] text-slate-300 flex items-center gap-1">
+              <i data-lucide="lock" class="w-3 h-3 text-emerald-400"></i>
+              Ambiente 100% seguro & sem cadastro prévio
+            </span>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
@@ -932,6 +999,7 @@
       <div>
         <h4 class="text-white font-bold text-sm mb-3">Serviços Mais Procurados</h4>
         <ul class="space-y-2 text-[11px]">
+          <li><a href="consulta-veicular/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors flex items-center gap-1"><span>🚗 Nova Consulta Veicular (Laudo & Fotos)</span></a></li>
           <li><a href="servicos/consulta-mei-cnpj.html" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
           <li><a href="servicos/consulta-veicular-fipe.html" class="hover:text-white transition-colors">Consulta Veicular & Tabela FIPE</a></li>
           <li><a href="servicos/validador-cpf.html" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
