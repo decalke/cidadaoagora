@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "12/10/2026 às 01:07:54",
+  "ultima_atualizacao": "12/10/2026 às 08:57:29",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Ato pela reeleição de Lula leva milhares à Avenida Paulista",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Corregedor derruba decisão que suspendeu canal Exército do Lula",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Meta alega \"problemas técnicos\" para menor alcance de Lula nas redes",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Lula faz comício em Natal e Flávio participa de moto-carreata no Rio",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Após ameaças de morte, deputada eleita Ana Elisa receberá proteção",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "PF desmente Veja; Padilha aciona Justiça sobre fake news contra Lula",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Aumentam agressões políticas em mês de luta contra violência à mulher",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC pelo fim da 6x1 para quarta-feira",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Estudantes fazem atos pelo país em apoio a Lula",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Derrubar canal com eleitores limita mobilização, dizem especialistas",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "TSE barra anúncios de Lula acusando Flávio de ser contra escala 6x1",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Lula afirma que PT entrará na Justiça contra suspensão de canal",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Janones denuncia censura em decisão do TSE contra Exército do Lula",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "TSE atende Flávio e manda suspender canal do whatsapp Exército do Lula",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Kassio atende Flávio e suspende propaganda do PT que cita caso Master",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "TSE manda Meta esclarecer restrições a postagens da campanha de Lula",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Após retotalização dos votos, Douglas Ruas tem 50,88% dos votos no RJ",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Justiça determina que Vasco e Boca Juniors seja realizada no Maracanã",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "TSE manda suspender site que oferece criptomoedas por apoio a Flávio",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Bets: mais de R$ 1 bilhão foram devolvidos a apostadores",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 01:07"
+      "coletado_em": "12/10/2026 às 08:57"
     }
   ]
 };
