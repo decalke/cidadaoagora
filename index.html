@@ -132,121 +132,123 @@
 
   <main class="flex-1">
 
-    <!-- HERO SECTION LIMPA E ACESSÍVEL (SEM ANÚNCIO ANTES DA PRINCIPAL AÇÃO) -->
+    <!-- HERO SECTION UNIFICADA: PORTAL DO CIDADÃO + DESTAQUE CONSULTA VEICULAR -->
     <section id="hero-servicos" class="max-w-7xl mx-auto w-full px-4 pt-6 pb-2">
-      <div class="bg-gradient-to-r from-[#0F1B35] via-[#1E40AF] to-[#0F1B35] rounded-2xl p-6 sm:p-10 text-white shadow-md relative overflow-hidden">
-        <div class="relative z-10 max-w-4xl mx-auto text-center space-y-4">
-          
-          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-blue-100 border border-white/20">
-            <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i>
-            <span>100% Gratuito & Base Oficial Aberta</span>
-          </div>
-
-          <h1 class="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
-            Consultas públicas e ferramentas essenciais para o cidadão
-          </h1>
-
-          <p class="text-blue-100 text-xs sm:text-sm max-w-2xl mx-auto leading-relaxed">
-            Acesse dados públicos de empresas, veículos, direitos trabalhistas e geradores de documentos oficiais sem burocracia e sem cadastro.
-          </p>
-
-          <!-- 5 ATALHOS PRIORITÁRIOS NO HERO -->
-          <div class="pt-3">
-            <span class="text-[11px] uppercase tracking-wider text-blue-200 font-bold block mb-2.5">
-              Atalhos Rápidos Mais Procurados:
-            </span>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 w-full">
-              <!-- 1. MEI & CNPJ -->
-              <a href="servicos/consulta-mei-cnpj.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="building-2" class="w-4 h-4 shrink-0 text-blue-300"></i>
-                <span class="truncate">MEI & CNPJ</span>
-              </a>
-              <!-- 2. Placa & FIPE (Destaque contextual âmbar conforme design system) -->
-              <a href="servicos/consulta-veicular-fipe.html" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-3 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
-                <span class="truncate">Placa & FIPE</span>
-              </a>
-              <!-- 3. Validador CPF -->
-              <a href="servicos/validador-cpf.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-300"></i>
-                <span class="truncate">Validar CPF</span>
-              </a>
-              <!-- 4. Rescisão CLT -->
-              <a href="servicos/calculadora-rescisao-clt.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0 text-indigo-300"></i>
-                <span class="truncate">Rescisão CLT</span>
-              </a>
-              <!-- 5. Recibo (PDF) -->
-              <a href="servicos/gerador-recibo-pagamento.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-3 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center col-span-2 sm:col-span-1">
-                <i data-lucide="receipt" class="w-4 h-4 shrink-0 text-teal-300"></i>
-                <span class="truncate">Gerar Recibo</span>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- BANNER DE DESTAQUE PREMIUM: NOVA CONSULTA VEICULAR -->
-    <section class="max-w-7xl mx-auto w-full px-4 pt-4 pb-2">
-      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0F1B35] via-[#172B53] to-[#1E40AF] border-2 border-amber-400/50 p-6 sm:p-8 text-white shadow-xl group">
+      <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0F1B35] via-[#172B53] to-[#1E40AF] border border-blue-900/60 p-6 sm:p-10 text-white shadow-xl">
         
-        <!-- Elementos de Fundo Decorativos -->
-        <div class="absolute -right-10 -bottom-10 w-80 h-80 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute top-0 right-1/4 w-48 h-48 bg-amber-400/10 rounded-full blur-2xl pointer-events-none"></div>
+        <!-- Elementos de Iluminação e Fundo Decorativos -->
+        <div class="absolute -right-16 -top-16 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-16 -bottom-16 w-96 h-96 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:24px_24px] opacity-[0.03] pointer-events-none"></div>
 
-        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="relative z-10 space-y-8">
           
-          <!-- Lado Esquerdo: Chamada e Benefícios -->
-          <div class="lg:col-span-8 space-y-3.5">
-            <div class="flex flex-wrap items-center gap-2">
-              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 shadow-xs">
-                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-slate-950"></i>
-                <span>Novo Serviço em Destaque</span>
-              </span>
-              <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white/10 text-emerald-300 border border-white/15">
-                <i data-lucide="shield-check" class="w-3 h-3"></i>
-                <span>Conexão API Brasil Oficial</span>
-              </span>
+          <!-- PARTE SUPERIOR DO HERO: TÍTULO, SUBTÍTULO E ATALHOS -->
+          <div class="text-center max-w-4xl mx-auto space-y-4">
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-blue-100 border border-white/15 backdrop-blur-xs">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-400"></i>
+              <span>100% Gratuito & Base Oficial Aberta</span>
             </div>
 
-            <h2 class="text-xl sm:text-3xl font-black text-white tracking-tight leading-tight">
-              Consulta Veicular Completa: <span class="text-amber-400">Descubra tudo antes de comprar</span>
-            </h2>
+            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
+              Consultas públicas e ferramentas essenciais para o cidadão
+            </h1>
 
-            <p class="text-xs sm:text-sm text-slate-200 leading-relaxed max-w-2xl">
-              Consulte qualquer placa brasileira e acesse o histórico detalhado: <strong>leilão, sinistros, multas de trânsito, débitos de IPVA, gravame</strong>, fotos de estúdio e cotação oficial na <strong>Tabela FIPE</strong>.
+            <p class="text-blue-100/90 text-xs sm:text-base max-w-2xl mx-auto leading-relaxed">
+              Acesse dados públicos de empresas, veículos, direitos trabalhistas e geradores de documentos oficiais sem burocracia e sem cadastro.
             </p>
 
-            <div class="flex flex-wrap items-center gap-3 pt-1 text-xs text-slate-200 font-semibold">
-              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Fotos Reais do Modelo</span>
-              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Auditoria de Leilão</span>
-              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Preço FIPE & IPVA</span>
-              <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Laudo em PDF</span>
+            <!-- 5 ATALHOS PRIORITÁRIOS -->
+            <div class="pt-2">
+              <span class="text-[11px] uppercase tracking-wider text-blue-200/90 font-bold block mb-2.5">
+                Atalhos Rápidos Mais Procurados:
+              </span>
+              <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 w-full">
+                <!-- 1. MEI & CNPJ -->
+                <a href="servicos/consulta-mei-cnpj.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                  <i data-lucide="building-2" class="w-4 h-4 shrink-0 text-blue-300"></i>
+                  <span class="truncate">MEI & CNPJ</span>
+                </a>
+                <!-- 2. Placa & FIPE -->
+                <a href="servicos/consulta-veicular-fipe.html" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-2.5 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
+                  <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
+                  <span class="truncate">Placa & FIPE</span>
+                </a>
+                <!-- 3. Validador CPF -->
+                <a href="servicos/validador-cpf.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                  <i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-300"></i>
+                  <span class="truncate">Validar CPF</span>
+                </a>
+                <!-- 4. Rescisão CLT -->
+                <a href="servicos/calculadora-rescisao-clt.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+                  <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0 text-indigo-300"></i>
+                  <span class="truncate">Rescisão CLT</span>
+                </a>
+                <!-- 5. Recibo (PDF) -->
+                <a href="servicos/gerador-recibo-pagamento.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center col-span-2 sm:col-span-1">
+                  <i data-lucide="receipt" class="w-4 h-4 shrink-0 text-teal-300"></i>
+                  <span class="truncate">Gerar Recibo</span>
+                </a>
+              </div>
             </div>
           </div>
 
-          <!-- Lado Direito: Preço e Botão de Ação -->
-          <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-center lg:items-end justify-center gap-3">
-            <div class="text-center lg:text-right hidden sm:block">
-              <span class="text-[11px] uppercase tracking-wider text-slate-300 font-bold block">Relatório com Desbloqueio Imediato</span>
-              <strong class="text-xl sm:text-2xl font-black text-amber-400 block">A partir de R$ 9,90</strong>
+          <!-- PARTE INFERIOR: CARTÃO DE DESTAQUE INTEGRADO DA CONSULTA VEICULAR -->
+          <div class="rounded-2xl bg-gradient-to-r from-blue-950/80 via-cobalto-900/60 to-slate-900/80 border border-amber-400/40 p-5 sm:p-7 backdrop-blur-md shadow-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              
+              <!-- Texto e Badges da Consulta Veicular -->
+              <div class="lg:col-span-8 space-y-3">
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 shadow-xs">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5 text-slate-950"></i>
+                    <span>Novo Serviço em Destaque</span>
+                  </span>
+                  <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white/10 text-emerald-300 border border-white/15">
+                    <i data-lucide="shield-check" class="w-3 h-3"></i>
+                    <span>Conexão API Brasil Oficial</span>
+                  </span>
+                </div>
+
+                <h2 class="text-xl sm:text-2xl font-black text-white tracking-tight leading-tight">
+                  Consulta Veicular Completa: <span class="text-amber-400">Descubra tudo antes de comprar</span>
+                </h2>
+
+                <p class="text-xs sm:text-sm text-slate-200 leading-relaxed max-w-2xl">
+                  Consulte qualquer placa brasileira e acesse o histórico detalhado: <strong>leilão, sinistros, multas de trânsito, débitos de IPVA, gravame</strong>, fotos de estúdio e cotação oficial na <strong>Tabela FIPE</strong>.
+                </p>
+
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 pt-1 text-xs text-slate-200 font-semibold">
+                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Fotos Reais do Modelo</span>
+                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Auditoria de Leilão</span>
+                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Preço FIPE & IPVA</span>
+                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Laudo em PDF</span>
+                </div>
+              </div>
+
+              <!-- Preço e Botão de Ação -->
+              <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-center lg:items-end justify-center gap-3 pt-2 lg:pt-0">
+                <div class="text-center lg:text-right hidden sm:block">
+                  <span class="text-[11px] uppercase tracking-wider text-slate-300 font-bold block">Relatório com Desbloqueio Imediato</span>
+                  <strong class="text-xl sm:text-2xl font-black text-amber-400 block">A partir de R$ 9,90</strong>
+                </div>
+
+                <a 
+                  href="consulta-veicular/" 
+                  class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-sm sm:text-base px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group/btn touch-target"
+                >
+                  <i data-lucide="car" class="w-5 h-5 text-slate-950"></i>
+                  <span>Acessar Consulta Veicular</span>
+                  <i data-lucide="arrow-right" class="w-4 h-4 text-slate-950 group-hover/btn:translate-x-1 transition-transform"></i>
+                </a>
+
+                <span class="text-[11px] text-slate-300 flex items-center gap-1">
+                  <i data-lucide="lock" class="w-3 h-3 text-emerald-400"></i>
+                  Ambiente 100% seguro & sem cadastro prévio
+                </span>
+              </div>
+
             </div>
-
-            <a 
-              href="consulta-veicular/" 
-              class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-sm sm:text-base px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group/btn touch-target"
-            >
-              <i data-lucide="car" class="w-5 h-5 text-slate-950"></i>
-              <span>Acessar Consulta Veicular</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 text-slate-950 group-hover/btn:translate-x-1 transition-transform"></i>
-            </a>
-
-            <span class="text-[11px] text-slate-300 flex items-center gap-1">
-              <i data-lucide="lock" class="w-3 h-3 text-emerald-400"></i>
-              Ambiente 100% seguro & sem cadastro prévio
-            </span>
           </div>
 
         </div>
