@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "12/10/2026 às 08:57:32",
+  "ultima_atualizacao": "12/10/2026 às 18:54:43",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Reforma Tributária: 86% das notas fiscais destacam a CBS",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Pix ultrapassa 1 bilhão de chaves cadastradas no Brasil",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Tributos da gasolina são zerados e subsídios a combustíveis, ampliados",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "INPC, inflação que corrige salários, acumula 4,29% em 12 meses",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Inflação oficial de setembro fica em 0,82%, mostra IBGE",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Crédito extraordinário de R$ 7,5 bi reforça subsídios a combustíveis",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Indústria aponta juros altos como principal barreira ao crédito",
@@ -130,7 +130,33 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
+    },
+    {
+      "titulo": "Arcebispo de Aparecida pede desarmamento e atenção à fome e à pobreza",
+      "resumo": "Na principal cerimônia religiosa realizada nesta segunda-feira (12) na Catedral Basílica de Aparecida (SP), dia da Padroeira do Brasil, o arcebispo metropolitano de Aparecida, Dom Mário Antônio da Silva, pediu o desarmam...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Na principal cerimônia religiosa realizada nesta segunda-feira (12) na Catedral Basílica de Aparecida (SP), dia da Padroeira do Brasil, o arcebispo metropolitano de Aparecida, Dom Mário Antônio da Silva, pediu o desarmamento e atenção à fome e aos pobres. \n\nDom Mário fez as declarações no sermão da missa solene das 9h. Entre os presentes, estavam o vice-presidente da República, Geraldo Alckmin, e o ministro da Saúde, Alexandre Padilha.\n\n\nNotícias relacionadas:Nossa Senhora Aparecida: 95 anos da padroeira do Brasil; entenda.Santuário de Aparecida terá missas, consagração e procissão no feriado.Fachin adia discussão sobre postagens de Nossa Senhora no STF.“Quem escuta Deus não pode ficar indiferente diante da fome, da pobreza, da  violência, da solidão. Não pode ficar indiferente diante das famílias feridas, das crianças também feridas, dos jovens sem esperança, dos idosos abandonados. Não podemos ficar indiferentes diante das guerras, da destruição da natureza, e de tantos outros males que nos afetam, que afetam a população do Brasil e do mundo”, destacou o arcebispo no sermão da missa.\n\n\nEm outro trecho da homilia, o arcebispo pediu o desarmamento e a paz.\n\n“Sabemos que Jesus manda construir a paz. E aqui escutando [o papa] Leão XIV, uma paz desarmada e desarmante. Mas muitas vezes alimentamos divisões com armamentos, com guerras e tantos confrontos entre nós. O evangelho, queridos irmãos e irmãs, não nos autoriza a odiar quem pensa diferente, e nem a matar os inimigos”, acrescentou.\n\nMovimentações políticas sobre a padroeira\n\nApós a cerimônia, em entrevista coletiva, Dom Mário foi perguntado se temia que Nossa Senhora Aparecida perdesse o título de Padroeira do Brasil. A polêmica surgiu no mês passado, após a circulação de informações de que grupos evangélicos ligados à campanha de Flávio Bolsonaro teriam manifestado reprovação ao título de Padroeira com abrangência nacional. \n\nO candidato do PL, no entanto, negou que tenha intenção de destituir Nossa Senhora como padroeira do país.\n\n\n“Não tenho nenhum temor de que Maria deixará de ter importância que tem na vida do povo brasileiro. O título de padroeira do Brasil foi dado pelo papa em 1930. E proclamado aqui no Brasil, a capital era o Rio de Janeiro, em 31 de maio de 1931. Então já é uma longa data desse título de Maria padroeira do Brasil”, disse. \n\n\nO arcebispo, no entanto, admitiu haver movimentações políticas “favoráveis e contrárias”, mas ele não quis “fazer cenários” sobre o futuro.\n\n“Creio que as movimentações políticas favoráveis ou não existem hoje e existirão no decorrer dos próximos anos. É claro que existem vários questionamentos daquilo que poderá acontecer no próximo ano, dependendo das eleições do segundo turno. Mas eu creio que, no momento, não cabe a nós fazer cenários que nos assustem ou que destituam aquilo que estamos vivenciando hoje com muita alegria”.\n\nRomeiros\n\nO dia de Nossa Senhora Aparecida, a padroeira do Brasil, foi marcado pela visita de milhares de pessoas à Brasílica na cidade de Aparecida (SP), no Vale do Ribeira. De acordo com estimativas dos administradores do santuário nacional, cerca de 150 mil pessoas deverão passar pelo local hoje. \n\nNo período da novena de Nossa Senhora Aparecida, iniciada há dez dias e encerrada ontem (11), cerca de 500 mil pessoas estiveram no santuário.\n\nA missa solene, das 9h, foi a cerimônia mais disputada pelos romeiros e lotou a basílica. Mesmo durante a celebração, os devotos faziam uma grande fila para passar diante da imagem de Nossa Senhora Aparecida, alocada sobre uma passarela. \n\nO romeiro Anderson Roberto Mendes da Costa, de 47 anos, veio a pé, da zona Leste da capital paulista. Caminhou por 172 quilômetros e teve de enfrentar muitas dificuldades para chegar ao santuário. \n\n\n“Foram cinco dias caminhando. Foi bem penoso. No caminho, a gente pegou chuva de vento, granizo. No terceiro dia, deu muito sol. Foi bem penoso também, o pessoal teve insolação. Teve o pessoal que pegou infecção intestinal, mas graças ao bom Senhor, a gente conseguiu chegar. Mesmo com as dores, mesmo com as tormentas, chegamos todos bem, realizados com as bênçãos que foram conseguidas”, disse.\n\n\nRosemeire Alves Araújo Vieira, de 59 anos, veio de Minas Gerais em uma excursão e disse que pedia a Nossa Senhora uma benção especial ao Brasil, no atual momento de eleição. \n\n“Vim agradecer e pedir benção para o nosso país, para o momento em que nós estamos vivendo, com essas eleições. Vim de Belo Horizonte e estar aqui é uma emoção muito grande”, ressaltou.</p>",
+      "imagem": "https://imagens.ebc.com.br/KDtC_-ZLEPWtbURVo1MjlzaM5WY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/vac_abr_1210221298.jpg?itok=rnHCchyN",
+      "slug": "arcebispo-de-aparecida-pede-desarmamento-e-atencao-a-fome-e-a-pobreza",
+      "pagina_local": "arcebispo-de-aparecida-pede-desarmamento-e-atencao-a-fome-e-a-pobreza.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/arcebispo-de-aparecida-pede-desarmamento-e-atencao-fome-e-pobreza",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "12/10/2026 às 18:54"
+    },
+    {
+      "titulo": "Nossa Senhora Aparecida: 95 anos da padroeira do Brasil; entenda",
+      "resumo": "Em 1717, Domingos Garcia, João Alves e Felipe Pedroso navegavam pelo Rio Paraíba do Sul, no estado de São Paulo. Após diversas tentativas frustradas de pesca, os homens encontraram uma imagem de barro que estava submersa...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Em 1717, Domingos Garcia, João Alves e Felipe Pedroso navegavam pelo Rio Paraíba do Sul, no estado de São Paulo. Após diversas tentativas frustradas de pesca, os homens encontraram uma imagem de barro que estava submersa. Ao retirá-la da água, perceberam que se tratava de uma imagem da Virgem Maria, mais precisamente, da Imaculada Conceição. Passaram a chamá-la, então, de Aparecida.\n\nO achado foi um marco na vida dos pescadores, que começaram a relatar graças e milagres atribuídos à intercessão da Virgem. A fama da imagem se espalhou, atraindo devotos que vinham em romarias de diversas partes do Brasil. Mais de dois séculos depois, em 1930, o papa Pio XI assinou o decreto que proclamou Nossa Senhora Aparecida padroeira do Brasil. \n\nNotícias relacionadas:PM do Rio reforça policiamento para o feriado de segunda-feira.Ataques a símbolos religiosos reacendem debate sobre intolerância.TSE irá julgar decisão que barrou postagens sobre Nossa Senhora.A cerimônia solene aconteceu apenas em 1931, no Rio de Janeiro, então capital federal, diante de cerca de 1 milhão de pessoas. À época, foi lido publicamente o decreto pontifício que declarava a Virgem Maria, sob o título de Nossa Senhora da Conceição Aparecida, padroeira da nação brasileira. No mesmo dia, foram acrescentadas ao manto que veste a imagem as bandeiras do Brasil e do Vaticano.\n\nDécadas depois, em 1980, durante a primeira visita do então papa João Paulo II ao Brasil, o dia 12 de outubro foi oficialmente instituído como feriado nacional em honra à padroeira do país. Desde então, cerca de 10 milhões de peregrinos visitam todos os anos o Santuário Nacional de Aparecida, no estado de São Paulo, com o objetivo de renovar a fé e confiar intenções à Virgem Maria.\n\n\n            \n        \n    \nFoto: Valter Campanato/Agência Brasil\n\n\n\nPara dom Vilson Dias de Oliveira, bispo emérito de Limeira (SP) e membro da Conferência Nacional dos Bispos do Brasil (CNBB), a solenidade de Nossa Senhora da Conceição Aparecida transcende as fronteiras do território brasileiro e se apresenta como “farol espiritual” no horizonte do catolicismo universal. Em carta, ele destaca a solicitude da santa pelos pequenos e pobres.\n\n\n“O achado da pequena imagem nas águas do Rio Paraíba do Sul não inaugurou apenas um capítulo na história da fé nacional, mas inscreveu no patrimônio da Igreja um acontecimento profundamente teológico: a manifestação da solicitude de Maria pelos pequenos, pelos descartados e pelos continentes que buscam a sua libertação e unidade no Evangelho de Cristo”, escreveu.\n\n\nO religioso avalia que, para a América Latina como um todo, a devoção a Nossa Senhora Aparecida guarda “ressonância singular e profética”.\n\n\n“O continente latino-americano, marcado por feridas históricas de desigualdade, mas iluminado por uma piedade popular fervorosa, encontra na Virgem de barro negro a expressão viva do rosto da própria Igreja continental.”\n\n\nNo documento, o bispo emérito avalia que a figura da Virgem Aparecida atesta para o mundo que Deus prefere manifestar sua grandeza por meio do que é frágil e humilde. A pequena imagem quebrada, recolhida do fundo das águas por mãos de pescadores simples, segundo ele, recorda que a verdadeira evangelização “nasce do amor encarnado na realidade concreta dos povos e das suas culturas”.\n\n\n“Que as comunidades espalhadas por todo o Brasil e pelos países irmãos da América Latina não temam dar este passo audacioso. Diante dos desafios sociais, econômicos e espirituais que marcam o nosso tempo, a Virgem Aparecida nos recorda que Deus continua a realizar suas maiores maravilhas por meio dos humildes e organizados em comunidade”, concluiu dom Vilson Dias de Oliveira.</p>",
+      "imagem": "https://imagens.ebc.com.br/UIurum06zu3fepZycCYQXOagoA0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/12/0d9a2137.jpg?itok=zjTZFjBL",
+      "slug": "nossa-senhora-aparecida-95-anos-da-padroeira-do-brasil-entenda",
+      "pagina_local": "nossa-senhora-aparecida-95-anos-da-padroeira-do-brasil-entenda.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/nossa-senhora-aparecida-95-anos-da-padroeira-do-brasil-entenda",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 150 milhões; confira os números sorteados",
@@ -143,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Acidente na BR-393, no RJ, deixa cinco mortos e nove feridos",
@@ -156,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "PM do Rio reforça policiamento para o feriado de segunda-feira",
@@ -169,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 112 milhões neste domingo",
@@ -182,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Belém se prepara para receber o Círio de Nazaré",
@@ -195,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Piloto morre após queda de avião em pátio de manutenção do metrô de BH",
@@ -208,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "PRF inicia Operação Nossa Senhora Aparecida 2026 nesta sexta",
@@ -221,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     },
     {
       "titulo": "Caldeira de usina explode e mata dois homens no interior de SP",
@@ -234,33 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
-    },
-    {
-      "titulo": "Mega-Sena acumula para R$ 112 milhões; confira os números sorteados",
-      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.068 da Mega-Sena, realizado nesta quinta-feira (8). O prêmio acumulou novamente e está estimado em R$ 112 milhões para o próximo sorteio.\n\nOs números sorteados são: ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Nenhum apostador acertou as seis dezenas do Concurso 3.068 da Mega-Sena, realizado nesta quinta-feira (8). O prêmio acumulou novamente e está estimado em R$ 112 milhões para o próximo sorteio.\n\nOs números sorteados são: 07 - 10 - 39 - 40 - 43 - 57\n\n\n\t62 apostas acertaram cinco dezenas e irão receber R$ 51.808,94 cada\n\t4.884 apostas acertaram quatro dezenas e irão receber R$ 1.084,10 cada\n\n\nApostas\n\nO próximo concurso acontece domingo (11), às 11h. As apostas podem ser feitas até as 22h (horário de Brasília) de sábado (10), em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nA aposta simples, com seis dezenas, custa R$ 6.</p>",
-      "imagem": "https://imagens.ebc.com.br/7OmY5gvF03ZUTmOdENpdh_ptyHo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena-111220202168.jpg?itok=WJEtm0EA",
-      "slug": "mega-sena-acumula-para-r-112-milhoes-confira-os-numeros-sorteados",
-      "pagina_local": "mega-sena-acumula-para-r-112-milhoes-confira-os-numeros-sorteados.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-112-milhoes-confira-os-numeros-sorteados",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
-    },
-    {
-      "titulo": "Juiz é encontrado morto dentro de veículo em chamas no interior de SP",
-      "resumo": "O corpo do juiz Gustavo de Castro Campos do Tribunal de Justiça de São Paulo (TJ-SP) foi encontrado carbonizado no banco do motorista de seu carro em chamas, na noite de quarta-feira (7), na zona rural de São João da Boa...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O corpo do juiz Gustavo de Castro Campos do Tribunal de Justiça de São Paulo (TJ-SP) foi encontrado carbonizado no banco do motorista de seu carro em chamas, na noite de quarta-feira (7), na zona rural de São João da Boa Vista (SP). \n\nAs equipes da Polícia Militar e do Corpo de Bombeiros foram chamadas para conter o incêndio na Estrada da Fazenda Aliança e encontraram a vítima, de 45 anos, no interior do veículo.\n\nA Polícia Civil e peritos do Instituto de Criminalística compareceram ao local para dar início aos levantamentos.\n\nO caso foi registrado como morte suspeita, com localização e apreensão do veículo pelo 1º Distrito Policial do município.\n\nA apuração será conduzida pela Delegacia de Investigações Gerais (DIG) de São João da Boa Vista, que já solicitou os exames periciais cabíveis, incluindo a perícia necroscópica. \n\nSaiba mais sobre o caso no Repórter Brasil Tarde, da TV Brasil\n\n\n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
-      "imagem": "https://imagens.ebc.com.br/Wvr8KjyCtIlJ3jNqyyoMe0LxU6A=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/firefly_gemini_flash_melhorar_nitidez_847406_copy.jpg?itok=RT6pQAtf",
-      "slug": "juiz-e-encontrado-morto-dentro-de-veiculo-em-chamas-no-interior-de-sp",
-      "pagina_local": "juiz-e-encontrado-morto-dentro-de-veiculo-em-chamas-no-interior-de-sp.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/juiz-e-encontrado-morto-dentro-de-veiculo-em-chamas-no-interior-de-sp",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "12/10/2026 às 08:57"
+      "coletado_em": "12/10/2026 às 18:54"
     }
   ]
 };
