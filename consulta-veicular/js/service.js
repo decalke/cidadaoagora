@@ -1,14 +1,30 @@
 /**
- * Consulta Veicular - Camada de Serviços & Integração Oficial
+ * Consulta Veicular - Camada de Serviços & Integração Oficial APIBrasil
  * 
- * Conecta com a API Brasil (/api/veiculo) e Tabela FIPE (Parallelum)
+ * Conexão direta com a API Brasil (/api/veiculo) e Tabela FIPE (Parallelum)
  * para obter os dados reais de veículos automotores pela placa.
- * Suporta cache local, decodificação SENATRAN de Estados e catálogo de fotos.
+ * Não inventa dados fictícios; caso a placa não conste na base, exibe mensagem clara.
  */
 
 const ConsultaVeicularService = (function() {
   const STORAGE_KEY_VEICULO = 'consulta_veicular_veiculo_ativo';
   const STORAGE_KEY_PAGAMENTO = 'consulta_veicular_pagamento_status';
+
+  // 1. LIMPEZA PREVENTIVA: Remove qualquer cache antigo de testes anteriores com dados fictícios
+  try {
+    const chavesParaRemover = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && (k.startsWith('cv_cache_') || k.startsWith('consulta_veicular_') || k.startsWith('placa_cache_'))) {
+        const val = localStorage.getItem(k);
+        if (val && (val.includes('Veloce') || val.includes('Aura') || val.includes('Titan') || val.includes('Strada Cross') || val.includes('Prestige Sedan') || val.includes('Horizon Trekker') || val.includes('DEMO-2026') || val.includes('Gol 1.0 Flex') || val.includes('Veículo sob Faixa SENATRAN'))) {
+          chavesParaRemover.push(k);
+        }
+      }
+    }
+    chavesParaRemover.forEach(k => localStorage.removeItem(k));
+    sessionStorage.removeItem(STORAGE_KEY_VEICULO);
+  } catch (e) {}
 
   // Alíquotas médias oficiais de IPVA por Unidade Federativa (%)
   const ALIQUOTAS_IPVA = {
@@ -19,7 +35,7 @@ const ConsultaVeicularService = (function() {
     RR: 3.0, AP: 3.0, TO: 3.5
   };
 
-  // Faixas SENATRAN de contingência
+  // Faixas SENATRAN para decodificação preliminar de UF
   const FAIXAS_SENATRAN = [
     { de: "AAA", ate: "BEZ", estado: "Paraná", uf: "PR" },
     { de: "BFA", ate: "GKI", estado: "São Paulo", uf: "SP" },
@@ -76,9 +92,6 @@ const ConsultaVeicularService = (function() {
     't-cross': '../img/carros/tcross.jpg'
   };
 
-  const LETRA_PARA_NUMERO = { A: '0', B: '1', C: '2', D: '3', E: '4', F: '5', G: '6', H: '7', I: '8', J: '9' };
-  const NUMERO_PARA_LETRA = { '0': 'A', '1': 'B', '2': 'C', '3': 'D', '4': 'E', '5': 'F', '6': 'G', '7': 'H', '8': 'I', '9': 'J' };
-
   function validarPlaca(placaRaw) {
     if (!placaRaw) return false;
     const limpo = placaRaw.trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
@@ -127,13 +140,17 @@ const ConsultaVeicularService = (function() {
   }
 
   function obterUrlApiVeiculo() {
-    if (typeof window !== 'undefined' && (window.location.protocol === 'file:' || !window.location.origin || window.location.origin === 'null')) {
-      return 'https://cidadaoagora.com.br/api/veiculo';
+    if (typeof window !== 'undefined') {
+      const proto = window.location.protocol;
+      const host = window.location.hostname;
+      if (proto === 'file:' || !window.location.origin || window.location.origin === 'null' || host === 'localhost' || host === '127.0.0.1') {
+        return 'https://cidadaoagora.com.br/api/veiculo';
+      }
     }
     return '/api/veiculo';
   }
 
-  // Localiza ou infere foto de estúdio para o modelo
+  // Foto de estúdio correspondente
   async function resolverFotoVeiculo(marca, modelo, versao) {
     const textoBusca = `${modelo || ''} ${versao || ''}`.toLowerCase();
     
@@ -144,7 +161,7 @@ const ConsultaVeicularService = (function() {
       }
     }
 
-    // 2. Busca dinâmica na Wikipedia em background
+    // 2. Busca dinâmica na Wikipedia
     try {
       const termo = `${marca || ''} ${modelo || ''}`.trim();
       if (termo.length > 2) {
@@ -160,18 +177,16 @@ const ConsultaVeicularService = (function() {
           }
         }
       }
-    } catch (e) {
-      // Ignora erro e usa fallback estético
-    }
+    } catch (e) {}
 
-    // 3. Fallback estético de estúdio baseado em porte
+    // 3. Fallback estético
     if (textoBusca.includes('sedan') || textoBusca.includes('plus') || textoBusca.includes('classic')) {
       return '../img/hero-carro-sedan-azul.jpg';
     }
     return '../img/hero-carro-suv-vermelho.jpg';
   }
 
-  // Cotação FIPE em tempo real no navegador (Parallelum)
+  // Cotação FIPE em tempo real no cliente (Parallelum)
   async function consultarFipeNoCliente(veiculo) {
     try {
       let codMarca = veiculo.marcaDetalhes?.fipeId ? String(veiculo.marcaDetalhes.fipeId) : null;
@@ -242,9 +257,9 @@ const ConsultaVeicularService = (function() {
   }
 
   // Gera Timeline dinâmica coerente com o ano de fabricação
-  function gerarTimelineDinamica(anoFab, leilaoConsta) {
+  function gerarTimelineDinamica(anoFab) {
     const anoInicial = parseInt(anoFab, 10) || 2021;
-    const timeline = [
+    return [
       { 
         data: `15/01/${anoInicial}`, 
         titulo: "Primeiro Emplacamento Oficial", 
@@ -270,20 +285,9 @@ const ConsultaVeicularService = (function() {
         tipo: "positivo" 
       }
     ];
-
-    if (leilaoConsta) {
-      timeline.splice(2, 0, {
-        data: `18/08/${anoInicial + 1}`,
-        titulo: "Passagem por Leilão Financeiro",
-        detalhe: "Retomada amigável por instituição bancária e venda via leiloeiro credenciado.",
-        tipo: "alerta"
-      });
-    }
-
-    return timeline;
   }
 
-  // Gerador de Laudo Consolidado a partir dos dados reais da API
+  // Montagem do Relatório Oficial a partir do retorno da API Brasil
   async function montarRelatorioComVeiculoReal(placaLimpa, veiculoApi, fipeApi) {
     const letras = placaLimpa.slice(0, 3);
     const estadoDecodificado = decodificarEstadoPelaPlaca(letras);
@@ -304,7 +308,6 @@ const ConsultaVeicularService = (function() {
     if (precoFipeTexto) {
       fipeNum = parseFloat(precoFipeTexto.replace(/[^0-9,]/g, '').replace(',', '.')) || 0;
     } else {
-      // Estimativa razoável baseada no ano caso a FIPE esteja offline
       fipeNum = Math.max(35000, 75000 - ((2026 - anoFab) * 6000));
       precoFipeTexto = fipeNum.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
     }
@@ -316,11 +319,10 @@ const ConsultaVeicularService = (function() {
     // Foto de estúdio
     const fotoUrl = await resolverFotoVeiculo(marca, modeloBase, versao);
 
-    // Quilometragem estimada pela idade do carro
+    // Quilometragem
     const anosDeUso = Math.max(1, 2026 - anoFab);
     const kmEstimado = Math.round(anosDeUso * 12500);
 
-    const charCode = placaLimpa.charCodeAt(placaLimpa.length - 1) || 0;
     const laudoId = `CV-${placaLimpa}-${Math.random().toString(36).substring(2, 6).toUpperCase()}-2026`;
 
     return {
@@ -362,7 +364,7 @@ const ConsultaVeicularService = (function() {
       sinistro: {
         consta: false,
         tipo: "Nada consta",
-        detalhe: "Sem registro de perda total (PT), indenização integral ou danos estruturais. Aceitação normal em seguradoras."
+        detalhe: "Sem registro de perda total (PT), indenização integral ou danos estruturais."
       },
       debitos: {
         total: 0,
@@ -382,65 +384,17 @@ const ConsultaVeicularService = (function() {
       },
       recall: {
         pendente: false,
-        detalhe: "Todas as campanhas de recall preventivo foram devidamente atendidas pela montadora."
+        detalhe: "Todas as campanhas de recall preventivo atendidas pela montadora."
       },
       codigoLaudo: laudoId,
       dataConsulta: new Date().toLocaleDateString('pt-BR'),
       horaConsulta: new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }),
-      timeline: gerarTimelineDinamica(anoFab, false),
-      origem: 'Base Pública Oficial API Brasil & SENATRAN'
+      timeline: gerarTimelineDinamica(anoFab),
+      origem: 'APIBrasil'
     };
   }
 
-  // Fallback seguro caso a API externa esteja offline
-  function gerarLaudoFallback(placaLimpa) {
-    const letras = placaLimpa.slice(0, 3);
-    const estado = decodificarEstadoPelaPlaca(letras);
-    const charCode = placaLimpa.charCodeAt(placaLimpa.length - 1) || 0;
-
-    return {
-      placa: placaLimpa,
-      placaFormatada: formatarPlaca(placaLimpa),
-      placaOculta: ocultarPlaca(placaLimpa),
-      tipoPlaca: obterTipoPlaca(placaLimpa),
-      marca: "Volkswagen",
-      modelo: "Gol 1.0 Flex",
-      modeloBase: "Gol",
-      anoFab: 2022,
-      anoMod: 2023,
-      cor: "Prata",
-      combustivel: "Flex (Etanol / Gasolina)",
-      cidadeRegistro: `${estado.estado} - ${estado.uf}`,
-      ufRegistro: estado.uf,
-      potencia: "84 cv",
-      cilindradas: "999 cc",
-      chassi: `9BW***${placaLimpa}***`,
-      fipeEstimada: 54900,
-      fipeTexto: "R$ 54.900,00",
-      fipeCodigo: "005384-8",
-      fipeMesRef: "outubro de 2026",
-      ipvaEstimado: Math.round(54900 * ((ALIQUOTAS_IPVA[estado.uf] || 3.0) / 100)),
-      aliquotaIpva: ALIQUOTAS_IPVA[estado.uf] || 3.0,
-      fotoUrl: "../img/carros/gol.jpg",
-      risco: "baixo",
-      scoreRisco: 94,
-      proprietarios: 1,
-      quilometragem: { media: "36.200 km", evolucao: "Progressão verificada" },
-      leilao: { consta: false, tipo: "Nada consta", detalhe: "Nenhuma passagem por leilão encontrada." },
-      sinistro: { consta: false, tipo: "Nada consta", detalhe: "Sem registro de indenização integral ou sinistro." },
-      debitos: { total: 0, multas: 0, ipvaPendente: false, detalhe: "Sem débitos ou autuações pendentes." },
-      restricoes: { consta: false, detalhe: "Situação cadastral regular." },
-      gravame: { consta: false, detalhe: "Sem alienação fiduciária ativa." },
-      recall: { pendente: false, detalhe: "Em conformidade." },
-      codigoLaudo: `CV-${placaLimpa}-DEMO-2026`,
-      dataConsulta: new Date().toLocaleDateString('pt-BR'),
-      horaConsulta: new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }),
-      timeline: gerarTimelineDinamica(2022, false),
-      origem: 'Decodificação Oficial SENATRAN'
-    };
-  }
-
-  // Consulta Principal com Chamadas Reais à API Brasil + FIPE + Cache Inteligente
+  // Consulta Principal com Chamadas Reais à API Brasil
   async function consultarVeiculo(placaRaw, onEtapa) {
     if (!validarPlaca(placaRaw)) {
       throw new Error("Formato de placa inválido. Digite 7 caracteres no padrão Mercosul (ex: ABC1D23) ou antigo (ex: ABC1234).");
@@ -454,23 +408,25 @@ const ConsultaVeicularService = (function() {
       }
     }
 
-    notificar(15, "Conectando à base nacional de identificação veicular...");
+    notificar(15, "Conectando à base nacional SENATRAN...");
 
-    // 1. CHECAGEM DE CACHE LOCAL (R$ 0,00 e 0ms)
-    const cacheKey = `cv_cache_${placaLimpa}`;
+    // 1. CHECAGEM DE CACHE LOCAL (R$ 0,00 e 0ms) - APENAS SE FOR DADO REAL DA API
+    const cacheKey = `cv_real_${placaLimpa}`;
     const cacheLocal = localStorage.getItem(cacheKey);
 
     if (cacheLocal) {
       try {
         const dadosEmCache = JSON.parse(cacheLocal);
-        if (dadosEmCache && dadosEmCache.marca && dadosEmCache.modelo) {
-          notificar(50, "Recuperando dados cadastrais em cache seguro...");
+        if (dadosEmCache && dadosEmCache.origem === 'APIBrasil' && dadosEmCache.marca && dadosEmCache.modelo) {
+          notificar(50, "Carregando dados cadastrais verificados...");
           await new Promise(r => setTimeout(r, 200));
           notificar(80, "Verificando histórico de leilões e procedência...");
           await new Promise(r => setTimeout(r, 200));
           notificar(100, "Compilando relatório completo do veículo...");
           salvarVeiculoAtual(dadosEmCache);
           return dadosEmCache;
+        } else {
+          localStorage.removeItem(cacheKey);
         }
       } catch (e) {
         localStorage.removeItem(cacheKey);
@@ -480,46 +436,59 @@ const ConsultaVeicularService = (function() {
     // 2. CHAMADA REAL AO BACKEND (/api/veiculo)
     notificar(35, "Consultando dados cadastrais de emplacamento e motorização...");
 
-    let relatorioFinal = null;
     const apiUrl = obterUrlApiVeiculo();
+    let res = null;
+    let data = null;
 
     try {
-      const res = await fetch(apiUrl, {
+      res = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ placa: placaLimpa })
       });
-
-      if (res.ok) {
-        const data = await res.json();
-        if (data && data.sucesso && data.veiculo) {
-          notificar(60, "Consultando cotação oficial em tempo real na Tabela FIPE...");
-
-          let fipeResultado = data.fipe;
-          // Se o backend não resolveu a FIPE, resolve no cliente via Parallelum
-          if (!fipeResultado || !fipeResultado.valor) {
-            fipeResultado = await consultarFipeNoCliente(data.veiculo);
-          }
-
-          notificar(85, "Auditando base de leilões, sinistros e gravames (SNG)...");
-
-          relatorioFinal = await montarRelatorioComVeiculoReal(placaLimpa, data.veiculo, fipeResultado);
+      data = await res.json().catch(() => null);
+    } catch (err) {
+      console.warn("Tentativa na URL padrão falhou, tentando rota de produção direta:", err);
+      if (apiUrl !== 'https://cidadaoagora.com.br/api/veiculo') {
+        try {
+          res = await fetch('https://cidadaoagora.com.br/api/veiculo', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ placa: placaLimpa })
+          });
+          data = await res.json().catch(() => null);
+        } catch (err2) {
+          console.error("Falha na chamada de contingência:", err2);
         }
       }
-    } catch (err) {
-      console.warn("API de consulta direta indisponível. Utilizando decodificador cadastral SENATRAN.", err);
     }
 
-    // 3. Fallback inteligente caso a API de terceiros oscile
-    if (!relatorioFinal) {
-      notificar(80, "Decodificando série oficial SENATRAN e histórico...");
-      await new Promise(r => setTimeout(r, 300));
-      relatorioFinal = gerarLaudoFallback(placaLimpa);
+    // Validação estrita: NUNCA inventa dados falsos
+    if (!res || !res.ok || !data || !data.sucesso || !data.veiculo) {
+      let msgErro = (data && data.erro) 
+        ? data.erro 
+        : "A placa informada não foi localizada na base de dados nacional ou o serviço da API Brasil está instável no momento. Por favor, verifique a placa e tente novamente.";
+      if (typeof msgErro === 'string' && (msgErro.includes('Nao foi encontrada') || msgErro.includes('não encontrada') || msgErro.includes('404'))) {
+        msgErro = `A placa ${formatarPlaca(placaLimpa)} não foi encontrada na base de dados oficial da API Brasil. Verifique se os caracteres foram digitados corretamente.`;
+      }
+      throw new Error(msgErro);
     }
+
+    notificar(60, "Consultando cotação oficial em tempo real na Tabela FIPE...");
+
+    let fipeResultado = data.fipe;
+    if (!fipeResultado || !fipeResultado.valor) {
+      fipeResultado = await consultarFipeNoCliente(data.veiculo);
+    }
+
+    notificar(85, "Auditando base de leilões, sinistros e gravames (SNG)...");
+
+    const relatorioFinal = await montarRelatorioComVeiculoReal(placaLimpa, data.veiculo, fipeResultado);
+    relatorioFinal.origem = 'APIBrasil';
 
     notificar(100, "Compilando relatório completo do veículo...");
 
-    // Salva no cache para consultas futuras serem instantâneas
+    // Salva no cache seguro
     try {
       localStorage.setItem(cacheKey, JSON.stringify(relatorioFinal));
     } catch (e) {}
@@ -539,7 +508,7 @@ const ConsultaVeicularService = (function() {
       const item = sessionStorage.getItem(STORAGE_KEY_VEICULO);
       if (item) return JSON.parse(item);
     } catch(e) {}
-    return gerarLaudoFallback('ABC1D23');
+    return null;
   }
 
   function registrarPagamento(plano, valor) {

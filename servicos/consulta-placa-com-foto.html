@@ -595,7 +595,11 @@
 
       // 1. Tenta chamada à API de veículos real
       try {
-        const apiRes = await fetch('/api/veiculo', {
+        const apiUrl = (window.location.protocol === 'file:' || !window.location.origin || window.location.origin === 'null' || window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+          ? 'https://cidadaoagora.com.br/api/veiculo'
+          : '/api/veiculo';
+
+        const apiRes = await fetch(apiUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ placa: raw })

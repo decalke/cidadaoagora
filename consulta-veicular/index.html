@@ -1158,7 +1158,7 @@
 
   <!-- SCRIPT DE SERVIÇOS & LÓGICA DE NAVEGAÇÃO -->
   <script src="../dados_placas.js"></script>
-  <script src="js/service.js"></script>
+  <script src="js/service.js?v=20261011_v4"></script>
   <script>
     // Inicialização de Ícones
     if (window.lucide) window.lucide.createIcons();
@@ -1242,8 +1242,12 @@
         irParaTela('resultado');
 
       } catch (err) {
-        alert(err.message || "Erro ao consultar veículo.");
         irParaTela('home');
+        if (erroEl) {
+          erroEl.innerText = err.message || "Não foi possível consultar os dados da placa informada na API Brasil.";
+          erroEl.classList.remove('hidden');
+          erroEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
       }
     }
 
