@@ -261,3 +261,19 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+
+/* Estilização garantida para slots AdSense responsivos sem layout shifts ou zero-width */
+ins.adsbygoogle {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 90px;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  ins.adsbygoogle {
+    min-height: 50px;
+  }
+}

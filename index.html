@@ -11,6 +11,7 @@
   </script>
   <!-- Google AdSense Oficial -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <script defer src="js/ads-safe.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon Oficial Cidadão Agora -->
@@ -20,6 +21,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#2563EB">
+  <link rel="canonical" href="https://cidadaoagora.com.br/">
   <title>Cidadão Agora - Portal de Serviços, Consultas Públicas, Notícias & Finanças</title>
   <meta name="description" content="Central de utilidade pública do cidadão brasileiro: consultas de CNPJ e MEI, CPF, tabela CNAE, cálculos trabalhistas CLT, consulta veicular FIPE, notícias e atualidades.">
   <meta name="keywords" content="cidadaoagora, consulta mei, consultar cnpj, validador cpf, tabela cnae, rescisao clt, consulta fipe placa, noticias brasil">
@@ -28,42 +30,7 @@
   <link rel="stylesheet" href="css/design-system.css">
 
   <!-- Tailwind CSS via CDN com Tokens Padronizados -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              900: '#0F1B35',
-              800: '#172B53',
-              700: '#1E40AF',
-              600: '#2563EB',
-              50: '#EFF6FF'
-            },
-            accent: {
-              DEFAULT: '#F59E0B',
-              hover: '#D97706',
-              light: '#FEF3C7'
-            },
-            success: '#059669',
-            danger: '#DC2626',
-            surface: {
-              DEFAULT: '#FFFFFF',
-              muted: '#F6F8FC'
-            },
-            'text-primary': '#172033',
-            'text-secondary': '#526078',
-            border: '#D9E1EC'
-          },
-          borderRadius: {
-            'xl': '12px',
-            '2xl': '16px'
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="css/tailwind.min.css">
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -72,16 +39,29 @@
   <!-- BARRA DE AVISO INSTITUCIONAL -->
   <div class="bg-[#0F1B35] text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-      <div class="flex items-center space-x-2">
+      <!-- BOTÃO HAMBÚRGUER MOBILE -->
+        <button 
+          id="btn-menu-mobile" 
+          type="button" 
+          class="md:hidden inline-flex items-center justify-center p-2 rounded-xl text-slate-700 hover:text-blue-600 hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 touch-target" 
+          aria-expanded="false" 
+          aria-controls="menu-mobile" 
+          aria-label="Abrir menu de navegação"
+        >
+          <i data-lucide="menu" id="icon-menu-open" class="w-6 h-6"></i>
+          <i data-lucide="x" id="icon-menu-close" class="w-6 h-6 hidden"></i>
+        </button>
+
+        <div class="flex items-center space-x-2">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span class="font-medium">Portal Independente de Dados Públicos e Informações ao Cidadão</span>
       </div>
       <div class="flex items-center space-x-4 text-[11px] text-slate-300">
-        <a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a>
+        <a href="/noticias/" class="hover:text-white transition-colors">Plantão de Notícias</a>
         <span>•</span>
-        <a href="conteudo/politica.html" class="hover:text-white transition-colors">Política</a>
+        <a href="/conteudo/politica" class="hover:text-white transition-colors">Política</a>
         <span>•</span>
-        <a href="conteudo/atualidades.html" class="hover:text-white transition-colors">Atualidades</a>
+        <a href="/conteudo/atualidades" class="hover:text-white transition-colors">Atualidades</a>
       </div>
     </div>
   </div>
@@ -89,11 +69,12 @@
   <!-- CABEÇALHO PRINCIPAL -->
   <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="index.html" class="flex items-center space-x-3 touch-target" aria-label="Cidadão Agora - Página Inicial">
+      <a href="/" class="flex items-center space-x-3 touch-target" aria-label="Cidadão Agora - Página Inicial">
         <div class="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-xl shadow-sm">
           CA
         </div>
         <div>
+          <h1 class="sr-only">Cidadão Agora - Portal de Consultas Públicas e Ferramentas ao Cidadão</h1>
           <span class="text-xl font-black tracking-tight text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
           <span class="text-[11px] block text-[#526078] font-medium -mt-0.5">Central de Consultas & Utilidades</span>
         </div>
@@ -103,17 +84,17 @@
       <nav class="hidden md:flex items-center space-x-5 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
         <a href="#mais-acessados" class="hover:text-[#2563EB] transition-colors">Mais Acessados</a>
         <a href="#todos-servicos" class="hover:text-[#2563EB] transition-colors">Serviços</a>
-        <a href="conteudo/atualidades.html" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
-        <a href="conteudo/politica.html" class="hover:text-[#2563EB] transition-colors">Política</a>
-        <a href="noticias/index.html" class="hover:text-[#2563EB] transition-colors">Notícias</a>
-        <a href="consulta-veicular/" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-black transition shadow-xs touch-target">
+        <a href="/conteudo/atualidades" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
+        <a href="/conteudo/politica" class="hover:text-[#2563EB] transition-colors">Política</a>
+        <a href="/noticias/" class="hover:text-[#2563EB] transition-colors">Notícias</a>
+        <a href="/consulta-veicular/" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-black transition shadow-xs touch-target">
           <i data-lucide="car" class="w-3.5 h-3.5 text-slate-950"></i>
           <span>Consulta Veicular</span>
         </a>
       </nav>
 
       <div class="flex items-center space-x-2">
-        <a href="conteudo/atualidades.html" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 hover:bg-blue-50 border border-[#D9E1EC] hover:border-blue-300 text-xs font-semibold text-[#172033] transition-all group shadow-2xs" title="Ver cotações completas e indicadores em Atualidades">
+        <a href="/conteudo/atualidades" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 hover:bg-blue-50 border border-[#D9E1EC] hover:border-blue-300 text-xs font-semibold text-[#172033] transition-all group shadow-2xs" title="Ver cotações completas e indicadores em Atualidades">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
           <span class="text-[#0F1B35] font-mono flex items-center gap-1">
             <span class="text-[10px] font-bold text-[#526078] uppercase">USD</span>
@@ -129,6 +110,45 @@
       </div>
     </div>
   </header>
+
+  <!-- GAVETA DE NAVEGAÇÃO MOBILE ACESSÍVEL -->
+  <div 
+    id="menu-mobile" 
+    class="md:hidden hidden bg-white border-b border-[#D9E1EC] px-4 py-3 shadow-lg transition-all" 
+    role="dialog" 
+    aria-label="Menu principal de navegação"
+  >
+    <nav class="flex flex-col space-y-2 text-sm font-semibold text-[#526078]" aria-label="Navegação Mobile">
+      <a href="#mais-acessados" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Mais Acessados</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="#todos-servicos" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Serviços</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/conteudo/atualidades" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Atualidades</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/conteudo/politica" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Política</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/noticias/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Notícias</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/consulta-veicular/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl bg-amber-400 text-slate-950 font-black flex items-center justify-between touch-target shadow-xs">
+        <span class="flex items-center gap-2">
+          <i data-lucide="car" class="w-4 h-4"></i>
+          Consulta Veicular
+        </span>
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </nav>
+  </div>
+
 
   <main class="flex-1">
 
@@ -146,27 +166,27 @@
           <div class="w-full">
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-2.5 w-full">
               <!-- 1. MEI & CNPJ -->
-              <a href="servicos/consulta-mei-cnpj.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+              <a href="/servicos/consulta-mei-cnpj" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
                 <i data-lucide="building-2" class="w-4 h-4 shrink-0 text-blue-300"></i>
                 <span class="truncate">MEI & CNPJ</span>
               </a>
               <!-- 2. Placa & FIPE -->
-              <a href="servicos/consulta-veicular-fipe.html" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-2.5 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
+              <a href="/servicos/consulta-veicular-fipe" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-2.5 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
                 <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
                 <span class="truncate">Placa & FIPE</span>
               </a>
               <!-- 3. Validador CPF -->
-              <a href="servicos/validador-cpf.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+              <a href="/servicos/validador-cpf" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
                 <i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-300"></i>
                 <span class="truncate">Validar CPF</span>
               </a>
               <!-- 4. Rescisão CLT -->
-              <a href="servicos/calculadora-rescisao-clt.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+              <a href="/servicos/calculadora-rescisao-clt" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
                 <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0 text-indigo-300"></i>
                 <span class="truncate">Rescisão CLT</span>
               </a>
               <!-- 5. Recibo (PDF) -->
-              <a href="servicos/gerador-recibo-pagamento.html" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
+              <a href="/servicos/gerador-recibo-pagamento" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
                 <i data-lucide="receipt" class="w-4 h-4 shrink-0 text-teal-300"></i>
                 <span class="truncate">Gerar Recibo</span>
               </a>
@@ -215,7 +235,7 @@
                 </div>
 
                 <a 
-                  href="consulta-veicular/" 
+                  href="/consulta-veicular/" 
                   class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-xs sm:text-sm px-5 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group/btn touch-target"
                 >
                   <i data-lucide="car" class="w-4 h-4 text-slate-950"></i>
@@ -275,7 +295,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/consulta-mei-cnpj.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/consulta-mei-cnpj" class="btn-primary w-full text-xs">
               <span>Consultar CNPJ e MEI</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -302,7 +322,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/consulta-veicular-fipe.html" class="btn-accent w-full text-xs">
+            <a href="/servicos/consulta-veicular-fipe" class="btn-accent w-full text-xs">
               <span>Consultar Veículo & FIPE</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -329,7 +349,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/validador-cpf.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/validador-cpf" class="btn-primary w-full text-xs">
               <span>Validar CPF Grátis</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -356,7 +376,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/calculadora-rescisao-clt.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/calculadora-rescisao-clt" class="btn-primary w-full text-xs">
               <span>Calcular Rescisão CLT</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -383,7 +403,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-recibo-pagamento.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-recibo-pagamento" class="btn-primary w-full text-xs">
               <span>Gerar Recibo em PDF</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -410,7 +430,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/consulta-cep.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/consulta-cep" class="btn-primary w-full text-xs">
               <span>Consultar CEP Oficial</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -430,9 +450,7 @@
            data-ad-slot="2396617448"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
-      <script>
-           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      
 </div>
     </div>
 
@@ -477,7 +495,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/buscador-cnae.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/buscador-cnae" class="btn-primary w-full text-xs">
               <span>Buscar CNAE</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -501,7 +519,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-orcamento-simples.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-orcamento-simples" class="btn-primary w-full text-xs">
               <span>Criar Orçamento</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -525,7 +543,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-link-whatsapp.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-link-whatsapp" class="btn-primary w-full text-xs">
               <span>Gerar Link WhatsApp</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -550,7 +568,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/como-saber-estado-pela-placa.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/como-saber-estado-pela-placa" class="btn-primary w-full text-xs">
               <span>Consultar Tabela UF</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -574,7 +592,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/consulta-veicular-fipe.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/consulta-veicular-fipe" class="btn-primary w-full text-xs">
               <span>Consultar Veículo</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -599,7 +617,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/calculadora-ferias-decimo.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/calculadora-ferias-decimo" class="btn-primary w-full text-xs">
               <span>Calcular Férias & 13º</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -623,7 +641,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-contrato-simples.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-contrato-simples" class="btn-primary w-full text-xs">
               <span>Gerar Contrato</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -648,7 +666,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-nota-promissoria.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-nota-promissoria" class="btn-primary w-full text-xs">
               <span>Gerar Nota Promissória</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -672,7 +690,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-declaracao-residencia.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-declaracao-residencia" class="btn-primary w-full text-xs">
               <span>Gerar Declaração</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -696,7 +714,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-declaracao-hipossuficiencia.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-declaracao-hipossuficiencia" class="btn-primary w-full text-xs">
               <span>Gerar Hipossuficiência</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -720,7 +738,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/formatador-texto.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/formatador-texto" class="btn-primary w-full text-xs">
               <span>Formatar Texto</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -744,7 +762,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/conversor-formatos.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/conversor-formatos" class="btn-primary w-full text-xs">
               <span>Converter Imagens</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -769,7 +787,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/calculadora-reajuste-aluguel.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/calculadora-reajuste-aluguel" class="btn-primary w-full text-xs">
               <span>Calcular Aluguel</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -793,7 +811,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="conteudo/atualidades.html" class="btn-primary w-full text-xs">
+            <a href="/conteudo/atualidades" class="btn-primary w-full text-xs">
               <span>Ver Indicadores Oficiais</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -818,7 +836,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/calendario-feriados.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/calendario-feriados" class="btn-primary w-full text-xs">
               <span>Ver Feriados do Ano</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -842,7 +860,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/gerador-pedido-lai.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/gerador-pedido-lai" class="btn-primary w-full text-xs">
               <span>Gerar Pedido LAI</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -866,7 +884,7 @@
             </p>
           </div>
           <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="servicos/consulta-profissionais-servidores.html" class="btn-primary w-full text-xs">
+            <a href="/servicos/consulta-profissionais-servidores" class="btn-primary w-full text-xs">
               <span>Consultar Profissionais</span>
               <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
             </a>
@@ -895,7 +913,7 @@
               <span class="text-[#526078] font-normal">Atualizado hoje</span>
             </div>
             <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="noticias/index.html" class="hover:text-[#2563EB] transition-colors">
+              <a href="/noticias/" class="hover:text-[#2563EB] transition-colors">
                 Receita Federal atualiza regras de declaração e facilidades para o MEI
               </a>
             </h3>
@@ -904,7 +922,7 @@
             </p>
           </div>
           <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="noticias/index.html" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
+            <a href="/noticias/" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
               <span>Acessar Notícias</span>
               <i data-lucide="chevron-right" class="w-4 h-4"></i>
             </a>
@@ -919,7 +937,7 @@
               <span class="text-[#526078] font-normal">Congresso</span>
             </div>
             <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="conteudo/politica.html" class="hover:text-[#2563EB] transition-colors">
+              <a href="/conteudo/politica" class="hover:text-[#2563EB] transition-colors">
                 Projetos de Lei no Congresso debatem retorno das cidades nas placas Mercosul
               </a>
             </h3>
@@ -928,7 +946,7 @@
             </p>
           </div>
           <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="conteudo/politica.html" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
+            <a href="/conteudo/politica" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
               <span>Acessar Política</span>
               <i data-lucide="chevron-right" class="w-4 h-4"></i>
             </a>
@@ -943,7 +961,7 @@
               <span class="text-[#526078] font-normal">Utilidades</span>
             </div>
             <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="conteudo/promocoes.html" class="hover:text-[#2563EB] transition-colors">
+              <a href="/conteudo/promocoes" class="hover:text-[#2563EB] transition-colors">
                 Promoções, Cupons & Descontos para Serviços do Cidadão
               </a>
             </h3>
@@ -952,7 +970,7 @@
             </p>
           </div>
           <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="conteudo/promocoes.html" class="text-xs font-bold text-[#526078] hover:text-[#2563EB] flex items-center gap-1 touch-target">
+            <a href="/conteudo/promocoes" class="text-xs font-bold text-[#526078] hover:text-[#2563EB] flex items-center gap-1 touch-target">
               <span>Ver Cupons & Benefícios</span>
               <i data-lucide="chevron-right" class="w-4 h-4"></i>
             </a>
@@ -982,32 +1000,32 @@
       <div>
         <h4 class="text-white font-bold text-sm mb-3">Serviços Mais Procurados</h4>
         <ul class="space-y-2 text-[11px]">
-          <li><a href="consulta-veicular/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors flex items-center gap-1"><span>🚗 Nova Consulta Veicular (Laudo & Fotos)</span></a></li>
-          <li><a href="servicos/consulta-mei-cnpj.html" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
-          <li><a href="servicos/consulta-veicular-fipe.html" class="hover:text-white transition-colors">Consulta Veicular & Tabela FIPE</a></li>
-          <li><a href="servicos/validador-cpf.html" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
-          <li><a href="servicos/calculadora-rescisao-clt.html" class="hover:text-white transition-colors">Calculadora de Rescisão CLT</a></li>
-          <li><a href="servicos/gerador-recibo-pagamento.html" class="hover:text-white transition-colors">Gerador de Recibo em PDF</a></li>
-          <li><a href="servicos/consulta-cep.html" class="hover:text-white transition-colors">Consulta de CEP e Endereço</a></li>
+          <li><a href="/consulta-veicular/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors flex items-center gap-1"><span>🚗 Nova Consulta Veicular (Laudo & Fotos)</span></a></li>
+          <li><a href="/servicos/consulta-mei-cnpj" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
+          <li><a href="/servicos/consulta-veicular-fipe" class="hover:text-white transition-colors">Consulta Veicular & Tabela FIPE</a></li>
+          <li><a href="/servicos/validador-cpf" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
+          <li><a href="/servicos/calculadora-rescisao-clt" class="hover:text-white transition-colors">Calculadora de Rescisão CLT</a></li>
+          <li><a href="/servicos/gerador-recibo-pagamento" class="hover:text-white transition-colors">Gerador de Recibo em PDF</a></li>
+          <li><a href="/servicos/consulta-cep" class="hover:text-white transition-colors">Consulta de CEP e Endereço</a></li>
         </ul>
       </div>
 
       <div>
         <h4 class="text-white font-bold text-sm mb-3">Conteúdo & Informação</h4>
         <ul class="space-y-2 text-[11px]">
-          <li><a href="noticias/index.html" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
-          <li><a href="conteudo/politica.html" class="hover:text-white transition-colors">Política & Congresso</a></li>
-          <li><a href="conteudo/atualidades.html" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
-          <li><a href="conteudo/promocoes.html" class="hover:text-white transition-colors">Benefícios & Cupons</a></li>
+          <li><a href="/noticias/" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
+          <li><a href="/conteudo/politica" class="hover:text-white transition-colors">Política & Congresso</a></li>
+          <li><a href="/conteudo/atualidades" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
+          <li><a href="/conteudo/promocoes" class="hover:text-white transition-colors">Benefícios & Cupons</a></li>
         </ul>
       </div>
 
       <div>
         <h4 class="text-white font-bold text-sm mb-3">Privacidade & Contato</h4>
         <ul class="space-y-2 text-[11px] mb-3">
-          <li><a href="conteudo/politica-privacidade.html" class="hover:text-white transition-colors text-slate-300">Política de Privacidade (LGPD)</a></li>
-          <li><a href="conteudo/termos-de-uso.html" class="hover:text-white transition-colors text-slate-300">Termos de Uso</a></li>
-          <li><a href="conteudo/contato.html" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
+          <li><a href="/conteudo/politica-privacidade" class="hover:text-white transition-colors text-slate-300">Política de Privacidade (LGPD)</a></li>
+          <li><a href="/conteudo/termos-de-uso" class="hover:text-white transition-colors text-slate-300">Termos de Uso</a></li>
+          <li><a href="/conteudo/contato" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
         </ul>
         <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
           © 2026 Cidadão Agora Brasil
@@ -1231,6 +1249,54 @@
       fecharConfiguracoesCookies();
       fecharBannerLGPD();
     }
+
+    // Controle de Acessibilidade do Menu Mobile (Prioridade 5)
+    (function initMenuMobile() {
+      const btnMenuMobile = document.getElementById('btn-menu-mobile');
+      const menuMobile = document.getElementById('menu-mobile');
+      const iconMenuOpen = document.getElementById('icon-menu-open');
+      const iconMenuClose = document.getElementById('icon-menu-close');
+
+      if (!btnMenuMobile || !menuMobile) return;
+
+      function toggleMenuMobile() {
+        const isExpanded = btnMenuMobile.getAttribute('aria-expanded') === 'true';
+        if (isExpanded) {
+          fecharMenuMobile();
+        } else {
+          abrirMenuMobile();
+        }
+      }
+
+      function abrirMenuMobile() {
+        btnMenuMobile.setAttribute('aria-expanded', 'true');
+        btnMenuMobile.setAttribute('aria-label', 'Fechar menu de navegação');
+        menuMobile.classList.remove('hidden');
+        if (iconMenuOpen) iconMenuOpen.classList.add('hidden');
+        if (iconMenuClose) iconMenuClose.classList.remove('hidden');
+        const firstLink = menuMobile.querySelector('a');
+        if (firstLink) firstLink.focus();
+      }
+
+      function fecharMenuMobile() {
+        btnMenuMobile.setAttribute('aria-expanded', 'false');
+        btnMenuMobile.setAttribute('aria-label', 'Abrir menu de navegação');
+        menuMobile.classList.add('hidden');
+        if (iconMenuOpen) iconMenuOpen.classList.remove('hidden');
+        if (iconMenuClose) iconMenuClose.classList.add('hidden');
+      }
+
+      window.fecharMenuMobile = fecharMenuMobile;
+
+      btnMenuMobile.addEventListener('click', toggleMenuMobile);
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && btnMenuMobile.getAttribute('aria-expanded') === 'true') {
+          fecharMenuMobile();
+          btnMenuMobile.focus();
+        }
+      });
+    })();
   </script>
 </body>
 </html>
