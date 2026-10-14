@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "14/10/2026 às 07:23:10",
+  "ultima_atualizacao": "14/10/2026 às 13:32:03",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Setor de serviços cai 0,1% de julho para agosto, mostra IBGE",
+      "resumo": "O volume do setor de serviços apresentou variação negativa de 0,1% em agosto deste ano, na comparação com o mês anterior. Em julho, a atividade ficou estável, e, em junho, cresceu 0,1%.\n\nOs dados da Pesquisa Mensal de Se...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O volume do setor de serviços apresentou variação negativa de 0,1% em agosto deste ano, na comparação com o mês anterior. Em julho, a atividade ficou estável, e, em junho, cresceu 0,1%.\n\nOs dados da Pesquisa Mensal de Serviços (PMS) foram divulgados nesta quarta-feira (14) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).\n\nNotícias relacionadas:Setor de serviços fica estável em julho e sobe 2,4% em 12 meses.Os serviços, no entanto, cresceram 0,6% na comparação com agosto do ano passado, 1,7% no acumulado dos oito primeiros meses do ano e 2,2% no acumulado de 12 meses.\n\nCom o resultado, o setor está 19,9% acima do nível pré-pandemia (fevereiro de 2020) e 0,3% abaixo do maior patamar da série histórica (outubro de 2025).\n\nEm relação à receita nominal, o setor apresentou taxas de crescimento de 0,2% na comparação com julho deste ano, de 6,1% na comparação com agosto do ano passado, de 7,4% no acumulado do ano e de 7,5% no acumulado de 12 meses.\n\nNa passagem de julho para agosto deste ano, o volume cresceu apenas no segmento de serviços prestados às famílias (2,1%). Os serviços de informação e comunicação não apresentaram variação de julho para agosto.\n\nOs outros três segmentos dos serviços caíram de julho para agosto: outros serviços (-1%); transportes (-0,2%); e profissionais, administrativos e complementares (-0,2%).\n\nTurismo\n\nO índice de atividades turísticas – agregado calculado de forma separada dos cinco segmentos do setor de serviços – teve alta de 2,5% de julho para agosto, o segundo resultado positivo seguido, período em que acumulou ganhos de 5,5%.\n\nCom o resultado, o segmento de turismo está 12,4% acima do patamar de fevereiro de 2020 e 1,1% abaixo do ápice da sua série histórica, alcançado em dezembro de 2024.</p>",
+      "imagem": "https://imagens.ebc.com.br/hgUHk0rHc_IXrFs3fd8swMe7ta4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/11/12/_d6a9083.jpg?itok=SfP-A5Ia",
+      "slug": "setor-de-servicos-cai-0-1-de-julho-para-agosto-mostra-ibge",
+      "pagina_local": "setor-de-servicos-cai-0-1-de-julho-para-agosto-mostra-ibge.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/setor-de-servicos-cai-01-de-julho-para-agosto-mostra-ibge",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 13:32"
+    },
+    {
+      "titulo": "Prazo pra bancos devolverem R$ 1,3 bilhão de bets acaba nesta quarta",
+      "resumo": "Acaba nesta quarta-feira (14) o prazo para os bancos e as instituições financeiras devolverem cerca de R$ 1,325 bilhão que permaneceu nas contas de apostadores após o encerramento das plataformas de apostas on-line, dete...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Acaba nesta quarta-feira (14) o prazo para os bancos e as instituições financeiras devolverem cerca de R$ 1,325 bilhão que permaneceu nas contas de apostadores após o encerramento das plataformas de apostas on-line, determinado pela Medida Provisória (MP) 1.394/2026, do governo federal.\n\nA restituição, que começou na última sexta-feira (9), deve beneficiar aproximadamente 26,5 milhões de apostadores.\n\nNotícias relacionadas:Bets: mais de R$ 1 bilhão foram devolvidos a apostadores.Bancos começam a devolver R$ 1,3 bilhão a apostadores de bets.Polícia de SP prende três suspeitos de explorar bets.O prazo para retirar voluntariamente os valores nas plataformas terminou às 23h59 de do último dia 5. No dia seguinte, os sites e aplicativos afetados pela medida começaram a sair do ar.\n\nAs empresas de apostas tiveram até a última quinta-feira (8) para encaminhar às instituições financeiras os dados dos saldos vinculados aos CPFs e às contas bancárias utilizadas nos depósitos.\n\n&gt;&gt; Mais de R$ 1 bilhão foi devolvido a apostadores até sábado\n\nComo receber\n\nA devolução está sendo realizada pelas instituições financeiras, conforme o cronograma estabelecido pelo governo. Os apostadores devem acompanhar as movimentações da conta bancária utilizada para depositar dinheiro nas plataformas.\n\nVeja as principais datas:\n\n\n\t5 de outubro: fim do prazo para saque voluntário nas plataformas;\n\t6 de outubro: início da retirada do ar dos sites e aplicativos afetados;\n\t7 e 8 de outubro: envio dos dados dos saldos aos bancos;\n\t9 a 14 de outubro: período previsto para a devolução pelas instituições financeiras;\n\tA partir de 14 de outubro: a Caixa Econômica Federal assume os casos em que houver impedimentos operacionais.\n\n\nDinheiro na Caixa\n\nSe a devolução não for concluída por dificuldades operacionais, os valores remanescentes serão encaminhados à Caixa Econômica Federal a partir desta quarta-feira. O banco ficará responsável por intermediar os pagamentos pendentes.\n\nSegundo o Ministério da Fazenda, as orientações para os apostadores nessa etapa serão divulgadas pelos canais oficiais. Por isso, é importante acompanhar os comunicados do governo e da instituição financeira.\n\nSaldos pequenos\n\nParte significativa dos recursos está distribuída em contas com valores muito baixos. Segundo o governo, 86,2 milhões de contas mantinham saldos entre R$ 0,01 e R$ 0,99, que somavam R$ 15,5 milhões.\n\nO número de contas é superior ao de apostadores porque uma mesma pessoa pode ter cadastro em diferentes plataformas.\n\nValores sob investigação\n\nO governo também acompanha os saldos elevados que permaneceram nas plataformas. Segundo o ministro da Fazenda, Dario Durigan, cerca de 40 CPFs estão sob análise devido aos montantes mantidos nas contas, para apurar possíveis irregularidades, incluindo suspeitas de lavagem de dinheiro.\n\nA medida provisória que determinou o encerramento das operações abrangidas pela decisão foi publicada em 25 de setembro e ainda precisa ser aprovada pelo Congresso Nacional dentro do prazo legal para continuar em vigor.\n\nAtenção a golpes\n\nPara evitar fraudes durante a devolução dos recursos, os apostadores devem:\n\n\n\tConsultar os canais oficiais do governo e dos bancos;\n\tDesconfiar de mensagens que cobrem taxas para liberar o dinheiro;\n\tNão fornecer senhas ou códigos bancários a terceiros;\n\tConfirmar diretamente com a instituição financeira qualquer informação sobre o pagamento.\n\n\nA restituição deve seguir o cronograma oficial. Não há necessidade de pagar quaisquer valores antecipados para receber o saldo.</p>",
+      "imagem": "https://imagens.ebc.com.br/U6j5vEPiY60QqI6o4Rpdv7-m8-Q=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/09/20260121200144_1746e8d4ccfa91d6a6464d5ca54b4e6de8f5294fad9fbe53b45b655587a568c1.jpg?itok=ynW7ooDa",
+      "slug": "prazo-pra-bancos-devolverem-r-1-3-bilhao-de-bets-acaba-nesta-quarta",
+      "pagina_local": "prazo-pra-bancos-devolverem-r-1-3-bilhao-de-bets-acaba-nesta-quarta.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-pra-bancos-devolverem-r-13-bilhao-de-bets-acaba-nesta-quarta",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 13:32"
+    },
     {
       "titulo": "Perdão de dívidas de MEIs terá impacto fiscal, mas redução de custos",
       "resumo": "O projeto de lei complementar que prevê o perdão de dívidas de microempreendedores individuais (MEIs) terá impacto fiscal de R$ 3,04 bilhões entre 2027 e 2029, informou na noite desta terça-feira (13) o Ministério da Faz...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Dólar sobe 0,74% e volta a fechar acima de R$ 5",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Brasil abriu 700 mercados para agropecuária desde 2023",
@@ -39,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Produção de motos no Brasil cresce e tem melhor setembro desde 2011",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "FMI prevê crescimento de 2,2% do PIB do Brasil em 2026",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Governo anuncia perdão de dívidas e pacote de estímulo para MEIs",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Mercado eleva previsão da inflação para 5,22% em 2026",
@@ -104,33 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
-      "titulo": "Medida provisória quer coibir excesso de chamadas e golpes telefônicos",
-      "resumo": "A área de telecomunicação brasileira deverá seguir novas regras para identificar e bloquear chamadas e mensagens telefônicas com o objetivo de combater fraudes e reduzir o número de ligações abusivas.\n\nMedida provisória ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A área de telecomunicação brasileira deverá seguir novas regras para identificar e bloquear chamadas e mensagens telefônicas com o objetivo de combater fraudes e reduzir o número de ligações abusivas.\n\nMedida provisória publicada nesta terça-feira (13) determina que as operadoras autentiquem as chamadas feitas em suas redes. As ligações que não passarem por esse processo poderão ser bloqueadas antes de chegar ao destinatário, conforme regulamentação da Agência Nacional de Telecomunicações (Anatel).\n\nNotícias relacionadas:Chamadas de emergência usando Android terão localização compartilhada.Anatel reforça punições contra chamadas automáticas abusivas.Outra novidade é a identificação de chamadas feitas por empresas. Nesses casos, o usuário poderá visualizar o nome empresarial e, quando houver, o logotipo da organização responsável pela ligação.\n\nAnatel\n\nPara viabilizar o sistema, a medida cria uma base nacional de dados de recursos de numeração, sob supervisão da Anatel, com informações sobre titulares de números telefônicos e empresas.\n\nA norma também prevê medidas contra o uso abusivo da telefonia. Usuários que fizerem grande volume de chamadas com características consideradas suspeitas poderão ter bloqueada, por 15 dias, a capacidade de originar ligações.\n\nA Anatel terá 60 dias para regulamentar as novas regras. O descumprimento das determinações poderá resultar na aplicação das sanções previstas na Lei Geral de Telecomunicações.</p>",
-      "imagem": "https://imagens.ebc.com.br/KDX0pvye8d1pP4ZMJedWoSjgyJQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/05/pzzb3511.jpg?itok=Nk-9ePfE",
-      "slug": "medida-provisoria-quer-coibir-excesso-de-chamadas-e-golpes-telefonicos",
-      "pagina_local": "medida-provisoria-quer-coibir-excesso-de-chamadas-e-golpes-telefonicos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/medida-provisoria-quer-coibir-excesso-de-chamadas-e-golpes-telefonicos",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
-    },
-    {
-      "titulo": "Norma amplia exigências para atendimento ao consumidor; saiba quais",
-      "resumo": "Serviços de atendimento ao consumidor (SAC) passam a ter novas regras em todo o país. As mudanças entram em vigor em 20 dias e valem para empresas de setores regulados pelo governo federal e por instituições que prestam ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Serviços de atendimento ao consumidor (SAC) passam a ter novas regras em todo o país. As mudanças entram em vigor em 20 dias e valem para empresas de setores regulados pelo governo federal e por instituições que prestam serviços financeiros digitais supervisionados pelo Banco Central.\n\nEntre as principais providências estão disponibilizar aos clientes atendimento humano obrigatório, SAC gratuito, limite de cinco níveis de atendimento ou menus, cancelamento facilitado, suporte 24 horas em canais eletrônicos. \n\nNotícias relacionadas:Conheça as novas regras para proteger consumidores em grandes eventos.Também fica proibido direcionar o consumidor para outro canal de atendimento, exceto quando o comparecimento presencial for indispensável para resolver a demanda.\n\nOutra novidade prevê que, se a ligação cair durante os diálogos, a empresa deverá retornar o contato em até cinco minutos e aproveitar as informações já fornecidas pelo consumidor.\n\nA norma determina que a opção de cancelamento de contratos e serviços deverá estar disponível em qualquer nível do atendimento, tanto nos canais eletrônicos quanto nos telefônicos.\n\nO pedido deverá ser processado imediatamente, pelos mesmos canais usados para a contratação. O consumidor também deverá receber comprovante eletrônico da solicitação.\n\nVeja novos prazos e horários de atendimento previstos no decreto:\n\nAtendimento humano\n\n\n\tCanais eletrônicos: atendimento humano em tempo real das 8h às 20h, todos os dias da semana.\n\tAtendimento telefônico: atendimento humano das 8h às 20h, sete dias por semana.\n\tDemandas urgentes: atendimento humano imediato a qualquer tempo.\n\n\nTempo de espera no telefone\n\n\n\taté 20 segundos para, no mínimo, 80% das demandas;\n\taté 300 segundos (cinco minutos) para as demais.\n\n\nRetorno de ligação interrompida\n\n\n\tA empresa deve retornar a chamada em até 300 segundos (5 minutos).\n\n\nResposta às demandas\n\n\n\tPrazo máximo de sete dias corridos para responder reclamações não urgentes.\n\n\nCobrança indevida ou serviço não solicitado\n\n\n\tprovidências imediatas para suspensão;\n\tconclusão em até 48 horas.\n\n\nEnvio do histórico de atendimento\n\n\n\taté 5 dias úteis após solicitação do consumidor.\n\n\nGuarda de registros\n\n\n\tHistórico das demandas: mínimo de 6 meses após a resolução;\n\tGravações e mensagens do SAC: mínimo de 90 dias.\n\n\nA finalidade é garantir ao consumidor acesso a informações adequadas sobre os serviços contratados, tratamento eficiente de suas demandas e atendimento eficaz pelos diversos canais de comunicação.</p>",
-      "imagem": "https://imagens.ebc.com.br/Si92Q9jjNiLJyNvN-lmVE3BxZDQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/05/13/freepik_3_.jpg?itok=vep7-tRY",
-      "slug": "norma-amplia-exigencias-para-atendimento-ao-consumidor-saiba-quais",
-      "pagina_local": "norma-amplia-exigencias-para-atendimento-ao-consumidor-saiba-quais.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/norma-amplia-exigencias-para-atendimento-ao-consumidor-saiba-quais",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
+      "resumo": "A Mega-Sena sorteia nesta quarta-feira (14) prêmio estimado em R$ 150 milhões. As seis dezenas do concurso 3.070 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Mega-Sena sorteia nesta quarta-feira (14) prêmio estimado em R$ 150 milhões. As seis dezenas do concurso 3.070 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser feitas até às 20h (horário de Brasília) de hoje em casas lotéricas credenciadas pela Caixa em todo o país ou pela internet, no site ou aplicativo da Caixa. A aposta simples, com seis dezenas, custa R$ 6.\n\nNotícias relacionadas:Mega-Sena acumula para R$ 150 milhões; confira os números sorteados .No último concurso, foram sorteados os números 05 - 19 - 22 - 44 - 47 e 57. e nenhum apostador acertou as seis dezenas.\n\nCalendário\n\nTradicionalmente, os sorteios da Mega-sena são realizados às terças-feiras, quintas-feiras e domingos. A mudança no calendário nesta semana ocorre por causa do feriado de Nossa Senhora Aparecida, celebrado na segunda-feira (12).  \n\n​Entre os dias 26 e 30 de outubro de 2026, acontecerá a Mega Semana da Mega Sena. A ação promoverá cinco sorteios consecutivos correspondentes aos concursos 3076, 3077, 3078, 3079 e 3080.</p>",
+      "imagem": "https://imagens.ebc.com.br/lsrLdv4veqHb5D11g2-YVnn3gEE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamg_abr_08052019_8683_1.jpg?itok=Qn6CX8iL",
+      "slug": "mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
+      "pagina_local": "mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Aena assume Galeão e propõe aumentar destinos e frequência de voos",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Defesa Civil alerta para chuvas fortes no estado de São Paulo",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Polícia investiga ligação de policiais com facção criminosa",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 150 milhões nesta quarta",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Polícia do Rio apreende armas após morte de suboficial do Bope",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Arcebispo de Aparecida pede desarmamento e atenção à fome e à pobreza",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     },
     {
       "titulo": "Nossa Senhora Aparecida: 95 anos da padroeira do Brasil; entenda",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
-    },
-    {
-      "titulo": "Mega-Sena acumula para R$ 150 milhões; confira os números sorteados",
-      "resumo": "Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.069, que foram sorteadas na manhã deste domingo (11) no Espaço da Sorte, na capital paulista. O prêmio acumulou e está estimado em R$ 150 milhões para o próximo ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.069, que foram sorteadas na manhã deste domingo (11) no Espaço da Sorte, na capital paulista. O prêmio acumulou e está estimado em R$ 150 milhões para o próximo sorteio.\n\nOs números sorteados são: 05, 19, 22, 44, 47 e 57.\n\n\n\t150 apostas acertaram cinco dezenas e irão receber R$ 26.095,23 cada\n\t9.096 apostas acertaram quatro dezenas e irão receber R$ 709,33 cada\n\n\nO próximo sorteio ocorrerá na quarta-feira (14). A aposta simples, com seis dezenas, custa R$ 6.</p>",
-      "imagem": "https://imagens.ebc.com.br/P7lxcGm8k6UohJ5Os3uzi8kr8QQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena_mcajr_abr_2904223680.jpg?itok=vZ2eHAv_",
-      "slug": "mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados",
-      "pagina_local": "mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-150-milhoes-confira-os-numeros-sorteados",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 07:23"
+      "coletado_em": "14/10/2026 às 13:32"
     }
   ]
 };
