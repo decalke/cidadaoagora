@@ -1,7 +1,46 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "14/10/2026 às 18:27:28",
+  "ultima_atualizacao": "14/10/2026 às 22:10:39",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas",
+      "resumo": "Um corte de gastos públicos no Brasil de grandes proporções que preserve os programas sociais e os reajustes do salário mínimo, pensões e aposentadorias é inviável, calculam economistas ouvidos pela Agência Brasil.\n\nO pr...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Um corte de gastos públicos no Brasil de grandes proporções que preserve os programas sociais e os reajustes do salário mínimo, pensões e aposentadorias é inviável, calculam economistas ouvidos pela Agência Brasil.\n\nO professor Pedro Paulo Zahluth Bastos, do Instituto de Economia da Universidade Estadual de Campinas (Unicamp), afirmou que cortes expressivos, como os de cerca de R$ 200 bilhões discutidos durante a campanha presidencial, tendem a alcançar as áreas sociais.\n\n\nNotícias relacionadas:Veja os planos de governo de Flávio e Lula para meio ambiente e clima.Lula defende Sul Global; Flávio quer proximidade com EUA e Israel.“Cerca de 90% do gasto primário federal é obrigatório: Previdência, BPC [Benefício de Prestação Continuada], pessoal, pisos de saúde e educação, Bolsa Família. O que sobra, as despesas discricionárias, soma pouco mais de R$ 200 bilhões”, disse.\n\n\nBastos acrescenta que, dentro das despesas discricionárias, que são aquelas que podem ser usadas livremente pelo governo, estão os investimentos, além dos custeios de universidades, de hospitais federais e da Polícia Federal (PF).\n\n“Um corte de R$ 200 bilhões que preserve os benefícios sociais zera o resto. Se não zera, entra nos benefícios. Não há terceira opção”, concluiu o economista.\n\nA professora de economia Maria Lourdes Mollo, da Universidade de Brasília (UnB), explicou que não é possível fazer cortes substanciais no orçamento público sem afetar a área social.\n\n“Não apenas em função das políticas sociais especificamente, que serão comprometidas, mas porque os gastos públicos têm um efeito multiplicador na renda e no emprego que é perdido”, disse.\n\nA professora sustenta que as despesas públicas contribuem para estimular a economia e que, com as altas taxas de juros praticadas no Brasil, os cortes de gastos tendem a causar retração na economia como um todo.\n\n“Além disso, como a arrecadação cai com o produto, o que será destinado para educação e saúde, que é uma proporção da receita, cai também”, acrescentou.\n\nApós defender um “tesouraço” inspirado no governo de Javier Milei, que fez cortes em áreas como saúde, educação e alimentação na Argentina, o candidato Flávio Bolsonaro tem sustentado que não pretende reduzir programas e benefícios sociais caso seja eleito.\n\nNa equipe de Lula, o discurso é de que o ajuste fiscal será necessário em um eventual quarto mandato, mas que ele seria gradual e ao longo dos quatro anos.\n\nEm entrevista exclusiva à Folha de São Paulo, o ministro do planejamento, Bruno Moretti, projeta sair de um déficit das contas públicas de 0,5% do PIB neste ano para um superávit de 1,5% em 2030. \n\n“Nós estamos falando de desacelerar despesas obrigatórias, compatibilizar o direito das pessoas com o processo de manter as contas públicas em ordem\", afirmou Moretti.\n\nCorte de 1,5% do PIB\n\nEm agosto deste ano em entrevista à Globo News, a coordenadora da equipe econômica de Flávio Bolsonaro, Daniella Marques, afirmou que o plano prevê mudanças nas regras fiscais para controlar a dívida pública, o que inclui um ajuste de 1,5% do Produto Interno Bruto, algo em torno de R$ 190 bilhões, considerado o PIB de 2025.\n\nO candidato Luiz Inácio Lula da Silva aponta que o “tesouraço” de Flávio deve prejudicar os aposentados e pensionistas do INSS e os beneficiários dos programas sociais, o que é negado pelo senador fluminense.\n\n“Eu não vou fazer economia em cima de quem precisa, das pessoas mais carentes desse Brasil”, reforçou o presidenciável do PL.\n\nSupersalários e desperdícios\n\nNos últimos dias, a campanha de Flávio tem defendido que os cortes seriam limitados aos supostos privilégios do funcionalismo público, como os supersalários, entre outras despesas na máquina pública. Ele também defende aumentar as ações de combate às fraudes.\n\nO professor Pedro Paulo destaca que essas despesas somam alguns bilhões, não centenas de bilhões.\n\n\n“Supersalários e penduricalhos acima do teto são um problema de justiça, não de orçamento. Extinguir dez ministérios economiza o custo administrativo, que é pequeno; o dinheiro está nos programas que os ministérios executam”, comentou.\n\n\nAinda segundo o especialista, combater fraudes no INSS pode render recursos uma vez, mas não o ano todo. “Nenhum governo cortou R$ 200 bilhões em desperdício. Quem cortou, cortou da população”, completou.\n\nPara o economista da Unicamp, a única forma de chegar a cortes de 1,5% a 2% do PIB é por meio de cortes em despesas obrigatórias ou mudanças nos cálculos dos reajustes dos benefícios atuais.\n\n“Ninguém perde o benefício de hoje, perde o reajuste de amanhã. O aposentado que ganha um salário mínimo deixa de ter o ganho real que teve todos os anos desde 2023. Em dez anos, isso é uma reforma da Previdência feita sem votar reforma da Previdência”, pontuou.\n\nJuros pressionam a dívida \n\nO corte de gastos públicos é uma das principais exigências do mercado financeiro para os governos e candidatos sob o argumento de que as despesas pressionam a dívida pública e colocariam em risco a sustentabilidade das contas do Estado brasileiro.\n\nO professor da Unicamp Pedro Paulo Bastos destaca que o principal fator que pressiona o déficit público são os juros, que vêm consumindo cerca de R$ 1 trilhão ao ano. O Brasil alcançou, em setembro, as maiores taxas reais de juros do mundo, segundo a consultoria Moneyou.  \n\n“O setor público tem déficit de 0,6% do PIB. Os juros custam 8,9% do PIB. Cortar 1,5% do PIB de quem recebe aposentadoria e Bolsa Família, enquanto se paga 8,9% do PIB a quem tem título público, não é ajuste. É escolha de quem paga”, comentou.\n\nArcabouço fiscal\n\nAinda no início do atual governo Lula, foi aprovado o Novo Arcabouço Fiscal, que limitou o crescimento das despesas em relação ao PIB de acordo com o crescimento da receita.\n\nO candidato à reeleição tem prometido manter esse arcabouço que, segundo o plano de governo de Lula, “controlou o crescimento das despesas sem prejudicar as políticas sociais e permitiu uma redução significativa do déficit primário”.\n\nO candidato do PT tem defendido que o resultado fiscal virá pela “retomada do crescimento econômico, do controle do aumento do gasto primário, investindo na melhoria da eficiência e da qualidade do gasto público”.\n\nA campanha de Flávio tem defendido mudanças no atual arcabouço fiscal focadas na “estabilização e na redução da dívida pública” para entregar superávits primários e limitando o crédito subsidiado.\n\n“A meta é alcançar, no menor prazo possível, a estabilidade e depois a queda da relação Dívida/PIB”, diz o documento oficial da campanha do PL.</p>",
+      "imagem": "https://imagens.ebc.com.br/X79thMyAVyVb0InfwulZngYI2i8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/19/economia-idosos-mc_abr_18042026-1.jpg?itok=Viy5ElDQ",
+      "slug": "corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas",
+      "pagina_local": "corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 22:10"
+    },
+    {
+      "titulo": "Confiança da indústria sobe em outubro, mas setor segue pessimista",
+      "resumo": "O Índice de Confiança do Empresário Industrial (Icei) subiu 1,3 ponto em outubro, para 46,2 pontos, segundo pesquisa divulgada nesta quarta-feira (14) pela Confederação Nacional da Indústria (CNI).\n\nApesar da melhora, o ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Índice de Confiança do Empresário Industrial (Icei) subiu 1,3 ponto em outubro, para 46,2 pontos, segundo pesquisa divulgada nesta quarta-feira (14) pela Confederação Nacional da Indústria (CNI).\n\nApesar da melhora, o indicador permanece abaixo dos 50 pontos, faixa que separa a confiança da falta de confiança. Com isso, a indústria brasileira completa 22 meses consecutivos sem confiança.\n\nNotícias relacionadas:Indústria aponta juros altos como principal barreira ao crédito.Faturamento da indústria cai 3,5% em agosto, informa CNI.Brasil abriu 700 mercados para agropecuária desde 2023.O avanço foi impulsionado pela melhora nas expectativas dos empresários para os próximos seis meses. Em contrapartida, a avaliação sobre as condições atuais das empresas e da economia piorou, atingindo o menor nível desde julho de 2020, durante a pandemia de covid-19.\n\nO Índice de Expectativas, que mede as perspectivas para os próximos seis meses, subiu 2,1 pontos em outubro, alcançando 49,3 pontos. O resultado aproxima o indicador da linha dos 50 pontos e sinaliza uma redução do pessimismo dos empresários nos próximos 180 dias.\n\nO índice considera as perspectivas para o desempenho das próprias empresas e para a economia brasileira. Embora tenha apresentado avanço, ainda permanece abaixo do patamar que indica confiança.\n\nCondições atuais\n\nNa contramão das expectativas, o Índice de Condições Atuais recuou 0,2 ponto em outubro, passando para 40 pontos. Esse é o menor resultado desde julho de 2020.\n\nA queda foi influenciada principalmente pela avaliação negativa dos empresários sobre a situação de suas próprias empresas.\n\nSegundo Marcelo Azevedo, gerente de Análise Econômica da CNI, a percepção desfavorável está relacionada à redução da demanda por produtos industriais, à pressão dos custos e às incertezas no cenário internacional.\n\n“Esse patamar bastante negativo é explicado por uma série de fatores. Alguns elementos já vêm de algum tempo, como a queda da demanda por produtos industriais, mas outros, mais recentes, agravaram o quadro”, explicou Azevedo em nota.\n\nA CNI também destacou que os custos elevados têm pressionado a saúde financeira das empresas, agravando as dificuldades enfrentadas pelo setor.\n\nConfira os principais resultados do levantamento de outubro:\n\n\n\t    Icei: 46,2 pontos, alta de 1,3 ponto;\n\t    Índice de Expectativas: 49,3 pontos, avanço de 2,1 pontos;\n\t    Índice de Condições Atuais: 40 pontos, recuo de 0,2 ponto;\n\t    Período sem confiança: 22 meses consecutivos.\n\n\nMetodologia\n\nA pesquisa da CNI foi realizada entre 1º e 7 de outubro, com 1.103 empresas industriais de diferentes portes em todo o país.\n\nA amostra foi composta por 456 pequenas empresas, 414 médias e 233 grandes empresas.\n\nO Icei reúne a percepção dos empresários sobre a situação atual da indústria e as perspectivas para os seis meses seguintes. Resultados abaixo de 50 pontos indicam falta de confiança no setor.</p>",
+      "imagem": "https://imagens.ebc.com.br/hqYO_1KwZ83XiY4YTDBK_Krts1M=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/17504209266_7967fdcaa5_o.jpg?itok=BEZMq-VO",
+      "slug": "confianca-da-industria-sobe-em-outubro-mas-setor-segue-pessimista",
+      "pagina_local": "confianca-da-industria-sobe-em-outubro-mas-setor-segue-pessimista.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/confianca-da-industria-sobe-em-outubro-mas-setor-segue-pessimista",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 22:10"
+    },
+    {
+      "titulo": "Governo federal regulamenta Marco Legal dos Jogos Eletrônicos",
+      "resumo": "O presidente Luiz Inácio Lula da Silva assinou nesta quarta-feira (14) o decreto que regulamenta o Marco Legal da Indústria de Jogos Eletrônicos, sancionado em 2024. A medida estabelece diretrizes para fortalecer o setor...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O presidente Luiz Inácio Lula da Silva assinou nesta quarta-feira (14) o decreto que regulamenta o Marco Legal da Indústria de Jogos Eletrônicos, sancionado em 2024. A medida estabelece diretrizes para fortalecer o setor por meio de ações voltadas à produção nacional, inovação tecnológica, qualificação profissional, internacionalização e proteção da propriedade intelectual.\n\nSegundo o governo, a regulamentação busca dar segurança jurídica ao segmento e estimular o desenvolvimento da indústria brasileira de jogos eletrônicos. O decreto também amplia a integração dos jogos eletrônicos com políticas públicas de cultura, educação, saúde e acessibilidade.\n\nNotícias relacionadas:Plataformas de games podem ser usadas como incubadoras de cibercrimes.Lula sanciona marco legal dos jogos eletrônicos no Brasil.Novas tecnologias levam Justiça Eleitoral a reforçar regras de votação.Durante a cerimônia, Lula afirmou que o objetivo é transformar o Brasil em um produtor de tecnologia e conteúdo digital.\n\n\n“O Brasil não pode se limitar a ser um grande mercado consumidor de jogos criados em outros países. Temos condições de criar, desenvolver, financiar e exportar nossos produtos, gerando empregos qualificados, renda e inovação”, disse.\n\n\nTrabalho e empreendedorismo\n\nO presidente destacou ainda o potencial dos games para abrir novas oportunidades de trabalho e empreendedorismo, especialmente entre os jovens.\n\n“O papel do Estado é criar oportunidades. A gente está dizendo para vocês: façam que nós damos a cobertura, porque o Brasil precisa de vocês”, afirmou.\n\nProduto cultural\n\nA ministra da Cultura, Margareth Menezes, disse que o decreto consolida o reconhecimento dos games como produtos culturais e obras audiovisuais interativas, permitindo ao setor acessar mecanismos de fomento já existentes.\n\n“Game é cultura, game é audiovisual”, ressaltou.\n\nSegundo ela, a regulamentação fortalece a produção nacional, a formação de profissionais e a proteção da propriedade intelectual, além de ampliar o uso dos jogos eletrônicos em iniciativas de educação e saúde, estimular a geração de empregos e impulsionar o desenvolvimento tecnológico.\n\nA ministra também ressaltou o peso econômico da indústria de jogos eletrônicos no país. Segundo ela, o Brasil reúne cerca de 115 milhões de jogadores, está entre os maiores mercados de games do mundo e movimenta entre R$ 12 bilhões e R$ 13 bilhões por ano.\n\nGame Brasil\n\nO governo também anunciou a plataforma Game Brasil, destinada à divulgação e promoção de jogos produzidos no país, e uma rede nacional de espaços de formação, pesquisa e desenvolvimento. Para Lula, a política representa uma aposta em setores intensivos em conhecimento.\n\n“O Brasil não pode ser eterno país exportador de soja, de minério de ferro e de milho. O Brasil tem que ser exportador de inteligência, de conhecimento”, afirmou.\n\nAprovada no Congresso Nacional e sancionada pela Presidência da República em 2024, a lei que criou o marco legal dos jogos eletrônicos estabeleceu princípios para o desenvolvimento sustentável do setor e para a proteção de crianças e adolescentes no ambiente digital.\n\nA legislação abrange jogos para computadores, consoles, celulares e plataformas on-line, incluindo aplicações de realidade virtual e aumentada, mas não se aplica a apostas esportivas, jogos de azar e outras modalidades com premiação em dinheiro.</p>",
+      "imagem": "https://imagens.ebc.com.br/6SrUh0Ku25SN_3-OJkZhNpN-6hw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/22/pzzb0008.jpg?itok=gpTQ5xvY",
+      "slug": "governo-federal-regulamenta-marco-legal-dos-jogos-eletronicos",
+      "pagina_local": "governo-federal-regulamenta-marco-legal-dos-jogos-eletronicos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-federal-regulamenta-marco-legal-dos-jogos-eletronicos",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "14/10/2026 às 22:10"
+    },
     {
       "titulo": "Durigan defende Receita como plataforma de inteligência do Estado",
       "resumo": "A Receita Federal deve ser vista sobretudo como ferramenta estratégica do Estado brasileiro, e não só como órgão de arrecadação e fiscalização. De acordo com o ministro da Fazenda, Dario Durigan, o grande volume de infor...",
@@ -13,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Setor de serviços cai 0,1% de julho para agosto, mostra IBGE",
@@ -26,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Prazo pra bancos devolverem R$ 1,3 bilhão de bets acaba nesta quarta",
@@ -39,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Perdão de dívidas de MEIs terá impacto fiscal, mas redução de custos",
@@ -52,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Dólar sobe 0,74% e volta a fechar acima de R$ 5",
@@ -65,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Brasil abriu 700 mercados para agropecuária desde 2023",
@@ -78,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto",
@@ -91,59 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
-    },
-    {
-      "titulo": "Produção de motos no Brasil cresce e tem melhor setembro desde 2011",
-      "resumo": "No mês de setembro, a indústria brasileira de motocicletas cresceu 10,4% em relação ao ano anterior, com 186.758 unidades produzidas. \n\nSegundo balanço divulgado nesta terça-feira (13) pela Associação Brasileira dos Fabr...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>No mês de setembro, a indústria brasileira de motocicletas cresceu 10,4% em relação ao ano anterior, com 186.758 unidades produzidas. \n\nSegundo balanço divulgado nesta terça-feira (13) pela Associação Brasileira dos Fabricantes de Motocicletas, Ciclomotores, Motonetas, Bicicletas e Similares (Abraciclo), esse foi o melhor mês de setembro desde 2011, apesar do recuo de 8,5% em relação a agosto deste ano.\n\nNotícias relacionadas:FMI prevê crescimento de 2,2% do PIB do Brasil em 2026.Governo anuncia perdão de dívidas e pacote de estímulo para MEIs.Mercado eleva previsão da inflação para 5,22% em 2026.Considerando-se o acumulado entre janeiro e setembro de 2026, o setor também alcançou o seu melhor resultado desde 2008, com um total de 1.645.034 motocicletas produzidas no Polo Industrial de Manaus (PIM), o que representou alta de 9,9% em relação ao mesmo período de 2025.\n\nQuanto às vendas, houve queda de 0,4% em relação ao mesmo mês do ano passado e de 0,1% ante agosto, mas no acumulado do ano, os emplacamentos bateram recorde, com crescimento de 10,5%.\n\nJá em relação às exportações, houve retração em setembro, de 8,2% na comparação com setembro de 2025, e alta de 12,5% em relação a agosto, com 4.826 unidades vendidas. No acumulado do ano, os negócios com o mercado externo apresentaram alta de 23,7%.\n\nRevisão das projeções\n\nPor causa desse desempenho positivo ao longo do ano, o setor revisou e elevou as projeções de crescimento para o fechamento de 2026. A nova estimativa da associação é de que sejam produzidas 2,1 milhões de motocicletas neste ano no Polo Industrial de Manaus, o que representaria uma alta de 6% em relação ao ano passado. A estimativa anterior previa 2 milhões de unidades produzidas.\n\n“O mercado atravessa um momento favorável, impulsionado por lançamentos e pelo crescimento da demanda. A motocicleta ganha espaço como alternativa de mobilidade ágil, econômica e acessível, reduzindo custos, tempos de deslocamento e contribuindo para a geração de renda de milhões de brasileiros”, justificou o presidente da Abraciclo, Marcos Bento.\n\nPara o mercado interno, a expectativa agora é de que 2,35 milhões de motocicletas sejam emplacadas, com alta de 6,9% ante 2025. Quanto às exportações, a projeção é de crescimento de 11,3%, com 48 mil motocicletas exportadas.</p>",
-      "imagem": "https://imagens.ebc.com.br/CLhScXFJXwFO0DFRodsi9g0rypk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/industrias_fabricas_de_motocicletas_industrias_fabricas_santos_fc2610100916.jpg?itok=sSpwE6V2",
-      "slug": "producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011",
-      "pagina_local": "producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/producao-de-motos-no-brasil-cresce-e-tem-melhor-setembro-desde-2011",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
-    },
-    {
-      "titulo": "FMI prevê crescimento de 2,2% do PIB do Brasil em 2026",
-      "resumo": "O Fundo Monetário Internacional (FMI) projetou o crescimento da economia brasileira em 2,2% em 2026, no documento Perspectivas da Economia Mundial, divulgado na noite de segunda-feira (12).\n\nNa versão anterior do estudo,...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Fundo Monetário Internacional (FMI) projetou o crescimento da economia brasileira em 2,2% em 2026, no documento Perspectivas da Economia Mundial, divulgado na noite de segunda-feira (12).\n\nNa versão anterior do estudo, publicada em julho, a estimativa era de crescimento do Produto Interno Bruto (PIB, conjunto de todos os bens e serviços produzidos no país) em 2,4%. Para 2027, a previsão de avanço passou de 2,2% para 1,9%.\n\nNotícias relacionadas:FMI elogia Pix e cobra autonomia financeira do Banco Central.FMI reduz projeções de crescimento para América Latina.FMI: IA pode impulsionar crescimento, mas aumentar tensões econômicas.Apesar da redução para 2026, a projeção do FMI se mantém acima do esperado pelo próprio governo brasileiro. O Boletim Macrofiscal da Secretária da Política Econômica do Ministério da Fazenda, divulgado em setembro, baixou a estimativa de crescimento do PIB de 2,3% para 2,0%.\n\nJá o Focus, sondagem do Banco Central (BC) brasileiro com instituições do mercado financeiro, prevê avanço de 1,85% em 2026 e 1,40% em 2027.\n\nO FMI é uma instituição multilateral vinculada às Nações Unidas e tem entre as missões manter a estabilidade do sistema financeiro global.\n\nA previsão do comportamento do PIB brasileiro é uma das perspectivas tratadas no relatório global, que aponta ainda diminuição do crescimento na América Latina e aumento da estimativa de crescimento mundial.\n\nJuros pressionam\n\nAo comentar os dados do Brasil, maior economia da América Latina, os técnicos do FMI apontam como motivo para desaceleração as condições monetárias ainda restritivas, ou seja, os juros altos, além da retirada de estímulos fiscais e as incertezas internacionais.\n\nOs juros altos citados pelo FMI se referem à taxa Selic, principal instrumento do BC para conter a inflação. Quanto maior a Selic, mais caro o crédito, fazendo com que haja desestímulo para o consumo e investimentos produtivos, de forma a esfriar a economia.\n\nAtualmente, a Selic está em 13,75% ao ano, o que representa uma trajetória descendente iniciada em março de 2026, quando estava em 15% ao ano.\n\nInflação na meta\n\nO relatório do FMI traz projeções para a inflação. Os técnicos acreditam que o Brasil terminará 2026 com taxa de 4,4% e, em 2027, 4,1%.\n\nAmbas estimativas estão dentro da meta do governo brasileiro, que tolera até 4,5% (3% com margem de 1,5 ponto percentual para mais ou para menos).\n\nO estudo comenta que diversos países enfrentam riscos de novas pressões inflacionárias provocadas pelo encarecimento internacional da energia e dos alimentos.\n\nDe acordo com o Ministério da Fazenda, a inflação no país deve atingir 4,9% em 2026 e 3,8% em 2027. Já o Focus estima 5,22% este ano e 4,30% no ano que vem.\n\nCommodities\n\nO boletim do FMI faz duas citações ao Brasil quando analisa o cenário de commodities (matérias-primas negociadas com preços internacionais).\n\nEm relação ao petróleo, o FMI frisa que os preços estão com grande oscilação, por causa do conflito no Golfo Pérsico, onde fica o Estreito de Ormuz, que antes da guerra iniciada no primeiro trimestre, era caminho para 20% da produção global de petróleo e derivados.\n\nO FMI aponta que o mercado fez o ajuste de aumentar a produção em países fora da região, notadamente no Brasil, Cazaquistão, Estados Unidos e Venezuela.\n\nO documento cita ainda que os preços agrícolas subiram devido ao aumento nos preços de cereais e bebidas. No caso do café, aponta aumento de 8% de março para agosto, depois de fortes chuvas no estado de Minas Gerais, que atrasaram a colheita e aumentaram as preocupações com a qualidade da safra.\n\nMercado de trabalho\n\nPara o mercado de trabalho, o FMI aponta que 2026 deve terminar com taxa de desemprego em 6,2%. Para 2027, a projeção é 6,8%.\n\nO dado interno mais recente, a Pesquisa Nacional por Amostra de Domicílios (Pnad) Contínua, realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE), aponta que o desemprego no trimestre móvel encerrado em agosto ficou em 5,3%, a menor já registrada para o período desde 2012, quando se inicia a série histórica.</p>",
-      "imagem": "https://imagens.ebc.com.br/AFMyotsPVXsXu0Rvz-kJV_TAaBU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2022-10-11t134625z_1_lynxmpei9a0r9_rtroptp_4_macro-fmi-latam.jpg?itok=xWq4yd6f",
-      "slug": "fmi-preve-crescimento-de-2-2-do-pib-do-brasil-em-2026",
-      "pagina_local": "fmi-preve-crescimento-de-2-2-do-pib-do-brasil-em-2026.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fmi-preve-crescimento-de-22-do-pib-do-brasil-em-2026",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
-    },
-    {
-      "titulo": "Governo anuncia perdão de dívidas e pacote de estímulo para MEIs",
-      "resumo": "O governo federal anunciou nesta terça-feira (13) um pacote de cinco medidas voltadas aos microempreendedores individuais (MEIs), com foco na redução do endividamento, ampliação do acesso a recursos para investimento, au...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O governo federal anunciou nesta terça-feira (13) um pacote de cinco medidas voltadas aos microempreendedores individuais (MEIs), com foco na redução do endividamento, ampliação do acesso a recursos para investimento, aumento do teto de faturamento e simplificação de regras para pequenos negócios.\n\nA principal iniciativa é o envio ao Congresso Nacional de um projeto de lei complementar que prevê o perdão das dívidas acumuladas pelos MEIs com o governo federal. A proposta poderá beneficiar cerca de 3,6 milhões de microempreendedores e alcançar aproximadamente R$ 12,6 bilhões em débitos acumulados.\n\nNotícias relacionadas:Governo cria programa nacional para bloquear celulares em presídios.Governo ajudou assim que Amazonas decretou emergência, diz ministro.Ao anunciar a medida, o presidente Luiz Inácio Lula da Silva afirmou que a manutenção dessas dívidas dificulta o acesso ao crédito e o crescimento dos negócios. Segundo o presidente, a iniciativa busca permitir que os empreendedores retomem suas atividades em melhores condições.\n\n\n“Nós vamos ajudar vocês a saírem do sufoco. Vamos dar oxigênio para vocês não morrerem asfixiados”, disse Lula durante a cerimônia de anúncio das medidas no Palácio do Planalto.\n\n\nDe acordo com o ministro da Fazenda, Dario Durigan, a proposta também permitirá extinguir cobranças e ações judiciais relacionadas a esses débitos, além de retirar restrições decorrentes da inadimplência, possibilitando a regularização dos empreendedores perante o Poder Público.\n\nDesenrola 3.0\n\nOutra medida anunciada é a negociação das dívidas privadas dos MEIs. O governo pretende utilizar os instrumentos do Desenrola 3.0 para comprar débitos junto a bancos e instituições financeiras. Segundo Durigan, o estoque dessas dívidas soma cerca de R$ 6 bilhões.\n\nA operação será realizada por meio de edital e exigirá descontos mínimos de 90% por parte dos credores. A expectativa é que a retirada simultânea das pendências públicas e privadas facilite o acesso dos empreendedores a novas linhas de crédito.\n\nPix MEI\n\nO pacote também prevê a criação do Pix MEI, programa de transferência direta de recursos para investimento produtivo. A proposta é repassar até R$ 5 mil para aquisição de equipamentos e melhorias capazes de ampliar a produção, a renda e o faturamento dos negócios.\n\nSegundo o ministro do Empreendedorismo, Paulo Henrique Rodrigues Pereira, o recurso não terá caráter de empréstimo e será acompanhado por ações de orientação e apoio aos beneficiários para a estruturação de projetos.\n\nTeto de faturamento\n\nOutra iniciativa é a ampliação do teto de faturamento anual do MEI, sem reajuste há oito anos. A proposta enviada ao Congresso prevê elevação para R$ 110 mil no próximo ano e para R$ 140 mil em 2028.\n\nO governo argumenta que a atualização permitirá a expansão dos negócios sem que empreendedores precisem limitar atividades para permanecer enquadrados na categoria. Durante o anúncio, também foi mencionada a possibilidade de uma segunda contratação por parte dos MEIs.\n\nDispensa de nota fiscal para pessoa física\n\nA quinta medida é um decreto para dar segurança jurídica à não obrigatoriedade de emissão de nota fiscal em operações com pessoas físicas.\n\nA norma busca esclarecer dúvidas surgidas durante o debate das mudanças tributárias e também alcançará os chamados nanoMEIs, grupo com faturamento de até metade do teto da categoria.\n\nProsperidade\n \n\n\n            \n        \n    \nO presidente Luiz Inácio Lula da Silva anuncia medidas para microempreendedores individuais (MEIs) em cerimônia no Palácio do Planalto. Foto: Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\nAo encerrar o evento, Lula afirmou que as iniciativas resultaram de demandas apresentadas pelos próprios empreendedores e serão formalizadas por meio de projetos de lei e decretos.\n\n“Essas soluções a gente vai encaminhando, vai transformando em projeto de lei, vai transformando em decreto.”\n\nSegundo o presidente, o objetivo é criar condições para que mais brasileiros possam ampliar seus negócios, gerar renda e melhorar de vida.\n\n\n“A palavra prosperidade não é privilégio, é direito de todo mundo prosperar.”</p>",
-      "imagem": "https://imagens.ebc.com.br/aC03VquBJ1YavPIKq9brlCxRDsY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_dsc7902.jpg?itok=T61OA-hl",
-      "slug": "governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis",
-      "pagina_local": "governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
       "resumo": "Uma parte do reboco do teto do chamado “túnel do tempo” da Câmara dos Deputados desabou durante a madrugada desta quarta-feira (14). O túnel forma um corredor que liga o Anexo II da Câmara, onde ficam as comissões perman...",
       "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Uma parte do reboco do teto do chamado “túnel do tempo” da Câmara dos Deputados desabou durante a madrugada desta quarta-feira (14). O túnel forma um corredor que liga o Anexo II da Câmara, onde ficam as comissões permanentes, até o Salão Verde, que é o espaço que dá acesso ao plenário.\n\nNão houve feridos e a passagem para funcionários ou visitantes pelo corredor foi fechada. Equipes de engenharia da Câmara estão no local para reparar o dano. \n\nNão foi detectado qualquer dano à estrutura do prédio, segundo informou a assessoria de imprensa da Câmara dos Deputados.\n\n“A circulação entre o Edifício Principal e o Anexo II deverá ser feita pela área externa. Para facilitar o acesso, o fluxo de pessoas na Chapelaria estará liberado para todos os públicos nesta quarta-feira”, informou a Câmara.\n\nO plenário da Câmara dos Deputados tem sessão deliberativa marcada para as 13h55 para debater projetos de lei e decreto legislativo.</p>",
-      "imagem": "https://imagens.ebc.com.br/X2qA3JMqYsc20ub5_CpOoMZwv10=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/raf00339.jpg?itok=tfWt7rJc",
+      "imagem": "https://imagens.ebc.com.br/y0LOOIWkgv7_8oyfmafXXFpcwA4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/14/sem_titulo-2.jpg?itok=amG2OSmz",
       "slug": "parte-do-teto-de-tunel-da-camara-desabou-nesta-quarta-feira",
       "pagina_local": "parte-do-teto-de-tunel-da-camara-desabou-nesta-quarta-feira.html",
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/parte-do-teto-de-tunel-da-camara-desabou-nesta-quarta-feira",
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Aena assume Galeão e propõe aumentar destinos e frequência de voos",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Defesa Civil alerta para chuvas fortes no estado de São Paulo",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Polícia investiga ligação de policiais com facção criminosa",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 150 milhões nesta quarta",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     },
     {
       "titulo": "Polícia do Rio apreende armas após morte de suboficial do Bope",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 18:27"
+      "coletado_em": "14/10/2026 às 22:10"
     }
   ]
 };
