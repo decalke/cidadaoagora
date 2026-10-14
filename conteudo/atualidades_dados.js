@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "14/10/2026 às 01:44:33",
+  "ultima_atualizacao": "14/10/2026 às 07:23:10",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Dólar sobe 0,74% e volta a fechar acima de R$ 5",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Brasil abriu 700 mercados para agropecuária desde 2023",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Produção de motos no Brasil cresce e tem melhor setembro desde 2011",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "FMI prevê crescimento de 2,2% do PIB do Brasil em 2026",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Governo anuncia perdão de dívidas e pacote de estímulo para MEIs",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Mercado eleva previsão da inflação para 5,22% em 2026",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Medida provisória quer coibir excesso de chamadas e golpes telefônicos",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Norma amplia exigências para atendimento ao consumidor; saiba quais",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Aena assume Galeão e propõe aumentar destinos e frequência de voos",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Defesa Civil alerta para chuvas fortes no estado de São Paulo",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Polícia investiga ligação de policiais com facção criminosa",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 150 milhões nesta quarta",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Polícia do Rio apreende armas após morte de suboficial do Bope",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Arcebispo de Aparecida pede desarmamento e atenção à fome e à pobreza",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Nossa Senhora Aparecida: 95 anos da padroeira do Brasil; entenda",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 150 milhões; confira os números sorteados",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "14/10/2026 às 01:44"
+      "coletado_em": "14/10/2026 às 07:23"
     }
   ]
 };
