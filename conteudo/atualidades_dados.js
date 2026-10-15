@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "15/10/2026 às 18:09:49",
+  "ultima_atualizacao": "15/10/2026 às 22:04:30",
   "total": 20,
   "atualidades": [
     {
@@ -13,12 +13,12 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Fim da escala 6x1 traz esperança de mais tempo para família e saúde",
       "resumo": "Adrielle Barbosa de Aquino tem 27 anos e é mão de duas crianças. Atualmente, ela trabalha como garçonete de segunda a sábado, em um restaurante no centro da cidade do Rio de Janeiro.\n\nDesde que saiu da adolescência e com...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Adrielle Barbosa de Aquino tem 27 anos e é mão de duas crianças. Atualmente, ela trabalha como garçonete de segunda a sábado, em um restaurante no centro da cidade do Rio de Janeiro.\n\nDesde que saiu da adolescência e começou em seu primeiro emprego, há quase dez anos, Adrielle não sabe o que é ter dois dias de folga em uma semana.\n\n\nNotícias relacionadas:Senado aprova fim da escala 6x1 e redução da jornada de trabalho.CUT elogia fim da “massacrante” 6x1; CNI quer revisar PEC aprovada .Fim da 6x1: saiba quando entra em vigor nova jornada de trabalho.“Nessa escala 6x1, eu só tenho o domingo de folga, né? É o dia que eu tenho para resolver minhas coisas. Um dia para resolver mil coisas e a gente fica perdida. Ainda mais quando a gente é mãe. É pesado!”\n\n\nEla acrescenta que, quando precisa resolver outras coisas que não são possíveis em um domingo, como uma simples consulta médica dos filhos, acaba tendo de faltar ao trabalho: “a gente acaba perdendo um dia de trabalho e tem o salário descontado”.\n\n&gt;&gt; Clique aqui e leia mais sobre o fim da escala 6X1 na Agência Brasil\n\nJornada exaustiva\n\nAdrielle é um dos milhões de brasileiros com a exaustiva jornada de seis dias de trabalho por semana.\n\nEla, como muitos, vê na aprovação da Proposta de Emenda à Constituição (PEC) 221/2019, nesta quarta-feira (14) pelo Senado Federal, uma possibilidade de ganhar mais tempo livre: seja para descansar, curtir a família, se divertir, estudar, resolver problemas, ter um acompanhamento melhor de sua saúde ou mesmo para ganhar um dinheiro extra.\n\nUma pesquisa realizada em fevereiro deste ano pela Nexus mostra que 73% dos brasileiros apoiam o fim da escala 6x1. \n\nYasmin Nascimento trabalha como auxiliar administrativo em uma clínica, também na escala 6x1. Na correria de uma manhã de quinta-feira, ela conversou com a Agência Brasil, enquanto um mototáxi já aguardava para levá-la a mais um dia de trabalho. \n\nEnquanto se preparava para subir na garupa da motocicleta, Yasmin disse esperar que as pessoas possam aproveitar melhor o tempo livre com outras atividades\n\n\n“É mais um dia de folga com a sua família, mais um dia que a gente pode usar para trabalhar, estudar. Enfim, a folga é da pessoa, ela sabe o que ela vai fazer na folga dela, mas fiquei muito feliz porque essa PEC foi aprovada.”\n\n\n\n            \n        \n    \nA ajudante de cozinha Cristiane Wandermuren comenta a aprovação do fim da escala de trabalho 6x1, no centro do Rio de Janeiro - Tomaz Silva/Agência Brasil\n\n\nCristiane Wandermuren, de 56 anos, também trabalha desde a adolescência com apenas uma folga por semana. Antes como auxiliar de serviços gerais e atualmente como ajudante de cozinha. \n\n“Se eu tivesse mais um dia, eu iria cuidar da minha saúde, curtir mais os meus netos. Hoje tenho pouco tempo para minha família”, lamenta.\n\n\n“Só temos o domingo. Como eu vou no domingo ao médico? Médico a gente normalmente vai no meio da semana... Aí o patrão já fica de cara feia se você chega mais tarde.”\n\n\n6x1 no passado\n\nSimone Cunha de Oliveira passou 15 anos trabalhando na escala 6x1. Há algum tempo, no entanto, começou a trabalhar em uma escola, onde consegue ter duas folgas na semana.\n\n“A qualidade de vida é bem melhor, você tem dois de descanso, você pode resolver seus problemas. Só um dia para fazer tudo o que você quer ou precisa, não tem condições”, relata.\n\nEla não vê a hora de sua irmã, que trabalha como vendedora de automóveis e ainda não conseguiu se livrar da escala 6x1, também poder folgar duas vezes por semana.\n\n\n“Eu só posso vê-la no domingo. Espero que a mudança na lei melhore principalmente a saúde das pessoas. As pessoas estão ficando doentes de tanto trabalhar. Que elas tenham o descanso que merecem.”\n\n\n\n            \n        \n    \nAposentada Maria Antônia de Carvalho trabalhou a vida inteira com apenas um dia de descanso por semana - Tomaz Silva/Agência Brasil\n\n\nMaria Antônia de Carvalho, de 63 anos, precisou se aposentar para conseguir ter mais do que um dia de descanso semanal.\n\n“Eu trabalhei na 6x1 minha vida inteira. Era horrível não ter tempo para nada. Eu não tinha tempo para nada. Não dava mesmo. Quando você pensava que ia descansar, no outro dia você já estava trabalhando de novo. Agora ficou maravilhoso, porque eu tenho mais tempo para mim, para minha família.”\n\n\n            \n        \n    \nAposentada Luciana Machado comemora o fim da escala de trabalho 6x1 - Tomaz Silva/Agência Brasil\n\n\nCom 65 anos, Luciana Machado também trabalhou seis dias por semana durante quase toda a vida. Apenas recentemente, já aposentada, ela passou a trabalhar na escala 5x2, mas, segundo ela, precisava trabalhar a mais todos os dias, para compensar a folga no sábado.\n\n“Com essa nova escala, tenho receio de que a pessoa tenha que aumentar o horário de trabalho durante a semana, como aconteceu comigo. Também pode ser que o funcionário perca dinheiro trabalhando um dia a menos”, afirma.\n\nQuando passa a valer? \n\nDe acordo com o texto aprovado ontem pelos senadores, Luciana não precisa se preocupar com aumento da carga horária de trabalho, já que as empresas terão que garantir a escala 5x2, assim como a redução da jornada de 44 para 42 horas semanais, 60 dias após a promulgação da emenda constitucional.\n\nDessa forma, caso a PEC seja promulgada ainda em outubro, as regras entrariam em vigor em dezembro de 2026.  \n\nApós essa primeira redução, a jornada terá de cair para 40 horas, 12 meses depois. Assim, a transição completa levará 14 meses.  \n\nA exceção são os trabalhadores terceirizados da administração pública, que terão uma regra de transição diferenciada.  \n\nVeja as regras de transição da PEC que acaba com a escala 6x1: \n\n\n\tescala de 5 dias de trabalho com 2 dias de descanso (após 60 dias); \n\tredução da jornada de 44 horas para 42 horas semanais (após 60 dias) \n\tjornada de 42 horas para 40 horas semanais, mantida a escala 5x2 (em 14 meses).  \n\n\nComo será feito o cálculo das horas de trabalho? \n\nNo intervalo entre o segundo e o 14º mês após a promulgação, o empregador deverá distribuir, ao longo da semana, as duas horas acima das oito normais de serviço. Se repartidas igualmente, o empregado terá que trabalhar 8 horas e 24 minutos nos cinco dias na semana. \n\nFinalizada a fase de transição, todos os empregados devem trabalhar, no máximo, oito horas diárias e 40 horas semanais em 5 dias na semana. Para trabalhar mais horas, apenas mediante pagamento de hora-extra. \n\nA proposta prevê que lei complementar posterior poderá estabelecer medidas transitórias de mitigação dos impactos da redução da jornada para os microempreendedores individuais (MEIs), microempresas e empresas de pequeno porte.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Adrielle Barbosa de Aquino tem 27 anos e é mão de duas crianças. Atualmente, ela trabalha como garçonete de segunda a sábado, em um restaurante no centro da cidade do Rio de Janeiro.\n\nDesde que saiu da adolescência e começou em seu primeiro emprego, há quase dez anos, Adrielle não sabe o que é ter dois dias de folga em uma semana.\n\n\nNotícias relacionadas:Senado aprova fim da escala 6x1 e redução da jornada de trabalho.CUT elogia fim da “massacrante” 6x1; CNI quer revisar PEC aprovada .Fim da 6x1: saiba quando entra em vigor nova jornada de trabalho.“Nessa escala 6x1, eu só tenho o domingo de folga, né? É o dia que eu tenho para resolver minhas coisas. Um dia para resolver mil coisas e a gente fica perdida. Ainda mais quando a gente é mãe. É pesado!”\n\n\nEla acrescenta que, quando precisa resolver outras coisas que não são possíveis em um domingo, como uma simples consulta médica dos filhos, acaba tendo de faltar ao trabalho: “a gente acaba perdendo um dia de trabalho e tem o salário descontado”.\n\n&gt;&gt; Clique aqui e leia mais sobre o fim da escala 6X1 na Agência Brasil\n\nJornada exaustiva\n\nAdrielle é um dos milhões de brasileiros com a exaustiva jornada de seis dias de trabalho por semana.\n\nEla, como muitos, vê na aprovação da Proposta de Emenda à Constituição (PEC) 221/2019, nesta quarta-feira (14) pelo Senado Federal, uma possibilidade de ganhar mais tempo livre: seja para descansar, curtir a família, se divertir, estudar, resolver problemas, ter um acompanhamento melhor de sua saúde ou mesmo para ganhar um dinheiro extra.\n\nUma pesquisa realizada em fevereiro deste ano pela Nexus mostra que 73% dos brasileiros apoiam o fim da escala 6x1. \n\nYasmin Nascimento trabalha como auxiliar administrativo em uma clínica, também na escala 6x1. Na correria de uma manhã de quinta-feira, ela conversou com a Agência Brasil, enquanto um mototáxi já aguardava para levá-la a mais um dia de trabalho. \n\nEnquanto se preparava para subir na garupa da motocicleta, Yasmin disse esperar que as pessoas possam aproveitar melhor o tempo livre com outras atividades\n\n\n“É mais um dia de folga com a sua família, mais um dia que a gente pode usar para trabalhar, estudar. Enfim, a folga é da pessoa, ela sabe o que ela vai fazer na folga dela, mas fiquei muito feliz porque essa PEC foi aprovada.”\n\n\n\n            \n        \n    \nA ajudante de cozinha Cristiane Wandermuren comenta a aprovação do fim da escala de trabalho 6x1, no centro do Rio de Janeiro - Tomaz Silva/Agência Brasil\n\n\nCristiane Wandermuren, de 56 anos, também trabalha desde a adolescência com apenas uma folga por semana. Antes como auxiliar de serviços gerais e atualmente como ajudante de cozinha. \n\n“Se eu tivesse mais um dia, eu iria cuidar da minha saúde, curtir mais os meus netos. Hoje tenho pouco tempo para minha família”, lamenta.\n\n\n“Só temos o domingo. Como eu vou no domingo ao médico? Médico a gente normalmente vai no meio da semana... Aí o patrão já fica de cara feia se você chega mais tarde.”\n\n\n6x1 no passado\n\nSimone Cunha de Oliveira passou 15 anos trabalhando na escala 6x1. Há algum tempo, no entanto, começou a trabalhar em uma escola, onde consegue ter duas folgas na semana.\n\n“A qualidade de vida é bem melhor, você tem dois de descanso, você pode resolver seus problemas. Só um dia para fazer tudo o que você quer ou precisa, não tem condições”, relata.\n\nEla não vê a hora de sua irmã, que trabalha como vendedora de automóveis e ainda não conseguiu se livrar da escala 6x1, também poder folgar duas vezes por semana.\n\n\n“Eu só posso vê-la no domingo. Espero que a mudança na lei melhore principalmente a saúde das pessoas. As pessoas estão ficando doentes de tanto trabalhar. Que elas tenham o descanso que merecem.”\n\n\n\n            \n        \n    \nAposentada Maria Antônia de Carvalho trabalhou a vida inteira com apenas um dia de descanso por semana - Tomaz Silva/Agência Brasil\n\n\nMaria Antônia de Carvalho, de 63 anos, precisou se aposentar para conseguir ter mais do que um dia de descanso semanal.\n\n“Eu trabalhei na 6x1 minha vida inteira. Era horrível não ter tempo para nada. Eu não tinha tempo para nada. Não dava mesmo. Quando você pensava que ia descansar, no outro dia você já estava trabalhando de novo. Agora ficou maravilhoso, porque eu tenho mais tempo para mim, para minha família.”\n\n\n            \n        \n    \nAposentada Luciana Machado comemora o fim da escala de trabalho 6x1 - Tomaz Silva/Agência Brasil\n\n\nCom 65 anos, Luciana Machado também trabalhou seis dias por semana durante quase toda a vida. Apenas recentemente, já aposentada, ela passou a trabalhar na escala 5x2, mas, segundo ela, precisava trabalhar a mais todos os dias, para compensar a folga no sábado.\n\n“Com essa nova escala, tenho receio de que a pessoa tenha que aumentar o horário de trabalho durante a semana, como aconteceu comigo. Também pode ser que o funcionário perca dinheiro trabalhando um dia a menos”, afirma.\n\nQuando passa a valer? \n\nDe acordo com o texto aprovado ontem pelos senadores, Luciana não precisa se preocupar com aumento da carga horária de trabalho, já que as empresas terão que garantir a escala 5x2, assim como a redução da jornada de 44 para 42 horas semanais, 60 dias após a promulgação da emenda constitucional.\n\nDessa forma, caso a PEC seja promulgada ainda em outubro, as regras entrariam em vigor em dezembro de 2026.  \n\nApós essa primeira redução, a jornada terá de cair para 40 horas, 12 meses depois. Assim, a transição completa levará 14 meses.  \n\nA exceção são os trabalhadores terceirizados da administração pública, que terão uma regra de transição diferenciada.  \n\nVeja as regras de transição da PEC que acaba com a escala 6x1: \n\n\n\tescala de 5 dias de trabalho com 2 dias de descanso (após 60 dias); \n\tredução da jornada de 44 horas para 42 horas semanais (após 60 dias) \n\tjornada de 42 horas para 40 horas semanais, mantida a escala 5x2 (em 14 meses).  \n\n\nComo será feito o cálculo das horas de trabalho? \n\nNo intervalo entre o segundo e o 14º mês após a promulgação, o empregador deverá distribuir, ao longo da semana, as duas horas acima das oito normais de serviço. Se repartidas igualmente, o empregado terá que trabalhar 8 horas e 24 minutos nos cinco dias na semana. \n\nFinalizada a fase de transição, todos os empregados devem trabalhar, no máximo, oito horas diárias e 40 horas semanais em 5 dias na semana. Para trabalhar mais horas, apenas mediante pagamento de hora-extra. \n\nA proposta prevê que lei complementar posterior poderá estabelecer medidas transitórias de mitigação dos impactos da redução da jornada para os microempreendedores individuais (MEIs), microempresas e empresas de pequeno porte.  \n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil</p>",
       "imagem": "https://imagens.ebc.com.br/m2cvrG3gg9ADgcOpKKrAlUY0C4E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/toms5024.jpg?itok=z6w499Jg",
       "slug": "fim-da-escala-6x1-traz-esperanca-de-mais-tempo-para-familia-e-saude",
       "pagina_local": "fim-da-escala-6x1-traz-esperanca-de-mais-tempo-para-familia-e-saude.html",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Produção brasileira de grãos deve aumentar apesar do El Niño",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Lote complementar do abono salarial começa a ser pago nesta quinta",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "IBGE estima safra de grãos recorde em 2026: 354,5 milhões de toneladas",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Vendas no comércio varejista têm variação de 0,1% em agosto",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Prazo para empresas optarem por Simples acaba nesta quinta",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Confiança da indústria sobe em outubro, mas setor segue pessimista",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Governo federal regulamenta Marco Legal dos Jogos Eletrônicos",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -143,12 +143,12 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
       "resumo": "O Ministério Público de São Paulo (MPSP), por meio do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), e a Polícia Federal (PF) fazem, na manhã desta quinta-feira (15), em São Paulo e no Paraná, a Operaç...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério Público de São Paulo (MPSP), por meio do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), e a Polícia Federal (PF) fazem, na manhã desta quinta-feira (15), em São Paulo e no Paraná, a Operação YellowCode. O objetivo é combater  organização criminosa suspeita de tráfico de drogas interestadual e de lavagem de dinheiro.\n\nSegundo a investigação, os criminosos traficavam drogas dentro de eletrodomésticos. Moradores de São Paulo recebiam encomendas compradas pela internet que traziam entorpecentes em seu interior. Os envios eram feitos sempre pela mesma vendedora e eram postados a partir de Foz do Iguaçu, no Paraná. Foram identificadas 120 remessas suspeitas.\n\nNotícias relacionadas:PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Ministério Público faz operação em SP contra PCC e tribunais do crimes.De acordo com as informações divulgadas pelo MP, os criminosos também praticavam lavagem de dinheiro para disfarçar as quantias que vinham da venda de drogas. Relatórios financeiros revelaram que os envolvidos movimentaram valores bem acima de suas rendas declaradas.\n\nA investigação que levou à ação de hoje começou em setembro de 2025.\n\nAo todo, são cumpridos 14 mandados de prisão temporária e 15 de busca e apreensão na cidade de São Paulo, em São Caetano do Sul e Praia Grande. Também em Foz do Iguaçu e Pinhais, ambas no estado do Paraná.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério Público de São Paulo (MPSP), por meio do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), e a Polícia Federal (PF) fazem, na manhã desta quinta-feira (15), em São Paulo e no Paraná, a Operação YellowCode. O objetivo é combater  organização criminosa suspeita de tráfico de drogas interestadual e de lavagem de dinheiro.\n\nSegundo a investigação, os criminosos traficavam drogas dentro de eletrodomésticos. Moradores de São Paulo recebiam encomendas compradas pela internet que traziam entorpecentes em seu interior. Os envios eram feitos sempre pela mesma vendedora e eram postados a partir de Foz do Iguaçu, no Paraná. Foram identificadas 120 remessas suspeitas.\n\nNotícias relacionadas:PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Ministério Público faz operação em SP contra PCC e tribunais do crimes.De acordo com as informações divulgadas pelo MP, os criminosos também praticavam lavagem de dinheiro para disfarçar as quantias que vinham da venda de drogas. Relatórios financeiros revelaram que os envolvidos movimentaram valores bem acima de suas rendas declaradas.\n\nA investigação que levou à ação de hoje começou em setembro de 2025.\n\nAo todo, são cumpridos 14 mandados de prisão temporária e 15 de busca e apreensão na cidade de São Paulo, em São Caetano do Sul e Praia Grande. Também em Foz do Iguaçu e Pinhais, ambas no estado do Paraná.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil</p>",
       "imagem": "https://imagens.ebc.com.br/HUabSv0_bq_Z1dD0um3bL_bSkF0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/21/gaeco-sp_copy.jpg?itok=RYqlLkFr",
       "slug": "policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
       "pagina_local": "policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas.html",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     },
     {
       "titulo": "Aena assume Galeão e propõe aumentar destinos e frequência de voos",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 18:09"
+      "coletado_em": "15/10/2026 às 22:04"
     }
   ]
 };
