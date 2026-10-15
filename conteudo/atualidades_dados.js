@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "15/10/2026 às 01:20:58",
+  "ultima_atualizacao": "15/10/2026 às 07:14:12",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Confiança da indústria sobe em outubro, mas setor segue pessimista",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Governo federal regulamenta Marco Legal dos Jogos Eletrônicos",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Durigan defende Receita como plataforma de inteligência do Estado",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Setor de serviços cai 0,1% de julho para agosto, mostra IBGE",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Prazo pra bancos devolverem R$ 1,3 bilhão de bets acaba nesta quarta",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Perdão de dívidas de MEIs terá impacto fiscal, mas redução de custos",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Dólar sobe 0,74% e volta a fechar acima de R$ 5",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Brasil abriu 700 mercados para agropecuária desde 2023",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Aena assume Galeão e propõe aumentar destinos e frequência de voos",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Defesa Civil alerta para chuvas fortes no estado de São Paulo",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Polícia investiga ligação de policiais com facção criminosa",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 150 milhões nesta quarta",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "15/10/2026 às 01:20"
+      "coletado_em": "15/10/2026 às 07:14"
     }
   ]
 };
