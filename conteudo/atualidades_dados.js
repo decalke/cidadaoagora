@@ -1,11 +1,24 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "16/10/2026 às 17:17:00",
+  "ultima_atualizacao": "16/10/2026 às 20:49:39",
   "total": 20,
   "atualidades": [
     {
+      "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
+      "resumo": "A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois di...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso semanal, ocorre após mais de um século de reivindicações por limites à jornada de trabalho e por condições que assegurem aos trabalhadores tempo para atividades além do emprego.\n\nCom base em informações históricas do Ministério do Trabalho e Emprego (MTE) e do Tribunal Superior do Trabalho (TST), a Agência Brasil fez um levantamento dos principais marcos da evolução da jornada de trabalho no país.\n\nHerança escravista\n\nNotícias relacionadas:Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.Saiba quando começa a valer o fim da escala 6x1.Congresso promulga emenda de aposentadoria especial de agente de saúde.Antes das primeiras leis trabalhistas, a economia brasileira foi sustentada por séculos pelo trabalho escravizado. Segundo o TST, a história do trabalho livre e assalariado é relativamente recente no país.\n\nDurante 400 anos, a economia brasileira se apoiou no trabalho realizado por pessoas escravizadas. Já o período de trabalho livre e remunerado tem pouco mais de um século.\n\nEssa herança ajuda a explicar por que a construção dos direitos trabalhistas ocorreu de forma gradual.\n\nPrimeiros passos\n\nNo início do século 20, trabalhadores passaram a se organizar para reivindicar direitos e limites para a jornada de trabalho. Naquele período, a ausência de regras gerais permitia jornadas extensas em diversos setores da economia.\n\nSegundo o histórico do MTE, em 1912, a Confederação Brasileira do Trabalho (CBT), criada durante o 4º Congresso Operário Brasileiro, defendia uma pauta que incluía a jornada de oito horas diárias e a semana de seis dias de trabalho.\n\nTambém estavam entre as reivindicações a indenização por acidentes de trabalho, o salário mínimo, o seguro obrigatório para doenças e a pensão para velhice.\n\nMinistério, Justiça e CLT\n\nPoucos anos depois, em 1918, o governo federal criou o Departamento Nacional do Trabalho, uma das primeiras estruturas estatais voltadas à regulamentação das relações trabalhistas.\n\nA institucionalização da proteção ao trabalho avançou em 1923, com a criação do Conselho Nacional do Trabalho. O órgão é apontado pelo TST como um dos marcos iniciais da estrutura que daria origem à Justiça do Trabalho brasileira.\n\nNa década de 1930, com a criação do Ministério do Trabalho pelo governo de Getúlio Vargas, o direito do trabalho passou por um processo de ampliação, organização e regulamentação.\n\nSegundo o TST, esse movimento culminou na instalação da Justiça do Trabalho, em 1941, e na consolidação da legislação trabalhista nos anos seguintes.\n\nUm dos principais marcos desse processo foi a criação da Consolidação das Leis do Trabalho (CLT), em 1943, que reuniu e organizou a legislação trabalhista existente.\n\nDa Constituição Federal ao fim da escala 6x1\n \n\n\n            \n        \n    \nProtesto contra escala 6 por 1 em São Paulo. Foto: Paulo Pinto/Arquivo Agência Brasil\n\n\nDurante grande parte do século 20, a jornada semanal máxima prevista na legislação brasileira era de 48 horas.\n\nA Constituição Federal de 1988 promoveu uma das mudanças mais importantes nesse modelo ao reduzir o limite para 44 horas semanais, mantendo o teto de oito horas por dia.\n\nA promulgação do fim da escala 6x1 representa agora mais uma alteração relevante nessa trajetória.\n\nAo assegurar dois dias de descanso por semana, a nova regra modifica uma forma de organização do trabalho que permaneceu por décadas em atividades como comércio e serviços.\n\nA medida amplia o período de descanso dos trabalhadores e se soma a uma série de mudanças que, ao longo da história brasileira, buscaram limitar o tempo dedicado ao trabalho e ampliar direitos dos brasileiros.\n\nLinha do tempo\n\nAté 1888 – A economia brasileira se apoia majoritariamente no trabalho escravizado, sem direitos trabalhistas\n\n1912 – A Confederação Brasileira do Trabalho passa a defender a jornada de oito horas diárias e a semana de seis dias de trabalho\n\n1918 – Criação do Departamento Nacional do Trabalho\n\n1923 – Criação do Conselho Nacional do Trabalho\n\n1930 – Criação do Ministério do Trabalho, Indústria e Comércio\n\n1941 – Instalação da Justiça do Trabalho\n\n1943 – Criação da Consolidação das Leis do Trabalho (CLT)\n\n1988 – A Constituição Federal reduz de 48 para 44 horas o limite semanal de trabalho\n\n2026 – Congresso Nacional promulga a emenda constitucional que extingue a escala 6x1 e garante dois dias de descanso semanal a todos os trabalhadores</p>",
+      "imagem": "https://imagens.ebc.com.br/t1ySLVY5umJos-K8woWvdQ_YAjs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/rabalhadores_em_uma_oficina.jpg?itok=TojJ_167",
+      "slug": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil",
+      "pagina_local": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "16/10/2026 às 20:49"
+    },
+    {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
       "resumo": "O Brasil deve voltar ao posto de oitava maior economia do mundo em 2027, deixando para trás Rússia e Itália. \n\nA projeção faz parte do documento Perspectivas da Economia Mundial, divulgado nesta semana pelo Fundo Monetár...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Brasil deve voltar ao posto de oitava maior economia do mundo em 2027, deixando para trás Rússia e Itália. \n\nA projeção faz parte do documento Perspectivas da Economia Mundial, divulgado nesta semana pelo Fundo Monetário Internacional (FMI).\n\nNotícias relacionadas:FMI prevê crescimento de 2,2% do PIB do Brasil em 2026.De acordo com o estudo, o Produto Interno Bruto (PIB, conjunto de todos os bens e serviços produzidos no país) brasileiro alcançará US$ 2,80 trilhões (R$ 14,65 trilhões) no ano que vem.\n\nEm 2026, o país termina na décima posição do ranking, com PIB de US$ 2,655 trilhões.\n\nPara 2027, a lista mantém os Estados Unidos como maior potência econômica, seguida pela China.\n\nConfira o Top 10 das economias mundiais, segundo a projeção do FMI, instituição multilateral vinculada às Nações Unidas.\n\n\n\tEstados Unidos: US$ 34,44 trilhões\n\tChina: US$ 22,94 trilhões\n\tAlemanha: US$ 5,66 trilhões\n\tÍndia: US$ 4,52 trilhões\n\tReino Unido: US$ 4,49 trilhões\n\tJapão: US$ 4,47 trilhões\n\tFrança: US$ 3,65 trilhões\n\tBrasil: US$ 2,80 trilhões\n\tItália: US$ 2,77 trilhões\n\tRússia: US$ 2,68 trilhões\n\n\nA última vez em que o Brasil ficou no oitavo lugar foi em 2017. De acordo com a estimativa do FMI, o país segue na oitava posição até 2031, último ano projetado.\n\nA melhor posição já ocupada pelo Brasil no ranking global de PIB foi a sétima posição, alcançada em 1995 e de 2010 a 2014.\n\nÍndia decola\n\nUm dos destaques da previsão do FMI é a Índia, que salta do sexto para o quarto lugar e ultrapassa Reino Unido e Japão. Em 2031, a Índia deve tomar o terceiro lugar, da Alemanha.\n\nEstados Unidos e China devem ocupar os dois primeiros lugares do ranking, nesta ordem, até 2031.\n\nO que é o PIB\n\nO PIB é o conjunto de todos os bens e serviços produzidos em uma localidade em determinado período. Com o dado, é possível traçar o comportamento da economia do país, estado ou cidade, assim como fazer comparações internacionais.   \n\nO PIB é calculado com o auxílio de diversas pesquisas setoriais, como comércio, serviços e indústria. \n\nDurante o cálculo, há cuidados para não haver dupla contagem. Um exemplo: se um país produz R$ 100 de trigo, R$ 200 de farinha de trigo e R$ 300 de pão, o PIB será de R$ 300, pois os valores da farinha e do trigo já estão embutidos no valor do pão.   \n\nOs bens e serviços finais que compõem o PIB são medidos no preço em que chegam ao consumidor. Dessa forma, levam em consideração também os impostos cobrados.  \n\nO PIB ajuda a compreender a realidade de um país, mas não expressa fatores como distribuição de renda e condição de vida. É possível, por exemplo, um país ter PIB alto e padrão de vida relativamente baixo, assim como pode haver nação com PIB baixo e altíssima qualidade de vida.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Brasil deve voltar ao posto de oitava maior economia do mundo em 2027, deixando para trás Rússia e Itália. \n\nA projeção faz parte do documento Perspectivas da Economia Mundial, divulgado nesta semana pelo Fundo Monetário Internacional (FMI).\n\nNotícias relacionadas:FMI prevê crescimento de 2,2% do PIB do Brasil em 2026.De acordo com o estudo, o Produto Interno Bruto (PIB, conjunto de todos os bens e serviços produzidos no país) brasileiro alcançará US$ 2,80 trilhões (R$ 14,65 trilhões) no ano que vem.\n\nEm 2026, o país termina na décima posição do ranking, com PIB de US$ 2,655 trilhões.\n\nPara 2027, a lista mantém os Estados Unidos como maior potência econômica, seguida pela China.\n\nConfira o Top 10 das economias mundiais, segundo a projeção do FMI, instituição multilateral vinculada às Nações Unidas.\n\n\n\tEstados Unidos: US$ 34,44 trilhões\n\tChina: US$ 22,94 trilhões\n\tAlemanha: US$ 5,66 trilhões\n\tÍndia: US$ 4,52 trilhões\n\tReino Unido: US$ 4,49 trilhões\n\tJapão: US$ 4,47 trilhões\n\tFrança: US$ 3,65 trilhões\n\tBrasil: US$ 2,80 trilhões\n\tItália: US$ 2,77 trilhões\n\tRússia: US$ 2,68 trilhões\n\n\nA última vez em que o Brasil ficou no oitavo lugar foi em 2017. De acordo com a estimativa do FMI, o país segue na oitava posição até 2031, último ano projetado.\n\nA melhor posição já ocupada pelo Brasil no ranking global de PIB foi a sétima posição, alcançada em 1995 e de 2010 a 2014.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil\n\n\n\nÍndia decola\n\nUm dos destaques da previsão do FMI é a Índia, que salta do sexto para o quarto lugar e ultrapassa Reino Unido e Japão. Em 2031, a Índia deve tomar o terceiro lugar, da Alemanha.\n\nEstados Unidos e China devem ocupar os dois primeiros lugares do ranking, nesta ordem, até 2031.\n\nO que é o PIB\n\nO PIB é o conjunto de todos os bens e serviços produzidos em uma localidade em determinado período. Com o dado, é possível traçar o comportamento da economia do país, estado ou cidade, assim como fazer comparações internacionais.   \n\nO PIB é calculado com o auxílio de diversas pesquisas setoriais, como comércio, serviços e indústria. \n\nDurante o cálculo, há cuidados para não haver dupla contagem. Um exemplo: se um país produz R$ 100 de trigo, R$ 200 de farinha de trigo e R$ 300 de pão, o PIB será de R$ 300, pois os valores da farinha e do trigo já estão embutidos no valor do pão.   \n\nOs bens e serviços finais que compõem o PIB são medidos no preço em que chegam ao consumidor. Dessa forma, levam em consideração também os impostos cobrados.  \n\nO PIB ajuda a compreender a realidade de um país, mas não expressa fatores como distribuição de renda e condição de vida. É possível, por exemplo, um país ter PIB alto e padrão de vida relativamente baixo, assim como pode haver nação com PIB baixo e altíssima qualidade de vida.</p>",
       "imagem": "https://imagens.ebc.com.br/PIFJu9G0mLbpq7rr_pFNJMnHHRg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2020-12-04t162610z_113705395_rc2ggk9mzfi9_rtrmadp_3_brazil-soybeans-imports_1.jpg?itok=U7p1YGGX",
       "slug": "brasil-deve-voltar-a-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi",
       "pagina_local": "brasil-deve-voltar-a-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi.html",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "União quitou R$ 244 milhões para estados e municípios em setembro",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Fim da escala 6x1 traz esperança de mais tempo para família e saúde",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Produção brasileira de grãos deve aumentar apesar do El Niño",
@@ -117,33 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
-    },
-    {
-      "titulo": "Lote complementar do abono salarial começa a ser pago nesta quinta",
-      "resumo": "O Ministério do Trabalho e Emprego (MTE) começa a pagar, nesta quinta-feira (15), o lote complementar do Abono Salarial.\n\nAo todo, serão contemplados 1.030.899 trabalhadores com direito ao benefício e os valores deposita...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério do Trabalho e Emprego (MTE) começa a pagar, nesta quinta-feira (15), o lote complementar do Abono Salarial.\n\nAo todo, serão contemplados 1.030.899 trabalhadores com direito ao benefício e os valores depositados somam R$ 804,24 milhões.\n\nNotícias relacionadas:Senado aprova fim da escala 6x1 e redução da jornada de trabalho.Exploração de trabalhadores rurais sustenta fruticultura bilionária.Fim da 6x1: saiba quando entra em vigor nova jornada de trabalho.O valor corresponde ao salário mínimo, hoje R$ 1.621, dividido por 12 e multiplicado pela quantidade de meses trabalhados no ano-base 2024. \n\nNo calendário de pagamentos atual, o benefício varia de R$ 136 a R$ 1.621.\n\nOs valores ficarão disponíveis aos trabalhadores até 30 de dezembro de 2026.\n\nQuem tem direito\n\nTêm direito ao Abono Salarial do ano-base 2024 os trabalhadores que atendem aos seguintes critérios:\n\n\n\testar cadastrado no Programa de Integração Social (PIS) ou no Programa de Formação do Patrimônio do Servidor Público (Pasep) há pelo menos cinco anos, contados da data do primeiro vínculo;\n\tter exercido atividade remunerada por no mínimo 30 dias, consecutivos ou não;\n\tter recebido remuneração mensal média de até R$ 2.766, no período;\n\tter os dados referentes ao ano-base 2024 informados corretamente pelo empregador no sistema eSocial;\n\tos empregadores serem contribuintes do PIS/Pasep.\n\n\nOnde consultar\n\nOs beneficiários podem consultar as informações do abono salarial relativas ao calendário de pagamento, exercício 2026, no aplicativo da Carteira de Trabalho Digital, que pode ser baixado em smartphones e tablets, com acesso pela senha da plataforma Gov.br.\n\nTambém é possível se informar no Portal Emprega Brasil – Trabalhador.\n\nNas duas plataformas, é possível verificar informações como o valor do benefício, banco responsável pelo pagamento e a data específica do depósito.\n\nOs trabalhadores ainda podem buscar atendimento pela Central de Atendimento Alô Trabalho telefone 158, com ligação gratuita das 7h às 22h, de segunda-feira a sábado, exceto nos feriados nacionais, e nas unidades das Superintendências Regionais do Trabalho.\n\nLote complementar\n\nO lote complementar é resultado do reprocessamento das informações do Abono Salarial do ano-base 2024 e dos dados transmitidos ou retificados pelos empregadores após o processamento no prazo original.\n\nAs medidas adotadas permitiram o reconhecimento do direito ao benefício para trabalhadores que não haviam sido identificados nos processamentos anteriores e também a revisão do valor devido aos trabalhadores já habilitados.\n\nPIS/Pasep\n\nO Abono Salarial do lote complementar beneficia 704.398 trabalhadores de empresas privadas (PIS), com pagamentos realizados pela Caixa Econômica Federal, e 326.501 servidores públicos (Pasep), cujos valores serão pagos pelo Banco do Brasil.\n\nEste ano, o calendário de pagamento do Abono Salarial referente ao ano-base 2024 teve início em 16 de fevereiro. \n\nO calendário completo de pagamento pode ser consultado aqui.\n\nDúvidas\n\nEm caso de dúvidas, o trabalhador pode procurar os canais de atendimento do Ministério do Trabalho e Emprego, nas unidades das superintendências regionais do Trabalho ou a central Alô Trabalho, pelo telefone 158.</p>",
-      "imagem": "https://imagens.ebc.com.br/aoSMOx3EHkOqbtSkX7HoOvH3bXY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/01_carteira_de_trabalho2.jpg?itok=-GgQtJ-q",
-      "slug": "lote-complementar-do-abono-salarial-comeca-a-ser-pago-nesta-quinta",
-      "pagina_local": "lote-complementar-do-abono-salarial-comeca-a-ser-pago-nesta-quinta.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/lote-complementar-do-abono-salarial-comeca-a-ser-pago-nesta-quinta",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
-    },
-    {
-      "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
-      "resumo": "A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois di...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso semanal, ocorre após mais de um século de reivindicações por limites à jornada de trabalho e por condições que assegurem aos trabalhadores tempo para atividades além do emprego.\n\nCom base em informações históricas do Ministério do Trabalho e Emprego (MTE) e do Tribunal Superior do Trabalho (TST), a Agência Brasil fez um levantamento dos principais marcos da evolução da jornada de trabalho no país.\n\nHerança escravista\n\nNotícias relacionadas:Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.Saiba quando começa a valer o fim da escala 6x1.Congresso promulga emenda de aposentadoria especial de agente de saúde.Antes das primeiras leis trabalhistas, a economia brasileira foi sustentada por séculos pelo trabalho escravizado. Segundo o TST, a história do trabalho livre e assalariado é relativamente recente no país.\n\nDurante 400 anos, a economia brasileira se apoiou no trabalho realizado por pessoas escravizadas. Já o período de trabalho livre e remunerado tem pouco mais de um século.\n\nEssa herança ajuda a explicar por que a construção dos direitos trabalhistas ocorreu de forma gradual.\n\nPrimeiros passos\n\nNo início do século 20, trabalhadores passaram a se organizar para reivindicar direitos e limites para a jornada de trabalho. Naquele período, a ausência de regras gerais permitia jornadas extensas em diversos setores da economia.\n\nSegundo o histórico do MTE, em 1912, a Confederação Brasileira do Trabalho (CBT), criada durante o 4º Congresso Operário Brasileiro, defendia uma pauta que incluía a jornada de oito horas diárias e a semana de seis dias de trabalho.\n\nTambém estavam entre as reivindicações a indenização por acidentes de trabalho, o salário mínimo, o seguro obrigatório para doenças e a pensão para velhice.\n\nMinistério, Justiça e CLT\n\nPoucos anos depois, em 1918, o governo federal criou o Departamento Nacional do Trabalho, uma das primeiras estruturas estatais voltadas à regulamentação das relações trabalhistas.\n\nA institucionalização da proteção ao trabalho avançou em 1923, com a criação do Conselho Nacional do Trabalho. O órgão é apontado pelo TST como um dos marcos iniciais da estrutura que daria origem à Justiça do Trabalho brasileira.\n\nNa década de 1930, com a criação do Ministério do Trabalho pelo governo de Getúlio Vargas, o direito do trabalho passou por um processo de ampliação, organização e regulamentação.\n\nSegundo o TST, esse movimento culminou na instalação da Justiça do Trabalho, em 1941, e na consolidação da legislação trabalhista nos anos seguintes.\n\nUm dos principais marcos desse processo foi a criação da Consolidação das Leis do Trabalho (CLT), em 1943, que reuniu e organizou a legislação trabalhista existente.\n\nDa Constituição Federal ao fim da escala 6x1\n \n\n\n            \n        \n    \nProtesto contra escala 6 por 1 em São Paulo. Foto: Paulo Pinto/Arquivo Agência Brasil\n\n\nDurante grande parte do século 20, a jornada semanal máxima prevista na legislação brasileira era de 48 horas.\n\nA Constituição Federal de 1988 promoveu uma das mudanças mais importantes nesse modelo ao reduzir o limite para 44 horas semanais, mantendo o teto de oito horas por dia.\n\nA promulgação do fim da escala 6x1 representa agora mais uma alteração relevante nessa trajetória.\n\nAo assegurar dois dias de descanso por semana, a nova regra modifica uma forma de organização do trabalho que permaneceu por décadas em atividades como comércio e serviços.\n\nA medida amplia o período de descanso dos trabalhadores e se soma a uma série de mudanças que, ao longo da história brasileira, buscaram limitar o tempo dedicado ao trabalho e ampliar direitos dos brasileiros.\n\nLinha do tempo\n\nAté 1888 – A economia brasileira se apoia majoritariamente no trabalho escravizado, sem direitos trabalhistas\n\n1912 – A Confederação Brasileira do Trabalho passa a defender a jornada de oito horas diárias e a semana de seis dias de trabalho\n\n1918 – Criação do Departamento Nacional do Trabalho\n\n1923 – Criação do Conselho Nacional do Trabalho\n\n1930 – Criação do Ministério do Trabalho, Indústria e Comércio\n\n1941 – Instalação da Justiça do Trabalho\n\n1943 – Criação da Consolidação das Leis do Trabalho (CLT)\n\n1988 – A Constituição Federal reduz de 48 para 44 horas o limite semanal de trabalho\n\n2026 – Congresso Nacional promulga a emenda constitucional que extingue a escala 6x1 e garante dois dias de descanso semanal a todos os trabalhadores</p>",
-      "imagem": "https://imagens.ebc.com.br/xXW5VP3-sXYH0H9fFNh5jiWYApo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/05/01/toms8668.jpg?itok=8lzOrEq1",
-      "slug": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil",
-      "pagina_local": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -156,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -169,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -182,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:16"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -195,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -208,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -221,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -234,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -247,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -260,7 +247,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 17:17"
+      "coletado_em": "16/10/2026 às 20:49"
+    },
+    {
+      "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
+      "resumo": "As estradas brasileiras registraram 68 mortes no feriado prolongado de Nossa Senhora de Aparecida, entre sexta (9) e segunda-feira (12). O balanço foi divulgado nesta terça (13) pela Polícia Rodoviária Federal e informa ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As estradas brasileiras registraram 68 mortes no feriado prolongado de Nossa Senhora de Aparecida, entre sexta (9) e segunda-feira (12). O balanço foi divulgado nesta terça (13) pela Polícia Rodoviária Federal e informa que 969 pessoas se feriram em 926 ocorrências.\n\nDurante o feriadão, os policiais prenderam 356 pessoas e apreenderam 2,2 toneladas de maconha e 34 kg de cocaína. Ao todo, foram fiscalizadas 124.899 pessoas e veículos. Os dados são considerados preliminares e podem ser revisados.\n\nNotícias relacionadas:Arcebispo de Aparecida pede desarmamento e atenção à fome e à pobreza.Patrimônio cultural, Círio de Nazaré reúne fiéis e turistas em Belém.PRF inicia Operação Nossa Senhora Aparecida 2026 nesta sexta.A PRF realizou uma operação especial com reforço na fiscalização nas rodovias de São Paulo e do Pará, para auxiliar os fiéis que se deslocaram em direção ao Santuário de Nossa Senhora Aparecida, em Aparecida (SP), e ao Círio de Nazaré, em Belém (PA).\n\nO balanço mostra que, durante os quatro dias de operação, não foram registrados sinistros graves envolvendo os romeiros, que circulavam especialmente na BR-116, em São Paulo, e na BR-316, no Pará.\n\nA fiscalização flagrou 22.077 veículos transitando em velocidade superior ao limite estabelecido. Além disso, 3.981 autuações foram registradas por ultrapassagens irregulares e outras 400 por falta do dispositivo de retenção para crianças, as cadeirinhas.\n\n\"Durante a operação, 747 motoristas foram autuados por embriaguez ao volante, por recusa ao teste do etilômetro ou constatação de que estavam embriagados\", informou a PRF.\n\nUm desses motoristas embriagados atropelou três romeiros na BR-116, em Taubaté (SP), no último domingo (11).\n\nO etilômetro indicou concentração de 0,66 miligrama de álcool por litro de ar alveolar, o que equivale ao dobro do limite que configura crime. O homem foi preso, e nenhum dos romeiros se feriu gravemente, segundo a PRF.</p>",
+      "imagem": "https://imagens.ebc.com.br/x3C0vPOocQPWdHkERamGPBAqNuA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/01/05/c7494e27-8081-498c-9d4f-ace1e923ee83.jpeg?itok=Cygb6HxS",
+      "slug": "feriadao-de-nossa-senhora-aparecida-teve-68-mortes-nas-estradas",
+      "pagina_local": "feriadao-de-nossa-senhora-aparecida-teve-68-mortes-nas-estradas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/feriadao-de-nossa-senhora-aparecida-teve-68-mortes-nas-estradas",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "16/10/2026 às 20:49"
     }
   ]
 };
