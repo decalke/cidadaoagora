@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "16/10/2026 às 01:06:34",
+  "ultima_atualizacao": "16/10/2026 às 06:57:13",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "União quitou R$ 244 milhões para estados e municípios em setembro",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Fim da escala 6x1 traz esperança de mais tempo para família e saúde",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Produção brasileira de grãos deve aumentar apesar do El Niño",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Lote complementar do abono salarial começa a ser pago nesta quinta",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "IBGE estima safra de grãos recorde em 2026: 354,5 milhões de toneladas",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Vendas no comércio varejista têm variação de 0,1% em agosto",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Prazo para empresas optarem por Simples acaba nesta quinta",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Feriadão de Nossa Senhora Aparecida teve 68 mortes nas estradas",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Prefeitura de SP começa a fiscalizar bicicletas e patinetes elétricos",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     }
   ]
 };

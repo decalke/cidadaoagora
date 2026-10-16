@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "16/10/2026 às 01:06:30",
+  "ultima_atualizacao": "16/10/2026 às 06:57:11",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Lula defende redução da maioridade penal para crimes hediondos",
+      "resumo": "Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hedi...",
+      "conteudo_completo": "Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hediondos.\n\nLula disse ser favorável à discussão sobre o assunto no Congresso Nacional após a aprovação da Proposta de Emenda à Constituição (PEC) da Segurança Pública.\n\n\n“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.\n\n\nO texto da PEC, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após aprovação na Comissão de Constituição e Justiça (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos. Não há, no entanto, previsão para que isso ocorra. A oposição tenta incluir uma emenda reduzindo para 14 anos a maioridade penal para crimes hediondos.\n\nSegurança pública\n\nLula defendeu a aprovação da PEC para garantir a participação da União na segurança dos estados. Segundo o candidato à reeleição, os estados “não tiveram competência” para entregar segurança ao cidadão.\n\nEle afirmou que, após a aprovação da PEC, poderá criar o Ministério da Segurança Pública, definir o papel das polícias e evitar a ação dos bandidos de dentro da cadeia.\n\n“Precisamos asfixiar o crime organizado para libertar os territórios dos bandidos em todo o país”.\n\nEconomia\n\nPerguntado sobre a dívida pública, dívida contraída pelo Tesouro Nacional para financiar o déficit orçamentário do Governo Federal, Lula defendeu o crescimento do país através do investimento na renda dos mais pobres.\n\n\n“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.\n\n\nLula afirmou ainda que neste último governo o Brasil passou de 12ª economia do mundo para a décima, investindo em políticas para população mais humilde.\n\n“Toda vez que alguém quer resolver o problema fiscal, o povo pobre paga. E eu não quero que o povo pobre pague. A forma de fazer crescer a economia não é cortar do pobre”.\n\nEle ainda defendeu o reajuste em 15% no Bolsa Família. Segundo ele, o reajuste não foi feito antes porque ele não sabia do problema.\n\n“Eu fiquei sabendo que não tinha sido aumentado. E tomei a decisão de aumentar o valor para as pessoas porque tinha espaço fiscal”.\n\nO candidato do PT também lembrou da aprovação do fim da jornada 6x1 de trabalho, ocorrida ontem (14) no Senado, em uma pauta defendida pelo seu governo.\n\nMencionou a medida do governo anunciada esta semana para perdoar dívidas dos microempreendedores individuais (MEIs), entre outras providências, e prometeu tarifa zero no transporte público nos fins de semana.\n\nEUA e Tarifaço\n\nQuestionado sobre as perdas econômicas com o tarifaço aplicado pelo governo dos Estados Unidos, Lula afirmou que o Brasil tem se saído bem na procura por outros mercados para compensar a redução no comércio com o país norte americano.\n\n“O que me deixa tranquilo é que embora tenhamos tido queda de 9% na relação com os Estados Unidos, crescemos 20% com a China, 15% com a indonésia, 16% com a Alemanha. E batemos recordes de superávit comercial”, disse Lula.\n\nEle afirmou ainda que prefere negociar uma solução com o governo de Donald Trump, mas aplicar o princípio da reciprocidade não está descartado.\n\n“Quem deve estar preocupado conosco são os Estados Unidos. Eu não quero aplicar a Lei da Reciprocidade, mas se tiver que fazer nós vamos. Eles têm mais a perder que a gente”.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hediondos.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705525&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705525&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Lula disse ser favorável à discussão sobre o assunto no Congresso Nacional após a aprovação da Proposta de Emenda à Constituição (PEC) da Segurança Pública.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.</p>\n</blockquote>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto da PEC, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após aprovação na Comissão de Constituição e Justiça (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos. Não há, no entanto, previsão para que isso ocorra. A oposição tenta incluir uma emenda reduzindo para 14 anos a maioridade penal para crimes hediondos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segurança pública</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula defendeu a aprovação da PEC para garantir a participação da União na segurança dos estados. Segundo o candidato à reeleição, os estados “não tiveram competência” para entregar segurança ao cidadão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele afirmou que, após a aprovação da PEC, poderá criar o Ministério da Segurança Pública, definir o papel das polícias e evitar a ação dos bandidos de dentro da cadeia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“Precisamos asfixiar o crime organizado para libertar os territórios dos bandidos em todo o país”.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Economia</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Perguntado sobre a dívida pública, dívida contraída pelo Tesouro Nacional para financiar o déficit orçamentário do Governo Federal, Lula defendeu o crescimento do país através do investimento na renda dos mais pobres.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula afirmou ainda que neste último governo o Brasil passou de 12ª economia do mundo para a décima, investindo em políticas para população mais humilde.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Toda vez que alguém quer resolver o problema fiscal, o povo pobre paga. E eu não quero que o povo pobre pague. A forma de fazer crescer a economia não é cortar do pobre”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele ainda <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro\">defendeu o reajuste em 15% no Bolsa Família</a>. Segundo ele, o reajuste não foi feito antes porque ele não sabia do problema.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu fiquei sabendo que não tinha sido aumentado. E tomei a decisão de aumentar o valor para as pessoas porque tinha espaço fiscal”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato do PT também lembrou da <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho\">aprovação do fim da jornada 6x1 de trabalho</a>, ocorrida ontem (14) no Senado, em uma pauta defendida pelo seu governo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mencionou a medida do governo anunciada esta semana para <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis\">perdoar dívidas dos microempreendedores individuais (MEIs)</a>, entre outras providências, e prometeu tarifa zero no transporte público nos fins de semana.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>EUA e Tarifaço</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Questionado sobre as perdas econômicas com o tarifaço aplicado pelo governo dos Estados Unidos, Lula afirmou que o Brasil tem se saído bem na procura por outros mercados para compensar a redução no comércio com o país norte americano.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O que me deixa tranquilo é que embora tenhamos tido queda de 9% na relação com os Estados Unidos, crescemos 20% com a China, 15% com a indonésia, 16% com a Alemanha. E batemos recordes de superávit comercial”, disse Lula.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele afirmou ainda que prefere negociar uma solução com o governo de Donald Trump, mas aplicar o princípio da reciprocidade não está descartado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Quem deve estar preocupado conosco são os Estados Unidos. Eu não quero aplicar a Lei da Reciprocidade, mas se tiver que fazer nós vamos. Eles têm mais a perder que a gente”.</p>",
+      "imagem": "https://imagens.ebc.com.br/HipfVVqwGlj2PAOSkVSsN9RBtH8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/13/pzzb7474.jpg?itok=dl_T5Dq1",
+      "slug": "lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos",
+      "pagina_local": "lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "16/10/2026 às 06:57"
+    },
     {
       "titulo": "Alcolumbre retira PEC da Segurança Pública da pauta do Senado",
       "resumo": "O presidente do Senado, Davi Alcolumbre (União-AP) retirou de pauta nesta quinta-feira (15) a votação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. \n\nO texto, que passou pela Câmara dos Deputados, ganhou celeridade no Sen...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Alcolumbre vai promulgar fim da escala 6x1 nesta sexta",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Senado aprova aumento de limite e perdão de dívida para MEIs",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "TRE-RJ decide pedir apoio de tropas federais para o segundo turno",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "CUT elogia fim da “massacrante” 6x1; CNI quer revisar PEC aprovada",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Conheça detalhes da regulamentação dos jogos eletrônicos no Brasil",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta quinta-feira (15)",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Canal Exército do Lula volta ao ar após registro no TSE",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Fim da 6x1: saiba quando entra em vigor nova jornada de trabalho",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
-    },
-    {
-      "titulo": "Senadores aprovam pedido para acelerar votação da PEC da Segurança",
-      "resumo": "O plenário do Senado Federal aprovou na noite desta quarta-feira (14) um requerimento que cria um calendário especial de tramitação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. \n\nO texto, que já passou pela Câmara dos De...",
-      "conteudo_completo": "O plenário do Senado Federal aprovou na noite desta quarta-feira (14) um requerimento que cria um calendário especial de tramitação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. \n\nO texto, que já passou pela Câmara dos Deputados, havia sido aprovado mais cedo pela Comissão de Constituição e Justiça (CCJ) do Senado, sem alterações. Com isso, a votação da PEC em dois turnos poderá ser feita de forma direta, sem necessidade de sessões de deliberação antes e após cada turno, como prevê o Regimento Interno da Casa legislativa.\n\nNotícias relacionadas:Aposta do governo, PEC da Segurança sofre resistências no Congresso.PEC da segurança: pesquisadores avaliam limites e possíveis avanços.São necessários os votos favoráveis de 49 dos 81 senadores para que a proposta seja aprovada.\n\nSegundo o presidente do Senado, Davi Alcolumbre (União-AP), a PEC será analisada em plenário na sessão deliberativa marcada para a tarde desta quinta-feira (15). \n\nDe autoria do Poder Executivo, a PEC da Segurança estabelece penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias e cria um novo pacto federativo entre União, estados e municípios para o enfrentamento ao crime no Brasil.\n\nEssa proposta foi uma das prioridades do atual governo para a área da segurança. O presidente Luiz Inácio Lula da Silva prometeu criar o Ministério da Segurança Pública após aprovação da PEC.\n\nO texto base da proposta foi aprovado no início de setembro, ficando pendente a análise de três destaques que seriam votados hoje com sugestões de mudanças. \n\nOs requerimentos, porém, não foram votados porque os autores, Carlos Portinho (PL-RJ) e Alessandro Vieira (MDB-SE), não estavam presentes na sessão.  \n\nO presidente da CCJ, senador Otto Alencar (PSD-BA), justificou, com base no Artigo 300 do regimento interno do Senado, que os destaques apresentados ficaram prejudicados com a ausência dos senadores.\n\nPEC\n\nEntre outras medidas, A PEC propõe a constitucionalização do Sistema Único de Segurança Pública (SUSP), alterando o Artigo 144 da Carta Magna, que trata da segurança pública.\n\nA proposta inclui que a segurança deve ser exercida “em regime de cooperação federativa” e “por meio da atuação integrada e descentralizada” das diferentes instituições que trabalham com o tema.\n\n“Art. 144-A. Os órgãos de segurança pública articular-se-ão em regime de cooperação federativa, por meio do Sistema Único de Segurança Pública, destinado a assegurar a eficiência da prevenção, da persecução e da execução penal”, define o texto.\n\nFacções e milícias\n\nA PEC estabelece penas mais duras e regimes especiais de prisão para os chefes de facções e milícias, como prisão em unidades de segurança máxima e restrição ou vedação à progressão de penas.\n\nTambém são previstas medidas patrimoniais contra o produto do crime, a responsabilização de pessoas jurídicas envolvidas e a proteção a denunciantes e seus familiares.\n\nOutra novidade da PEC é a possibilidade de criação de polícias municipais de natureza civil, submetidas ao controle externo do Ministério Público, com a atribuição de realizar policiamento ostensivo e comunitário no âmbito das cidades onde atuarão.\n\nA PEC ainda amplia atribuições da Polícia Rodoviária Federal (PRF), prevê a criação de polícias municipais e aumenta a vinculação do orçamento público para a segurança pública.\n\nFundos de financiamento\n\nSegundo a PEC, 50% dos recursos do Fundo Nacional de Segurança Pública (FNSP) e do Fundo Penitenciário Nacional (Funpen) serão repassados pela União para os estados e municípios, excluídas despesas de custeio e investimento da polícia penitenciária nacional do Funpen.\n\n“As regras de financiamento fortalecem o FNSP e o Funpen, criam vinculações e blindagens orçamentárias e garantem repasses obrigatórios. Essas medidas aumentam a previsibilidade financeira, garantindo a perenidade das ações policiais”, escreveu o relator.\n\nO texto ainda prevê que 10% do superávit financeiro anual do Fundo Social, ligado ao pré-sal, sejam destinados aos fundos da segurança, \"reforçando o financiamento contínuo das políticas nacionais de segurança pública e execução penal\".\n\nA proposta prevê também a criação do Sistema de Políticas Penais, responsável pelo sistema prisional brasileiro, e autoriza União, estados e municípios a atuarem conjuntamente na legislação sobre segurança pública, organização de polícias, guardas municipais e sistema socioeducativo.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O plenário do Senado Federal aprovou na noite desta quarta-feira (14) um requerimento que cria um calendário especial de tramitação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705396&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705396&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto, que já passou pela Câmara dos Deputados, <a href=\"https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ccj-do-senado-conclui-votacao-da-pec-da-seguranca-publica\">havia sido aprovado mais cedo</a> pela Comissão de Constituição e Justiça (CCJ) do Senado, sem alterações. Com isso, a votação da PEC em dois turnos poderá ser feita de forma direta, sem necessidade de sessões de deliberação antes e após cada turno, como prevê o Regimento Interno da Casa legislativa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>São necessários os votos favoráveis de 49 dos 81 senadores para que a proposta seja aprovada.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo o presidente do Senado, Davi Alcolumbre (União-AP), a PEC será analisada em plenário na sessão deliberativa marcada para a tarde desta quinta-feira (15). </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De autoria do Poder Executivo, a PEC da Segurança estabelece penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias e cria um novo pacto federativo entre União, estados e municípios para o enfrentamento ao crime no Brasil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Essa proposta foi uma das prioridades do atual governo para a área da segurança. </strong>O presidente Luiz Inácio Lula da Silva prometeu criar o Ministério da Segurança Pública após aprovação da PEC.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto base da proposta foi <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/ccj-do-senado-aprova-texto-base-da-pec-da-seguranca-publica\">aprovado no início de setembro</a>, ficando pendente a análise de três destaques que seriam votados hoje com sugestões de mudanças. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os requerimentos, porém, não foram votados porque os autores, Carlos Portinho (PL-RJ) e Alessandro Vieira (MDB-SE), não estavam presentes na sessão.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente da CCJ, senador Otto Alencar (PSD-BA), justificou, com base no Artigo 300 do regimento interno do Senado, que os destaques apresentados ficaram prejudicados com a ausência dos senadores.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>PEC</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Entre outras medidas, A PEC propõe a constitucionalização do Sistema Único de Segurança Pública (SUSP), alterando o Artigo 144 da Carta Magna, que trata da segurança pública.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A proposta inclui que a segurança deve ser exercida “em regime de cooperação federativa” e “por meio da atuação integrada e descentralizada” das diferentes instituições que trabalham com o tema.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Art. 144-A. Os órgãos de segurança pública articular-se-ão em regime de cooperação federativa, por meio do Sistema Único de Segurança Pública, destinado a assegurar a eficiência da prevenção, da persecução e da execução penal”, define o texto.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Facções e milícias</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A PEC estabelece penas mais duras e regimes especiais de prisão para os chefes de facções e milícias, como prisão em unidades de segurança máxima e restrição ou vedação à progressão de penas.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também são previstas medidas patrimoniais contra o produto do crime, a responsabilização de pessoas jurídicas envolvidas e a proteção a denunciantes e seus familiares.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Outra novidade da PEC é a possibilidade de criação de polícias municipais de natureza civil, submetidas ao controle externo do Ministério Público, com a atribuição de realizar policiamento ostensivo e comunitário no âmbito das cidades onde atuarão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A PEC ainda amplia atribuições da Polícia Rodoviária Federal (PRF), prevê a criação de polícias municipais e aumenta a vinculação do orçamento público para a segurança pública.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Fundos de financiamento</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a PEC, 50% dos recursos do Fundo Nacional de Segurança Pública (FNSP) e do Fundo Penitenciário Nacional (Funpen) serão repassados pela União para os estados e municípios, excluídas despesas de custeio e investimento da polícia penitenciária nacional do Funpen.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“As regras de financiamento fortalecem o FNSP e o Funpen, criam vinculações e blindagens orçamentárias e garantem repasses obrigatórios. Essas medidas aumentam a previsibilidade financeira, garantindo a perenidade das ações policiais”, escreveu o relator.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto ainda prevê que 10% do superávit financeiro anual do Fundo Social, ligado ao pré-sal, sejam destinados aos fundos da segurança, \"reforçando o financiamento contínuo das políticas nacionais de segurança pública e execução penal\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A proposta prevê também a criação do Sistema de Políticas Penais, responsável pelo sistema prisional brasileiro, e autoriza União, estados e municípios a atuarem conjuntamente na legislação sobre segurança pública, organização de polícias, guardas municipais e sistema socioeducativo.</p>",
-      "imagem": "https://imagens.ebc.com.br/YW6-qw9IutO3G4mrz7zHMafrHAs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/14/sem_titulo-2_3.jpg?itok=glESlkwF",
-      "slug": "senadores-aprovam-pedido-para-acelerar-votacao-da-pec-da-seguranca",
-      "pagina_local": "senadores-aprovam-pedido-para-acelerar-votacao-da-pec-da-seguranca.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senadores-aprovam-pedido-para-acelerar-votacao-da-pec-da-seguranca",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Justiça homologa acordo para indenizar empregados das Casas Bahia",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "EBC reafirma não ter responsabilidade por falha em programa do PL",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "TRE-RJ proclama Douglas Ruas eleito para o governo do Rio de Janeiro",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Campanha de Flávio aciona TSE contra posts de artistas e parlamentares",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "OAB Rio ganha ação que proíbe plataforma de oferecer petições com IA",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Justiça condena 3º réu acusado do assassinato de Mãe Bernadete",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Campanha de Lula vai ao TSE após IA da Meta restringir buscas",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "TSE ordena que Flávio e Nikolas removam vídeo de crianças contra Lula",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Justiça do Rio condena homens por estupro coletivo de jovem de 17 anos",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "União quitou R$ 244 milhões para estados e municípios em setembro",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Fim da escala 6x1 traz esperança de mais tempo para família e saúde",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Produção brasileira de grãos deve aumentar apesar do El Niño",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Lote complementar do abono salarial começa a ser pago nesta quinta",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "IBGE estima safra de grãos recorde em 2026: 354,5 milhões de toneladas",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Vendas no comércio varejista têm variação de 0,1% em agosto",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Prazo para empresas optarem por Simples acaba nesta quinta",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     },
     {
       "titulo": "Corte amplo de gastos públicos afetaria área social, dizem economistas",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 01:06"
+      "coletado_em": "16/10/2026 às 06:57"
     }
   ]
 };
