@@ -158,23 +158,58 @@ async function buscarFipeGratuita(veiculo: VeiculoData): Promise<FipeResultado |
   }
 }
 
-const CORS_HEADERS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, x-user-consultas",
-  "Access-Control-Max-Age": "86400",
-};
+// CORS restrito ao domínio próprio — nunca aberto para qualquer origem
+const ALLOWED_ORIGINS = new Set([
+  "https://cidadaoagora.com.br",
+  "https://www.cidadaoagora.com.br",
+]);
 
-export async function onRequestOptions(): Promise<Response> {
-  return new Response(null, { status: 204, headers: CORS_HEADERS });
+function getCorsHeaders(request: Request): Record<string, string> {
+  const origin = request.headers.get("Origin") || "";
+  const allowedOrigin = ALLOWED_ORIGINS.has(origin)
+    ? origin
+    : "https://cidadaoagora.com.br";
+  return {
+    "Access-Control-Allow-Origin": allowedOrigin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, x-user-consultas",
+    "Access-Control-Max-Age": "86400",
+    "Vary": "Origin",
+  };
 }
 
-function responderComCors(dados: any, status = 200, headersExtras: Record<string, string> = {}): Response {
+// Rate limiting por IP real (CF-Connecting-IP) — não pode ser burlado pelo cliente
+const RATE_LIMIT_MAP = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT_MAX = 10;       // máximo de 10 consultas por IP
+const RATE_LIMIT_WINDOW = 3600 * 1000; // janela de 1 hora em ms
+
+function verificarRateLimitIP(ip: string): boolean {
+  const agora = Date.now();
+  const entrada = RATE_LIMIT_MAP.get(ip);
+
+  if (!entrada || agora > entrada.resetAt) {
+    RATE_LIMIT_MAP.set(ip, { count: 1, resetAt: agora + RATE_LIMIT_WINDOW });
+    return true; // permitido
+  }
+
+  if (entrada.count >= RATE_LIMIT_MAX) {
+    return false; // bloqueado
+  }
+
+  entrada.count++;
+  return true; // permitido
+}
+
+export async function onRequestOptions(context: { request: Request }): Promise<Response> {
+  return new Response(null, { status: 204, headers: getCorsHeaders(context.request) });
+}
+
+function responderComCors(dados: any, request: Request, status = 200, headersExtras: Record<string, string> = {}): Response {
   return new Response(JSON.stringify(dados), {
     status,
     headers: {
       "Content-Type": "application/json",
-      ...CORS_HEADERS,
+      ...getCorsHeaders(request),
       ...headersExtras,
     },
   });
@@ -183,16 +218,14 @@ function responderComCors(dados: any, status = 200, headersExtras: Record<string
 export async function onRequestPost(context: { request: Request; env: Env }): Promise<Response> {
   const { request, env } = context;
 
-  // 1. Limite de 5 consultas por IP / Usuário
-  const userConsultasHeader = request.headers.get("x-user-consultas");
-  const qtdConsultasFeitas = parseInt(userConsultasHeader || "0", 10);
-
-  if (qtdConsultasFeitas >= 5) {
+  // 1. Rate limiting por IP real (CF-Connecting-IP) — não pode ser burlado pelo cliente
+  const clientIP = request.headers.get("CF-Connecting-IP") || "unknown";
+  if (!verificarRateLimitIP(clientIP)) {
     return responderComCors({
       sucesso: false,
       limiteAtingido: true,
-      erro: "Limite máximo de 5 consultas gratuitas atingido. Tente novamente mais tarde.",
-    }, 429);
+      erro: "Limite de consultas atingido. Tente novamente em 1 hora.",
+    }, request, 429);
   }
 
   // Validação do Token de Ambiente
@@ -201,19 +234,19 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
     return responderComCors({
       sucesso: false,
       erro: "Configuração do servidor incompleta: APIBRASIL_TOKEN ausente nas variáveis de ambiente.",
-    }, 500);
+    }, request, 500);
   }
 
   let body: { placa?: string };
   try {
     body = await request.json();
   } catch {
-    return responderComCors({ sucesso: false, erro: "Corpo da requisição JSON inválido." }, 400);
+    return responderComCors({ sucesso: false, erro: "Corpo da requisição JSON inválido." }, request, 400);
   }
 
   const placa = (body.placa || "").replace(/[^a-zA-Z0-9]/g, "").toUpperCase();
   if (placa.length !== 7) {
-    return responderComCors({ sucesso: false, erro: "Placa inválida. Forneça 7 caracteres alfanuméricos." }, 400);
+    return responderComCors({ sucesso: false, erro: "Placa inválida. Forneça 7 caracteres alfanuméricos." }, request, 400);
   }
 
   // 2. ECONOMIA DE CRÉDITOS: Cache em Memória do Servidor
@@ -224,6 +257,7 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
         ...itemCache.dados,
         doCache: true,
       },
+      request,
       200,
       {
         "Cache-Control": "public, max-age=2592000, immutable",
@@ -270,7 +304,7 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
     // Salva no cache do servidor para NUNCA mais gastar créditos com essa placa
     CACHE_PLACAS_MEMORIA.set(placa, { dados: payloadResposta, timestamp: Date.now() });
 
-    return responderComCors(payloadResposta, 200, {
+    return responderComCors(payloadResposta, request, 200, {
       "Cache-Control": "public, max-age=2592000, immutable",
       "X-Data-Source": "APIBrasil-Live",
     });
@@ -279,14 +313,14 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
       return responderComCors({
         sucesso: false,
         erro: "Serviço de consulta temporariamente indisponível. Recarga pendente no provedor.",
-      }, 503);
+      }, request, 503);
     }
 
     if (err instanceof ApiBrasilError) {
       const statusCode = err.statusCode >= 400 && err.statusCode < 600 ? err.statusCode : 500;
-      return responderComCors({ sucesso: false, erro: err.message, status: err.statusCode }, statusCode);
+      return responderComCors({ sucesso: false, erro: err.message, status: err.statusCode }, request, statusCode);
     }
 
-    return responderComCors({ sucesso: false, erro: "Ocorreu um erro ao processar a consulta veicular." }, 500);
+    return responderComCors({ sucesso: false, erro: "Ocorreu um erro ao processar a consulta veicular." }, request, 500);
   }
 }

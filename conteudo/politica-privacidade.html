@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -7,7 +7,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-C8ZSTXP9WQ');
+    gtag('config', 'G-C8ZSTXP9WQ', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
   </script>
   <!-- Google AdSense Oficial -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
   <title>Política de Privacidade - Cidadão Agora</title>
   <meta name="description" content="Política de Privacidade e Termos de Conformidade do portal Cidadão Agora, em acordo com a LGPD e diretrizes do Google AdSense.">
   <link rel="stylesheet" href="../css/tailwind.min.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../js/lucide.min.js"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
@@ -62,34 +62,60 @@
       <section class="space-y-3">
         <h2 class="text-base font-bold text-slate-900">2. Ferramentas e Processamento Local (Sem Coleta de Dados Pessoais)</h2>
         <p>
-          Nossas ferramentas interativas — incluindo, mas não se limitando a: <em>Gerador de Recibos, Gerador de Contratos, Declaração de Residência, Declaração de Hipossuficiência, Gerador de Orçamento, Nota Promissória, Validador de CPF e Calculadoras Trabalhistas</em> — operam <strong>estritamente no lado do cliente (client-side)</strong>.
+          Nossas ferramentas interativas — incluindo, mas não se limitando a: <em>Gerador de Recibos, Gerador de Contratos, Declaração de Residência, Declaração de Hipossuficiência, Gerador de Orçamento, Nota Promissória, Validador de CPF, Consulta de Processos e Calculadoras Trabalhistas</em> — operam <strong>estritamente no lado do cliente (client-side)</strong>.
         </p>
-        <p class="bg-blue-50 border-l-4 border-blue-600 p-3 rounded-r-lg text-blue-950 font-medium text-xs">
-          <strong>Garantia de Privacidade:</strong> Nenhum dado sensível digitado nos formulários (nomes, CPFs, valores monetários ou endereços) é enviado, transferido ou armazenado em nossos servidores. Os documentos e PDFs são gerados diretamente na memória do seu navegador.
+        <div class="bg-emerald-50 border-l-4 border-emerald-600 p-3.5 rounded-r-lg text-emerald-950 font-medium text-xs space-y-1">
+          <p class="font-bold flex items-center gap-1.5 text-emerald-800">
+            <i data-lucide="shield-check" class="w-4 h-4"></i>
+            Garantia de Privacidade e Blindagem de Dados:
+          </p>
+          <p>
+            Nenhum dado sensível digitado nos formulários (nomes, CPFs, CNPJs, valores monetários ou endereços) é enviado, transferido ou armazenado em nenhum banco de dados ou servidor. Todos os cálculos, certidões e PDFs são gerados diretamente na memória temporária do seu próprio navegador e descartados assim que a página é fechada.
+          </p>
+        </div>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-base font-bold text-slate-900">3. Criptografia em Trânsito e Camada de Segurança</h2>
+        <p>
+          Toda a navegação no portal <strong>Cidadão Agora</strong> é protegida por criptografia de ponta a ponta através do protocolo <strong>HTTPS / TLS 1.3</strong> com cabeçalho <em>Strict-Transport-Security (HSTS)</em> ativo, além de políticas restritivas de <em>Content-Security-Policy (CSP)</em>, <em>X-Frame-Options</em> (proteção contra clickjacking) e <em>X-Content-Type-Options</em>.
+        </p>
+        <p>
+          Nas consultas de placas de veículos, os dados trafegam exclusivamente via conexão cifrada e segura com a infraestrutura de borda (Edge Cloudflare) e não são armazenados em disco, nem vinculados a qualquer identidade ou dado pessoal do usuário.
         </p>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">3. Cookies e Google AdSense</h2>
+        <h2 class="text-base font-bold text-slate-900">4. Cookies, Google AdSense e Métricas Anonimizadas</h2>
         <p>
-          Utilizamos serviços de publicidade de terceiros, como o <strong>Google AdSense</strong>, para veicular anúncios quando você visita nosso site. O Google utiliza cookies (como o cookie DoubleClick DART) para veicular anúncios com base nas visitas anteriores do usuário a este ou a outros sites na internet.
+          Utilizamos serviços de publicidade de terceiros, como o <strong>Google AdSense</strong>, para veicular anúncios que sustentam a gratuidade de nossos serviços. O Google utiliza cookies (como o cookie DoubleClick DART) para veicular anúncios.
         </p>
         <p>
-          Você pode desativar o uso de cookies de publicidade personalizada acessando as <a href="https://adssettings.google.com" target="_blank" rel="noopener" class="text-blue-600 underline">Configurações de Anúncios do Google</a>.
+          Para fins de medição de audiência, utilizamos o <strong>Google Analytics 4</strong> configurado com <strong>anonimização estrita de endereço IP (anonymize_ip: true)</strong> e desativação de sinais de personalização de anúncios sem consentimento.
         </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">4. Fontes de Dados e Isenção de Vínculo Governamental</h2>
         <p>
-          O Cidadão Agora é um portal informativo independente e <strong>não possui nenhum vínculo institucional com o Governo Federal</strong>, ministérios ou autarquias públicas. As matérias e informativos são obtidos de fontes oficiais de domínio público e dados abertos nos termos da <em>Lei de Acesso à Informação (Lei nº 12.527/2011)</em>.
+          Você pode desativar ou personalizar o uso de cookies de publicidade a qualquer momento acessando as <a href="https://adssettings.google.com" target="_blank" rel="noopener" class="text-blue-600 underline">Configurações de Anúncios do Google</a> ou através do gerenciador de cookies em nosso rodapé.
         </p>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">5. Contato com o Encarregado de Dados</h2>
+        <h2 class="text-base font-bold text-slate-900">5. Seus Direitos como Titular de Dados (Art. 18 da LGPD)</h2>
         <p>
-          Caso tenha dúvidas sobre esta política ou sobre seus direitos, entre em contato através de nossa página de contato ou pelo e-mail institucional: <strong>contato@cidadaoagora.com</strong>.
+          Em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)</strong>, você tem total controle sobre seus dados. Como nosso modelo arquitetural é estritamente estático e <em>zero-knowledge</em> (não retemos banco de dados com seus dados pessoais), você não corre risco de vazamento de credenciais ou prontuários cadastrais em nosso ambiente.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-base font-bold text-slate-900">6. Fontes Públicas e Isenção de Vínculo Governamental</h2>
+        <p>
+          O Cidadão Agora é um portal informativo e utilitário independente e <strong>não possui nenhum vínculo institucional com o Governo Federal</strong>, tribunais judiciais, Detrans ou autarquias públicas. As ferramentas realizam cálculos matemáticos abertos e direcionam para consultas oficiais em conformidade com a <em>Lei de Acesso à Informação (Lei nº 12.527/2011)</em>.
+        </p>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-base font-bold text-slate-900">7. Encarregado de Proteção de Dados (DPO) e Contato</h2>
+        <p>
+          Caso tenha dúvidas sobre esta política, requisições sobre privacidade ou deseje mais esclarecimentos, entre em contato diretamente pelo e-mail institucional: <strong>contato@cidadaoagora.com.br</strong>.
         </p>
       </section>
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -7,7 +7,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-C8ZSTXP9WQ');
+    gtag('config', 'G-C8ZSTXP9WQ', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
   </script>
   <!-- Google AdSense Oficial -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../css/design-system.css">
 
   <link rel="stylesheet" href="../css/tailwind.min.css">
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="../js/lucide.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <style>
@@ -97,7 +97,7 @@
           </div>
           <div>
             <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF ou CNPJ do Emissor</label>
-            <input type="text" id="rec-doc" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900 font-mono" required>
+            <input type="text" id="rec-doc" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900 font-mono" required autocomplete="off">
           </div>
         </div>
 

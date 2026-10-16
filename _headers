@@ -1,3 +1,33 @@
+# =============================================================================
+# Cidadão Agora — Cloudflare Pages Headers
+# Segurança, CORS e Cache-Control
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# HEADERS GLOBAIS DE SEGURANÇA (todas as páginas)
+# ---------------------------------------------------------------------------
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Cross-Origin-Opener-Policy: same-origin
+  X-XSS-Protection: 1; mode=block
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://unpkg.com https://www.google-analytics.com https://adservice.google.com https://tpc.googlesyndication.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://parallelum.com.br https://servicodados.ibge.gov.br https://brasilapi.com.br https://cdn.imagin.studio https://car-images.bauersites.com https://api.pix.ae https://gateway.apibrasil.io; frame-src https://www.google.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests
+
+# ---------------------------------------------------------------------------
+# API — CORS restrito ao domínio próprio
+# ---------------------------------------------------------------------------
+/api/*
+  Access-Control-Allow-Origin: https://cidadaoagora.com.br
+  Access-Control-Allow-Methods: POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, x-user-consultas
+  Access-Control-Max-Age: 86400
+
+# ---------------------------------------------------------------------------
+# Sitemap e Robots
+# ---------------------------------------------------------------------------
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8
   Cache-Control: public, max-age=3600
@@ -8,7 +38,26 @@
   Cache-Control: public, max-age=3600
   Access-Control-Allow-Origin: *
 
-/api/*
-  Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET, POST, OPTIONS
-  Access-Control-Allow-Headers: Content-Type, Authorization, x-user-consultas
+# ---------------------------------------------------------------------------
+# Assets estáticos — cache longo
+# ---------------------------------------------------------------------------
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+/site.webmanifest
+  Cache-Control: public, max-age=86400
