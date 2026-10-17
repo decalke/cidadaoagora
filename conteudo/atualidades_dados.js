@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "17/10/2026 às 19:10:18",
+  "ultima_atualizacao": "17/10/2026 às 22:07:40",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
+      "resumo": "São Paulo – A estagnação ou cortes no valor dos benefícios sociais e previdenciários poderão causar uma retração severa à atividade econômica em municípios do interior do Brasil, mostra levantamento do Centro de Pesquisa...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>São Paulo – A estagnação ou cortes no valor dos benefícios sociais e previdenciários poderão causar uma retração severa à atividade econômica em municípios do interior do Brasil, mostra levantamento do Centro de Pesquisa em Macroeconomia das Desigualdades (Made), da Faculdade de Economia e Administração da Universidade de São Paulo (FEA-USP), lançado nesta semana.\n\nSegundo o estudo, as aposentadorias, o Bolsa Família e o Benefício de Prestação Continuada (BPC) têm peso significativo na economia dessas cidades e chegam a representar quase metade do orçamento das famílias mais pobres.\n\n“Como o valor recebido por essas famílias é usado quase integralmente para a aquisição de itens de primeira necessidade, o dinheiro circula imediatamente no comércio local, garante empregos e mantém a arrecadação municipal ativa”, destaca a co-diretora do Made-USP, a economista Luiza Nassif.\n\nDe acordo com o levantamento, dos 5.569 municípios brasileiros, cerca de 4 mil estão fora das regiões metropolitanas. Nessas cidades, segundo o estudo, o peso das transferências públicas chega a ser o dobro em relação aos dos grandes centros urbanos. No Ceará, por exemplo, os benefícios sociais e previdenciários respondem por 22% da renda agregada da capital e região metropolitana. Já nas cidades do interior, esse número é de 40%.\n\nImpactos futuros\n\nO estudo do Made/USP projetou os efeitos econômicos da evolução da renda dos benefícios sociais e previdenciários nas cidades do interior para os próximos três anos. O estudo tomou como base os anos de 2022 a 2025, em que houve um crescimento real para BPC e aposentadorias, e comparou esse cenário ao contexto de reajustes utilizados entre 2019 e 2022, sem ganhos reais do salário mínimo e congelamento total.\n\nO levantamento mostra que, sem os reajustes, a renda agregada do interior do país sofreria uma retração severa, ficando entre 6,8% e 10,8% abaixo do patamar com a valorização real dos benefícios sociais e previdenciários. \n\n“Isso geraria uma reação em cadeia na atividade econômica que atinge inclusive as famílias que não dependem do socorro público”, avalia Nassif. \n\nO estudo mostra que os cenários mais críticos ocorreriam no interior do Rio Grande do Norte, Amapá e Piauí, em que a renda total cairia entre 17% a 18%, sem o ritmo atual de aumento dos benefícios sociais. No Amazonas, Sergipe e Pernambuco, a perda seria na casa dos 15%. No Ceará, Maranhão, em Alagoas e Bahia, a queda ficaria entre 10% e 13%, enquanto no Mato Grosso do Sul, Rio de Janeiro, Espírito Santo, São Paulo, Mato Grosso, Rio Grande do Sul e Santa Catarina, o prejuízo chegaria a 6,5%.  \n\nOs efeitos na pobreza\n\nO levantamento destaca que, além dos efeitos sobre a renda e a atividade econômica dos municípios do interior, os benefícios desempenham um papel decisivo no combate à pobreza.\n\n“Para quem vive no limite, qualquer reajuste abaixo da inflação empurra a família diretamente para a pobreza”, afirma Nassif. Segundo ela, para famílias com rendimento de até 1,5 salário mínimo per capita, os benefícios podem chegar a 50% do rendimento. \n\nSimulações realizadas pelo levantamento indicam que a ausência de ganhos reais nos benefícios, entre 2022 e 2025, teria empurrado aproximadamente 2,7 milhões de pessoas para a pobreza nos municípios fora das regiões metropolitanas, 2,4 milhões delas para extrema pobreza.\n\nEm números absolutos, as maiores altas na pobreza ocorreriam na Bahia (até 336 mil pessoas a mais), São Paulo (até 263 mil) e Minas Gerais (até 251 mil), seguidos por Maranhão, Pará e Ceará (com mais de 200 mil pessoas cada).\n\n“Olhando para o impacto que a queda de renda provoca, fica nítido o estrago que uma trava no crescimento dos benefícios pode fazer nas economias locais”, observa Nassif. “Manter a valorização real da previdência, do BPC e dos programas de transferência de renda é a garantia mínima de dignidade para as famílias e de sobrevivência para o comércio local no Brasil profundo\", acrescenta.</p>",
+      "imagem": "https://imagens.ebc.com.br/s1o0N9JRVQ1c3NGqh5lx-em6FPI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/01/10/inflacion8.jpg?itok=iWKk87Zh",
+      "slug": "cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior",
+      "pagina_local": "cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 22:07"
+    },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
       "resumo": "A Agência Nacional de Aviação Civil (Anac) estabeleceu regras mais restritivas para alocação de horários de pousos e decolagens (slots) no Aeroporto de Congonhas (SP).\n\nPelas novas regras, os operadores de aviação geral ...",
@@ -13,20 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
-    },
-    {
-      "titulo": "USP: estagnação de auxílios sociais pode gerar retração em municípios",
-      "resumo": "A estagnação ou cortes no valor dos benefícios sociais e previdenciários poderão causar uma retração severa à atividade econômica em municípios do interior do Brasil, mostra levantamento do Centro de Pesquisa em Macroeco...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A estagnação ou cortes no valor dos benefícios sociais e previdenciários poderão causar uma retração severa à atividade econômica em municípios do interior do Brasil, mostra levantamento do Centro de Pesquisa em Macroeconomia das Desigualdades (Made), da Faculdade de Economia e Administração da Universidade de São Paulo (FEA-USP), lançado nesta semana.\n\nSegundo o estudo, as aposentadorias, o Bolsa Família e o Benefício de Prestação Continuada (BPC) têm peso significativo na economia dessas cidades e chegam a representar quase metade do orçamento das famílias mais pobres.\n\n\nNotícias relacionadas:Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan.Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil.Trabalho infantil no país recua 9,2% de 2024 para 2025, aponta IBGE.“Como o valor recebido por essas famílias é usado quase integralmente para a aquisição de itens de primeira necessidade, o dinheiro circula imediatamente no comércio local, garante empregos e mantém a arrecadação municipal ativa”, destaca a co-diretora do Made-USP, a economista Luiza Nassif.\n\n\nDe acordo com o levantamento, dos 5.569 municípios brasileiros, cerca de 4 mil estão fora das regiões metropolitanas. Nessas cidades, segundo o estudo, o peso das transferências públicas chega a ser o dobro em relação aos dos grandes centros urbanos.\n\nNo Ceará, por exemplo, os benefícios sociais e previdenciários respondem por 22% da renda agregada da capital e região metropolitana. Já nas cidades do interior, esse número é de 40%.\n\nImpactos futuros\n\nO estudo do Made/USP projetou os efeitos econômicos da evolução da renda dos benefícios sociais e previdenciários nas cidades do interior para os próximos três anos. O estudo tomou como base os anos de 2022 a 2025, em que houve um crescimento real para BPC e aposentadorias, e comparou esse cenário ao contexto de reajustes utilizados entre 2019 e 2022, sem ganhos reais do salário mínimo e congelamento total.\n\nO levantamento mostra que, sem os reajustes, a renda agregada do interior do país sofreria uma retração severa, ficando entre 6,8% e 10,8% abaixo do patamar com a valorização real dos benefícios sociais e previdenciários. \n\n\n“Isso geraria uma reação em cadeia na atividade econômica que atinge inclusive as famílias que não dependem do socorro público”, avalia Nassif. \n\n\nO estudo mostra que os cenários mais críticos ocorreriam no interior do Rio Grande do Norte, do Amapá e do Piauí, onde a renda total cairia entre 17% a 18%, sem o ritmo atual de aumento dos benefícios sociais. \n\nAmazonas, Sergipe e Pernambuco teriam perda na casa dos 15%. Ceará, Maranhão, Alagoas e Bahia teriam queda entre 10% e 13%, enquanto Mato Grosso do Sul, Rio de Janeiro, Espírito Santo, São Paulo, Mato Grosso, Rio Grande do Sul e Santa Catarina, poderiam ter prejuízo de até 6,5%.  \n\nOs efeitos na pobreza\n\nO levantamento destaca que, além dos efeitos sobre a renda e a atividade econômica dos municípios do interior, os benefícios desempenham um papel decisivo no combate à pobreza.\n\n“Para quem vive no limite, qualquer reajuste abaixo da inflação empurra a família diretamente para a pobreza”, afirma Nassif. Segundo ela, para famílias com rendimento de até 1,5 salário mínimo per capita, os benefícios podem chegar a 50% do rendimento. \n\nSimulações feitas pelo levantamento indicam que a ausência de ganhos reais nos benefícios entre 2022 e 2025 teria empurrado aproximadamente 2,7 milhões de pessoas para a pobreza nos municípios fora das regiões metropolitanas, 2,4 milhões delas para extrema pobreza.\n\nEm números absolutos, as maiores altas na pobreza ocorreriam na Bahia (até 336 mil pessoas a mais), São Paulo (até 263 mil) e Minas Gerais (até 251 mil), seguidos por Maranhão, Pará e Ceará (com mais de 200 mil pessoas cada).\n\n“Olhando para o impacto que a queda de renda provoca, fica nítido o estrago que uma trava no crescimento dos benefícios pode fazer nas economias locais”, observa Nassif.\n\n“Manter a valorização real da previdência, do BPC e dos programas de transferência de renda é a garantia mínima de dignidade para as famílias e de sobrevivência para o comércio local no Brasil profundo\", acrescenta.</p>",
-      "imagem": "https://imagens.ebc.com.br/s3A7xaAKbxyCilSOgYGoB-FfT0k=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/12/23/_d6a0146.jpg?itok=FDlDe5Vn",
-      "slug": "usp-estagnacao-de-auxilios-sociais-pode-gerar-retracao-em-municipios",
-      "pagina_local": "usp-estagnacao-de-auxilios-sociais-pode-gerar-retracao-em-municipios.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/usp-estagnacao-de-auxilios-sociais-pode-gerar-retracao-em-municipios",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 19:10"
+      "coletado_em": "17/10/2026 às 22:07"
     }
   ]
 };
