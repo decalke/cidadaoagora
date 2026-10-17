@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "16/10/2026 às 23:24:04",
+  "ultima_atualizacao": "17/10/2026 às 03:56:48",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
+      "resumo": "O candidato do PT à reeleição para a presidência da República, Luiz Inácio Lula da Silva, participou de duas passeatas em Minas Gerais nesta sexta-feira (16). A promulgação do fim da escala de trabalho 6x1, ocorrida no Senado na manhã de ho...",
+      "conteudo_completo": "O candidato do PT à reeleição para a presidência da República, Luiz Inácio Lula da Silva, participou de duas passeatas em Minas Gerais nesta sexta-feira (16). A promulgação do fim da escala de trabalho 6x1, ocorrida no Senado na manhã de hoje, deu o tom da campanha durante todo o dia. Lula vinha defendendo há meses a aprovação da proposta.\n\nEm Juiz de Fora, ele afirmou, em uma fala direcionada aos comerciantes, que ninguém terá prejuízo com a mudança na escala de trabalho.\n\n“É muito importante que a gente não permita que haja retrocesso nesse país. Aos nossos queridos comerciários e empresários do comércio, ninguém vai ter prejuízo com o fim da escala 6x1, ninguém. Quem vai ganhar é o Brasil, o povo trabalhador e as mulheres, que terão dois dias para descansar e cuidar da família”.\n\nLula também pediu a seus apoiadores que estimulassem os indecisos a votar nele e convencessem aqueles que não votaram no primeiro turno a irem às urnas no segundo turno. \n\nTambém exaltou feitos de seu governo, como investimentos em escolas de tempo integral e a criação do Programa Pé-de-Meia, um incentivo financeiro-educacional pago pelo governo federal para promover a permanência e a conclusão escolar de pessoas matriculadas no ensino médio público.\n\nEm seguida, já no início da noite, o candidato do PT participou de uma passeata em Ipatinga. Aos apoiadores, afirmou que passou os últimos quatro anos recuperando o país, após o governo de Jair Bolsonaro, pai de seu adversário na atual corrida presidencial. E que agora, em um quarto mandato, faria um governo “do crescimento econômico”.\n\n“Esse quarto mandato será do crescimento econômico, de melhorar a vida das pessoas, de baixar a inflação no alimento. Porque a partir de janeiro, a cesta básica não terá mais imposto nem na carne nem no feijão”\n\nDurante a passeata em Ipatinga, Lula criticou o fato de Flávio Bolsonaro ter almoçado com diretores da Globo nesta sexta-feira, data da entrevista de Flávio no Jornal Nacional. Para o presidente, a emissora está “sob suspeição” de sua campanha. Lula foi sabatinado ontem (14) na emissora e não houve almoço prévio com os diretores.\n\nEm nota, a Globo confirmou que Flávio Bolsonaro fez uma visita institucional à sede da emissora no Rio de Janeiro, onde se reuniu com o presidente do Grupo Globo, João Roberto Marinho, e com o vice-presidente de Relações Institucionais, Paulo Tonet. O canal afirmou que o encontro contou com um almoço reservado, mas não teve a participação de nenhum líder ou representante da área de jornalismo da empresa, tratando-se de \"rotina e cortesia com candidatos\".",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O candidato do PT à reeleição para a presidência da República, Luiz Inácio Lula da Silva, participou de duas passeatas em Minas Gerais nesta sexta-feira (16). A promulgação do fim da escala de trabalho 6x1, ocorrida no Senado na manhã de hoje, deu o tom da campanha durante todo o dia. Lula vinha defendendo há meses a aprovação da proposta.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705650&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705650&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em Juiz de Fora, ele afirmou, em uma fala direcionada aos comerciantes, que ninguém terá prejuízo com a mudança na escala de trabalho.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>“É muito importante que a gente não permita que haja retrocesso nesse país. Aos nossos queridos comerciários e empresários do comércio, ninguém vai ter prejuízo com o fim da escala 6x1, ninguém. Quem vai ganhar é o Brasil, o povo trabalhador e as mulheres, que terão dois dias para descansar e cuidar da família”.</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula também pediu a seus apoiadores que estimulassem os indecisos a votar nele e convencessem aqueles que não votaram no primeiro turno a irem às urnas no segundo turno. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Também exaltou feitos de seu governo, como investimentos em escolas de tempo integral e a criação do Programa Pé-de-Meia, um incentivo financeiro-educacional pago pelo governo federal para promover a permanência e a conclusão escolar de pessoas matriculadas no ensino médio público.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em seguida, já no início da noite, o candidato do PT participou de uma passeata em Ipatinga. Aos apoiadores, afirmou que passou os últimos quatro anos recuperando o país, após o governo de Jair Bolsonaro, pai de seu adversário na atual corrida presidencial. E que agora, em um quarto mandato, faria um governo “do crescimento econômico”.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>“Esse quarto mandato será do crescimento econômico, de melhorar a vida das pessoas, de baixar a inflação no alimento. Porque a partir de janeiro, a cesta básica não terá mais imposto nem na carne nem no feijão”</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante a passeata em Ipatinga, Lula criticou o fato de Flávio Bolsonaro ter almoçado com diretores da Globo nesta sexta-feira, data da entrevista de Flávio no Jornal Nacional. Para o presidente, a emissora está “sob suspeição” de sua campanha. Lula foi sabatinado ontem (14) na emissora e não houve almoço prévio com os diretores.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em nota, a Globo confirmou que Flávio Bolsonaro fez uma visita institucional à sede da emissora no Rio de Janeiro, onde se reuniu com o presidente do Grupo Globo, João Roberto Marinho, e com o vice-presidente de Relações Institucionais, Paulo Tonet. O canal afirmou que o encontro contou com um almoço reservado, mas não teve a participação de nenhum líder ou representante da área de jornalismo da empresa, tratando-se de \"rotina e cortesia com candidatos\".</p>",
+      "imagem": "https://imagens.ebc.com.br/aOBxJ1b3s4A-pQmgZa7d6U_kYTk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/sem_titulo-6_1.jpg?itok=QnBssagZ",
+      "slug": "lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1",
+      "pagina_local": "lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 03:56"
+    },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
       "resumo": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), quebrou o protocolo, nesta sexta-feira (16), durante a promulgação da emenda constitucional que acabou com a escala 6x1 no Brasil ao convidar o senador Paulo Paim (PT-R...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (16)",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Lula defende redução da maioridade penal para crimes hediondos",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Alcolumbre retira PEC da Segurança Pública da pauta do Senado",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Alcolumbre vai promulgar fim da escala 6x1 nesta sexta",
@@ -126,35 +140,35 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
-      "titulo": "Senado aprova aumento de limite e perdão de dívida para MEIs",
-      "resumo": "O Senado Federal aprovou nesta quinta-feira (15) o projeto que aumenta o teto da receita bruta anual do microempreendedor individual (MEI) e o perdão de dívidas inscritas na dívida ativa da União até 13 de outubro de 2026. De forma unânime,...",
-      "conteudo_completo": "O Senado Federal aprovou nesta quinta-feira (15) o projeto que aumenta o teto da receita bruta anual do microempreendedor individual (MEI) e o perdão de dívidas inscritas na dívida ativa da União até 13 de outubro de 2026. De forma unânime, a proposta foi aprovada por 78 votos favoráveis e nenhum contrário.\n\nCom a aprovação, o limite vai subir progressivamente dos atuais R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028. Esta é a primeira vez desde 2018 que o teto é reajustado. A matéria já havia passado pela Câmara dos Deputados e agora seguirá para sanção presidencial.\n\nNotícias relacionadas:Câmara aprova aumento no limite de receita bruta do MEI.Perdão de dívidas de MEIs terá impacto fiscal, mas redução de custos.Governo anuncia perdão de dívidas e pacote de estímulo para MEIs.O projeto de Lei Complementar (PLP) 186/26, de autoria do Poder Executivo, estabelece ainda que um MEI possa contratar até dois empregados que recebam exclusivamente um salário mínimo ou o piso salarial da categoria profissional. A legislação atualmente permite a contratação de apenas um empregado.\n\nO texto foi apresentado sob o regime de urgência constitucional. O governo argumentou que a mudança atende a uma demanda recorrente dos microempreendedores, impulsionada pelas discussões sobre a redução da jornada de trabalho e o fim da escala 6x1, aprovados no Congresso Nacional.\n\nSegundo o relator do projeto no Senado, Carlos Fávaro (PSD-MT), a proposta corrige uma distorção histórica com os microempreendedores brasileiros e com as pessoas que sonham em tocar o próprio negócio.\n\n\"O microempreendedor individual representa uma das mais relevantes de políticas públicas de inclusão produtiva implementadas no país. A exposição de motivos informa a existência de aproximadamente 17 milhões de MEIs que serão beneficiados pelo projeto\", destacou na tribuna.\n\nA ampliação do teto de receita bruta, segundo o governo, não representa expansão real do regime, mas recomposição monetária do mesmo patamar fixado em 2018. Desde então, a inflação acumulada supera os 54%, fator que justificaria o reajuste. O impacto orçamentário da expansão será de R$ 1,57 bilhão em 2027, R$ 3,15 bilhões em 2028 e R$ 3,38 bilhões em 2029.\n\nPerdão de dívidas\n\nO projeto também concede anistia integral de dívidas de MEIs, inscritos na Dívida Ativa da União até 13 de outubro de 2026. Cerca de 3,6 milhões de microempreendedores podem ser beneficiados por este perdão e o volume estimado de débitos chega a R$ 12,6 bilhões.\n\nPara ter direito ao benefício, o MEI deverá ficar adimplente no recolhimento dos tributos nos seis meses subsequentes à data de entrada em vigor da lei complementar, sob pena de cancelamento da remissão.\n\nAlém disso, o MEI terá que desistir de ações judiciais em curso na data de entrada em vigor da lei complementar. Não haverá pagamento de honorários advocatícios por causa da extinção do processo judicial.\n\nA proposta aprovada também aumenta para R$ 100 mil o limite do valor para realização de licitações destinadas exclusivamente à participação de microempresas e empresas de pequeno porte, atualmente fixado em R$ 80 mil.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Senado Federal aprovou nesta quinta-feira (15) o projeto que aumenta o teto da receita bruta anual do microempreendedor individual (MEI) e o perdão de dívidas inscritas na dívida ativa da União até 13 de outubro de 2026. De forma unânime, a proposta foi aprovada por 78 votos favoráveis e nenhum contrário.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705507&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705507&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com a aprovação, o <strong>limite vai subir progressivamente dos atuais R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028.</strong> Esta é a primeira vez desde 2018 que o teto é reajustado. A matéria já havia <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/camara-aprova-aumento-no-limite-de-receita-bruta-do-mei\" target=\"_blank\">passado pela Câmara dos Deputados</a> e agora seguirá para sanção presidencial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O projeto de Lei Complementar (PLP) 186/26, de autoria do Poder Executivo, estabelece ainda que um MEI possa contratar até dois empregados que recebam exclusivamente um salário mínimo ou o piso salarial da categoria profissional. A legislação atualmente permite a contratação de apenas um empregado.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O<a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis?utm_source=chatgpt.com\" target=\"_blank\"> texto foi apresentado</a> sob o regime de urgência constitucional. O governo argumentou que a mudança atende a uma demanda recorrente dos microempreendedores, impulsionada pelas discussões sobre a redução da jornada de trabalho e o fim da escala 6x1, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho\" target=\"_blank\">aprovados no Congresso Nacional</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o relator do projeto no Senado, Carlos Fávaro (PSD-MT), a proposta corrige uma distorção histórica com os microempreendedores brasileiros e com as pessoas que sonham em tocar o próprio negócio.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"O microempreendedor individual representa uma das mais relevantes de políticas públicas de inclusão produtiva implementadas no país. A exposição de motivos informa a existência de aproximadamente 17 milhões de MEIs que serão beneficiados pelo projeto\", destacou na tribuna.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ampliação do teto de receita bruta, segundo o governo, não representa expansão real do regime, mas recomposição monetária do mesmo patamar fixado em 2018. Desde então, a inflação acumulada supera os 54%, fator que justificaria o reajuste. O impacto orçamentário da expansão será de R$ 1,57 bilhão em 2027, R$ 3,15 bilhões em 2028 e R$ 3,38 bilhões em 2029.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Perdão de dívidas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O projeto também concede anistia integral de dívidas de MEIs, inscritos na Dívida Ativa da União até 13 de outubro de 2026. <strong>Cerca de 3,6 milhões de microempreendedores podem ser beneficiados por este perdão e o volume estimado de débitos chega a R$ 12,6 bilhões.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para ter direito ao benefício, o MEI deverá ficar adimplente no recolhimento dos tributos nos seis meses subsequentes à data de entrada em vigor da lei complementar, sob pena de cancelamento da remissão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além disso, o MEI terá que desistir de ações judiciais em curso na data de entrada em vigor da lei complementar. Não haverá pagamento de honorários advocatícios por causa da extinção do processo judicial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A proposta aprovada também aumenta para R$ 100 mil o limite do valor para realização de licitações destinadas exclusivamente à participação de microempresas e empresas de pequeno porte, atualmente fixado em R$ 80 mil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Saiba mais no Repórter Brasil Tarde, da TV Brasil </strong></p>",
-      "imagem": "https://imagens.ebc.com.br/nYqApWE8A0uHrl2WdjQmGbdKwL8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/sem_titulo-5.jpg?itok=4118fapP",
-      "slug": "senado-aprova-aumento-de-limite-e-perdao-de-divida-para-meis",
-      "pagina_local": "senado-aprova-aumento-de-limite-e-perdao-de-divida-para-meis.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-aumento-de-limite-e-perdao-de-divida-para-meis",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
-    },
-    {
-      "titulo": "TSE tem maioria para ordenar que Meta garanta isonomia a candidatos",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) formou maioria de votos nesta sexta-feira (16) para manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presi...",
-      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) formou maioria de votos nesta sexta-feira (16) para manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presidência da República. \n\nAté o momento, quatro dos sete ministros da Corte votaram para manter a decisão do ministro. A sessão virtual para julgar o caso prossegue para a tomada dos demais votos.\n\nNotícias relacionadas:TSE define regras para canais de WhatsApp durante a campanha .TSE nega pedido da campanha de Flávio para barrar posts de sindicatos.Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado.Os votos pela manutenção da decisão foram proferidos pelos ministros Floriano de Azevedo Marques, André Mendonça e Estela Aranha, além da manifestação de Belizze.\n\nPela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.\n\nEm caso de descumprimento, será aplicada multa diária de R$ 500 mil.\n\nA decisão foi proferida após a campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro (PL) está liberada.\n\nOutro lado\n\nApós o PT denunciar as falhas, a Meta declarou que a recomendação de candidatos foi proibida, conforme determinação do TSE. A plataforma também informou que tomou medidas adicionais para restringir as recomendações.\n\n“Em cumprimento com as regras eleitorais do Brasil, nós proibimos temporariamente a recomendação de candidatos ou a geração de imagens deles. Tomamos medidas adicionais para que comandos usando apenas o primeiro nome dos candidatos e seu número nas urnas também não produzam imagens”, afirmou a empresa.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Tribunal Superior Eleitoral (TSE) formou maioria de votos nesta sexta-feira (16) para manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presidência da República. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705641&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705641&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Até o momento, quatro dos sete ministros da Corte votaram para manter a decisão do ministro. A sessão virtual para julgar o caso prossegue para a tomada dos demais votos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os votos pela manutenção da decisão foram proferidos pelos ministros Floriano de Azevedo Marques, André Mendonça e Estela Aranha, além da manifestação de Belizze.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Pela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em caso de descumprimento, será aplicada multa diária de R$ 500 mil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A decisão foi proferida após a campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro (PL) está liberada.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Outro lado</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Após o PT denunciar as falhas, a Meta declarou que a recomendação de candidatos foi proibida, conforme determinação do TSE. A plataforma também informou que tomou medidas adicionais para restringir as recomendações.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Em cumprimento com as regras eleitorais do Brasil, nós proibimos temporariamente a recomendação de candidatos ou a geração de imagens deles. Tomamos medidas adicionais para que comandos usando apenas o primeiro nome dos candidatos e seu número nas urnas também não produzam imagens”, afirmou a empresa.</p>",
-      "imagem": "https://imagens.ebc.com.br/achaHi6i7FpleG9MhZ4nazWg_sA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/aplicativo_0410211423.jpg?itok=d4VVXe-q",
-      "slug": "tse-tem-maioria-para-ordenar-que-meta-garanta-isonomia-a-candidatos",
-      "pagina_local": "tse-tem-maioria-para-ordenar-que-meta-garanta-isonomia-a-candidatos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-tem-maioria-para-ordenar-que-meta-garanta-isonomia-candidatos",
+      "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
+      "resumo": "A defesa do ex-banqueiro Daniel Vorcaro enviou nesta sexta-feira (16) uma petição ao Supremo Tribunal Federal (STF) para solicitar a abertura de investigação sobre o vazamento de conversas privadas que fazem parte das investigações do caso ...",
+      "conteudo_completo": "A defesa do ex-banqueiro Daniel Vorcaro enviou nesta sexta-feira (16) uma petição ao Supremo Tribunal Federal (STF) para solicitar a abertura de investigação sobre o vazamento de conversas privadas que fazem parte das investigações do caso Master.\n\nNo documento, que foi endereçado ao presidente do Supremo, Edson Fachin, os advogados afirmam que Vorcaro está sofrendo um “processo de linchamento público”.\n\nNotícias relacionadas:PF nega existência de depoimento de Vorcaro sobre Lula.Flávio usou jatinho ligado a Vorcaro em viagem em 2025, diz revista.A defesa reclama da divulgação de fatos sobre a intimidade do ex-banqueiro e conversas com advogados.\n\n“Toda e qualquer conversa travada pelo peticionário tornou-se de conhecimento público – sem qualquer forma de confirmação sobre sua idoneidade e veracidade ou a forma em que obtidas - em um processo sem precedentes na história nacional, em que se permite e se admite que um investigado tenha sua vida e sua privacidade exposta para todo o Brasil”, afirmou a defesa.\n\nNa avaliação dos advogados, as conversas vazadas não podem resultar em investigações contra o ex-banqueiro. \n\n“A única repercussão jurídica da exposição da intimidade e de sua vida pessoal é a instauração de inquérito policial para averiguar e determinar os responsáveis, para que, posteriormente, venham a ser criminalmente responsabilizados com toda a força e a intensidade da Lei Penal”, completou a defesa.\n\nVorcaro foi preso em março deste ano e está custodiado no presídio da Papudinha, no Distrito Federal.\n\nO ex-banqueiro é alvo das investigações da Operação Compliance Zero, da Polícia Federal (PF), que investiga fraudes financeiras no Master e a tentativa de compra da instituição pelo Banco Regional de Brasília (BRB), banco público ligado ao Governo do Distrito Federal (GDF).",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A defesa do ex-banqueiro Daniel Vorcaro enviou nesta sexta-feira (16) uma petição ao Supremo Tribunal Federal (STF) para solicitar a abertura de investigação sobre o vazamento de conversas privadas que fazem parte das investigações do caso Master.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705646&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705646&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No documento, que foi endereçado ao presidente do Supremo, Edson Fachin, os advogados afirmam que Vorcaro está sofrendo um “processo de linchamento público”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A defesa reclama da divulgação de fatos sobre a intimidade do ex-banqueiro e conversas com advogados.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Toda e qualquer conversa travada pelo peticionário tornou-se de conhecimento público – sem qualquer forma de confirmação sobre sua idoneidade e veracidade ou a forma em que obtidas - em um processo sem precedentes na história nacional, em que se permite e se admite que um investigado tenha sua vida e sua privacidade exposta para todo o Brasil”, afirmou a defesa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na avaliação dos advogados, as conversas vazadas não podem resultar em investigações contra o ex-banqueiro. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A única repercussão jurídica da exposição da intimidade e de sua vida pessoal é a instauração de inquérito policial para averiguar e determinar os responsáveis, para que, posteriormente, venham a ser criminalmente responsabilizados com toda a força e a intensidade da Lei Penal”, completou a defesa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Vorcaro <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/vorcaro-chega-brasilia-em-voo-da-pf-e-vai-para-presidio-federal\">foi preso em março deste ano</a> e está custodiado no presídio da Papudinha, no Distrito Federal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ex-banqueiro é alvo das investigações da Operação Compliance Zero, da Polícia Federal (PF), que investiga fraudes financeiras no Master e a tentativa de compra da instituição pelo Banco Regional de Brasília (BRB), banco público ligado ao Governo do Distrito Federal (GDF).</p>",
+      "imagem": "https://imagens.ebc.com.br/HN9FF1bKJbokttMbBg1AgDE6hyY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/06/daniel_vorcaro.jpg?itok=uJbwWRip",
+      "slug": "defesa-de-vorcaro-pede-investigacao-sobre-vazamento-de-conversas",
+      "pagina_local": "defesa-de-vorcaro-pede-investigacao-sobre-vazamento-de-conversas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/defesa-de-vorcaro-pede-investigacao-sobre-vazamento-de-conversas",
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:23"
+      "coletado_em": "17/10/2026 às 03:56"
+    },
+    {
+      "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
+      "resumo": "O Tribunal Superior Eleitoral (TSE) decidiu, por unanimidade, nesta sexta-feira (16) manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presidên...",
+      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) decidiu, por unanimidade, nesta sexta-feira (16) manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presidência da República. \n\nOs votos foram proferidos pelos ministros Floriano de Azevedo Marques, André Mendonça, Estela Aranha, Ricardo Villas Bôas Cueva, Nunes Marques e Dias Toffoli, além da manifestação de Belizze.\n\nNotícias relacionadas:TSE define regras para canais de WhatsApp durante a campanha .TSE nega pedido da campanha de Flávio para barrar posts de sindicatos.Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado.Pela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.\n\nEm caso de descumprimento, será aplicada multa diária de R$ 500 mil.\n\nA decisão foi proferida após a campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro (PL) está liberada.\n\nOutro lado\n\nApós o PT denunciar as falhas, a Meta declarou que a recomendação de candidatos foi proibida, conforme determinação do TSE. A plataforma também informou que tomou medidas adicionais para restringir as recomendações.\n\n“Em cumprimento com as regras eleitorais do Brasil, nós proibimos temporariamente a recomendação de candidatos ou a geração de imagens deles. Tomamos medidas adicionais para que comandos usando apenas o primeiro nome dos candidatos e seu número nas urnas também não produzam imagens”, afirmou a empresa.\n\n* Título e texto atualizados às 21h42",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Tribunal Superior Eleitoral (TSE) decidiu, por unanimidade, nesta sexta-feira (16) manter a decisão individual do ministro Marco Aurélio Belizze que proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos à Presidência da República. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705641&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705641&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os votos foram proferidos pelos ministros Floriano de Azevedo Marques, André Mendonça, Estela Aranha, Ricardo Villas Bôas Cueva, Nunes Marques e Dias Toffoli, além da manifestação de Belizze.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Pela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em caso de descumprimento, será aplicada multa diária de R$ 500 mil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A decisão foi proferida após a campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro (PL) está liberada.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Outro lado</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Após o PT denunciar as falhas, a Meta declarou que a recomendação de candidatos foi proibida, conforme determinação do TSE. A plataforma também informou que tomou medidas adicionais para restringir as recomendações.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Em cumprimento com as regras eleitorais do Brasil, nós proibimos temporariamente a recomendação de candidatos ou a geração de imagens deles. Tomamos medidas adicionais para que comandos usando apenas o primeiro nome dos candidatos e seu número nas urnas também não produzam imagens”, afirmou a empresa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>* Título e texto atualizados às 21h42</em></p>",
+      "imagem": "https://imagens.ebc.com.br/achaHi6i7FpleG9MhZ4nazWg_sA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/aplicativo_0410211423.jpg?itok=d4VVXe-q",
+      "slug": "tse-decide-manter-ordem-para-meta-garantir-isonomia-a-candidatos",
+      "pagina_local": "tse-decide-manter-ordem-para-meta-garantir-isonomia-a-candidatos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-decide-manter-ordem-para-meta-garantir-isonomia-candidatos",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -168,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -182,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -196,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -210,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -224,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -238,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Justiça homologa acordo para indenizar empregados das Casas Bahia",
@@ -252,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "EBC reafirma não ter responsabilidade por falha em programa do PL",
@@ -266,21 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
-      "titulo": "TRE-RJ proclama Douglas Ruas eleito para o governo do Rio de Janeiro",
-      "resumo": "O colegiado do Tribunal Regional Eleitoral do Rio (TRE-RJ) homologou, por unanimidade, em sessão plenária nesta quinta-feira (15), o resultado da retotalização de votos para o cargo de governador nas Eleições de 2026.\n\nCom isso, o president...",
-      "conteudo_completo": "O colegiado do Tribunal Regional Eleitoral do Rio (TRE-RJ) homologou, por unanimidade, em sessão plenária nesta quinta-feira (15), o resultado da retotalização de votos para o cargo de governador nas Eleições de 2026.\n\nCom isso, o presidente da Corte Eleitoral fluminense, desembargador Claudio de Mello Tavares, proclamou Douglas Ruas (PL) eleito no primeiro turno, já que obteve mais da metade dos votos válidos.\n\nNotícias relacionadas:Após retotalização dos votos, Douglas Ruas tem 50,88% dos votos no RJ.TSE anula votos de Garotinho, e Ruas deve vencer governo no RJ.“Os votos computados demonstram que a chapa integrada por Douglas Ruas dos Santos e Fernanda Anchieta Louback foi eleita para os cargos de governador e vice-governadora, com 50,88%, sendo desnecessária a realização do segundo turno, por terem obtido a maioria absoluta dos votos válidos”, afirmou o magistrado.\n\nA cerimônia de retotalização aconteceu no último sábado (10), na sede do TRE-RJ, centro do Rio. O procedimento foi motivado por decisão do Tribunal Superior Eleitoral (TSE), que confirmou o indeferimento do registro de candidatura de Anthony Garotinho (Republicanos) e considerou nulos os 274.411 votos do candidato, excluindo-os para fins de cálculo do percentual de votos válidos. \n\nCom o procedimento, Douglas Ruas passou de 49,27% dos votos válidos para 50,88%; e Eduardo Paes passou de 42,76% para 44,16%.  \n\nDe acordo com a Lei das Eleições, é considerado eleito no primeiro turno o candidato a presidente da República ou a governador que obtiver a maioria absoluta de votos, não computados os brancos e nulos.\n\nA cerimônia de diplomação dos eleitos será no dia 18 de dezembro, no Theatro Municipal do Rio de Janeiro.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O colegiado do Tribunal Regional Eleitoral do Rio (TRE-RJ) homologou, por unanimidade, em sessão plenária nesta quinta-feira (15), o resultado da retotalização de votos para o cargo de governador nas Eleições de 2026.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705482&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705482&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Com isso, o presidente da Corte Eleitoral fluminense, desembargador Claudio de Mello Tavares, proclamou Douglas Ruas (PL) eleito no primeiro turno, já que obteve mais da metade dos votos válidos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Os votos computados demonstram que a chapa integrada por Douglas Ruas dos Santos e Fernanda Anchieta Louback foi eleita para os cargos de governador e vice-governadora, com 50,88%, sendo desnecessária a realização do segundo turno, por terem obtido a maioria absoluta dos votos válidos”, afirmou o magistrado.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <a href=\"http://agenciabrasil.ebc.com.br/justica/noticia/2026-10/apos-retotalizacao-dos-votos-douglas-ruas-tem-5088-dos-votos-no-rj\">cerimônia de retotalização</a> aconteceu no último sábado (10), na sede do TRE-RJ, centro do Rio. <strong>O procedimento foi motivado por decisão do Tribunal Superior Eleitoral (TSE), que <a href=\"http://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-anula-votos-de-garotinho-e-abre-caminho-para-ruas-vencer-governo-do-rio-no-1o-turno\">confirmou o indeferimento</a> do registro de candidatura de Anthony Garotinho</strong> (Republicanos) e considerou nulos os 274.411 votos do candidato, excluindo-os para fins de cálculo do percentual de votos válidos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Com o procedimento, Douglas Ruas passou de 49,27% dos votos válidos para 50,88%; e Eduardo Paes passou de 42,76% para 44,16%.  </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a Lei das Eleições, é considerado eleito no primeiro turno o candidato a presidente da República ou a governador que obtiver a maioria absoluta de votos, não computados os brancos e nulos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A cerimônia de diplomação dos eleitos será no dia 18 de dezembro, no Theatro Municipal do Rio de Janeiro.</p>",
-      "imagem": "https://imagens.ebc.com.br/SCVbmf31UFDiLil81uhyHbUiNKU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/08/_d6a1086.jpg?itok=Bfgexvkv",
-      "slug": "tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro",
-      "pagina_local": "tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tre-rj-proclama-douglas-ruas-eleito-para-o-governo-do-rio-de-janeiro",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
+      "resumo": "A Agência Nacional de Aviação Civil (Anac) estabeleceu regras mais restritivas para alocação de horários de pousos e decolagens (slots) no Aeroporto de Congonhas (SP).\n\nPelas novas regras, os operadores de aviação geral - como serviço de ta...",
+      "conteudo_completo": "A Agência Nacional de Aviação Civil (Anac) estabeleceu regras mais restritivas para alocação de horários de pousos e decolagens (slots) no Aeroporto de Congonhas (SP).\n\nPelas novas regras, os operadores de aviação geral - como serviço de taxi-aéreo e jatos executivos - terão de contratar um provedor de serviços de base fixa (FBO, na sigla em inglês) antes de solicitar os horários de operação, o que significa a contratação antecipada de serviços de apoio em solo.\n\nNotícias relacionadas:Anac permite voos após as 23h em Congonhas em situações excepcionais.A medida, segundo a Anac, \"busca combater o mercado paralelo de slots no aeroporto, estabelecendo regras mais rigorosas para a atuação de operadores de táxi-aéreo e de aeronaves privadas\".\n\n\n\"Isso busca assegurar que as operações tenham estrutura de atendimento em solo previamente contratada, reduzindo o risco de impactos na movimentação aeroportuária decorrentes da indisponibilidade de serviços ou da falta de suporte operacional adequado\", diz a agência.\n\n\nO diretor-presidente da Anac, Tiago Faierstein, informou que a agência vai acompanhar e fiscalizar a medida para combater o comércio paralelo de slots.   \n\n“Na prática, as novas regras também restringem as condições de utilização de Congonhas pela aviação geral, ao exigir maior planejamento e comprovação prévia da estrutura necessária para cada operação”, explica Faierstein.\n\nA Agência Brasil tentou contato com a Aena, concessionária responsável pela gestão de Congonhas, e aguarda retorno. O espaço está aberto para manifestação.\n\n* Com informações da Anac",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Agência Nacional de Aviação Civil (Anac) estabeleceu regras mais restritivas para alocação de horários de pousos e decolagens (slots) no Aeroporto de Congonhas (SP).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705644&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705644&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Pelas novas regras, os operadores de aviação geral - como serviço de taxi-aéreo e jatos executivos - terão de contratar um provedor de serviços de base fixa (FBO, na sigla em inglês) antes de solicitar os horários de operação, o que significa a contratação antecipada de serviços de apoio em solo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida, segundo a Anac, \"busca combater o mercado paralelo de slots no aeroporto, estabelecendo regras mais rigorosas para a atuação de operadores de táxi-aéreo e de aeronaves privadas\".</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>\"Isso busca assegurar que as operações tenham estrutura de atendimento em solo previamente contratada, reduzindo o risco de impactos na movimentação aeroportuária decorrentes da indisponibilidade de serviços ou da falta de suporte operacional adequado\", diz a agência.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Isso busca assegurar que as operações tenham estrutura de atendimento em solo previamente contratada, reduzindo o risco de impactos na movimentação aeroportuária decorrentes da indisponibilidade de serviços ou da falta de suporte operacional adequado\", diz a agência.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O diretor-presidente da Anac, Tiago Faierstein, informou que a agência vai acompanhar e fiscalizar a medida para combater o comércio paralelo de slots.   </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Na prática, as novas regras também restringem as condições de utilização de Congonhas pela aviação geral, ao exigir maior planejamento e comprovação prévia da estrutura necessária para cada operação”, explica Faierstein.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <strong>Agência Brasil</strong> tentou contato com a Aena, concessionária responsável pela gestão de Congonhas, e aguarda retorno. O espaço está aberto para manifestação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>* Com informações da Anac</em></p>",
+      "imagem": "https://imagens.ebc.com.br/uoOBrTHcOyMZi5hmWCyCMULDEWk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/12/22/0g0a0191.jpg?itok=LD7a2MPj",
+      "slug": "anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
+      "pagina_local": "anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "USP: estagnação de auxílios sociais pode gerar retração em municípios",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
-    },
-    {
-      "titulo": "União quitou R$ 244 milhões para estados e municípios em setembro",
-      "resumo": "O governo federal pagou, em setembro, R$ 244,01 milhões em dívidas de estados e municípios que estavam inadimplentes. Os dados de garantias honradas e de recuperação de contragarantias estão no Relatório Mensal de Garantias Honradas pela Un...",
-      "conteudo_completo": "O governo federal pagou, em setembro, R$ 244,01 milhões em dívidas de estados e municípios que estavam inadimplentes. Os dados de garantias honradas e de recuperação de contragarantias estão no Relatório Mensal de Garantias Honradas pela União em operações de crédito e Recuperação de Contragarantias (RMGH), divulgado pelo Tesouro Nacional nesta quinta-feira (15).\n\nDo total pago no mês, a maior parcela foi de dívidas do Rio Grande do Sul, que somaram R$ 237,71 milhões; houve também R$ 6,24 milhões para o Rio Grande do Norte e R$ 64,89 mil para o município de Santanópolis (BA).\n\nNotícias relacionadas:Tesouro Direto bate recorde em agosto com R$ 15 bi em investimentos.BC cria indicador para acompanhar reajustes salariais negociados.Mercado eleva previsão da inflação para 5,22% em 2026.No acumulado do ano, as dívidas honradas pela União somam R$ 3,38 bilhões. Desde 2016, a União realizou pagamentos que somam R$ 89,90 bilhões para honrar garantias em operações de crédito de estados e municípios.\n\nA Lei de Responsabilidade Fiscal diz que o governo federal realiza os pagamentos com a condição de que estados e municípios ofereçam contragarantias em valor igual ou superior.\n\nAssim, caso estados ou municípios deixem de pagar prestações de contratos garantidos, caberá à União, além de honrar as dívidas, executar as contragarantias oferecidas para recuperar o crédito. Além do valor original devido, são cobrados do devedor juros de mora, multas e outros encargos previstos nos contratos de empréstimo.\n\nO Tesouro Nacional destaca ainda que, caso estados e municípios não paguem os compromissos ou atrasem o pagamento, ficam impedidos de obter garantia da União para novos contratos de financiamento por até 12 meses.\n\nJá os estados com Regime de Recuperação Fiscal (RRF) em vigor poderão contratar novas operações de crédito com garantia da União. Entretanto, a União fica impedida de aplicar as contragarantias para aqueles que obtiveram liminares judiciais.\n\nRecuperação\n\nO relatório mostra que, desde 2016, a União recuperou R$ 6,06 bilhões dos entes subnacionais. Em setembro, foram recuperados R$ 6,64 milhões. \n\n“O principal fator que explica esse baixo volume de valores recuperados é que grande parte das garantias honradas, aproximadamente R$ 80,09 bilhões, são de estados que participam ou participaram do Regime de Recuperação Fiscal (RRF) e, por essa razão, têm o benefício de suspensão temporária da execução da contragarantia\", informou o Tesouro\n\nAlém disso, há R$ 528,05 milhões que não podem ser recuperados pela União em razão de decisões judiciais.\n\nO relatório mostra ainda que há R$ 1,9 bilhão utilizados pelos estados de Alagoas, Espírito Santo, Maranhão, Pernambuco e Piauí como compensação por perdas na arrecadação de Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em 2022.\n\nA Lei Complementar 201/2023 prevê o socorro para estados, municípios e Distrito Federal, para compensar as perdas decorrentes da redução de suas arrecadações.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O governo federal pagou, em setembro, R$ 244,01 milhões em dívidas de estados e municípios que estavam inadimplentes. Os dados de garantias honradas e de recuperação de contragarantias estão no <a href=\"https://www.tesourotransparente.gov.br/publicacoes/relatorio-mensal-de-garantias-honradas-rmgh/2026/9\" target=\"_blank\">Relatório Mensal de Garantias Honradas pela União em operações de crédito e Recuperação de Contragarantias (RMGH)</a>, divulgado pelo Tesouro Nacional nesta quinta-feira (15).<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705473&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705473&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Do total pago no mês, a maior parcela foi de dívidas do Rio Grande do Sul, que somaram R$ 237,71 milhões</strong>; houve também R$ 6,24 milhões para o Rio Grande do Norte e R$ 64,89 mil para o município de Santanópolis (BA).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No acumulado do ano, as dívidas honradas pela União somam R$ 3,38 bilhões. Desde 2016, a União realizou pagamentos que somam R$ 89,90 bilhões para honrar garantias em operações de crédito de estados e municípios.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <a href=\"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm\" target=\"_blank\">Lei de Responsabilidade Fiscal</a> diz que <strong>o governo federal realiza os pagamentos com a condição de que estados e municípios ofereçam contragarantias em valor igual ou superior</strong>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Assim, caso estados ou municípios deixem de pagar prestações de contratos garantidos, caberá à União, além de honrar as dívidas, executar as contragarantias oferecidas para recuperar o crédito. Além do valor original devido, são cobrados do devedor juros de mora, multas e outros encargos previstos nos contratos de empréstimo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tesouro Nacional destaca ainda que, caso estados e municípios não paguem os compromissos ou atrasem o pagamento, ficam impedidos de obter garantia da União para novos contratos de financiamento por até 12 meses.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Já os estados com Regime de Recuperação Fiscal (RRF) em vigor poderão contratar novas operações de crédito com garantia da União. Entretanto, a União fica impedida de aplicar as contragarantias para aqueles que obtiveram liminares judiciais.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Recuperação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O relatório mostra que, desde 2016, a União recuperou R$ 6,06 bilhões dos entes subnacionais. Em setembro, foram recuperados R$ 6,64 milhões. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O principal fator que explica esse baixo volume de valores recuperados é que grande parte das garantias honradas, aproximadamente R$ 80,09 bilhões, são de estados que participam ou participaram do Regime de Recuperação Fiscal (RRF) e, por essa razão, têm o benefício de suspensão temporária da execução da contragarantia\", informou o Tesouro</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além disso, há R$ 528,05 milhões que não podem ser recuperados pela União em razão de decisões judiciais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O relatório mostra ainda que há R$ 1,9 bilhão utilizados pelos estados de Alagoas, Espírito Santo, Maranhão, Pernambuco e Piauí como compensação por perdas na arrecadação de Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em 2022.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <a href=\"https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp201.htm\" target=\"_blank\">Lei Complementar 201/2023</a> prevê o socorro para estados, municípios e Distrito Federal, para compensar as perdas decorrentes da redução de suas arrecadações.</p>",
-      "imagem": "https://imagens.ebc.com.br/YIpxwW48c1RpSkMB1MjgMT5Du1w=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/img_7625_1.jpg?itok=GbvSPOx-",
-      "slug": "uniao-quitou-r-244-milhoes-para-estados-e-municipios-em-setembro",
-      "pagina_local": "uniao-quitou-r-244-milhoes-para-estados-e-municipios-em-setembro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-quitou-r-244-milhoes-para-estados-e-municipios-em-setembro",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "16/10/2026 às 23:24"
+      "coletado_em": "17/10/2026 às 03:56"
     }
   ]
 };
