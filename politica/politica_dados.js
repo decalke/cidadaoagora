@@ -1,7 +1,35 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "17/10/2026 às 12:52:09",
+  "ultima_atualizacao": "17/10/2026 às 16:16:48",
   "total": 30,
   "politica": [
+    {
+      "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
+      "resumo": "Após nove dias de internação, o ex-presidente da República, José Sarney, de 96 anos, recebeu alta hospitalar na manhã deste sábado (17). \n\nEle estava internado na UDI Hospital, da Rede D’Or, em São Luís (MA) desde o dia 09 de outubro, onde ...",
+      "conteudo_completo": "Após nove dias de internação, o ex-presidente da República, José Sarney, de 96 anos, recebeu alta hospitalar na manhã deste sábado (17). \n\nEle estava internado na UDI Hospital, da Rede D’Or, em São Luís (MA) desde o dia 09 de outubro, onde passou por uma cirurgia abdominal.\n\nNotícias relacionadas:Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais.Em sabatina, Flávio não explica propostas e faz acusações sem provas.Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.Segundo o boletim médico divulgado de hoje, Sarney recebeu alta após apresentar uma evolução clínica satisfatória. Ele continuará sob acompanhamento médico ambulatorial.\n\nDesde setembro, Sarney foi internado outras duas vezes. No dia 13 de setembro, foi internado neste mesmo hospital devido ao quadro de pneumonia.\n\nJá no dia 24 de setembro, foi internado no Hospital Sírio Libanês, em São Paulo, para dar continuidade ao tratamento de pneumonia.\n\nEscritor e político, José Sarney foi o primeiro presidente da República da era da redemocratização, entre 1985 e 1990. Foi também senador da República e governador do Maranhão. Em 2014 ele anunciou sua aposentadoria da carreira política.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Após nove dias de internação, o ex-presidente da República, José Sarney, de 96 anos, recebeu alta hospitalar na manhã deste sábado (17). </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705659&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705659&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele estava internado na UDI Hospital, da Rede D’Or, em São Luís (MA) desde o dia 09 de outubro, onde passou por uma <a href=\"https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/jose-sarney-e-internado-em-uti-apos-procedimento-abdominal\" target=\"_blank\">cirurgia abdominal</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o boletim médico divulgado de hoje, Sarney recebeu alta após apresentar uma evolução clínica satisfatória. Ele continuará sob acompanhamento médico ambulatorial.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde setembro, Sarney foi internado outras duas vezes. No dia 13 de setembro, foi internado neste mesmo hospital devido ao <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/ex-presidente-jose-sarney-e-internado-com-quadro-de-pneumonia\" target=\"_blank\">quadro de pneumonia</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Já no dia 24 de setembro, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/sarney-e-internado-no-sirio-libanes-para-tratar-pneumonia\" target=\"_blank\">foi internado</a> no Hospital Sírio Libanês, em São Paulo, para dar continuidade ao tratamento de pneumonia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Escritor e político, José Sarney foi o primeiro presidente da República da era da redemocratização, entre 1985 e 1990. Foi também senador da República e governador do Maranhão. Em 2014 ele anunciou sua aposentadoria da carreira política.</p>",
+      "imagem": "https://imagens.ebc.com.br/q5FLDjBFX6f6CL1mTeg8yy9p26s=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/posse-renan-filho_mcamgo_abr_030120231818-2.jpg?itok=BsGQpdgv",
+      "slug": "jose-sarney-recebe-alta-hospitalar-apos-nove-dias-de-internacao",
+      "pagina_local": "jose-sarney-recebe-alta-hospitalar-apos-nove-dias-de-internacao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/jose-sarney-recebe-alta-hospitalar-apos-nove-dias-de-internacao",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 16:16"
+    },
+    {
+      "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
+      "resumo": "A abstenção de eleitores com mais de 70 anos caiu quase 10 pontos percentuais no primeiro turno das eleições, segundo um levantamento do Movimento Voto 70+, iniciativa apartidária da sociedade civil que defende a participação política dos i...",
+      "conteudo_completo": "A abstenção de eleitores com mais de 70 anos caiu quase 10 pontos percentuais no primeiro turno das eleições, segundo um levantamento do Movimento Voto 70+, iniciativa apartidária da sociedade civil que defende a participação política dos idosos.\n\nSegundo dados do Tribunal Superior Eleitoral (TSE) reunidos pelo movimento, o percentual de eleitores nessa faixa etária que não foram votar passou de 58,8% em 2022 para 49,1% no primeiro turno de 2026.\n\nNotícias relacionadas:Eleições: abstenção cresce para 21,6% e soma 33 milhões de brasileiros.Idosos superam dificuldades e ressaltam importância do voto.Idosos votam primeiro: conheça outros eleitores com prioridade .No eleitorado em geral, a abstenção em 2026 foi de 21,08%, o que significa que 33 milhões de brasileiros aptos deixaram de participar.\n\nO voto é facultativo para eleitores com mais de 70 anos, assim como para os analfabetos e para os jovens com mais de 16 e menos de 18 anos. Na hora de votar, eleitores com mais de 80 anos têm prioridade nas filas das seções eleitorais.\n\nA página da Corte que apresenta os resultados da eleição traz mais detalhes sobre o comparecimento às urnas dos idosos que têm voto facultativo: \n\n\n\t70 a 74 anos: 68,77%; \n\t75 a 79 anos: 52,23%;\n\t80 a 84 anos: 37,12%;\n\t85 a 89 anos: 24,30%; \n\t90 a 94 anos: 13,46%; \n\t95 a 99 anos: 4,34%.\n\n\nMais eleitores idosos\n\nA redução ocorreu em um cenário de expansão do eleitorado de mais de 70 anos, que passou de 14,9 milhões, em 2022, para 17,2 milhões de pessoas aptas a votar em 2026. O grupo cresce para 36,8 milhões de eleitores se forem considerados também os que têm mais de 60 anos.\n\nPara a idealizadora do Movimento Voto 70+, Cléa Klouri, o aumento do comparecimento representa um avanço importante, porque é um sinal de que o envelhecimento não significa afastamento da vida política.\n\n\n“Estamos falando de uma geração que ajudou a construir o país e que continua tendo muito a contribuir para as decisões sobre o próprio futuro\", afirma Cléa.\n\n\nA pesquisadora Adriana de Queiroz contou que, para entender o que está por trás do não comparecimento nessa faixa etária, o Movimento Voto 70+ conduziu a pesquisa exploratória Retratos do Voto 70+: descobertas sobre a abstenção eleitoral.\n\nO estudo identificou três perfis entre os eleitores 70+ que deixariam de votar ou não tinham certeza se iriam comparecer às eleições de 2026:\n\n\n\to eleitor com “baixa autoestima política”, que acredita que seu voto não faz diferença;\n\to eleitor que considera que o resultado da eleição já não terá impacto sobre sua vida;\n\to eleitor que deseja votar, mas enfrenta barreiras físicas, como filas, distância do local de votação ou dependência de terceiros para se deslocar até a zona eleitoral.\n\n\n“Entender essas diferenças é importante para compreender por que um eleitorado que cresce tão rapidamente continua apresentando níveis tão elevados de abstenção”, afirma Adriana, que é pesquisadora do Data8, centro de pesquisa, tendências, inteligência e inovação sobre a economia da longevidade.\n\n \n\n\n            \n        \n    \n A psicóloga Maria Lidia Gomes de Mattos é ajudada por outros eleitores para votar na Zona Sul do Rio de Janeiro. Foto: Rovena Rosa/Agência Brasil\n\n\nSegundo turno\n\nO Movimento Voto 70+ pretende ampliar o debate sobre os obstáculos que dificultam o comparecimento às urnas. Entre eles, estão as limitações de mobilidade, a ausência de redes de apoio e o etarismo.\n\nNo segundo turno, o comparecimento dos 70+ continua a contar com um incentivo relevante: o voto pode ser utilizado pelo INSS para a prova de vida automática de aposentados, pensionistas e beneficiários de programas assistenciais. Em 2026, a medida vale, inclusive, para os que não votaram no primeiro turno.\n\n \n\n\n            \n        \n    \nIdoso usando celular na Rodoviária do Plano Piloto de Brasília Foto: Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\n'Vovó vota'\n\nNo segundo turno, o Movimento Voto 70+ promoverá também a campanha Vovó Vota, que propõe aproximar netas e avós durante as eleições. A iniciativa busca enfrentar barreiras que contribuem para a abstenção feminina, como dificuldades de mobilidade, ausência de redes de apoio e desestímulo familiar.\n\nEm 2022, segundo dados reunidos pelo Data8, 64% das mulheres com mais de 70 anos não votaram, percentual dez pontos superior ao registrado entre os homens da mesma faixa etária. \n\nPor meio de um guia digital, a campanha reúne orientações práticas para organizar o deslocamento até o local de votação, conferir documentos e oferecer companhia às eleitoras que desejam comparecer às urnas.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A abstenção de eleitores com mais de 70 anos caiu quase 10 pontos percentuais no primeiro turno das eleições, segundo um levantamento do Movimento Voto 70+, iniciativa apartidária da sociedade civil que defende a participação política dos idosos.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705618&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705618&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do Tribunal Superior Eleitoral (TSE) reunidos pelo movimento<strong>, o percentual de eleitores nessa faixa etária que não foram votar passou de 58,8% em 2022 para 49,1% no primeiro turno de 2026</strong>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No eleitorado em geral, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-abstencao-cresce-216-e-soma-33-milhoes-de-brasileiros\" target=\"_blank\">a abstenção em 2026 foi de 21,08%</a>, o que significa que 33 milhões de brasileiros aptos deixaram de participar.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O voto é facultativo para eleitores com mais de 70 anos, assim como para os analfabetos e para os jovens com mais de 16 e menos de 18 anos. <a href=\"https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-10/eleitores-com-mais-de-80-anos-tem-prioridade-absoluta-nas-filas\" target=\"_blank\">Na hora de votar, eleitores com mais de 80 anos têm prioridade nas filas das seções eleitorais</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A página da Corte que apresenta os resultados da eleição traz mais detalhes sobre <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/idosos-superam-dificuldades-e-ressaltam-importancia-do-voto\" target=\"_blank\">o comparecimento às urnas dos idosos</a> que têm voto facultativo: </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Mais eleitores idosos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A redução ocorreu em um cenário de expansão do eleitorado de mais de 70 anos, que passou de 14,9 milhões, em 2022, para 17,2 milhões de pessoas aptas a votar em 2026. <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/aumento-do-eleitorado-idoso-pauta-campanhas-mas-abstencao-e-desafio\" target=\"_blank\">O grupo cresce para 36,8 milhões de eleitores se forem considerados também os que têm mais de 60 anos</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para a idealizadora do Movimento Voto 70+, Cléa Klouri, o aumento do comparecimento representa um avanço importante, porque é um sinal de que o envelhecimento não significa afastamento da vida política.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Estamos falando de uma geração que ajudou a construir o país e que continua tendo muito a contribuir para as decisões sobre o próprio futuro\", afirma Cléa.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Estamos falando de uma geração que ajudou a construir o país e que continua tendo muito a contribuir para as decisões sobre o próprio futuro\", afirma Cléa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A pesquisadora Adriana de Queiroz contou que, para entender o que está por trás do não comparecimento nessa faixa etária, o Movimento Voto 70+ conduziu a pesquisa exploratória <em>Retratos do Voto 70+: descobertas sobre a abstenção eleitoral</em>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O estudo identificou três perfis entre os eleitores 70+ que deixariam de votar ou não tinham certeza se iriam comparecer às eleições de 2026</strong>:</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Entender essas diferenças é importante para compreender por que um eleitorado que cresce tão rapidamente continua apresentando níveis tão elevados de abstenção”, afirma Adriana, que é pesquisadora do Data8, centro de pesquisa, tendências, inteligência e inovação sobre a economia da longevidade.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Segundo turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Movimento Voto 70+ pretende ampliar o debate sobre os obstáculos que dificultam o comparecimento às urnas. Entre eles, estão as limitações de mobilidade, a ausência de redes de apoio e o etarismo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No segundo turno, o comparecimento dos 70+ continua a contar com um incentivo relevante: o voto pode ser utilizado pelo INSS para a prova de vida automática de aposentados, pensionistas e beneficiários de programas assistenciais. Em 2026, a medida vale, inclusive, para os que não votaram no primeiro turno.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>'Vovó vota'</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No segundo turno, o Movimento Voto 70+ promoverá também a campanha Vovó Vota, que propõe aproximar netas e avós durante as eleições. A iniciativa busca enfrentar barreiras que contribuem para a abstenção feminina, como dificuldades de mobilidade, ausência de redes de apoio e desestímulo familiar.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em 2022, segundo dados reunidos pelo Data8, <strong>64% das mulheres com mais de 70 anos não votaram, percentual dez pontos superior ao registrado entre os homens da mesma faixa etária</strong>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por meio de um guia digital, a campanha reúne orientações práticas para organizar o deslocamento até o local de votação, conferir documentos e oferecer companhia às eleitoras que desejam comparecer às urnas.</p>",
+      "imagem": "https://imagens.ebc.com.br/IamiKTwV46bu6AG9bi73onfCrTk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/14/_rbr9953.jpg?itok=zcM8KOqy",
+      "slug": "abstencao-de-eleitores-com-mais-de-70-anos-cai-9-7-pontos-percentuais",
+      "pagina_local": "abstencao-de-eleitores-com-mais-de-70-anos-cai-9-7-pontos-percentuais.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/abstencao-de-eleitores-com-mais-de-70-anos-cai-97-pontos-percentuais",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "17/10/2026 às 16:16"
+    },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
       "resumo": "O candidato à presidência da República pelo PL, Flávio Bolsonaro, foi sabatinado na noite desta sexta-feira (16) pela TV Globo. Durante pouco mais de 40 minutos, Bolsonaro negou a tentativa de golpe de Estado em 8 de janeiro de 2023, disse ...",
@@ -14,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -28,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -42,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -56,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -70,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -84,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -98,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (16)",
@@ -112,35 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
-    },
-    {
-      "titulo": "Lula defende redução da maioridade penal para crimes hediondos",
-      "resumo": "Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hedi...",
-      "conteudo_completo": "Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hediondos.\n\nLula disse ser favorável à discussão sobre o assunto no Congresso Nacional após a aprovação da Proposta de Emenda à Constituição (PEC) da Segurança Pública.\n\n\n“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.\n\n\nO texto da PEC, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após aprovação na Comissão de Constituição e Justiça (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos. Não há, no entanto, previsão para que isso ocorra. A oposição tenta incluir uma emenda reduzindo para 14 anos a maioridade penal para crimes hediondos.\n\nSegurança pública\n\nLula defendeu a aprovação da PEC para garantir a participação da União na segurança dos estados. Segundo o candidato à reeleição, os estados “não tiveram competência” para entregar segurança ao cidadão.\n\nEle afirmou que, após a aprovação da PEC, poderá criar o Ministério da Segurança Pública, definir o papel das polícias e evitar a ação dos bandidos de dentro da cadeia.\n\n“Precisamos asfixiar o crime organizado para libertar os territórios dos bandidos em todo o país”.\n\nEconomia\n\nPerguntado sobre a dívida pública, dívida contraída pelo Tesouro Nacional para financiar o déficit orçamentário do Governo Federal, Lula defendeu o crescimento do país através do investimento na renda dos mais pobres.\n\n\n“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.\n\n\nLula afirmou ainda que neste último governo o Brasil passou de 12ª economia do mundo para a décima, investindo em políticas para população mais humilde.\n\n“Toda vez que alguém quer resolver o problema fiscal, o povo pobre paga. E eu não quero que o povo pobre pague. A forma de fazer crescer a economia não é cortar do pobre”.\n\nEle ainda defendeu o reajuste em 15% no Bolsa Família. Segundo ele, o reajuste não foi feito antes porque ele não sabia do problema.\n\n“Eu fiquei sabendo que não tinha sido aumentado. E tomei a decisão de aumentar o valor para as pessoas porque tinha espaço fiscal”.\n\nO candidato do PT também lembrou da aprovação do fim da jornada 6x1 de trabalho, ocorrida ontem (14) no Senado, em uma pauta defendida pelo seu governo.\n\nMencionou a medida do governo anunciada esta semana para perdoar dívidas dos microempreendedores individuais (MEIs), entre outras providências, e prometeu tarifa zero no transporte público nos fins de semana.\n\nEUA e tarifaço\n\nQuestionado sobre as perdas econômicas com o tarifaço aplicado pelo governo dos Estados Unidos, Lula afirmou que o Brasil tem se saído bem na procura por outros mercados para compensar a redução no comércio com o país norte americano.\n\n“O que me deixa tranquilo é que embora tenhamos tido queda de 9% na relação com os Estados Unidos, crescemos 20% com a China, 15% com a indonésia, 16% com a Alemanha. E batemos recordes de superávit comercial”, disse Lula.\n\nEle afirmou ainda que prefere negociar uma solução com o governo de Donald Trump, mas aplicar o princípio da reciprocidade não está descartado.\n\n“Quem deve estar preocupado conosco são os Estados Unidos. Eu não quero aplicar a Lei da Reciprocidade, mas se tiver que fazer nós vamos. Eles têm mais a perder que a gente”.\n\nSabatina de Flávio\n\nNesta sexta-feira (16), o Jornal Nacional entrevista o senador Flávio Bolsonaro (PL-RJ), também candidato à Presidência da República. A Agência Brasil fará a cobertura da sabatina.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Candidato à reeleição, o presidente da República Luiz Inácio Lula da Silva (PT) participou de sabatina no Jornal Nacional (TV Globo) nesta quinta-feira (15) e defendeu a redução da maioridade penal de 18 para 16 anos em casos de crimes hediondos.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705525&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705525&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Lula disse ser favorável à discussão sobre o assunto no Congresso Nacional após a aprovação da Proposta de Emenda à Constituição (PEC) da Segurança Pública.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.</p>\n</blockquote>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Meu pensamento, enquanto cidadão, eu sou a favor de reduzir a maioridade penal para todo e qualquer crime hediondo. Mas a PEC não estava discutindo isso. Eu sou favorável a reduzir para 16 anos, mas não nessa PEC. Aprova a PEC e aí discute isso”, afirmou o candidato, em resposta à jornalista Renata Lo Prete.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto da PEC, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após aprovação na Comissão de Constituição e Justiça (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos. Não há, no entanto, previsão para que isso ocorra. A oposição tenta incluir uma emenda reduzindo para 14 anos a maioridade penal para crimes hediondos.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Segurança pública</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula defendeu a aprovação da PEC para garantir a participação da União na segurança dos estados. Segundo o candidato à reeleição, os estados “não tiveram competência” para entregar segurança ao cidadão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele afirmou que, após a aprovação da PEC, poderá criar o Ministério da Segurança Pública, definir o papel das polícias e evitar a ação dos bandidos de dentro da cadeia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“Precisamos asfixiar o crime organizado para libertar os territórios dos bandidos em todo o país”.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Economia</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Perguntado sobre a dívida pública, dívida contraída pelo Tesouro Nacional para financiar o déficit orçamentário do Governo Federal, Lula defendeu o crescimento do país através do investimento na renda dos mais pobres.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu tenho uma tese: muito dinheiro na mão de poucos, é pobreza, e pouco na mão de muitos, é riqueza. O que faz a economia do Brasil crescer é a microeconomia, é fazer o dinheiro rodar na mão do povo, disse.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula afirmou ainda que neste último governo o Brasil passou de 12ª economia do mundo para a décima, investindo em políticas para população mais humilde.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Toda vez que alguém quer resolver o problema fiscal, o povo pobre paga. E eu não quero que o povo pobre pague. A forma de fazer crescer a economia não é cortar do pobre”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele ainda <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/bolsa-familia-e-reajustado-em-15-medida-vale-partir-de-outubro\">defendeu o reajuste em 15% no Bolsa Família</a>. Segundo ele, o reajuste não foi feito antes porque ele não sabia do problema.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu fiquei sabendo que não tinha sido aumentado. E tomei a decisão de aumentar o valor para as pessoas porque tinha espaço fiscal”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato do PT também lembrou da <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senado-aprova-fim-da-escala-6x1-e-reducao-da-jornada-de-trabalho\">aprovação do fim da jornada 6x1 de trabalho</a>, ocorrida ontem (14) no Senado, em uma pauta defendida pelo seu governo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mencionou a medida do governo anunciada esta semana para <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-anuncia-perdao-de-dividas-e-pacote-de-estimulo-para-meis\">perdoar dívidas dos microempreendedores individuais (MEIs)</a>, entre outras providências, e prometeu tarifa zero no transporte público nos fins de semana.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>EUA e tarifaço</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Questionado sobre as perdas econômicas com o tarifaço aplicado pelo governo dos Estados Unidos, Lula afirmou que o Brasil tem se saído bem na procura por outros mercados para compensar a redução no comércio com o país norte americano.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O que me deixa tranquilo é que embora tenhamos tido queda de 9% na relação com os Estados Unidos, crescemos 20% com a China, 15% com a indonésia, 16% com a Alemanha. E batemos recordes de superávit comercial”, disse Lula.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele afirmou ainda que prefere negociar uma solução com o governo de Donald Trump, mas aplicar o princípio da reciprocidade não está descartado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Quem deve estar preocupado conosco são os Estados Unidos. Eu não quero aplicar a Lei da Reciprocidade, mas se tiver que fazer nós vamos. Eles têm mais a perder que a gente”.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Sabatina de Flávio</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nesta sexta-feira (16), o Jornal Nacional entrevista o senador Flávio Bolsonaro (PL-RJ), também candidato à Presidência da República. A Agência Brasil fará a cobertura da sabatina.</p>",
-      "imagem": "https://imagens.ebc.com.br/HipfVVqwGlj2PAOSkVSsN9RBtH8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/13/pzzb7474.jpg?itok=dl_T5Dq1",
-      "slug": "lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos",
-      "pagina_local": "lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
-    },
-    {
-      "titulo": "Alcolumbre retira PEC da Segurança Pública da pauta do Senado",
-      "resumo": "O presidente do Senado, Davi Alcolumbre (União-AP) retirou de pauta nesta quinta-feira (15) a votação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. \n\nO texto, que passou pela Câmara dos Deputados, ganhou celeridade no Sen...",
-      "conteudo_completo": "O presidente do Senado, Davi Alcolumbre (União-AP) retirou de pauta nesta quinta-feira (15) a votação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. \n\nO texto, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após aprovação na Comissão de Constituição e Justiça (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos sem necessidade de sessões deliberativas prévias, já que teve um calendário especial de tramitação acolhido pelos parlamentares, em votação simbólica na noite de quarta-feira (14).\n\nNotícias relacionadas:Senadores aprovam pedido para acelerar votação da PEC da Segurança.PEC da segurança: pesquisadores avaliam limites e possíveis avanços.Alcolumbre explicou que a votação foi adiada para evitar uma \"discussão açodada\" da matéria e também para que os senadores possam chegar a um acordo sobre as emendas apresentadas à proposta.\n\n\n\"A minha decisão é tirar da pauta de votação de hoje, atendendo àqueles que acharam que botei [a votação do requerimento de calendário especial] no meio da comemoração [da aprovação da PEC que acaba com a escala 6x1] para não haver pedido de verificação\", afirmou.\n\n\nA decisão, segundo ele, evita divergências sobre emendas apresentadas à PEC que não têm consenso entre os senadores. Entre as cinco emendas propostas, estão duas que tratam da redução da maioridade penal.\n\nPropostas\n\nA emenda 84, apresentada pelo senador Rogerio Marinho (PL-RN), propõe reduzir a idade de responsabilização penal para 16 anos como regra geral e para 14 anos nos casos de crimes hediondos, tortura, tráfico de drogas, terrorismo e participação em organizações criminosas.\n\nJá a emenda 87, do senador Camilo Santana (PT-CE), mantém a regra geral de 18 anos, mas reduz a maioridade penal para 16 anos nos casos de crimes hediondos.\n\nA iniciativa do parlamentar petista também não tem amplo apoio na base do governo. A redução da maioridade penal é um tema controverso entre organizações da sociedade civil de defesa dos direitos de crianças e adolescentes.\n\nAinda segundo o presidente do Senado, a retirada de pauta não foi para atender pedido do governo.\n\nPEC\n\nDe autoria do Poder Executivo, a PEC da Segurança estabelece penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias e cria um novo pacto federativo entre União, estados e municípios para o enfrentamento ao crime no Brasil.\n\nEssa proposta foi uma das prioridades do atual governo para a área da segurança. O presidente Luiz Inácio Lula da Silva prometeu criar o Ministério da Segurança Pública após aprovação da PEC.\n\nO texto base da proposta foi aprovado no início de setembro, ficando pendente a análise de três destaques que seriam votados hoje com sugestões de mudanças.\n\nO que muda\n\nEntre outras medidas, a PEC propõe a constitucionalização do Sistema Único de Segurança Pública (SUSP), alterando o Artigo 144 da Carta Magna, que trata da segurança pública.\n\nA proposta inclui que a segurança deve ser exercida “em regime de cooperação federativa” e “por meio da atuação integrada e descentralizada” das diferentes instituições que trabalham com o tema.\n\n“Art. 144-A. Os órgãos de segurança pública articular-se-ão em regime de cooperação federativa, por meio do Sistema Único de Segurança Pública, destinado a assegurar a eficiência da prevenção, da persecução e da execução penal”, define o texto.\n\nFacções e milícias\n\nA PEC estabelece penas mais duras e regimes especiais de prisão para os chefes de facções e milícias, como prisão em unidades de segurança máxima e restrição ou vedação à progressão de penas.\n\nTambém são previstas medidas patrimoniais contra o produto do crime, a responsabilização de pessoas jurídicas envolvidas e a proteção a denunciantes e seus familiares.\n\nOutra novidade da PEC é a possibilidade de criação de polícias municipais de natureza civil, submetidas ao controle externo do Ministério Público, com a atribuição de realizar policiamento ostensivo e comunitário no âmbito das cidades onde atuarão.\n\nA PEC ainda amplia atribuições da Polícia Rodoviária Federal (PRF), prevê a criação de polícias municipais e aumenta a vinculação do orçamento público para a segurança pública.\n\nFundos de financiamento\n\nSegundo a PEC, 50% dos recursos do Fundo Nacional de Segurança Pública (FNSP) e do Fundo Penitenciário Nacional (Funpen) serão repassados pela União para os estados e municípios, excluídas despesas de custeio e investimento da polícia penitenciária nacional do Funpen.\n\n“As regras de financiamento fortalecem o FNSP e o Funpen, criam vinculações e blindagens orçamentárias e garantem repasses obrigatórios. Essas medidas aumentam a previsibilidade financeira, garantindo a perenidade das ações policiais”, escreveu o relator.\n\nO texto ainda prevê que 10% do superávit financeiro anual do Fundo Social, ligado ao pré-sal, sejam destinados aos fundos da segurança, \"reforçando o financiamento contínuo das políticas nacionais de segurança pública e execução penal\".\n\nA proposta prevê também a criação do Sistema de Políticas Penais, responsável pelo sistema prisional brasileiro, e autoriza União, estados e municípios a atuarem conjuntamente na legislação sobre segurança pública, organização de polícias, guardas municipais e sistema socioeducativo.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O presidente do Senado, Davi Alcolumbre (União-AP) retirou de pauta nesta quinta-feira (15) a votação da Proposta de Emenda à Constituição (PEC) da Segurança Pública. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705522&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705522&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto, que passou pela Câmara dos Deputados, ganhou celeridade no Senado após <a href=\"https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ccj-do-senado-conclui-votacao-da-pec-da-seguranca-publica\">aprovação na Comissão de Constituição e Justiça</a> (CCJ), sem alterações, e está pronto para ser votado em plenário em dois turnos sem necessidade de sessões deliberativas prévias, já que teve um calendário especial de tramitação acolhido pelos parlamentares, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/senadores-aprovam-pedido-para-acelerar-votacao-da-pec-da-seguranca\">em votação simbólica</a> na noite de quarta-feira (14).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Alcolumbre explicou que a votação foi adiada para evitar uma \"discussão açodada\" da matéria e também para que os senadores possam chegar a um acordo sobre as emendas apresentadas à proposta.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>\"A minha decisão é tirar da pauta de votação de hoje, atendendo àqueles que acharam que botei [a votação do requerimento de calendário especial] no meio da comemoração [da aprovação da PEC que acaba com a escala 6x1] para não haver pedido de verificação\", afirmou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"A minha decisão é tirar da pauta de votação de hoje, atendendo àqueles que acharam que botei [a votação do requerimento de calendário especial] no meio da comemoração [da aprovação da PEC que acaba com a escala 6x1] para não haver pedido de verificação\", afirmou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A decisão, segundo ele, evita divergências sobre emendas apresentadas à PEC que não têm consenso entre os senadores. Entre as cinco emendas propostas, estão duas que tratam da redução da maioridade penal.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Propostas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A emenda 84, apresentada pelo senador Rogerio Marinho (PL-RN), propõe reduzir a idade de responsabilização penal para 16 anos como regra geral e para 14 anos nos casos de crimes hediondos, tortura, tráfico de drogas, terrorismo e participação em organizações criminosas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Já a emenda 87, do senador Camilo Santana (PT-CE), mantém a regra geral de 18 anos, mas reduz a maioridade penal para 16 anos nos casos de crimes hediondos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A iniciativa do parlamentar petista também não tem amplo apoio na base do governo. A redução da maioridade penal é um tema controverso entre organizações da sociedade civil de defesa dos direitos de crianças e adolescentes.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ainda segundo o presidente do Senado, a retirada de pauta não foi para atender pedido do governo.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>PEC</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>De autoria do Poder Executivo, a PEC da Segurança estabelece penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias e cria um novo pacto federativo entre União, estados e municípios para o enfrentamento ao crime no Brasil.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Essa proposta foi uma das prioridades do atual governo para a área da segurança. O presidente Luiz Inácio Lula da Silva prometeu criar o Ministério da Segurança Pública após aprovação da PEC.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto base da proposta foi <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/ccj-do-senado-aprova-texto-base-da-pec-da-seguranca-publica\">aprovado no início de setembro</a>, ficando pendente a análise de três destaques que seriam votados hoje com sugestões de mudanças.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>O que muda</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Entre outras medidas, a PEC propõe a constitucionalização do Sistema Único de Segurança Pública (SUSP), alterando o Artigo 144 da Carta Magna, que trata da segurança pública.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A proposta inclui que a segurança deve ser exercida “em regime de cooperação federativa” e “por meio da atuação integrada e descentralizada” das diferentes instituições que trabalham com o tema.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Art. 144-A. Os órgãos de segurança pública articular-se-ão em regime de cooperação federativa, por meio do Sistema Único de Segurança Pública, destinado a assegurar a eficiência da prevenção, da persecução e da execução penal”, define o texto.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Facções e milícias</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A PEC estabelece penas mais duras e regimes especiais de prisão para os chefes de facções e milícias, como prisão em unidades de segurança máxima e restrição ou vedação à progressão de penas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também são previstas medidas patrimoniais contra o produto do crime, a responsabilização de pessoas jurídicas envolvidas e a proteção a denunciantes e seus familiares.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Outra novidade da PEC é a possibilidade de criação de polícias municipais de natureza civil, submetidas ao controle externo do Ministério Público, com a atribuição de realizar policiamento ostensivo e comunitário no âmbito das cidades onde atuarão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A PEC ainda amplia atribuições da Polícia Rodoviária Federal (PRF), prevê a criação de polícias municipais e aumenta a vinculação do orçamento público para a segurança pública.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Fundos de financiamento</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a PEC, 50% dos recursos do Fundo Nacional de Segurança Pública (FNSP) e do Fundo Penitenciário Nacional (Funpen) serão repassados pela União para os estados e municípios, excluídas despesas de custeio e investimento da polícia penitenciária nacional do Funpen.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“As regras de financiamento fortalecem o FNSP e o Funpen, criam vinculações e blindagens orçamentárias e garantem repasses obrigatórios. Essas medidas aumentam a previsibilidade financeira, garantindo a perenidade das ações policiais”, escreveu o relator.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto ainda prevê que 10% do superávit financeiro anual do Fundo Social, ligado ao pré-sal, sejam destinados aos fundos da segurança, \"reforçando o financiamento contínuo das políticas nacionais de segurança pública e execução penal\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A proposta prevê também a criação do Sistema de Políticas Penais, responsável pelo sistema prisional brasileiro, e autoriza União, estados e municípios a atuarem conjuntamente na legislação sobre segurança pública, organização de polícias, guardas municipais e sistema socioeducativo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Saiba mais no Repórter Brasil Tarde, da TV Brasil </strong></p>",
-      "imagem": "https://imagens.ebc.com.br/63grYKcikxx4kDgyDTeOrDD3Lq8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/sem_titulo.jpg?itok=8HYx_dGU",
-      "slug": "alcolumbre-retira-pec-da-seguranca-publica-da-pauta-do-senado",
-      "pagina_local": "alcolumbre-retira-pec-da-seguranca-publica-da-pauta-do-senado.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-retira-pec-da-seguranca-publica-da-pauta-do-senado",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Justiça homologa acordo para indenizar empregados das Casas Bahia",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "EBC reafirma não ter responsabilidade por falha em programa do PL",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "USP: estagnação de auxílios sociais pode gerar retração em municípios",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 12:52"
+      "coletado_em": "17/10/2026 às 16:16"
     }
   ]
 };
