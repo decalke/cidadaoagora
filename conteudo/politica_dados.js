@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "17/10/2026 às 08:28:43",
+  "ultima_atualizacao": "17/10/2026 às 12:52:09",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (16)",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Lula defende redução da maioridade penal para crimes hediondos",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Alcolumbre retira PEC da Segurança Pública da pauta do Senado",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Justiça homologa acordo para indenizar empregados das Casas Bahia",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "EBC reafirma não ter responsabilidade por falha em programa do PL",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "USP: estagnação de auxílios sociais pode gerar retração em municípios",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 08:28"
+      "coletado_em": "17/10/2026 às 12:52"
     }
   ]
 };
