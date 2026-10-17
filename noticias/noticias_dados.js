@@ -1,6 +1,6 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "17/10/2026 às 16:16:40",
-  "total": 36,
+  "ultima_atualizacao": "17/10/2026 às 19:10:07",
+  "total": 37,
   "noticias": [
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "USP: estagnação de auxílios sociais pode gerar retração em municípios",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/usp-estagnacao-de-auxilios-sociais-pode-gerar-retracao-em-municipios",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-deve-voltar-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/atividade-economica-tem-alta-de-03-em-agosto-mostra-ibc-br",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-lula-e-flavio-divergem-sobre-ajuste-fiscal-e-papel-do-estado",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/seguranca-alimentar-exige-esforco-coletivo-e-articulacao",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-115-e-fecha-r-509-em-dia-de-cautela",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -130,7 +130,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estaleiro-no-rs-comeca-construir-navios-encomendados-pela-transpetro",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
+    },
+    {
+      "titulo": "Mais de 4 mil eleitores tiveram locais de votação alterados",
+      "resumo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a s...",
+      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”. \n\nDe acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
+      "imagem": "https://imagens.ebc.com.br/B2rIudFK9nh9TKcgAQvZXOlfSEU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/sem_titulo-5.jpg?itok=e7HGr7Fb",
+      "slug": "mais-de-4-mil-eleitores-tiveram-locais-de-votacao-alterados",
+      "pagina_local": "mais-de-4-mil-eleitores-tiveram-locais-de-votacao-alterados.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mais-de-4-mil-eleitores-tiveram-locais-de-votacao-alterados",
+      "categoria": "Política & Leis",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
@@ -143,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/jose-sarney-recebe-alta-hospitalar-apos-nove-dias-de-internacao",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
@@ -156,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/abstencao-de-eleitores-com-mais-de-70-anos-cai-97-pontos-percentuais",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
@@ -169,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-sabatina-flavio-nao-explica-propostas-e-faz-acusacoes-sem-provas",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -182,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -195,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-homenageia-paim-no-fim-da-6x1-entenda-motivo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -208,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-de-aposentadoria-especial-de-agente-de-saude",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -221,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/saiba-quando-comeca-valer-o-fim-da-escala-6-por-1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:09"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -234,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/descanso-de-trabalhador-nao-quebra-empresas-diz-lula-apos-fim-da-6x1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -247,20 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
-    },
-    {
-      "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (16)",
-      "resumo": "Os candidatos à Presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Minas Gerais e no Rio de Janeiro, nesta sexta-feira (16).\n\nLuiz Inácio Lula da Silva (PT)\nParticipa de caminhada em Juiz de Fora (MG...",
-      "conteudo_completo": "Os candidatos à Presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Minas Gerais e no Rio de Janeiro, nesta sexta-feira (16).\n\nLuiz Inácio Lula da Silva (PT)\nParticipa de caminhada em Juiz de Fora (MG), ao meio dia. Em seguida, às 17h, haverá ato de campanha em Ipatinga (MG).\n\nNotícias relacionadas:2º turno: 7 cidades também terão eleições complementares para prefeito.Flávio Bolsonaro (PL)\nÀ noite, após o Jornal Nacional, o candidato participa de sabatina da TV Globo, nos estúdios da emissora, no Rio de Janeiro.\n\nA ordem de apresentação da agenda dos candidatos a presidente segue alternância diária.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos à Presidência da República que disputam o segundo turno das eleições gerais cumprem agenda em Minas Gerais e no Rio de Janeiro, nesta sexta-feira (16).<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705536&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705536&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Luiz Inácio Lula da Silva (PT)</strong><br/>\nParticipa de caminhada em Juiz de Fora (MG), ao meio dia. Em seguida, às 17h, haverá ato de campanha em Ipatinga (MG).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Flávio Bolsonaro (PL)</strong><br/>\nÀ noite, após o Jornal Nacional, o candidato participa de sabatina da TV Globo, nos estúdios da emissora, no Rio de Janeiro.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ordem de apresentação da agenda dos candidatos a presidente segue alternância diária.</p>",
-      "imagem": "https://imagens.ebc.com.br/Qjn25j4kWuBB0OOSqVFyv-s7K54=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/banner_agenda_-_1170x700.png?itok=KJR_nOUL",
-      "slug": "confira-a-agenda-dos-presidenciaveis-nesta-sexta-feira-16",
-      "pagina_local": "confira-a-agenda-dos-presidenciaveis-nesta-sexta-feira-16.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-sexta-feira-16",
-      "categoria": "Política & Leis",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-170-milhoes-neste-domingo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/professora-aposentada-da-ufrj-e-baleada-em-assalto-na-zona-sul-do-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/tres-suspeitos-sao-mortos-pela-policia-militar-em-assalto-casa-em-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/sao-paulo-tera-mais-chuvas-fortes-no-fim-da-tarde-desta-quinta-15",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-170-milhoes-confira-os-numeros-sorteados",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/parte-do-teto-de-tunel-da-camara-desabou-nesta-quarta-feira",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ccj-do-senado-conclui-votacao-da-pec-da-seguranca-publica",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -390,7 +390,33 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
+    },
+    {
+      "titulo": "Rio: reserva marinha alia proteção ambiental com atividades econômicas",
+      "resumo": "A cidade do Rio de Janeiro agora conta com uma reserva de desenvolvimento sustentável de 3 mil hectares comNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% n...",
+      "conteudo_completo": "A cidade do Rio de Janeiro agora conta com uma reserva de desenvolvimento sustentável de 3 mil hectares comNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. ambientes marinhos, ilhas e costões rochosos que servem de habitat para diversas espécies da fauna e flora, inclusive algumas ameaçadas de extinção.Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\nCriada nesta semana, a Reserva de Desenvolvimento Sustentável Estadual Marinha Urupirá ficaNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. na zona oeste da capital eNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. se estende da ilhota do Frade, em Guaratiba,Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. até a Pedra do Pontal, no Recreio. A ideia éNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. proteger os ecossistemas marinhos e costeiros e ao mesmo tempoNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. garantir condições para a manutenção de atividades econômicas como a pesca artesanal e o turismo sustentável.Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\nNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\n\n            \n        \n    \nReserva marinha alia proteção ambiental com atividades econômicasNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. - Divulgação do governo do estado do Rio\n\n\nNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\n\"É um passo fundamental para o cumprimento das metas que o Brasil aderiu em relação à Convenção para Proteção da Biodiversidade. São conhecidas como metas 30x30, que é ter 30% do seu território protegido dentro de unidades de conservação\", afirma o secretário estadual do Ambiente e Sustentabilidade, RodrigoNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. Mascarenhas.\n\nEstabelecida na COP-15 da Biodiversidade, em Montreal, no Canadá, em 2022, a meta 30x30 prevê que 30% da superfície terrestre, mar e águas interiores do país façam parte de unidades de conservação, até 2030.\n\n\n\"É uma meta que o Estado já alcançou no que se refere à proteção da parte terrestre do seu território. A outra meta é de ter 30% das águas jurisdicionais de cada país, também protegidas\", destaca o secretário.\n\n\nA categoria de Reserva de Desenvolvimento Sustentável (RDS) permite conciliar a conservação com as atividades tradicionais.Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. De acordo com o projeto Ilhas do Rio, mantido por uma organização da sociedade civil, que participou da criação da unidade de conservação,Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. as comunidades pesqueiras participam da gestão da área.\n\nAlém disso, estão previstas ações como monitoramento participativo dos recursos pesqueiros e dos ecossistemas, pesquisas científicas, educação ambiental, fiscalização reforçada e desenvolvimento ordenado do ecoturismo e da visitação, segundo o Ilhas do Rio.\n\nLevantamento\n\nEstudo técnico feito peloNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. Ilhas do RioNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta.  para embasar a criação da reserva identificou, por exemplo, 102 espécies de peixes que habitam recifes de corais, das quais três são endêmicas do país. Trinta e nove espécies do ecossistema da região são de interesse de pescadores, como garoupas (Epinephelus sp.), corvinas (Micropogonias furnieri), sargos (Anisotremus surinamensis), robalosNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta.  (Centropomus sp.) e xaréus (família Carangidae).\n\nTambém foram identificadas 143 espécies de organismos que vivem no leito do mar, os chamados seres bentônicos, como polvos e lagostas de alto valor pesqueiro. Nesse ambiente, ainda foramNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. encontradas espécies ameaçadas de extinção, como o coral-cérebro (Mussismilia hispida), a estrela-do-mar Astropecten brasiliensis e o ouriço-lilás (Lytechinus variegatus).Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\n\"Esses estudos mostraram que a região, as ilhas, os costões rochosos, áreas rasas, elas são muito importantes para as espécies de peixe, por exemplo, espécies ameaçadas como garoupas e chernes [Hyporthodus niveatus], sãoNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. locais onde aquelas espécies estão se reproduzindo. Ao mesmo tempo, a gente tinha esse conhecimento que existiam as comunidades locais de pesca tradicional, que tinham aquilo ali como um território de pesca. Então, é muito importante você balancear e entender quem são as pessoas que dependem daquele território e proteger esses usos também\", explica a gerente de pesquisas do Ilhas do Rio, Aline Aguiar.\n\nNessa parte do litoral também transitam espécies ameaçadas como aNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. baleia-jubarte (Megaptera novaeangliae)Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. eNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta.  e as tartarugas-marinhasNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. cabeçuda (Caretta caretta), de pente (Eretmochelys imbricata), oliva (Lepidochelys olivacea) e de couro (Dermochelys coriacea).\n\nHá também aves ameaçadas que frequentam o local, como o trinta-réis-de-bico-vermelho (Sterna hirundinacea) e trinta-réis-de-bando (Thalasseus acuflavidus), e invertebradosNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. como a borboleta-da-praia (Parides ascanius) e a formiga Atta robusta.Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. \n\nNotícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. Notícias relacionadas:Chuvas provocam alagamentos e deslizamentos pelo interior paulista.Desmatamento cai 41,8% na Amazônia e 23,8% no Cerrado em um ano.Manaus é capital com maior poluição atmosférica do país nesta sexta. Segundo o governo fluminense, o nome Urupirá resgata a memória histórico-cultural da região. De origem indígena, a palavra é uma designação ancestral atribuída à atual Ilha das Palmas e remete à expressão “cesto do peixe”, em referência à identidade pesqueira do território.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A cidade do Rio de Janeiro agora conta com uma reserva de desenvolvimento sustentável de 3 mil hectares com ambientes marinhos, ilhas e costões rochosos que servem de habitat para diversas espécies da fauna e flora, inclusive algumas ameaçadas de extinção. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705661&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705661&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Criada nesta semana, a Reserva de Desenvolvimento Sustentável Estadual Marinha Urupirá fica na zona oeste da capital e se estende da ilhota do Frade, em Guaratiba, até a Pedra do Pontal, no Recreio. A ideia é proteger os ecossistemas marinhos e costeiros e ao mesmo tempo garantir condições para a manutenção de atividades econômicas como a pesca artesanal e o turismo sustentável. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"É um passo fundamental para o cumprimento das metas que o Brasil aderiu em relação à Convenção para Proteção da Biodiversidade. São conhecidas como metas 30x30, que é ter 30% do seu território protegido dentro de unidades de conservação\", afirma o secretário estadual do Ambiente e Sustentabilidade, Rodrigo Mascarenhas.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Estabelecida na COP-15 da Biodiversidade, em Montreal, no Canadá, em 2022, a meta 30x30 prevê que 30% da superfície terrestre, mar e águas interiores do país façam parte de unidades de conservação, até 2030.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>\"É uma meta que o Estado já alcançou no que se refere à proteção da parte terrestre do seu território. A outra meta é de ter 30% das águas jurisdicionais de cada país, também protegidas\", destaca o secretário.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"É uma meta que o Estado já alcançou no que se refere à proteção da parte terrestre do seu território. A outra meta é de ter 30% das águas jurisdicionais de cada país, também protegidas\", destaca o secretário.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A categoria de Reserva de Desenvolvimento Sustentável (RDS) permite conciliar a conservação com as atividades tradicionais. De acordo com o projeto Ilhas do Rio, mantido por uma organização da sociedade civil, que participou da criação da unidade de conservação, <strong>as comunidades pesqueiras participam da gestão da área.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além disso, estão previstas ações como monitoramento participativo dos recursos pesqueiros e dos ecossistemas, pesquisas científicas, educação ambiental, fiscalização reforçada e desenvolvimento ordenado do ecoturismo e da visitação, segundo o Ilhas do Rio.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Levantamento</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Estudo técnico feito pelo Ilhas do Rio  para embasar a criação da reserva identificou, por exemplo, 102 espécies de peixes que habitam recifes de corais, das quais três são endêmicas do país. Trinta e nove espécies do ecossistema da região são de interesse de pescadores, como garoupas (<em>Epinephelus sp</em>.), corvinas (<em>Micropogonias furnieri</em>), sargos (<em>Anisotremus surinamensis</em>), robalos  (<em>Centropomus sp</em>.) e xaréus (<em>família Carangidae</em>).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também foram identificadas 143 espécies de organismos que vivem no leito do mar, os chamados seres bentônicos, como polvos e lagostas de alto valor pesqueiro. Nesse ambiente, ainda foram encontradas espécies ameaçadas de extinção, como o coral-cérebro (<em>Mussismilia hispida</em>), a estrela-do-mar <em>Astropecten brasiliensis</em> e o ouriço-lilás (<em>Lytechinus variegatus</em>). </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Esses estudos mostraram que a região, as ilhas, os costões rochosos, áreas rasas, elas são muito importantes para as espécies de peixe, por exemplo, espécies ameaçadas como garoupas e chernes [<em>Hyporthodus niveatus</em>], são locais onde aquelas espécies estão se reproduzindo. Ao mesmo tempo, a gente tinha esse conhecimento que existiam as comunidades locais de pesca tradicional, que tinham aquilo ali como um território de pesca. Então, é muito importante você balancear e entender quem são as pessoas que dependem daquele território e proteger esses usos também\", explica a gerente de pesquisas do Ilhas do Rio, Aline Aguiar.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nessa parte do litoral também transitam espécies ameaçadas como a baleia-jubarte (<em>Megaptera novaeangliae</em>) e  e as tartarugas-marinhas cabeçuda (<em>Caretta caretta</em>), de pente (Eretmochelys imbricata), oliva (<em>Lepidochelys olivacea</em>) e de couro (<em>Dermochelys coriacea</em>).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Há também aves ameaçadas que frequentam o local, como o trinta-réis-de-bico-vermelho (<em>Sterna hirundinacea</em>) e trinta-réis-de-bando (<em>Thalasseus acuflavidus</em>), e invertebrados como a borboleta-da-praia (<em>Parides ascanius</em>) e a formiga Atta robusta. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>  Segundo o governo fluminense, o nome Urupirá resgata a memória histórico-cultural da região. De origem indígena, a palavra é uma designação ancestral atribuída à atual Ilha das Palmas e remete à expressão “cesto do peixe”, em referência à identidade pesqueira do território.</p>",
+      "imagem": "https://imagens.ebc.com.br/WhEvS3FHzoYJHspFiX3QJxEMgOw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/17/whatsapp_image_2026-10-17_at_12.41.23.jpeg?itok=J12aEGEv",
+      "slug": "rio-reserva-marinha-alia-protecao-ambiental-com-atividades-economicas",
+      "pagina_local": "rio-reserva-marinha-alia-protecao-ambiental-com-atividades-economicas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/rio-reserva-marinha-alia-protecao-ambiental-com-atividades-economicas",
+      "categoria": "Últimas Notícias",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "17/10/2026 às 19:10"
+    },
+    {
+      "titulo": "Recife vai sediar maior festival de animação do Brasil, o Animage",
+      "resumo": "Amantes de filmes de animação vão se encontrar em novembro no 16º Festival Animage, em Recife. A mostra é a maior do país para esse tipo de filme e um dos mais importantes da América Latina. \n\nEste ano, o festival traz duas grandes novidade...",
+      "conteudo_completo": "Amantes de filmes de animação vão se encontrar em novembro no 16º Festival Animage, em Recife. A mostra é a maior do país para esse tipo de filme e um dos mais importantes da América Latina. \n\nEste ano, o festival traz duas grandes novidades: a mostra competitiva para longas-metragens e o Animage Conecta, com programação voltada para proporcionar ambiente de negócios na área de animação e pensar os desafios e o futuro do setor.   \n\nNotícias relacionadas:Mostra Internacional de Cinema de SP começa nesta quinta-feira.A Margem do Rio e Elza vencem principais prêmios do Festival do Rio.A programação inclui reuniões de negócios, sessões de pitching com projetos de seis países e debates sobre os desafios da animação brasileira, com temas como distribuição, inteligência artificial e coprodução internacional.\n\nOficinas\n\nA programação do Animage Conecta contará ainda com seis oficinas abertas ao público com um total de 90 vagas. As inscrições começam no próximo dia 19 e vão até 29 de outubro. \n\nHaverá ainda duas masterclasses com profissionais premiados. No dia da abertura, 20 de novembro, a aula será com a animadora e diretora norte-americana Sarah de Gaudemar. \n\nCom mais de duas décadas de experiência, Sarah Gaudemar venceu um Emmy do Primetime com o filme Frango Robô e participou de produções como Coraline, Anomalisa e Wendell & Wild e Lego Batman: o Filme. \n\nNo dia 22, haverá uma masterclass com o diretor Hugo Covarrubias, do curta Bestia, indicado ao Oscar de Melhor Curta-metragem de Animação em 2022. \n\nTambém vão participar do festival os cineastas Marco Nguyen, diretor do longa Jim Queen, e Otto Guerra, um dos diretores do filme O Filho da Puta. \n\nA Agência Brasil estará no Festival Animage. \n\nServiço\n\nFestival Animage: 20 a 29/11\n\nAnimage Conecta: 20 a 23/11\n\nLocal: Recife",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Amantes de filmes de animação vão se encontrar em novembro no <a href=\"https://animagefestival.com/\" target=\"_blank\">16º Festival Animage</a>, em Recife. <strong>A mostra é a maior do país para esse tipo de filme e um dos mais importantes da América Latina.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705658&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705658&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Este ano, o festival traz duas grandes novidades: a mostra competitiva para longas-metragens e o Animage Conecta, com programação voltada para proporcionar ambiente de negócios na área de animação e pensar os desafios e o futuro do setor.   </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A programação inclui reuniões de negócios, sessões de pitching com projetos de seis países</strong> e debates sobre os desafios da animação brasileira, com temas como distribuição, inteligência artificial e coprodução internacional.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Oficinas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A programação do Animage Conecta contará ainda com seis oficinas abertas ao público com um total de 90 vagas. As inscrições começam no próximo dia 19 e vão até 29 de outubro. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Haverá ainda duas masterclasses com profissionais premiados.</strong> No dia da abertura, 20 de novembro, a aula será com a animadora e diretora norte-americana Sarah de Gaudemar. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com mais de duas décadas de experiência, Sarah Gaudemar venceu um Emmy do Primetime com o filme <em>Frango Robô</em> e participou de produções como <em>Coraline</em>, <em>Anomalisa</em> e <em>Wendell &amp; Wild</em> e <em>Lego Batman: o Filme.</em> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No dia 22, haverá uma masterclass com o diretor Hugo Covarrubias, do curta <em>Bestia</em>, indicado ao Oscar de Melhor Curta-metragem de Animação em 2022. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também vão participar do festival os cineastas Marco Nguyen, diretor do longa <em>Jim Queen</em>, e Otto Guerra, um dos diretores do filme <em>O Filho da Puta</em>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <strong>Agência Brasil</strong> estará no Festival Animage. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Serviço</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Festival Animage: 20 a 29/11</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Animage Conecta: 20 a 23/11</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Local: Recife</p>",
+      "imagem": "https://imagens.ebc.com.br/Y4Wqbh05t7H0cmzJtJT2WSlIdMg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/17/sem_titulo-2_0.jpg?itok=8vv9uR6o",
+      "slug": "recife-vai-sediar-maior-festival-de-animacao-do-brasil-o-animage",
+      "pagina_local": "recife-vai-sediar-maior-festival-de-animacao-do-brasil-o-animage.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-10/recife-vai-sediar-maior-festival-de-animacao-do-brasil-o-animage",
+      "categoria": "Últimas Notícias",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Chuvas provocam alagamentos e deslizamentos pelo interior paulista",
@@ -403,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-provocam-alagamentos-e-deslizamentos-pelo-interior-paulista",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Estudantes desenvolvem plataformas para combater a desinformação",
@@ -416,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/estudantes-desenvolvem-plataformas-para-combater-desinformacao",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Duelo de Guitarras, da TV Brasil, termina com perfil do campeão",
@@ -429,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-10/duelo-de-guitarras-da-tv-brasil-termina-com-perfil-do-campeao",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Libertadores Feminina: Cruzeiro resiste à altitude e vence na estreia",
@@ -442,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/libertadores-feminina-cruzeiro-resiste-altitude-e-vence-na-estreia",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     },
     {
       "titulo": "Alunos e professores participam hoje de Olimpíada de Matemática",
@@ -455,20 +481,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/olimpiadas-de-matematica-reunem-alunos-e-professores-no-rio-de-janeiro",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
-    },
-    {
-      "titulo": "Com um a mais, Mirassol vence e complica Internacional no Brasileirão",
-      "resumo": "Em confronto direto na luta para fugir da queda à Série B, melhor para o Mirassol. O Leão Caipira superou o Internacional por 2 a 0 no Maião, em duelo que abriu, nesta sexta-feira (16), a 31ª rodada do Campeonato Brasileiro.\n\nA equipe pauli...",
-      "conteudo_completo": "Em confronto direto na luta para fugir da queda à Série B, melhor para o Mirassol. O Leão Caipira superou o Internacional por 2 a 0 no Maião, em duelo que abriu, nesta sexta-feira (16), a 31ª rodada do Campeonato Brasileiro.\n\nA equipe paulista subiu para o 14º lugar, com 36 pontos. São quatro de vantagem para o próprio Colorado, primeiro time na zona de rebaixamento - que envolve as quatro piores campanhas da competição (o Z-4).\n\nNotícias relacionadas:Copa do Brasil Feminina: Bahia vence São Paulo pelas quartas de final.Surfe: Yago Dora, Ítalo Ferreira e Medina vão às quartas em Peniche .Com 32 pontos, o time gaúcho é o 17º colocado e pode cair uma posição se o arquirrival Grêmio derrotar o Cruzeiro neste domingo (18), às 16h (horário de Brasília), na Arena, em Porto Alegre.\n\nA missão colorada em Mirassol (SP) ficou mais difícil do que já seria com 14 minutos de jogo. O goleiro Matheus Cunha saiu da área para tentar se antecipar ao atacante Bruno Santos, mas chegou atrasado e derrubou o adversário, levando cartão vermelho direto.\n\nO Mirassol demorou a fazer valer a superioridade numérica. A melhor chance da etapa inicial foi com Eduardo, no rebote de uma cobrança de falta do lateral Reinaldo que o goleiro Kauan Jesus - que entrou em campo devido à expulsão de Matheus Cunha - defendeu. O meia acertou o travessão.\n\nNo começo do segundo tempo, porém, Eduardo teve melhor sorte. Aos dois minutos, o meia aproveitou o cruzamento rasteiro do atacante Edson Carioca pela direita e chutou no canto de Kauan Jesus.\n\nMesmo com um a menos, o Inter tentou a reação e pressionou os donos da casa. Aos 31, o zagueiro Bruno Gomes acertou o travessão. Aos 37 e aos 38 minutos, o atacante João Bezerra teve duas grandes chances, parando no goleiro Walter e, depois, no zagueiro João Victor, que salvou em cima da linha.\n\nNo contra-ataque, o Mirassol liquidou a partida. Aos 41, Fernandinho acionou o também atacante André Luis, que bateu na saída de Kauan Jesus para assegurar os três pontos à equipe do interior.\n\nNos acréscimos, Reinaldo poderia ter ampliado, mas cobrou pênalti no travessão. Acabou não fazendo falta.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Em confronto direto na luta para fugir da queda à Série B, melhor para o Mirassol. O Leão Caipira superou o Internacional por 2 a 0 no Maião, em duelo que abriu, nesta sexta-feira (16), a 31ª rodada do Campeonato Brasileiro.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705649&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705649&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A equipe paulista subiu para o 14º lugar, com 36 pontos. São quatro de vantagem para o próprio Colorado, primeiro time na zona de rebaixamento - que envolve as quatro piores campanhas da competição (o Z-4).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com 32 pontos, o time gaúcho é o 17º colocado e pode cair uma posição se o arquirrival Grêmio derrotar o Cruzeiro neste domingo (18), às 16h (horário de Brasília), na Arena, em Porto Alegre.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A missão colorada em Mirassol (SP) ficou mais difícil do que já seria com 14 minutos de jogo. O goleiro Matheus Cunha saiu da área para tentar se antecipar ao atacante Bruno Santos, mas chegou atrasado e derrubou o adversário, levando cartão vermelho direto.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Mirassol demorou a fazer valer a superioridade numérica. A melhor chance da etapa inicial foi com Eduardo, no rebote de uma cobrança de falta do lateral Reinaldo que o goleiro Kauan Jesus - que entrou em campo devido à expulsão de Matheus Cunha - defendeu. O meia acertou o travessão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No começo do segundo tempo, porém, Eduardo teve melhor sorte. Aos dois minutos, o meia aproveitou o cruzamento rasteiro do atacante Edson Carioca pela direita e chutou no canto de Kauan Jesus.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo com um a menos, o Inter tentou a reação e pressionou os donos da casa. Aos 31, o zagueiro Bruno Gomes acertou o travessão. Aos 37 e aos 38 minutos, o atacante João Bezerra teve duas grandes chances, parando no goleiro Walter e, depois, no zagueiro João Victor, que salvou em cima da linha.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No contra-ataque, o Mirassol liquidou a partida. Aos 41, Fernandinho acionou o também atacante André Luis, que bateu na saída de Kauan Jesus para assegurar os três pontos à equipe do interior.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nos acréscimos, Reinaldo poderia ter ampliado, mas cobrou pênalti no travessão. Acabou não fazendo falta.</p>",
-      "imagem": "https://imagens.ebc.com.br/WlbtsgqvP2cr7KABC3TJD8bEaAg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/mirassol_.jpeg?itok=huS43RJt",
-      "slug": "com-um-a-mais-mirassol-vence-e-complica-internacional-no-brasileirao",
-      "pagina_local": "com-um-a-mais-mirassol-vence-e-complica-internacional-no-brasileirao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/com-um-mais-mirassol-vence-e-complica-internacional-no-brasileirao",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 16:16"
+      "coletado_em": "17/10/2026 às 19:10"
     }
   ]
 };
