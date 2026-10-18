@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "18/10/2026 às 14:25:47",
+  "ultima_atualizacao": "18/10/2026 às 17:57:02",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:56"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -130,7 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
+    },
+    {
+      "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
+      "resumo": "O concurso 3.071 da Mega-sena acumulou já que nenhuma aposta acertou as seis dezenas sorteadas na manhã deste domingo (18). Com isso, o prêmio estimado para o concurso de terça-feira (20) deve chegar a R$ 185 milhões.\n\nO...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O concurso 3.071 da Mega-sena acumulou já que nenhuma aposta acertou as seis dezenas sorteadas na manhã deste domingo (18). Com isso, o prêmio estimado para o concurso de terça-feira (20) deve chegar a R$ 185 milhões.\n\nOs números sorteados no Espaço da Sorte, em São Paulo foram: 12, 22, 41, 45, 51 e 52.\n\nNesta edição, 102 apostas acertaram cinco dezenas e levarão prêmio de R$ 58.806 cada.\n\nJá as 7.381 apostas vencedoras da quadra (quatro acertos) receberão R$ 1.339 cada.\n\nPrêmio\n\nO resgate de prêmios da Mega-Sena depende do valor e de como a aposta foi realizada. Para prêmios até R$ 2.428, o valor pode ser retirado em qualquer casa lotérica credenciada, mediante apresentação do bilhete impresso.\n\nO pagamento de prêmios de apostas realizadas no site da Caixa, independentemente do valor, deve ser feito nas agências bancárias da instituição\n\nO resgate deve ser feito pelo titular indicado no comprovante de aposta ou por seu procurador, mediante apresentação de comprovante de identidade com Cadastro de Pessoa Física (CPF) e o recibo da aposta emitido pelo Internet Banking CAIXA.\n\nSe não forem resgatados, os prêmios prescrevem 90 dias após a data do sorteio.\n\nPróximo concurso\n\nO concurso 3.072 corre daqui a dois dias, nesta terça-feira, às 21h. As apostas podem ser feitas até as 20 horas do dia do sorteio, no horário de Brasília, nas lotéricas de todo o país, no portal Loterias Caixa e no app Loterias Caixa, além do banco para clientes do banco.\n\nUma aposta simples custa R$ 6.\n\nBolão Caixa\n\nOs apostadores também podem participar de bolões. Basta formar um grupo, escolher os números da aposta, marcar a quantidade de cotas e registrar o jogo em qualquer lotérica.</p>",
+      "imagem": "https://imagens.ebc.com.br/4FxaKp-ufKrP2KKeqa46Ii_CIGc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/23/mega-sena-30-anos-mc_abr_23052026-5.jpg?itok=YvaILHK7",
+      "slug": "mega-sena-acumula-premio-pode-chegar-a-r-185-milhoes-na-terca-feira",
+      "pagina_local": "mega-sena-acumula-premio-pode-chegar-a-r-185-milhoes-na-terca-feira.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-premio-pode-chegar-r-185-milhoes-na-terca-feira",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
-    },
-    {
-      "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
-      "resumo": "A Mega-Sena sorteia nesta quarta-feira (14) prêmio estimado em R$ 150 milhões. As seis dezenas do concurso 3.070 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Mega-Sena sorteia nesta quarta-feira (14) prêmio estimado em R$ 150 milhões. As seis dezenas do concurso 3.070 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser feitas até às 20h (horário de Brasília) de hoje em casas lotéricas credenciadas pela Caixa em todo o país ou pela internet, no site ou aplicativo da Caixa. A aposta simples, com seis dezenas, custa R$ 6.\n\nNotícias relacionadas:Mega-Sena acumula para R$ 150 milhões; confira os números sorteados .No último concurso, foram sorteados os números 05 - 19 - 22 - 44 - 47 e 57. e nenhum apostador acertou as seis dezenas.\n\nCalendário\n\nTradicionalmente, os sorteios da Mega-sena são realizados às terças-feiras, quintas-feiras e domingos. A mudança no calendário nesta semana ocorre por causa do feriado de Nossa Senhora Aparecida, celebrado na segunda-feira (12).  \n\n​Entre os dias 26 e 30 de outubro de 2026, acontecerá a Mega Semana da Mega Sena. A ação promoverá cinco sorteios consecutivos correspondentes aos concursos 3076, 3077, 3078, 3079 e 3080.</p>",
-      "imagem": "https://imagens.ebc.com.br/lsrLdv4veqHb5D11g2-YVnn3gEE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamg_abr_08052019_8683_1.jpg?itok=Qn6CX8iL",
-      "slug": "mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
-      "pagina_local": "mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 14:25"
+      "coletado_em": "18/10/2026 às 17:57"
     }
   ]
 };
