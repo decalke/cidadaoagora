@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "17/10/2026 às 22:07:23",
+  "ultima_atualizacao": "18/10/2026 às 00:47:20",
   "total": 37,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:46"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:46"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:46"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-deve-voltar-ser-8a-maior-economia-do-mundo-em-2027-preve-fmi",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/atividade-economica-tem-alta-de-03-em-agosto-mostra-ibc-br",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-lula-e-flavio-divergem-sobre-ajuste-fiscal-e-papel-do-estado",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/seguranca-alimentar-exige-esforco-coletivo-e-articulacao",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-115-e-fecha-r-509-em-dia-de-cautela",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -130,20 +130,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estaleiro-no-rs-comeca-construir-navios-encomendados-pela-transpetro",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Mais de 4 mil seções eleitorais tiveram locais de votação alterados",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a s...",
-      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”. \n\nDe acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
+      "resumo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a s...",
+      "conteudo_completo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”. \n\nDe acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
       "imagem": "https://imagens.ebc.com.br/B2rIudFK9nh9TKcgAQvZXOlfSEU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/sem_titulo-5.jpg?itok=e7HGr7Fb",
       "slug": "mais-de-4-mil-secoes-eleitorais-tiveram-locais-de-votacao-alterados",
       "pagina_local": "mais-de-4-mil-secoes-eleitorais-tiveram-locais-de-votacao-alterados.html",
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mais-de-4-mil-secoes-eleitorais-tiveram-locais-de-votacao-alterados",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/jose-sarney-recebe-alta-hospitalar-apos-nove-dias-de-internacao",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/abstencao-de-eleitores-com-mais-de-70-anos-cai-97-pontos-percentuais",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-sabatina-flavio-nao-explica-propostas-e-faz-acusacoes-sem-provas",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-faz-campanha-em-mg-e-celebra-fim-da-jornada-6x1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-homenageia-paim-no-fim-da-6x1-entenda-motivo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-de-aposentadoria-especial-de-agente-de-saude",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/saiba-quando-comeca-valer-o-fim-da-escala-6-por-1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/descanso-de-trabalhador-nao-quebra-empresas-diz-lula-apos-fim-da-6x1",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -260,7 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-170-milhoes-neste-domingo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/professora-aposentada-da-ufrj-e-baleada-em-assalto-na-zona-sul-do-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/tres-suspeitos-sao-mortos-pela-policia-militar-em-assalto-casa-em-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/sao-paulo-tera-mais-chuvas-fortes-no-fim-da-tarde-desta-quinta-15",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-170-milhoes-confira-os-numeros-sorteados",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/parte-do-teto-de-tunel-da-camara-desabou-nesta-quarta-feira",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ccj-do-senado-conclui-votacao-da-pec-da-seguranca-publica",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Mega-Sena sorteia hoje prêmio acumulado de R$ 150 milhões",
@@ -390,7 +390,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-hoje-premio-acumulado-de-r-150-milhoes",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Partido Novo entra com ação no TSE contra atos musicais por democracia",
@@ -403,7 +403,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/partido-novo-entra-com-acao-no-tse-contra-atos-musicais-por-democracia",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Justiça Federal manda Meta restabelecer contas estudantis do RS",
@@ -416,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-federal-manda-meta-restabelecer-contas-estudantis-do-rs",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Festival de Cinema valoriza produções de crianças e adolescentes",
@@ -429,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-10/festival-de-cinema-valoriza-producoes-de-criancas-e-adolescentes",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Organizações promovem ação de empregabilidade para refugiados",
@@ -442,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/organizacoes-promovem-acao-de-empregabilidade-para-refugiados",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Rio: reserva marinha alia proteção ambiental com atividades econômicas",
@@ -455,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/rio-reserva-marinha-alia-protecao-ambiental-com-atividades-economicas",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Recife vai sediar maior festival de animação do Brasil, o Animage",
@@ -468,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-10/recife-vai-sediar-maior-festival-de-animacao-do-brasil-o-animage",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Chuvas provocam alagamentos e deslizamentos pelo interior paulista",
@@ -481,7 +481,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-provocam-alagamentos-e-deslizamentos-pelo-interior-paulista",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     }
   ]
 };

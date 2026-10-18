@@ -1,12 +1,12 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "17/10/2026 às 22:07:34",
+  "ultima_atualizacao": "18/10/2026 às 00:47:30",
   "total": 30,
   "politica": [
     {
       "titulo": "Mais de 4 mil seções eleitorais tiveram locais de votação alterados",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a s...",
-      "conteudo_completo": "O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”. \n\nDe acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Superior Eleitoral (TSE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TSE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TSE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o TSE, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das alterações de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TSE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
+      "resumo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a s...",
+      "conteudo_completo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”. \n\nDe acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
       "imagem": "https://imagens.ebc.com.br/B2rIudFK9nh9TKcgAQvZXOlfSEU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/sem_titulo-5.jpg?itok=e7HGr7Fb",
       "slug": "mais-de-4-mil-secoes-eleitorais-tiveram-locais-de-votacao-alterados",
       "pagina_local": "mais-de-4-mil-secoes-eleitorais-tiveram-locais-de-votacao-alterados.html",
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Saiba quando começa a valer o fim da escala 6x1",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Partido Novo entra com ação no TSE contra atos musicais por democracia",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Justiça Federal manda Meta restabelecer contas estudantis do RS",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Segurança alimentar exige esforço coletivo e articulação",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Dólar sobe 1,15% e fecha a R$ 5,09 em dia de cautela",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     },
     {
       "titulo": "Estaleiro no RS começa a construir navios encomendados pela Transpetro",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "17/10/2026 às 22:07"
+      "coletado_em": "18/10/2026 às 00:47"
     }
   ]
 };
