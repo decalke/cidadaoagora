@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "18/10/2026 às 17:57:02",
+  "ultima_atualizacao": "18/10/2026 às 20:30:12",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
+      "resumo": "As atividades relacionadas ao setor de minerais críticos e estratégicos (MCE) para o Brasil somaram 129.423 empregos, em 2025, o equivalente a 57% dos 226.634 empregos da indústria extrativa mineral do país. \n\nQuando com...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As atividades relacionadas ao setor de minerais críticos e estratégicos (MCE) para o Brasil somaram 129.423 empregos, em 2025, o equivalente a 57% dos 226.634 empregos da indústria extrativa mineral do país. \n\nQuando comparado ao mesmo mercado de trabalho registrado em 2023, houve crescimento de 8,6% no período.\n\nNotícias relacionadas:Brasil cria política para ampliar produção de minerais críticos.Mineradoras elogiam, mas municípios criticam PL de minerais críticos.Os dados estão disponíveis no Portal de Minerais Críticos e Estratégicos, lançado na última semana pela Agência Nacional de Mineração (ANM).\n\nAs unidades da federação que mais empregam são Minas Gerais (62.631 postos de trabalho); Pará (27.047); e Bahia (9.147).\n\nAlém dos dados sobre empregos, o painel permite consultar informações sobre o perfil dos trabalhadores, remuneração média e as 21 substâncias relacionadas a essas atividades, entre elas, alumínio, ouro, ferro, cobre, terras-raras, nióbio, titânio e lítio.\n\nA análise do mercado formal de trabalho da indústria extrativa mineral da plataforma foi realizada a partir dos microdados da Relação Anual de Informações Sociais (Rais) e do Novo Cadastro Geral de Empregados e Desempregados (Novo Caged), disponibilizados pelo Ministério do Trabalho e Emprego (MTE).\n\nPerfil dos trabalhadores\n\nDe acordo com os dados do portal, a participação masculina (100.765 empregos) equivale a 78% do total de empregos relacionados a minerais críticos e estratégicos (129.423). As mulheres ocupam os 22% restantes, 28.658 postos.\n\nNo gráfico de empregos, relacionados aos MCE, 51.714 são de mão de obra qualificada, o equivalente a 23% de todos os empregos.\n\nOs trabalhadores com ensino superior somam 30.707, que representa 14%. Destes mais de 30 mil postos de trabalho, 19.060 são ocupados por homens e 11.647, por mulheres.\n\nQuando considerados os empregos gerados por tipo de mineral, o extrativismo que mais emprega é do ferro (70.027 postos de trabalho). Seguido por metais preciosos que somam 21.313 empregos.\n\nRemuneração\n\nEm 2025, as remunerações médias dos trabalhadores de níveis de escolaridade fundamental, médio e superior foram respectivamente de R$ 3.218; R$ 4.142 e R$ 11.856.\n\nLocalidades\n\nO portal também mostra a distribuição territorial dos municípios produtores com um mapa geoespacial.\n\nEntre os municípios com maior número de trabalhadores em atividades relacionadas aos MCE estão Parauapebas (PA), com 8.234 empregos; Nova Lima (MG), com 8.218; e Congonhas (MG), com 7.114.\n\nEm Parauapebas, são 8.234 trabalhadores (71,4% do gênero masculino e 28,6% do gênero feminino), sendo 1.851 com nível superior.\n\nEm Nova Lima, dos 8.218 empregados (63,3% do gênero masculino e 36,7% do gênero feminino), 4.776 tem nível superior.\n\nEm Congonhas, são 7.114 trabalhadores (73,2% do gênero masculino e 26,8% gênero feminino), sendo 1.234 trabalhadores com nível superior.\n\nProdução\n\nPara contribuir com a transparência e a divulgação de informações sobre o desempenho da mineração no país, o site apresenta informações de exploração, valor investido e produção e comércio exterior.\n\nDe acordo com os indicadores, em 2025 o país tinha 1.012 áreas em produção que resultaram em R$ 250,4 bilhões ao país.</p>",
+      "imagem": "https://imagens.ebc.com.br/1G0laUv1Nd3sz6xaakOAyJeFCKk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/04/22/sigma-lithium-litio-jequitinhonh.jpeg?itok=E_oW8sHb",
+      "slug": "minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
+      "pagina_local": "minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "18/10/2026 às 20:30"
+    },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
       "resumo": "A segunda rodada da chamada Mais Inovação Brasil Subvenção Econômica, edital da Financiadora de Estudos e Projetos (Finep) terá um total de R$ 450 milhões em recursos não reembolsáveis para empresas de todos os portes qu...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:56"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -117,20 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
-    },
-    {
-      "titulo": "Segurança alimentar exige esforço coletivo e articulação",
-      "resumo": "Produtores da agricultura familiar e líderes de cozinhas solidárias comemoram o Dia Mundial da Alimentação, nesta sexta-feira (16), com a certeza de que é possível manter o Brasil fora do Mapa da Fome por meio do esforço...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Produtores da agricultura familiar e líderes de cozinhas solidárias comemoram o Dia Mundial da Alimentação, nesta sexta-feira (16), com a certeza de que é possível manter o Brasil fora do Mapa da Fome por meio do esforço coletivo.\n\nEm julho deste ano, a Organização das Nações Unidas reafirmou que o país manteve abaixo de 2,5% o percentual da população subnutrida nos últimos três anos.\n\nNotícias relacionadas:Combustíveis e agricultura familiar recebem quase R$ 7 bi em créditos .Prêmio para produção acadêmica destaca agricultura familiar.Isso foi possível graças ao trabalho de pessoas como dona Maria do Cerrado, liderança comunitária à frente da Cozinha Solidária Cantinho da Vovó, em Brasília, que alimenta mais de 800 pessoas em situação de vulnerabilidade.\n\n\n            \n        \n    \n Dona Maria, da cozinha solidária Comidinhas da Vovó, em Brasília, entrega cestas básicas a famílias vulneráveis. Foto Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\nTrês vezes por semana, dona Maria e outros 37 voluntários se revezam na separação, no armazenamento e no preparo dos alimentos, na arrumação das mesas e na recepção daqueles que chegam em busca não só de alimento, mas também de acolhimento.\n\nDona Maria diz que muitos problemas familiares e até mesmo casos de violência são solucionados em volta da mesa.\n\n\n“É o momento em que a gente se aproxima para conversar aqui dentro desse espaço que alimenta, onde a gente cultua o alimento como sagrado, como cura. Por isso, é feito com muito zelo”, diz.\n\n\nO lugar também entrega 200 cestas básicas às famílias mais vulneráveis cadastradas. Tudo isso só foi possível depois que a Cozinha Solidária Cantinho da Vovó passou a receber frutas, verduras, legumes e hortaliças diretamente de produtores como Hosana Alves do Nascimento.\n\nFilha de agricultores familiares, ela conseguiu transformar uma área urbana em São Sebastião, cidade-satélite do Distrito Federal, em um sistema agroflorestal que produz culturas de curto prazo, como hortaliças, verduras e raízes, junto com árvores frutíferas e oleaginosas.\n\n\n“Como é uma área pequena, então a gente otimizou para dar muita coisa. A nossa produção é considerada agroecológica, porque não usa veneno”, diz.\n\n\nA articulação entre a produtora e a cozinha que oferece o alimento final ocorreu por meio do Programa de Aquisição de Alimentos, política pública do Ministério do Desenvolvimento Agrário que compra os alimentos e os fornece às cozinhas solidárias. Estas, por sua vez, integram outra política pública, do Ministério do Desenvolvimento Social, voltada ao atendimento de pessoas em situação de vulnerabilidade alimentar.\n\nSegundo Lilian Rahal, secretária de Segurança Alimentar e Nutricional do Ministério do Desenvolvimento Social, a criação desse elo entre diferentes pessoas permite que o alimento chegue a quem precisa.\n\n\n“Essa parceria faz com que nós consigamos entregar comida de verdade, alimentos produzidos pela agricultura familiar, alimentos saudáveis, em regiões onde nem sempre o Estado consegue estar presente por meio da sua institucionalidade”, diz.\n\n\nAlém de garantir alimentos saudáveis, a articulação entre diferentes atores sociais também permite oferecer uma maior variedade de alimentos a quem precisa.\n\nHosana, que sempre conheceu diferentes alimentos por causa de sua experiência com o cultivo, nem imaginava que muitas pessoas não tinham acesso sequer aos mais comuns.\n\n\n            \n        \n    \nA produtora rural Hosana do Nascimento entrega alimentos do Programa de Aquisição de Alimentos (PAA) à cozinha solidária Comidinhas da Vovó - Foto Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\n\n“Em uma das entregas, um menininho perguntou à mãe: ‘Nós vamos comer melancia?’ Aquilo me doeu por dentro, de a criança não ter acesso a uma simples melancia”, conta a produtora.\n\n\nA ministra do Desenvolvimento Agrário, Fernanda Machiaveli, lembra que esse trabalho de enfrentamento à insegurança alimentar começou quando o Brasil ainda estava no Mapa da Fome e partiu da própria sociedade civil, “que se organizou durante a pandemia e criou esses espaços da cozinha solidária”.\n\n\n            \n        \n    \nA ministra do Desenvolvimento Agrário e Agricultura Familiar, Fernanda Machiavel, durante entrega de produtos do Programa de Aquisição de Alimentos à cozinha solidária Comidinhas da Vovó, na Vila Planalto, em Brasília - Foto Fabio Rodrigues-Pozzebom/ Agência Brasil</p>",
-      "imagem": "https://imagens.ebc.com.br/GEPGNsPNmmahENoZJSnHdnyFWrU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/pzzb7591.jpg?itok=kHrBaZgz",
-      "slug": "seguranca-alimentar-exige-esforco-coletivo-e-articulacao",
-      "pagina_local": "seguranca-alimentar-exige-esforco-coletivo-e-articulacao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/seguranca-alimentar-exige-esforco-coletivo-e-articulacao",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 17:57"
+      "coletado_em": "18/10/2026 às 20:30"
     }
   ]
 };
