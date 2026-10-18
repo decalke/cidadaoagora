@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "18/10/2026 às 20:30:09",
+  "ultima_atualizacao": "18/10/2026 às 22:56:23",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Campanha de Flávio Bolsonaro realiza manifestação na Paulista",
+      "resumo": "A uma semana do segundo turno das eleições para presidência da República, o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18). Durante seu discurso, ele voltou a afirma...",
+      "conteudo_completo": "A uma semana do segundo turno das eleições para presidência da República, o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18). Durante seu discurso, ele voltou a afirmar que o ex-presidente Jair Bolsonaro (PL), seu pai, participará da cerimônia de posse caso ele seja eleito, dando a entender que cuidará da anistia ao pai que cumpre prisão domiciliar em sua residência em Brasília. \"Vocês verão Jair Messias Bolsonaro colocar a faixa de presidente da República no filho dele\", declarou.\n\nFlávio disse ainda que pretende indicar quatro ministros para o Supremo Tribunal Federal (STF) que sejam contrários ao aborto e às drogas. Afirmou também que confrontará o candidato do PT, o presidente Luiz Inácio Lula da Silva, no debate marcado para as 20h, na TV Band.\n \n\n\n            \n        \n    \nO deputado federal Nikolas Ferreira (PL-MG) e o candidato à Presidência Flávio Bolsonaro participam de ato com apoiadores na Avenida Paulista - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nNotícias relacionadas:Em sabatina, Flávio não explica propostas e faz acusações sem provas.“Vou falar com o coração e para cada um de vocês da família brasileira. O Brasil está sem presidente, mas é por pouco tempo, porque Flávio Bolsonaro está chegando”.\n\nAlém de bandeiras e cartazes com palavras de ordem, apoiadores do candidato Flávio Bolsonaro levaram uma réplica inflável de um míssil, onde estava escrito “Trump nuke Brazil”, que na tradução literal quer dizer Trump jogue uma bomba nuclear no Brasil, em alusão ao presidente norte-americano Donald Trump.\n \n\n\n            \n        \n    \nApoiadores do candidato à Presidência Flávio Bolsonaro são vistos carregando um míssil inflável durante ato na Avenida Paulista - Frame CUT São Paulo/Facebook\n\n\nEleitores\n\nA técnica de enfermagem Rainara Antunes de Oliveira, de 27 anos, esteve no ato e acha importante participar para tornar o movimento grandioso e gerar número, mostrando representatividade. Para ela, pode haver uma virada nas urnas derrotando Bolsonaro, principalmente por conta de fake news e informações que alarmaram as pessoas.\n\n“Eu voto nele porque sempre concordei com leis mais duras e acredito que a solução para o país, tomado pela criminalidade, seja endurecer para as pessoas terem medo de serem presas. A economia também não está funcionando da forma como está indo e eu concordo com a forma como ele vai eliminar o déficit e gerar receita”, afirmou.\n \n\n\n            \n        \n    \nAto na Paulista reúne apoiadores do candidato à Presidência Flávio Bolsonaro - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nO aposentado José Rafael Paschoal, de 84 anos, disse estar cansado do PT no governo e acredita que é hora de mudança, já que para ele o Brasil está atrasado e poderia ser uma das maiores potências mundiais.  “E vem com esse discurso de pobreza. Nós temos que ver o progresso. Dar oportunidades, principalmente para os jovens”.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A uma semana do segundo turno das eleições para presidência da República,<strong> o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18)</strong>. Durante seu discurso, ele voltou a afirmar que o ex-presidente Jair Bolsonaro (PL), seu pai, participará da cerimônia de posse caso ele seja eleito, dando a entender que cuidará da anistia ao pai que cumpre prisão domiciliar em sua residência em Brasília. \"Vocês verão Jair Messias Bolsonaro colocar a faixa de presidente da República no filho dele\", declarou.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705743&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705743&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio disse ainda que pretende indicar quatro ministros para o Supremo Tribunal Federal (STF) que sejam contrários ao aborto e às drogas. Afirmou também que confrontará o candidato do PT, o presidente Luiz Inácio Lula da Silva, no debate marcado para as 20h, na TV Band.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vou falar com o coração e para cada um de vocês da família brasileira. O Brasil está sem presidente, mas é por pouco tempo, porque Flávio Bolsonaro está chegando”.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Além de bandeiras e cartazes com palavras de ordem, apoiadores do candidato Flávio Bolsonaro levaram uma réplica inflável de um míssil, onde estava escrito “Trump nuke Brazil”, que na tradução literal quer dizer Trump jogue uma bomba nuclear no Brasil, em alusão ao presidente norte-americano Donald Trump.</strong><br/>\n </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Eleitores</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A técnica de enfermagem Rainara Antunes de Oliveira, de 27 anos, esteve no ato e acha importante participar para tornar o movimento grandioso e gerar número, mostrando representatividade. Para ela, pode haver uma virada nas urnas derrotando Bolsonaro, principalmente por conta de <em>fake news</em> e informações que alarmaram as pessoas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu voto nele porque sempre concordei com leis mais duras e acredito que a solução para o país, tomado pela criminalidade, seja endurecer para as pessoas terem medo de serem presas. A economia também não está funcionando da forma como está indo e eu concordo com a forma como ele vai eliminar o déficit e gerar receita”, afirmou.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O aposentado José Rafael Paschoal, de 84 anos, disse estar cansado do PT no governo e acredita que é hora de mudança, já que para ele o Brasil está atrasado e poderia ser uma das maiores potências mundiais.  “E vem com esse discurso de pobreza. Nós temos que ver o progresso. Dar oportunidades, principalmente para os jovens”.</p>",
+      "imagem": "https://imagens.ebc.com.br/4I3Dy3NPoqymlB8nqQ10NlEa4Jo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/_raf2559-13_0.jpg?itok=YBSsNtX6",
+      "slug": "campanha-de-flavio-bolsonaro-realiza-manifestacao-na-paulista",
+      "pagina_local": "campanha-de-flavio-bolsonaro-realiza-manifestacao-na-paulista.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-flavio-bolsonaro-realiza-manifestacao-na-paulista",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "18/10/2026 às 22:56"
+    },
     {
       "titulo": "Eleitor sem biometria pode votar no segundo turno das eleições",
       "resumo": "O cadastro biométrico na Justiça Eleitoral não é obrigatório para o exercício do voto. O eleitor que não tiver a biometria cadastrada ou tiver problemas no reconhecimento da biometria dentro da seção eleitoral, poderá votar também no segund...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Estudantes retomam protagonismo em momento decisivo no país, diz UNE",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Eleições: quem não votou no primeiro turno pode participar do segundo",
@@ -42,13 +56,13 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Eleições: mais de 4 mil seções tiveram locais alterados; confira",
-      "resumo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a s...",
-      "conteudo_completo": "O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”. \n\n&gt;&gt; Clique aqui e saiba como consultar o local de votação\n\nDe acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Regional Eleitoral (TRE) alterou o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, o TRE alerta os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou no portal do TRE, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/veja-como-consultar-o-local-de-votacao-e-secao-eleitoral\" target=\"_blank\">&gt;&gt; Clique aqui e saiba como consultar o local de votação</a></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o órgão, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados do TRE, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e a mais cinco estados também terão disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
+      "resumo": "Os tribunais regionais eleitorais (TREs) alteraram o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, os TREs alertam os eleitores para que confiram com antecedên...",
+      "conteudo_completo": "Os tribunais regionais eleitorais (TREs) alteraram o local de votação de 4.352 seções eleitorais neste 2º turno. Isso corresponde a apenas 0,87% das seções do país. \n\nMesmo assim, os TREs alertam os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. \n\nNotícias relacionadas:TSE decide manter ordem para Meta garantir isonomia a candidatos.Estado de SP começa a preparar mais de 114 mil urnas para o 2º turno.OEA elogia eleição no Brasil, mas aponta preocupação com desinformação.A consulta pode ser feita no aplicativo e-título ou nos portais do TREs, no menu “autoatendimento eleitoral”. \n\n&gt;&gt; Clique aqui e saiba como consultar o local de votação\n\nDe acordo com a Justiça Eleitoral, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. \n\nA maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312). \n\nPrimeiro turno\n\nSegundo dados da Justiça Eleitoral, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. \n\nO 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h. \n\nDesta vez os eleitores votam apenas para presidente da República. No Distrito Federal e mais cinco estados também terá disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os tribunais regionais eleitorais (TREs) alteraram o local de votação de 4.352 seções eleitorais neste 2º turno. <strong>Isso corresponde a apenas 0,87% das seções do país.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705687&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo assim, os TREs alertam os eleitores para que confiram com antecedência se a sua seção está entre as que mudaram de endereço. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A consulta pode ser feita no aplicativo e-título ou nos portais do TREs, no menu “autoatendimento eleitoral”.</strong> </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/veja-como-consultar-o-local-de-votacao-e-secao-eleitoral\" target=\"_blank\">&gt;&gt; Clique aqui e saiba como consultar o local de votação</a></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a Justiça Eleitoral, as mudanças ocorreram por motivos práticos, como reforma de última hora em locais de votação e melhoria de acessibilidade em algumas seções. Houve também casos em que o local de votação sofreu danos por causa das fortes chuvas e ventos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A maior parte das mudanças de endereço de seções foram nos estados de São Paulo (982 seções), Minas Gerais (514), Rio de Janeiro (431) e Bahia (312).</strong> </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiro turno</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo dados da Justiça Eleitoral, no 1º turno das eleições, 1.904 urnas foram substituídas, o que corresponde a 0,35% das urna. Em nenhum local foi necessário fazer votação manual. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O 2º turno das eleições ocorre no próximo dia 25 de 8h às 17h.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desta vez os eleitores votam apenas para presidente da República. No Distrito Federal e mais cinco estados também terá disputa para governador: Acre, Amazonas, Espírito Santo, Rio Grande do Norte e Tocantins.  </p>",
       "imagem": "https://imagens.ebc.com.br/B2rIudFK9nh9TKcgAQvZXOlfSEU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/sem_titulo-5.jpg?itok=e7HGr7Fb",
       "slug": "eleicoes-mais-de-4-mil-secoes-tiveram-locais-alterados-confira",
       "pagina_local": "eleicoes-mais-de-4-mil-secoes-tiveram-locais-alterados-confira.html",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
-    },
-    {
-      "titulo": "Congresso promulga emenda de aposentadoria especial de agente de saúde",
-      "resumo": "O Congresso Nacional promulgou, nesta sexta-feira (16), a Emenda Constitucional nº 140 de 2026, que cria regras específicas para aposentadoria diferenciada dos agentes comunitários de saúde (ACS) e dos agentes de combate às endemias (ACE).\n...",
-      "conteudo_completo": "O Congresso Nacional promulgou, nesta sexta-feira (16), a Emenda Constitucional nº 140 de 2026, que cria regras específicas para aposentadoria diferenciada dos agentes comunitários de saúde (ACS) e dos agentes de combate às endemias (ACE).\n\nA emenda fixa requisitos diferenciados para esses trabalhadores no Regime Próprio de Previdência Social (RPPS) e no Regime Geral de Previdência Social (RGPS), com idade mínima de 57 anos para mulheres e 60 anos para homens, condicionada a 25 anos de contribuição e de efetivo exercício na atividade.\n\nNotícias relacionadas:Congresso promulga emenda do fim da 6x1; escala 5x2 começa em 60 dias.Atualmente, o regime geral prevê 62 anos de idade mínima para mulheres e 65 para homens. Aprovada em julho no Senado, a nova emenda foi promulgada hoje em sessão solene com participação dos presidentes do Senado, Davi Alcolumbre (União-AP), da Câmara, Hugo Motta (Republicanos-PB), e do presidente da República, Luiz Inácio Lula da Silva.\n\nO presidente do Congresso, Davi Alcolumbre, lembrou que a proposta começou a tramitar em 2021 e destacou que a promulgação traz “dignidade para o trabalhador”.\n\n\n“Esses profissionais levam o Estado brasileiro aonde ele, em muitas das vezes, não chega. Hoje, o Estado brasileiro reconhece o valor de cada um de vocês. A aposentadoria especial é o reconhecimento de uma vida inteira de trabalho e de cuidado”, ressaltou Alcolumbre.\n\n\nO presidente Lula disse que “a gente não tem noção do trabalho” que esses agentes de saúde fazem, ao ir às casas das pessoas acompanhar doentes e prevenir doenças transmissíveis.\n\n\n“Se eles reivindicam uma aposentadoria especial, em vez de a gente simplesmente negar, [temos que questionar se] é necessário? É importante? É justo? Ora, se é importante, necessário e justo, a gente não tem outra coisa a fazer que promulgar o direito de eles se aposentarem”, comentou o presidente.\n\n\nPresente na galeria do plenário do Senado, um grupo de agentes comunitários de saúde e de combate às endemias comemorava a promulgação na nova emenda constitucional.\n\nEmenda 140\n\nO texto promulgado hoje também estabelece regras permanentes e transitórias de aposentadoria, disciplina a forma de contratação dos profissionais, prevê assistência financeira complementar da União e estende as novas regras aos agentes indígenas de saúde e aos agentes indígenas de saneamento.\n\nA proposta prevê assistência financeira complementar da União aos estados, ao Distrito Federal e aos municípios para compensar o aumento das despesas dos regimes próprios de previdência. Também determina repasses ao RGPS para compensar o impacto das aposentadorias concedidas com base nas novas regras.\n\nAs mudanças valerão tanto para os profissionais vinculados ao RPPS quanto para os segurados do RGPS, administrado pelo Instituto Nacional do Seguro Social (INSS). Atualmente, essas categorias seguem as regras gerais de aposentadoria, que preveem idade mínima de 62 anos para mulheres e 65 anos para homens.\n\nAlém disso, o texto assegura o cômputo, para fins previdenciários, de período de mandato classista e de tempo em readaptação funcional quando decorrente de acidente de trabalho, doença profissional ou doença do trabalho, e estabelece regras transitórias específicas para agentes vinculados ao RPPS e ao RGPS, com escalonamento de idades, regra de pontos e disciplina de integralidade e paridade em hipóteses definidas no texto.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Congresso Nacional promulgou, nesta sexta-feira (16), a Emenda Constitucional nº 140 de 2026, que cria regras específicas para aposentadoria diferenciada dos agentes comunitários de saúde (ACS) e dos agentes de combate às endemias (ACE).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705606&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705606&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A emenda fixa requisitos diferenciados para esses trabalhadores no Regime Próprio de Previdência Social (RPPS) e no Regime Geral de Previdência Social (RGPS), com <strong>idade mínima de 57 anos para mulheres e 60 anos para homens, condicionada a 25 anos de contribuição e de efetivo exercício na atividade.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Atualmente, o regime geral prevê 62 anos de idade mínima para mulheres e 65 para homens. <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/senado-aprova-em-dois-turnos-pec-da-aposentadoria-dos-agentes-de-saude\" target=\"_blank\">Aprovada em julho no Senado</a>, a nova emenda foi promulgada hoje em sessão solene com participação dos presidentes do Senado, Davi Alcolumbre (União-AP), da Câmara, Hugo Motta (Republicanos-PB), e do presidente da República, Luiz Inácio Lula da Silva.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente do Congresso, Davi Alcolumbre, lembrou que a proposta começou a tramitar em 2021 e destacou que a promulgação traz “dignidade para o trabalhador”.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Esses profissionais levam o Estado brasileiro aonde ele, em muitas das vezes, não chega. Hoje, o Estado brasileiro reconhece o valor de cada um de vocês. A aposentadoria especial é o reconhecimento de uma vida inteira de trabalho e de cuidado”, ressaltou Alcolumbre.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Esses profissionais levam o Estado brasileiro aonde ele, em muitas das vezes, não chega. Hoje, o Estado brasileiro reconhece o valor de cada um de vocês. A aposentadoria especial é o reconhecimento de uma vida inteira de trabalho e de cuidado”, ressaltou Alcolumbre.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente Lula disse que “a gente não tem noção do trabalho” que esses agentes de saúde fazem, ao ir às casas das pessoas acompanhar doentes e prevenir doenças transmissíveis.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Se eles reivindicam uma aposentadoria especial, em vez de a gente simplesmente negar, [temos que questionar se] é necessário? É importante? É justo? Ora, se é importante, necessário e justo, a gente não tem outra coisa a fazer que promulgar o direito de eles se aposentarem”, comentou o presidente.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Se eles reivindicam uma aposentadoria especial, em vez de a gente simplesmente negar, [temos que questionar se] é necessário? É importante? É justo? Ora, se é importante, necessário e justo, a gente não tem outra coisa a fazer que promulgar o direito de eles se aposentarem”, comentou o presidente.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Presente na galeria do plenário do Senado, um grupo de agentes comunitários de saúde e de combate às endemias comemorava a promulgação na nova emenda constitucional.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Emenda 140</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O texto promulgado hoje também estabelece regras permanentes e transitórias de aposentadoria, disciplina a forma de contratação dos profissionais, prevê assistência financeira complementar da União e estende as novas regras aos agentes indígenas de saúde e aos agentes indígenas de saneamento.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A proposta prevê assistência financeira complementar da União aos estados, ao Distrito Federal e aos municípios para compensar o aumento das despesas dos regimes próprios de previdência.</strong> Também determina repasses ao RGPS para compensar o impacto das aposentadorias concedidas com base nas novas regras.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As mudanças valerão tanto para os profissionais vinculados ao RPPS quanto para os segurados do RGPS, administrado pelo Instituto Nacional do Seguro Social (INSS). Atualmente, essas categorias seguem as regras gerais de aposentadoria, que preveem idade mínima de 62 anos para mulheres e 65 anos para homens.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além disso, o texto assegura o cômputo, para fins previdenciários, de período de mandato classista e de tempo em readaptação funcional quando decorrente de acidente de trabalho, doença profissional ou doença do trabalho, e estabelece regras transitórias específicas para agentes vinculados ao RPPS e ao RGPS, com escalonamento de idades, regra de pontos e disciplina de integralidade e paridade em hipóteses definidas no texto.</p>",
-      "imagem": "https://imagens.ebc.com.br/_RJDvalafZvl6fUL_bxS3Dbdolc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/sem_titulo_1.jpg?itok=2_BF6Jw_",
-      "slug": "congresso-promulga-emenda-de-aposentadoria-especial-de-agente-de-saude",
-      "pagina_local": "congresso-promulga-emenda-de-aposentadoria-especial-de-agente-de-saude.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-de-aposentadoria-especial-de-agente-de-saude",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Partido Novo entra com ação no TSE contra atos musicais por democracia",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Justiça Federal manda Meta restabelecer contas estudantis do RS",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "18/10/2026 às 20:30"
+      "coletado_em": "18/10/2026 às 22:56"
     }
   ]
 };
