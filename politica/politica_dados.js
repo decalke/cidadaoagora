@@ -1,11 +1,25 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "19/10/2026 às 01:02:28",
+  "ultima_atualizacao": "19/10/2026 às 07:34:27",
   "total": 30,
   "politica": [
     {
+      "titulo": "Ato em apoio à democracia e a Lula reúne milhares no Rio e Brasília",
+      "resumo": "O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto A...",
+      "conteudo_completo": "O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto Alegre, Belo Horizonte e Fortaleza. A estimativa é da coordenação de campanha do partido. \n\nNa capital federal, a mobilização tomou conta da Esplanada dos Ministérios pela manhã e permaneceu nas ruas ao longo do dia. No Rio, à tarde, um ato musical reuniu milhares de pessoas na orla de Copacabana. O evento foi convocado pelo cantor Caetano Veloso e teve a participação de artistas como Djavan, Duda Beat, Marina Sena, entre outros.\n\nNotícias relacionadas:Campanha de Flávio Bolsonaro realiza manifestação na Paulista.Estudantes retomam protagonismo em momento decisivo no país, diz UNE.Lula faz campanha em MG e celebra fim da jornada 6x1.Caetano lembrou que foi preso na ditadura militar com Gilberto Gil e outros músicos. \"Vários artistas sofreram. Nós estamos aqui para apresentar uma defesa da democracia contra esse tipo de coisa e resistir contra as ameaças à democracia\", disse.\n\n \n\n\n            \n        \n    \nAto pela reeleição de Lula na Esplanada dos Ministérios, em Brasília. Foto: Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\n \n\n\n            \n        \n    \nAto pela Democracia na orla de Copacabana - Foto: Rovena Rosa/Agência Brasil\n\n\nO cantor Djavan destacou que também é preciso defender a soberania brasileira contra ingerências externas.\n\nPara a atriz Leticia Sabatella, é preciso lutar e proteger os direitos conquistados. \"De um lado a gente tem um candidato de uma família que exalta torturadores, são saudosos da ditadura e não têm um programa de Estado para o Brasil. Do outro lado, a gente tem um programa de governo que a gente já viu ser implantado com políticas sociais muito importantes.\"\n\nA cantora Duda Beat disse que estava bonito de ver a multidão na orla de Copacabana. \"Isso aqui é a resposta que a gente vai dar. O povo unido consegue tudo. Viva a democracia!\"\n \n\n\n            \n        \n    \nAto pela Democracia na orla de Copacabana - Foto: Rovena Rosa/Agência Brasil\n\n\nO diretor de Comunicação da União Nacional dos Estudantes (UNE), Alejandro Guerrero, disse que veio do Rio Grande do Sul para participar do ato porque o país vive um momento de encruzilhada histórica.\n\n\"Existem dois rumos de projeto que neste segundo turno ficam evidenciados. Um projeto que representa a democracia, a defesa da soberania nacional. Do outro lado, o entreguismo, o fascismo e a entrega das nossas riquezas para os Estados Unidos. Esse é o momento para a gente reafirmar a luta em defesa do Brasil da soberania e da democracia\", afirmou o estudante.\n\nCandelária\n\nNa parte da manhã, um ato de estudantes e trabalhadores também reuniu milhares de pessoas na Praça da Candelária, no centro do Rio, em apoio à democracia e a Lula.\n \n\n\n            \n        \n    \nManifestação em apoio à reeleição do presidente Lula na Candelária - Foto: Rovena Rosa/Agência Brasil\n\n\nO casal Bráulio Martins, de 33 anos, e Laura Guimarães, de 27 anos, compareceu à manifestação acompanhado do filho Ícaro, de 5 anos. Laura estava com um adereço de mochila maluca com vários adesivos dos programas sociais do governo Lula. \n\n\"A partir de 2018, comecei a me envolver e pesquisar, e a praticar minha cidadania e descobrir as lutas que eu ia me envolver. Eu passei muito sufoco depois que minha mãe morreu em 2021. Fui beneficiária do Bolsa Família por um tempo, o que me ajudou muito a cuidar do meu filho e a empreender\", disse Laura, esteticista e dona de uma clínica na área.\n\n\"Quero que meu filho tenha uma vida que eu não tive. Quero que ele cresça seguro e entendendo quais são os lados, ele como uma criança de uma família que sempre lutou muito\", completou.\n\nAcompanhada das amigas, a estudante de artes visuais na Universidade Federal do Rio de Janeiro (UFRJ) Andressa da Paz, de 24 anos, contou que, no governo de Jair Bolsonaro, a universidade pública foi sucateada, não tinha papel higiênico, faltava luz, não tinha nem ventilador. A faculdade fica na Ilha do Fundão, na Ilha do Governador. \"Estou esperançosa de que dia 25 de outubro, Lula vai ganhar\", afirmou Andressa.\n\n* Matéria atualizada para complementação de informações",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto Alegre, Belo Horizonte e Fortaleza. A estimativa é da coordenação de campanha do partido. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705767&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705767&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Na capital federal, a mobilização tomou conta da Esplanada dos Ministérios pela manhã e permaneceu nas ruas ao longo do dia. No Rio, à tarde, um ato musical reuniu milhares de pessoas na orla de Copacabana. O evento foi convocado pelo cantor Caetano Veloso e teve a participação de artistas como Djavan, Duda Beat, Marina Sena, entre outros.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Caetano lembrou que foi preso na ditadura militar com Gilberto Gil e outros músicos. \"Vários artistas sofreram. Nós estamos aqui para apresentar uma defesa da democracia contra esse tipo de coisa e resistir contra as ameaças à democracia\", disse.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O cantor Djavan destacou que também é preciso defender a soberania brasileira contra ingerências externas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para a atriz Leticia Sabatella, é preciso lutar e proteger os direitos conquistados. \"De um lado a gente tem um candidato de uma família que exalta torturadores, são saudosos da ditadura e não têm um programa de Estado para o Brasil. Do outro lado, a gente tem um programa de governo que a gente já viu ser implantado com políticas sociais muito importantes.\"</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A cantora Duda Beat disse que estava bonito de ver a multidão na orla de Copacabana. \"Isso aqui é a resposta que a gente vai dar. O povo unido consegue tudo. Viva a democracia!\"<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O diretor de Comunicação da União Nacional dos Estudantes (UNE), Alejandro Guerrero, disse que veio do Rio Grande do Sul para participar do ato porque o país vive um momento de encruzilhada histórica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Existem dois rumos de projeto que neste segundo turno ficam evidenciados. Um projeto que representa a democracia, a defesa da soberania nacional. Do outro lado, o entreguismo, o fascismo e a entrega das nossas riquezas para os Estados Unidos. Esse é o momento para a gente reafirmar a luta em defesa do Brasil da soberania e da democracia\", afirmou o estudante.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Candelária</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na parte da manhã, um ato de estudantes e trabalhadores também reuniu milhares de pessoas na Praça da Candelária, no centro do Rio, em apoio à democracia e a Lula.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O casal Bráulio Martins, de 33 anos, e Laura Guimarães, de 27 anos, compareceu à manifestação acompanhado do filho Ícaro, de 5 anos. Laura estava com um adereço de mochila maluca com vários adesivos dos programas sociais do governo Lula. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"A partir de 2018, comecei a me envolver e pesquisar, e a praticar minha cidadania e descobrir as lutas que eu ia me envolver. Eu passei muito sufoco depois que minha mãe morreu em 2021. Fui beneficiária do Bolsa Família por um tempo, o que me ajudou muito a cuidar do meu filho e a empreender\", disse Laura, esteticista e dona de uma clínica na área.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Quero que meu filho tenha uma vida que eu não tive. Quero que ele cresça seguro e entendendo quais são os lados, ele como uma criança de uma família que sempre lutou muito\", completou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Acompanhada das amigas, a estudante de artes visuais na Universidade Federal do Rio de Janeiro (UFRJ) Andressa da Paz, de 24 anos, contou que, no governo de Jair Bolsonaro, a universidade pública foi sucateada, não tinha papel higiênico, faltava luz, não tinha nem ventilador. A faculdade fica na Ilha do Fundão, na Ilha do Governador. \"Estou esperançosa de que dia 25 de outubro, Lula vai ganhar\", afirmou Andressa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>* Matéria atualizada para complementação de informações</em></p>",
+      "imagem": "https://imagens.ebc.com.br/hAqmYEebpzQVKIKLR6b8rWMdAs8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/0g0a0640.jpg?itok=KIqLKV1l",
+      "slug": "ato-em-apoio-a-democracia-e-a-lula-reune-milhares-no-rio-e-brasilia",
+      "pagina_local": "ato-em-apoio-a-democracia-e-a-lula-reune-milhares-no-rio-e-brasilia.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-em-apoio-democracia-e-lula-reune-milhares-no-rio-e-brasilia",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "19/10/2026 às 07:34"
+    },
+    {
       "titulo": "Campanha de Flávio Bolsonaro realiza manifestação na Paulista",
       "resumo": "A uma semana do segundo turno das eleições para presidência da República, o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18). Durante seu discurso, ele voltou a afirma...",
-      "conteudo_completo": "A uma semana do segundo turno das eleições para presidência da República, o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18). Durante seu discurso, ele voltou a afirmar que o ex-presidente Jair Bolsonaro (PL), seu pai, participará da cerimônia de posse caso ele seja eleito, dando a entender que cuidará da anistia ao pai que cumpre prisão domiciliar em sua residência em Brasília. \"Vocês verão Jair Messias Bolsonaro colocar a faixa de presidente da República no filho dele\", declarou.\n\nFlávio disse ainda que pretende indicar quatro ministros para o Supremo Tribunal Federal (STF) que sejam contrários ao aborto e às drogas. Afirmou também que confrontará o candidato do PT, o presidente Luiz Inácio Lula da Silva, no debate marcado para as 20h, na TV Band.\n \n\n\n            \n        \n    \nO deputado federal Nikolas Ferreira (PL-MG) e o candidato à Presidência Flávio Bolsonaro participam de ato com apoiadores na Avenida Paulista - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nNotícias relacionadas:Em sabatina, Flávio não explica propostas e faz acusações sem provas.“Vou falar com o coração e para cada um de vocês da família brasileira. O Brasil está sem presidente, mas é por pouco tempo, porque Flávio Bolsonaro está chegando”.\n\nAlém de bandeiras e cartazes com palavras de ordem, apoiadores do candidato Flávio Bolsonaro levaram uma réplica inflável de um míssil, onde estava escrito “Trump nuke Brazil”, que na tradução literal quer dizer Trump jogue uma bomba nuclear no Brasil, em alusão ao presidente norte-americano Donald Trump.\n \n\n\n            \n        \n    \nApoiadores do candidato à Presidência Flávio Bolsonaro são vistos carregando um míssil inflável durante ato na Avenida Paulista - Frame CUT São Paulo/Facebook\n\n\nEleitores\n\nA técnica de enfermagem Rainara Antunes de Oliveira, de 27 anos, esteve no ato e acha importante participar para tornar o movimento grandioso e gerar número, mostrando representatividade. Para ela, pode haver uma virada nas urnas derrotando Bolsonaro, principalmente por conta de fake news e informações que alarmaram as pessoas.\n\n“Eu voto nele porque sempre concordei com leis mais duras e acredito que a solução para o país, tomado pela criminalidade, seja endurecer para as pessoas terem medo de serem presas. A economia também não está funcionando da forma como está indo e eu concordo com a forma como ele vai eliminar o déficit e gerar receita”, afirmou.\n \n\n\n            \n        \n    \nAto na Paulista reúne apoiadores do candidato à Presidência Flávio Bolsonaro - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nO aposentado José Rafael Paschoal, de 84 anos, disse estar cansado do PT no governo e acredita que é hora de mudança, já que para ele o Brasil está atrasado e poderia ser uma das maiores potências mundiais.  “E vem com esse discurso de pobreza. Nós temos que ver o progresso. Dar oportunidades, principalmente para os jovens”.",
+      "conteudo_completo": "A uma semana do segundo turno das eleições para presidência da República, o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18). Durante seu discurso, ele voltou a afirmar que o ex-presidente Jair Bolsonaro (PL), seu pai, participará da cerimônia de posse caso ele seja eleito, dando a entender que cuidará da anistia ao pai que cumpre prisão domiciliar em sua residência em Brasília. \"Vocês verão Jair Messias Bolsonaro colocar a faixa de presidente da República no filho dele\", declarou.\n\nFlávio disse ainda que pretende indicar quatro ministros para o Supremo Tribunal Federal (STF) que sejam contrários ao aborto e às drogas. Afirmou também que confrontará o candidato do PT, o presidente Luiz Inácio Lula da Silva, no debate marcado para as 20h, na TV Band.\n \n\n\n            \n        \n    \nO deputado federal Nikolas Ferreira (PL-MG) e o candidato à Presidência Flávio Bolsonaro participam de ato com apoiadores na Avenida Paulista - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nNotícias relacionadas:Em sabatina, Flávio não explica propostas e faz acusações sem provas.Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado.Estudantes retomam protagonismo em momento decisivo no país, diz UNE.“Vou falar com o coração e para cada um de vocês da família brasileira. O Brasil está sem presidente, mas é por pouco tempo, porque Flávio Bolsonaro está chegando”.\n\nAlém de bandeiras e cartazes com palavras de ordem, apoiadores do candidato Flávio Bolsonaro levaram uma réplica inflável de um míssil, onde estava escrito “Trump nuke Brazil”, que na tradução literal quer dizer Trump jogue uma bomba nuclear no Brasil, em alusão ao presidente norte-americano Donald Trump.\n \n\n\n            \n        \n    \nApoiadores do candidato à Presidência Flávio Bolsonaro são vistos carregando um míssil inflável durante ato na Avenida Paulista - Frame CUT São Paulo/Facebook\n\n\nEleitores\n\nA técnica de enfermagem Rainara Antunes de Oliveira, de 27 anos, esteve no ato e acha importante participar para tornar o movimento grandioso e gerar número, mostrando representatividade. Para ela, pode haver uma virada nas urnas derrotando Bolsonaro, principalmente por conta de fake news e informações que alarmaram as pessoas.\n\n“Eu voto nele porque sempre concordei com leis mais duras e acredito que a solução para o país, tomado pela criminalidade, seja endurecer para as pessoas terem medo de serem presas. A economia também não está funcionando da forma como está indo e eu concordo com a forma como ele vai eliminar o déficit e gerar receita”, afirmou.\n \n\n\n            \n        \n    \nAto na Paulista reúne apoiadores do candidato à Presidência Flávio Bolsonaro - Foto: Rafa Neddermeyer/Agência Brasil\n\n\nO aposentado José Rafael Paschoal, de 84 anos, disse estar cansado do PT no governo e acredita que é hora de mudança, já que para ele o Brasil está atrasado e poderia ser uma das maiores potências mundiais.  “E vem com esse discurso de pobreza. Nós temos que ver o progresso. Dar oportunidades, principalmente para os jovens”.",
       "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A uma semana do segundo turno das eleições para presidência da República,<strong> o candidato Flávio Bolsonaro (PL) participou de ato na Avenida Paulista, na região central de São Paulo, neste domingo (18)</strong>. Durante seu discurso, ele voltou a afirmar que o ex-presidente Jair Bolsonaro (PL), seu pai, participará da cerimônia de posse caso ele seja eleito, dando a entender que cuidará da anistia ao pai que cumpre prisão domiciliar em sua residência em Brasília. \"Vocês verão Jair Messias Bolsonaro colocar a faixa de presidente da República no filho dele\", declarou.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705743&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705743&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio disse ainda que pretende indicar quatro ministros para o Supremo Tribunal Federal (STF) que sejam contrários ao aborto e às drogas. Afirmou também que confrontará o candidato do PT, o presidente Luiz Inácio Lula da Silva, no debate marcado para as 20h, na TV Band.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vou falar com o coração e para cada um de vocês da família brasileira. O Brasil está sem presidente, mas é por pouco tempo, porque Flávio Bolsonaro está chegando”.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Além de bandeiras e cartazes com palavras de ordem, apoiadores do candidato Flávio Bolsonaro levaram uma réplica inflável de um míssil, onde estava escrito “Trump nuke Brazil”, que na tradução literal quer dizer Trump jogue uma bomba nuclear no Brasil, em alusão ao presidente norte-americano Donald Trump.</strong><br/>\n </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Eleitores</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A técnica de enfermagem Rainara Antunes de Oliveira, de 27 anos, esteve no ato e acha importante participar para tornar o movimento grandioso e gerar número, mostrando representatividade. Para ela, pode haver uma virada nas urnas derrotando Bolsonaro, principalmente por conta de <em>fake news</em> e informações que alarmaram as pessoas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu voto nele porque sempre concordei com leis mais duras e acredito que a solução para o país, tomado pela criminalidade, seja endurecer para as pessoas terem medo de serem presas. A economia também não está funcionando da forma como está indo e eu concordo com a forma como ele vai eliminar o déficit e gerar receita”, afirmou.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O aposentado José Rafael Paschoal, de 84 anos, disse estar cansado do PT no governo e acredita que é hora de mudança, já que para ele o Brasil está atrasado e poderia ser uma das maiores potências mundiais.  “E vem com esse discurso de pobreza. Nós temos que ver o progresso. Dar oportunidades, principalmente para os jovens”.</p>",
       "imagem": "https://imagens.ebc.com.br/4I3Dy3NPoqymlB8nqQ10NlEa4Jo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/_raf2559-13_0.jpg?itok=YBSsNtX6",
       "slug": "campanha-de-flavio-bolsonaro-realiza-manifestacao-na-paulista",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Eleitor sem biometria pode votar no segundo turno das eleições",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Estudantes retomam protagonismo em momento decisivo no país, diz UNE",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Eleições: quem não votou no primeiro turno pode participar do segundo",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Eleições: mais de 4 mil seções tiveram locais alterados; confira",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "José Sarney recebe alta hospitalar após nove dias de internação",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Abstenção de eleitores com mais de 70 anos cai 9,7 pontos percentuais",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Em sabatina, Flávio não explica propostas e faz acusações sem provas",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Lula faz campanha em MG e celebra fim da jornada 6x1",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
-    },
-    {
-      "titulo": "Alcolumbre homenageia Paim no fim da 6x1; entenda motivo",
-      "resumo": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), quebrou o protocolo, nesta sexta-feira (16), durante a promulgação da emenda constitucional que acabou com a escala 6x1 no Brasil ao convidar o senador Paulo Paim (PT-R...",
-      "conteudo_completo": "O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), quebrou o protocolo, nesta sexta-feira (16), durante a promulgação da emenda constitucional que acabou com a escala 6x1 no Brasil ao convidar o senador Paulo Paim (PT-RS) (esquerda na foto em destaque) para se sentar na mesa oficial da cerimônia.\n\n\n“Eu sei que o cerimonial estabeleceu esse rito constitucional de uma sessão solene, mas o meu coração não me permitiria, presidente Hugo Motta e presidente Lula, deixar de convidar uma pessoa para a mesa para representar o povo brasileiro”, disse Alcolumbre.\n\n\nNotícias relacionadas:Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil.Saiba quando começa a valer o fim da escala 6x1.Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.O parlamentar gaúcho Paulo Paim está há três mandatos no Senado, tendo sido deputado federal por outros quatro mandatos. Antes, Paim foi presidente do Sindicato dos Trabalhadores Metalúrgicos de Canoas (RS), na década de 1980.  \n\n“Nós precisamos fazer uma homenagem a um grande ser humano, a um grande brasileiro que esteve, nas últimas quatro décadas, lutando por esta conquista”, completou Alcolumbre.\n\nAinda em 1994, Paulo Paim apresentou o Projeto de Lei 4.653 para reduzir a jornada de trabalho de 44 horas para 40 horas semanais, mas o texto acabou arquivado, assim como outras propostas apresentadas durante os mandatos do político gaúcho. \n\nNesta sexta, ao conversar com jornalistas, Paim destacou que a emoção de aprovar o fim da escala de seis dias de trabalho por um de descanso, que também reduz a jornada para 40 horas, é parecida com a promulgação da Constituição, em 1988, quando a jornada foi reduzida de 48 para 44 horas semanais.\n\n“Eu me sinto realizado, de lá para cá, da constituinte, eu apresentei dez projetos”, disse, acrescentando que a emenda promulgada hoje “vai melhorar a vida da nossa gente”.\n\nO senador Paulo Paim deixa o Senado no final desta legislatura.  Com 76 anos, ele decidiu não disputar nova vaga pelo Rio Grande do Sul na eleição deste ano após mais de 40 anos de vida pública.\n\n\n            \n        \n    \nBrasília – DF – 16/10/2026 -Benedita da Silva e Paulo Paim celebram promulgação da emenda constitucional que põe fim à escala 6x1 . - Lula Marques/Agência Brasil.\n\n\nFim da 6x1\n\nO Congresso Nacional promulgou, nesta sexta-feira (16), a Emenda Constitucional 141 de 2026, que põe fim à escala de um dia de descanso para cada seis trabalhados (6x1) e prevê a escala 5x2, com duas folgas por semana, para todos os trabalhadores do Brasil dentro de dois meses.\n\nNo caso da redução de 44 horas para 40 horas, ela terá um período de transição mais longo, caindo para 42 horas em 60 dias e para 40 horas daqui a 14 meses, também sem redução salarial.\n\nNascida a partir de pressão das ruas e atendendo a uma demanda histórica dos trabalhadores e sindicatos, a proposta teve a tramitação concluída na última quarta-feira (14) no Senado, com 75 votos favoráveis contra 1, do ex-vice-presidente e senador Hamilton Mourão (Republicanos-RS).\n\nApoiada pelo governo, a votação contou com apoio também da oposição, que era contra a PEC e tentava impedir a votação nesta semana. Após a sessão ter sido marcada, no entanto, a oposição liberou a bancada, que votou majoritariamente pelo fim da 6x1.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente do Congresso Nacional, senador Davi Alcolumbre (União-AP), quebrou o protocolo, nesta sexta-feira (16), durante a <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias\" target=\"_blank\">promulgação da emenda constitucional</a> que acabou com a escala 6x1 no Brasil ao convidar o senador Paulo Paim (PT-RS) (esquerda na foto em destaque) para se sentar na mesa oficial da cerimônia.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705619&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705619&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Eu sei que o cerimonial estabeleceu esse rito constitucional de uma sessão solene, mas o meu coração não me permitiria, presidente Hugo Motta e presidente Lula, deixar de convidar uma pessoa para a mesa para representar o povo brasileiro”, disse Alcolumbre.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu sei que o cerimonial estabeleceu esse rito constitucional de uma sessão solene, mas o meu coração não me permitiria, presidente Hugo Motta e presidente Lula, deixar de convidar uma pessoa para a mesa para representar o povo brasileiro”, disse Alcolumbre.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O parlamentar gaúcho Paulo Paim está há três mandatos no Senado, tendo sido deputado federal por outros quatro mandatos. Antes, Paim foi presidente do Sindicato dos Trabalhadores Metalúrgicos de Canoas (RS), na década de 1980.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nós precisamos fazer uma homenagem a um grande ser humano, a um grande brasileiro que esteve, nas últimas quatro décadas, lutando por esta conquista”, completou Alcolumbre.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ainda em 1994, Paulo Paim apresentou o Projeto de Lei 4.653 para reduzir a jornada de trabalho de 44 horas para 40 horas semanais, mas o texto acabou arquivado, assim como outras propostas apresentadas durante os mandatos do político gaúcho. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nesta sexta, ao conversar com jornalistas, Paim destacou que a emoção de aprovar o fim da escala de seis dias de trabalho por um de descanso, que também reduz a jornada para 40 horas, é parecida com a promulgação da Constituição, em 1988, quando a jornada foi reduzida de 48 para 44 horas semanais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu me sinto realizado, de lá para cá, da constituinte, eu apresentei dez projetos”, disse, acrescentando que a emenda promulgada hoje “vai melhorar a vida da nossa gente”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O senador Paulo Paim deixa o Senado no final desta legislatura.  Com 76 anos, ele decidiu não disputar nova vaga pelo Rio Grande do Sul na eleição deste ano após mais de 40 anos de vida pública.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Fim da 6x1</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Congresso Nacional promulgou, nesta sexta-feira (16), a Emenda Constitucional 141 de 2026, que põe fim à escala de um dia de descanso para cada seis trabalhados (6x1) e prevê a <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/saiba-quando-comeca-valer-o-fim-da-escala-6-por-1\" target=\"_blank\">escala 5x2</a>, com duas folgas por semana, para todos os trabalhadores do Brasil dentro de dois meses.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No caso da redução de 44 horas para 40 horas, ela terá um período de transição mais longo, caindo para 42 horas em 60 dias e para 40 horas daqui a 14 meses, também sem redução salarial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nascida a partir de pressão das ruas e atendendo a uma demanda histórica dos trabalhadores e sindicatos, a proposta teve a tramitação concluída na última quarta-feira (14) no Senado, com 75 votos favoráveis contra 1, do ex-vice-presidente e senador Hamilton Mourão (Republicanos-RS).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Apoiada pelo governo, a votação contou com apoio também da oposição, que era contra a PEC e tentava impedir a votação nesta semana. Após a sessão ter sido marcada, no entanto, a oposição liberou a bancada, que votou majoritariamente pelo fim da 6x1.</p>",
-      "imagem": "https://imagens.ebc.com.br/m_U8zikPmw4bWmpHgy0OogSDRq8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/whatsapp_image_2026-10-16_at_10.32.59.jpg?itok=2iU_HkYh",
-      "slug": "alcolumbre-homenageia-paim-no-fim-da-6x1-entenda-motivo",
-      "pagina_local": "alcolumbre-homenageia-paim-no-fim-da-6x1-entenda-motivo.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-homenageia-paim-no-fim-da-6x1-entenda-motivo",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Partido Novo entra com ação no TSE contra atos musicais por democracia",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Justiça Federal manda Meta restabelecer contas estudantis do RS",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Defesa de Vorcaro pede investigação sobre vazamento de conversas",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "TSE decide manter ordem para Meta garantir isonomia a candidatos",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "MPF defende prisão de PM por matar estudante de medicina",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "PF pede prorrogação de inquérito sobre financiamento do Dark Horse",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Zanin vai relatar novo pedido do PSD por segundo turno no Rio",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "TSE define regras para canais de WhatsApp durante a campanha",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "TSE nega pedido da campanha de Flávio para barrar posts de sindicatos",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "TSE determina isonomia após IA da Meta barrar imagens de Lula",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     },
     {
       "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 01:02"
+      "coletado_em": "19/10/2026 às 07:34"
     }
   ]
 };
