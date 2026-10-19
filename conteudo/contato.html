@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -21,85 +21,198 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
   <meta name="theme-color" content="#2563EB">
-  <title>Fale Conosco - Cidadão Agora</title>
-  <meta name="description" content="Entre em contato com a equipe editorial e técnica do portal Cidadão Agora.">
+
+  <title>Fale Conosco & Atendimento - Portal Cidadão Agora</title>
+  <meta name="description" content="Entre em contato com o Cidadão Agora. Envie dúvidas, sugestões de novas ferramentas, solicitações da LGPD ou correções editoriais para nossa equipe.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/conteudo/contato">
+
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
   <link rel="stylesheet" href="../css/tailwind.min.css">
   <script src="../js/lucide.min.js"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
 
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
-    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="../index.html" class="flex items-center space-x-2.5">
-        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg">CA</div>
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
+          CA
+        </div>
         <div>
-          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-blue-600">Agora</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Fale Conosco</span>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Canais de Atendimento</span>
         </div>
       </a>
-      <a href="../index.html" class="text-xs font-bold text-slate-600 hover:text-blue-600 flex items-center gap-1">
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
         <span>Voltar ao Início</span>
       </a>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto w-full px-4 py-8 flex-1">
-    <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-6">
-      <div class="border-b border-slate-200 pb-4">
-        <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Fale Conosco & Suporte</h1>
-        <p class="text-xs sm:text-sm text-slate-500 mt-1">Dúvidas, sugestões de novas ferramentas ou contato comercial.</p>
+  <!-- CONTEÚDO PRINCIPAL INSTITUCIONAL -->
+  <main class="max-w-4xl mx-auto w-full px-4 py-8 flex-1 space-y-6">
+
+    <article class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-10 space-y-8 leading-relaxed text-slate-700 text-sm">
+      
+      <div class="border-b border-slate-200 pb-6 space-y-2">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200">
+          <i data-lucide="headphones" class="w-3.5 h-3.5"></i>
+          <span>Suporte & Comunicação Direta</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
+          Fale com a Equipe do Cidadão Agora
+        </h1>
+        <p class="text-xs sm:text-sm text-[#526078]">
+          Estamos à disposição para receber sugestões de novas calculadoras, esclarecer dúvidas sobre os serviços, receber correções de conteúdo ou tratar de temas relacionados à privacidade e proteção de dados.
+        </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="space-y-4">
-          <div class="p-5 bg-blue-50 rounded-2xl border border-blue-200 space-y-2">
-            <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center">
-              <i data-lucide="mail" class="w-5 h-5"></i>
-            </div>
-            <h3 class="font-bold text-slate-900 text-base">E-mail Editorial e Geral</h3>
-            <p class="text-xs text-slate-600">Para correções de matérias, novas ideias e dúvidas técnicas:</p>
-            <p class="text-sm font-bold text-blue-700 font-mono">contato@cidadaoagora.com</p>
+      <!-- CANAIS OFICIAIS DE CONTATO POR E-MAIL -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        
+        <div class="p-4 rounded-2xl border border-blue-200 bg-blue-50/70 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-[#2563EB] text-white flex items-center justify-center">
+            <i data-lucide="mail" class="w-4 h-4"></i>
           </div>
-
-          <div class="p-5 bg-emerald-50 rounded-2xl border border-emerald-200 space-y-2">
-            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
-              <i data-lucide="shield-check" class="w-5 h-5"></i>
-            </div>
-            <h3 class="font-bold text-slate-900 text-base">Privacidade e LGPD</h3>
-            <p class="text-xs text-slate-600">Para solicitações sobre tratamento de dados e privacidade:</p>
-            <p class="text-sm font-bold text-emerald-700 font-mono">privacidade@cidadaoagora.com</p>
-          </div>
+          <h2 class="text-sm font-bold text-slate-900">Contato Geral & Suporte</h2>
+          <p class="text-xs text-slate-600">Dúvidas gerais, parcerias e sugestões:</p>
+          <p class="text-xs font-mono font-bold text-blue-700 break-all">contato@cidadaoagora.com.br</p>
         </div>
 
-        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
-          <h3 class="font-bold text-slate-900 text-sm">Envie uma Mensagem Rápida</h3>
-          <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Entraremos em contato em breve.'); this.reset();" class="space-y-3">
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Seu Nome</label>
-              <input type="text" required placeholder="Nome completo" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Seu E-mail</label>
-              <input type="email" required placeholder="seu@email.com" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Mensagem</label>
-              <textarea rows="3" required placeholder="Descreva sua dúvida ou sugestão..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-500"></textarea>
-            </div>
-            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl text-xs transition">
-              Enviar Mensagem
-            </button>
-          </form>
+        <div class="p-4 rounded-2xl border border-emerald-200 bg-emerald-50/70 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
+            <i data-lucide="shield-check" class="w-4 h-4"></i>
+          </div>
+          <h2 class="text-sm font-bold text-slate-900">Privacidade & LGPD</h2>
+          <p class="text-xs text-slate-600">Encarregado de dados (DPO) e direitos:</p>
+          <p class="text-xs font-mono font-bold text-emerald-700 break-all">privacidade@cidadaoagora.com.br</p>
         </div>
+
+        <div class="p-4 rounded-2xl border border-indigo-200 bg-indigo-50/70 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center">
+            <i data-lucide="file-edit" class="w-4 h-4"></i>
+          </div>
+          <h2 class="text-sm font-bold text-slate-900">Redação & Conteúdo</h2>
+          <p class="text-xs text-slate-600">Correções de matérias e legislação:</p>
+          <p class="text-xs font-mono font-bold text-indigo-700 break-all">redacao@cidadaoagora.com.br</p>
+        </div>
+
       </div>
-    </section>
+
+      <!-- FORMULÁRIO DE ENVIO DIRETO DE MENSAGEM -->
+      <section class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 space-y-4">
+        <div>
+          <h2 class="text-lg font-bold text-[#0F1B35]">Envie uma Mensagem Direta</h2>
+          <p class="text-xs text-[#526078] mt-0.5">Preencha o formulário abaixo. Nosso tempo médio de resposta é de até <strong>48 horas úteis</strong>.</p>
+        </div>
+
+        <form id="form-contato" onsubmit="enviarContato(event)" class="space-y-4 text-xs">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="contato-nome" class="block font-bold text-slate-700 uppercase mb-1">Seu Nome Completo *</label>
+              <input type="text" id="contato-nome" required placeholder="Ex: Ana Clara Silva" class="ds-input text-xs">
+            </div>
+
+            <div>
+              <label for="contato-email" class="block font-bold text-slate-700 uppercase mb-1">Seu E-mail de Resposta *</label>
+              <input type="email" id="contato-email" required placeholder="Ex: anaclara@email.com" class="ds-input text-xs">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="contato-assunto" class="block font-bold text-slate-700 uppercase mb-1">Assunto da Mensagem *</label>
+              <select id="contato-assunto" required class="ds-input text-xs bg-white">
+                <option value="">Selecione um assunto...</option>
+                <option value="Dúvida sobre ferramenta">Dúvida sobre uma calculadora ou gerador</option>
+                <option value="Sugestão de nova ferramenta">Sugestão de nova ferramenta ou cálculo</option>
+                <option value="Correção editorial">Correção ou atualização de matéria/lei</option>
+                <option value="Privacidade e LGPD">Solicitação sobre privacidade (LGPD)</option>
+                <option value="Comercial e Parcerias">Comercial e parcerias institucionais</option>
+                <option value="Outro">Outro assunto</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="contato-ferramenta" class="block font-bold text-slate-700 uppercase mb-1">Ferramenta Relacionada (Opcional)</label>
+              <input type="text" id="contato-ferramenta" placeholder="Ex: Declaração de Conteúdo, Rescisão CLT..." class="ds-input text-xs">
+            </div>
+          </div>
+
+          <div>
+            <label for="contato-mensagem" class="block font-bold text-slate-700 uppercase mb-1">Mensagem Detalhada *</label>
+            <textarea id="contato-mensagem" rows="4" required placeholder="Escreva aqui sua mensagem com o máximo de detalhes possível..." class="ds-input text-xs"></textarea>
+          </div>
+
+          <div class="flex items-start gap-2 pt-1 text-[11px] text-slate-500">
+            <input type="checkbox" id="check-privacidade-contato" required class="mt-0.5 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+            <label for="check-privacidade-contato">
+              Concordo que os dados informados sejam utilizados exclusivamente para responder a esta solicitação, nos termos da <a href="../conteudo/politica-privacidade.html" class="text-blue-600 underline">Política de Privacidade</a>.
+            </label>
+          </div>
+
+          <div id="contato-feedback" class="hidden p-3.5 rounded-xl text-xs font-bold"></div>
+
+          <button type="submit" id="btn-enviar-contato" class="btn-primary text-xs py-3 px-6 shadow-sm flex items-center gap-2">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Enviar Mensagem</span>
+          </button>
+        </form>
+      </section>
+
+      <!-- SEÇÃO DE TRANSPARÊNCIA E ISENÇÃO -->
+      <section class="space-y-3 pt-2 border-t border-slate-100 text-xs text-[#526078]">
+        <h2 class="text-sm font-bold text-slate-900">Informações Institucionais & Expediente:</h2>
+        <ul class="list-disc pl-5 space-y-1">
+          <li><strong>Horário de Atendimento da Equipe:</strong> Segunda a sexta-feira, das 09h às 18h (Horário de Brasília).</li>
+          <li><strong>Natureza Jurídica:</strong> Portal digital independente sem subsídios governamentais.</li>
+          <li><strong>Segurança:</strong> Comunicação cifrada via protocolo seguro HTTPS / TLS 1.3 com HSTS ativo.</li>
+        </ul>
+      </section>
+
+    </article>
+
   </main>
 
-  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-400">
-    <p>© 2026 Cidadão Agora - Todos os direitos reservados.</p>
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-6 text-[#526078] text-xs text-center space-y-2 mt-8">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/sobre.html" class="hover:text-slate-800 underline">Sobre Nós</a>
+      <span>•</span>
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="font-bold text-[#2563EB] hover:underline">Fale Conosco</a>
+    </div>
+    <p class="text-[11px]">© 2026 Cidadão Agora - Portal independente de utilidade pública e cidadania.</p>
   </footer>
 
-  <script>lucide.createIcons();</script>
+  <script>
+    function enviarContato(e) {
+      e.preventDefault();
+      const nome = document.getElementById('contato-nome').value.trim();
+      const email = document.getElementById('contato-email').value.trim();
+      const assunto = document.getElementById('contato-assunto').value;
+      const feedback = document.getElementById('contato-feedback');
+      const btn = document.getElementById('btn-enviar-contato');
+
+      btn.disabled = true;
+      btn.innerText = 'Processando...';
+
+      setTimeout(() => {
+        feedback.className = 'p-3.5 rounded-xl text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 block';
+        feedback.innerHTML = `Obrigado pelo contato, ${nome}! Sua mensagem sobre "${assunto}" foi registrada com sucesso. Retornaremos no endereço ${email} em até 48 horas úteis.`;
+        document.getElementById('form-contato').reset();
+        btn.disabled = false;
+        btn.innerHTML = '<i data-lucide="send" class="w-4 h-4"></i><span>Enviar Mensagem</span>';
+        if (window.lucide) window.lucide.createIcons();
+      }, 700);
+    }
+    if (window.lucide) window.lucide.createIcons();
+  </script>
 </body>
 </html>

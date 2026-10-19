@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -23,6 +23,53 @@
   <meta name="theme-color" content="#2563EB">
   <title>Validador Oficial de CPF & Região Fiscal - Cidadão Agora</title>
   <meta name="description" content="Valide números de CPF pelo algoritmo oficial da Receita Federal e descubra a região fiscal de emissão. 100% seguro e sem armazenar dados.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/validador-cpf">
+
+  <!-- Schema.org WebApplication & FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Validador Oficial de CPF & Região Fiscal",
+        "url": "https://cidadaoagora.com.br/servicos/validador-cpf",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "description": "Validação matemática de números de CPF baseada no algoritmo oficial de Módulo 11 da Receita Federal do Brasil."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O validador armazena o CPF digitado?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. O Cidadão Agora utiliza tecnologia 100% client-side (no seu navegador). O cálculo matemático ocorre na memória do seu dispositivo e nenhuma informação é enviada para servidores ou gravada em bancos de dados."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que fazer se o meu CPF constar como Pendente de Regularização?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Esse status quase sempre decorre da falta de entrega de alguma Declaração do Imposto de Renda (DIRPF) obrigatória nos últimos cinco anos. Para regularizar, acesse o portal e-CAC da Receita Federal e envie a declaração em atraso."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como funciona o cálculo do Módulo 11 no CPF?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os dois últimos dígitos são verificadores calculados a partir da multiplicação ponderada decrescente dos primeiros algarismos, garantindo a integridade dos dados cadastrais."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Design System & Tokens Globais -->
   <link rel="stylesheet" href="../css/design-system.css">
@@ -145,16 +192,171 @@
 </div>
     </div>
 
-    <!-- CONTEÚDO EDUCATIVO / ARTIGO SEO -->
-    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
-      <h2 class="text-lg font-bold text-[#0F1B35]">Como funciona a validação matemática do CPF?</h2>
-      <p>
-        O Cadastro de Pessoas Físicas (CPF) é composto por 11 dígitos, sendo os 9 primeiros a base identificadora e os 2 últimos os chamados <strong>dígitos verificadores (DV)</strong>. Esses dígitos são calculados a partir de uma fórmula matemática de multiplicação ponderada conhecida como algoritmo de Módulo 11.
-      </p>
-      <h3 class="text-base font-bold text-[#0F1B35] pt-2">O que indica o 9º dígito do CPF?</h3>
-      <p>
-        O nono dígito indica diretamente em qual das 10 Regiões Fiscais do Brasil o documento foi emitido originalmente. Por exemplo: o dígito <strong>8</strong> pertence ao estado de São Paulo, o dígito <strong>7</strong> ao Rio de Janeiro e Espírito Santo, e o dígito <strong>9</strong> aos estados do Paraná e Santa Catarina.
-      </p>
+    <!-- GUIA COMPLETO & ARTIGO EDITORIAL DE VALOR SUBSTANCIAL (SEO & ADSENSE) -->
+    <article class="ds-card p-6 sm:p-10 space-y-8 text-sm leading-relaxed text-[#526078]">
+      
+      <div class="border-b border-[#D9E1EC] pb-4 space-y-1">
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">
+          Guia Definitivo do CPF: Validação Matemática, Regiões Fiscais e Situação Cadastral
+        </h2>
+        <p class="text-xs text-[#526078]">
+          Entenda como funciona a estrutura do Cadastro de Pessoas Físicas, as regras da Receita Federal e como manter seu documento regular.
+        </p>
+      </div>
+
+      <!-- SEÇÃO 1: O QUE É E PARA QUE SERVE -->
+      <section class="space-y-3">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="info" class="w-4 h-4 text-[#2563EB]"></i>
+          <span>1. O Que É o CPF e Qual a Sua Importância no Brasil?</span>
+        </h3>
+        <p>
+          O <strong>Cadastro de Pessoas Físicas (CPF)</strong> é o registro oficial administrado pela <a href="https://www.gov.br/receitafederal/pt-br" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline font-semibold">Secretaria Especial da Receita Federal do Brasil</a> que identifica os cidadãos contribuintes perante o Estado. Criado em 1968 em substituição ao antigo Registro de Pessoas Físicas (RPF), o CPF tornou-se, por força da Lei Federal nº 14.534/2023, o <strong>número único e suficiente de identificação do cidadão</strong> em todos os bancos de dados públicos do país.
+        </p>
+        <p>
+          Ele é indispensável para abrir contas bancárias, firmar contratos de trabalho sob a CLT, prestar concursos públicos, receber benefícios sociais (como Bolsa Família ou INSS), solicitar passaporte e declarar o Imposto de Renda. Por essa razão, entender a integridade matemática dos 11 dígitos evita fraudes, recusas cadastrais e atrasos na emissão de documentos.
+        </p>
+      </section>
+
+      <!-- SEÇÃO 2: COMO FUNCIONA O ALGORITMO MÓDULO 11 -->
+      <section class="space-y-3">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="calculator" class="w-4 h-4 text-emerald-600"></i>
+          <span>2. Como Funciona o Algoritmo Matemático Oficial (Módulo 11)?</span>
+        </h3>
+        <p>
+          Um número de CPF não é uma sequência aleatória. Ele é composto por exatamente 11 algarismos na estrutura <code>ABC.DEF.GHI-JK</code>, divididos em três grupos funcionais:
+        </p>
+        <ul class="list-disc pl-5 space-y-1.5 text-xs text-[#526078]">
+          <li><strong>Primeiros 8 dígitos (ABCDEFGH):</strong> Correspondem ao número-base sequencial atribuído no momento do nascimento ou inscrição inicial.</li>
+          <li><strong>9º dígito (I):</strong> Representa a Unidade Federativa da Região Fiscal onde a inscrição foi originariamente emitida.</li>
+          <li><strong>10º e 11º dígitos (JK):</strong> São os <em>Dígitos Verificadores (DV)</em>, calculados mediante aplicação estrita do algoritmo Módulo 11 sobre os números anteriores.</li>
+        </ul>
+        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs space-y-2">
+          <strong class="text-slate-900 block font-bold">Exemplo Prático do Cálculo do 1º Dígito Verificador:</strong>
+          <p>
+            Multiplica-se cada um dos 9 primeiros números por pesos decrescentes de 10 a 2. Soma-se o resultado das multiplicações e divide-se por 11. O resto da divisão determina o dígito: se o resto for 0 ou 1, o dígito é 0; caso contrário, subtrai-se o resto de 11. O 2º dígito repete o processo incluindo o 10º número com pesos de 11 a 2.
+          </p>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 3: TABELA DAS 10 REGIÕES FISCAIS -->
+      <section class="space-y-3">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="map" class="w-4 h-4 text-purple-600"></i>
+          <span>3. Tabela Oficial de Estados pelo 9º Dígito do CPF</span>
+        </h3>
+        <p>
+          Consultando apenas o nono dígito do documento, é possível identificar com precisão matemática em qual região fiscal da Receita Federal a pessoa foi inscrita:
+        </p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-xs text-left border border-slate-200 rounded-xl overflow-hidden">
+            <thead class="bg-slate-100 text-[#0F1B35] font-bold uppercase">
+              <tr>
+                <th class="p-2.5 border-b border-slate-200">9º Dígito</th>
+                <th class="p-2.5 border-b border-slate-200">Região Fiscal</th>
+                <th class="p-2.5 border-b border-slate-200">Estados Correspondentes</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-[#526078]">
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">1</td><td class="p-2.5">1ª Região Fiscal</td><td class="p-2.5">Distrito Federal, Goiás, Mato Grosso, Mato Grosso do Sul e Tocantins</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">2</td><td class="p-2.5">2ª Região Fiscal</td><td class="p-2.5">Acre, Amapá, Amazonas, Pará, Rondônia e Roraima</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">3</td><td class="p-2.5">3ª Região Fiscal</td><td class="p-2.5">Ceará, Maranhão e Piauí</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">4</td><td class="p-2.5">4ª Região Fiscal</td><td class="p-2.5">Alagoas, Paraíba, Pernambuco e Rio Grande do Norte</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">5</td><td class="p-2.5">5ª Região Fiscal</td><td class="p-2.5">Bahia e Sergipe</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">6</td><td class="p-2.5">6ª Região Fiscal</td><td class="p-2.5">Minas Gerais</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">7</td><td class="p-2.5">7ª Região Fiscal</td><td class="p-2.5">Espírito Santo e Rio de Janeiro</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">8</td><td class="p-2.5">8ª Região Fiscal</td><td class="p-2.5">São Paulo</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">9</td><td class="p-2.5">9ª Região Fiscal</td><td class="p-2.5">Paraná e Santa Catarina</td></tr>
+              <tr><td class="p-2.5 font-bold font-mono text-center bg-slate-50">0</td><td class="p-2.5">10ª Região Fiscal</td><td class="p-2.5">Rio Grande do Sul</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 4: DIFERENÇA ENTRE VÁLIDO E REGULAR -->
+      <section class="space-y-3">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-600"></i>
+          <span>4. Qual a Diferença entre CPF "Válido" e CPF "Regular"?</span>
+        </h3>
+        <p>
+          Este é um dos erros mais comuns entre os cidadãos:
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+          <div class="p-4 rounded-xl border border-blue-200 bg-blue-50/50 space-y-1.5">
+            <strong class="text-blue-900 block font-bold text-sm">Validade Matemática (Verificada Aqui):</strong>
+            <p>
+              Indica se a combinação dos 11 números respeita a equação matemática oficial do algoritmo Módulo 11. Um CPF matematicamente válido não garante que ele pertença a uma pessoa viva ou que esteja livre de pendências tributárias.
+            </p>
+          </div>
+          <div class="p-4 rounded-xl border border-emerald-200 bg-emerald-50/50 space-y-1.5">
+            <strong class="text-emerald-900 block font-bold text-sm">Situação Cadastral (Receita Federal):</strong>
+            <p>
+              É o status legal perante o fisco. O CPF pode estar <em>Regular</em>, <em>Pendente de Regularização</em> (omissão de DIRPF), <em>Suspenso</em> (dados incompletos), <em>Cancelado</em> (duplicidade ou decisão judicial) ou <em>Nulo</em> (fraude confirmada).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 5: ERROS COMUNS E CUIDADOS COM GOLPES -->
+      <section class="space-y-3">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="shield-alert" class="w-4 h-4 text-rose-600"></i>
+          <span>5. Erros Comuns e Cuidados com a Segurança dos Seus Dados</span>
+        </h3>
+        <ul class="list-disc pl-5 space-y-1.5 text-xs text-[#526078]">
+          <li><strong>Nunca envie fotos do CPF por WhatsApp ou redes sociais:</strong> Golpistas utilizam fotos nítidas para abrir contas fraudulentas em bancos digitais e solicitar empréstimos consignados.</li>
+          <li><strong>Sequências repetidas são inválidas:</strong> Números como <code>111.111.111-11</code> ou <code>000.000.000-00</code> geram restos matemáticos coincidentes, mas são rejeitados universalmente pelas regras do fisco.</li>
+          <li><strong>Cobrança para regularizar CPF:</strong> A Receita Federal oferece a regularização de CPF totalmente gratuita em seu site oficial. Cuidado com sites que cobram taxas para emitir comprovantes públicos.</li>
+        </ul>
+      </section>
+
+      <!-- SEÇÃO 6: PERGUNTAS FREQUENTES (FAQ) -->
+      <section class="space-y-4 pt-2 border-t border-slate-100">
+        <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="help-circle" class="w-4 h-4 text-[#2563EB]"></i>
+          <span>6. Perguntas Frequentes sobre Validação de CPF</span>
+        </h3>
+
+        <div class="space-y-3 text-xs">
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+            <strong class="text-slate-900 block font-bold text-sm">O validador armazena o CPF digitado?</strong>
+            <p class="text-[#526078]">
+              Não. O Cidadão Agora utiliza tecnologia 100% client-side (no seu navegador). O cálculo matemático ocorre na memória do seu dispositivo e nenhuma informação é enviada para servidores ou gravada em bancos de dados.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+            <strong class="text-slate-900 block font-bold text-sm">O que fazer se o meu CPF constar como "Pendente de Regularização"?</strong>
+            <p class="text-[#526078]">
+              Esse status quase sempre decorre da falta de entrega de alguma Declaração do Imposto de Renda (DIRPF) obrigatória nos últimos cinco anos. Para regularizar, acesse o portal e-CAC da Receita Federal e envie a declaração em atraso.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+            <strong class="text-slate-900 block font-bold text-sm">É possível mudar o número do CPF?</strong>
+            <p class="text-[#526078]">
+              A regra geral é que o número do CPF é definitivo e vitalício, extinguindo-se apenas com a certidão de óbito. A alteração de numeração só é concedida em situações excepcionais autorizadas judicialmente, como proteção a testemunhas ou fraudes graves com duplicidade cadastral comprovada.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+            <strong class="text-slate-900 block font-bold text-sm">Crianças recém-nascidas já recebem CPF?</strong>
+            <p class="text-[#526078]">
+              Sim. Desde 2015, por convênio entre a Associação dos Registradores de Pessoas Naturais (Arpen-Brasil) e a Receita Federal, o número do CPF é emitido gratuitamente e impresso de forma direta na própria Certidão de Nascimento lavrada em cartório.
+            </p>
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+            <strong class="text-slate-900 block font-bold text-sm">Posso consultar os dados da Receita Federal por aqui?</strong>
+            <p class="text-[#526078]">
+              Nossa ferramenta realiza a validação algorítmica matemática e identificação de região fiscal. Para obter a certidão cadastral completa com nome e situação perante o governo, disponibilizamos o link de redirecionamento direto para a página oficial da Receita Federal.
+            </p>
+          </div>
+        </div>
+      </section>
+
     </article>
 
     <!-- LINKS PARA PÁGINAS VARIANTES DE SEO -->

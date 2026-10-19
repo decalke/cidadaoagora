@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -22,7 +22,75 @@
   <link rel="manifest" href="../site.webmanifest">
   <meta name="theme-color" content="#2563EB">
   <title>Consulta de CNPJ e Situação Cadastral MEI - Cidadão Agora</title>
-  <meta name="description" content="Verifique gratuitamente se um MEI ou CNPJ está ATIVO na Receita Federal. Veja razão social, CNAE, data de abertura e opção pelo Simples Nacional.">
+  <meta name="description" content="Verifique gratuitamente se um MEI ou CNPJ está ATIVO na Receita Federal. Veja razão social, CNAE, data de abertura, endereço e opção pelo Simples Nacional.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/consulta-mei-cnpj">
+
+  <!-- Schema.org WebApplication & FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Consulta de CNPJ e Situação Cadastral MEI",
+        "url": "https://cidadaoagora.com.br/servicos/consulta-mei-cnpj",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "description": "Ferramenta gratuita para verificação cadastral de Microempreendedor Individual (MEI) e CNPJ ativo na base pública da Receita Federal."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Como saber se o MEI está com situação ativa na Receita Federal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ao digitar os 14 dígitos do CNPJ na consulta, o sistema retorna o Cartão CNPJ com a situação cadastral. Se constar 'ATIVA', o microempreendedor está regular e habilitado a emitir notas fiscais e exercer suas atividades."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que significa um CNPJ com situação Inapta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A situação Inapta ocorre quando a empresa deixa de entregar declarações fiscais obrigatórias por dois anos consecutivos, como a DASN-SIMEI no caso do MEI ou a DCTF/DEFIS no caso de microempresas, impossibilitando a emissão de notas fiscais e a movimentação bancária da PJ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O MEI é obrigado a pagar boletos recebidos pelo correio após a abertura?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. Nenhuma taxa associativa, cadastral ou sindicato é obrigatória para o MEI. A única guia legal e obrigatória é o DAS mensal (Documento de Arrecadação do Simples Nacional), gerado exclusivamente no portal oficial gov.br/empresas-e-negocios."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é o limite de faturamento anual do MEI em 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O limite de faturamento anual do MEI estabelecido pela Lei Complementar nº 123/2006 é de R$ 81.000,00 por ano (ou R$ 6.750,00 proporcionais por mês de atividade no ano de abertura). Se ultrapassar até 20%, o MEI deve pagar o DAS complementar e migrar para Microempresa (ME)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como emitir o Certificado da Condição de Microempreendedor Individual (CCMEI)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O CCMEI oficial pode ser emitido gratuitamente a qualquer momento no Portal do Empreendedor do governo federal (gov.br), utilizando a conta Gov.br nível prata ou ouro do titular."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Design System & Tokens Globais -->
   <link rel="stylesheet" href="../css/design-system.css">
@@ -159,28 +227,197 @@
 </div>
     </div>
 
-    <!-- CONTEÚDO EDUCATIVO / GUIA SEO -->
-    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
-      <h2 class="text-lg font-bold text-[#0F1B35]">Como saber se um MEI está realmente ativo?</h2>
-      <p>
-        Para verificar se um Microempreendedor Individual (MEI) está ativo, é necessário consultar a situação cadastral do CNPJ na base pública da Receita Federal. Um MEI com situação <strong>"ATIVA"</strong> pode emitir notas fiscais, abrir conta bancária jurídica e operar normalmente no mercado.
-      </p>
-      <h3 class="text-base font-bold text-[#0F1B35] pt-2">O que significa MEI Suspenso ou Baixado?</h3>
-      <p>
-        Caso a consulta retorne <strong>"SUSPENSA"</strong> ou <strong>"BAIXADA"</strong>, significa que a empresa não cumpriu obrigações anuais (como a DASN-SIMEI) ou solicitou o encerramento das atividades.
-      </p>
-    </article>
+    <!-- CONTEÚDO EDUCATIVO / GUIA COMPLETO -->
+    <article class="ds-card p-6 sm:p-10 space-y-8 text-sm leading-relaxed text-[#526078]">
+      
+      <!-- SEÇÃO 1: O QUE É E PARA QUE SERVE -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          O que é a Consulta de CNPJ e Situação Cadastral do MEI?
+        </h2>
+        <p>
+          O <strong>Cadastro Nacional da Pessoa Jurídica (CNPJ)</strong> é o registro oficial administrado pela <strong>Receita Federal do Brasil (RFB)</strong> que identifica civil e fiscalmente todas as entidades empresariais, associações e microempreendedores individuais em território nacional. Para o <strong>Microempreendedor Individual (MEI)</strong>, regulamentado pela <a href="https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm" target="_blank" rel="noopener noreferrer" class="text-[#2563EB] font-bold hover:underline">Lei Complementar nº 123/2006</a>, a consulta pública é o instrumento que comprova a regularidade da empresa perante clientes, fornecedores, bancos e órgãos públicos.
+        </p>
+        <p>
+          Diferente de grandes corporações, o MEI possui características únicas em seu registro: a Razão Social é obrigatoriamente composta pelo nome civil do empreendedor seguido do seu número de CPF. A verificação cadastral instantânea permite validar se a empresa existe formalmente, qual é a sua atividade econômica registrada e se está autorizada a emitir notas fiscais de comércio ou prestação de serviços.
+        </p>
+      </section>
 
-    <!-- LINKS PARA PÁGINAS VARIANTES DE SEO -->
-    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
-      <h3 class="text-xs font-bold uppercase tracking-wider text-[#526078] mb-3">Páginas Relacionadas e Variações de Busca:</h3>
-      <div class="flex flex-wrap gap-2 text-xs">
-        <a href="consulta-mei-gratis.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Consulta MEI Grátis Online</a>
-        <a href="como-saber-se-cnpj-ta-ativo.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Como Saber se o CNPJ está Ativo</a>
-        <a href="buscador-cnae.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Tabela CNAE & Simples Nacional</a>
-        <a href="gerador-orcamento-simples.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Gerador de Orçamento MEI</a>
-      </div>
-    </section>
+      <!-- SEÇÃO 2: SITUAÇÕES CADASTRAIS NA RECEITA FEDERAL -->
+      <section class="space-y-4">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Os 5 Estados da Situação Cadastral (Instrução Normativa RFB nº 2.119/2022)
+        </h2>
+        <p>
+          Conforme estabelece a regulamentação oficial do cadastro fiscal da União, um CNPJ pode ser classificado em cinco situações cadastrais distintas. Saber interpretar esse status é essencial para evitar negociar com empresas irregulares:
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+          <div class="p-4 rounded-xl border border-emerald-200 bg-emerald-50/50 space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+              <strong class="text-emerald-950 font-bold text-sm">ATIVA</strong>
+            </div>
+            <p class="text-xs text-emerald-900 leading-relaxed">
+              O CNPJ está plenamente regular perante a Receita Federal. O titular pode emitir notas fiscais, abrir contas bancárias de pessoa jurídica, obter crédito empresarial e participar de licitações públicas.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-amber-200 bg-amber-50/50 space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+              <strong class="text-amber-950 font-bold text-sm">SUSPENSA</strong>
+            </div>
+            <p class="text-xs text-amber-900 leading-relaxed">
+              A inscrição está temporariamente paralisada por solicitação do próprio titular, por indícios de inconsistência cadastral ou por domicílio fiscal em investigação. Não pode praticar atos comerciais até a regularização.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-rose-200 bg-rose-50/50 space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+              <strong class="text-rose-950 font-bold text-sm">INAPTA</strong>
+            </div>
+            <p class="text-xs text-rose-900 leading-relaxed">
+              Decorre da omissão continuada de declarações obrigatórias (como a <strong>DASN-SIMEI</strong> ou DCTF) por 2 (dois) anos consecutivos. O CNPJ fica bloqueado para operações e as certidões negativas são travadas.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-100/70 space-y-1.5">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-slate-500"></span>
+              <strong class="text-slate-950 font-bold text-sm">BAIXADA</strong>
+            </div>
+            <p class="text-xs text-slate-800 leading-relaxed">
+              A empresa foi formalmente extinta por pedido do titular no Portal do Empreendedor ou por encerramento de ofício pela Receita. A pessoa jurídica deixou de existir de forma definitiva.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl border border-red-200 bg-red-50 text-xs text-red-950 space-y-1">
+          <strong class="font-bold">NULA:</strong>
+          <span>A inscrição foi declarada nula por motivo de duplicidade de inscrição, fraude comprovada ou vício insanável no registro inicial.</span>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 3: ALERTA DE SEGURANÇA E PREVENÇÃO DE GOLPES -->
+      <section class="bg-amber-50/80 border border-amber-300 rounded-2xl p-5 sm:p-7 space-y-3">
+        <div class="flex items-center gap-2 text-amber-900 font-bold text-base">
+          <i data-lucide="shield-alert" class="w-5 h-5 text-amber-600"></i>
+          <h3>Alerta Oficial: Como se Proteger de Golpes contra MEIs</h3>
+        </div>
+        <p class="text-xs sm:text-sm text-amber-950 leading-relaxed">
+          Os dados do cartão CNPJ (incluindo endereço, telefone e razão social) são <strong>públicos por força da Lei de Acesso à Informação</strong>. Devido a isso, golpistas vasculham a base de novas empresas para enviar cobranças falsas. Fique atento a estas regras fundamentais:
+        </p>
+        <ul class="text-xs sm:text-sm text-amber-900 space-y-2 list-disc list-inside">
+          <li><strong>Boleto de "Taxa Associativa" ou "Cadastral":</strong> Você NÃO é obrigado a pagar nenhuma taxa de associação, sindicato ou cadastro comercial. Qualquer boleto recebido pelo correio ou por e-mail após a abertura do MEI é de pagamento facultativo ou fraudulento.</li>
+          <li><strong>A única cobrança obrigatória do MEI:</strong> É o <strong>DAS mensal (Documento de Arrecadação do Simples Nacional)</strong>, cujo valor inclui o INSS da previdência e os impostos municipais/estaduais (ICMS/ISS). Ele é emitido exclusivamente no Portal do Empreendedor (<a href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor" target="_blank" rel="noopener noreferrer" class="underline font-bold">gov.br</a>) ou pelo app oficial MEI da Receita.</li>
+          <li><strong>Cobrança de abertura:</strong> O processo de formalização do MEI pelo governo é 100% gratuito. Desconfie de intermediários cobrando mensalidades para manter o MEI ativo.</li>
+        </ul>
+      </section>
+
+      <!-- SEÇÃO 4: OBRIGAÇÕES ANUAIS E LIMITES -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Obrigações Básicas para Manter seu MEI Ativo e Regular
+        </h2>
+        <p>
+          Para que sua situação cadastral continue <strong>"ATIVA"</strong> e sem pendências no Cadastro Informativo de Créditos não Quitados do Setor Público Federal (CADIN), o microempreendedor deve cumprir duas rotinas fiscais básicas:
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-white space-y-1.5 shadow-2xs">
+            <h4 class="font-bold text-[#0F1B35] text-sm flex items-center gap-2">
+              <i data-lucide="calendar" class="w-4 h-4 text-[#2563EB]"></i>
+              Pagamento do DAS Mensal
+            </h4>
+            <p class="text-xs text-[#526078]">
+              Vence todo dia 20 do mês. Garante cobertura do INSS para aposentadoria por idade, auxílio-doença, salário-maternidade e pensão por morte para dependentes.
+            </p>
+          </div>
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-white space-y-1.5 shadow-2xs">
+            <h4 class="font-bold text-[#0F1B35] text-sm flex items-center gap-2">
+              <i data-lucide="file-check" class="w-4 h-4 text-[#2563EB]"></i>
+              Declaração Anual (DASN-SIMEI)
+            </h4>
+            <p class="text-xs text-[#526078]">
+              Transmitida obrigatoriamente até 31 de maio de cada ano pelo Portal gov.br, informando a receita bruta total obtida no ano-calendário anterior.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 5: FAQ - PERGUNTAS FREQUENTES -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Perguntas Frequentes sobre Consulta de MEI e CNPJ (FAQ)
+        </h2>
+        
+        <div class="space-y-3">
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Como verificar se o MEI possui inscrição estadual ou municipal?</h3>
+            <p class="text-xs text-[#526078]">
+              A consulta na Receita Federal exibe a situação federal e o CNAE. Para checar a Inscrição Estadual (obrigatória para comércio/indústria), utilize o portal SINTEGRA ou CCC (Cadastro Centralizado de Contribuintes) do seu estado. A inscrição municipal é obtida no site da Prefeitura onde o MEI está sediado.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Qual o limite máximo de faturamento do MEI?</h3>
+            <p class="text-xs text-[#526078]">
+              O teto anual de faturamento do MEI fixado pela Lei Complementar nº 123/2006 é de <strong>R$ 81.000,00</strong> (média de R$ 6.750,00 por mês). Para empresas abertas no meio do ano, o teto é calculado proporcionalmente ao número de meses de atividade.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Como reativar um MEI que ficou com a situação Inapta?</h3>
+            <p class="text-xs text-[#526078]">
+              Para regularizar a situação Inapta, o titular deve acessar o portal da Receita Federal (e-CAC) ou o Portal do Empreendedor, identificar as declarações DASN-SIMEI omissas e transmiti-las. Após o processamento das entregas e regularização das guias com multa por atraso, a situação volta a ser ATIVA automaticamente.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Onde emitir a Certidão Negativa de Débitos (CND) do MEI?</h3>
+            <p class="text-xs text-[#526078]">
+              A Certidão Conjunta Negativa de Débitos relativos aos Tributos Federais e à Dívida Ativa da União é emitida gratuitamente no site da Receita Federal / Procuradoria-Geral da Fazenda Nacional (PGFN), informando apenas o CNPJ.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- LINKS INTERNOS RELACIONADOS -->
+      <section class="p-5 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-3">
+        <h3 class="text-sm font-bold text-[#1E40AF] flex items-center gap-2">
+          <i data-lucide="link" class="w-4 h-4"></i>
+          Ferramentas e Modelos Práticos para Empreendedores:
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs">
+          <a href="buscador-cnae.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="search" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Buscador de CNAE & Simples</span>
+          </a>
+          <a href="gerador-orcamento-simples.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="file-spreadsheet" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Gerador de Orçamento em PDF</span>
+          </a>
+          <a href="gerador-recibo-pagamento.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="receipt" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Recibo de Prestação de Serviço</span>
+          </a>
+          <a href="declaracao-de-conteudo.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="package-check" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Declaração de Conteúdo Correios</span>
+          </a>
+          <a href="gerador-contrato-simples.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="file-text" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Contrato de Serviços Autônomo</span>
+          </a>
+          <a href="/guias/" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="book-open" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Central de Guias Práticos</span>
+          </a>
+        </div>
+      </section>
+
+    </article>
 
   </main>
 

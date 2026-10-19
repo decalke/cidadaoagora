@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -112,22 +112,22 @@
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
         <!-- Card Dólar -->
         <div class="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
-          <span class="text-[11px] font-bold uppercase text-slate-400 block">Dólar Comercial</span>
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Dólar PTAX (BCB)</span>
           <div class="flex items-baseline gap-1.5 mt-1">
-            <span id="indicador-dolar" class="text-2xl font-black text-slate-900">R$ 4,99</span>
+            <span id="indicador-dolar" class="text-2xl font-black text-slate-900">R$ 5,06</span>
             <span id="indicador-dolar-var" class="text-xs font-bold text-emerald-600 flex items-center">▼ -0,52%</span>
           </div>
-          <span class="text-[10px] text-slate-400 mt-1 block">Cotação PTAX / Comercial</span>
+          <span id="indicador-dolar-data" class="text-[10px] text-slate-400 mt-1 block">Banco Central Oficial</span>
         </div>
 
         <!-- Card Euro -->
         <div class="bg-white p-4.5 rounded-2xl border border-slate-200 shadow-xs hover:border-emerald-300 transition-all">
-          <span class="text-[11px] font-bold uppercase text-slate-400 block">Euro Comercial</span>
+          <span class="text-[11px] font-bold uppercase text-slate-400 block">Euro PTAX (BCB)</span>
           <div class="flex items-baseline gap-1.5 mt-1">
-            <span id="indicador-euro" class="text-2xl font-black text-slate-900">R$ 5,58</span>
-            <span id="indicador-euro-var" class="text-xs font-bold text-emerald-600 flex items-center">▼ -0,79%</span>
+            <span id="indicador-euro" class="text-2xl font-black text-slate-900">R$ 5,67</span>
+            <span id="indicador-euro-var" class="text-xs font-bold text-emerald-600 flex items-center">▼ -0,71%</span>
           </div>
-          <span class="text-[10px] text-slate-400 mt-1 block">Cotação PTAX / Comercial</span>
+          <span id="indicador-euro-data" class="text-[10px] text-slate-400 mt-1 block">Banco Central Oficial</span>
         </div>
 
         <!-- Card Selic -->
@@ -428,85 +428,127 @@
       window.lucide.createIcons();
     }
 
-    // Atualização em tempo real dos Indicadores Econômicos (AwesomeAPI e Banco Central SGS)
-    (async function atualizarIndicadores() {
-      // 1. Cotações de Dólar e Euro em tempo real
+    // Atualização em tempo real dos Indicadores Econômicos 100% integrados à API Oficial do Banco Central do Brasil (https://www.bcb.gov.br/)
+    async function atualizarIndicadoresBCB() {
+      // Timestamp para evitar cache do navegador e garantir cotações atualizadas em cada abertura
+      const ts = Date.now();
+
+      // 1. Cotação Oficial do Dólar PTAX (BCB SGS Série 1 - Venda diária)
       try {
-        const resMoedas = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL');
-        if (resMoedas.ok) {
-          const dataMoedas = await resMoedas.json();
-          if (dataMoedas.USDBRL) {
-            const dolarBid = parseFloat(dataMoedas.USDBRL.bid).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-            const dolarVar = parseFloat(dataMoedas.USDBRL.pctChange);
+        const resDolar = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/2?formato=json&_=${ts}`, { cache: 'no-store' });
+        if (resDolar.ok) {
+          const dadosDolar = await resDolar.json();
+          if (dadosDolar && dadosDolar.length > 0) {
+            const pontoAtual = dadosDolar[dadosDolar.length - 1];
+            const valorDolar = parseFloat(pontoAtual.valor);
             const elDolar = document.getElementById('indicador-dolar');
             const elDolarVar = document.getElementById('indicador-dolar-var');
-            if (elDolar) elDolar.textContent = `R$ ${dolarBid}`;
-            if (elDolarVar) {
-              elDolarVar.textContent = `${dolarVar >= 0 ? '▲ +' : '▼ '}${dolarVar.toFixed(2)}%`;
-              elDolarVar.className = `text-xs font-bold flex items-center ${dolarVar >= 0 ? 'text-amber-600' : 'text-emerald-600'}`;
+            const elDolarData = document.getElementById('indicador-dolar-data');
+
+            if (elDolar) {
+              elDolar.textContent = `R$ ${valorDolar.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+              elDolar.setAttribute('title', `Cotação exata BCB: R$ ${valorDolar.toFixed(4)} (${pontoAtual.data})`);
             }
-          }
-          if (dataMoedas.EURBRL) {
-            const euroBid = parseFloat(dataMoedas.EURBRL.bid).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-            const euroVar = parseFloat(dataMoedas.EURBRL.pctChange);
-            const elEuro = document.getElementById('indicador-euro');
-            const elEuroVar = document.getElementById('indicador-euro-var');
-            if (elEuro) elEuro.textContent = `R$ ${euroBid}`;
-            if (elEuroVar) {
-              elEuroVar.textContent = `${euroVar >= 0 ? '▲ +' : '▼ '}${euroVar.toFixed(2)}%`;
-              elEuroVar.className = `text-xs font-bold flex items-center ${euroVar >= 0 ? 'text-amber-600' : 'text-emerald-600'}`;
+
+            if (dadosDolar.length > 1 && elDolarVar) {
+              const valorAnterior = parseFloat(dadosDolar[dadosDolar.length - 2].valor);
+              const variacao = ((valorDolar - valorAnterior) / valorAnterior) * 100;
+              const isPositivo = variacao >= 0;
+              elDolarVar.textContent = `${isPositivo ? '▲ +' : '▼ '}${variacao.toFixed(2).replace('.', ',')}%`;
+              elDolarVar.className = `text-xs font-bold flex items-center ${isPositivo ? 'text-amber-600' : 'text-emerald-600'}`;
+            }
+
+            if (elDolarData && pontoAtual.data) {
+              elDolarData.textContent = `Oficial BCB (${pontoAtual.data})`;
             }
           }
         }
       } catch (e) {
-        console.warn('Cotação em fallback:', e);
+        console.warn('Cotação Dólar BCB em fallback:', e);
       }
 
-      // 2. Taxa Selic Oficial (BACEN SGS Série 432)
+      // 2. Cotação Oficial do Euro PTAX (BCB SGS Série 21619 - Venda diária)
       try {
-        const resSelic = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json');
+        const resEuro = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.21619/dados/ultimos/2?formato=json&_=${ts}`, { cache: 'no-store' });
+        if (resEuro.ok) {
+          const dadosEuro = await resEuro.json();
+          if (dadosEuro && dadosEuro.length > 0) {
+            const pontoAtual = dadosEuro[dadosEuro.length - 1];
+            const valorEuro = parseFloat(pontoAtual.valor);
+            const elEuro = document.getElementById('indicador-euro');
+            const elEuroVar = document.getElementById('indicador-euro-var');
+            const elEuroData = document.getElementById('indicador-euro-data');
+
+            if (elEuro) {
+              elEuro.textContent = `R$ ${valorEuro.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+              elEuro.setAttribute('title', `Cotação exata BCB: R$ ${valorEuro.toFixed(4)} (${pontoAtual.data})`);
+            }
+
+            if (dadosEuro.length > 1 && elEuroVar) {
+              const valorAnterior = parseFloat(dadosEuro[dadosEuro.length - 2].valor);
+              const variacao = ((valorEuro - valorAnterior) / valorAnterior) * 100;
+              const isPositivo = variacao >= 0;
+              elEuroVar.textContent = `${isPositivo ? '▲ +' : '▼ '}${variacao.toFixed(2).replace('.', ',')}%`;
+              elEuroVar.className = `text-xs font-bold flex items-center ${isPositivo ? 'text-amber-600' : 'text-emerald-600'}`;
+            }
+
+            if (elEuroData && pontoAtual.data) {
+              elEuroData.textContent = `Oficial BCB (${pontoAtual.data})`;
+            }
+          }
+        }
+      } catch (e) {
+        console.warn('Cotação Euro BCB em fallback:', e);
+      }
+
+      // 3. Taxa Selic Oficial (BCB SGS Série 432)
+      try {
+        const resSelic = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
         if (resSelic.ok) {
-          const dataSelic = await resSelic.json();
-          if (dataSelic && dataSelic[0] && dataSelic[0].valor) {
-            const valSelic = parseFloat(dataSelic[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          const dadosSelic = await resSelic.json();
+          if (dadosSelic && dadosSelic[0] && dadosSelic[0].valor) {
+            const valSelic = parseFloat(dadosSelic[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             const elSelic = document.getElementById('indicador-selic');
             if (elSelic) elSelic.textContent = `${valSelic}%`;
           }
         }
       } catch (e) {
-        console.warn('Selic em fallback:', e);
+        console.warn('Selic BCB em fallback:', e);
       }
 
-      // 3. Inflação IPCA 12m (BACEN SGS Série 13522)
+      // 4. Inflação IPCA 12m (BCB SGS Série 13522)
       try {
-        const resIpca = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?formato=json');
+        const resIpca = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
         if (resIpca.ok) {
-          const dataIpca = await resIpca.json();
-          if (dataIpca && dataIpca[0] && dataIpca[0].valor) {
-            const valIpca = parseFloat(dataIpca[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          const dadosIpca = await resIpca.json();
+          if (dadosIpca && dadosIpca[0] && dadosIpca[0].valor) {
+            const valIpca = parseFloat(dadosIpca[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             const elIpca = document.getElementById('indicador-ipca');
             if (elIpca) elIpca.textContent = `${valIpca}%`;
           }
         }
       } catch (e) {
-        console.warn('IPCA em fallback:', e);
+        console.warn('IPCA BCB em fallback:', e);
       }
 
-      // 4. Salário Mínimo Nacional (BACEN SGS Série 1619)
+      // 5. Salário Mínimo Nacional (BCB SGS Série 1619)
       try {
-        const resSalario = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados/ultimos/1?formato=json');
+        const resSalario = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
         if (resSalario.ok) {
-          const dataSalario = await resSalario.json();
-          if (dataSalario && dataSalario[0] && dataSalario[0].valor) {
-            const valSalario = parseFloat(dataSalario[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          const dadosSalario = await resSalario.json();
+          if (dadosSalario && dadosSalario[0] && dadosSalario[0].valor) {
+            const valSalario = parseFloat(dadosSalario[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             const elSalario = document.getElementById('indicador-salario');
             if (elSalario) elSalario.textContent = `R$ ${valSalario}`;
           }
         }
       } catch (e) {
-        console.warn('Salário Mínimo em fallback:', e);
+        console.warn('Salário Mínimo BCB em fallback:', e);
       }
-    })();
+    }
+
+    // Executa a atualização imediata ao abrir a página
+    atualizarIndicadoresBCB();
   </script>
 </body>
 </html>

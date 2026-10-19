@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
@@ -22,7 +22,67 @@
   <link rel="manifest" href="../site.webmanifest">
   <meta name="theme-color" content="#2563EB">
   <title>Consulta de CEP e Endereço Oficial dos Correios - Cidadão Agora</title>
-  <meta name="description" content="Consulte CEPs de todo o Brasil gratuitamente. Encontre logradouro, bairro, cidade, estado (UF), código IBGE e DDD oficial de forma rápida e segura.">
+  <meta name="description" content="Consulte CEPs de todo o Brasil gratuitamente. Encontre logradouro, bairro, cidade, estado (UF), código IBGE e DDD oficial com dados integrados dos Correios.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/consulta-cep">
+
+  <!-- Schema.org WebApplication & FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Consulta de CEP e Endereço Oficial dos Correios",
+        "url": "https://cidadaoagora.com.br/servicos/consulta-cep",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "description": "Ferramenta gratuita de busca de CEP, logradouro, bairro, município e código IBGE oficial integrada à base pública postal brasileira."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que significa um CEP terminar com -000?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Quando o CEP termina em -000 (ex: 13840-000), trata-se de um 'CEP Geral' ou 'CEP Único'. Isso significa que a localidade ou município não possui codificação postal individualizada por logradouro. Toda a cidade utiliza o mesmo código e a identificação da entrega depende exclusivamente do nome da rua e do número no complemento."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Por que o código IBGE do município é importante na consulta de CEP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O código IBGE de 7 dígitos identifica unicamente cada município brasileiro, sendo indispensável para emissão de Notas Fiscais Eletrônicas (NF-e, NFC-e e NFS-e), cadastros fiscais na Receita Federal e declarações tributárias do SPED."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como descobrir o CEP de uma rua pelo nome?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "É possível localizar o código postal consultando o Diretório Nacional de Endereços (DNE) dos Correios digitando o nome do logradouro (avenida, rua ou praça), a cidade e o estado correspondente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O que acontece se eu preencher o CEP errado na postagem dos Correios?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O preenchimento incorreto do CEP causa atrasos severos na triagem automatizada dos centros de distribuição dos Correios (CDDs), podendo resultar no encaminhamento da encomenda para a cidade errada ou na devolução imediata ao remetente com a justificativa de endereço inconsistente."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Design System & Tokens Globais -->
   <link rel="stylesheet" href="../css/design-system.css">
@@ -164,30 +224,200 @@
 </div>
     </div>
 
-    <!-- ARTIGO EDUCATIVO SEO -->
-    <article class="ds-card p-6 sm:p-8 space-y-4 text-sm leading-relaxed text-[#526078]">
-      <h2 class="text-lg font-bold text-[#0F1B35]">Como funciona a estrutura de números do CEP no Brasil?</h2>
-      <p>
-        O Código de Endereçamento Postal (CEP) foi criado pelos Correios para facilitar a triagem e entrega de encomendas e correspondências. Ele é composto por 8 dígitos no formato <strong>XXXXX-YYY</strong>:
-      </p>
-      <ul class="list-disc pl-5 space-y-1.5 text-xs text-[#526078]">
-        <li><strong>Primeiro dígito:</strong> Representa a Região Postal (ex: 0 para Grande São Paulo, 1 para Interior de SP, 8 para Paraná e Santa Catarina).</li>
-        <li><strong>Segundo dígito:</strong> Sub-região postal.</li>
-        <li><strong>Terceiro dígito:</strong> Setor geográfico.</li>
-        <li><strong>Quarto e quinto dígitos:</strong> Sub-setor e divisão.</li>
-        <li><strong>Três últimos dígitos (sufixo):</strong> Identificam o logradouro específico, avenida, rua ou condomínio.</li>
-      </ul>
-    </article>
+    <!-- ARTIGO EDUCATIVO E GUIA COMPLETO -->
+    <article class="ds-card p-6 sm:p-10 space-y-8 text-sm leading-relaxed text-[#526078]">
+      
+      <!-- SEÇÃO 1: O QUE É O CEP E HISTÓRICO -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          O que é o CEP e Como Funciona o Sistema Postal Brasileiro?
+        </h2>
+        <p>
+          O <strong>Código de Endereçamento Postal (CEP)</strong> é um sistema numérico criado em 1971 pela <strong>Empresa Brasileira de Correios e Telégrafos (ECT)</strong> com o objetivo de racionalizar, automatizar e acelerar os processos de triagem, encaminhamento e distribuição de cartas e encomendas em todo o território nacional. Em maio de 1992, o formato original de 5 dígitos foi expandido para <strong>8 dígitos (XXXXX-YYY)</strong>, permitindo individualizar logradouros, condomínios e grandes receptores corporativos.
+        </p>
+        <p>
+          O cadastro oficial de CEPs é centralizado no <strong>Diretório Nacional de Endereços (DNE)</strong>, uma base de dados pública e oficial que contém milhões de logradouros codificados em mais de 5.570 municípios brasileiros.
+        </p>
+      </section>
 
-    <!-- PÁGINAS RELACIONADAS SEO -->
-    <section class="ds-card p-6 bg-slate-50 border-[#D9E1EC]">
-      <h3 class="text-xs font-bold uppercase tracking-wider text-[#526078] mb-3">Consultas Relacionadas:</h3>
-      <div class="flex flex-wrap gap-2 text-xs">
-        <a href="calendario-feriados.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Calendário de Feriados Oficiais</a>
-        <a href="gerador-pedido-lai.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Gerador de Pedido LAI (e-SIC)</a>
-        <a href="consulta-mei-cnpj.html" class="bg-white px-3 py-2 rounded-xl border border-[#D9E1EC] font-medium text-[#1E40AF] hover:border-blue-400 touch-target">Consulta MEI & CNPJ</a>
-      </div>
-    </section>
+      <!-- SEÇÃO 2: ESTRUTURA DOS 8 DÍGITOS -->
+      <section class="space-y-4">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Estrutura Lógica dos Dígitos do CEP
+        </h2>
+        <p>
+          O CEP não é um número aleatório gerado por sorteio. Cada dígito possui um significado geográfico preciso, estruturado do macro para o micro:
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+          <div class="p-4 rounded-xl border border-blue-200 bg-blue-50/50 space-y-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-[#1E40AF]">1º Dígito (X....-...)</span>
+            <h4 class="font-bold text-[#0F1B35] text-sm">Região Postal do País</h4>
+            <p class="text-xs text-[#526078]">
+              Divide o Brasil em 10 macrorregiões postais numeradas de 0 a 9, iniciando na Grande São Paulo e irradiando no sentido horário.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-indigo-200 bg-indigo-50/50 space-y-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-indigo-700">2º ao 5º Dígito (.XXXX-...)</span>
+            <h4 class="font-bold text-[#0F1B35] text-sm">Sub-região, Setor e Divisão</h4>
+            <p class="text-xs text-[#526078]">
+              Identifica a sub-região geográfica, o setor postal, o subsetor e o distrito ou município específico de entrega.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-emerald-200 bg-emerald-50/50 space-y-2">
+            <span class="text-xs font-bold uppercase tracking-wider text-emerald-700">3 Últimos Dígitos (.....-YYY)</span>
+            <h4 class="font-bold text-[#0F1B35] text-sm">Sufixo do Logradouro</h4>
+            <p class="text-xs text-[#526078]">
+              Localiza o trecho específico da rua, avenida, praça, vila, condomínio residencial, caixa postal comunitária ou grande usuário.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 3: TABELA DAS 10 MACRORREGIÕES POSTAIS -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Tabela das 10 Regiões Postais do Brasil (Primeiro Dígito)
+        </h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border border-[#D9E1EC] rounded-xl overflow-hidden">
+            <thead class="bg-[#0F1B35] text-white">
+              <tr>
+                <th class="p-3 font-bold">Dígito Inicial</th>
+                <th class="p-3 font-bold">Estados / Áreas Abrangidas</th>
+                <th class="p-3 font-bold">Faixa Postal Geral</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-[#D9E1EC] bg-white">
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">0</td><td class="p-3">Grande São Paulo (Região Metropolitana da Capital Paulista)</td><td class="p-3 font-mono">01000-000 a 09999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">1</td><td class="p-3">Interior e Litoral do Estado de São Paulo</td><td class="p-3 font-mono">11000-000 a 19999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">2</td><td class="p-3">Rio de Janeiro (RJ) e Espírito Santo (ES)</td><td class="p-3 font-mono">20000-000 a 29999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">3</td><td class="p-3">Minas Gerais (MG)</td><td class="p-3 font-mono">30000-000 a 39999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">4</td><td class="p-3">Bahia (BA) e Sergipe (SE)</td><td class="p-3 font-mono">40000-000 a 49999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">5</td><td class="p-3">Pernambuco (PE), Alagoas (AL), Paraíba (PB) e Rio Grande do Norte (RN)</td><td class="p-3 font-mono">50000-000 a 59999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">6</td><td class="p-3">Ceará (CE), Piauí (PI), Maranhão (MA), Pará (PA), Amazonas (AM), Acre (AC), Amapá (AP) e Roraima (RR)</td><td class="p-3 font-mono">60000-000 a 69999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">7</td><td class="p-3">Distrito Federal (DF), Goiás (GO), Tocantins (TO), Mato Grosso (MT) e Mato Grosso do Sul (MS)</td><td class="p-3 font-mono">70000-000 a 79999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">8</td><td class="p-3">Paraná (PR) e Santa Catarina (SC)</td><td class="p-3 font-mono">80000-000 a 89999-999</td></tr>
+              <tr class="hover:bg-slate-50"><td class="p-3 font-mono font-bold text-[#2563EB]">9</td><td class="p-3">Rio Grande do Sul (RS)</td><td class="p-3 font-mono">90000-000 a 99999-999</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 4: CEP ÚNICO VS CEP POR LOGRADOURO -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Diferença entre CEP Geral (Único) e CEP por Rua
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
+            <h4 class="font-bold text-[#0F1B35] text-sm">CEP Geral / Único (Sufixo -000)</h4>
+            <p class="text-xs text-[#526078]">
+              Comum em municípios com população inferior a 50 mil habitantes. Nesses locais, todas as residências e comércios da cidade compartilham o mesmo código (por exemplo, 13840-000). A triagem manual nas agências depende de os Correios lerem o nome da rua e o número da casa.
+            </p>
+          </div>
+          <div class="p-4 rounded-xl border border-blue-200 bg-blue-50/50 space-y-2">
+            <h4 class="font-bold text-[#0F1B35] text-sm">CEP Codificado por Logradouro</h4>
+            <p class="text-xs text-[#526078]">
+              Em médias e grandes cidades, cada rua, travessa ou trecho de avenida possui seu próprio CEP exclusivo. Isso permite aos Correios e transportadoras privadas utilizarem leitoras ópticas de esteira para separar pacotes por rota do carteiro em milissegundos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 5: COMO PREENCHER CORRETAMENTE O ENDEREÇAMENTO POSTAL -->
+      <section class="p-5 rounded-2xl bg-slate-50 border border-[#D9E1EC] space-y-3">
+        <h3 class="text-base font-bold text-[#0F1B35] flex items-center gap-2">
+          <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
+          Padrão Oficial de Endereçamento dos Correios (Manual de Postagem)
+        </h3>
+        <p class="text-xs text-[#526078]">
+          Para garantir que sua correspondência ou encomenda chegue sem atrasos e sem risco de devolução, estruture os dados do destinatário na seguinte ordem:
+        </p>
+        <div class="bg-white p-4 rounded-xl border border-[#D9E1EC] font-mono text-xs text-slate-800 space-y-1">
+          <p><strong>Nome do Destinatário:</strong> Fulano de Tal</p>
+          <p><strong>Tipo e Nome do Logradouro + Número:</strong> Rua das Flores, 123</p>
+          <p><strong>Complemento (se houver):</strong> Apto 42 - Bloco B</p>
+          <p><strong>Nome do Bairro:</strong> Jardim América</p>
+          <p><strong>Nome da Cidade / Sigla UF:</strong> São Paulo / SP</p>
+          <p><strong>CEP:</strong> 01410-000</p>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 6: PERGUNTAS FREQUENTES (FAQ) -->
+      <section class="space-y-4 pt-4 border-t border-[#D9E1EC]">
+        <h2 class="text-xl font-black text-[#0F1B35]">
+          Perguntas Frequentes sobre CEP e Endereços (FAQ)
+        </h2>
+        
+        <div class="space-y-3">
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">O que é o código IBGE retornado na consulta?</h3>
+            <p class="text-xs text-[#526078]">
+              O código IBGE é um identificador numérico oficial de 7 dígitos atribuído pelo Instituto Brasileiro de Geografia e Estatística a cada município. Ele é exigido na emissão de Notas Fiscais Eletrônicas (NF-e/NFS-e) e em declarações fiscais como o SPED Fiscal e Contábil.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Por que meu CEP mudou recentemente?</h3>
+            <p class="text-xs text-[#526078]">
+              Os Correios realizam periodicamente o processo de <em>desmembramento de CEP único</em> quando uma cidade cresce e atinge a infraestrutura necessária para codificação individual. Nesses casos, o CEP antigo terminado em -000 é descontinuado e cada rua passa a ter um código próprio.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Como descobrir o CEP se eu só souber o nome da rua?</h3>
+            <p class="text-xs text-[#526078]">
+              Você pode utilizar o sistema de busca por logradouro dos Correios ou ferramentas que pesquisam a base DNE informando o nome da via, bairro e município.
+            </p>
+          </div>
+
+          <div class="p-4 rounded-xl border border-[#D9E1EC] bg-slate-50 space-y-1">
+            <h3 class="text-sm font-bold text-[#0F1B35]">Qual a relação entre o CEP e o cálculo do frete?</h3>
+            <p class="text-xs text-[#526078]">
+              O CEP do remetente e o do destinatário definem a distância postal e a zona tarifária dos Correios (local, estadual, nacional) e transportadoras privadas, sendo a base do cálculo do Sedex, PAC e prazos estimados de entrega.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- LINKS INTERNOS RELACIONADOS -->
+      <section class="p-5 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-3">
+        <h3 class="text-sm font-bold text-[#1E40AF] flex items-center gap-2">
+          <i data-lucide="link" class="w-4 h-4"></i>
+          Ferramentas Relacionadas de Documentos e Envios:
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs">
+          <a href="declaracao-de-conteudo.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="package-check" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Declaração de Conteúdo Correios</span>
+          </a>
+          <a href="gerador-declaracao-residencia.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="home" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Declaração de Residência em PDF</span>
+          </a>
+          <a href="consulta-mei-cnpj.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="building-2" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Consulta MEI & CNPJ Ativo</span>
+          </a>
+          <a href="gerador-recibo-pagamento.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="receipt" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Gerador de Recibo Profissional</span>
+          </a>
+          <a href="/guias/" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="book-open" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Central de Guias Práticos</span>
+          </a>
+          <a href="../index.html" class="p-2.5 rounded-xl bg-white border border-blue-200 hover:border-blue-400 font-semibold text-[#0F1B35] flex items-center gap-2">
+            <i data-lucide="grid" class="w-4 h-4 text-[#2563EB]"></i>
+            <span>Todas as Ferramentas</span>
+          </a>
+        </div>
+      </section>
+
+    </article>
 
   </main>
 

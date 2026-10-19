@@ -84,6 +84,8 @@
       <nav class="hidden md:flex items-center space-x-5 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
         <a href="#mais-acessados" class="hover:text-[#2563EB] transition-colors">Mais Acessados</a>
         <a href="#todos-servicos" class="hover:text-[#2563EB] transition-colors">Serviços</a>
+        <a href="/guias/" class="text-[#1E40AF] hover:text-[#2563EB] font-bold transition-colors">Guias</a>
+        <a href="/conteudo/sobre" class="hover:text-[#2563EB] transition-colors">Sobre Nós</a>
         <a href="/conteudo/atualidades" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
         <a href="/conteudo/politica" class="hover:text-[#2563EB] transition-colors">Política</a>
         <a href="/noticias/" class="hover:text-[#2563EB] transition-colors">Notícias</a>
@@ -98,7 +100,7 @@
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
           <span class="text-[#0F1B35] font-mono flex items-center gap-1">
             <span class="text-[10px] font-bold text-[#526078] uppercase">USD</span>
-            <span id="header-dolar" class="font-bold">R$ 4,99</span>
+            <span id="header-dolar" class="font-bold">R$ 5,06</span>
           </span>
           <span class="text-[#D9E1EC] hidden sm:inline">|</span>
           <span class="text-[#0F1B35] font-mono hidden sm:flex items-center gap-1">
@@ -125,6 +127,14 @@
       </a>
       <a href="#todos-servicos" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
         <span>Serviços</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/guias/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span class="font-bold text-[#1E40AF]">Guias & Artigos</span>
+        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
+      </a>
+      <a href="/conteudo/sobre" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
+        <span>Sobre Nós</span>
         <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
       </a>
       <a href="/conteudo/atualidades" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
@@ -1062,6 +1072,7 @@
       <div>
         <h4 class="text-white font-bold text-sm mb-3">Conteúdo & Informação</h4>
         <ul class="space-y-2 text-[11px]">
+          <li><a href="/guias/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors">📚 Guias & Artigos Práticos</a></li>
           <li><a href="/noticias/" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
           <li><a href="/conteudo/politica" class="hover:text-white transition-colors">Política & Congresso</a></li>
           <li><a href="/conteudo/atualidades" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
@@ -1070,11 +1081,12 @@
       </div>
 
       <div>
-        <h4 class="text-white font-bold text-sm mb-3">Privacidade & Contato</h4>
+        <h4 class="text-white font-bold text-sm mb-3">Institucional & Contato</h4>
         <ul class="space-y-2 text-[11px] mb-3">
+          <li><a href="/conteudo/sobre" class="hover:text-white transition-colors text-slate-300">Sobre Nós (Quem Somos)</a></li>
+          <li><a href="/conteudo/contato" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
           <li><a href="/conteudo/politica-privacidade" class="hover:text-white transition-colors text-slate-300">Política de Privacidade (LGPD)</a></li>
           <li><a href="/conteudo/termos-de-uso" class="hover:text-white transition-colors text-slate-300">Termos de Uso</a></li>
-          <li><a href="/conteudo/contato" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
         </ul>
         <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
           © 2026 Cidadão Agora Brasil
@@ -1151,26 +1163,27 @@
       window.lucide.createIcons();
     }
 
-    // Atualização em tempo real da mini-pílula de cotações e Selic no topo
+    // Atualização em tempo real da mini-pílula de cotações e Selic no topo via Banco Central (bcb.gov.br)
     async function carregarCotacaoTopo() {
-      // 1. Cotação do Dólar Comercial
+      const ts = Date.now();
+      // 1. Cotação Oficial do Dólar PTAX (Banco Central do Brasil - Série 1)
       try {
-        const res = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL');
+        const res = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
         if (res.ok) {
           const data = await res.json();
-          if (data && data.USDBRL) {
-            const val = parseFloat(data.USDBRL.bid).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+          if (data && data[0] && data[0].valor) {
+            const val = parseFloat(data[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             const elDolar = document.getElementById('header-dolar');
             if (elDolar) elDolar.textContent = 'R$ ' + val;
           }
         }
       } catch (e) {
-        // Mantém fallback estático R$ 4,99
+        // Mantém fallback estático R$ 5,06
       }
 
-      // 2. Taxa Selic Oficial do Banco Central (BACEN SGS Série 432 / 1178)
+      // 2. Taxa Selic Oficial do Banco Central (BACEN SGS Série 432)
       try {
-        const resSelic = await fetch('https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json');
+        const resSelic = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
         if (resSelic.ok) {
           const dataSelic = await resSelic.json();
           if (dataSelic && dataSelic[0] && dataSelic[0].valor) {
