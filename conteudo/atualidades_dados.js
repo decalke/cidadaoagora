@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "19/10/2026 às 07:34:31",
+  "ultima_atualizacao": "19/10/2026 às 15:27:14",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
+      "resumo": "Depois de dois meses de recuo, a economia brasileira voltou a crescer e apresentou expansão de 0,5% na passagem de julho para agosto. Como resultado, o desempenho chega a 1,8% no acumulado de 12 meses.\n\nA constatação faz...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Depois de dois meses de recuo, a economia brasileira voltou a crescer e apresentou expansão de 0,5% na passagem de julho para agosto. Como resultado, o desempenho chega a 1,8% no acumulado de 12 meses.\n\nA constatação faz parte do Monitor do PIB, estudo mensal elaborado pelo Instituto Brasileiro de Economia (Ibre) da Fundação Getulio Vargas (FGV), divulgado nesta segunda-feira (19).\n\nNotícias relacionadas:FMI prevê crescimento de 2,2% do PIB do Brasil em 2026.Confiança da indústria sobe em outubro, mas setor segue pessimista.Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI.A pesquisa faz estimativas sobre o comportamento do Produto Interno Bruto (PIB), indicador do conjunto de todos os bens e serviços produzidos no país, reunindo dados da indústria, comércio, serviços e agropecuária.\n\nO Monitor do PIB é considerado um “termômetro” da economia e funciona como uma prévia do PIB oficial.\n\nVeja o comportamento da economia na comparação entre meses seguidos, de acordo com o levantamento:\n\n\n\tAgosto: 0,5%\n\tJulho: -0,3%\n\tJunho: -0,9%\n\tMaio: 0,6%\n\tAbril: 0,3%\n\tMarço: 0,1%\n\tFevereiro: 0,5%\n\tJaneiro: 0,6%\n\n\nO mês retrasado apresentou avanço de 1,5% na comparação com o mesmo período do ano passado. No trimestre terminado em agosto, a FGV sinaliza alta de 1,7% em relação ao mesmo trimestre de 2025.\n\nMotores\n\nA FGV destacou que a economia foi impulsionada em agosto pela indústria extrativa e a atividade de serviços.\n\nO economista Claudio Considera, pesquisador associado do Ibre, aponta que, pelo lado da oferta, o resultado refletiu o crescimento da indústria extrativa e a continuidade da expansão da atividade de serviços.\n\n“Pela ótica da demanda, a despeito da desaceleração do consumo das famílias, atuaram positivamente as exportações e o consumo do governo”, complementa.\n\nEle assinala ainda que em um contexto de inflação persistente, que obriga uma política monetária contracionista, ou seja, juros elevados, “a economia apresenta capacidade de recuperação”.\n\nNo trimestre até agosto, o consumo das famílias cresceu 0,4%, refletindo principalmente a contribuição positiva dos produtos duráveis.\n\nEm valores correntes, a FGV estima o PIB acumulado até agosto em R$ 9,020 trilhões.\n\nProjeções \n\nO Monitor do PIB é um dos estudos que servem como termômetro da economia brasileira. Outro levantamento é o Índice de Atividade Econômica do Banco Central (IBC-Br), divulgado na sexta-feira (16), que indicou expansão de 0,3% na passagem de julho para agosto e de 1,6% em 12 meses.\n\nO relatório Focus divulgado também nesta segunda-feira, sondagem do Banco Central com instituições do mercado financeiro, sinaliza que o PIB deve crescer 1,83% este ano.\n\nO Boletim Macrofiscal da Secretária da Política Econômica do Ministério da Fazenda, divulgado em setembro, aponta estimativa de crescimento do PIB de 2% este ano.\n\nNa última semana, o Fundo Monetário Internacional (FMI) projetou que o Brasil deve crescer 2,2% este ano. \n\nO órgão, instituição multilateral vinculada às Nações Unidas, estima que o país deve voltar ao posto de oitava maior economia do mundo em 2027.\n\nResultado oficial\n\nO resultado oficial do PIB é apresentado trimestralmente pelo Instituto Brasileiro de Geografia e Estatística (IBGE). A próxima divulgação será referente ao terceiro trimestre do ano, em 2 de dezembro.\n\nA última divulgação, no início de setembro, mostrou que a economia cresceu 0,5% no segundo trimestre e 1,9% no acumulado de 12 meses.</p>",
+      "imagem": "https://imagens.ebc.com.br/nv6S9mksLSN22lOYY8NRR-x2nFo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/28/dji_20260527115826_0082_d.jpg?itok=4hTm21bC",
+      "slug": "economia-cresce-0-5-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
+      "pagina_local": "economia-cresce-0-5-em-agosto-apos-dois-meses-de-recuo-estima-fgv.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "19/10/2026 às 15:27"
+    },
+    {
+      "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
+      "resumo": "Os pagamentos do Bolsa Família referentes ao mês de outubro começam a ser feitos nesta segunda-feira (19), quando recebem os beneficiários com NIS terminado em 1. Na terça-feira (20), será a vez de quem tem NIS terminado...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os pagamentos do Bolsa Família referentes ao mês de outubro começam a ser feitos nesta segunda-feira (19), quando recebem os beneficiários com NIS terminado em 1. Na terça-feira (20), será a vez de quem tem NIS terminado em 2.\n\nDe acordo com a Secretaria de Comunicação Social (Secom), os demais pagamentos do mês serão unificados a partir de quarta-feira (21) como medida preventiva para mitigar os efeitos do super El Niño sobre as famílias classificadas como mais vulneráveis.\n\nNotícias relacionadas:Bolsa Família é reajustado em 15%; medida vale a partir de outubro.Gilmar Mendes valida reajuste do Bolsa Família.Com isso, o calendário será unificado na próxima quarta-feira, quando ocorrem os pagamentos de beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.\n\nEm nota, a pasta reforçou que o formato de pagamento unificado valerá também para os meses de novembro e dezembro, considerados períodos críticos do El Niño.\n\nDados do Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome indicam que, nos meses de agosto e setembro de 2026, foram registrados 518 reconhecimentos federais de situação de emergência e estado de calamidade pública – mais que o dobro do registrado no mesmo período do ano passado (253).\n\nA alta, segundo a Secom, foi causada, sobretudo, pelas tempestades no Sul: chuva, granizo, vendaval e inundações foram responsáveis por 272 reconhecimentos este ano, contra 81 em 2025. O aumento também foi percebido no semiárido, onde reconhecimentos por estiagem e seca saltaram de 172 para 239.\n\nA unificação de pagamentos do Bolsa Família já ocorreu em outros momentos emergenciais, como nas enchentes registradas no Rio Grande do Sul em 2024. À época, o pagamento foi unificado para 497 municípios gaúchos, que puderam acessar o benefício no primeiro dia do calendário.\n\n“A unificação do calendário amplia a capacidade das famílias beneficiárias de se prepararem para os efeitos da seca, da escassez hídrica, das inundações e das interrupções no abastecimento”, avaliou a Secom no comunicado, citando a medida como “instrumento de proteção social adaptativa”.\n\nSituação de emergência\n\nBeneficiários que vivem em municípios que já estão em situação de emergência ou em estado de calamidade pública reconhecidos pelo governo federal vão receber o pagamento de forma unificada já nesta segunda-feira, primeiro dia do calendário.\n\nPara receber o benefício, as famílias devem manter o Cadastro Único (CadÚnico) atualizado, atender aos critérios do programa e cumprir condicionalidades de saúde e de educação, como frequência escolar de crianças e adolescentes, vacinação em dia e acompanhamento pré-natal das gestantes.</p>",
+      "imagem": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&auto=format&fit=crop&q=80",
+      "slug": "pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda",
+      "pagina_local": "pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "19/10/2026 às 15:27"
+    },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
       "resumo": "As atividades relacionadas ao setor de minerais críticos e estratégicos (MCE) para o Brasil somaram 129.423 empregos, em 2025, o equivalente a 57% dos 226.634 empregos da indústria extrativa mineral do país. \n\nQuando com...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -39,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Brasil deve voltar a ser 8ª maior economia do mundo em 2027, prevê FMI",
@@ -104,33 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
-    },
-    {
-      "titulo": "Atividade econômica tem alta de 0,3% em agosto, mostra IBC-Br",
-      "resumo": "O Índice de Atividade Econômica do Banco Central (IBC-Br), indicador usado para acompanhar a evolução da economia brasileira, ficou estável com variação de 0,3% em agosto de 2026 na comparação com julho, informou nesta s...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Índice de Atividade Econômica do Banco Central (IBC-Br), indicador usado para acompanhar a evolução da economia brasileira, ficou estável com variação de 0,3% em agosto de 2026 na comparação com julho, informou nesta sexta-feira (16) o Banco Central.\n\nEm relação a agosto de 2025, o indicador registrou crescimento de 1,2%. Nos últimos 12 meses, a alta acumulada é de 1,6%.\n\nNotícias relacionadas:Confiança da indústria sobe em outubro, mas setor segue pessimista.As informações que compõem o indicador abrangem os setores da indústria, de serviços e da agropecuária, além dos impostos sobre produtos.\n\nEm agosto, a agropecuária recuou 1,8% em relação a julho. No mesmo período, a indústria avançou 0,9%, enquanto o setor de serviços variou 0,2%. Os impostos sobre produtos subiram 0,1%.\n\nExcluindo a agropecuária, o IBC-Br variou 0,3% no mês.\n\nSegundo os dados divulgados, os resultados de agosto, na comparação com julho, foram os seguintes:\n\n\n\tIBC-Br: 0,3%\n\tAgropecuária: -1,8%\n\tIndústria: 0,9%\n\tServiços: 0,2%\n\tImpostos: 0,1%\n\tIBC-Br ex-agropecuária: 0,3%\n\n\nComparação anual\n\nJá na comparação com agosto de 2025, o indicador apresentou avanço de 1,2%. Nesse tipo de comparação, o resultado mostra que a atividade econômica ficou acima do nível registrado no mesmo mês do ano passado.\n\nEntre os setores, na comparação com o mesmo período do ano anterior, a agropecuária teve alta de 5,8%; os serviços avançaram 1,3%; a indústria cresceu 0,4% e os impostos aumentaram 0,3%.\n\nSem a agropecuária, o IBC-Br registrou alta de 0,9%.\n\nVeja a variação do índice na comparação com agosto de 2025:\n\n\n\tIBC-Br: 1,2%\n\tAgropecuária: 5,8%\n\tIndústria: 0,4%\n\tServiços: 1,3%\n\tImpostos: 0,3%\n\tIBC-Br ex-agropecuária: 0,9%\n\n\nNo acumulado dos oito primeiros meses do ano, o indicador registra crescimento de 1,6%. Em 12 meses, a expansão também é de 1,6%. No trimestre encerrado em agosto, ante o trimestre terminado em maio, o IBC-Br apresentou variação negativa de 0,6%.\n\nO índice\n\nConsiderado uma espécie de termômetro da economia, o IBC-Br reúne informações dos setores de indústria, serviços, agropecuária e impostos sobre produtos. \n\nO indicador é complementar ao Produto Interno Bruto (PIB) e permite acompanhar a evolução da atividade econômica com maior frequência.</p>",
-      "imagem": "https://imagens.ebc.com.br/McvjmVYwxrI85fsoHOXMjh38Mhs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/industrias_wd2212.jpg?itok=6myvZaPB",
-      "slug": "atividade-economica-tem-alta-de-0-3-em-agosto-mostra-ibc-br",
-      "pagina_local": "atividade-economica-tem-alta-de-0-3-em-agosto-mostra-ibc-br.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/atividade-economica-tem-alta-de-03-em-agosto-mostra-ibc-br",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
-    },
-    {
-      "titulo": "Economia: Lula e Flávio divergem sobre ajuste fiscal e papel do Estado",
-      "resumo": "As propostas econômicas dos candidatos Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) apresentam diferenças na condução das contas públicas, na política tributária e nas relações de trabalho. \n\nEnquanto Lula apos...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As propostas econômicas dos candidatos Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) apresentam diferenças na condução das contas públicas, na política tributária e nas relações de trabalho. \n\nEnquanto Lula aposta na continuidade do modelo atual, com investimentos públicos, programas sociais e valorização da renda, Flávio defende a redução da estrutura estatal, cortes de despesas e diminuição de impostos e encargos.\n\nNotícias relacionadas:Corte amplo de gastos públicos afetaria área social, dizem economistas.Apesar das divergências, as duas campanhas reconhecem a necessidade de enfrentar o crescimento da dívida pública. O principal contraste está nos instrumentos previstos para equilibrar as contas e estimular a atividade econômica.\n\nResumo das propostas econômicas\n\nLula\n\n\n\tContinuidade com ampliação de investimentos e políticas sociais\n\tContas públicas: manter o arcabouço fiscal, controlar o crescimento das despesas e buscar resultados fiscais melhores com crescimento econômico.\n\tImpostos: aprofundar a tributação progressiva, com maior contribuição proporcional das rendas mais altas.\n\tTrabalho e renda: manter a valorização real do salário mínimo e defender a redução da jornada semanal para 40 horas, sem corte salarial.\n\tInvestimentos: ampliar infraestrutura, reindustrialização, inovação e energia renovável.\n\tProgramas sociais: manter o Bolsa Família e expandir políticas habitacionais e de combate à fome.\n\n\nFlávio Bolsonaro\n\n\n\tRedução do Estado e contenção mais forte das despesas\n\tContas públicas: criar uma nova regra fiscal, com limites para despesas associados à trajetória da dívida.\n\tGastos públicos: reduzir ministérios, cargos comissionados e despesas administrativas.\n\tImpostos: propor reduções tributárias e simplificação regulatória.\n\tTrabalho e emprego: criar modalidades de contratação com menor custo para empregadores em determinados grupos etários.\n\tProdução: estimular o agronegócio, melhorar a logística, ampliar o armazenamento de safras e apoiar a produção nacional de fertilizantes.\n\n\nAjuste fiscal\n\nLula pretende manter o arcabouço fiscal, mecanismo que estabelece limites para o crescimento das despesas públicas. A estratégia combina controle de gastos, busca por maior arrecadação e crescimento econômico para melhorar os resultados das contas públicas.\n\nA política econômica também prevê investimentos em infraestrutura, reindustrialização, inovação e energia renovável. A avaliação da equipe é que a expansão da atividade econômica pode contribuir para elevar a arrecadação e sustentar políticas públicas.\n\nFlávio Bolsonaro propõe uma nova regra fiscal vinculada à trajetória da dívida e medidas para reduzir despesas administrativas, incluindo a estrutura ministerial e os cargos comissionados. A campanha também defende a simplificação regulatória e a redução de tributos.\n\nEm agosto deste ano, em entrevista à Globo News, a coordenadora da equipe econômica de Flávio Bolsonaro, Daniella Marques, afirmou que o plano do candidato prevê mudanças nas regras fiscais para controlar a dívida pública, o que inclui um ajuste de 1,5% do Produto Interno Bruto, algo em torno de R$ 190 bilhões, considerado o PIB de 2025.\n\nO detalhamento dos cortes e seus efeitos sobre os serviços públicos permanecem entre os pontos que exigem esclarecimento. No último dia 9, o candidato negou que acabará com programas sociais, como o Bolsa Família e o Farmácia Popular.\n\nImpostos e investimentos\n\nNa área tributária, Lula defende maior progressividade, com participação proporcionalmente maior das rendas mais altas no financiamento do Estado. O governo também pretende dar continuidade a investimentos do Novo PAC e a políticas de incentivo à indústria nacional.\n\nFlávio, por sua vez, prioriza a redução de impostos, a diminuição dos custos para empresas e a desburocratização. Entre as propostas para o agronegócio estão melhorias na logística, ampliação da capacidade de armazenamento de safras, seguro rural e estímulo à produção nacional de fertilizantes.\n\nA execução dessas medidas dependerá da compatibilidade entre as reduções tributárias e as metas fiscais. No caso de Flávio, cortes de despesas teriam de compensar, ao menos em parte, eventuais perdas de arrecadação. Na proposta de Lula, os resultados dependeriam do crescimento econômico, da arrecadação e do controle dos gastos.\n\n\n            \n        \n    \nValorização do salário mínimo e custos de contratação são debatidos nos planos dos candidatos à Presidência Foto: Rafa Neddermeyer/Agência Brasil\n\n\nTrabalho e renda\n\nLula defende a valorização real do salário mínimo e a redução da jornada semanal para 40 horas, sem diminuição salarial. A agenda também prioriza a manutenção de direitos trabalhistas e a ampliação da proteção social.\n\nFlávio enfatiza a redução dos custos de contratação e a flexibilização de modalidades específicas de trabalho. As propostas partem de perspectivas diferentes sobre como estimular o emprego, com possíveis efeitos sobre salários, formalização e custos das empresas que dependerão da implementação das medidas.\n\nProgramas sociais\n\nLula pretende manter e aperfeiçoar programas como Bolsa Família e Minha Casa, Minha Vida, além de preservar políticas de combate à fome.\n\nA equipe de Flávio também declarou intenção de manter programas sociais, entre eles Bolsa Família, Minha Casa, Minha Vida e Farmácia Popular. A questão central é como financiar essas iniciativas diante das respectivas metas de ajuste fiscal.\n\nGovernos anteriores\n\nDe 2019 a 2022, o governo Jair Bolsonaro enfrentou a pandemia de covid-19 e os efeitos da guerra na Ucrânia, que pressionaram a atividade econômica e os preços. O Produto Interno Bruto (PIB) cresceu, em média, cerca de 1,4% ao ano. A gestão adotou medidas emergenciais de auxílio, promoveu privatizações e concessões e encerrou 2022 com a dívida bruta em torno de 72% do PIB, com o adiamento do pagamento de precatórios. \n\nNo terceiro mandato de Lula, entre 2023 e 2025, o PIB cresceu, em média, aproximadamente 2,9% ao ano, considerando os dados revisados do período. O governo ampliou investimentos em infraestrutura, retomou políticas sociais, valorizou o salário mínimo e aprovou a reforma tributária sobre o consumo. O desemprego também caiu, atingindo 5,6% em 2025, segundo o IBGE. \n\nNa área fiscal, a dívida pública diminuiu em proporção do PIB ao final do governo Bolsonaro, mas voltou a crescer durante o terceiro mandato de Lula, atingindo 82,9% do PIB em agosto deste ano. A comparação, porém, exige considerar a pandemia, o cenário internacional, os juros e as medidas adotadas em cada período. Os indicadores mostram trajetórias diferentes de crescimento, emprego e endividamento, sem permitir atribuir todos os resultados exclusivamente às decisões de cada presidente.</p>",
-      "imagem": "https://imagens.ebc.com.br/XDWwl8iPBYdCQzG966E7kv8LpLA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/brasilia_60_anos_esplanada_dos_ministerios_0420202390_2.jpg?itok=u1LaYpYV",
-      "slug": "economia-lula-e-flavio-divergem-sobre-ajuste-fiscal-e-papel-do-estado",
-      "pagina_local": "economia-lula-e-flavio-divergem-sobre-ajuste-fiscal-e-papel-do-estado.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-lula-e-flavio-divergem-sobre-ajuste-fiscal-e-papel-do-estado",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 170 milhões; confira os números sorteados",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "Parte do teto de túnel da Câmara desabou nesta quarta-feira",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     },
     {
       "titulo": "CCJ do Senado conclui votação da PEC da Segurança Pública",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "19/10/2026 às 07:34"
+      "coletado_em": "19/10/2026 às 15:27"
     }
   ]
 };
