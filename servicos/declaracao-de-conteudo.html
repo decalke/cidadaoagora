@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Google tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C8ZSTXP9WQ', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
+  </script>
+  <!-- Google AdSense Oficial -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <script defer src="../js/ads-safe.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon Oficial Cidadão Agora -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#2563EB">
+
+  <title>Declaração de Conteúdo Correios Editável (Imprimir e PDF) - Cidadão Agora</title>
+  <meta name="description" content="Gere a Declaração de Conteúdo oficial dos Correios online e grátis. Escolha o modelo Simplificado (Etiqueta 10x15cm) ou Completo (Folha A4). Preenchimento rápido, cálculo automático e 100% seguro no seu navegador.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/servicos/declaracao-de-conteudo">
+
+  <!-- Schema.org WebApplication & FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Gerador de Declaração de Conteúdo dos Correios",
+        "url": "https://cidadaoagora.com.br/servicos/declaracao-de-conteudo",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "All",
+        "description": "Ferramenta gratuita para preencher, visualizar em tempo real e imprimir Declaração de Conteúdo para envio de encomendas pelos Correios nos formatos Etiqueta 10x15cm e Folha A4.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O que é a Declaração de Conteúdo dos Correios?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Declaração de Conteúdo é o documento obrigatório exigido pelos Correios e transportadoras para acompanhar encomendas que não possuem Nota Fiscal, comum em envios particulares entre pessoas físicas, vendas ocasionais de usados ou MEIs dispensados de NF-e."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "A declaração de conteúdo substitui a Nota Fiscal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. A declaração é restrita a operações que não tenham finalidade comercial habitual ou casos previstos pela legislação tributária. Se você for pessoa jurídica obrigada a emitir NF-e, deve anexar a DANFE."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual a diferença entre o modelo 10x15 cm e o modelo A4?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O modelo simplificado (10x15 cm) é o formato padrão de etiqueta para caixas menores e encomendas de até 5 itens. O modelo completo (A4) é ideal para múltiplos itens, volumes maiores e permite detalhar dados e observações."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Design System & Tokens Globais -->
+  <link rel="stylesheet" href="../css/design-system.css">
+  <link rel="stylesheet" href="../css/tailwind.min.css">
+  <script src="../js/lucide.min.js"></script>
+
+  <style>
+    /* Estilos de seleção de modelo de declaração */
+    .modelo-radio input:checked + div {
+      border-color: #2563EB;
+      background-color: #EFF6FF;
+      box-shadow: 0 0 0 2px #2563EB;
+    }
+
+    /* Documento de Pré-visualização na tela */
+    .doc-preview-wrapper {
+      background-color: #E2E8F0;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      overflow-x: auto;
+    }
+
+    .doc-page {
+      background: #FFFFFF;
+      color: #000000;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    /* Modelo 10x15cm (Etiqueta padrão) */
+    .doc-simplificado {
+      width: 100mm;
+      min-height: 150mm;
+      padding: 3mm 4mm;
+      font-size: 8pt;
+      line-height: 1.15;
+    }
+
+    /* Modelo A4 (210 x 297mm) */
+    .doc-completo {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 8mm 10mm;
+      font-size: 9.5pt;
+      line-height: 1.25;
+    }
+
+    /* Tabelas e Caixas do Formulário Oficial dos Correios */
+    .correios-box {
+      border: 1px solid #000000;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .correios-title {
+      background-color: #F1F5F9;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      padding: 2px 4px;
+      border-bottom: 1px solid #000000;
+    }
+
+    .correios-table th, .correios-table td {
+      border: 1px solid #000000;
+      padding: 2px 4px;
+      vertical-align: middle;
+    }
+
+    /* Regras de Impressão de Alta Precisão */
+    @media print {
+      /* Oculta tudo que não for o documento */
+      body {
+        background: #FFFFFF !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #000000 !important;
+      }
+
+      header, footer, #painel-controles, #secao-apresentacao, #faq-section, .no-print, ins.adsbygoogle {
+        display: none !important;
+      }
+
+      main {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .doc-preview-wrapper {
+        background: transparent !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        overflow: visible !important;
+      }
+
+      .doc-page {
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 !important;
+      }
+
+      /* Estilo da Etiqueta 10x15cm na Impressão */
+      body.imprimindo-simplificado {
+        width: 100mm !important;
+        height: 150mm !important;
+      }
+
+      body.imprimindo-simplificado .doc-simplificado {
+        width: 100mm !important;
+        height: 150mm !important;
+        page-break-after: avoid;
+        page-break-inside: avoid;
+      }
+
+      /* Estilo da Folha A4 na Impressão */
+      body.imprimindo-completo .doc-completo {
+        width: 100% !important;
+        min-height: auto !important;
+      }
+    }
+  </style>
+</head>
+<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+
+  <!-- CABEÇALHO PADRONIZADO -->
+  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs no-print">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2.5 touch-target" aria-label="Cidadão Agora - Página Inicial">
+        <div class="w-9 h-9 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-lg shadow-sm">
+          CA
+        </div>
+        <div>
+          <span class="text-lg font-black text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[10px] block text-[#526078] font-medium">Envios & Correios</span>
+        </div>
+      </a>
+      <a href="../index.html" class="btn-secondary text-xs !py-2 !px-3.5">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Todos os Serviços</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto w-full px-4 py-6 flex-1 space-y-6">
+
+    <!-- SEÇÃO DE APRESENTAÇÃO E ESCOLHA DE MODELO -->
+    <section id="secao-apresentacao" class="ds-card p-6 sm:p-8 space-y-6 no-print">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
+            <i data-lucide="package-check" class="w-3.5 h-3.5"></i>
+            <span>Modelo Oficial Aceito em Todas as Agências dos Correios</span>
+          </div>
+          <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
+            Declaração de Conteúdo Editável
+          </h1>
+          <p class="text-xs sm:text-sm text-[#526078] mt-1.5 max-w-3xl leading-relaxed">
+            Preencha os dados de remetente, destinatário e itens. Visualize o documento oficial em tempo real e imprima ou salve em PDF gratuitamente. 
+            Em total conformidade com a <strong>Portaria do Ministério das Comunicações</strong> e o <strong>Protocolo ICMS</strong>.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-2 self-start md:self-auto">
+          <button type="button" onclick="carregarExemplo()" class="btn-secondary text-xs !py-2.5 !px-3.5 flex items-center gap-1.5" title="Preencher com dados fictícios para testar">
+            <i data-lucide="sparkles" class="w-4 h-4 text-amber-500"></i>
+            <span>Testar Exemplo</span>
+          </button>
+          <button type="button" onclick="limparFormulario()" class="btn-secondary text-xs !py-2.5 !px-3.5 text-rose-600 hover:bg-rose-50 flex items-center gap-1.5">
+            <i data-lucide="trash-2" class="w-4 h-4"></i>
+            <span>Limpar</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- AVISO DE PRIVACIDADE E REGRAS LEGAIS -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs pt-1">
+        <div class="bg-emerald-50 border border-emerald-200 text-emerald-900 p-3.5 rounded-xl flex items-start gap-2.5">
+          <i data-lucide="shield-check" class="w-5 h-5 text-emerald-600 shrink-0 mt-0.5"></i>
+          <div>
+            <strong class="block font-bold mb-0.5">100% Seguro & Privado (Zero-Retention)</strong>
+            <span>Todos os dados digitados permanecem unicamente na memória do seu navegador. Nenhum CPF, nome, endereço ou valor é salvo em servidores.</span>
+          </div>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-200 text-amber-900 p-3.5 rounded-xl flex items-start gap-2.5">
+          <i data-lucide="alert-triangle" class="w-5 h-5 text-amber-600 shrink-0 mt-0.5"></i>
+          <div>
+            <strong class="block font-bold mb-0.5">Aviso Legal dos Correios</strong>
+            <span>Válido para postagens de bens entre pessoas físicas ou MEIs dispensados de NF-e sem intuito comercial habitual. Proibido envio de inflamáveis, armas e drogas.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SELETOR DE MODELOS: SIMPLIFICADA X COMPLETA -->
+      <div class="pt-2 border-t border-[#D9E1EC]">
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-3">
+          Passo 1: Selecione o Formato Desejado:
+        </label>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- CARD MODELO 1: SIMPLIFICADA ETIQUETA -->
+          <label class="modelo-radio cursor-pointer">
+            <input type="radio" name="tipo_declaracao" value="simplificado" checked onchange="trocarModelo('simplificado')" class="sr-only">
+            <div class="p-4 sm:p-5 rounded-2xl border-2 border-slate-200 hover:border-blue-300 transition-all bg-white flex flex-col justify-between h-full">
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-[#1E40AF]">
+                    <i data-lucide="tag" class="w-3 h-3"></i>
+                    Etiqueta Térmica / Sulfite
+                  </span>
+                  <span class="text-xs font-mono font-bold text-slate-500">10 cm × 15 cm</span>
+                </div>
+                <h3 class="text-base font-extrabold text-[#0F1B35]">Declaração Simplificada (Etiqueta)</h3>
+                <p class="text-xs text-[#526078] leading-relaxed">
+                  Formato compacto perfeito para colar diretamente na caixa ou envelope. Comporta <strong>até 5 itens</strong>. Ideal para encomendas pequenas, PAC Mini e Sedex diários.
+                </p>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
+                <span>Limite: Máx. 5 itens</span>
+                <span class="text-[#2563EB] font-bold flex items-center gap-1">Selecionado <i data-lucide="check" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </label>
+
+          <!-- CARD MODELO 2: COMPLETO A4 -->
+          <label class="modelo-radio cursor-pointer">
+            <input type="radio" name="tipo_declaracao" value="completo" onchange="trocarModelo('completo')" class="sr-only">
+            <div class="p-4 sm:p-5 rounded-2xl border-2 border-slate-200 hover:border-blue-300 transition-all bg-white flex flex-col justify-between h-full">
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-700">
+                    <i data-lucide="file-text" class="w-3 h-3"></i>
+                    Folha Inteira
+                  </span>
+                  <span class="text-xs font-mono font-bold text-slate-500">A4 (21 × 29,7 cm)</span>
+                </div>
+                <h3 class="text-base font-extrabold text-[#0F1B35]">Declaração Completa (Folha A4)</h3>
+                <p class="text-xs text-[#526078] leading-relaxed">
+                  Modelo clássico impresso em folha A4 para colocar no saco plástico externo (canguru). <strong>Sem limite de itens</strong>, com dados expandidos e campo para observações.
+                </p>
+              </div>
+              <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
+                <span>Ideal para múltiplos itens</span>
+                <span class="text-slate-400 font-bold">Alternar para este</span>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREA DE TRABALHO: FORMULÁRIO (ESQUERDA) + LIVE PREVIEW (DIREITA) -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      
+      <!-- COLUNA DO FORMULÁRIO (lg:col-span-6) -->
+      <div id="painel-controles" class="lg:col-span-6 space-y-6 no-print">
+
+        <!-- BLOCO 1: REMETENTE -->
+        <section class="ds-card p-5 sm:p-6 space-y-4">
+          <div class="flex items-center justify-between border-b border-[#D9E1EC] pb-3">
+            <div class="flex items-center gap-2">
+              <div class="w-7 h-7 rounded-lg bg-blue-100 text-[#2563EB] flex items-center justify-center font-bold text-xs">1</div>
+              <h2 class="text-sm sm:text-base font-bold text-[#0F1B35]">Dados do Remetente (Quem Envia)</h2>
+            </div>
+            <span class="text-[11px] text-slate-400 font-medium">* Obrigatório</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div class="sm:col-span-2">
+              <label for="rem-nome" class="block font-bold text-slate-700 mb-1">Nome Completo / Razão Social *</label>
+              <input type="text" id="rem-nome" placeholder="Ex: Carlos Eduardo da Silva" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="rem-doc" class="block font-bold text-slate-700 mb-1">CPF ou CNPJ *</label>
+              <input type="text" id="rem-doc" placeholder="000.000.000-00" autocomplete="off" oninput="mascararDoc(this); atualizarPreview()" class="ds-input text-xs font-mono" required>
+            </div>
+
+            <div>
+              <label for="rem-cep" class="block font-bold text-slate-700 mb-1 flex items-center justify-between">
+                <span>CEP *</span>
+                <span id="rem-cep-status" class="text-[10px] text-blue-600 font-normal"></span>
+              </label>
+              <div class="relative">
+                <input type="text" id="rem-cep" placeholder="00000-000" maxlength="9" autocomplete="off" oninput="mascararCep(this); buscarCep(this.value, 'rem')" class="ds-input text-xs font-mono" required>
+              </div>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label for="rem-logradouro" class="block font-bold text-slate-700 mb-1">Endereço (Rua, Av, Travessa) *</label>
+              <input type="text" id="rem-logradouro" placeholder="Ex: Rua das Flores" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="rem-numero" class="block font-bold text-slate-700 mb-1">Número *</label>
+              <input type="text" id="rem-numero" placeholder="Ex: 120" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="rem-complemento" class="block font-bold text-slate-700 mb-1">Complemento (Apto, Bloco)</label>
+              <input type="text" id="rem-complemento" placeholder="Ex: Apto 32" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs">
+            </div>
+
+            <div>
+              <label for="rem-bairro" class="block font-bold text-slate-700 mb-1">Bairro *</label>
+              <input type="text" id="rem-bairro" placeholder="Ex: Centro" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div class="grid grid-cols-3 gap-2">
+              <div class="col-span-2">
+                <label for="rem-cidade" class="block font-bold text-slate-700 mb-1">Cidade *</label>
+                <input type="text" id="rem-cidade" placeholder="Ex: São Paulo" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+              </div>
+              <div>
+                <label for="rem-uf" class="block font-bold text-slate-700 mb-1">UF *</label>
+                <input type="text" id="rem-uf" placeholder="SP" maxlength="2" autocomplete="off" oninput="this.value = this.value.toUpperCase(); atualizarPreview()" class="ds-input text-xs uppercase" required>
+              </div>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label for="rem-telefone" class="block font-bold text-slate-700 mb-1">Telefone de Contato (Opcional)</label>
+              <input type="text" id="rem-telefone" placeholder="(00) 00000-0000" autocomplete="off" oninput="mascararTel(this); atualizarPreview()" class="ds-input text-xs">
+            </div>
+          </div>
+        </section>
+
+        <!-- BLOCO 2: DESTINATÁRIO -->
+        <section class="ds-card p-5 sm:p-6 space-y-4">
+          <div class="flex items-center justify-between border-b border-[#D9E1EC] pb-3">
+            <div class="flex items-center gap-2">
+              <div class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xs">2</div>
+              <h2 class="text-sm sm:text-base font-bold text-[#0F1B35]">Dados do Destinatário (Quem Recebe)</h2>
+            </div>
+            <span class="text-[11px] text-slate-400 font-medium">* Obrigatório</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div class="sm:col-span-2">
+              <label for="dest-nome" class="block font-bold text-slate-700 mb-1">Nome Completo do Destinatário *</label>
+              <input type="text" id="dest-nome" placeholder="Ex: Mariana Albuquerque Santos" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="dest-doc" class="block font-bold text-slate-700 mb-1">CPF ou CNPJ *</label>
+              <input type="text" id="dest-doc" placeholder="000.000.000-00" autocomplete="off" oninput="mascararDoc(this); atualizarPreview()" class="ds-input text-xs font-mono" required>
+            </div>
+
+            <div>
+              <label for="dest-cep" class="block font-bold text-slate-700 mb-1 flex items-center justify-between">
+                <span>CEP *</span>
+                <span id="dest-cep-status" class="text-[10px] text-emerald-600 font-normal"></span>
+              </label>
+              <div class="relative">
+                <input type="text" id="dest-cep" placeholder="00000-000" maxlength="9" autocomplete="off" oninput="mascararCep(this); buscarCep(this.value, 'dest')" class="ds-input text-xs font-mono" required>
+              </div>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label for="dest-logradouro" class="block font-bold text-slate-700 mb-1">Endereço de Entrega *</label>
+              <input type="text" id="dest-logradouro" placeholder="Ex: Av. Paulista" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="dest-numero" class="block font-bold text-slate-700 mb-1">Número *</label>
+              <input type="text" id="dest-numero" placeholder="Ex: 1578" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div>
+              <label for="dest-complemento" class="block font-bold text-slate-700 mb-1">Complemento</label>
+              <input type="text" id="dest-complemento" placeholder="Ex: Sala 402" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs">
+            </div>
+
+            <div>
+              <label for="dest-bairro" class="block font-bold text-slate-700 mb-1">Bairro *</label>
+              <input type="text" id="dest-bairro" placeholder="Ex: Bela Vista" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div class="grid grid-cols-3 gap-2">
+              <div class="col-span-2">
+                <label for="dest-cidade" class="block font-bold text-slate-700 mb-1">Cidade *</label>
+                <input type="text" id="dest-cidade" placeholder="Ex: São Paulo" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs" required>
+              </div>
+              <div>
+                <label for="dest-uf" class="block font-bold text-slate-700 mb-1">UF *</label>
+                <input type="text" id="dest-uf" placeholder="SP" maxlength="2" autocomplete="off" oninput="this.value = this.value.toUpperCase(); atualizarPreview()" class="ds-input text-xs uppercase" required>
+              </div>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label for="dest-telefone" class="block font-bold text-slate-700 mb-1">Telefone do Destinatário (Opcional)</label>
+              <input type="text" id="dest-telefone" placeholder="(00) 00000-0000" autocomplete="off" oninput="mascararTel(this); atualizarPreview()" class="ds-input text-xs">
+            </div>
+          </div>
+        </section>
+
+        <!-- BLOCO 3: ITENS DA ENCOMENDA -->
+        <section class="ds-card p-5 sm:p-6 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-[#D9E1EC] pb-3">
+            <div class="flex items-center gap-2">
+              <div class="w-7 h-7 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-xs">3</div>
+              <h2 class="text-sm sm:text-base font-bold text-[#0F1B35]">Identificação dos Bens (Itens)</h2>
+            </div>
+            <div id="badge-contador-itens" class="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 self-start sm:self-auto">
+              1 item cadastrado
+            </div>
+          </div>
+
+          <!-- AVISO DE LIMITE DE 5 ITENS PARA A DECLARAÇÃO SIMPLIFICADA -->
+          <div id="alerta-limite-simplificado" class="hidden bg-amber-50 border border-amber-200 text-amber-900 p-3 rounded-xl text-xs flex items-center gap-2">
+            <i data-lucide="info" class="w-4 h-4 text-amber-600 shrink-0"></i>
+            <span>Limite máximo de <strong>5 itens</strong> atingido para a etiqueta 10x15cm. Para adicionar mais itens, selecione a <strong>Declaração Completa A4</strong> acima.</span>
+          </div>
+
+          <!-- LISTA DINÂMICA DE ITENS -->
+          <div id="container-itens" class="space-y-3">
+            <!-- Os itens serão gerados dinamicamente via JS -->
+          </div>
+
+          <button type="button" id="btn-adicionar-item" onclick="adicionarItem()" class="w-full py-2.5 px-4 rounded-xl border-2 border-dashed border-blue-300 text-[#2563EB] hover:bg-blue-50 font-bold text-xs flex items-center justify-center gap-1.5 transition">
+            <i data-lucide="plus-circle" class="w-4 h-4"></i>
+            <span>Adicionar Mais um Item</span>
+          </button>
+        </section>
+
+        <!-- BLOCO 4: PESO, VALORES E ASSINATURA -->
+        <section class="ds-card p-5 sm:p-6 space-y-4">
+          <div class="flex items-center gap-2 border-b border-[#D9E1EC] pb-3">
+            <div class="w-7 h-7 rounded-lg bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-xs">4</div>
+            <h2 class="text-sm sm:text-base font-bold text-[#0F1B35]">Peso Total e Emissão</h2>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div>
+              <label for="input-peso-total" class="block font-bold text-slate-700 mb-1">Peso Total da Encomenda (kg)</label>
+              <input type="text" id="input-peso-total" placeholder="Ex: 0,850 ou 1,200" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs font-mono">
+            </div>
+
+            <div>
+              <label for="input-data-emissao" class="block font-bold text-slate-700 mb-1">Data da Emissão</label>
+              <input type="date" id="input-data-emissao" oninput="atualizarPreview()" class="ds-input text-xs" required>
+            </div>
+
+            <div class="sm:col-span-2">
+              <label for="input-local-emissao" class="block font-bold text-slate-700 mb-1">Cidade / UF de Postagem</label>
+              <input type="text" id="input-local-emissao" placeholder="Ex: São Paulo - SP" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs">
+            </div>
+
+            <!-- CAMPO DE OBSERVAÇÕES (VISÍVEL NO MODELO COMPLETO) -->
+            <div id="campo-obs-container" class="sm:col-span-2 hidden">
+              <label for="input-observacoes" class="block font-bold text-slate-700 mb-1">Observações Adicionais (Aparece no Modelo A4)</label>
+              <textarea id="input-observacoes" rows="2" placeholder="Ex: Objeto pessoal para conserto / Presente de aniversário / Devolução de compra" autocomplete="off" oninput="atualizarPreview()" class="ds-input text-xs"></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- BOTÕES DE AÇÃO: IMPRIMIR E BAIXAR PDF -->
+        <div class="sticky bottom-4 z-30 p-3 bg-white/95 backdrop-blur-md rounded-2xl border border-slate-300 shadow-xl flex flex-col sm:flex-row items-center gap-2.5">
+          <button type="button" onclick="imprimirDeclaracao()" class="btn-primary flex-1 w-full justify-center text-sm py-3 px-5 shadow-md flex items-center gap-2">
+            <i data-lucide="printer" class="w-5 h-5"></i>
+            <span class="font-extrabold">Imprimir Declaração</span>
+          </button>
+          <button type="button" onclick="imprimirDeclaracao()" class="btn-secondary flex-1 w-full justify-center text-sm py-3 px-4 flex items-center gap-2">
+            <i data-lucide="download" class="w-5 h-5 text-[#2563EB]"></i>
+            <span class="font-bold">Salvar em PDF</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- COLUNA DA PRÉ-VISUALIZAÇÃO AO VIVO (lg:col-span-6) -->
+      <div class="lg:col-span-6 space-y-3">
+        
+        <div class="flex items-center justify-between no-print px-1">
+          <div class="flex items-center gap-2">
+            <i data-lucide="eye" class="w-4 h-4 text-slate-500"></i>
+            <span class="text-xs font-bold uppercase tracking-wider text-slate-700">Prévia ao Vivo do Documento</span>
+          </div>
+          <span id="preview-tamanho-label" class="text-xs font-mono font-bold text-[#2563EB] bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-200">
+            Formato: 10 × 15 cm
+          </span>
+        </div>
+
+        <!-- CONTAINER DA FOLHA/ETIQUETA -->
+        <div class="doc-preview-wrapper">
+          <div id="documento-impresso" class="doc-page doc-simplificado">
+            
+            <!-- CABEÇALHO DO DOCUMENTO CORREIOS -->
+            <div class="text-center border-b border-black pb-1 mb-1.5">
+              <div class="text-[11pt] font-black tracking-tight leading-tight uppercase">DECLARAÇÃO DE CONTEÚDO</div>
+              <div class="text-[6.5pt] leading-tight text-gray-700">EM CONFORMIDADE COM A LEGISLAÇÃO POSTAL BRASILEIRA</div>
+            </div>
+
+            <!-- SEÇÃO REMETENTE E DESTINATÁRIO -->
+            <div class="correios-box mb-1.5 text-[7pt] leading-tight">
+              
+              <!-- LINHA REMETENTE -->
+              <div class="p-1 border-b border-black bg-slate-50">
+                <span class="font-bold uppercase text-[7.5pt] block">1. REMETENTE:</span>
+                <div><strong>NOME:</strong> <span id="doc-rem-nome" class="uppercase">--</span></div>
+                <div class="flex flex-wrap gap-x-2">
+                  <span><strong>CPF/CNPJ:</strong> <span id="doc-rem-doc">--</span></span>
+                  <span><strong>TEL:</strong> <span id="doc-rem-tel">--</span></span>
+                </div>
+                <div><strong>ENDEREÇO:</strong> <span id="doc-rem-endereco">--</span></div>
+                <div class="flex flex-wrap gap-x-2">
+                  <span><strong>BAIRRO:</strong> <span id="doc-rem-bairro">--</span></span>
+                  <span><strong>CIDADE/UF:</strong> <span id="doc-rem-cidade-uf">--</span></span>
+                  <span><strong>CEP:</strong> <span id="doc-rem-cep">--</span></span>
+                </div>
+              </div>
+
+              <!-- LINHA DESTINATÁRIO -->
+              <div class="p-1 bg-white">
+                <span class="font-bold uppercase text-[7.5pt] block">2. DESTINATÁRIO:</span>
+                <div><strong>NOME:</strong> <span id="doc-dest-nome" class="uppercase">--</span></div>
+                <div class="flex flex-wrap gap-x-2">
+                  <span><strong>CPF/CNPJ:</strong> <span id="doc-dest-doc">--</span></span>
+                  <span><strong>TEL:</strong> <span id="doc-dest-tel">--</span></span>
+                </div>
+                <div><strong>ENDEREÇO:</strong> <span id="doc-dest-endereco">--</span></div>
+                <div class="flex flex-wrap gap-x-2">
+                  <span><strong>BAIRRO:</strong> <span id="doc-dest-bairro">--</span></span>
+                  <span><strong>CIDADE/UF:</strong> <span id="doc-dest-cidade-uf">--</span></span>
+                  <span><strong>CEP:</strong> <span id="doc-dest-cep">--</span></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- TABELA DE IDENTIFICAÇÃO DOS BENS -->
+            <div class="mb-1.5">
+              <table class="correios-box correios-table text-[7pt] w-full">
+                <thead>
+                  <tr class="bg-slate-100 text-[6.5pt] uppercase font-bold text-center">
+                    <th style="width: 25px;">ITEM</th>
+                    <th style="text-align: left;">DISCRIMINAÇÃO DO CONTEÚDO</th>
+                    <th style="width: 35px;">QTD</th>
+                    <th style="width: 60px;">VALOR (R$)</th>
+                  </tr>
+                </thead>
+                <tbody id="doc-corpo-itens">
+                  <!-- Renderizado via JS -->
+                </tbody>
+                <tfoot>
+                  <tr class="font-bold bg-slate-50 text-[7pt]">
+                    <td colspan="2" class="text-right uppercase pr-1">TOTAIS:</td>
+                    <td id="doc-total-qtd" class="text-center">0</td>
+                    <td id="doc-total-valor" class="text-right">R$ 0,00</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <!-- TOTAIS COMPLEMENTARES (PESO E VALOR) -->
+            <div class="correios-box p-1 mb-1.5 flex items-center justify-between text-[7pt]">
+              <div><strong>PESO TOTAL:</strong> <span id="doc-peso-total">-- kg</span></div>
+              <div><strong>VALOR DECLARADO TOTAL:</strong> <span id="doc-valor-destacado" class="font-bold">R$ 0,00</span></div>
+            </div>
+
+            <!-- OBSERVAÇÕES (APENAS MODELO COMPLETO) -->
+            <div id="doc-secao-obs" class="correios-box p-1 mb-1.5 text-[7pt] hidden">
+              <strong>OBSERVAÇÕES:</strong> <span id="doc-texto-obs">--</span>
+            </div>
+
+            <!-- TERMO DE DECLARAÇÃO E RESPONSABILIDADE LEGAL -->
+            <div class="correios-box p-1.5 mb-1.5 text-[6pt] leading-[1.15] text-justify bg-slate-50">
+              <strong class="block uppercase font-bold text-center text-[6.5pt] mb-0.5">DECLARAÇÃO DE RESPONSABILIDADE</strong>
+              <span id="doc-termo-legal">
+                Declaro que não me enquadro no conceito de contribuinte previsto no art. 4º da Lei Complementar nº 87/1996, não realizando, com habitualidade ou em volume que caracterize intuito comercial, operações de circulação de mercadoria, ou estando dispensado da emissão de nota fiscal, responsabilizando-me perante a lei por informações inverídicas. O envio de materiais proibidos, perigosos ou substâncias ilícitas constitui infração penal.
+              </span>
+            </div>
+
+            <!-- BLOCO DE DATA E ASSINATURA -->
+            <div class="correios-box p-1.5 text-[7pt]">
+              <div class="flex items-center justify-between mb-4">
+                <div><strong>LOCAL:</strong> <span id="doc-data-local">--</span></div>
+                <div><strong>DATA:</strong> <span id="doc-data-dia">--/--/----</span></div>
+              </div>
+              <div class="text-center pt-2 border-t border-dotted border-black mx-auto max-w-[80%]">
+                <span class="block font-bold text-[7pt] uppercase" id="doc-assinatura-nome">ASSINATURA DO DECLARANTE / REMETENTE</span>
+                <span class="text-[6pt] text-gray-600 block">CPF/CNPJ: <span id="doc-assinatura-doc">--</span></span>
+              </div>
+            </div>
+
+            <!-- RODAPÉ INSTITUCIONAL DISCRETO -->
+            <div class="text-[5.5pt] text-gray-500 text-center mt-1">
+              Documento gerado gratuitamente via Cidadão Agora (cidadaoagora.com.br)
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- BANNER ADSENSE CENTRALIZADO -->
+    <div class="max-w-5xl mx-auto w-full px-1 no-print">
+      <div class="my-6 text-center w-full overflow-hidden flex justify-center">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1173007636108448"
+             data-ad-slot="2396617448"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+      </div>
+    </div>
+
+    <!-- SEÇÃO COMPLETA DE FAQ & ORIENTAÇÕES DOS CORREIOS (SEO) -->
+    <section id="faq-section" class="ds-card p-6 sm:p-8 space-y-6 no-print">
+      <div>
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
+          <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
+          <span>Dúvidas Frequentes & Manual de Postagem</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">
+          Guia Rápido: Como Usar a Declaração de Conteúdo nos Correios
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-[#526078] leading-relaxed">
+        
+        <div class="space-y-2">
+          <h3 class="font-bold text-[#0F1B35] flex items-center gap-2 text-base">
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
+            O que é a Declaração de Conteúdo?
+          </h3>
+          <p class="text-xs">
+            É o documento exigido por lei que atesta o que está dentro de uma caixa ou envelope quando não há obrigatoriedade de emissão de Nota Fiscal (NF-e). 
+            Ela serve para fins de fiscalização fazendária e controle de transporte interestadual e municipal.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="font-bold text-[#0F1B35] flex items-center gap-2 text-base">
+            <i data-lucide="alert-circle" class="w-4 h-4 text-amber-600"></i>
+            Quem pode utilizar a declaração?
+          </h3>
+          <p class="text-xs">
+            Pessoas físicas enviando pertences pessoais, presentes, doações ou produtos usados esporadicamente, bem como <strong>Microempreendedores Individuais (MEI)</strong> que estejam enviando produtos para pessoa física e desobrigados de emitir NF-e.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="font-bold text-[#0F1B35] flex items-center gap-2 text-base">
+            <i data-lucide="maximize" class="w-4 h-4 text-[#2563EB]"></i>
+            Qual modelo devo escolher: 10x15cm ou A4?
+          </h3>
+          <p class="text-xs">
+            <strong>Simplificada (10x15cm):</strong> ideal para caixas pequenas, pacotes leves e envios com até 5 itens. Pode ser impressa em impressora térmica ou recortada em sulfite.  
+            <br><strong>Completa (A4):</strong> recomendada para pacotes médios e grandes com mais de 5 itens ou quando você precisa anexar detalhes e observações.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h3 class="font-bold text-[#0F1B35] flex items-center gap-2 text-base">
+            <i data-lucide="file-check" class="w-4 h-4 text-purple-600"></i>
+            Como fixar a declaração no pacote?
+          </h3>
+          <p class="text-xs">
+            A declaração <strong>nunca deve ser colocada dentro da caixa</strong>. Dobre o papel mantendo a parte com os dados virada para fora e coloque em uma bolsa plástica autoadesiva (bolsa canguru) fixada na face externa da embalagem.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- ALERTA DE MATERIAIS PROIBIDOS -->
+      <div class="bg-rose-50 border border-rose-200 rounded-xl p-4 text-xs text-rose-900 space-y-1.5">
+        <div class="font-bold flex items-center gap-1.5 text-rose-800">
+          <i data-lucide="ban" class="w-4 h-4"></i>
+          Atenção: O que é estritamente proibido enviar pelos Correios?
+        </div>
+        <p>
+          Líquidos inflamáveis, aerossóis, botijões de gás, baterias danificadas, armas de fogo, animais vivos, drogas ilícitas, cédulas de dinheiro em moeda corrente e materiais corrosivos ou radioativos. A declaração falsa constitui crime contra a ordem tributária.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-white border-t border-[#D9E1EC] py-6 text-[#526078] text-xs text-center space-y-2 mt-8 no-print">
+    <div class="flex items-center justify-center gap-4 text-[11px]">
+      <a href="../conteudo/politica-privacidade.html" class="hover:text-slate-800 underline">Política de Privacidade (LGPD)</a>
+      <span>•</span>
+      <a href="../conteudo/termos-de-uso.html" class="hover:text-slate-800 underline">Termos e Condições de Uso</a>
+      <span>•</span>
+      <a href="../conteudo/contato.html" class="hover:text-slate-800 underline">Fale Conosco</a>
+    </div>
+    <p class="text-[11px]">© 2026 Cidadão Agora - Ferramentas de utilidade pública e cidadania.</p>
+  </footer>
+
+  <!-- JAVASCRIPT REATIVO DO GERADOR -->
+  <script>
+    // Estado da aplicação
+    let modeloAtual = 'simplificado'; // 'simplificado' (10x15cm) ou 'completo' (A4)
+    let listaItens = [
+      { id: 1, descricao: 'Camiseta de algodão M', qtd: 2, valor: 35.00 }
+    ];
+
+    // Inicialização da Data de Hoje
+    document.addEventListener('DOMContentLoaded', () => {
+      const hoje = new Date().toISOString().split('T')[0];
+      const campoData = document.getElementById('input-data-emissao');
+      if (campoData) campoData.value = hoje;
+      
+      renderizarItens();
+      atualizarPreview();
+      if (window.lucide) window.lucide.createIcons();
+    });
+
+    // Troca entre modelo Simplificado (10x15cm) e Completo (A4)
+    function trocarModelo(tipo) {
+      modeloAtual = tipo;
+      const doc = document.getElementById('documento-impresso');
+      const labelTamanho = document.getElementById('preview-tamanho-label');
+      const campoObs = document.getElementById('campo-obs-container');
+      const docSecaoObs = document.getElementById('doc-secao-obs');
+
+      if (tipo === 'simplificado') {
+        doc.className = 'doc-page doc-simplificado';
+        labelTamanho.innerText = 'Formato: 10 × 15 cm (Etiqueta)';
+        campoObs.classList.add('hidden');
+        docSecaoObs.classList.add('hidden');
+        
+        // Se houver mais de 5 itens ao mudar para simplificado, ajusta
+        if (listaItens.length > 5) {
+          alert('O modelo Simplificado comporta no máximo 5 itens. Foram mantidos os primeiros 5.');
+          listaItens = listaItens.slice(0, 5);
+          renderizarItens();
+        }
+      } else {
+        doc.className = 'doc-page doc-completo';
+        labelTamanho.innerText = 'Formato: Folha A4 (21 × 29,7 cm)';
+        campoObs.classList.remove('hidden');
+        docSecaoObs.classList.remove('hidden');
+      }
+
+      verificarLimiteItens();
+      atualizarPreview();
+    }
+
+    // Renderiza a lista de itens no formulário
+    function renderizarItens() {
+      const container = document.getElementById('container-itens');
+      container.innerHTML = '';
+
+      listaItens.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'p-3 rounded-xl border border-slate-200 bg-slate-50/70 space-y-2';
+        div.innerHTML = `
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold text-slate-700 uppercase">Item ${index + 1}</span>
+            ${listaItens.length > 1 ? `
+              <button type="button" onclick="removerItem(${item.id})" class="text-rose-500 hover:text-rose-700 text-xs font-bold flex items-center gap-1 touch-target">
+                <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+                <span>Remover</span>
+              </button>
+            ` : ''}
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-12 gap-2 text-xs">
+            <div class="sm:col-span-6">
+              <input type="text" placeholder="Descrição do produto / bem" value="${escapeHtml(item.descricao)}" oninput="atualizarItemProp(${item.id}, 'descricao', this.value)" class="ds-input text-xs" required>
+            </div>
+            <div class="sm:col-span-2">
+              <input type="number" min="1" placeholder="Qtd" value="${item.qtd}" oninput="atualizarItemProp(${item.id}, 'qtd', this.value)" class="ds-input text-xs text-center font-bold" required>
+            </div>
+            <div class="sm:col-span-4">
+              <input type="text" placeholder="Valor Unitário (R$)" value="${formatarMoedaInput(item.valor)}" oninput="atualizarItemValor(${item.id}, this)" class="ds-input text-xs font-mono font-bold text-emerald-800" required>
+            </div>
+          </div>
+        `;
+        container.appendChild(div);
+      });
+
+      const badgeContador = document.getElementById('badge-contador-itens');
+      badgeContador.innerText = `${listaItens.length} ${listaItens.length === 1 ? 'item cadastrado' : 'itens cadastrados'}`;
+
+      verificarLimiteItens();
+      if (window.lucide) window.lucide.createIcons();
+    }
+
+    function verificarLimiteItens() {
+      const btnAdd = document.getElementById('btn-adicionar-item');
+      const alertaLimite = document.getElementById('alerta-limite-simplificado');
+
+      if (modeloAtual === 'simplificado' && listaItens.length >= 5) {
+        btnAdd.disabled = true;
+        btnAdd.classList.add('opacity-50', 'cursor-not-allowed');
+        alertaLimite.classList.remove('hidden');
+      } else {
+        btnAdd.disabled = false;
+        btnAdd.classList.remove('opacity-50', 'cursor-not-allowed');
+        alertaLimite.classList.add('hidden');
+      }
+    }
+
+    function adicionarItem() {
+      if (modeloAtual === 'simplificado' && listaItens.length >= 5) {
+        alert('O modelo Simplificado suporta no máximo 5 itens para garantir a legibilidade na etiqueta 10x15cm. Para mais itens, selecione o modelo Completo (A4).');
+        return;
+      }
+      const novoId = Date.now();
+      listaItens.push({ id: novoId, descricao: '', qtd: 1, valor: 0.00 });
+      renderizarItens();
+      atualizarPreview();
+    }
+
+    function removerItem(id) {
+      if (listaItens.length <= 1) return;
+      listaItens = listaItens.filter(i => i.id !== id);
+      renderizarItens();
+      atualizarPreview();
+    }
+
+    function atualizarItemProp(id, prop, valor) {
+      const item = listaItens.find(i => i.id === id);
+      if (item) {
+        if (prop === 'qtd') {
+          item.qtd = Math.max(1, parseInt(valor, 10) || 1);
+        } else {
+          item[prop] = valor;
+        }
+        atualizarPreview();
+      }
+    }
+
+    function atualizarItemValor(id, inputElement) {
+      let v = inputElement.value.replace(/\D/g, "");
+      let numero = Number(v) / 100;
+      inputElement.value = numero.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      
+      const item = listaItens.find(i => i.id === id);
+      if (item) {
+        item.valor = numero;
+        atualizarPreview();
+      }
+    }
+
+    function formatarMoedaInput(num) {
+      return (Number(num) || 0).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    // Atualização da Pré-Visualização em Tempo Real
+    function atualizarPreview() {
+      // 1. Remetente
+      const remNome = document.getElementById('rem-nome').value.trim() || '--';
+      const remDoc = document.getElementById('rem-doc').value.trim() || '--';
+      const remLog = document.getElementById('rem-logradouro').value.trim();
+      const remNum = document.getElementById('rem-numero').value.trim();
+      const remComp = document.getElementById('rem-complemento').value.trim();
+      const remBairro = document.getElementById('rem-bairro').value.trim() || '--';
+      const remCid = document.getElementById('rem-cidade').value.trim() || '--';
+      const remUf = document.getElementById('rem-uf').value.trim() || '--';
+      const remCep = document.getElementById('rem-cep').value.trim() || '--';
+      const remTel = document.getElementById('rem-telefone').value.trim() || '--';
+
+      let remEnderecoFormatado = remLog ? `${remLog}, nº ${remNum || 'S/N'}${remComp ? ' - ' + remComp : ''}` : '--';
+
+      document.getElementById('doc-rem-nome').innerText = remNome;
+      document.getElementById('doc-rem-doc').innerText = remDoc;
+      document.getElementById('doc-rem-tel').innerText = remTel;
+      document.getElementById('doc-rem-endereco').innerText = remEnderecoFormatado;
+      document.getElementById('doc-rem-bairro').innerText = remBairro;
+      document.getElementById('doc-rem-cidade-uf').innerText = `${remCid} / ${remUf}`;
+      document.getElementById('doc-rem-cep').innerText = remCep;
+
+      // 2. Destinatário
+      const destNome = document.getElementById('dest-nome').value.trim() || '--';
+      const destDoc = document.getElementById('dest-doc').value.trim() || '--';
+      const destLog = document.getElementById('dest-logradouro').value.trim();
+      const destNum = document.getElementById('dest-numero').value.trim();
+      const destComp = document.getElementById('dest-complemento').value.trim();
+      const destBairro = document.getElementById('dest-bairro').value.trim() || '--';
+      const destCid = document.getElementById('dest-cidade').value.trim() || '--';
+      const destUf = document.getElementById('dest-uf').value.trim() || '--';
+      const destCep = document.getElementById('dest-cep').value.trim() || '--';
+      const destTel = document.getElementById('dest-telefone').value.trim() || '--';
+
+      let destEnderecoFormatado = destLog ? `${destLog}, nº ${destNum || 'S/N'}${destComp ? ' - ' + destComp : ''}` : '--';
+
+      document.getElementById('doc-dest-nome').innerText = destNome;
+      document.getElementById('doc-dest-doc').innerText = destDoc;
+      document.getElementById('doc-dest-tel').innerText = destTel;
+      document.getElementById('doc-dest-endereco').innerText = destEnderecoFormatado;
+      document.getElementById('doc-dest-bairro').innerText = destBairro;
+      document.getElementById('doc-dest-cidade-uf').innerText = `${destCid} / ${destUf}`;
+      document.getElementById('doc-dest-cep').innerText = destCep;
+
+      // 3. Tabela de Itens
+      const tbody = document.getElementById('doc-corpo-itens');
+      tbody.innerHTML = '';
+
+      let somaQtd = 0;
+      let somaValor = 0;
+
+      listaItens.forEach((item, index) => {
+        const subtotal = (item.qtd || 1) * (item.valor || 0);
+        somaQtd += item.qtd || 1;
+        somaValor += subtotal;
+
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td class="text-center font-mono">${index + 1}</td>
+          <td class="uppercase">${escapeHtml(item.descricao) || 'ITEM SEM DESCRIÇÃO'}</td>
+          <td class="text-center font-bold">${item.qtd || 1}</td>
+          <td class="text-right font-mono">R$ ${subtotal.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Linhas em branco caso simplificada tenha menos de 3 itens para estética de papel oficial
+      if (modeloAtual === 'simplificado' && listaItens.length < 3) {
+        for (let i = listaItens.length; i < 3; i++) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td class="text-center text-gray-300 font-mono">${i + 1}</td>
+            <td class="text-gray-300">---</td>
+            <td class="text-center text-gray-300">--</td>
+            <td class="text-right text-gray-300 font-mono">--</td>
+          `;
+          tbody.appendChild(tr);
+        }
+      }
+
+      document.getElementById('doc-total-qtd').innerText = somaQtd;
+      const valorStr = `R$ ${somaValor.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+      document.getElementById('doc-total-valor').innerText = valorStr;
+      document.getElementById('doc-valor-destacado').innerText = valorStr;
+
+      // 4. Peso e Observações
+      const pesoInformado = document.getElementById('input-peso-total').value.trim();
+      document.getElementById('doc-peso-total').innerText = pesoInformado ? `${pesoInformado} kg` : '-- kg';
+
+      const obsTexto = document.getElementById('input-observacoes').value.trim();
+      document.getElementById('doc-texto-obs').innerText = obsTexto || 'Nenhuma observação informada.';
+
+      // 5. Data, Local e Assinatura
+      const dataRaw = document.getElementById('input-data-emissao').value;
+      if (dataRaw) {
+        const [ano, mes, dia] = dataRaw.split('-');
+        document.getElementById('doc-data-dia').innerText = `${dia}/${mes}/${ano}`;
+      } else {
+        document.getElementById('doc-data-dia').innerText = '--/--/----';
+      }
+
+      const localEmissao = document.getElementById('input-local-emissao').value.trim();
+      document.getElementById('doc-data-local').innerText = localEmissao || (remCid !== '--' ? `${remCid} - ${remUf}` : '--');
+
+      document.getElementById('doc-assinatura-nome').innerText = remNome !== '--' ? remNome : 'ASSINATURA DO DECLARANTE / REMETENTE';
+      document.getElementById('doc-assinatura-doc').innerText = remDoc;
+    }
+
+    // Busca de CEP Automática via ViaCEP com fallback BrasilAPI
+    async function buscarCep(cep, tipo) {
+      const cepLimpo = cep.replace(/\D/g, "");
+      if (cepLimpo.length !== 8) return;
+
+      const statusEl = document.getElementById(`${tipo}-cep-status`);
+      statusEl.innerText = 'Buscando...';
+
+      try {
+        let dados = null;
+
+        try {
+          const resVia = await fetch(`https://viacep.com.br/ws/${cepLimpo}/json/`);
+          if (resVia.ok) {
+            const j = await resVia.json();
+            if (!j.erro) {
+              dados = { logradouro: j.logradouro, bairro: j.bairro, localidade: j.localidade, uf: j.uf };
+            }
+          }
+        } catch (e) {
+          console.warn("Fallback ViaCEP...");
+        }
+
+        if (!dados) {
+          const resBr = await fetch(`https://brasilapi.com.br/api/cep/v2/${cepLimpo}`);
+          if (resBr.ok) {
+            const j = await resBr.json();
+            dados = { logradouro: j.street, bairro: j.neighborhood, localidade: j.city, uf: j.state };
+          }
+        }
+
+        if (dados) {
+          if (dados.logradouro) document.getElementById(`${tipo}-logradouro`).value = dados.logradouro;
+          if (dados.bairro) document.getElementById(`${tipo}-bairro`).value = dados.bairro;
+          if (dados.localidade) document.getElementById(`${tipo}-cidade`).value = dados.localidade;
+          if (dados.uf) document.getElementById(`${tipo}-uf`).value = dados.uf;
+          statusEl.innerText = 'Endereço encontrado!';
+          setTimeout(() => { statusEl.innerText = ''; }, 3000);
+          
+          if (tipo === 'rem' && !document.getElementById('input-local-emissao').value) {
+            document.getElementById('input-local-emissao').value = `${dados.localidade} - ${dados.uf}`;
+          }
+
+          atualizarPreview();
+        } else {
+          statusEl.innerText = 'CEP não encontrado.';
+        }
+      } catch (err) {
+        statusEl.innerText = 'Falha ao buscar CEP.';
+      }
+    }
+
+    // Máscaras de formulário
+    function mascararDoc(el) {
+      let v = el.value.replace(/\D/g, "");
+      if (v.length <= 11) {
+        v = v.replace(/(\d{3})(\d)/, "$1.$2");
+        v = v.replace(/(\d{3})(\d)/, "$1.$2");
+        v = v.replace(/(\d{3})(\d{1,2})$/, "$1-$2");
+      } else {
+        v = v.substring(0, 14);
+        v = v.replace(/^(\d{2})(\d)/, "$1.$2");
+        v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3");
+        v = v.replace(/\.(\d{3})(\d)/, ".$1/$2");
+        v = v.replace(/(\d{4})(\d)/, "$1-$2");
+      }
+      el.value = v;
+    }
+
+    function mascararCep(el) {
+      let v = el.value.replace(/\D/g, "").substring(0, 8);
+      if (v.length > 5) v = v.replace(/^(\d{5})(\d)/, "$1-$2");
+      el.value = v;
+    }
+
+    function mascararTel(el) {
+      let v = el.value.replace(/\D/g, "").substring(0, 11);
+      if (v.length > 10) {
+        v = v.replace(/^(\d{2})(\d{5})(\d{4})$/, "($1) $2-$3");
+      } else if (v.length > 5) {
+        v = v.replace(/^(\d{2})(\d{4})(\d{0,4})$/, "($1) $2-$3");
+      } else if (v.length > 2) {
+        v = v.replace(/^(\d{2})(\d{0,5})$/, "($1) $2");
+      }
+      el.value = v;
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // Impressão e Download em PDF nativo com alta fidelidade
+    function imprimirDeclaracao() {
+      // Ajusta classe no body para disparar as regras de impressão adequadas
+      document.body.classList.remove('imprimindo-simplificado', 'imprimindo-completo');
+      
+      // Injeta regra @page dinâmica para garantir o corte exato do papel na impressora
+      let styleEl = document.getElementById('print-page-style');
+      if (!styleEl) {
+        styleEl = document.createElement('style');
+        styleEl.id = 'print-page-style';
+        document.head.appendChild(styleEl);
+      }
+
+      if (modeloAtual === 'simplificado') {
+        document.body.classList.add('imprimindo-simplificado');
+        styleEl.innerHTML = '@page { size: 100mm 150mm; margin: 0; }';
+      } else {
+        document.body.classList.add('imprimindo-completo');
+        styleEl.innerHTML = '@page { size: A4 portrait; margin: 8mm; }';
+      }
+
+      window.print();
+    }
+
+    // Carregar Exemplo de Teste
+    function carregarExemplo() {
+      document.getElementById('rem-nome').value = 'Carlos Eduardo da Silva';
+      document.getElementById('rem-doc').value = '123.456.789-00';
+      document.getElementById('rem-cep').value = '01310-100';
+      document.getElementById('rem-logradouro').value = 'Avenida Paulista';
+      document.getElementById('rem-numero').value = '1000';
+      document.getElementById('rem-complemento').value = 'Apto 42';
+      document.getElementById('rem-bairro').value = 'Bela Vista';
+      document.getElementById('rem-cidade').value = 'São Paulo';
+      document.getElementById('rem-uf').value = 'SP';
+      document.getElementById('rem-telefone').value = '(11) 98765-4321';
+
+      document.getElementById('dest-nome').value = 'Mariana Albuquerque Santos';
+      document.getElementById('dest-doc').value = '987.654.321-99';
+      document.getElementById('dest-cep').value = '20040-002';
+      document.getElementById('dest-logradouro').value = 'Rua da Assembleia';
+      document.getElementById('dest-numero').value = '10';
+      document.getElementById('dest-complemento').value = 'Sala 801';
+      document.getElementById('dest-bairro').value = 'Centro';
+      document.getElementById('dest-cidade').value = 'Rio de Janeiro';
+      document.getElementById('dest-uf').value = 'RJ';
+      document.getElementById('dest-telefone').value = '(21) 99123-4567';
+
+      document.getElementById('input-peso-total').value = '0,650';
+      document.getElementById('input-local-emissao').value = 'São Paulo - SP';
+      document.getElementById('input-observacoes').value = 'Envio de presente pessoal. Objeto sem finalidade comercial.';
+
+      listaItens = [
+        { id: 1, descricao: 'Livro usado de literatura clássica', qtd: 1, valor: 45.00 },
+        { id: 2, descricao: 'Camiseta de algodão estampada M', qtd: 2, valor: 39.90 },
+        { id: 3, descricao: 'Caderno de anotações artesanal', qtd: 1, valor: 25.00 }
+      ];
+
+      renderizarItens();
+      atualizarPreview();
+    }
+
+    // Limpar Formulário
+    function limparFormulario() {
+      if (!confirm('Deseja realmente limpar todos os campos da declaração?')) return;
+
+      document.querySelectorAll('#painel-controles input, #painel-controles textarea').forEach(el => {
+        if (el.type !== 'radio' && el.id !== 'input-data-emissao') el.value = '';
+      });
+
+      listaItens = [
+        { id: 1, descricao: '', qtd: 1, valor: 0.00 }
+      ];
+
+      renderizarItens();
+      atualizarPreview();
+    }
+  </script>
+</body>
+</html>
