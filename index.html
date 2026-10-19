@@ -1197,6 +1197,8 @@
       }
     }
     carregarCotacaoTopo();
+    // Reconsulta o Banco Central a cada 5 minutos se o usuário mantiver a página aberta
+    setInterval(carregarCotacaoTopo, 5 * 60 * 1000);
 
 
     // Busca de serviços em tempo real

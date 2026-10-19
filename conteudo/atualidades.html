@@ -549,6 +549,9 @@
 
     // Executa a atualização imediata ao abrir a página
     atualizarIndicadoresBCB();
+
+    // Reconsulta automaticamente o Banco Central a cada 5 minutos caso o usuário deixe a página aberta
+    setInterval(atualizarIndicadoresBCB, 5 * 60 * 1000);
   </script>
 </body>
 </html>
