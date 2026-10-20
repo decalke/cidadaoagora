@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "20/10/2026 às 20:23:25",
+  "ultima_atualizacao": "20/10/2026 às 23:44:11",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil",
+      "resumo": "O dólar aproximou-se de R$ 5, e a bolsa superou os 208 mil pontos nesta terça-feira (20). O desempenho positivo dos ativos brasileiros foi impulsionado pela desvalorização da moeda norte-americana no exterior, pelo fluxo...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O dólar aproximou-se de R$ 5, e a bolsa superou os 208 mil pontos nesta terça-feira (20). O desempenho positivo dos ativos brasileiros foi impulsionado pela desvalorização da moeda norte-americana no exterior, pelo fluxo de investimentos estrangeiros e pelo cenário eleitoral.\n\nNo mercado internacional, a queda do petróleo também contribuiu para o apetite por risco.\n\nNúmeros do dia\n\n\n\tDólar comercial: R$ 5,019 (-0,58%);\n\tDólar em outubro: queda de 3,02%;\n\tDólar em 2026: recuo acumulado de 8,56%;\n\tIbovespa: 208.295,98 pontos (+1,57%);\n\tPetróleo Brent: US$ 108,79 por barril (-0,69%).\n\n\nCâmbio\n\nO dólar comercial encerrou esta terça vendido a R$ 5,019, com queda de 0,58%. Esse foi o terceiro pregão consecutivo de baixa frente ao real. Durante a sessão, a moeda chegou a se aproximar de R$ 5,00, acompanhando o movimento de desvalorização no mercado internacional.\n\nO índice DXY, que mede o desempenho da moeda norte-americana em relação a uma cesta de seis divisas fortes, recuava cerca de 0,26% no fim da tarde. A queda refletiu, entre outros fatores, dados mais fracos do setor imobiliário dos Estados Unidos e expectativas sobre a trajetória dos juros estadunidenses.\n\nA redução dos rendimentos dos títulos do Tesouro dos Estados Unidos, conhecidos como Treasuries, também contribuiu para o movimento. Quando esses rendimentos caem, investimentos em outros mercados podem se tornar relativamente mais atraentes, favorecendo a entrada de recursos em países emergentes, como o Brasil.\n\nNo mercado doméstico, a perspectiva de entrada de capital estrangeiro na Bolsa ajudou a sustentar o real. A movimentação ocorre em meio à expectativa dos investidores sobre os desdobramentos da disputa presidencial, que também influencia a percepção de risco dos ativos brasileiros.\n\nIbovespa\n\nO Ibovespa encerrou o pregão aos 208.295,98 pontos, com valorização de 1,57%. Durante a tarde, o principal índice da B3 chegou à máxima de 208.941,57 pontos, avanço de 1,88% em relação ao fechamento anterior.\n\nO resultado levou o índice ao maior nível desde 9 de outubro. O desempenho foi favorecido pelo ingresso de recursos estrangeiros e pelo avanço de ações de empresas sensíveis às expectativas de juros e à atividade econômica.\n\nA expectativa de condições financeiras mais favoráveis pode beneficiar empresas que dependem de crédito e consumo. Juros menores, por exemplo, tendem a reduzir o custo de financiamento e podem estimular a atividade econômica, embora os efeitos variem conforme a situação de cada companhia.\n\nPetróleo recua\n\nNo mercado internacional, o petróleo Brent, referência para as negociações globais, fechou em queda de 0,69%, a US$ 108,79 por barril.\n\nA baixa ocorreu em meio a notícias sobre possíveis avanços nas negociações entre Estados Unidos e Irã para um acordo relacionado ao conflito no Oriente Médio. A perspectiva de redução das tensões geopolíticas diminuiu parte da pressão sobre os preços do petróleo.\n\nComo o produto afeta os custos de energia e transporte, a queda influencia as expectativas de inflação mundial. Uma redução sustentada dos preços pode aliviar pressões inflacionárias e influenciar as decisões de política monetária das principais economias.\n\n \n\n* com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/6cBKvd2Gn_bpUzjMP8ZFsNjqBWI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221211.jpg?itok=39fSIBWo",
+      "slug": "dolar-cai-para-r-5-01-com-exterior-e-expectativa-eleitoral-no-brasil",
+      "pagina_local": "dolar-cai-para-r-5-01-com-exterior-e-expectativa-eleitoral-no-brasil.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 23:44"
+    },
+    {
+      "titulo": "Brasil define cotas para exportar com tarifas reduzidas para a Noruega",
+      "resumo": "O Brasil definiu as regras para empresas que desejam exportar produtos à Noruega com benefícios tarifários previstos no acordo comercial entre o Mercosul e a Associação Europeia de Livre Comércio (EFTA).\n\nA regulamentaçã...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Brasil definiu as regras para empresas que desejam exportar produtos à Noruega com benefícios tarifários previstos no acordo comercial entre o Mercosul e a Associação Europeia de Livre Comércio (EFTA).\n\nA regulamentação foi publicada pela Secretaria de Comércio Exterior (Secex), vinculada ao Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC), e os benefícios começam a valer em 1º de novembro de 2026.\n\nNotícias relacionadas:Brasil promulga acordo de livre comércio entre Mercosul e EFTA.Balança comercial tem superávit de US$ 7,74 bilhões em setembro.Petróleo sobe 2% com suspensão de exportações pela China.A medida estabelece como os exportadores brasileiros poderão acessar as cotas tarifárias negociadas para o mercado norueguês. O mecanismo permite que determinados volumes de produtos sejam comercializados com tarifas reduzidas ou outras condições preferenciais, conforme as regras estabelecidas no acordo.\n\nEntre os produtos contemplados estão carne, mel, milho, maçãs e outros itens agrícolas e pecuários.\n\nProdutos contemplados\n\nAs cotas tarifárias estabelecem limites de quantidade para a exportação de determinados produtos com condições comerciais preferenciais. Na prática, as empresas podem obter vantagens no pagamento de tarifas de importação no país de destino, desde que cumpram os requisitos previstos.\n\nA regulamentação brasileira abrange as exportações dos seguintes produtos para a Noruega:\n\n\n\tCarne bovina;\n\tCarne de aves e suas preparações;\n\tMel natural;\n\tBatatas e maçãs frescas;\n\tTrigo duro e milho;\n\tMelaço de cana;\n\tSuco de maçã;\n\tFarinha de soja;\n\tCavalos vivos.\n\n\nO acesso aos benefícios depende da disponibilidade de saldo nas cotas e do cumprimento dos procedimentos exigidos pela Secex.\n\nComo pedir\n\nOs pedidos serão realizados digitalmente pelo Portal Único Siscomex, sistema utilizado pelo governo federal para administrar operações de comércio exterior.\n\nO procedimento seguirá a ordem de apresentação dos pedidos. Isso porque, em 2026, não haverá distribuição prévia entre os países do Mercosul dos volumes negociados para as cotas de exportação.\n\nO processo funciona da seguinte forma:\n\n\n\tPedido de licença: a empresa exportadora registra o pedido no módulo \"Licenças, Permissões, Certificados e Outros Documentos (LPCO)\" do Siscomex.\n\tVerificação do saldo: a Secex confere se ainda há quantidade disponível na cota pedida.\n\tReserva da quantidade: se houver saldo, o volume correspondente é reservado e a licença é aprovada.\n\tRealização da exportação: a empresa tem até 60 dias para efetivar a operação, vinculando a licença à Declaração Única de Exportação (DUE).\n\tEmissão do certificado: após o desembaraço aduaneiro da carga, é emitido o Certificado de Autorização de Cotas Mercosul, documento que permite pedir a aplicação do benefício tarifário no mercado norueguês.\n\n\nSe a licença não for vinculada à DUE no prazo estabelecido ou for cancelada pelo exportador, o certificado será anulado e a quantidade reservada voltará ao saldo disponível para outras empresas.\n\nO que é o acordo\n\nO acordo de livre comércio entre o Mercosul e a EFTA foi assinado em 2025, no Rio de Janeiro, e promulgado pelo Brasil, em setembro deste ano.\n\nA EFTA é um bloco europeu formado por quatro países: Noruega, Islândia, Suíça e  Liechtenstein.\n\nO objetivo do acordo é reduzir barreiras comerciais e ampliar o acesso de produtos e serviços aos mercados participantes, criando condições mais favoráveis para as trocas internacionais.\n\nA aplicação do acordo, porém, ocorre conforme os procedimentos concluídos por cada país. Para o Brasil, as regras comerciais entraram em vigor com a Islândia em 1º de outubro de 2026 e começam a valer com a Noruega em 1º de novembro.\n\nSuíça e Liechtenstein ainda não concluíram as etapas nacionais necessárias para a aplicação do instrumento. Além disso, segundo o MDIC, a Islândia não abriu cotas para exportações do Mercosul. Por isso, a regulamentação publicada agora trata especificamente das cotas destinadas à Noruega.\n\nImpacto no comércio\n\nO acordo prevê uma ampla redução de tarifas entre os países participantes, embora os benefícios variem conforme o produto e o mercado.\n\nDe acordo com os dados divulgados pelo governo brasileiro, a EFTA eliminará, na entrada em vigor do acordo, 100% das tarifas de importação aplicadas aos setores industrial e pesqueiro.\n\nSegundo o MDIC, considerando os setores agrícola e industrial, os percentuais do valor das exportações brasileiras incluídos no regime de livre comércio serão:\n\n\n\tIslândia: 100%;\n\tLiechtenstein: 100%;\n\tNoruega: 99,8%;\n\tSuíça: 97,7%.\n\n\nDo lado brasileiro, aproximadamente 97% do comércio com a EFTA será liberalizado em regime de livre comércio. Outros 1,2% terão redução parcial de tarifas, incluindo mecanismos como cotas tarifárias e preferências fixas.\n\nPara produtos sujeitos à redução gradual de tarifas, os prazos variam conforme as condições negociadas, podendo chegar a 15 anos.</p>",
+      "imagem": "https://imagens.ebc.com.br/y6WMwg2SFcmPIqjQWviJMAhFKJo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/16/54792148243_15d1dca07b_o.jpg?itok=ex9we1s6",
+      "slug": "brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-a-noruega",
+      "pagina_local": "brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-a-noruega.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 23:44"
+    },
     {
       "titulo": "TCU aprova contas do BC de 2025 após desvincular processo do Master",
       "resumo": "O Tribunal de Contas da União (TCU) aprovou, nesta terça-feira (20), as contas do Banco Central (BC) referentes ao exercício de 2025 e concedeu quitação plena aos nove responsáveis pela gestão analisada, entre eles o pre...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Restituições do IR batem recorde e chegam a R$ 41 bilhões em 2026",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "IBGE é autorizado a abrir 325 vagas temporárias",
@@ -39,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -104,33 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
-    },
-    {
-      "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
-      "resumo": "As atividades relacionadas ao setor de minerais críticos e estratégicos (MCE) para o Brasil somaram 129.423 empregos, em 2025, o equivalente a 57% dos 226.634 empregos da indústria extrativa mineral do país. \n\nQuando com...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As atividades relacionadas ao setor de minerais críticos e estratégicos (MCE) para o Brasil somaram 129.423 empregos, em 2025, o equivalente a 57% dos 226.634 empregos da indústria extrativa mineral do país. \n\nQuando comparado ao mesmo mercado de trabalho registrado em 2023, houve crescimento de 8,6% no período.\n\nNotícias relacionadas:Brasil cria política para ampliar produção de minerais críticos.Mineradoras elogiam, mas municípios criticam PL de minerais críticos.Os dados estão disponíveis no Portal de Minerais Críticos e Estratégicos, lançado na última semana pela Agência Nacional de Mineração (ANM).\n\nAs unidades da federação que mais empregam são Minas Gerais (62.631 postos de trabalho); Pará (27.047); e Bahia (9.147).\n\nAlém dos dados sobre empregos, o painel permite consultar informações sobre o perfil dos trabalhadores, remuneração média e as 21 substâncias relacionadas a essas atividades, entre elas, alumínio, ouro, ferro, cobre, terras-raras, nióbio, titânio e lítio.\n\nA análise do mercado formal de trabalho da indústria extrativa mineral da plataforma foi realizada a partir dos microdados da Relação Anual de Informações Sociais (Rais) e do Novo Cadastro Geral de Empregados e Desempregados (Novo Caged), disponibilizados pelo Ministério do Trabalho e Emprego (MTE).\n\nPerfil dos trabalhadores\n\nDe acordo com os dados do portal, a participação masculina (100.765 empregos) equivale a 78% do total de empregos relacionados a minerais críticos e estratégicos (129.423). As mulheres ocupam os 22% restantes, 28.658 postos.\n\nNo gráfico de empregos, relacionados aos MCE, 51.714 são de mão de obra qualificada, o equivalente a 23% de todos os empregos.\n\nOs trabalhadores com ensino superior somam 30.707, que representa 14%. Destes mais de 30 mil postos de trabalho, 19.060 são ocupados por homens e 11.647, por mulheres.\n\nQuando considerados os empregos gerados por tipo de mineral, o extrativismo que mais emprega é do ferro (70.027 postos de trabalho). Seguido por metais preciosos que somam 21.313 empregos.\n\nRemuneração\n\nEm 2025, as remunerações médias dos trabalhadores de níveis de escolaridade fundamental, médio e superior foram respectivamente de R$ 3.218; R$ 4.142 e R$ 11.856.\n\nLocalidades\n\nO portal também mostra a distribuição territorial dos municípios produtores com um mapa geoespacial.\n\nEntre os municípios com maior número de trabalhadores em atividades relacionadas aos MCE estão Parauapebas (PA), com 8.234 empregos; Nova Lima (MG), com 8.218; e Congonhas (MG), com 7.114.\n\nEm Parauapebas, são 8.234 trabalhadores (71,4% do gênero masculino e 28,6% do gênero feminino), sendo 1.851 com nível superior.\n\nEm Nova Lima, dos 8.218 empregados (63,3% do gênero masculino e 36,7% do gênero feminino), 4.776 tem nível superior.\n\nEm Congonhas, são 7.114 trabalhadores (73,2% do gênero masculino e 26,8% gênero feminino), sendo 1.234 trabalhadores com nível superior.\n\nProdução\n\nPara contribuir com a transparência e a divulgação de informações sobre o desempenho da mineração no país, o site apresenta informações de exploração, valor investido e produção e comércio exterior.\n\nDe acordo com os indicadores, em 2025 o país tinha 1.012 áreas em produção que resultaram em R$ 250,4 bilhões ao país.</p>",
-      "imagem": "https://imagens.ebc.com.br/1G0laUv1Nd3sz6xaakOAyJeFCKk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/04/22/sigma-lithium-litio-jequitinhonh.jpeg?itok=E_oW8sHb",
-      "slug": "minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
-      "pagina_local": "minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
-    },
-    {
-      "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
-      "resumo": "A segunda rodada da chamada Mais Inovação Brasil Subvenção Econômica, edital da Financiadora de Estudos e Projetos (Finep) terá um total de R$ 450 milhões em recursos não reembolsáveis para empresas de todos os portes qu...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A segunda rodada da chamada Mais Inovação Brasil Subvenção Econômica, edital da Financiadora de Estudos e Projetos (Finep) terá um total de R$ 450 milhões em recursos não reembolsáveis para empresas de todos os portes que atuam nas regiões Norte, Nordeste e Centro-Oeste. \n\nO financiamento irá fomentar 114 projetos inovadores e de risco tecnológico com impacto no desenvolvimento regional e relevância social. \n\nNotícias relacionadas:Edital da Finep sobre mobilidade sustentável recebe projetos até sexta.Docentes usam inteligência artificial para inovar e engajar alunos.A complementação de R$ 150 milhões no edital foi anunciada nesta sexta-feira (16) pela ministra do Ministério da Ciência, Tecnologia e Inovação (MCTI), Luciana Santos. O valor inicial previsto era de R$ 300 milhões.  \n\n\n“É mais investimento chegando às empresas, mais oportunidades para pesquisadores e pesquisadoras, mais conhecimento transformado em tecnologia. E essa chamada não é uma ação isolada, ela faz parte da transformação que estamos promovendo”, disse a ministra.\n\n\nEntre os projetos aprovados inicialmente, 75% são de microempresas (faturamento abaixo de R$ 1 milhão) e empresas de pequeno porte (faturamento de R$ 1 milhão até R$ 4,8 milhões). \n\nO valor inicial da chamada está distribuído de acordo com as regiões: \n\n\n\tNorte: R$ 50 milhões; \n\tCentro-Oeste: R$ 100 milhões; \n\tNordeste: R$ 150 milhões. \n\n\n\n“Esta chamada de subvenção é mais um importante passo das ações da Finep para a redução das assimetrias e o desenvolvimento regional. É uma oportunidade para que o estado compartilhe o risco do desenvolvimento tecnológico com as empresas”, afirmou Luiz Antônio Elias, presidente da Finep.</p>",
-      "imagem": "https://imagens.ebc.com.br/D2D71d33oxREJg4gmXdXZXAhHdc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/03/27/img_7392.jpg?itok=vWWGzE7w",
-      "slug": "empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao",
-      "pagina_local": "empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 20:23"
+      "coletado_em": "20/10/2026 às 23:44"
     }
   ]
 };
