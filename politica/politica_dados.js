@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "20/10/2026 às 05:48:46",
+  "ultima_atualizacao": "20/10/2026 às 11:16:49",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Ato em São Paulo cobra neutralidade da Meta nas eleições",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Lula diz que vai entregar amanhã ao TSE pedido de abertura de sigilo",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "TRE-RJ alterou apenas um local de votação no estado; confira",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Moradores da Maré se mobilizam para divulgar locais de votação",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Janones poderá ter alta em 48 horas, diz boletim médico",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Deputado André Janones é internado com arritmia em São Paulo",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta segunda-feira (19)",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Com ação Vida Além do Trabalho, ex-balconista mobilizou trabalhadores",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Lula e Flávio fazem primeiro debate das eleições na TV Band",
@@ -140,7 +140,35 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
+    },
+    {
+      "titulo": "Ministério Público do Rio renova acordo para enfrentar criminalidade",
+      "resumo": "O acordo de cooperação técnica para a integração de informações estratégicas e o aprimoramento das ações de enfrentamento à criminalidade no estado do Rio  foi renovado pelo Ministério Público (MP) e o Instituto de Segurança Pública (ISP). ...",
+      "conteudo_completo": "O acordo de cooperação técnica para a integração de informações estratégicas e o aprimoramento das ações de enfrentamento à criminalidade no estado do Rio  foi renovado pelo Ministério Público (MP) e o Instituto de Segurança Pública (ISP).  O termo, assinado pelo procurador-geral de Justiça, Antonio José Campos Moreira, e pela diretora-presidente do ISP, Bárbara Caballero, altera tópicos do plano de trabalho.\n\nO objetivo é padronizar e ampliar o fluxo de informações, garantindo maior precisão às ferramentas de inteligência, monitoramento e investigação.\n\nNotícias relacionadas:MPRJ debate aplicação da Lei Antifacção no combate ao crime.MPRJ denuncia mais oito PMs que participaram da Operação Contenção.Megaoperação contra crime organizado bloqueia mais de R$ 508 milhões.Pela atualização do acordo, o MPRJ receberá sete credenciais institucionais de acesso ao ISPGeo, no módulo Polícias. A instituição também passará a receber, mensalmente, microdados de eventos criminais georreferenciados e não georreferenciados, acompanhados de dicionário de variáveis.\n\nEm contrapartida, o MP fornecerá ao ISP bases territoriais com as delimitações geográficas dos bairros dos municípios fluminenses, quando disponíveis, além dos respectivos marcos legais. A instituição também compartilhará dados atualizados, desde 2016, sobre audiências de custódia, autos de prisão em flagrante, denúncias, arquivamentos, procedimentos investigatórios criminais, sentenças e recursos relacionados aos registros de ocorrência.\n\nEm dezembro de 2025, as duas instituições assinaram o primeiro aditivo ao acordo, que assegura a continuidade do intercâmbio de dados essenciais para análises, investigações e formulação de políticas públicas baseadas em evidências, com prorrogação por 24 meses.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O acordo de cooperação técnica para a integração de informações estratégicas e o aprimoramento das ações de enfrentamento à criminalidade no estado do Rio  foi renovado pelo Ministério Público (MP) e o Instituto de Segurança Pública (ISP).  O termo, assinado pelo procurador-geral de Justiça, Antonio José Campos Moreira, e pela diretora-presidente do ISP, Bárbara Caballero, altera tópicos do plano de trabalho.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705885&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705885&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O objetivo é padronizar e ampliar o fluxo de informações, garantindo maior precisão às ferramentas de inteligência, monitoramento e investigação.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Pela atualização do acordo, o MPRJ receberá sete credenciais institucionais de acesso ao ISPGeo, no módulo Polícias. A instituição também passará a receber, mensalmente, microdados de eventos criminais georreferenciados e não georreferenciados, acompanhados de dicionário de variáveis.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em contrapartida, o MP fornecerá ao ISP bases territoriais com as delimitações geográficas dos bairros dos municípios fluminenses, quando disponíveis, além dos respectivos marcos legais. A instituição também compartilhará dados atualizados, desde 2016, sobre audiências de custódia, autos de prisão em flagrante, denúncias, arquivamentos, procedimentos investigatórios criminais, sentenças e recursos relacionados aos registros de ocorrência.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em dezembro de 2025, as duas instituições assinaram o primeiro aditivo ao acordo, que assegura a continuidade do intercâmbio de dados essenciais para análises, investigações e formulação de políticas públicas baseadas em evidências, com prorrogação por 24 meses.</p>",
+      "imagem": "https://imagens.ebc.com.br/QGhKGfQ24rj8iCy5gt82XEftjUY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mprj_ffraz_abr_1510212158_1.jpg?itok=d6TUo2zQ",
+      "slug": "ministerio-publico-do-rio-renova-acordo-para-enfrentar-criminalidade",
+      "pagina_local": "ministerio-publico-do-rio-renova-acordo-para-enfrentar-criminalidade.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/ministerio-publico-do-rio-renova-acordo-para-enfrentar-criminalidade",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 11:16"
+    },
+    {
+      "titulo": "Saiba como consultar o seu local de votação",
+      "resumo": "Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. \n\nPor isso, a ...",
+      "conteudo_completo": "Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. \n\nPor isso, a orientação é que os eleitores confiram, com antecedência, os locais de votação nos canais oficiais.\n\nAplicativo e-título\n\nNotícias relacionadas:Eleitor sem biometria pode votar no segundo turno das eleições.2º turno: 130 mil eleitores de 22 estados votarão em local diferente .Eleições: quem não votou no primeiro turno pode participar do segundo.O aplicativo e-título pode ser baixado de forma gratuita em celulares android e iOS nas lojas oficiais. Para consultar o local de votação é só abrir o aplicativo, digitar os dados solicitados e selecionar a opção “onde votar”. Vai aparecer a zona e a seção eleitoral com o endereço. É possível inclusive traçar a rota de como chegar ao local. \n\nAutoatendimento Eleitoral\n\nO Autoatendimento Eleitoral está acessível nos postos do TSE e dos tribunais regionais eleitorais (TREs) de cada estado. Alí é possível consultar o local de votação em “onde votar”, além de outros serviços, como regularização de pendências, atualização de dados e emissão de documentos de forma remota, sem precisar comparecer a um cartório eleitoral.\n\nChatVote\n\nO ChatVote é o assistente virtual da Justiça Eleitoral. Ele usa inteligência artificial para responder dúvidas e orientar sobre os serviços disponíveis. Também pode ser acessado na página do TSE. O ChatVote fica no lado esquerdo da página, na parte inferior. É um desenho de uma urna com olhinhos. É só clicar nela e fazer a pergunta. \n\nA votação do segundo turno ocorre no próximo dia 25 de outubro. As seções ficam abertas de 8h às 17h. O eleitor vai votar desta vez apenas para presidente da República e, em alguns estados, para governador. A disputa local ocorre no Acre, Amazonas, Distrito Federal, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705884&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705884&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Por isso, a orientação é que os eleitores confiram, com antecedência, os locais de votação nos canais oficiais.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Aplicativo e-título</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O aplicativo e-título pode ser baixado de forma gratuita em celulares android e iOS nas lojas oficiais</strong>. Para consultar o local de votação é só abrir o aplicativo, digitar os dados solicitados e selecionar a opção “onde votar”. Vai aparecer a zona e a seção eleitoral com o endereço. É possível inclusive traçar a rota de como chegar ao local. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Autoatendimento Eleitoral</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O <a href=\"https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/?id=1792446917967 \" target=\"_blank\">Autoatendimento Eleitoral</a> está acessível nos postos do TSE e dos tribunais regionais eleitorais (TREs) de cada estado.</strong> Alí é possível consultar o local de votação em “onde votar”, além de outros serviços, como regularização de pendências, atualização de dados e emissão de documentos de forma remota, sem precisar comparecer a um cartório eleitoral.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>ChatVote</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ChatVote é o assistente virtual da Justiça Eleitoral. Ele usa inteligência artificial para responder dúvidas e orientar sobre os serviços disponíveis. Também pode ser acessado na página do TSE.</strong> O ChatVote fica no lado esquerdo da página, na parte inferior. É um desenho de uma urna com olhinhos. É só clicar nela e fazer a pergunta. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A votação do segundo turno ocorre no próximo dia 25 de outubro</strong>. As seções ficam abertas de 8h às 17h. O eleitor vai votar desta vez apenas para presidente da República e, em alguns estados, para governador. A disputa local ocorre no Acre, Amazonas, Distrito Federal, Espírito Santo, Rio Grande do Norte e Tocantins.</p>",
+      "imagem": "https://imagens.ebc.com.br/IgFIMGvRdJuhBW555lJvy-CNdcY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/_mg_9109.jpg?itok=-4e9plxI",
+      "slug": "saiba-como-consultar-o-seu-local-de-votacao",
+      "pagina_local": "saiba-como-consultar-o-seu-local-de-votacao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/saiba-como-consultar-o-seu-local-de-votacao",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "PGR não vê abuso de André Mendonça em investigação contra Moraes",
@@ -154,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "MP pede ao TSE divulgação ampla de mudanças em locais de votação",
@@ -168,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "DF e mais 4 estados não tiveram locais de votação alterados",
@@ -182,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "2º turno: 130 mil eleitores de 22 estados votarão em local diferente",
@@ -196,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Mulher e filho de Marcinho VP são presos em operação da PF no Rio",
@@ -210,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Saiba quais locais de votação mudaram em São Paulo no 2º turno",
@@ -224,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Zanin pede parecer da PGR e AGU sobre ação do PSD por 2º turno no Rio",
@@ -238,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "TSE dá 24 horas para Meta dar informações sobre igualdade de campanhas",
@@ -252,35 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
-      "titulo": "PF faz ação para prender 23 envolvidos com facção criminosa no Rio",
-      "resumo": "A Polícia Federal (PF) cumpre 23 mandados de prisão preventiva e 24 de busca e apreensão nesta segunda-feira (19). A operação Backbone mira pessoas acusadas de impor monopólio sobre a exploração de serviço de internet em áreas dominadas pel...",
-      "conteudo_completo": "A Polícia Federal (PF) cumpre 23 mandados de prisão preventiva e 24 de busca e apreensão nesta segunda-feira (19). A operação Backbone mira pessoas acusadas de impor monopólio sobre a exploração de serviço de internet em áreas dominadas pela facção criminosa Comando Vermelho, no Rio de Janeiro. Até as 9h15, 19 pessoas já haviam sido presas.\n\nDe acordo com a PF, a facção criminosa impõe o monopólio sobre a oferta de serviço de internet nos complexos do Alemão, da Penha e do Chapadão, na zona norte da cidade do Rio de Janeiro, por meio do uso de armas e de ameaças contra os moradores.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Polícia Federal faz ação contra garimpo ilegal no Pará.Polícia Federal apreende R$ 2,8 milhões no primeiro turno das eleições.Segundo a PF, o grupo também lava o dinheiro obtido com a atividade criminosa, por meio de produtoras de eventos, empresas de publicidade, imóveis de alto padrão pagos em dinheiro e criptoativos.\n\nEstratégia\n\nAs investigações mostraram que criminosos armados cortam cabos e incendeiam caixas de distribuição de provedores de internet concorrentes, impedem reparos e obrigam moradores e comerciantes a contratar o serviço de internet controlado pela facção.\n\nSegundo a PF, em um único mês, a cobrança sobre o serviço de internet respondeu por mais de 40% de toda a arrecadação do grupo criminoso no Complexo da Penha, mostrando que a exploração desse serviço tornou-se uma das principais atividades da facção criminosa, o que fomenta a guerra pelo controle de territórios.\n\nMandados\n\nOs mandados foram expedidos pelo Supremo Tribunal Federal (STF) nos municípios do Rio de Janeiro, Nova Iguaçu, São João de Meriti, Teresópolis, Maricá e Magé. Parte dos mandados de prisão está sendo cumprida no sistema prisional, inclusive em uma unidade do Sistema Penitenciário Federal, onde está detido um dos acusados de liderar o grupo criminoso.\n\nA Justiça determinou também o bloqueio de bens e valores de 40 pessoas e 42 empresas, no valor total de R$ 558 milhões. Foi determinada ainda a suspensão das atividades econômicas das pessoas jurídicas em questão, entre provedores de internet, produtoras de eventos, empresa de contabilidade e empresas de fachada.\n\nDe acordo com a PF, os investigados poderão responder pelos crimes de domínio social estruturado, extorsão majorada, atentado contra a segurança de serviço de utilidade pública, interrupção de serviço telemático, desenvolvimento clandestino de telecomunicações e lavagem de dinheiro.\n\nAutorizações\n\nA Agência Nacional de Telecomunicações (Anatel) será oficiada para a cassação das outorgas e a interdição dos serviços de telecomunicações prestados por essas empresas, além de ter que adotar providências para assegurar a continuidade do serviço aos moradores das localidades afetadas.\n\nSaiba mais sobre a operação no Repórter Brasil Tarde, da TV Brasil",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A <a href=\"https://www.gov.br/pf/pt-br\" target=\"_blank\">Polícia Federal (PF)</a> cumpre 23 mandados de prisão preventiva e 24 de busca e apreensão nesta segunda-feira (19)</strong>. A operação Backbone mira pessoas acusadas de impor monopólio sobre a exploração de serviço de internet em áreas dominadas pela facção criminosa <a href=\"https://agenciabrasil.ebc.com.br/tags/comando-vermelho\" target=\"_blank\">Comando Vermelho</a>, no Rio de Janeiro. Até as 9h15, 19 pessoas já haviam sido presas.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705789&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705789&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a PF, a facção criminosa impõe o monopólio sobre a oferta de serviço de internet nos complexos do Alemão, da Penha e do Chapadão, na zona norte da cidade do Rio de Janeiro, por meio do uso de armas e de ameaças contra os moradores.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a PF, o grupo também lava o dinheiro obtido com a atividade criminosa, por meio de produtoras de eventos, empresas de publicidade, imóveis de alto padrão pagos em dinheiro e criptoativos.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Estratégia</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>As investigações mostraram que criminosos armados cortam cabos e incendeiam caixas de distribuição de provedores de internet concorrentes, impedem reparos e obrigam moradores e comerciantes a contratar o serviço de internet controlado pela facção.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a PF, em um único mês, a cobrança sobre o serviço de internet respondeu por mais de 40% de toda a arrecadação do grupo criminoso no Complexo da Penha, mostrando que a exploração desse serviço tornou-se uma das principais atividades da facção criminosa, o que fomenta a guerra pelo controle de territórios.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Mandados</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os mandados foram expedidos pelo <a href=\"https://portal.stf.jus.br/\" target=\"_blank\">Supremo Tribunal Federal (STF)</a> nos municípios do Rio de Janeiro, Nova Iguaçu, São João de Meriti, Teresópolis, Maricá e Magé. </strong>Parte dos mandados de prisão está sendo cumprida no sistema prisional, inclusive em uma unidade do Sistema Penitenciário Federal, onde está detido um dos acusados de liderar o grupo criminoso.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Justiça determinou também o bloqueio de bens e valores de 40 pessoas e 42 empresas, no valor total de R$ 558 milhões. Foi determinada ainda a suspensão das atividades econômicas das pessoas jurídicas em questão, entre provedores de internet, produtoras de eventos, empresa de contabilidade e empresas de fachada.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a PF, os investigados poderão responder pelos crimes de domínio social estruturado, extorsão majorada, atentado contra a segurança de serviço de utilidade pública, interrupção de serviço telemático, desenvolvimento clandestino de telecomunicações e lavagem de dinheiro.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Autorizações</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <a href=\"https://informacoes.anatel.gov.br/legislacao/\" target=\"_blank\">Agência Nacional de Telecomunicações (Anatel)</a> será oficiada para a cassação das outorgas e a interdição dos serviços de telecomunicações prestados por essas empresas, além de ter que adotar providências para assegurar a continuidade do serviço aos moradores das localidades afetadas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Saiba mais sobre a operação no Repórter Brasil Tarde, da TV Brasil</strong></p>",
-      "imagem": "https://imagens.ebc.com.br/_usFbqxWMaOUQ5j4RxKe6W7pQJo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/f58552e2-8153-4628-b5c9-609b6778921f.jpeg?itok=g5j0werT",
-      "slug": "pf-faz-acao-para-prender-23-envolvidos-com-faccao-criminosa-no-rio",
-      "pagina_local": "pf-faz-acao-para-prender-23-envolvidos-com-faccao-criminosa-no-rio.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pf-faz-acao-para-prender-23-envolvidos-com-faccao-criminosa-no-rio",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
-    },
-    {
-      "titulo": "Força Nacional vai atuar por 90 dias na região de Belo Monte",
-      "resumo": "O Ministério da Justiça e Segurança Pública autorizou a atuação da Força Nacional de Segurança Pública por 90 dias na região da Usina Hidrelétrica de Belo Monte, no Pará. A medida prevê apoio aos órgãos de segurança pública federais e estad...",
-      "conteudo_completo": "O Ministério da Justiça e Segurança Pública autorizou a atuação da Força Nacional de Segurança Pública por 90 dias na região da Usina Hidrelétrica de Belo Monte, no Pará. A medida prevê apoio aos órgãos de segurança pública federais e estaduais.\n\nO trabalho será voltado à preservação da ordem pública e à proteção das pessoas e do patrimônio. Segundo a Portaria nº 1.321/2026, publicada nesta segunda-feira (19), a ação tem caráter temporário e planejado.\n\nAtuação\n\nNotícias relacionadas:Após dez anos, Belo Monte ainda enfrenta críticas sociais e ambientais.Belo Monte: Dino determina liberação de R$ 19 milhões a indígenas.Dino determina participação de indígenas nos ganhos de Belo Monte.A Força Nacional atuará em conjunto com os órgãos de segurança pública do Pará, sob coordenação da Polícia Federal.\n\nO número de agentes empregados na operação será definido pela Diretoria da Força Nacional de Segurança Pública, vinculada à Secretaria Nacional de Segurança Pública do ministério.\n\nO órgão que solicitou a atuação da Força Nacional ficará responsável pelo apoio logístico e deverá fornecer a infraestrutura necessária para a operação.\n\nDécada\n\nEste ano, a inauguração oficial da Usina Hidrelétrica de Belo Monte completou uma década este ano. O empreendimento foi pensado em meados da década de 1970 e ganhou repercussão internacional desde que surgiu a proposta de desviar 80% do fluxo do Rio Xingu, em um trecho de 130 quilômetros, para abastecer o reservatório de Belo Monte.\n\nPara marcar a data, a Associação Interamericana para a Defesa do Ambiente (Aida), o Conselho Indigenista Missionário (Cimi), a Coordenação das Organizações Indígenas da Amazônia Brasileira (Coiab) e outras entidades divulgaram carta aberta em defesa das comunidades indígenas, ribeirinhas e pescadoras artesanais de todo o médio curso do Rio Xingu.\n\nO documento destacou o agravamento das violações contra esses povos, ao longo dos anos, por causa das mudanças climáticas.\n\nSob administração da empresa concessionária Norte Energia, maior acionista do empreendimento, desde 2010, a usina no Rio Xingu atende a uma média de 5% da demanda por energia elétrica do país ao ano, em todos os estados. Segundo a Norte Energia, mais de R$ 8 bilhões foram investidos nos compromissos socioambientais assumidos no licenciamento.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O <a href=\"https://www.gov.br/mj/pt-br\" target=\"_blank\">Ministério da Justiça e Segurança Pública</a> autorizou a atuação da Força Nacional de Segurança Pública por 90 dias na região da <a href=\"https://agenciabrasil.ebc.com.br/tags/belo-monte\" target=\"_blank\">Usina Hidrelétrica de Belo Monte</a>, no Pará. A medida prevê apoio aos órgãos de segurança pública federais e estaduais.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705781&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705781&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O trabalho será voltado à preservação da ordem pública e à proteção das pessoas e do patrimônio. Segundo a <a href=\"https://www.in.gov.br/en/web/dou/-/portaria-mjsp-n-1.321-de-14-de-outubro-de-2026-738863394\" target=\"_blank\">Portaria nº 1.321/2026</a>, publicada nesta segunda-feira (19), a ação tem caráter temporário e planejado.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Atuação</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Força Nacional atuará em conjunto com os órgãos de segurança pública do Pará, sob coordenação da Polícia Federal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O número de agentes empregados na operação será definido pela Diretoria da Força Nacional de Segurança Pública, vinculada à Secretaria Nacional de Segurança Pública do ministério.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O órgão que solicitou a atuação da Força Nacional ficará responsável pelo apoio logístico e deverá fornecer a infraestrutura necessária para a operação.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Década</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Este ano, a inauguração oficial da Usina Hidrelétrica de Belo Monte <a href=\"http://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-05/apos-dez-anos-belo-monte-ainda-enfrenta-criticas-sociais-e-ambientais\" target=\"_blank\">completou uma década</a> este ano.</strong> O<strong> </strong>empreendimento foi pensado em meados da década de 1970 e ganhou repercussão internacional desde que surgiu a proposta de desviar 80% do fluxo do Rio Xingu, em um trecho de 130 quilômetros, para abastecer o reservatório de Belo Monte.<br/>\n<br/>\nPara marcar a data, a Associação Interamericana para a Defesa do Ambiente (Aida), o Conselho Indigenista Missionário (Cimi), a Coordenação das Organizações Indígenas da Amazônia Brasileira (Coiab) e outras entidades divulgaram carta aberta em defesa das comunidades indígenas, ribeirinhas e pescadoras artesanais de todo o médio curso do Rio Xingu.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O documento destacou o agravamento das violações contra esses povos, ao longo dos anos, por causa das mudanças climáticas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Sob administração da empresa concessionária Norte Energia, maior acionista do empreendimento, desde 2010, a usina no Rio Xingu atende a uma média de 5% da demanda por energia elétrica do país ao ano, em todos os estados. Segundo a Norte Energia, mais de R$ 8 bilhões foram investidos nos compromissos socioambientais assumidos no licenciamento.</p>",
-      "imagem": "https://imagens.ebc.com.br/N0GUpzcusvclPbkiQ4YuRZXcK7g=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/01/08/_jaf4439.jpg?itok=olkfD169",
-      "slug": "forca-nacional-vai-atuar-por-90-dias-na-regiao-de-belo-monte",
-      "pagina_local": "forca-nacional-vai-atuar-por-90-dias-na-regiao-de-belo-monte.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/forca-nacional-vai-atuar-por-90-dias-na-regiao-de-belo-monte",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
+      "resumo": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benef...",
+      "conteudo_completo": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.\n\nPor causa do aumento nos benefícios, o valor da folha de pagamentos subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.\n\nNotícias relacionadas:Bolsa Família é reajustado em 15%; medida vale a partir de outubro.Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São Paulo (oito) e Sergipe (três).\n\nA lista dos municípios com pagamento unificado está disponível aqui.\n\nNo modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.\n\nOs beneficiários com NIS terminado em 1 receberam os pagamentos nesta segunda-feira (19). Na terça-feira (20), é a vez de quem tem NIS terminado em 2. O calendário será unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.\n\nO beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.\n\nCom o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais. O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança. O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.\n\nAlém do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.\n\nDesde junho do ano passado, o tempo de permanência na regra de proteção foi reduzido de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.\n\nDesde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela Lei 14.601/2023, que resgatou o Programa Bolsa Família (PBF). O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).\n\nConfira o novo calendário de pagamentos do Bolsa Família até o fim do ano:\n \n\n\n\t\n\t\t\n\t\t\tNúmero do NIS\n\t\t\tOutubro\n\t\t\tNovembro\n\t\t\tDezembro\n\t\t\n\t\t\n\t\t\t1\n\t\t\t19/10\n\t\t\t16/11\n\t\t\t10/12\n\t\t\n\t\t\n\t\t\t2\n\t\t\t20/10\n\t\t\t17/11\n\t\t\t11/12\n\t\t\n\t\t\n\t\t\t3, 4, 5, 6, 7, 8, 9 e 0\n\t\t\t21/10\n\t\t\t18/11\n\t\t\t14/12\n\t\t\n\t\n\n\nFonte: Ministério do Desenvolvimento e Assistência Social",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705831&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705831&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por causa do aumento nos benefícios, <a href=\"https://aplicacoes.cidadania.gov.br/vis/data3/v.php?q[]=r6JtZJCug7BtxKW25rV%2FfmdhhJFkl21kmK19ZnJ1ZmqmaX7KmZO20qfOnJm%2B6IianbSon7SfrrqqkpKcmcuppsK2iKextVi1mpyuwZxNzsmY2F1zyuDAk522pHa2YH9%2BaV6EkmOXbWSEm8GcobZVetufrL%2BrkbbHlNddmMnuslSqvaGmmZ67sliqkseU1rCYmOGuoK%2BtcHXfmrnBnGiS1KjXYK5%2B3q6noWisot6nbY6kksrAlNiscZqif2Rue2JqrGZ9f15Ny8mY2F1zv%2BGspbCslKDapm2zo6C8gaHfqZ994LuYXcVwoNqlwLNyk7jNps94bsPcuaehg3Ct7qZwyViQuNSYirSbwultdKmtqJnap7yKdFSJkWWbamSNqH1lY2ipot6nbY6Zk7bXn4qin9DgbaKxtKFa3qexb7RovcKf3aJuw9y5p6GDcKDapcCzcmjK1qCNuFTA3MCZXL%2Bdn%2BdZjbucoLbCodl7cIStfWZvdWVtpml%2BdVehv8ahin2Vw9rDoFytoa3eWbvDo5l3xqHOXrCY4a6gr61woNqlwLNyaL3Cn92ibpjuwqFfw1ad2qyybq6VvM9TqqqY0NquoquEcmGraX9%2FZF6HjmObZFPR47KiXHCYm%2ByebcWfksWBc8yjks7vsZOiqaJ4qVnBtpybd9Oi36uXhbuvmpu%2BoXSzp8K7nJ%2FAxGKqn5m87MGYm66Wp6Vrdm6cmcrGU9iyn8mbsqKgcVWf5ayybqWiw81Tz6uXfviImp20qJ%2B0n666qpKSnJnLqabCtoinsbVYtZqcrsGcTc7JmNhdc8rgwJOdtqR4tmB%2FfmlghJFml21khJvBnKG2VWLcmsCzV6S%2FxqGKfamPsYFnenhVruGeu26pnMzPl5J9lcPaw6B2gqOv5p6%2Ft5pcl9dloHFmia12VKG0qJ%2BZp8K6o028z5eTXZjJ7rJUqr2hppmeu7JYqpLHlNawmJjhrqCvrXB135q5wZxoktSo17mBIDW6ma63VZ7eWbOvpPAEzZzLsFO%2F4LuZorGYozzav7eYoHfFooqNpcziv5WpqVV86KXAr1dzuM72F6mcvp6b9%2Fa1mqzoWbGzV5O4zvYXqZy%2B7m2WobaaoOKcthHYn8DCpoqhon3Lv6Ojupan2lmPvaOguIF5y6r2Cue2lVxwlq484m29rKHMw6XZbGWNrX5dX5b49Oaev71XkbyBmcuq9grntpWvaJef556zt5qWGgKl056mfd%2B8VIy6pKHrmrqvV2%2FGzabLXXm%2B6BDhqLGWWqGabb6Yn8vKpYqhmH3orqb%2F76Rpq2l%2FgWBQrcKf2a9T0erBlahop5%2FpmsDBmJHGgfYKsFPD3Lr36bSem%2BxZr7Olkr3KltMA1M%2FkrqdcrKRayau8tamOxMJTrKyf0Nxtep21%2BOfloq5uX47LJNyKrKjR8K%2Bmq3dnaqtqdnGNjsPQpYqxotHcuVSuraWb7KyusqZNGgGmiqOUyj76oKWpqFrbnruznZa6yvYLr5y%2B7m2Yq2iFrOigv6%2BkjnejotawlH3BrqH%2F9aGj2ll1r1eduNOn069TweBtoZ26%2BOHoaH9%2BaWCAhInLqaLPm7r35ayeqZmdvG6ZksXGmS3qlsbqbZiraIWs6KC%2Fr6SOd6Oi1rCUfcGuof%2F1oaPaWXWvq%2FAAgaLfsai%2F7bxjbnhna6Jco6%2BjnMmBoC3ml8bqbZiraJef556zEeSQwNBTzqxTre28m66popuZe7y6qo53p5TXAODJ5K5UZKlVqtqrwbepTbvGU9eepSAivGNueGdtorW9ibOp05NjmnBgjax6ZG2cZWqzaX2IZ12xnA%3D%3D\" target=\"_blank\">o valor da folha de pagamentos</a> subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. </strong>O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São Paulo (oito) e Sergipe (três).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A lista dos municípios com pagamento unificado está disponível <a href=\"https://www.gov.br/mds/pt-br/noticias/bolsa-familia-calendario-de-outubro-e-unificado-em-194-municipios\" target=\"_blank\">aqui</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os beneficiários com NIS terminado em 1 <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda\" target=\"_blank\">receberam os pagamentos</a> nesta segunda-feira (19). Na terça-feira (20), é a vez de quem tem NIS terminado em 2. O calendário será unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais. O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança. O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde junho do ano passado, o tempo de permanência na regra de proteção <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2025-05/governo-altera-regra-de-transicao-do-bolsa-familia-entenda\" target=\"_blank\">foi reduzido</a> de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm\" target=\"_blank\">Lei 14.601/2023</a>, que resgatou o Programa Bolsa Família (PBF). O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Confira o novo calendário de pagamentos do Bolsa Família até o fim do ano:<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>Fonte: Ministério do Desenvolvimento e Assistência Social</em></p>",
+      "imagem": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop&q=80",
+      "slug": "beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "pagina_local": "beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
-    },
-    {
-      "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
-      "resumo": "A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan. Segundo ele, ...",
-      "conteudo_completo": "A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan. Segundo ele, o impacto da emenda constitucional sobre os empregadores ainda será avaliado, mas o governo prevê financiamento específico para a transição.\n\n\n“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).\n\n\nNotícias relacionadas:Alcolumbre homenageia Paim no fim da 6x1; entenda motivo.Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil.Saiba quando começa a valer o fim da escala 6x1.A medida, ressaltou o ministro, busca ajudar os negócios a se adaptarem à nova jornada, com investimentos em inovação e produtividade. Durigan também mencionou que o governo pretende apoiar empresas afetadas pela reforma tributária.\n\nInovação e capacitação\n\nDurigan afirmou que a equipe econômica ainda está analisando quais empresas e setores terão maior impacto com a mudança. A intenção é destinar o apoio aos negócios que precisarem de mais recursos para reorganizar as atividades.\n\nSegundo o ministro, a adaptação pode envolver modernização de processos, treinamento de funcionários e adoção de novas tecnologias para manter a produção mesmo com menos dias de trabalho.\n\n\n“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.\n\n\nO ministro citou o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae) e outros sistemas de capacitação como parceiros em iniciativas de treinamento, especialmente para pequenos negócios.\n\nApoio às pequenas empresas\n\nDurigan afirmou que o governo já ampliou o limite de crédito para pequenas empresas, de R$ 250 mil para R$ 500 mil, inclusive para operações destinadas ao capital de giro, recursos usados para manter as despesas e o funcionamento cotidiano dos negócios.\n\nO ministro não anunciou uma desoneração da folha de pagamento ou outra compensação direta aos empregadores. Em vez disso, destacou a possibilidade de financiamento direcionado e capacitação para empresas que precisarem se adaptar.\n\n\n“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.\n\n\nImpacto ainda será avaliado\n\nA mudança na jornada foi aprovada pelo Congresso e promulgada nesta sexta-feira. A nova regra prevê dois dias de descanso remunerado por semana e redução gradual da jornada máxima de 44 para 40 horas, sem corte salarial.\n\nDurigan afirmou que o governo ainda vai medir os efeitos da mudança sobre os diferentes setores e portes de empresas. Segundo dados citados pelo ministro, de 68% a 70% dos empregos no país estão fora da escala 6x1.\n\nEle também defendeu que a adaptação pode trazer ganhos de produtividade, com processos mais eficientes e menor rotatividade de trabalhadores.\n\nJuros e ajuste fiscal\n\nNa entrevista, Durigan também afirmou que a taxa de juros segue como um desafio para a economia brasileira. O ministro defendeu a continuidade do ajuste das contas públicas e a busca por superávits primários maiores nos próximos anos, mas sem mudanças abruptas na política econômica.\n\n“Vamos continuar melhorando as contas públicas, gerando superávit, mas de maneira gradual, sem dar cavalo de pau na tua vida, sem gerar incerteza e imprevisibilidade”, afirmou.\n\nDurigan disse que a estratégia deve preservar políticas públicas e evitar impactos negativos sobre a atividade econômica. Afirmou que a proposta de ajuste fiscal de 1,5% do Produto Interno Bruto (PIB) em prazo curto, debatida durante as eleições exigiria cortes em programas sociais e outras políticas.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan.</strong> Segundo ele, o impacto da emenda constitucional sobre os empregadores ainda será avaliado, mas o governo prevê financiamento específico para a transição.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705629&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705629&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida, ressaltou o ministro, busca ajudar os negócios a se adaptarem à nova jornada, com investimentos em inovação e produtividade. Durigan também mencionou que o governo pretende apoiar empresas afetadas pela reforma tributária.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Inovação e capacitação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan afirmou que a equipe econômica ainda está analisando quais empresas e setores terão maior impacto com a mudança. A intenção é destinar o apoio aos negócios que precisarem de mais recursos para reorganizar as atividades.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo o ministro, a adaptação pode envolver modernização de processos, treinamento de funcionários e adoção de novas tecnologias para manter a produção mesmo com menos dias de trabalho.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro citou o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae) e outros sistemas de capacitação como parceiros em iniciativas de treinamento, especialmente para pequenos negócios.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Apoio às pequenas empresas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan afirmou que o governo já ampliou o limite de crédito para pequenas empresas, de R$ 250 mil para R$ 500 mil, inclusive para operações destinadas ao capital de giro, recursos usados para manter as despesas e o funcionamento cotidiano dos negócios.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro não anunciou uma desoneração da folha de pagamento ou outra compensação direta aos empregadores. Em vez disso, destacou a possibilidade de financiamento direcionado e capacitação para empresas que precisarem se adaptar.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Impacto ainda será avaliado</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A mudança na jornada foi aprovada pelo Congresso e <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias\" target=\"_blank\">promulgada nesta sexta-feira</a>. A nova regra prevê dois dias de descanso remunerado por semana e redução gradual da jornada máxima de 44 para 40 horas, sem corte salarial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Durigan afirmou que o governo ainda vai medir os efeitos da mudança sobre os diferentes setores e portes de empresas. Segundo dados citados pelo ministro, de 68% a 70% dos empregos no país estão fora da escala 6x1.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ele também defendeu que a adaptação pode trazer ganhos de produtividade, com processos mais eficientes e menor rotatividade de trabalhadores.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Juros e ajuste fiscal</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na entrevista, Durigan também afirmou que a taxa de juros segue como um desafio para a economia brasileira. O ministro defendeu a continuidade do ajuste das contas públicas e a busca por superávits primários maiores nos próximos anos, mas sem mudanças abruptas na política econômica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vamos continuar melhorando as contas públicas, gerando superávit, mas de maneira gradual, sem dar cavalo de pau na tua vida, sem gerar incerteza e imprevisibilidade”, afirmou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan disse que a estratégia deve preservar políticas públicas e evitar impactos negativos sobre a atividade econômica. Afirmou que a proposta de ajuste fiscal de 1,5% do Produto Interno Bruto (PIB) em prazo curto, debatida durante as eleições exigiria cortes em programas sociais e outras políticas.</p>",
-      "imagem": "https://imagens.ebc.com.br/d9mP9Z88T5e7YEWWCVrLmOGoQgs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/05/pzzb3470.jpg?itok=ryj3w4Xa",
-      "slug": "governo-preve-credito-a-empresas-afetadas-por-fim-da-6x1-diz-durigan",
-      "pagina_local": "governo-preve-credito-a-empresas-afetadas-por-fim-da-6x1-diz-durigan.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     }
   ]
 };

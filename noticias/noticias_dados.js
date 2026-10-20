@@ -1,7 +1,20 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "20/10/2026 às 05:48:41",
+  "ultima_atualizacao": "20/10/2026 às 11:16:43",
   "total": 34,
   "noticias": [
+    {
+      "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
+      "resumo": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benef...",
+      "conteudo_completo": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.\n\nPor causa do aumento nos benefícios, o valor da folha de pagamentos subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.\n\nNotícias relacionadas:Bolsa Família é reajustado em 15%; medida vale a partir de outubro.Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São Paulo (oito) e Sergipe (três).\n\nA lista dos municípios com pagamento unificado está disponível aqui.\n\nNo modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.\n\nOs beneficiários com NIS terminado em 1 receberam os pagamentos nesta segunda-feira (19). Na terça-feira (20), é a vez de quem tem NIS terminado em 2. O calendário será unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.\n\nO beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.\n\nCom o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais. O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança. O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.\n\nAlém do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.\n\nDesde junho do ano passado, o tempo de permanência na regra de proteção foi reduzido de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.\n\nDesde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela Lei 14.601/2023, que resgatou o Programa Bolsa Família (PBF). O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).\n\nConfira o novo calendário de pagamentos do Bolsa Família até o fim do ano:\n \n\n\n\t\n\t\t\n\t\t\tNúmero do NIS\n\t\t\tOutubro\n\t\t\tNovembro\n\t\t\tDezembro\n\t\t\n\t\t\n\t\t\t1\n\t\t\t19/10\n\t\t\t16/11\n\t\t\t10/12\n\t\t\n\t\t\n\t\t\t2\n\t\t\t20/10\n\t\t\t17/11\n\t\t\t11/12\n\t\t\n\t\t\n\t\t\t3, 4, 5, 6, 7, 8, 9 e 0\n\t\t\t21/10\n\t\t\t18/11\n\t\t\t14/12\n\t\t\n\t\n\n\nFonte: Ministério do Desenvolvimento e Assistência Social",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705831&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705831&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por causa do aumento nos benefícios, <a href=\"https://aplicacoes.cidadania.gov.br/vis/data3/v.php?q[]=r6JtZJCug7BtxKW25rV%2FfmdhhJFkl21kmK19ZnJ1ZmqmaX7KmZO20qfOnJm%2B6IianbSon7SfrrqqkpKcmcuppsK2iKextVi1mpyuwZxNzsmY2F1zyuDAk522pHa2YH9%2BaV6EkmOXbWSEm8GcobZVetufrL%2BrkbbHlNddmMnuslSqvaGmmZ67sliqkseU1rCYmOGuoK%2BtcHXfmrnBnGiS1KjXYK5%2B3q6noWisot6nbY6kksrAlNiscZqif2Rue2JqrGZ9f15Ny8mY2F1zv%2BGspbCslKDapm2zo6C8gaHfqZ994LuYXcVwoNqlwLNyk7jNps94bsPcuaehg3Ct7qZwyViQuNSYirSbwultdKmtqJnap7yKdFSJkWWbamSNqH1lY2ipot6nbY6Zk7bXn4qin9DgbaKxtKFa3qexb7RovcKf3aJuw9y5p6GDcKDapcCzcmjK1qCNuFTA3MCZXL%2Bdn%2BdZjbucoLbCodl7cIStfWZvdWVtpml%2BdVehv8ahin2Vw9rDoFytoa3eWbvDo5l3xqHOXrCY4a6gr61woNqlwLNyaL3Cn92ibpjuwqFfw1ad2qyybq6VvM9TqqqY0NquoquEcmGraX9%2FZF6HjmObZFPR47KiXHCYm%2ByebcWfksWBc8yjks7vsZOiqaJ4qVnBtpybd9Oi36uXhbuvmpu%2BoXSzp8K7nJ%2FAxGKqn5m87MGYm66Wp6Vrdm6cmcrGU9iyn8mbsqKgcVWf5ayybqWiw81Tz6uXfviImp20qJ%2B0n666qpKSnJnLqabCtoinsbVYtZqcrsGcTc7JmNhdc8rgwJOdtqR4tmB%2FfmlghJFml21khJvBnKG2VWLcmsCzV6S%2FxqGKfamPsYFnenhVruGeu26pnMzPl5J9lcPaw6B2gqOv5p6%2Ft5pcl9dloHFmia12VKG0qJ%2BZp8K6o028z5eTXZjJ7rJUqr2hppmeu7JYqpLHlNawmJjhrqCvrXB135q5wZxoktSo17mBIDW6ma63VZ7eWbOvpPAEzZzLsFO%2F4LuZorGYozzav7eYoHfFooqNpcziv5WpqVV86KXAr1dzuM72F6mcvp6b9%2Fa1mqzoWbGzV5O4zvYXqZy%2B7m2WobaaoOKcthHYn8DCpoqhon3Lv6Ojupan2lmPvaOguIF5y6r2Cue2lVxwlq484m29rKHMw6XZbGWNrX5dX5b49Oaev71XkbyBmcuq9grntpWvaJef556zt5qWGgKl056mfd%2B8VIy6pKHrmrqvV2%2FGzabLXXm%2B6BDhqLGWWqGabb6Yn8vKpYqhmH3orqb%2F76Rpq2l%2FgWBQrcKf2a9T0erBlahop5%2FpmsDBmJHGgfYKsFPD3Lr36bSem%2BxZr7Olkr3KltMA1M%2FkrqdcrKRayau8tamOxMJTrKyf0Nxtep21%2BOfloq5uX47LJNyKrKjR8K%2Bmq3dnaqtqdnGNjsPQpYqxotHcuVSuraWb7KyusqZNGgGmiqOUyj76oKWpqFrbnruznZa6yvYLr5y%2B7m2Yq2iFrOigv6%2BkjnejotawlH3BrqH%2F9aGj2ll1r1eduNOn069TweBtoZ26%2BOHoaH9%2BaWCAhInLqaLPm7r35ayeqZmdvG6ZksXGmS3qlsbqbZiraIWs6KC%2Fr6SOd6Oi1rCUfcGuof%2F1oaPaWXWvq%2FAAgaLfsai%2F7bxjbnhna6Jco6%2BjnMmBoC3ml8bqbZiraJef556zEeSQwNBTzqxTre28m66popuZe7y6qo53p5TXAODJ5K5UZKlVqtqrwbepTbvGU9eepSAivGNueGdtorW9ibOp05NjmnBgjax6ZG2cZWqzaX2IZ12xnA%3D%3D\" target=\"_blank\">o valor da folha de pagamentos</a> subiu de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os moradores de 194 municípios de sete estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. </strong>O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (dez), Rio Grande do Norte (111), Roraima (seis), São Paulo (oito) e Sergipe (três).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A lista dos municípios com pagamento unificado está disponível <a href=\"https://www.gov.br/mds/pt-br/noticias/bolsa-familia-calendario-de-outubro-e-unificado-em-194-municipios\" target=\"_blank\">aqui</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os beneficiários com NIS terminado em 1 <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda\" target=\"_blank\">receberam os pagamentos</a> nesta segunda-feira (19). Na terça-feira (20), é a vez de quem tem NIS terminado em 2. O calendário será unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais. O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança. O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde junho do ano passado, o tempo de permanência na regra de proteção <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2025-05/governo-altera-regra-de-transicao-do-bolsa-familia-entenda\" target=\"_blank\">foi reduzido</a> de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela <a href=\"https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm\" target=\"_blank\">Lei 14.601/2023</a>, que resgatou o Programa Bolsa Família (PBF). O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Confira o novo calendário de pagamentos do Bolsa Família até o fim do ano:<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>Fonte: Ministério do Desenvolvimento e Assistência Social</em></p>",
+      "imagem": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&auto=format&fit=crop&q=80",
+      "slug": "beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "pagina_local": "beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
+      "categoria": "Economia & Tributos",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "20/10/2026 às 11:16"
+    },
     {
       "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
       "resumo": "A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de recuperação judicial. ...",
@@ -13,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -26,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -39,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -52,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pagamentos-de-outubro-do-bolsa-familia-comecam-nesta-segunda",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -65,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/minerais-criticos-e-estrategicos-empregam-129-mil-pessoas-no-brasil",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -78,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/empresas-de-tres-regioes-terao-aporte-de-r-450-milhoes-para-inovacao",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -91,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bb-recebe-ate-31-de-outubro-inscricoes-para-projetos-de-impacto-social",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -104,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cortes-em-auxilios-sociais-podem-gerar-retracao-em-cidades-do-interior",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -117,20 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/anac-estabelece-regras-mais-restritivas-para-aviacao-em-congonhas-sp",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
-    },
-    {
-      "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
-      "resumo": "A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan. Segundo ele, ...",
-      "conteudo_completo": "A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan. Segundo ele, o impacto da emenda constitucional sobre os empregadores ainda será avaliado, mas o governo prevê financiamento específico para a transição.\n\n\n“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).\n\n\nNotícias relacionadas:Alcolumbre homenageia Paim no fim da 6x1; entenda motivo.Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil.Saiba quando começa a valer o fim da escala 6x1.A medida, ressaltou o ministro, busca ajudar os negócios a se adaptarem à nova jornada, com investimentos em inovação e produtividade. Durigan também mencionou que o governo pretende apoiar empresas afetadas pela reforma tributária.\n\nInovação e capacitação\n\nDurigan afirmou que a equipe econômica ainda está analisando quais empresas e setores terão maior impacto com a mudança. A intenção é destinar o apoio aos negócios que precisarem de mais recursos para reorganizar as atividades.\n\nSegundo o ministro, a adaptação pode envolver modernização de processos, treinamento de funcionários e adoção de novas tecnologias para manter a produção mesmo com menos dias de trabalho.\n\n\n“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.\n\n\nO ministro citou o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae) e outros sistemas de capacitação como parceiros em iniciativas de treinamento, especialmente para pequenos negócios.\n\nApoio às pequenas empresas\n\nDurigan afirmou que o governo já ampliou o limite de crédito para pequenas empresas, de R$ 250 mil para R$ 500 mil, inclusive para operações destinadas ao capital de giro, recursos usados para manter as despesas e o funcionamento cotidiano dos negócios.\n\nO ministro não anunciou uma desoneração da folha de pagamento ou outra compensação direta aos empregadores. Em vez disso, destacou a possibilidade de financiamento direcionado e capacitação para empresas que precisarem se adaptar.\n\n\n“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.\n\n\nImpacto ainda será avaliado\n\nA mudança na jornada foi aprovada pelo Congresso e promulgada nesta sexta-feira. A nova regra prevê dois dias de descanso remunerado por semana e redução gradual da jornada máxima de 44 para 40 horas, sem corte salarial.\n\nDurigan afirmou que o governo ainda vai medir os efeitos da mudança sobre os diferentes setores e portes de empresas. Segundo dados citados pelo ministro, de 68% a 70% dos empregos no país estão fora da escala 6x1.\n\nEle também defendeu que a adaptação pode trazer ganhos de produtividade, com processos mais eficientes e menor rotatividade de trabalhadores.\n\nJuros e ajuste fiscal\n\nNa entrevista, Durigan também afirmou que a taxa de juros segue como um desafio para a economia brasileira. O ministro defendeu a continuidade do ajuste das contas públicas e a busca por superávits primários maiores nos próximos anos, mas sem mudanças abruptas na política econômica.\n\n“Vamos continuar melhorando as contas públicas, gerando superávit, mas de maneira gradual, sem dar cavalo de pau na tua vida, sem gerar incerteza e imprevisibilidade”, afirmou.\n\nDurigan disse que a estratégia deve preservar políticas públicas e evitar impactos negativos sobre a atividade econômica. Afirmou que a proposta de ajuste fiscal de 1,5% do Produto Interno Bruto (PIB) em prazo curto, debatida durante as eleições exigiria cortes em programas sociais e outras políticas.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A equipe econômica estuda oferecer linhas de crédito e programas de capacitação para empresas que enfrentarem dificuldades com o fim da escala de trabalho 6x1, disse nesta sexta-feira (16) o ministro da Fazenda, Dario Durigan.</strong> Segundo ele, o impacto da emenda constitucional sobre os empregadores ainda será avaliado, mas o governo prevê financiamento específico para a transição.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705629&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705629&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“É possível que a gente faça, por exemplo, uma espécie de linha de crédito ou de capacitação para a inovação”, afirmou Durigan em entrevista à TV Band nesta sexta-feira (16).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida, ressaltou o ministro, busca ajudar os negócios a se adaptarem à nova jornada, com investimentos em inovação e produtividade. Durigan também mencionou que o governo pretende apoiar empresas afetadas pela reforma tributária.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Inovação e capacitação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan afirmou que a equipe econômica ainda está analisando quais empresas e setores terão maior impacto com a mudança. A intenção é destinar o apoio aos negócios que precisarem de mais recursos para reorganizar as atividades.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo o ministro, a adaptação pode envolver modernização de processos, treinamento de funcionários e adoção de novas tecnologias para manter a produção mesmo com menos dias de trabalho.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Os empresários têm que ter apoio do governo para participar desse novo tempo, que é uma mudança civilizacional”, declarou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro citou o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae) e outros sistemas de capacitação como parceiros em iniciativas de treinamento, especialmente para pequenos negócios.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Apoio às pequenas empresas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan afirmou que o governo já ampliou o limite de crédito para pequenas empresas, de R$ 250 mil para R$ 500 mil, inclusive para operações destinadas ao capital de giro, recursos usados para manter as despesas e o funcionamento cotidiano dos negócios.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro não anunciou uma desoneração da folha de pagamento ou outra compensação direta aos empregadores. Em vez disso, destacou a possibilidade de financiamento direcionado e capacitação para empresas que precisarem se adaptar.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Já temos uma previsão de ter linhas de crédito específicas para essa transição, tanto da reforma tributária quanto do fim da jornada 6x1”, disse.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Impacto ainda será avaliado</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A mudança na jornada foi aprovada pelo Congresso e <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias\" target=\"_blank\">promulgada nesta sexta-feira</a>. A nova regra prevê dois dias de descanso remunerado por semana e redução gradual da jornada máxima de 44 para 40 horas, sem corte salarial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Durigan afirmou que o governo ainda vai medir os efeitos da mudança sobre os diferentes setores e portes de empresas. Segundo dados citados pelo ministro, de 68% a 70% dos empregos no país estão fora da escala 6x1.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ele também defendeu que a adaptação pode trazer ganhos de produtividade, com processos mais eficientes e menor rotatividade de trabalhadores.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Juros e ajuste fiscal</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na entrevista, Durigan também afirmou que a taxa de juros segue como um desafio para a economia brasileira. O ministro defendeu a continuidade do ajuste das contas públicas e a busca por superávits primários maiores nos próximos anos, mas sem mudanças abruptas na política econômica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vamos continuar melhorando as contas públicas, gerando superávit, mas de maneira gradual, sem dar cavalo de pau na tua vida, sem gerar incerteza e imprevisibilidade”, afirmou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durigan disse que a estratégia deve preservar políticas públicas e evitar impactos negativos sobre a atividade econômica. Afirmou que a proposta de ajuste fiscal de 1,5% do Produto Interno Bruto (PIB) em prazo curto, debatida durante as eleições exigiria cortes em programas sociais e outras políticas.</p>",
-      "imagem": "https://imagens.ebc.com.br/d9mP9Z88T5e7YEWWCVrLmOGoQgs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/05/pzzb3470.jpg?itok=ryj3w4Xa",
-      "slug": "governo-preve-credito-a-empresas-afetadas-por-fim-da-6x1-diz-durigan",
-      "pagina_local": "governo-preve-credito-a-empresas-afetadas-por-fim-da-6x1-diz-durigan.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-preve-credito-empresas-afetadas-por-fim-da-6x1-diz-durigan",
-      "categoria": "Economia & Tributos",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Flávio faz motociata no Pará; Lula participa de marcha no RS",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-faz-motociata-no-para-lula-participa-de-marcha-no-rs",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Ato em São Paulo cobra neutralidade da Meta nas eleições",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-em-sao-paulo-cobra-neutralidade-da-meta-nas-eleicoes",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Lula diz que vai entregar amanhã ao TSE pedido de abertura de sigilo",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-diz-que-vai-entregar-amanha-ao-tse-pedido-de-abertura-de-sigilo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "TRE-RJ alterou apenas um local de votação no estado; confira",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tre-rj-alterou-apenas-um-local-de-votacao-no-estado-confira",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Moradores da Maré se mobilizam para divulgar locais de votação",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moradores-da-mare-se-mobilizam-para-divulgar-locais-de-votacao",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Janones poderá ter alta em 48 horas, diz boletim médico",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/janones-podera-ter-alta-em-48-horas-diz-boletim-medico",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Deputado André Janones é internado com arritmia em São Paulo",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/deputado-andre-janones-e-internado-com-arritmia-em-sao-paulo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta segunda-feira (19)",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-segunda-feira-19",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Com ação Vida Além do Trabalho, ex-balconista mobilizou trabalhadores",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ex-balconista-de-farmacia-mobilizou-trabalhadores-para-reduzir-jornada",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Lula e Flávio fazem primeiro debate das eleições na TV Band",
@@ -260,7 +260,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-flavio-fazem-primeiro-debate-das-eleicoes-na-band",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
+    },
+    {
+      "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
+      "resumo": "O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. \n\nO carro onde ele estava foi alvo...",
+      "conteudo_completo": "O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. \n\nO carro onde ele estava foi alvo de tiros disparados por policiais.\n\nA PM se limitou a dizer que os policiais militares “tentaram abordar um veículo na Avenida Brasil, na pista sentido zona oeste, na altura de Bonsucesso, na zona norte da cidade do Rio de Janeiro”.\n\nEm nota, a PM lamentou a morte do político, que já foi vereador de Queimados, e informou que “as circunstâncias do fato serão esclarecidas através das investigações que estão em andamento. O local foi preservado e a área, isolada para a realização da perícia”.\n\nO Comando da PM também instaurou um procedimento apuratório, para investigar a conduta dos policiais envolvidos na ocorrência. O caso está sendo investigado pela Delegacia de Homicídios da Capital.\n\nDe acordo com a Polícia Civil, a perícia foi feita no local e os policiais militares foram ouvidos. As imagens das câmeras corporais serão analisadas e outras diligências estão em andamento para apurar todos os fatos.\n\nA prefeitura de Queimados divulgou uma nota lamentando profundamente a morte do secretário.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705890&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705890&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O carro onde ele estava foi alvo de tiros disparados por policiais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A PM se limitou a dizer que os policiais militares “tentaram abordar um veículo na Avenida Brasil, na pista sentido zona oeste, na altura de Bonsucesso, na zona norte da cidade do Rio de Janeiro”.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Em nota, a PM lamentou a morte do político, que já foi vereador de Queimados, e informou que “as circunstâncias do fato serão esclarecidas através das investigações que estão em andamento. O local foi preservado e a área, isolada para a realização da perícia”.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Comando da PM também instaurou um procedimento apuratório, para investigar a conduta dos policiais envolvidos na ocorrência. O caso está sendo investigado pela Delegacia de Homicídios da Capital.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a Polícia Civil, a perícia foi feita no local e os policiais militares foram ouvidos. As imagens das câmeras corporais serão analisadas e outras diligências estão em andamento para apurar todos os fatos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A prefeitura de Queimados divulgou uma nota lamentando profundamente a morte do secretário.</p>",
+      "imagem": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&auto=format&fit=crop&q=80",
+      "slug": "secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
+      "pagina_local": "secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
+      "categoria": "Geral & Cidadania",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -273,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -286,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -299,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/deputado-estadual-marcelo-aguiar-e-detido-apos-disparo-em-bar",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -312,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-premio-pode-chegar-r-185-milhoes-na-terca-feira",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -325,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-170-milhoes-neste-domingo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -338,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/professora-aposentada-da-ufrj-e-baleada-em-assalto-na-zona-sul-do-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -351,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/tres-suspeitos-sao-mortos-pela-policia-militar-em-assalto-casa-em-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -364,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/sao-paulo-tera-mais-chuvas-fortes-no-fim-da-tarde-desta-quinta-15",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -377,20 +390,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
-      "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
-      "resumo": "A Polícia Federal cumpriu, nesta quinta-feira (15), seis mandados de prisão preventiva contra acusados de integrar organização criminosa armada envolvida com lavagem de dinheiro em postos de combustível. Entre os alvos presos na operação es...",
-      "conteudo_completo": "A Polícia Federal cumpriu, nesta quinta-feira (15), seis mandados de prisão preventiva contra acusados de integrar organização criminosa armada envolvida com lavagem de dinheiro em postos de combustível. Entre os alvos presos na operação estão o ex-secretário de Polícia Civil, Marcus Amim, e o ex-prefeito de Belford Roxo e deputado estadual eleito Márcio Canella.\n\nA Justiça também determinou o cumprimento de 16 mandados de busca e apreensão, sequestro de bens e valores e suspensão das atividades econômicas de 112 empresas suspeitas de integrarem o esquema de lavagem de dinheiro. Os mandados estão sendo cumpridos na capital fluminense e em mais seis municípios do estado.\n\nNotícias relacionadas:Polícia Federal faz ação contra garimpo ilegal no Pará.Polícia Federal faz operação contra lavagem de dinheiro de bets.Entre as empresas suspeitas de lavagem de dinheiro estão 96 postos de combustível. De acordo com relatório do Conselho de Controle de Atividades Financeiras (Coaf), o grupo, que contaria com a participação de policiais civis, é suspeito de movimentar mais de R$ 7,6 bilhões.\n\nAlém dos crimes de lavagem de dinheiro e organização criminosa armada, os acusados respondem por corrupção ativa e passiva, violação de sigilo funcional, venda ilegal de combustíveis e formação de cartel, além de outros que poderão surgir no decorrer das investigações.\n\nA ação desta quinta-feira é parte da oitava fase da Operação Unha e Carne, que já tinha prendido Canella em julho deste ano, na sexta etapa. Amim também foi alvo daquela fase da Unha e Carne. A operação conta com o apoio da Corregedoria da Polícia Civil.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Polícia Federal cumpriu, nesta quinta-feira (15), seis mandados de prisão preventiva contra acusados de integrar organização criminosa armada envolvida com lavagem de dinheiro em postos de combustível. Entre os alvos presos na operação estão o ex-secretário de Polícia Civil, Marcus Amim, e o ex-prefeito de Belford Roxo e deputado estadual eleito Márcio Canella.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705409&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705409&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Justiça também determinou o cumprimento de 16 mandados de busca e apreensão, sequestro de bens e valores e suspensão das atividades econômicas de 112 empresas suspeitas de integrarem o esquema de lavagem de dinheiro. Os mandados estão sendo cumpridos na capital fluminense e em mais seis municípios do estado.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Entre as empresas suspeitas de lavagem de dinheiro estão 96 postos de combustível</strong>. De acordo com relatório do Conselho de Controle de Atividades Financeiras (Coaf), o grupo, que contaria com a participação de policiais civis, é suspeito de movimentar mais de R$ 7,6 bilhões.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além dos crimes de lavagem de dinheiro e organização criminosa armada, os acusados respondem por corrupção ativa e passiva, violação de sigilo funcional, venda ilegal de combustíveis e formação de cartel, além de outros que poderão surgir no decorrer das investigações.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A ação desta quinta-feira é parte da oitava fase da Operação Unha e Carne, que já tinha prendido Canella em julho deste ano, na sexta etapa. Amim também foi alvo daquela fase da <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ex-prefeito-e-ex-secretario-de-policia-civil-sao-alvos-da-pf-no-rio\" target=\"_blank\">Unha e Carne.</a> A operação conta com o apoio da Corregedoria da Polícia Civil.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Saiba mais no Repórter Brasil Tarde, da TV Brasil</strong></p>",
-      "imagem": "https://imagens.ebc.com.br/jbQaSeMSyFqHt1BTUG4ko3k1VGY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/09/780fa474-5854-41f4-9502-dc65d01e640a.jpeg?itok=IkBAd34q",
-      "slug": "pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos",
-      "pagina_local": "pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos",
-      "categoria": "Geral & Cidadania",
+      "titulo": "Saiba como consultar o seu local de votação",
+      "resumo": "Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. \n\nPor isso, a ...",
+      "conteudo_completo": "Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. \n\nPor isso, a orientação é que os eleitores confiram, com antecedência, os locais de votação nos canais oficiais.\n\nAplicativo e-título\n\nNotícias relacionadas:Eleitor sem biometria pode votar no segundo turno das eleições.2º turno: 130 mil eleitores de 22 estados votarão em local diferente .Eleições: quem não votou no primeiro turno pode participar do segundo.O aplicativo e-título pode ser baixado de forma gratuita em celulares android e iOS nas lojas oficiais. Para consultar o local de votação é só abrir o aplicativo, digitar os dados solicitados e selecionar a opção “onde votar”. Vai aparecer a zona e a seção eleitoral com o endereço. É possível inclusive traçar a rota de como chegar ao local. \n\nAutoatendimento Eleitoral\n\nO Autoatendimento Eleitoral está acessível nos postos do TSE e dos tribunais regionais eleitorais (TREs) de cada estado. Alí é possível consultar o local de votação em “onde votar”, além de outros serviços, como regularização de pendências, atualização de dados e emissão de documentos de forma remota, sem precisar comparecer a um cartório eleitoral.\n\nChatVote\n\nO ChatVote é o assistente virtual da Justiça Eleitoral. Ele usa inteligência artificial para responder dúvidas e orientar sobre os serviços disponíveis. Também pode ser acessado na página do TSE. O ChatVote fica no lado esquerdo da página, na parte inferior. É um desenho de uma urna com olhinhos. É só clicar nela e fazer a pergunta. \n\nA votação do segundo turno ocorre no próximo dia 25 de outubro. As seções ficam abertas de 8h às 17h. O eleitor vai votar desta vez apenas para presidente da República e, em alguns estados, para governador. A disputa local ocorre no Acre, Amazonas, Distrito Federal, Espírito Santo, Rio Grande do Norte e Tocantins.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Quem vai votar neste segundo turno das eleições precisa ficar atento às mudanças em locais de votação. Segundo dados do Tribunal Superior Eleitoral (TSE), 444 seções tiveram os endereços alterados, afetando 130 mil eleitores. <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705884&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705884&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Por isso, a orientação é que os eleitores confiram, com antecedência, os locais de votação nos canais oficiais.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Aplicativo e-título</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O aplicativo e-título pode ser baixado de forma gratuita em celulares android e iOS nas lojas oficiais</strong>. Para consultar o local de votação é só abrir o aplicativo, digitar os dados solicitados e selecionar a opção “onde votar”. Vai aparecer a zona e a seção eleitoral com o endereço. É possível inclusive traçar a rota de como chegar ao local. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Autoatendimento Eleitoral</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O <a href=\"https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/?id=1792446917967 \" target=\"_blank\">Autoatendimento Eleitoral</a> está acessível nos postos do TSE e dos tribunais regionais eleitorais (TREs) de cada estado.</strong> Alí é possível consultar o local de votação em “onde votar”, além de outros serviços, como regularização de pendências, atualização de dados e emissão de documentos de forma remota, sem precisar comparecer a um cartório eleitoral.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>ChatVote</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ChatVote é o assistente virtual da Justiça Eleitoral. Ele usa inteligência artificial para responder dúvidas e orientar sobre os serviços disponíveis. Também pode ser acessado na página do TSE.</strong> O ChatVote fica no lado esquerdo da página, na parte inferior. É um desenho de uma urna com olhinhos. É só clicar nela e fazer a pergunta. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A votação do segundo turno ocorre no próximo dia 25 de outubro</strong>. As seções ficam abertas de 8h às 17h. O eleitor vai votar desta vez apenas para presidente da República e, em alguns estados, para governador. A disputa local ocorre no Acre, Amazonas, Distrito Federal, Espírito Santo, Rio Grande do Norte e Tocantins.</p>",
+      "imagem": "https://imagens.ebc.com.br/IgFIMGvRdJuhBW555lJvy-CNdcY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/_mg_9109.jpg?itok=-4e9plxI",
+      "slug": "saiba-como-consultar-o-seu-local-de-votacao",
+      "pagina_local": "saiba-como-consultar-o-seu-local-de-votacao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/saiba-como-consultar-o-seu-local-de-votacao",
+      "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Rebeca, Flavinha e Lorrane avançam às finais do Mundial de Ginástica",
@@ -403,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/rebeca-flavinha-e-lorrane-avancam-finais-do-mundial-de-ginastica",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "PGR não vê abuso de André Mendonça em investigação contra Moraes",
@@ -416,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-nao-ve-abuso-de-andre-mendonca-em-investigacao-contra-moraes",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     },
     {
       "titulo": "Consultas por lesões pré-cancerígenas caem após vacina contra HPV",
@@ -429,20 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/consultas-por-lesoes-pre-cancerigenas-caem-apos-vacina-contra-hpv",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
-    },
-    {
-      "titulo": "MP pede ao TSE divulgação ampla de mudanças em locais de votação",
-      "resumo": "O Ministério Público Eleitoral (MPE) enviou nesta segunda-feira (19) ao Tribunal Superior Eleitoral (TSE) um pedido para que o tribunal determine a divulgação ampla das mudanças em mais de 400 locais de votação para o segundo turno das elei...",
-      "conteudo_completo": "O Ministério Público Eleitoral (MPE) enviou nesta segunda-feira (19) ao Tribunal Superior Eleitoral (TSE) um pedido para que o tribunal determine a divulgação ampla das mudanças em mais de 400 locais de votação para o segundo turno das eleições, no próximo domingo (25).\n\nA medida foi tomada após os tribunais regionais eleitorais (TREs) informarem que cerca de 130 mil eleitores de 22 estados tiveram os locais de votação alterados.\n\nNotícias relacionadas:2º turno: 130 mil eleitores de 22 estados votarão em local diferente .Saiba quais locais de votação mudaram em São Paulo no 2º turno.DF e mais 4 estados não tiveram locais de votação alterados.O MPE pede que os eleitores sejam notificados pelo aplicativo E-título, pelos sites da Justiça Eleitoral e divulgação no rádio, TV e redes sociais.\n\nO órgão também quer a fixação de cartazes nos antigos locais de votação para informar ao eleitor a mudança de endereço.\n\n\"O segundo turno se realiza em 25 de outubro, intervalo reduzido para que o eleitor atingido tome conhecimento do novo endereço, de modo que potenciais efeitos das alterações devem ser mitigados por ampla divulgação, proporcional à exiguidade do tempo até o pleito e ao número de pessoas impactadas\", justificou o MPE. \n\nDe acordo com os TREs, as mudanças nos locais de votação ocorreram em função do impacto das chuvas, problemas de fornecimento de energia elétrica, riscos estruturais e para melhorar a acessibilidade para pessoas com deficiência. Novas alterações de endereço ainda podem ser determinadas.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Ministério Público Eleitoral (MPE) enviou nesta segunda-feira (19) ao Tribunal Superior Eleitoral (TSE) um pedido para que o tribunal determine a divulgação ampla das mudanças em <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/2o-turno-130-mil-eleitores-de-22-estados-votarao-em-local-diferente\" target=\"_blank\">mais de 400 locais de votação</a> para o segundo turno das eleições, no próximo domingo (25).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705865&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705865&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida foi tomada após os tribunais regionais eleitorais (TREs) informarem que cerca de 130 mil eleitores de 22 estados tiveram os locais de votação alterados.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O MPE pede que os eleitores sejam notificados pelo aplicativo E-título, pelos sites da Justiça Eleitoral e divulgação no rádio, TV e redes sociais.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O órgão também quer a fixação de cartazes nos antigos locais de votação para informar ao eleitor a mudança de endereço.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"O segundo turno se realiza em 25 de outubro, intervalo reduzido para que o eleitor atingido tome conhecimento do novo endereço, de modo que potenciais efeitos das alterações devem ser mitigados por ampla divulgação, proporcional à exiguidade do tempo até o pleito e ao número de pessoas impactadas\", justificou o MPE. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com os TREs, as mudanças nos locais de votação ocorreram em função do impacto das chuvas, problemas de fornecimento de energia elétrica, riscos estruturais e para melhorar a acessibilidade para pessoas com deficiência. Novas alterações de endereço ainda podem ser determinadas.</p>",
-      "imagem": "https://imagens.ebc.com.br/ybIYQRAgMxGbqVZEtmJAyBoudlQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/sem_titulo-20.jpg?itok=XDsQOeVm",
-      "slug": "mp-pede-ao-tse-divulgacao-ampla-de-mudancas-em-locais-de-votacao",
-      "pagina_local": "mp-pede-ao-tse-divulgacao-ampla-de-mudancas-em-locais-de-votacao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mp-pede-ao-tse-divulgacao-ampla-de-mudancas-em-locais-de-votacao",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "20/10/2026 às 05:48"
+      "coletado_em": "20/10/2026 às 11:16"
     }
   ]
 };
