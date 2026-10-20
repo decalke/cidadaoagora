@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "20/10/2026 às 11:16:52",
+  "ultima_atualizacao": "20/10/2026 às 16:41:32",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -130,20 +130,33 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
+    },
+    {
+      "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
+      "resumo": "Uma organização criminosa especializada em fraudes bancárias causou prejuízos de R$ 1,27 milhão no interior de São Paulo. Segundo a investigação da Polícia Civil de Presidente Venceslau, os suspeitos utilizaram 2,7 mil l...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Uma organização criminosa especializada em fraudes bancárias causou prejuízos de R$ 1,27 milhão no interior de São Paulo. Segundo a investigação da Polícia Civil de Presidente Venceslau, os suspeitos utilizaram 2,7 mil linhas telefônicas para aplicar golpes.\n\nEntre as vítimas está um morador de 80 anos que perdeu R$ 180 mil em um golpe. Os criminosos se passaram por funcionários de uma instituição bancária e convenceram a vítima de que havia um problema com a conta. Com isso, conseguiram induzi-la a realizar uma transferência bancária sem autorização.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Polícia de SP prende três suspeitos de explorar bets.Ao todo, estão sendo executados cinco mandados de busca e apreensão, abrangendo as cidades de Poá e Embu das Artes, na Grande São Paulo, além de Planaltina, em Goiás, e Brasília. Para reaver o prejuízo causado à vítima idosa que motivou o início das apurações, a Justiça determinou o bloqueio de bens e valores no limite de R$ 180 mil.\n\n\n“Nosso objetivo é aprofundar a investigação, identificar todos os envolvidos e localizar outras possíveis vítimas”, afirmou o delegado Edmar Caparroz, que coordena a operação.\n\n\nAs buscas também têm como objetivo recolher documentos, celulares, computadores e outros materiais que possam contribuir para o avanço das investigações.\n\nComo evitar fraudes\n\nComo mostrou uma reportagem da Agência Brasil, a engenharia social responde por 40% das fraudes financeiras no Brasil. Essa técnica consiste na manipulação emocional das vítimas. Os criminosos criam cenários de urgência para induzir decisões rápidas.\n\nOs criminosos utilizam diversos formatos para chegar até a vítima, como o falso call center, que afirma ter identificado uma transação suspeita e orienta a vítima a realizar procedimentos para supostamente proteger a conta. Também contatam as vítimas por e-mail, WhatsApp e ligações. \n\nAlguns órgãos federais desenvolveram ferramentas para evitar golpes. O Banco Central (BC) oferece a ferramenta BC Protege +, que permite ao cidadão registrar que não desejam abrir contas em bancos ou outras instituições do sistema financeiro.\n\nPara reforçar a proteção dos dados pessoais, o BC também disponibiliza o Registrato. Por meio dessa solução, cidadãos e empresas conseguem consultar as informações que as instituições do sistema financeiro compartilham com a autoridade monetária.\n\nA ferramenta possibilita a emissão de diversos relatórios, permitindo checar pendências financeiras, verificar chaves Pix registradas e checar a existência de contas desconhecidas.\n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
+      "imagem": "https://imagens.ebc.com.br/Zj2HBg8LcNNFpfyVNq2OHmDNV8A=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/02/12/policia_civil_sp.jpg?itok=rHkR2SKK",
+      "slug": "policia-faz-operacao-no-interior-de-sp-contra-fraudes-bancarias",
+      "pagina_local": "policia-faz-operacao-no-interior-de-sp-contra-fraudes-bancarias.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-faz-operacao-no-interior-de-sp-contra-fraudes-bancarias",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
       "resumo": "O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. \n\nO carro onde...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. \n\nO carro onde ele estava foi alvo de tiros disparados por policiais.\n\nA PM se limitou a dizer que os policiais militares “tentaram abordar um veículo na Avenida Brasil, na pista sentido zona oeste, na altura de Bonsucesso, na zona norte da cidade do Rio de Janeiro”.\n\nEm nota, a PM lamentou a morte do político, que já foi vereador de Queimados, e informou que “as circunstâncias do fato serão esclarecidas através das investigações que estão em andamento. O local foi preservado e a área, isolada para a realização da perícia”.\n\nO Comando da PM também instaurou um procedimento apuratório, para investigar a conduta dos policiais envolvidos na ocorrência. O caso está sendo investigado pela Delegacia de Homicídios da Capital.\n\nDe acordo com a Polícia Civil, a perícia foi feita no local e os policiais militares foram ouvidos. As imagens das câmeras corporais serão analisadas e outras diligências estão em andamento para apurar todos os fatos.\n\nA prefeitura de Queimados divulgou uma nota lamentando profundamente a morte do secretário.</p>",
-      "imagem": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&auto=format&fit=crop&q=80",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O secretário Municipal de Desenvolvimento Econômico de Queimados, na Baixada Fluminense, Jefferson Dias da Silva, morreu na noite desta segunda-feira (19), baleado durante uma abordagem da Polícia Militar. \n\nO carro onde ele estava foi alvo de tiros disparados por policiais.\n\nA PM se limitou a dizer que os policiais militares “tentaram abordar um veículo na Avenida Brasil, na pista sentido zona oeste, na altura de Bonsucesso, na zona norte da cidade do Rio de Janeiro”.\n\nO governador em exercício do Rio de Janeiro, desembargador Ricardo Couto, determinou o afastamento dos policiais militares envolvidos na abordagem.\n\nPor meio de nota divulgada à imprensa, o governo estadual informou que \"manifesta profunda consternação com os familiares e amigos de Jefferson. A gravidade do episódio exige uma apuração rigorosa, célere e transparente\".\n\nEm nota, a PM lamentou a morte do político, que já foi vereador de Queimados, e informou que “as circunstâncias do fato serão esclarecidas através das investigações que estão em andamento. O local foi preservado e a área, isolada para a realização da perícia”.\n\nO Comando da PM também instaurou um procedimento apuratório, para investigar a conduta dos policiais envolvidos na ocorrência. O caso está sendo investigado pela Delegacia de Homicídios da Capital.\n\nDe acordo com a Polícia Civil, a perícia foi feita no local e os policiais militares foram ouvidos. As imagens das câmeras corporais serão analisadas e outras diligências estão em andamento para apurar todos os fatos.\n\nA prefeitura de Queimados divulgou uma nota lamentando profundamente a morte do secretário.\n\nMatéria ampliada às 9h55 para incluir nota do governo no estado, no quarto e quinto parágrafos.</p>",
+      "imagem": "https://imagens.ebc.com.br/Kjthp6BtHhYQpO0B5Xv6HM3VavI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/20/jef.jpg?itok=DLrDLpq_",
       "slug": "secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
       "pagina_local": "secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm.html",
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
-    },
-    {
-      "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
-      "resumo": "O Ministério Público de São Paulo (MPSP), por meio do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), e a Polícia Federal (PF) fazem, na manhã desta quinta-feira (15), em São Paulo e no Paraná, a Operaç...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério Público de São Paulo (MPSP), por meio do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), e a Polícia Federal (PF) fazem, na manhã desta quinta-feira (15), em São Paulo e no Paraná, a Operação YellowCode. O objetivo é combater  organização criminosa suspeita de tráfico de drogas interestadual e de lavagem de dinheiro.\n\nSegundo a investigação, os criminosos traficavam drogas dentro de eletrodomésticos. Moradores de São Paulo recebiam encomendas compradas pela internet que traziam entorpecentes em seu interior. Os envios eram feitos sempre pela mesma vendedora e eram postados a partir de Foz do Iguaçu, no Paraná. Foram identificadas 120 remessas suspeitas.\n\nNotícias relacionadas:PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Ministério Público faz operação em SP contra PCC e tribunais do crimes.De acordo com as informações divulgadas pelo MP, os criminosos também praticavam lavagem de dinheiro para disfarçar as quantias que vinham da venda de drogas. Relatórios financeiros revelaram que os envolvidos movimentaram valores bem acima de suas rendas declaradas.\n\nA investigação que levou à ação de hoje começou em setembro de 2025.\n\nAo todo, são cumpridos 14 mandados de prisão temporária e 15 de busca e apreensão na cidade de São Paulo, em São Caetano do Sul e Praia Grande. Também em Foz do Iguaçu e Pinhais, ambas no estado do Paraná.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil</p>",
-      "imagem": "https://imagens.ebc.com.br/HUabSv0_bq_Z1dD0um3bL_bSkF0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/21/gaeco-sp_copy.jpg?itok=RYqlLkFr",
-      "slug": "policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
-      "pagina_local": "policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 11:16"
+      "coletado_em": "20/10/2026 às 16:41"
     }
   ]
 };
