@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "20/10/2026 às 00:13:18",
+  "ultima_atualizacao": "20/10/2026 às 05:48:46",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Flávio faz motociata no Pará; Lula participa de marcha no RS",
+      "resumo": "Os candidatos a presidente Flávio Bolsonaro e Lula tiveram agendas de campanha no Pará e no Rio Grande do Sul nesta segunda-feira (19). \n\n&gt;&gt; Veja abaixo o dia dos candidatos:\n\nFlávio Bolsonaro\n\nO candidato Flávio Bolsonaro (PL) cumpri...",
+      "conteudo_completo": "Os candidatos a presidente Flávio Bolsonaro e Lula tiveram agendas de campanha no Pará e no Rio Grande do Sul nesta segunda-feira (19). \n\n&gt;&gt; Veja abaixo o dia dos candidatos:\n\nFlávio Bolsonaro\n\nO candidato Flávio Bolsonaro (PL) cumpriu agenda de campanha na manhã desta segunda-feira (19) em Marabá (PA), no sudeste do estado, onde participou de uma motociata.\n\nNotícias relacionadas:Lula diz que vai entregar amanhã ao TSE pedido de abertura de sigilo.Lula e Flávio fazem primeiro debate das eleições na TV Band.Durante o evento, o candidato defendeu o direto à propriedade privada e falou sobre a regularização de terras no Pará.\n\nFlávio Bolsonaro disse que pretende “fazer a maior regularização fundiária que o Pará já viu”. O candidato, entretanto, não deu detalhes sobre como vai colocar o plano em prática, mas deu a entender a possibilidade de flexibilização de regras ambientais e fundiárias.\n\n“Vamos respeitar a propriedade privada. Você vai poder plantar, criar gado, vai fazer o que quiser na sua terra e o que você explorar da terra é seu. Esses entraves que existem ambientais por causa de razões ideológicas a gente vai acabar\", declarou. \n\nO candidato também disse que o combate à criminalidade é uma das prioridades, em um eventual governo.\n\n“Eu vou a partir de janeiro do ano que vem, pegar em guerra aos narcoterroristas. Vou devolver a sua soberania sobre o seu celular. Eu vou devolver a soberania sobre a sua bolsa, sobre a sua moto, sobre o seu carro, sobre a sua propriedade”, disse, ressaltando que irá “propor a castração química aos estupradores”.\n\nO candidato disse ainda que a região Amazônica precisa de obras estruturantes, citando como exemplo a área da saúde.\n\nDe Marabá, o candidato partiu, no começo da tarde para a capital do Amazonas, Manaus, onde participou de ato com apoiadores na noite desta terça-feira.\n\n\n            \n        \n    \nMarabá (PA), 19/10/2026 - Candidato Flávio Bolsonaro participa de ato de campanha. Foto: Vittor Sales/Campanha Flávio Bolsonaro\n\n\nLula\n\nNa noite desta segunda-feira (19), o candidato à reeleição Luiz Inácio Lula da Silva (PT) concedeu entrevista ao SBT. \n\nLula disse que a aprovação, no Congresso Nacional, do projeto que perdoa as dívidas dos Microempreendedores Individuais (MEIs) irá beneficiar cerca de 3,6 milhões de empreendedores. As dívidas chegam a R$ 12,6 bilhões. O projeto ainda aumenta para 140 mil o teto para faturamento e permite a contratação de mais de um empregado. A legislação atual autorizava a contratação de apenas um empregado.\n\n“[Com o perdão da dívida] os MEIs vão limpar o nome deles, para que eles possam continuar a vida”, disse na entrevista.\n\nO presidente ainda tratou do impacto do fim da escala de trabalho 6x1, que vai possibilitar aos trabalhadores passarem mais tempo com os familiares; propostas para o combate à criminalidade e investimento na saúde.\n\nA entrevista foi gravada. Na tarde de hoje, Lula participou de uma caminhada de campanha no centro de Porto Alegre. O ato reuniu apoiadores no Largo dos Açorianos, localizado entre o bairro Cidade Baixa e o Centro Histórico. \n\nEle anunciou que irá enviar ao Tribunal Superior Eleitoral (TSE) pedido de abertura de seu sigilo bancário, telefônico e fiscal, bem como o dos filhos. Ele desafiou o adversário, Flávio Bolsonaro, a fazer o mesmo. \n\n“A única coisa que eu estou pedindo é que ele [Flávio Bolsonaro] tenha a coragem de provar que é honesto”, disse.\n\n“Eu vou entregar na expectativa que ele entregue a dele e eu quero que a Justiça investigue e depois divulgue para o povo brasileiro saber quem é ladrão ou quem não é ladrão neste país”, desafiou.\n\n\n            \n        \n    \nPorto Alegre (RS), 19/10/2026 - Candidato Lula participa de ato de campanha. Foto: Ricardo Stuckert/Lula Oficial\n\n\nA ordem de apresentação da cobertura de agenda dos candidatos segue rodízio diário.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos a presidente Flávio Bolsonaro e Lula tiveram agendas de campanha no Pará e no Rio Grande do Sul nesta segunda-feira (19). <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705882&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705882&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>&gt;&gt; Veja abaixo o dia dos candidatos:</h2>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Flávio Bolsonaro</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato Flávio Bolsonaro (PL) cumpriu agenda de campanha na manhã desta segunda-feira (19) em Marabá (PA), no sudeste do estado, onde participou de uma motociata.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante o evento, o candidato defendeu o direto à propriedade privada e falou sobre a regularização de terras no Pará.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio Bolsonaro disse que pretende “fazer a maior regularização fundiária que o Pará já viu”. O candidato, entretanto, não deu detalhes sobre como vai colocar o plano em prática, mas deu a entender a possibilidade de flexibilização de regras ambientais e fundiárias.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Vamos respeitar a propriedade privada. Você vai poder plantar, criar gado, vai fazer o que quiser na sua terra e o que você explorar da terra é seu. Esses entraves que existem ambientais por causa de razões ideológicas a gente vai acabar\", declarou. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato também disse que o combate à criminalidade é uma das prioridades, em um eventual governo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu vou a partir de janeiro do ano que vem, pegar em guerra aos narcoterroristas. Vou devolver a sua soberania sobre o seu celular. Eu vou devolver a soberania sobre a sua bolsa, sobre a sua moto, sobre o seu carro, sobre a sua propriedade”, disse, ressaltando que irá “propor a castração química aos estupradores”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato disse ainda que a região Amazônica precisa de obras estruturantes, citando como exemplo a área da saúde.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De Marabá, o candidato partiu, no começo da tarde para a capital do Amazonas, Manaus, onde participou de ato com apoiadores na noite desta terça-feira.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Lula</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na noite desta segunda-feira (19), o candidato à reeleição Luiz Inácio Lula da Silva (PT) concedeu entrevista ao SBT. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula disse que a aprovação, no Congresso Nacional, do projeto que perdoa as dívidas dos Microempreendedores Individuais (MEIs) irá beneficiar cerca de 3,6 milhões de empreendedores. As dívidas chegam a R$ 12,6 bilhões. O projeto ainda aumenta para 140 mil o teto para faturamento e permite a contratação de mais de um empregado. A legislação atual autorizava a contratação de apenas um empregado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“[Com o perdão da dívida] os MEIs vão limpar o nome deles, para que eles possam continuar a vida”, disse na entrevista.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente ainda tratou do impacto do fim da escala de trabalho 6x1, que vai possibilitar aos trabalhadores passarem mais tempo com os familiares; propostas para o combate à criminalidade e investimento na saúde.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A entrevista foi gravada. Na tarde de hoje, Lula participou de uma caminhada de campanha no centro de Porto Alegre. O ato reuniu apoiadores no Largo dos Açorianos, localizado entre o bairro Cidade Baixa e o Centro Histórico. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele anunciou que irá enviar <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-diz-que-vai-entregar-amanha-ao-tse-pedido-de-abertura-de-sigilo\" target=\"_blank\">ao Tribunal Superior Eleitoral (TSE) pedido de abertura de seu sigilo bancário, telefônico e fiscal, bem como o dos filhos</a>. Ele desafiou o adversário, Flávio Bolsonaro, a fazer o mesmo. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A única coisa que eu estou pedindo é que ele [Flávio Bolsonaro] tenha a coragem de provar que é honesto”, disse.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu vou entregar na expectativa que ele entregue a dele e eu quero que a Justiça investigue e depois divulgue para o povo brasileiro saber quem é ladrão ou quem não é ladrão neste país”, desafiou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ordem de apresentação da cobertura de agenda dos candidatos segue rodízio diário. </p>",
+      "imagem": "https://imagens.ebc.com.br/Qjn25j4kWuBB0OOSqVFyv-s7K54=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/banner_agenda_-_1170x700.png?itok=KJR_nOUL",
+      "slug": "flavio-faz-motociata-no-para-lula-participa-de-marcha-no-rs",
+      "pagina_local": "flavio-faz-motociata-no-para-lula-participa-de-marcha-no-rs.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-faz-motociata-no-para-lula-participa-de-marcha-no-rs",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 05:48"
+    },
     {
       "titulo": "Ato em São Paulo cobra neutralidade da Meta nas eleições",
       "resumo": "Centenas de manifestantes protestaram no começo da noite de segunda-feira (19), na região das sedes da Meta e do Google, na zona oeste de São Paulo. \n\nCom o slogan “Meta, não se meta”, os participantes apontaram censura nas participações de...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Lula diz que vai entregar amanhã ao TSE pedido de abertura de sigilo",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "TRE-RJ alterou apenas um local de votação no estado; confira",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Moradores da Maré se mobilizam para divulgar locais de votação",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Janones poderá ter alta em 48 horas, diz boletim médico",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Deputado André Janones é internado com arritmia em São Paulo",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta segunda-feira (19)",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Com ação Vida Além do Trabalho, ex-balconista mobilizou trabalhadores",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Lula e Flávio fazem primeiro debate das eleições na TV Band",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
-    },
-    {
-      "titulo": "Ato em apoio à democracia e a Lula reúne milhares no Rio e Brasília",
-      "resumo": "O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto A...",
-      "conteudo_completo": "O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto Alegre, Belo Horizonte e Fortaleza. A estimativa é da coordenação de campanha do partido. \n\nNa capital federal, a mobilização tomou conta da Esplanada dos Ministérios pela manhã e permaneceu nas ruas ao longo do dia. No Rio, à tarde, um ato musical reuniu milhares de pessoas na orla de Copacabana. O evento foi convocado pelo cantor Caetano Veloso e teve a participação de artistas como Djavan, Duda Beat, Marina Sena, entre outros.\n\nNotícias relacionadas:Campanha de Flávio Bolsonaro realiza manifestação na Paulista.Estudantes retomam protagonismo em momento decisivo no país, diz UNE.Lula faz campanha em MG e celebra fim da jornada 6x1.Caetano lembrou que foi preso na ditadura militar com Gilberto Gil e outros músicos. \"Vários artistas sofreram. Nós estamos aqui para apresentar uma defesa da democracia contra esse tipo de coisa e resistir contra as ameaças à democracia\", disse.\n\n \n\n\n            \n        \n    \nAto pela reeleição de Lula na Esplanada dos Ministérios, em Brasília. Foto: Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\n \n\n\n            \n        \n    \nAto pela Democracia na orla de Copacabana - Foto: Rovena Rosa/Agência Brasil\n\n\nO cantor Djavan destacou que também é preciso defender a soberania brasileira contra ingerências externas.\n\nPara a atriz Leticia Sabatella, é preciso lutar e proteger os direitos conquistados. \"De um lado a gente tem um candidato de uma família que exalta torturadores, são saudosos da ditadura e não têm um programa de Estado para o Brasil. Do outro lado, a gente tem um programa de governo que a gente já viu ser implantado com políticas sociais muito importantes.\"\n\nA cantora Duda Beat disse que estava bonito de ver a multidão na orla de Copacabana. \"Isso aqui é a resposta que a gente vai dar. O povo unido consegue tudo. Viva a democracia!\"\n \n\n\n            \n        \n    \nAto pela Democracia na orla de Copacabana - Foto: Rovena Rosa/Agência Brasil\n\n\nO diretor de Comunicação da União Nacional dos Estudantes (UNE), Alejandro Guerrero, disse que veio do Rio Grande do Sul para participar do ato porque o país vive um momento de encruzilhada histórica.\n\n\"Existem dois rumos de projeto que neste segundo turno ficam evidenciados. Um projeto que representa a democracia, a defesa da soberania nacional. Do outro lado, o entreguismo, o fascismo e a entrega das nossas riquezas para os Estados Unidos. Esse é o momento para a gente reafirmar a luta em defesa do Brasil da soberania e da democracia\", afirmou o estudante.\n\nCandelária\n\nNa parte da manhã, um ato de estudantes e trabalhadores também reuniu milhares de pessoas na Praça da Candelária, no centro do Rio, em apoio à democracia e a Lula.\n \n\n\n            \n        \n    \nManifestação em apoio à reeleição do presidente Lula na Candelária - Foto: Rovena Rosa/Agência Brasil\n\n\nO casal Bráulio Martins, de 33 anos, e Laura Guimarães, de 27 anos, compareceu à manifestação acompanhado do filho Ícaro, de 5 anos. Laura estava com um adereço de mochila maluca com vários adesivos dos programas sociais do governo Lula. \n\n\"A partir de 2018, comecei a me envolver e pesquisar, e a praticar minha cidadania e descobrir as lutas que eu ia me envolver. Eu passei muito sufoco depois que minha mãe morreu em 2021. Fui beneficiária do Bolsa Família por um tempo, o que me ajudou muito a cuidar do meu filho e a empreender\", disse Laura, esteticista e dona de uma clínica na área.\n\n\"Quero que meu filho tenha uma vida que eu não tive. Quero que ele cresça seguro e entendendo quais são os lados, ele como uma criança de uma família que sempre lutou muito\", completou.\n\nAcompanhada das amigas, a estudante de artes visuais na Universidade Federal do Rio de Janeiro (UFRJ) Andressa da Paz, de 24 anos, contou que, no governo de Jair Bolsonaro, a universidade pública foi sucateada, não tinha papel higiênico, faltava luz, não tinha nem ventilador. A faculdade fica na Ilha do Fundão, na Ilha do Governador. \"Estou esperançosa de que dia 25 de outubro, Lula vai ganhar\", afirmou Andressa.\n\n* Matéria atualizada para complementação de informações",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O domingo foi marcado por atos em defesa da democracia e da reeleição do presidente Luiz Inácio Lula da Silva (PT) pelo Brasil, com milhares de pessoas reunidas em cerca de 500 cidades, entre elas Rio de Janeiro, Brasília, Curitiba, Porto Alegre, Belo Horizonte e Fortaleza. A estimativa é da coordenação de campanha do partido. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705767&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705767&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Na capital federal, a mobilização tomou conta da Esplanada dos Ministérios pela manhã e permaneceu nas ruas ao longo do dia. No Rio, à tarde, um ato musical reuniu milhares de pessoas na orla de Copacabana. O evento foi convocado pelo cantor Caetano Veloso e teve a participação de artistas como Djavan, Duda Beat, Marina Sena, entre outros.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Caetano lembrou que foi preso na ditadura militar com Gilberto Gil e outros músicos. \"Vários artistas sofreram. Nós estamos aqui para apresentar uma defesa da democracia contra esse tipo de coisa e resistir contra as ameaças à democracia\", disse.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O cantor Djavan destacou que também é preciso defender a soberania brasileira contra ingerências externas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para a atriz Leticia Sabatella, é preciso lutar e proteger os direitos conquistados. \"De um lado a gente tem um candidato de uma família que exalta torturadores, são saudosos da ditadura e não têm um programa de Estado para o Brasil. Do outro lado, a gente tem um programa de governo que a gente já viu ser implantado com políticas sociais muito importantes.\"</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A cantora Duda Beat disse que estava bonito de ver a multidão na orla de Copacabana. \"Isso aqui é a resposta que a gente vai dar. O povo unido consegue tudo. Viva a democracia!\"<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O diretor de Comunicação da União Nacional dos Estudantes (UNE), Alejandro Guerrero, disse que veio do Rio Grande do Sul para participar do ato porque o país vive um momento de encruzilhada histórica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Existem dois rumos de projeto que neste segundo turno ficam evidenciados. Um projeto que representa a democracia, a defesa da soberania nacional. Do outro lado, o entreguismo, o fascismo e a entrega das nossas riquezas para os Estados Unidos. Esse é o momento para a gente reafirmar a luta em defesa do Brasil da soberania e da democracia\", afirmou o estudante.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Candelária</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na parte da manhã, um ato de estudantes e trabalhadores também reuniu milhares de pessoas na Praça da Candelária, no centro do Rio, em apoio à democracia e a Lula.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O casal Bráulio Martins, de 33 anos, e Laura Guimarães, de 27 anos, compareceu à manifestação acompanhado do filho Ícaro, de 5 anos. Laura estava com um adereço de mochila maluca com vários adesivos dos programas sociais do governo Lula. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"A partir de 2018, comecei a me envolver e pesquisar, e a praticar minha cidadania e descobrir as lutas que eu ia me envolver. Eu passei muito sufoco depois que minha mãe morreu em 2021. Fui beneficiária do Bolsa Família por um tempo, o que me ajudou muito a cuidar do meu filho e a empreender\", disse Laura, esteticista e dona de uma clínica na área.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Quero que meu filho tenha uma vida que eu não tive. Quero que ele cresça seguro e entendendo quais são os lados, ele como uma criança de uma família que sempre lutou muito\", completou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Acompanhada das amigas, a estudante de artes visuais na Universidade Federal do Rio de Janeiro (UFRJ) Andressa da Paz, de 24 anos, contou que, no governo de Jair Bolsonaro, a universidade pública foi sucateada, não tinha papel higiênico, faltava luz, não tinha nem ventilador. A faculdade fica na Ilha do Fundão, na Ilha do Governador. \"Estou esperançosa de que dia 25 de outubro, Lula vai ganhar\", afirmou Andressa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>* Matéria atualizada para complementação de informações</em></p>",
-      "imagem": "https://imagens.ebc.com.br/hAqmYEebpzQVKIKLR6b8rWMdAs8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/0g0a0640.jpg?itok=KIqLKV1l",
-      "slug": "ato-em-apoio-a-democracia-e-a-lula-reune-milhares-no-rio-e-brasilia",
-      "pagina_local": "ato-em-apoio-a-democracia-e-a-lula-reune-milhares-no-rio-e-brasilia.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-em-apoio-democracia-e-lula-reune-milhares-no-rio-e-brasilia",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "PGR não vê abuso de André Mendonça em investigação contra Moraes",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "MP pede ao TSE divulgação ampla de mudanças em locais de votação",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "DF e mais 4 estados não tiveram locais de votação alterados",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "2º turno: 130 mil eleitores de 22 estados votarão em local diferente",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Mulher e filho de Marcinho VP são presos em operação da PF no Rio",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Saiba quais locais de votação mudaram em São Paulo no 2º turno",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Zanin pede parecer da PGR e AGU sobre ação do PSD por 2º turno no Rio",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "TSE dá 24 horas para Meta dar informações sobre igualdade de campanhas",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "PF faz ação para prender 23 envolvidos com facção criminosa no Rio",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Força Nacional vai atuar por 90 dias na região de Belo Monte",
@@ -280,7 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
+    },
+    {
+      "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
+      "resumo": "A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de recuperação judicial. ...",
+      "conteudo_completo": "A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de recuperação judicial. Ainda cabe recurso da decisão.\n\nA Americanas iniciou o processo de recuperação judicial em janeiro de 2023, após a revelação de irregularidades contábeis de cerca de R$ 20 bilhões na empresa. Na época, a Americanas informou ter dívidas de aproximadamente R$ 43 bilhões, o que levou à reestruturação dos débitos com credores. O plano foi aprovado em dezembro de 2023 e homologado pela Justiça em fevereiro de 2024.\n\nA administração judicial e do Ministério Público do Estado do Rio de Janeiro (MPRJ) deram pareceres favoráveis ao encerramento. Coma decisão judicial, deve ser retirada a expressão “em recuperação judicial” dos nomes das empresas nos registros oficiais.\n\nApesar do encerramento, questões envolvendo credores ainda poderão ser discutidas no âmbito judicial.\n\nNotícias relacionadas:Americanas pedem à Justiça encerramento da recuperação judicial.Na sentença, o juiz Arthur Eduardo Magalhães Ferreira esclareceu que o fim do processo não impede a cobrança de obrigações previstas no plano.\n\n“Qualquer credor que se repute prejudicado por descumprimento de obrigação do plano poderá requerer a execução específica ou a falência”, escreveu o magistrado.\n\nAmericanas\n\nEm fato relevante ao mercado, a Americanas informou que “o encerramento da recuperação judicial representa um marco importante na trajetória da companhia e inaugura uma nova etapa de seus negócios”.\n\nNa nota, agradece a seus associados, fornecedores, clientes e demais parceiros pela confiança.\n\nO comunicado é assinado pelo diretor Financeiro e de Relações com Investidores, Sebastien Durchor.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de recuperação judicial. Ainda cabe recurso da decisão.</strong><br/>\n<br/>\nA Americanas iniciou o processo de recuperação judicial em janeiro de 2023, após a revelação de irregularidades contábeis de cerca de R$ 20 bilhões na empresa. Na época, a Americanas informou ter dívidas de aproximadamente R$ 43 bilhões, o que levou à reestruturação dos débitos com credores. O plano foi aprovado em dezembro de 2023 e homologado pela Justiça em fevereiro de 2024.<br/>\n<br/>\nA administração judicial e do Ministério Público do Estado do Rio de Janeiro (MPRJ) deram pareceres favoráveis ao encerramento. Coma decisão judicial, deve ser retirada a expressão “em recuperação judicial” dos nomes das empresas nos registros oficiais.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705883&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705883&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Apesar do encerramento, questões envolvendo credores ainda poderão ser discutidas no âmbito judicial.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na sentença, o juiz Arthur Eduardo Magalhães Ferreira esclareceu que o fim do processo não impede a cobrança de obrigações previstas no plano.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Qualquer credor que se repute prejudicado por descumprimento de obrigação do plano poderá requerer a execução específica ou a falência”, escreveu o magistrado.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Americanas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em fato relevante ao mercado, a Americanas informou que “o encerramento da recuperação judicial representa um marco importante na trajetória da companhia e inaugura uma nova etapa de seus negócios”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na nota, agradece a seus associados, fornecedores, clientes e demais parceiros pela confiança.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O comunicado é assinado pelo diretor Financeiro e de Relações com Investidores, Sebastien Durchor.</p>",
+      "imagem": "https://imagens.ebc.com.br/n5b2MZEsFfsKmDTcNnBHF8Uowag=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/07/02/_mg_8996_0.jpg?itok=eDEPJu4R",
+      "slug": "justica-decreta-fim-da-recuperacao-judicial-da-americanas",
+      "pagina_local": "justica-decreta-fim-da-recuperacao-judicial-da-americanas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
-    },
-    {
-      "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
-      "resumo": "A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso seman...",
-      "conteudo_completo": "A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso semanal, ocorre após mais de um século de reivindicações por limites à jornada de trabalho e por condições que assegurem aos trabalhadores tempo para atividades além do emprego.\n\nCom base em informações históricas do Ministério do Trabalho e Emprego (MTE) e do Tribunal Superior do Trabalho (TST), a Agência Brasil fez um levantamento dos principais marcos da evolução da jornada de trabalho no país.\n\nHerança escravista\n\nNotícias relacionadas:Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.Saiba quando começa a valer o fim da escala 6x1.Congresso promulga emenda de aposentadoria especial de agente de saúde.Antes das primeiras leis trabalhistas, a economia brasileira foi sustentada por séculos pelo trabalho escravizado. Segundo o TST, a história do trabalho livre e assalariado é relativamente recente no país.\n\nDurante 400 anos, a economia brasileira se apoiou no trabalho realizado por pessoas escravizadas. Já o período de trabalho livre e remunerado tem pouco mais de um século.\n\nEssa herança ajuda a explicar por que a construção dos direitos trabalhistas ocorreu de forma gradual.\n\nPrimeiros passos\n\nNo início do século 20, trabalhadores passaram a se organizar para reivindicar direitos e limites para a jornada de trabalho. Naquele período, a ausência de regras gerais permitia jornadas extensas em diversos setores da economia.\n\nSegundo o histórico do MTE, em 1912, a Confederação Brasileira do Trabalho (CBT), criada durante o 4º Congresso Operário Brasileiro, defendia uma pauta que incluía a jornada de oito horas diárias e a semana de seis dias de trabalho.\n\nTambém estavam entre as reivindicações a indenização por acidentes de trabalho, o salário mínimo, o seguro obrigatório para doenças e a pensão para velhice.\n\nMinistério, Justiça e CLT\n\nPoucos anos depois, em 1918, o governo federal criou o Departamento Nacional do Trabalho, uma das primeiras estruturas estatais voltadas à regulamentação das relações trabalhistas.\n\nA institucionalização da proteção ao trabalho avançou em 1923, com a criação do Conselho Nacional do Trabalho. O órgão é apontado pelo TST como um dos marcos iniciais da estrutura que daria origem à Justiça do Trabalho brasileira.\n\nNa década de 1930, com a criação do Ministério do Trabalho pelo governo de Getúlio Vargas, o direito do trabalho passou por um processo de ampliação, organização e regulamentação.\n\nSegundo o TST, esse movimento culminou na instalação da Justiça do Trabalho, em 1941, e na consolidação da legislação trabalhista nos anos seguintes.\n\nUm dos principais marcos desse processo foi a criação da Consolidação das Leis do Trabalho (CLT), em 1943, que reuniu e organizou a legislação trabalhista existente.\n\nDa Constituição Federal ao fim da escala 6x1\n \n\n\n            \n        \n    \nProtesto contra escala 6 por 1 em São Paulo. Foto: Paulo Pinto/Arquivo Agência Brasil\n\n\nDurante grande parte do século 20, a jornada semanal máxima prevista na legislação brasileira era de 48 horas.\n\nA Constituição Federal de 1988 promoveu uma das mudanças mais importantes nesse modelo ao reduzir o limite para 44 horas semanais, mantendo o teto de oito horas por dia.\n\nA promulgação do fim da escala 6x1 representa agora mais uma alteração relevante nessa trajetória.\n\nAo assegurar dois dias de descanso por semana, a nova regra modifica uma forma de organização do trabalho que permaneceu por décadas em atividades como comércio e serviços.\n\nA medida amplia o período de descanso dos trabalhadores e se soma a uma série de mudanças que, ao longo da história brasileira, buscaram limitar o tempo dedicado ao trabalho e ampliar direitos dos brasileiros.\n\nLinha do tempo\n\nAté 1888 – A economia brasileira se apoia majoritariamente no trabalho escravizado, sem direitos trabalhistas\n\n1912 – A Confederação Brasileira do Trabalho passa a defender a jornada de oito horas diárias e a semana de seis dias de trabalho\n\n1918 – Criação do Departamento Nacional do Trabalho\n\n1923 – Criação do Conselho Nacional do Trabalho\n\n1930 – Criação do Ministério do Trabalho, Indústria e Comércio\n\n1941 – Instalação da Justiça do Trabalho\n\n1943 – Criação da Consolidação das Leis do Trabalho (CLT)\n\n1988 – A Constituição Federal reduz de 48 para 44 horas o limite semanal de trabalho\n\n2026 – Congresso Nacional promulga a emenda constitucional que extingue a escala 6x1 e garante dois dias de descanso semanal a todos os trabalhadores",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/congresso-promulga-emenda-do-fim-da-6x1-escala-5x2-comeca-em-60-dias\" target=\"_blank\">promulgação da emenda constitucional</a> que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso semanal, ocorre após mais de um século de reivindicações por limites à jornada de trabalho e por condições que assegurem aos trabalhadores tempo para atividades além do emprego.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705602&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705602&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com base em informações históricas do Ministério do Trabalho e Emprego (MTE) e do <a href=\"https://www.tst.jus.br/linha-do-tempo\" target=\"_blank\">Tribunal Superior do Trabalho (TST)</a>, a <strong>Agência Brasil </strong>fez um levantamento dos principais marcos da evolução da jornada de trabalho no país.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Herança escravista</h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Antes das primeiras leis trabalhistas, a economia brasileira foi sustentada por séculos pelo trabalho escravizado. Segundo o TST, a história do trabalho livre e assalariado é relativamente recente no país.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante 400 anos, a economia brasileira se apoiou no trabalho realizado por pessoas escravizadas. Já o período de trabalho livre e remunerado tem pouco mais de um século.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Essa herança ajuda a explicar por que a construção dos direitos trabalhistas ocorreu de forma gradual.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Primeiros passos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No início do século 20, trabalhadores passaram a se organizar para reivindicar direitos e limites para a jornada de trabalho. Naquele período, a ausência de regras gerais permitia jornadas extensas em diversos setores da economia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o histórico do MTE, em 1912, a Confederação Brasileira do Trabalho (CBT), criada durante o 4º Congresso Operário Brasileiro, defendia uma pauta que incluía a jornada de oito horas diárias e a semana de seis dias de trabalho.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também estavam entre as reivindicações a indenização por acidentes de trabalho, o salário mínimo, o seguro obrigatório para doenças e a pensão para velhice.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Ministério, Justiça e CLT</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Poucos anos depois, em 1918, o governo federal criou o Departamento Nacional do Trabalho, uma das primeiras estruturas estatais voltadas à regulamentação das relações trabalhistas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A institucionalização da proteção ao trabalho avançou em 1923, com a criação do Conselho Nacional do Trabalho. O órgão é apontado pelo TST como um dos marcos iniciais da estrutura que daria <a href=\"https://www.tst.jus.br/historia-da-justica-do-trabalho\" target=\"_blank\">origem à Justiça do Trabalho brasileira</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na década de 1930, com a <a href=\"https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/itens-para-verificar/uncategorised/historico-do-mte\" target=\"_blank\">criação do Ministério do Trabalho</a> pelo governo de Getúlio Vargas, o direito do trabalho passou por um processo de ampliação, organização e regulamentação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o TST, esse movimento culminou na instalação da Justiça do Trabalho, em 1941, e na consolidação da legislação trabalhista nos anos seguintes.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Um dos principais marcos desse processo foi a criação da Consolidação das Leis do Trabalho (CLT), em 1943, que reuniu e organizou a legislação trabalhista existente.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Da Constituição Federal ao fim da escala 6x1<br/>\n </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante grande parte do século 20, a jornada semanal máxima prevista na legislação brasileira era de 48 horas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Constituição Federal de 1988 promoveu uma das mudanças mais importantes nesse modelo ao reduzir o limite para 44 horas semanais, mantendo o teto de oito horas por dia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A promulgação do fim da escala 6x1 representa agora mais uma alteração relevante nessa trajetória.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao assegurar dois dias de descanso por semana, a nova regra modifica uma forma de organização do trabalho que permaneceu por décadas em atividades como comércio e serviços.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida amplia o período de descanso dos trabalhadores e se soma a uma série de mudanças que, ao longo da história brasileira, buscaram limitar o tempo dedicado ao trabalho e ampliar direitos dos brasileiros.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Linha do tempo</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Até 1888 – A economia brasileira se apoia majoritariamente no trabalho escravizado, sem direitos trabalhistas</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1912 – A Confederação Brasileira do Trabalho passa a defender a jornada de oito horas diárias e a semana de seis dias de trabalho</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1918 – Criação do Departamento Nacional do Trabalho</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1923 – Criação do Conselho Nacional do Trabalho</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1930 – Criação do Ministério do Trabalho, Indústria e Comércio</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1941 – Instalação da Justiça do Trabalho</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1943 – Criação da Consolidação das Leis do Trabalho (CLT)</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>1988 – A Constituição Federal reduz de 48 para 44 horas o limite semanal de trabalho</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>2026 – Congresso Nacional promulga a emenda constitucional que extingue a escala 6x1 e garante dois dias de descanso semanal a todos os trabalhadores</p>",
-      "imagem": "https://imagens.ebc.com.br/t1ySLVY5umJos-K8woWvdQ_YAjs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/rabalhadores_em_uma_oficina.jpg?itok=TojJ_167",
-      "slug": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil",
-      "pagina_local": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     }
   ]
 };

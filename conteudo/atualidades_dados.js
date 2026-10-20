@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "20/10/2026 às 00:13:21",
+  "ultima_atualizacao": "20/10/2026 às 05:48:49",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
+      "resumo": "A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de re...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Justiça do Rio de Janeiro decretou, nesta segunda-feira (19), o fim da recuperação judicial do Grupo Americanas.  A decisão, da 4ª Vara Empresarial da capital, considera que o grupo cumpriu as obrigações do plano de recuperação judicial. Ainda cabe recurso da decisão.\n\nA Americanas iniciou o processo de recuperação judicial em janeiro de 2023, após a revelação de irregularidades contábeis de cerca de R$ 20 bilhões na empresa. Na época, a Americanas informou ter dívidas de aproximadamente R$ 43 bilhões, o que levou à reestruturação dos débitos com credores. O plano foi aprovado em dezembro de 2023 e homologado pela Justiça em fevereiro de 2024.\n\nA administração judicial e do Ministério Público do Estado do Rio de Janeiro (MPRJ) deram pareceres favoráveis ao encerramento. Coma decisão judicial, deve ser retirada a expressão “em recuperação judicial” dos nomes das empresas nos registros oficiais.\n\nApesar do encerramento, questões envolvendo credores ainda poderão ser discutidas no âmbito judicial.\n\nNotícias relacionadas:Americanas pedem à Justiça encerramento da recuperação judicial.Na sentença, o juiz Arthur Eduardo Magalhães Ferreira esclareceu que o fim do processo não impede a cobrança de obrigações previstas no plano.\n\n“Qualquer credor que se repute prejudicado por descumprimento de obrigação do plano poderá requerer a execução específica ou a falência”, escreveu o magistrado.\n\nAmericanas\n\nEm fato relevante ao mercado, a Americanas informou que “o encerramento da recuperação judicial representa um marco importante na trajetória da companhia e inaugura uma nova etapa de seus negócios”.\n\nNa nota, agradece a seus associados, fornecedores, clientes e demais parceiros pela confiança.\n\nO comunicado é assinado pelo diretor Financeiro e de Relações com Investidores, Sebastien Durchor.</p>",
+      "imagem": "https://imagens.ebc.com.br/n5b2MZEsFfsKmDTcNnBHF8Uowag=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/07/02/_mg_8996_0.jpg?itok=eDEPJu4R",
+      "slug": "justica-decreta-fim-da-recuperacao-judicial-da-americanas",
+      "pagina_local": "justica-decreta-fim-da-recuperacao-judicial-da-americanas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "20/10/2026 às 05:48"
+    },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
       "resumo": "A equipe econômica pretende remanejar cerca de R$ 20 bilhões no Orçamento de 2027 para acomodar medidas de estímulo econômico anunciadas recentemente, informou nesta segunda-feira (19) o Ministério do Planejamento e Orça...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Pagamentos de outubro do Bolsa Família começam nesta segunda",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Minerais críticos e estratégicos empregam 129 mil pessoas no Brasil",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Empresas de três regiões terão aporte de R$ 450 milhões para inovação",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "BB recebe até 31 de outubro inscrições para projetos de impacto social",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Cortes em auxílios sociais podem gerar retração em cidades do interior",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Anac estabelece regras mais restritivas para aviação em Congonhas (SP)",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Governo prevê crédito a empresas afetadas por fim da 6x1, diz Durigan",
@@ -117,20 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
-    },
-    {
-      "titulo": "Do trabalho sem limite ao fim da 6x1: veja avanço da jornada no Brasil",
-      "resumo": "A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois di...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A promulgação da emenda constitucional que extingue a escala de seis dias de trabalho para um de descanso marca um novo capítulo da história das relações trabalhistas no Brasil. A mudança, que garante o direito a dois dias de descanso semanal, ocorre após mais de um século de reivindicações por limites à jornada de trabalho e por condições que assegurem aos trabalhadores tempo para atividades além do emprego.\n\nCom base em informações históricas do Ministério do Trabalho e Emprego (MTE) e do Tribunal Superior do Trabalho (TST), a Agência Brasil fez um levantamento dos principais marcos da evolução da jornada de trabalho no país.\n\nHerança escravista\n\nNotícias relacionadas:Descanso de trabalhador não quebra empresas, diz Lula após fim da 6x1.Saiba quando começa a valer o fim da escala 6x1.Congresso promulga emenda de aposentadoria especial de agente de saúde.Antes das primeiras leis trabalhistas, a economia brasileira foi sustentada por séculos pelo trabalho escravizado. Segundo o TST, a história do trabalho livre e assalariado é relativamente recente no país.\n\nDurante 400 anos, a economia brasileira se apoiou no trabalho realizado por pessoas escravizadas. Já o período de trabalho livre e remunerado tem pouco mais de um século.\n\nEssa herança ajuda a explicar por que a construção dos direitos trabalhistas ocorreu de forma gradual.\n\nPrimeiros passos\n\nNo início do século 20, trabalhadores passaram a se organizar para reivindicar direitos e limites para a jornada de trabalho. Naquele período, a ausência de regras gerais permitia jornadas extensas em diversos setores da economia.\n\nSegundo o histórico do MTE, em 1912, a Confederação Brasileira do Trabalho (CBT), criada durante o 4º Congresso Operário Brasileiro, defendia uma pauta que incluía a jornada de oito horas diárias e a semana de seis dias de trabalho.\n\nTambém estavam entre as reivindicações a indenização por acidentes de trabalho, o salário mínimo, o seguro obrigatório para doenças e a pensão para velhice.\n\nMinistério, Justiça e CLT\n\nPoucos anos depois, em 1918, o governo federal criou o Departamento Nacional do Trabalho, uma das primeiras estruturas estatais voltadas à regulamentação das relações trabalhistas.\n\nA institucionalização da proteção ao trabalho avançou em 1923, com a criação do Conselho Nacional do Trabalho. O órgão é apontado pelo TST como um dos marcos iniciais da estrutura que daria origem à Justiça do Trabalho brasileira.\n\nNa década de 1930, com a criação do Ministério do Trabalho pelo governo de Getúlio Vargas, o direito do trabalho passou por um processo de ampliação, organização e regulamentação.\n\nSegundo o TST, esse movimento culminou na instalação da Justiça do Trabalho, em 1941, e na consolidação da legislação trabalhista nos anos seguintes.\n\nUm dos principais marcos desse processo foi a criação da Consolidação das Leis do Trabalho (CLT), em 1943, que reuniu e organizou a legislação trabalhista existente.\n\nDa Constituição Federal ao fim da escala 6x1\n \n\n\n            \n        \n    \nProtesto contra escala 6 por 1 em São Paulo. Foto: Paulo Pinto/Arquivo Agência Brasil\n\n\nDurante grande parte do século 20, a jornada semanal máxima prevista na legislação brasileira era de 48 horas.\n\nA Constituição Federal de 1988 promoveu uma das mudanças mais importantes nesse modelo ao reduzir o limite para 44 horas semanais, mantendo o teto de oito horas por dia.\n\nA promulgação do fim da escala 6x1 representa agora mais uma alteração relevante nessa trajetória.\n\nAo assegurar dois dias de descanso por semana, a nova regra modifica uma forma de organização do trabalho que permaneceu por décadas em atividades como comércio e serviços.\n\nA medida amplia o período de descanso dos trabalhadores e se soma a uma série de mudanças que, ao longo da história brasileira, buscaram limitar o tempo dedicado ao trabalho e ampliar direitos dos brasileiros.\n\nLinha do tempo\n\nAté 1888 – A economia brasileira se apoia majoritariamente no trabalho escravizado, sem direitos trabalhistas\n\n1912 – A Confederação Brasileira do Trabalho passa a defender a jornada de oito horas diárias e a semana de seis dias de trabalho\n\n1918 – Criação do Departamento Nacional do Trabalho\n\n1923 – Criação do Conselho Nacional do Trabalho\n\n1930 – Criação do Ministério do Trabalho, Indústria e Comércio\n\n1941 – Instalação da Justiça do Trabalho\n\n1943 – Criação da Consolidação das Leis do Trabalho (CLT)\n\n1988 – A Constituição Federal reduz de 48 para 44 horas o limite semanal de trabalho\n\n2026 – Congresso Nacional promulga a emenda constitucional que extingue a escala 6x1 e garante dois dias de descanso semanal a todos os trabalhadores</p>",
-      "imagem": "https://imagens.ebc.com.br/t1ySLVY5umJos-K8woWvdQ_YAjs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/16/rabalhadores_em_uma_oficina.jpg?itok=TojJ_167",
-      "slug": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil",
-      "pagina_local": "do-trabalho-sem-limite-ao-fim-da-6x1-veja-avanco-da-jornada-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/do-trabalho-sem-limites-ao-fim-da-escala-6x1-veja-evolucao-da-jornada",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     },
     {
       "titulo": "PF faz nova ação contra suspeitos de lavagem de dinheiro em postos",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "20/10/2026 às 00:13"
+      "coletado_em": "20/10/2026 às 05:48"
     }
   ]
 };
