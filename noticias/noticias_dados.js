@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "21/10/2026 às 04:14:25",
+  "ultima_atualizacao": "21/10/2026 às 09:57:30",
   "total": 37,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-para-r-501-com-exterior-e-expectativa-eleitoral-no-brasil",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Brasil define cotas para exportar com tarifas reduzidas para a Noruega",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-define-cotas-para-exportar-com-tarifas-reduzidas-para-noruega",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "TCU aprova contas do BC de 2025 após desvincular processo do Master",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/tcu-aprova-contas-do-bc-de-2025-apos-desvincular-processo-do-master",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Restituições do IR batem recorde e chegam a R$ 41 bilhões em 2026",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/restituicoes-do-ir-batem-recorde-e-chegam-r-41-bilhoes-em-2026",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "IBGE é autorizado a abrir 325 vagas temporárias",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibge-e-autorizado-abrir-325-vagas-temporarias",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Justiça decreta fim da recuperação judicial da Americanas",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/justica-decreta-fim-da-recuperacao-judicial-da-americanas",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Governo pretende realocar R$ 20 bilhões no Orçamento de 2027",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-pretende-realocar-r-20-bilhoes-no-orcamento-de-2027",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV",
@@ -130,7 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economia-cresce-05-em-agosto-apos-dois-meses-de-recuo-estima-fgv",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Comitê da Meta aponta falhas de moderação nas eleições brasileiras",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/comite-da-meta-aponta-falhas-de-moderacao-nas-eleicoes-brasileiras",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Lula confirma PEC da Tarifa Zero; Flávio tem apoio de sertanejos",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-confirma-pec-da-tarifa-zero-flavio-tem-apoio-de-sertanejos",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "André Janones recebe alta e deixa hospital em São Paulo",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/andre-janones-recebe-alta-e-deixa-hospital-em-sao-paulo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Eleições: saiba quais documentos são aceitos para votar no 2° turno",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-saiba-quais-documentos-sao-aceitos-para-votar-no-2deg-turno",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Meta recusa pedido federal para criar canal de proteção a jornalistas",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/meta-recusa-pedido-federal-para-criar-canal-de-protecao-jornalistas",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "TSE: Lula autoriza quebra de sigilo bancário se Flávio fizer o mesmo",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-lula-autoriza-quebra-de-sigilo-bancario-se-flavio-fizer-o-mesmo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Local de votação ainda pode mudar; consulte de novo antes de ir à urna",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/local-de-votacao-ainda-pode-mudar-consulte-de-novo-antes-de-ir-urna",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Fenaj manifesta indignação com formato do debate da TV Band",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/fenaj-manifesta-indignacao-com-formato-do-debate-da-tv-band",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta terça-feira (20)",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-terca-feira-20",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Sociedade civil apresenta propostas aos candidatos à Presidência",
@@ -260,7 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/sociedade-civil-apresenta-propostas-aos-candidatos-presidencia",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-faz-operacao-no-interior-de-sp-contra-fraudes-bancarias",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/deputado-estadual-marcelo-aguiar-e-detido-apos-disparo-em-bar",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-premio-pode-chegar-r-185-milhoes-na-terca-feira",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-170-milhoes-neste-domingo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Professora aposentada da UFRJ é baleada em assalto na zona sul do Rio",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/professora-aposentada-da-ufrj-e-baleada-em-assalto-na-zona-sul-do-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Três suspeitos são mortos pela polícia militar em assalto a casa em SP",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/tres-suspeitos-sao-mortos-pela-policia-militar-em-assalto-casa-em-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "São Paulo terá mais chuvas fortes no fim da tarde desta quinta (15)",
@@ -390,7 +390,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/sao-paulo-tera-mais-chuvas-fortes-no-fim-da-tarde-desta-quinta-15",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
+    },
+    {
+      "titulo": "Itamaraty acusa Milei de tentar interferir na eleição brasileira",
+      "resumo": "O Palácio Itamaraty emitiu nota de repúdio, nesta terça-feira (20), em relação às novas ofensas do presidente da Argentina, Javier Milei, contra o presidente Luiz Inácio Lula da Silva e por ter insinuado fraude nas eleições.\n\nO líder do paí...",
+      "conteudo_completo": "O Palácio Itamaraty emitiu nota de repúdio, nesta terça-feira (20), em relação às novas ofensas do presidente da Argentina, Javier Milei, contra o presidente Luiz Inácio Lula da Silva e por ter insinuado fraude nas eleições.\n\nO líder do país vizinho usou suas redes sociais para atacar o presidente brasileiro e candidato à reeleição e chegou a insinuar fraude nas eleições, cujo segundo turno será disputado no próximo domingo (25). Milei é aliado declarado da família Bolsonaro.\n\n\nNotícias relacionadas:Milei lança plano para demitir 21 mil servidores na Argentina .\"As ofensas de hoje do Presidente da República Argentina ao Brasil, desta vez dirigidas ao Poder Judiciário e ao sistema de voto eletrônico, constituem nova e inaceitável tentativa de ingerência externa no processo democrático brasileiro\", afirmou a pasta das Relações Exteriores.\n\n\nEm uma postagem na rede social X, Milei compartilhou um trecho da entrevista de Lula ao SBT, concedida na noite de ontem, e escreveu em seguida que espera que \"o último truque de campanha suja não inclua roubar a eleição\".\n\nMilei ainda compartilhou outro post, desta vez com trecho do debate entre Lula e Flávio Bolsonaro, realizado no último domingo (18), em que chama Lula de \"autoritário adorado pelos progressistas locais\"\n\nNa nota de repúdio, o Itamaraty aponta que Milei \"reitera mentiras difundidas por aqueles que perderam as eleições e protagonizaram o golpe militar fracassado, há quatro anos\". \"Essa antidemocrática manifestação é inaceitável, desequilibrada, e não condiz com a postura que deve ter o chefe de Estado de um país amigo\".\n\nAinda na nota, o Itamaraty reafirmou que \"o sistema brasileiro de voto eletrônico é comprovadamente seguro, nunca registrou irregularidades e observadores eleitorais do mundo inteiro já ratificaram essa realidade no primeiro turno das eleições\".\n\nE finalizou: \"A decisão sobre o futuro do Brasil cabe exclusivamente ao povo brasileiro, que se manifestará livremente nas urnas, e sem qualquer tipo de ingerência externa, no domingo, dia 25\".\n\nRelações rebaixadas\n\nAs sucessivas agressões verbais de Milei contra Lula e o Brasil resultaram no rebaixamento das relações bilaterais entre Brasília e Buenos Aires nos últimos meses. Desde agosto, o Brasil não mantém mais embaixador na Argentina e determinou que o embaixador argentino deixasse a capital federal. Os insultos do presidente argentino foram considerados um desrespeito inaceitável em relações bilaterais.\n\nDesde então, o Brasil está sendo representado no país vizinho por um Encarregado de Negócios, cargo mais baixo que expressa esse rebaixamento diplomático.  \n\nEm 26 de julho, o embaixador brasileiro Bitelli foi convocado a voltar a Brasília após Milei xingar o presidente Lula em convenção partidária do Partido Liberal (PL), que indicou o senador Flávio Bolsonaro a disputar a Presidência da República.  \n\nNa ocasião, Milei chamou Lula de \"presidiário\" e atacou o ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes, relator do julgamento que condenou o pai de Flávio, o ex-presidente Jair Bolsonaro, a 27 anos de prisão por tentativa de golpe de Estado.\n\nO Brasil é o principal parceiro comercial da Argentina, em termos de compra e vendas de mercadorias. Os dois principais sócios do Mercosul, que compartilham de uma bicentenária relação diplomática, possuem economias fortemente integradas, especialmente nos setores automotivo e industrial.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Palácio Itamaraty emitiu nota de repúdio, nesta terça-feira (20), em relação às novas ofensas do presidente da Argentina, Javier Milei, contra o presidente Luiz Inácio Lula da Silva e por ter insinuado fraude nas eleições.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706007&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706007&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O líder do país vizinho usou suas redes sociais para atacar o presidente brasileiro e candidato à reeleição e chegou a insinuar fraude nas eleições, cujo segundo turno será disputado no próximo domingo (25). </strong>Milei é aliado declarado da família Bolsonaro.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>\"As ofensas de hoje do Presidente da República Argentina ao Brasil, desta vez dirigidas ao Poder Judiciário e ao sistema de voto eletrônico, constituem nova e inaceitável tentativa de ingerência externa no processo democrático brasileiro\", afirmou a pasta das Relações Exteriores.</p>\n</blockquote>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"As ofensas de hoje do Presidente da República Argentina ao Brasil, desta vez dirigidas ao Poder Judiciário e ao sistema de voto eletrônico, constituem nova e inaceitável tentativa de ingerência externa no processo democrático brasileiro\", afirmou a pasta das Relações Exteriores.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em uma postagem na rede social X, Milei compartilhou um trecho da entrevista de Lula ao SBT, concedida na noite de ontem, e escreveu em seguida que espera que \"o último truque de campanha suja não inclua roubar a eleição\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Milei ainda compartilhou outro post, desta vez com trecho do debate entre Lula e Flávio Bolsonaro, realizado no último domingo (18), em que chama Lula de \"autoritário adorado pelos progressistas locais\"</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na nota de repúdio, o Itamaraty aponta que Milei \"reitera mentiras difundidas por aqueles que perderam as eleições e protagonizaram o golpe militar fracassado, há quatro anos\". \"Essa antidemocrática manifestação é inaceitável, desequilibrada, e não condiz com a postura que deve ter o chefe de Estado de um país amigo\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ainda na nota, o Itamaraty reafirmou que \"o sistema brasileiro de voto eletrônico é comprovadamente seguro, nunca registrou irregularidades e observadores eleitorais do mundo inteiro já ratificaram essa realidade no primeiro turno das eleições\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>E finalizou: \"A decisão sobre o futuro do Brasil cabe exclusivamente ao povo brasileiro, que se manifestará livremente nas urnas, e sem qualquer tipo de ingerência externa, no domingo, dia 25\".</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Relações rebaixadas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As sucessivas agressões verbais de Milei contra Lula e o Brasil resultaram no <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2026-08/brasil-rebaixa-relacao-com-argentina-apos-novos-insultos-de-milei\" target=\"_blank\">rebaixamento das relações bilaterais entre Brasília e Buenos Aires nos últimos meses</a>. Desde agosto, o Brasil não mantém mais embaixador na Argentina e determinou que o embaixador argentino deixasse a capital federal. Os insultos do presidente argentino foram considerados um desrespeito inaceitável em relações bilaterais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde então, o Brasil está sendo representado no país vizinho por um Encarregado de Negócios, cargo mais baixo que expressa esse rebaixamento diplomático.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em 26 de julho, o embaixador brasileiro Bitelli foi convocado a voltar a Brasília após Milei xingar o presidente Lula em convenção partidária do Partido Liberal (PL), que indicou o senador Flávio Bolsonaro a disputar a Presidência da República.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na ocasião, Milei chamou Lula de \"presidiário\" e atacou o ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes, relator do julgamento que condenou o pai de Flávio, o ex-presidente Jair Bolsonaro, a 27 anos de prisão por tentativa de golpe de Estado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Brasil é o principal parceiro comercial da Argentina, em termos de compra e vendas de mercadorias. Os dois principais sócios do Mercosul, que compartilham de uma bicentenária relação diplomática, possuem economias fortemente integradas, especialmente nos setores automotivo e industrial.</p>",
+      "imagem": "https://imagens.ebc.com.br/jFUkd6ibpeqwzJMnaTwxs4XxDKc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/fachada-ministerio_mcamgo_abr_100420231818-18.jpg?itok=y0f3hERu",
+      "slug": "itamaraty-acusa-milei-de-tentar-interferir-na-eleicao-brasileira",
+      "pagina_local": "itamaraty-acusa-milei-de-tentar-interferir-na-eleicao-brasileira.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/itamaraty-acusa-milei-de-tentar-interferir-na-eleicao-brasileira",
+      "categoria": "Últimas Notícias",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Inter e Bragantino avançam às semifinais da Copa do Brasil Feminina",
@@ -403,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/inter-e-bragantino-avancam-semifinais-da-copa-do-brasil-feminina",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "TSE não participa de mudança de locais de votação, diz Nunes Marques",
@@ -416,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-nao-participa-de-mudanca-de-locais-de-votacao-diz-nunes-marques",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "TSE reúne Meta e campanhas para tratar de restrições de postagens",
@@ -429,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-reune-meta-e-campanhas-para-tratar-de-restricoes-de-postagens",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Quase 90% de conteúdos virais sobre saúde são falsos, diz Agência Lupa",
@@ -442,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/quase-90-de-conteudos-virais-sobre-saude-sao-falsos-diz-agencia-lupa",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "AGU busca recuperar R$ 190 milhões de integrantes do PCC e do CV",
@@ -455,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/agu-busca-recuperar-r-190-milhoes-de-integrantes-do-pcc-e-do-cv",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     },
     {
       "titulo": "Supervisão parental nas redes deve ser reforçada, diz diretora da ANPD",
@@ -468,20 +481,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/supervisao-parental-nas-redes-deve-ser-reforcada-diz-diretora-da-anpd",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
-    },
-    {
-      "titulo": "Governo do RJ deverá adquirir câmeras para policiais em março de 2027",
-      "resumo": "O governo do estado do Rio de Janeiro pretende concluir o processo de licitação e contratar novas câmeras corporais para uso pelas forças de segurança do estado, em março de 2027. \n\nA compra foi uma das demandas do Ministério Público do Est...",
-      "conteudo_completo": "O governo do estado do Rio de Janeiro pretende concluir o processo de licitação e contratar novas câmeras corporais para uso pelas forças de segurança do estado, em março de 2027. \n\nA compra foi uma das demandas do Ministério Público do Estado do Rio de Janeiro (MPRJ) após a Operação Contenção, realizada em outubro de 2025, que deixou 122 mortos e foi a mais letal do estado do Rio. \n\nNotícias relacionadas:MPRJ denuncia mais oito PMs que participaram da Operação Contenção.Moraes envia à PGR imagens da Operação Contenção.O cronograma de licitação foi apresentado em reunião do Grupo de Atuação Especializada em Segurança Pública do Ministério Público do Estado do Rio de Janeiro (Gaesp/MPRJ) com a Secretaria de Estado de Segurança Pública (SESP).\n\n\n“Nosso objetivo é garantir que os equipamentos sejam utilizados de forma efetiva, com regras claras para o armazenamento e o acesso às imagens. Trata-se de uma ferramenta fundamental para assegurar maior transparência às operações policiais, preservar provas e fortalecer tanto a fiscalização da atividade policial quanto a segurança dos próprios agentes”, destacou o promotor de Justiça Fabio Corrêa.\n\n\nTambém foram discutidas, de acordo com o MPRJ, questões relacionadas ao armazenamento das imagens registradas pelos equipamentos.\n\n“Queremos garantir que as imagens gravadas fiquem sob a guarda do Estado, preservando as provas e permitindo o acesso direto e imediato dos órgãos de fiscalização e das autoridades responsáveis pelas investigações e ações penais\", afirmou o secretário de Segurança do Rio, Victor dos Santos.\n\nOutras recomendações\n\nAlém da ampliação do número de câmeras, o MPRJ recomendou o aperfeiçoamento dos mecanismos de fiscalização e do treinamento dos agentes, além da utilização dos dispositivos em operações policiais.\n\nAs recomendações integram a atuação do MPRJ no cumprimento das determinações do Supremo Tribunal Federal (STF) no âmbito da Arguição de Descumprimento de Preceito Fundamental (ADPF) nº 635 (conhecida como a ADPF das Favelas) e no exercício do controle externo da atividade policial.  \n\nPela ADPF, devem ser seguidas regras em operações policiais como o uso proporcional da força policial, câmeras nas viaturas, elaboração de um plano de reocupação de territórios invadidos pelas organizações criminosas, além da entrada da Polícia Federal nas investigações contra milícias e tráfico de drogas interestadual e internacional.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O governo do estado do Rio de Janeiro pretende concluir o processo de licitação e contratar novas câmeras corporais para uso pelas forças de segurança do estado, em março de 2027. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705989&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705989&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A compra foi uma das demandas do Ministério Público do Estado do Rio de Janeiro (MPRJ) após a <a href=\"https://agenciabrasil.ebc.com.br/tags/operacao-contencao\">Operação Contenção</a>, realizada em outubro de 2025, que deixou 122 mortos e foi a mais letal do estado do Rio. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O cronograma de licitação foi apresentado em reunião do Grupo de Atuação Especializada em Segurança Pública do Ministério Público do Estado do Rio de Janeiro (Gaesp/MPRJ) com a Secretaria de Estado de Segurança Pública (SESP).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Nosso objetivo é garantir que os equipamentos sejam utilizados de forma efetiva, com regras claras para o armazenamento e o acesso às imagens. Trata-se de uma ferramenta fundamental para assegurar maior transparência às operações policiais, preservar provas e fortalecer tanto a fiscalização da atividade policial quanto a segurança dos próprios agentes”, destacou o promotor de Justiça Fabio Corrêa.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nosso objetivo é garantir que os equipamentos sejam utilizados de forma efetiva, com regras claras para o armazenamento e o acesso às imagens. Trata-se de uma ferramenta fundamental para assegurar maior transparência às operações policiais, preservar provas e fortalecer tanto a fiscalização da atividade policial quanto a segurança dos próprios agentes”, destacou o promotor de Justiça Fabio Corrêa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Também foram discutidas, de acordo com o MPRJ, questões relacionadas ao armazenamento das imagens registradas pelos equipamentos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Queremos garantir que as imagens gravadas fiquem sob a guarda do Estado, preservando as provas e permitindo o acesso direto e imediato dos órgãos de fiscalização e das autoridades responsáveis pelas investigações e ações penais\", afirmou o secretário de Segurança do Rio, Victor dos Santos.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Outras recomendações</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Além da ampliação do número de câmeras, o MPRJ recomendou o aperfeiçoamento dos mecanismos de fiscalização e do treinamento dos agentes, além da utilização dos dispositivos em operações policiais.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As recomendações integram a atuação do MPRJ no cumprimento das determinações do Supremo Tribunal Federal (STF) no âmbito da Arguição de Descumprimento de Preceito Fundamental (ADPF) nº 635 (<a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2025-10/adpf-das-favelas-entenda-medidas-que-foram-determinadas-pelo-stf\">conhecida como a ADPF das Favelas</a>) e no exercício do controle externo da atividade policial.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Pela ADPF, devem ser seguidas regras em operações policiais como o uso proporcional da força policial, câmeras nas viaturas, elaboração de um plano de reocupação de territórios invadidos pelas organizações criminosas, além da entrada da Polícia Federal nas investigações contra milícias e tráfico de drogas interestadual e internacional. </p>",
-      "imagem": "https://imagens.ebc.com.br/EunbdNCwlMS77Keol4lU0tyzu2E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/28/2025-10-28t154639z_743868207_rc23lhasao1q_rtrmadp_3_brazil-violence.jpg?itok=pRwIotOI",
-      "slug": "governo-do-rj-devera-adquirir-cameras-para-policiais-em-marco-de-2027",
-      "pagina_local": "governo-do-rj-devera-adquirir-cameras-para-policiais-em-marco-de-2027.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/governo-do-rj-devera-adquirir-cameras-para-policiais-em-marco-de-2027",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "21/10/2026 às 04:14"
+      "coletado_em": "21/10/2026 às 09:57"
     }
   ]
 };
