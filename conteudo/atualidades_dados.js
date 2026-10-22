@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "21/10/2026 às 23:14:06",
+  "ultima_atualizacao": "22/10/2026 às 04:14:51",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Beneficiários com NIS de final 3 a 0 recebem Bolsa Família de outubro",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Mega-Sena não tem acertador e prêmio vai a R$ 200 milhões",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Brasil define cotas para exportar com tarifas reduzidas para a Noruega",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "PF faz operação contra fraudes em concurso público no Rio",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Deputado estadual Marcelo Aguiar é detido após disparo em bar",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio pode chegar a R$ 185 milhões na terça-feira",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 170 milhões neste domingo",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     }
   ]
 };

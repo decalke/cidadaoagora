@@ -1,7 +1,35 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "21/10/2026 às 23:14:03",
+  "ultima_atualizacao": "22/10/2026 às 04:14:49",
   "total": 30,
   "politica": [
+    {
+      "titulo": "Flávio faz campanha em São Paulo; Lula teve ato em Belo Horizonte",
+      "resumo": "Os candidatos a presidente cumpriram agenda de campanha nesta quarta-feira (21) em Belo Horizonte, Fortaleza e São Paulo. \n\n&gt;&gt; Veja como foi o dia dos candidatos \n\nFlávio Bolsonaro \n\nO candidato Flávio Bolsonaro (PL) participou de um ...",
+      "conteudo_completo": "Os candidatos a presidente cumpriram agenda de campanha nesta quarta-feira (21) em Belo Horizonte, Fortaleza e São Paulo. \n\n&gt;&gt; Veja como foi o dia dos candidatos \n\nFlávio Bolsonaro \n\nO candidato Flávio Bolsonaro (PL) participou de um evento em Guarulhos (SP) pela manhã ao lado do governador Tarcísio de Freitas (Republicanos).\n\n\n            \n        \n    \n21.10.2026 - Evento de Flávio Bolsonaro no Espaço Inter (SP). Foto: Charles Vieira\n\n\nNotícias relacionadas:Lula aceita proposta de Flávio para quebra de sigilo bancário.Flávio Bolsonaro impõe condições para liberar sigilos.Flávio Bolsonaro informou nesta quarta-feira (21) ao Tribunal Superior Eleitoral (TSE) que autoriza o levantamento de seus sigilos bancário, fiscal e telefônico dos últimos 20 anos, desde que o candidato à reeleição Luiz Inácio Lula da Silva (PT) amplie o alcance do levantamento de seus sigilos.\n\nNo início da noite, ele esteve em um ato público em Fortaleza (CE), na Avenida do Contorno.\n\nLula \n\nO candidato Luiz Inácio Lula da Silva (PT) teve agenda de campanha em Belo Horizonte. Lá, Lula defendeu a ampliação do programa Pé-de-Meia aos universitários e a tarifa zero no transporte público nos fins de semana.\n\nLula também reiterou sua disposição em abrir seu sigilo bancário, e de sua família, desde que seu adversário fizesse o mesmo. Para o petista, Flávio Bolsonaro está “trucando”, em alusão ao jogo de cartas.\n\n“Eu, nesta semana, pedi para o Flávio abrir o sigilo. Hoje, ele inventou um monte de mentira e trucou seis. Eu vou meter um nove na cara dele amanhã. Ele não tem nenhuma carta boa, só tem mentira. Ele vai saber o que é um campeão de truco que aprendeu a jogar com o povo mineiro”, disse o candidato à reeleição.\n\n\n            \n        \n    \n21.10.2026 - Caminhada de Lula em Belo Horizonte. Foto: Ricardo Stuckert\n\n\nApós Flávio afirmar que aceitaria a proposta desde que Lula ampliasse o alcance do levantamento de seus sigilos, que deveria incluir na quebra de sigilo os dados de Marco Aurélio Santana Ribeiro, ex-chefe de gabinete do presidente, a coordenação da campanha de Lula afirmou que o presidente aceitaria as condições do candidato do PL e marcou para amanhã (22), às 11h, no Tribunal Superior Eleitoral (TSE), a entrega formal do compromisso à Justiça.\n\nEm Brasília, o grupo Cristãos pela Democracia fez um ato em apoio ao candidato Lula, que reuniu evangélicos, católicos e espíritas para falarem sobre política. O pastor e deputado Henrique Vieira (PSOL-RJ) disse que o grupo surgiu pela percepção de que a democracia está em risco e que o objetivo é defender os ensinamentos cristãos, mas sem usar as igrejas para atividades partidárias. Outros participantes defenderam que a proposta do candidato é da “vida em abundância”, “com direito à saúde, à moradia, à educação e à dignidade humana”.  \n\n* Colaborou Iara Balduino, de Brasília",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os candidatos a presidente cumpriram agenda de campanha nesta quarta-feira (21) em Belo Horizonte, Fortaleza e São Paulo. <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706149&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706149&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>&gt;&gt; Veja como foi o dia dos candidatos </h2>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Flávio Bolsonaro </h2>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato Flávio Bolsonaro (PL) participou de um evento em Guarulhos (SP) pela manhã ao lado do governador Tarcísio de Freitas (Republicanos).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio Bolsonaro informou nesta quarta-feira (21) ao Tribunal Superior Eleitoral (TSE) que <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-impoe-condicoes-para-liberar-sigilos\" target=\"_blank\">autoriza o levantamento de seus sigilos bancário, fiscal e telefônico dos últimos 20 anos, desde que o candidato à reeleição Luiz Inácio Lula da Silva (PT) amplie o alcance do levantamento de seus sigilos</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No início da noite, ele esteve em um ato público em Fortaleza (CE), na Avenida do Contorno.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Lula </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O candidato Luiz Inácio Lula da Silva (PT) teve agenda de campanha em Belo Horizonte. Lá, Lula defendeu a ampliação do programa Pé-de-Meia aos universitários e a tarifa zero no transporte público nos fins de semana.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lula também reiterou sua disposição em abrir seu sigilo bancário, e de sua família, desde que seu adversário fizesse o mesmo. Para o petista, Flávio Bolsonaro está “trucando”, em alusão ao jogo de cartas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu, nesta semana, pedi para o Flávio abrir o sigilo. Hoje, ele inventou um monte de mentira e trucou seis. Eu vou meter um nove na cara dele amanhã. Ele não tem nenhuma carta boa, só tem mentira. Ele vai saber o que é um campeão de truco que aprendeu a jogar com o povo mineiro”, disse o candidato à reeleição.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após Flávio afirmar que aceitaria a proposta desde que Lula ampliasse o alcance do levantamento de seus sigilos, que deveria incluir na quebra de sigilo os dados de Marco Aurélio Santana Ribeiro, ex-chefe de gabinete do presidente, a coordenação da <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-aceita-proposta-de-flavio-para-quebra-de-sigilo-bancario\" target=\"_blank\">campanha de Lula afirmou que o presidente aceitaria as condições do candidato do PL </a>e marcou para amanhã (22), às 11h, no Tribunal Superior Eleitoral (TSE), a entrega formal do compromisso à Justiça.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em Brasília, o grupo Cristãos pela Democracia fez um ato em apoio ao candidato Lula, que reuniu evangélicos, católicos e espíritas para falarem sobre política. O pastor e deputado Henrique Vieira (PSOL-RJ) disse que o grupo surgiu pela percepção de que a democracia está em risco e que o objetivo é defender os ensinamentos cristãos, mas sem usar as igrejas para atividades partidárias. Outros participantes defenderam que a proposta do candidato é da “vida em abundância”, “com direito à saúde, à moradia, à educação e à dignidade humana”.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>* <em>Colaborou Iara Balduino, de Brasília</em></p>",
+      "imagem": "https://imagens.ebc.com.br/Qjn25j4kWuBB0OOSqVFyv-s7K54=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/18/banner_agenda_-_1170x700.png?itok=KJR_nOUL",
+      "slug": "flavio-faz-campanha-em-sao-paulo-lula-teve-ato-em-belo-horizonte",
+      "pagina_local": "flavio-faz-campanha-em-sao-paulo-lula-teve-ato-em-belo-horizonte.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-faz-campanha-em-sao-paulo-lula-teve-ato-em-belo-horizonte",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "22/10/2026 às 04:14"
+    },
+    {
+      "titulo": "Nunes Marques suspende postagens ilegais contra campanha de Lula",
+      "resumo": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, determinou nesta quarta-feira (21) a suspensão de 20 postagens ilegais nas redes sociais contra o candidato à reeleição Luiz Inácio Lula da Silva (PT)\n\nO mini...",
+      "conteudo_completo": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, determinou nesta quarta-feira (21) a suspensão de 20 postagens ilegais nas redes sociais contra o candidato à reeleição Luiz Inácio Lula da Silva (PT)\n\nO ministro atendeu ao pedido da campanha de Lula, que alegou a ação estruturada de parlamentares que apoiam o candidato Flávio Bolsonaro (PL) para compartilhamento de deepfake, a criação de conteúdo artificial para prejudicar candidatos. \n\nNotícias relacionadas:TSE: informação de que 4 mil seções mudaram de lugar estava incorreta.TSE estuda desativar canais políticos no WhatsApp 48h antes da eleição.A decisão do presidente atinge postagens de Flávio e dos deputados federais Gustavo Gayer (PL-GO), Mario Frias (PL-SP) e Gilvan da Federal (PL-ES). Todos foram proibidos de replicarem as mensagens novamente. \n\nA ação citou postagens irregulares de 32 perfis nas redes sociais, que possuem 1,4 milhão de seguidores e 23,8 mil publicações. \n\nAo defender a retirada das postagens, a campanha de Lula disse que postagens anônimas produzem percepção de rejeição generalizada a Lula, fato que não corresponde à realidade.\n\nIA\n\nO uso indevido de inteligência artificial durante a campanha já está em debate no TSE.\n\nNa semana passada, o tribunal proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos Lula e Flávio.\n\nA decisão foi proferida após a campanha de Lula informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre o candidato à reeleição. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro estava liberada.\n\nPela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, determinou nesta quarta-feira (21) a suspensão de 20 postagens ilegais nas redes sociais contra o candidato à reeleição Luiz Inácio Lula da Silva (PT)</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706146&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706146&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro atendeu ao pedido da campanha de Lula, que alegou a ação estruturada de parlamentares que apoiam o candidato Flávio Bolsonaro (PL) para compartilhamento de deepfake, a criação de conteúdo artificial para prejudicar candidatos. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A decisão do presidente atinge postagens de Flávio e dos deputados federais Gustavo Gayer (PL-GO), Mario Frias (PL-SP) e Gilvan da Federal (PL-ES). Todos foram proibidos de replicarem as mensagens novamente. </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ação citou postagens irregulares de 32 perfis nas redes sociais, que possuem 1,4 milhão de seguidores e 23,8 mil publicações. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao defender a retirada das postagens, a campanha de Lula disse que postagens anônimas produzem percepção de rejeição generalizada a Lula, fato que não corresponde à realidade.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O uso indevido de inteligência artificial durante a campanha já está em debate no TSE.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na semana passada, o tribunal proibiu a Meta de restringir a entrega de postagens que envolvem os candidatos Lula e Flávio.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A decisão foi proferida após a campanha de Lula informar ao TSE que comandos para geração de imagens de inteligência artificial não permitiam a criação de conteúdos sobre o candidato à reeleição. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro estava liberada.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Pela decisão do TSE, o Facebook, uma das plataformas operadas pela Meta, deve abster-se de aplicar medidas de redução de distribuição, exclusão de recomendação e restrição de buscas.</p>",
+      "imagem": "https://imagens.ebc.com.br/wFGusZmQFh0Dfmt20v8FpilQfa0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/17/tse_lanca_campanha_para_estimular_participacao_da_populacao_nas_eleicoes02.jpg?itok=dy_xlwpR",
+      "slug": "nunes-marques-suspende-postagens-ilegais-contra-campanha-de-lula",
+      "pagina_local": "nunes-marques-suspende-postagens-ilegais-contra-campanha-de-lula.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/nunes-marques-suspende-postagens-ilegais-contra-campanha-de-lula",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "22/10/2026 às 04:14"
+    },
     {
       "titulo": "Lula aceita proposta de Flávio para quebra de sigilo bancário",
       "resumo": "A coordenação da campanha de Luiz Inácio Lula da Silva à reeleição afirmou que o candidato do PT aceitou as condições de seu adversário, Flávio Bolsonaro (PL), para quebra do sigilo bancário e telefônico dele e de seus parentes. A informaçã...",
@@ -14,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "TSE: informação de que 4 mil seções mudaram de lugar estava incorreta",
@@ -28,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Flávio Bolsonaro impõe condições para liberar sigilos",
@@ -42,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "ONU aponta falta de isenção da Meta em eleição brasileira",
@@ -56,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "TSE estuda desativar canais políticos no WhatsApp 48h antes da eleição",
@@ -70,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Governo envia ao Congresso proposta de tarifa zero no transporte",
@@ -84,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Movimento Vovó Vota defende consciência cidadã contra abstenção",
@@ -98,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Entidades divulgam manifesto pela valorização do serviço público",
@@ -112,35 +140,21 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
-      "titulo": "Defesa Civil recebe R$ 300 milhões em crédito extraordinário",
-      "resumo": "Ações de defesa civil no país terão reforço de R$ 300 milhões para gestão de riscos e desastres. Medida provisória publicada nesta quarta-feira (21) abre crédito extraordinário em nome do Ministério da Integração e do Desenvolvimento Region...",
-      "conteudo_completo": "Ações de defesa civil no país terão reforço de R$ 300 milhões para gestão de riscos e desastres. Medida provisória publicada nesta quarta-feira (21) abre crédito extraordinário em nome do Ministério da Integração e do Desenvolvimento Regional.\n\nSegundo a MP n° 1.398, os recursos serão aplicados no programa Gestão de Riscos e de Desastres, na ação de Proteção e Defesa Civil. \n\nNotícias relacionadas:Chuva alaga ruas do centro e deixa um morto na zona norte de São Paulo.Incêndios avançam sobre o oeste do Pará e deixam ar insalubre.Temporais em Santa Catarina e Rio Grande do Sul afetam 4,8 mil casas.A destinação dos recursos ocorre no mês em que estados da Região Norte enfrentam estiagem e queimadas florestais e áreas do Sul e Sudeste são atingidas por tempestades.\n\nConstituição Federal\n\nA medida provisórias foi editada com base nos artigos 62 e 167 da Constituição Federal, que permitem a abertura de créditos extraordinários por ato do Executivo em situações consideradas urgentes e relevantes.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ações de <a href=\"https://agenciabrasil.ebc.com.br/tags/defesa-civil\" target=\"_blank\">defesa civil</a> no país terão reforço de R$ 300 milhões para gestão de riscos e desastres. </strong><a href=\"https://www.in.gov.br/web/dou/-/medida-provisoria-n-1.398-de-20-de-outubro-de-2026-739387932\" target=\"_blank\">Medida provisória</a> publicada nesta quarta-feira (21) abre crédito extraordinário em nome do Ministério da Integração e do Desenvolvimento Regional.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706022&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706022&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a MP n° 1.398, os recursos serão aplicados no programa Gestão de Riscos e de Desastres, na ação de Proteção e Defesa Civil. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A destinação dos recursos ocorre no mês em que estados da Região Norte enfrentam<a href=\"https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/estiagem-governo-federal-reconhece-emergencia-em-municipios-do-amapa\" target=\"_blank\"> estiagem</a> e <a href=\"https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/incendios-avancam-sobre-o-oeste-do-para-e-deixam-ar-insalubre\" target=\"_blank\">queimadas florestais</a> e áreas do Sul e Sudeste são <a href=\"https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/chuvas-provocam-alagamentos-e-deslizamentos-pelo-interior-paulista\" target=\"_blank\">atingidas por tempestades</a>.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Constituição Federal</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A medida provisórias foi editada com base nos artigos 62 e 167 da Constituição Federal, que permitem a abertura de créditos extraordinários por ato do Executivo em situações consideradas urgentes e relevantes.</p>",
-      "imagem": "https://imagens.ebc.com.br/rB8hTwxNjCNawxrDU0okfjTLuU8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/23/_rbr5563ta_10_1.jpg?itok=9rJShxMe",
-      "slug": "defesa-civil-recebe-r-300-milhoes-em-credito-extraordinario",
-      "pagina_local": "defesa-civil-recebe-r-300-milhoes-em-credito-extraordinario.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/defesa-civil-recebe-r-300-milhoes-em-credito-extraordinario",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
-    },
-    {
-      "titulo": "Pedir votos e fazer propaganda: saiba o que é proibido no dia de votar",
-      "resumo": "Amplamente comuns durante as campanhas eleitorais, alguns comportamentos são proibidos no dia da votação. Neste domingo (25), assim como em todas as eleições, os eleitores não podem pedir votos, distribuir propaganda ou abordar eleitores pa...",
-      "conteudo_completo": "Amplamente comuns durante as campanhas eleitorais, alguns comportamentos são proibidos no dia da votação. Neste domingo (25), assim como em todas as eleições, os eleitores não podem pedir votos, distribuir propaganda ou abordar eleitores para influenciar a escolha do candidato.. Essas práticas podem caracterizar o crime de boca de urna.  \n\nO que é a boca de urna? \n\nA boca de urna ocorre quando há tentativa de convencer o eleitorado a votar em determinado candidato, partido, federação ou coligação no dia da eleição.  \n\nNotícias relacionadas:Local de votação ainda pode mudar; consulte de novo antes de ir à urna.Saiba como consultar o seu local de votação.Esporte: conheça as propostas de Flávio Bolsonaro e Lula para a área.O que não pode: \n\n\n\tdistribuição de santinhos; \n\tpedidos de voto; \n\tformação de grupos organizados para promover candidaturas; \n\tcomícios e carreatas,  \n\tuso de alto-falantes e outras formas de propaganda eleitoral.  \n\n\nAté o encerramento da votação, a legislação proíbe a aglomeração de pessoas com vestuário padronizado ou portando instrumentos de propaganda, quando isso caracterizar manifestação coletiva.  \n\nA manifestação individual e silenciosa do eleitor sobre a sua preferência política é liberada. \n\nOu seja: é permitido votar com itens como bandeiras, broches e adesivos, desde que não haja manifestação coletiva.  \n\nE nas redes sociais? \n\nNo ambiente digital, a lei considera crime a publicação de novos conteúdos ou o impulsionamento de conteúdos no dia da eleição, por parte dos candidatos. Conteúdos publicados anteriormente, no entanto, podem permanecer disponíveis. \n\nQual é a punição? \n\nQuem for pego fazendo boca de urna pode ser punido com detenção de 6 meses a 1 ano, com a possibilidade de substituição pela prestação de serviços à comunidade pelo mesmo período, além de pagamento de multa.  \n\nComo denunciar? \n\nAs irregularidades relacionadas à propaganda eleitoral podem ser comunicadas pelo Pardal, aplicativo da Justiça Eleitoral. A ferramenta permite o envio de denúncias pelo celular, com informação sobre o local, fotos, vídeos e áudios que ajudem na análise da ocorrência. \n\nO aplicativo está disponível gratuitamente nas lojas Google Play e App Store.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Amplamente comuns durante as campanhas eleitorais, alguns comportamentos são proibidos no dia da votação. Neste domingo (25), assim como em todas as eleições, os eleitores não podem pedir votos, distribuir propaganda ou abordar eleitores para influenciar a escolha do candidato.. Essas práticas podem caracterizar o crime de boca de urna.  </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705949&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705949&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>O que é a boca de urna? </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A boca de urna ocorre quando há tentativa de convencer o eleitorado a votar em determinado candidato, partido, federação ou coligação no dia da eleição.  </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O que não pode: </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Até o encerramento da votação, a legislação proíbe a aglomeração de pessoas com vestuário padronizado ou portando instrumentos de propaganda, quando isso caracterizar manifestação coletiva.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A manifestação individual e silenciosa do eleitor sobre a sua preferência política é liberada. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ou seja: <strong>é permitido votar com itens como bandeiras, broches e adesivos, desde que não haja manifestação coletiva.  </strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>E nas redes sociais? </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No ambiente digital, a lei considera crime a publicação de novos conteúdos ou o impulsionamento de conteúdos no dia da eleição, por parte dos candidatos. Conteúdos publicados anteriormente, no entanto, podem permanecer disponíveis. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Qual é a punição? </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Quem for pego fazendo boca de urna pode ser punido com detenção de 6 meses a 1 ano, com a possibilidade de substituição pela prestação de serviços à comunidade pelo mesmo período, além de pagamento de multa.  </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Como denunciar? </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As irregularidades relacionadas à propaganda eleitoral podem ser comunicadas pelo Pardal, aplicativo da Justiça Eleitoral. A ferramenta permite o envio de denúncias pelo celular, com informação sobre o local, fotos, vídeos e áudios que ajudem na análise da ocorrência. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O aplicativo está disponível gratuitamente nas lojas <a href=\"https://play.google.com/store/apps/details?id=br.jus.trees.pardalmobile&amp;hl=pt_BR\" target=\"_blank\">Google Play </a>e <a href=\"https://apps.apple.com/br/app/pardal/id1138128680?l=en-GB&amp;platform=watch\" target=\"_blank\">App Store</a>.  </p>",
-      "imagem": "https://imagens.ebc.com.br/YcG5Svzxov4UEoWjhlJq1I6yn2A=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/04/0d4a2307.jpg?itok=vsGjCx4v",
-      "slug": "pedir-votos-e-fazer-propaganda-saiba-o-que-e-proibido-no-dia-de-votar",
-      "pagina_local": "pedir-votos-e-fazer-propaganda-saiba-o-que-e-proibido-no-dia-de-votar.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pedir-votos-e-fazer-propaganda-saiba-o-que-e-proibido-no-dia-de-votar",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "titulo": "Campanha de Lula entra com ação no TSE para cassar chapa de Flávio",
+      "resumo": "A campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) protocolou nesta quarta-feira (21) no Tribunal Superior Eleitoral (TSE) uma ação de investigação eleitoral para cassar o registro da candidatura da chapa formada pelo candid...",
+      "conteudo_completo": "A campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) protocolou nesta quarta-feira (21) no Tribunal Superior Eleitoral (TSE) uma ação de investigação eleitoral para cassar o registro da candidatura da chapa formada pelo candidato Flávio Bolsonaro (PL) e o candidato a vice-presidente Alfredo Gaspar (PL).\n\nOs advogados da campanha acusam a chapa adversária de cometer abuso de poder econômico e uso indevidos dos meios de comunicação.\n\nNotícias relacionadas:Nunes Marques suspende postagens ilegais contra campanha de Lula .Lula aceita proposta de Flávio para quebra de sigilo bancário.Flávio Bolsonaro impõe condições para liberar sigilos.A campanha alega que a candidatura de Flávio foi beneficiada por direcionamento de postagens nas redes sociais, enquanto os conteúdos referentes a Lula foram restringidos pelas plataformas da Meta.\n\nNa ação, os advogados também alegam que, durante a campanha, a geração de imagens de inteligência artificial não permitiu a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro estava liberada.\n\nA Meta nega qualquer tipo benefício a candidaturas. \n\nO processo foi distribuído para o ministro Ricardo Villas Bôas Curva. Não há prazo para decisão do relator.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) protocolou nesta quarta-feira (21) no Tribunal Superior Eleitoral (TSE) uma ação de investigação eleitoral para cassar o registro da candidatura da chapa formada pelo candidato Flávio Bolsonaro (PL) e o candidato a vice-presidente Alfredo Gaspar (PL).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706148&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706148&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os advogados da campanha acusam <strong>a chapa adversária de cometer abuso de poder econômico e uso indevidos dos meios de comunicação.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A campanha alega que a candidatura de Flávio foi beneficiada por direcionamento de postagens nas redes sociais, enquanto os conteúdos referentes a Lula foram restringidos pelas plataformas da Meta.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na ação, os advogados também alegam que, durante a campanha, a geração de imagens de inteligência artificial não permitiu a criação de conteúdos sobre Lula. Contudo, a criação de imagens relacionadas ao candidato Flávio Bolsonaro estava liberada.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Meta nega qualquer tipo benefício a candidaturas. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O processo foi distribuído para o ministro Ricardo Villas Bôas Curva. Não há prazo para decisão do relator.  </p>",
+      "imagem": "https://imagens.ebc.com.br/d9fEeCPDjkqvb5-sDLGv6gO7hN0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/17/dji_20260716174410_0332_d.jpg?itok=Cr2Ypqkl",
+      "slug": "campanha-de-lula-entra-com-acao-no-tse-para-cassar-chapa-de-flavio",
+      "pagina_local": "campanha-de-lula-entra-com-acao-no-tse-para-cassar-chapa-de-flavio.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/campanha-de-lula-entra-com-acao-no-tse-para-cassar-chapa-de-flavio",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "STF decide que ISS não integra base de cálculo do PIS/Cofins",
@@ -154,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Justiça torna réus 12 denunciados por queda de avião da Voepass",
@@ -168,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Democracia exige que perdedor respeite as regras do jogo, diz Fachin",
@@ -182,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "TRE-RJ define urnas que serão auditadas no segundo turno",
@@ -196,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "TSE não participa de mudança de locais de votação, diz Nunes Marques",
@@ -210,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "TSE reúne Meta e campanhas para tratar de restrições de postagens",
@@ -224,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "AGU busca recuperar R$ 190 milhões de integrantes do PCC e do CV",
@@ -238,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Governo do RJ deverá adquirir câmeras para policiais em março de 2027",
@@ -252,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "MPE pede providências para garantir voto de indígenas no segundo turno",
@@ -266,21 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:13"
-    },
-    {
-      "titulo": "Justiça Eleitoral nega transporte, água e alimentação para indígenas",
-      "resumo": "A Justiça Eleitoral do Amazonas negou a gratuidade de transporte fluvial, água e alimentação para indígenas de 43 aldeias da Terra Indígena Vale do Javari, no Amazonas, no dia da votação do segundo turno das eleições. O pedido foi feito pel...",
-      "conteudo_completo": "A Justiça Eleitoral do Amazonas negou a gratuidade de transporte fluvial, água e alimentação para indígenas de 43 aldeias da Terra Indígena Vale do Javari, no Amazonas, no dia da votação do segundo turno das eleições. O pedido foi feito pela União dos Povos Indígenas do Vale do Javari (Univaja).   \n\nNa decisão, a juíza Dálethe Borges Messias, titular da 42ª Zona Eleitoral do Amazonas, em Atalaia do Norte, disse que reconhece a pertinência e relevância do pedido, cita que o direito ao voto pelos indígenas em condição de igualdade é um valor constitucional, mas alegou, porém, que o pedido teria sido feito fora do prazo legal para organizar a operação. \n\nNotícias relacionadas:Eleições: saiba quais documentos são aceitos para votar no 2° turno.Eleições 2026: nenhum eleitor pode ser preso a partir desta terça.Eleitor sem biometria pode votar no segundo turno das eleições.De acordo ainda com a juíza, a Justiça Eleitoral não possui os recursos necessários para custear o transporte e alimentação dos indígenas.  \n\nSegundo a Univaja, nas últimas eleições houve uma articulação entre a Justiça Eleitoral e a entidade para garantir uma logística que permitisse a votação dos indígenas. Isso, porém, não ocorreu este ano, e por isso a abstenção dos indígenas no primeiro turno foi muito alta, em torno de 30% a 35%. \n\nA Univaja afirmou que a negativa causa preocupação e que é dever do Poder Público garantir que os indígenas tenham o direito de votar. \n\nVale do Javari\n\nA Terra Indígena do Vale do Javari é a segunda maior do Brasil, com 8,5 milhões de hectares, uma área maior que o estado da Paraíba. A terra indígena, homologada em 2001, fica no estado do Amazonas, em uma região de tríplice fronteira entre Brasil, Peru e Colômbia, e abriga 74 aldeias, sete povos e mais de 6 mil indígenas. Também tem a maior concentração de povos indígenas isolados do mundo. \n\nPor causa de sua riqueza natural e localização estratégica, o Vale do Javari é alvo constante de redes de narcotráfico, garimpo ilegal, biopirataria e extração ilícita de madeira. \n\nFoi na região que o indigenista Bruno Pereira e o jornalista Dom Philips foram assassinados em 2022, vítimas de uma emboscada no Rio Itaquaí.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Justiça Eleitoral do Amazonas negou a gratuidade de transporte fluvial, água e alimentação para indígenas de 43 aldeias da Terra Indígena Vale do Javari, no Amazonas, no dia da votação do segundo turno das eleições. <strong>O pedido foi feito pela União dos Povos Indígenas do Vale do Javari (Univaja)</strong>.   <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1705967&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1705967&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão, a juíza Dálethe Borges Messias, titular da 42ª Zona Eleitoral do Amazonas, em Atalaia do Norte, disse que reconhece a pertinência e relevância do pedido, cita que o direito ao voto pelos indígenas em condição de igualdade é um valor constitucional, <strong>mas alegou, porém, que o pedido teria sido feito fora do prazo legal para organizar a operação.</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo ainda com a juíza, a Justiça Eleitoral não possui os recursos necessários para custear o transporte e alimentação dos indígenas.  </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo a Univaja, nas últimas eleições houve uma articulação entre a Justiça Eleitoral e a entidade para garantir uma logística que permitisse a votação dos indígenas.</strong> Isso, porém, não ocorreu este ano, e por isso a abstenção dos indígenas no primeiro turno foi muito alta, em torno de 30% a 35%. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Univaja afirmou que a negativa causa preocupação e que é dever do Poder Público garantir que os indígenas tenham o direito de votar. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Vale do Javari</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Terra Indígena do Vale do Javari é a segunda maior do Brasil</strong>, com 8,5 milhões de hectares, uma área maior que o estado da Paraíba. A terra indígena, homologada em 2001, fica no estado do Amazonas, em uma região de tríplice fronteira entre Brasil, Peru e Colômbia, e abriga 74 aldeias, sete povos e mais de 6 mil indígenas. Também tem a maior concentração de povos indígenas isolados do mundo. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por causa de sua riqueza natural e localização estratégica, o <strong>Vale do Javari é alvo constante de redes de narcotráfico, garimpo ilegal, biopirataria e extração ilícita de madeira</strong>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Foi na região que o indigenista Bruno Pereira e o jornalista Dom Philips foram assassinados em 2022, vítimas de uma emboscada no Rio Itaquaí. </p>",
-      "imagem": "https://imagens.ebc.com.br/2xtMPiERE4b6TiEpHXkH2rBY26s=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/20/capa_terras-indigenas-voto.jpg?itok=LbUE6eIb",
-      "slug": "justica-eleitoral-nega-transporte-agua-e-alimentacao-para-indigenas",
-      "pagina_local": "justica-eleitoral-nega-transporte-agua-e-alimentacao-para-indigenas.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-eleitoral-nega-transporte-agua-e-alimentacao-para-indigenas",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Beneficiários com NIS de final 3 a 0 recebem Bolsa Família de outubro",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Mega-Sena não tem acertador e prêmio vai a R$ 200 milhões",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     },
     {
       "titulo": "Brasil define cotas para exportar com tarifas reduzidas para a Noruega",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "21/10/2026 às 23:14"
+      "coletado_em": "22/10/2026 às 04:14"
     }
   ]
 };
