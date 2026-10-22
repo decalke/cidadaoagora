@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "22/10/2026 às 04:14:49",
+  "ultima_atualizacao": "22/10/2026 às 09:57:26",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Nunes Marques suspende postagens ilegais contra campanha de Lula",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Lula aceita proposta de Flávio para quebra de sigilo bancário",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "TSE: informação de que 4 mil seções mudaram de lugar estava incorreta",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Flávio Bolsonaro impõe condições para liberar sigilos",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "ONU aponta falta de isenção da Meta em eleição brasileira",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "TSE estuda desativar canais políticos no WhatsApp 48h antes da eleição",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Governo envia ao Congresso proposta de tarifa zero no transporte",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Movimento Vovó Vota defende consciência cidadã contra abstenção",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Entidades divulgam manifesto pela valorização do serviço público",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Campanha de Lula entra com ação no TSE para cassar chapa de Flávio",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "STF decide que ISS não integra base de cálculo do PIS/Cofins",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Justiça torna réus 12 denunciados por queda de avião da Voepass",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Democracia exige que perdedor respeite as regras do jogo, diz Fachin",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "TRE-RJ define urnas que serão auditadas no segundo turno",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "TSE não participa de mudança de locais de votação, diz Nunes Marques",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "TSE reúne Meta e campanhas para tratar de restrições de postagens",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "AGU busca recuperar R$ 190 milhões de integrantes do PCC e do CV",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Governo do RJ deverá adquirir câmeras para policiais em março de 2027",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "MPE pede providências para garantir voto de indígenas no segundo turno",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Beneficiários com NIS de final 3 a 0 recebem Bolsa Família de outubro",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Mega-Sena não tem acertador e prêmio vai a R$ 200 milhões",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Dólar cai para R$ 5,01 com exterior e expectativa eleitoral no Brasil",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     },
     {
       "titulo": "Brasil define cotas para exportar com tarifas reduzidas para a Noruega",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 04:14"
+      "coletado_em": "22/10/2026 às 09:57"
     }
   ]
 };
