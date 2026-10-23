@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "23/10/2026 às 04:18:31",
+  "ultima_atualizacao": "23/10/2026 às 09:52:23",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Primeiro turno contou com 43% mais eleitores de ao menos 70 anos",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Campanha de Lula apresenta acordo com Flávio para abrir sigilos",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Prefeituras e estados devem garantir transporte gratuito no 2° turno",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Vote Segura mostra boas práticas de políticas de segurança a mulheres",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Eleições: entidades vão checar informações ao vivo durante debate",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta quinta-feira (22)",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "TO: eleitores escolherão entre Professora Dorinha e Vicentinho Júnior",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Eleitores do ES definem disputa para governo entre Ferraço e Pazolini",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "RN: eleitores vão escolher entre Allyson e Cadu de Lula para governo",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "PGR dá parecer contra pedido de acesso a registro de Vorcaro no Senado",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Mendonça diz que Flávio e Lula podem divulgar sigilos",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Indígenas do Vale do Javari terão transporte gratuito no 2º turno",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Presidente do TSE pede à Meta relatório sobre canal Exército do Lula",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Defensoria Pública pede ao STF transporte gratuito no 2º turno",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Termina hoje prazo para realizar comícios e anúncios pagos de campanha",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Campanha de Lula entra com ação no TSE para cassar chapa de Flávio",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "STF decide que ISS não integra base de cálculo do PIS/Cofins",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Justiça torna réus 12 denunciados por queda de avião da Voepass",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Democracia exige que perdedor respeite as regras do jogo, diz Fachin",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     }
   ]
 };

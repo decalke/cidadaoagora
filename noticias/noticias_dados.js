@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "23/10/2026 às 04:18:26",
+  "ultima_atualizacao": "23/10/2026 às 09:52:19",
   "total": 35,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -130,7 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-destina-r-649-bilhoes-setor-de-exportacao",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Lula participa de live do “exército” e estimula ida de idosos às urnas",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-participa-de-live-do-exercito-e-estimula-ida-de-idosos-urnas",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Primeiro turno contou com 43% mais eleitores de ao menos 70 anos",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/primeiro-turno-contou-com-43-mais-eleitores-de-ao-menos-70-anos",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Campanha de Lula apresenta acordo com Flávio para abrir sigilos",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Prefeituras e estados devem garantir transporte gratuito no 2° turno",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-prefeituras-estados-devem-garantir-transporte-gratuito-no-segundo-turno",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Vote Segura mostra boas práticas de políticas de segurança a mulheres",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/vote-segura-mostra-boas-praticas-de-politicas-de-seguranca-mulheres",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Eleições: entidades vão checar informações ao vivo durante debate",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-entidades-vao-checar-informacoes-ao-vivo-durante-debate",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta quinta-feira (22)",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/confira-agenda-dos-presidenciaveis-nesta-quinta-feira-22",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "TO: eleitores escolherão entre Professora Dorinha e Vicentinho Júnior",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-escolherao-entre-professora-dorinha-e-vicentinho-junior",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Eleitores do ES definem disputa para governo entre Ferraço e Pazolini",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-do-es-definem-disputa-para-governo-entre-ferraco-e-pazolini",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "RN: eleitores vão escolher entre Allyson e Cadu de Lula para governo",
@@ -260,7 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/rn-eleitores-vao-escolher-entre-allyson-e-cadu-de-lula-para-governo",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/caixa-loterias-anuncia-antecipacao-de-sorteios-para-sabado",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-civil-investiga-distribuidora-de-bebidas-em-guarulhos-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/chuvas-defesa-civil-decreta-situacao-de-emergencia-em-cidades-do-sul",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/metro-de-sao-paulo-amplia-uso-do-pix-no-autoatendimento",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/curso-falso-para-sargentos-da-reserva-era-usado-para-compra-de-armas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "PF faz operação contra fraudes em concurso público no Rio",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-faz-operacao-contra-fraudes-em-concurso-publico-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-faz-operacao-no-interior-de-sp-contra-fraudes-bancarias",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/secretario-de-queimados-no-rio-morre-baleado-em-abordagem-da-pm",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -390,7 +390,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Copa do Brasil Feminino: Flamengo bate Fluminense e vai às semifinais",
@@ -403,7 +403,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/copa-do-brasil-feminino-flamengo-bate-fluminense-e-vai-semifinais",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Governo intensifica reforços para combater incêndios no Pará",
@@ -416,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/governo-intensifica-reforcos-para-combater-incendios-no-para",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "PGR dá parecer contra pedido de acesso a registro de Vorcaro no Senado",
@@ -429,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-da-parecer-contra-pedido-de-acesso-registro-de-vorcaro-no-senado",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Fifa anuncia EUA como sede da 1ª Copa do Mundo de Clubes Feminina",
@@ -442,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/fifa-anuncia-eua-como-sede-da-1a-copa-do-mundo-de-clubes-feminina",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     },
     {
       "titulo": "Seleção feminina de tênis é convocada para Billie Jean King Cup",
@@ -455,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/selecao-feminina-de-tenis-e-convocada-para-billie-jean-king-cup",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "23/10/2026 às 04:18"
+      "coletado_em": "23/10/2026 às 09:52"
     }
   ]
 };
