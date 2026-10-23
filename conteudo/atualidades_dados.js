@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "22/10/2026 às 23:09:02",
+  "ultima_atualizacao": "23/10/2026 às 04:18:35",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
+      "resumo": "As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraord...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento.\n\nA terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na quarta-feira (21), o ministro da Fazenda, Dario Durigan, estimou em R$ 90 bilhões o volume de dívidas antigas que podem ser apresentadas nesse edital, que dá início ao processo de habilitação de bancos e fundos interessados em vender carteiras de crédito à União.\n\nNotícias relacionadas:Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola.Governo cria 3ª fase do Desenrola com compra de dívidas pela União.Apesar do volume previsto, o custo máximo estimado para a compra de todo esse montante seria de R$ 9 bilhões, considerando o desconto mínimo de 90% exigido pelo programa.\n\nAs instituições terão cinco dias úteis para informar o volume de débitos que pretendem oferecer. A etapa, no entanto, não é uma convocação para que os consumidores renegociem suas dívidas, mas um procedimento para medir o interesse dos credores e o volume de dívidas por faixas de renda.\n\nComo funcionará\n\nO chamamento público será destinado a bancos, instituições financeiras e fundos de investimento em direitos creditórios (FIDCs). Para participar da etapa seguinte, os credores deverão apresentar carteiras de dívidas que atendam aos critérios do programa e aceitar as condições mínimas de desconto.\n\nO procedimento será dividido em etapas:\n\n\n\tChamamento: publicação do edital para manifestação de interesse dos credores;\n\tApresentação das carteiras: prazo de cinco dias úteis para informar os débitos elegíveis;\n\tDefinição do leilão: análise do volume apresentado, com separação por faixas de renda;\n\tCompra das dívidas: realização do leilão, previsto para novembro, com possibilidade de adiamento para o início de dezembro.\n\n\nSegundo o ministro, o governo pretende estruturar a disputa para favorecer devedores de menor renda e microempreendedores individuais (MEIs). No entanto, caso o volume de dívidas de baixa renda seja menor que o previsto, o governo poderá comprar mais dívidas de alta renda.\n\nCustos\n\nA estimativa inicial é que os credores apresentem até R$ 90 bilhões em dívidas. Como o programa exige deságio mínimo de 90%, a União pagaria, no máximo, 10% do valor nominal das carteiras adquiridas.\n\nNa hipótese de compra de todo o montante estimado, o desembolso seria de até R$ 9 bilhões.\n\nO governo, porém, não necessariamente comprará todas as carteiras apresentadas. A intenção é estabelecer um orçamento para o leilão e estimular a concorrência entre os credores, o que pode resultar em descontos superiores ao mínimo exigido.\n\nA depender do que o governo receber nas carteiras dos bancos e das instituições financeiras, o governo pode pedir desconto de 93% a 95% no leilão.\n\nQuais dívidas entram\n\nO Desenrola 3.0 foi criado por medida provisória assinada pelo presidente Luiz Inácio Lula da Silva em setembro. O programa prevê a compra, pela União, de carteiras de crédito com dívidas antigas para viabilizar a renegociação dos débitos com os consumidores.\n\nEntre as condições previstas estão:\n\n\n\tDívidas de até R$ 10 mil, considerando o valor original do débito;\n\tAtrasos entre 720 e 1.645 dias, o equivalente a aproximadamente dois anos e quatro anos e meio;\n\tDébitos de cartão de crédito, incluindo as modalidades rotativa e parcelada, e de crédito pessoal sem consignação em folha;\n\tPossibilidade de inclusão de dívidas elegíveis de pessoas físicas e MEIs, conforme as regras do programa.\n\n\nNo lançamento da iniciativa, o governo estimou que o volume total de dívidas elegíveis poderia chegar a R$ 150 bilhões, com desembolso de aproximadamente R$ 15 bilhões. A previsão de R$ 90 bilhões divulgada agora corresponde à expectativa inicial de dívidas que os credores poderão apresentar na primeira chamada.\n\nRenegociação\n\nApós o leilão, as dívidas adquiridas pelo governo poderão ser renegociadas com os devedores, com repasse dos descontos obtidos na compra das carteiras.\n\nO consumidor poderá quitar o débito à vista ou parcelar o pagamento, conforme as condições a serem estabelecidas. No caso do parcelamento, haverá cobrança de juros.\n\nOs prazos, as taxas e as demais condições operacionais ainda dependem de definições do Conselho Monetário Nacional (CMN) e da regulamentação aplicável.\n\nNeste momento, os consumidores não precisam procurar os bancos para participar da etapa de chamamento. O governo ainda deverá divulgar as regras e os procedimentos para o acesso às renegociações.</p>",
+      "imagem": "https://imagens.ebc.com.br/FsOUn81CA0D9s3Rrvxyw6gHr4Ow=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223671.jpg?itok=r5cN9dxx",
+      "slug": "portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
+      "pagina_local": "portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "23/10/2026 às 04:18"
+    },
+    {
+      "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
+      "resumo": "O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamen...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamento de informações financeiras entre instituições.\n\nAs alterações reforçam a segurança, ampliam a transparência e estabelecem novas exigências para bancos e demais participantes, com atenção especial às necessidades de pessoas jurídicas, como empresas.\n\nNotícias relacionadas:Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan.Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões.Aprovadas em resolução conjunta dos dois órgãos, as novas regras buscam esclarecer as responsabilidades das instituições envolvidas, reduzir divergências de interpretação e dar mais controle aos clientes sobre o uso de suas informações.\n\nEntre as principais mudanças, estão a exigência de consentimento específico para cada empresa parceira, o monitoramento mais rigoroso dessas parcerias e a possibilidade de interromper o compartilhamento de dados diante de riscos à segurança.\n\nA regulamentação também prepara o sistema para permitir que, em determinadas situações, a autorização para compartilhar dados seja concedida em momentos diferentes por cada instituição envolvida. No caso de empresas, isso poderá facilitar processos que dependem da aprovação de diferentes representantes.\n\nO que é Open Finance?\n\nO Open Finance, ou sistema financeiro aberto, permite que clientes autorizem o compartilhamento de seus dados financeiros entre instituições participantes. O objetivo é facilitar o acesso a serviços e estimular a concorrência entre bancos, fintechs e outras empresas do setor.\n\nNa prática, uma pessoa ou empresa pode autorizar uma instituição a consultar informações mantidas em outra, conforme as permissões concedidas. Isso pode ajudar na oferta de serviços financeiros mais adequados ao perfil do cliente.\n\nNum exemplo prático, uma empresa que mantém conta em um banco pode autorizar outra instituição a consultar determinadas informações financeiras para avaliar uma proposta de crédito, sem precisar depender exclusivamente dos dados disponíveis na instituição que fará a oferta.\n\nO compartilhamento depende de autorização e deve seguir as regras de segurança e privacidade aplicáveis.\n\nO que muda?\n\nAs alterações aprovadas pelo CMN e pelo BC abrangem cinco pontos principais:\n\n\n\tConsentimento específico: o cliente deverá autorizar o compartilhamento com cada entidade parceira envolvida, aumentando a clareza sobre quem poderá acessar seus dados;\n\tMais fiscalização: as instituições participantes terão de reforçar o acompanhamento das empresas parceiras, verificando se elas cumprem as regras e protegem adequadamente as informações recebidas;\n\tMais transparência: os clientes terão acesso a informações mais amplas sobre as parcerias e sobre o compartilhamento de seus dados;\n\tInterrupção por segurança: a regulamentação prevê mecanismos para suspender o compartilhamento quando houver situações que representem riscos à segurança das informações;\n\tPrevenção de uso indevido: serão aplicadas restrições adicionais para evitar que os dados compartilhados sejam utilizados de maneira inadequada.\n\n\nO conjunto de medidas procura deixar mais claro quem pode acessar os dados, em quais condições isso pode ocorrer e quais responsabilidades cabem a cada participante.\n\nResponsabilidade\n\nAs mudanças também reforçam o papel da alta administração das instituições financeiras na supervisão do Open Finance.\n\nDiretorias e conselhos de administração deverão ter responsabilidades mais claras em relação ao monitoramento das parcerias, ao cumprimento das normas e à adoção de medidas para prevenir ou corrigir irregularidades.\n\nNa prática, a segurança do sistema não deverá ficar restrita às equipes técnicas. A governança das instituições também deverá acompanhar os riscos relacionados ao compartilhamento de informações.\n\nCaso sejam identificados problemas, as instituições deverão adotar providências preventivas ou corretivas, conforme as exigências regulatórias aplicáveis.\n\nPessoas jurídicas\n\nUma das principais novidades é a preparação para jornadas de consentimento mais flexíveis, especialmente para clientes pessoas jurídicas.\n\nAtualmente, o compartilhamento de dados envolve instituições que transmitem as informações e instituições que as recebem. As mudanças abrem caminho para que as autorizações necessárias sejam concedidas em momentos diferentes em cada uma delas.\n\nNo caso de empresas, quando aplicável, os consentimentos também poderão ser dados por usuários distintos, de acordo com os processos internos de representação e aprovação.\n\nExemplo:\n\n1.    A empresa inicia o processo: um representante pede um serviço financeiro em uma instituição que deseja consultar dados mantidos em outro banco;\n\n2.    As autorizações são organizadas: os consentimentos necessários podem ser concedidos em momentos diferentes nas instituições envolvidas;\n\n3.    Outros responsáveis participam: quando aplicável, outro usuário autorizado pela empresa poderá realizar uma das etapas de aprovação;\n\n4.    O compartilhamento ocorre: os dados poderão ser compartilhados conforme as autorizações concedidas e as regras de segurança do sistema.\n\nEsse modelo pode facilitar a utilização do Open Finance por empresas que exigem aprovação de mais de um responsável para movimentações ou decisões financeiras.\n\nO que muda para o cliente?\n\nPara pessoas físicas e jurídicas, o principal efeito esperado é o aumento do controle e da transparência sobre o compartilhamento de informações.\n\nAs mudanças também buscam tornar os processos mais claros e previsíveis, sem comprometer a segurança dos dados.\n\nEm resumo, os clientes poderão se beneficiar de:\n\n\n\tMaior clareza sobre as entidades autorizadas a receber seus dados;\n\tRegras mais rigorosas para proteger as informações compartilhadas;\n\tMais mecanismos para interromper o compartilhamento em situações de risco;\n\tProcessos de autorização potencialmente mais flexíveis para empresas;\n\tMaior responsabilização das instituições envolvidas.\n\n\nObjetivo das mudanças\n\nSegundo a proposta regulatória, os aperfeiçoamentos buscam permitir que o Open Finance continue evoluindo sem enfraquecer a proteção dos usuários.\n\nAo esclarecer as regras e reforçar a governança, o CMN e o Banco Central pretendem estimular a inovação, ampliar a confiança no compartilhamento de dados e favorecer a concorrência entre instituições financeiras.\n\nA expectativa é que um ambiente com regras mais claras e mecanismos de segurança mais robustos contribua para modernizar o Sistema Financeiro Nacional e facilitar o desenvolvimento de serviços financeiros, especialmente aqueles voltados às necessidades das empresas.\n\nEmbora o presidente do BC, Gabriel Galípolo, também componha o CMN, as regras foram aprovadas em resolução conjunta dos dois órgãos.</p>",
+      "imagem": "https://imagens.ebc.com.br/4P4kLfGygwh7yN8EJAMIaG0PqTM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20231025_150203.jpg?itok=55thhM0a",
+      "slug": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
+      "pagina_local": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "23/10/2026 às 04:18"
+    },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
       "resumo": "A previsão de superávit primário no Orçamento de 2027 está mantida, mesmo após o anúncio recente de medidas com impacto nas contas públicas, disse nesta quinta-feira (22) o ministro da Fazenda, Dario Durigan. Segundo ele...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:08"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:08"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -39,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Importações para pesquisa pública terão imunidade tributária",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Sancionada lei que perdoa dívida e aumenta limite de MEI",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Governo destina R$ 6,49 bilhões a setor de exportação",
@@ -104,33 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
-      "titulo": "Beneficiários com NIS de final 3 a 0 recebem Bolsa Família de outubro",
-      "resumo": "A Caixa Econômica Federal paga nesta quarta-feira (21) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 3 a 0. Neste mês, 19,3 milhões de famílias foram beneficiadas, ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Caixa Econômica Federal paga nesta quarta-feira (21) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 3 a 0. Neste mês, 19,3 milhões de famílias foram beneficiadas, com o valor médio do benefício em R$ 782,92.\n\nPor causa do aumento nos benefícios, o valor da folha de pagamentos aumentou de R$ 13 bilhões em setembro para R$ 15 bilhões em outubro.\n\nNotícias relacionadas:AGU pede que STF reconheça validade do reajuste do Bolsa Família.Gilmar Mendes valida reajuste do Bolsa Família.Os moradores de 194 municípios de oito estados receberam o crédito na segunda-feira (19), independentemente do número final do NIS. O pagamento unificado beneficiou localidades em situação de emergência ou em estado de calamidade pública nos seguintes estados: Acre (22), Amazonas (3), Paraíba (31), Paraná (10), Rio Grande do Norte (111), Roraima (6), São Paulo (8) e Sergipe (3).\n\nA lista dos municípios com pagamento unificado está disponível aqui.\n\nNo modelo tradicional do Bolsa Família, o pagamento ocorre nos últimos dez dias úteis de cada mês. No entanto, por causa do fenômeno climático El Niño, o governo concentrou os dias de pagamento em três dias por mês até dezembro.\n\nOs beneficiários com NIS terminado em 1 receberam os pagamentos nesta segunda-feira (19). Na terça-feira (20), foi a vez de quem tem NIS terminado em 2. O calendário foi unificado na quarta-feira (21), com o pagamento, na mesma data, aos beneficiários com NIS terminado em 3, 4, 5, 6, 7, 8, 9 e 0.\n\nO beneficiário poderá consultar informações sobre as datas de pagamento, o valor do benefício e a composição das parcelas no aplicativo Caixa Tem, usado para acompanhar as contas poupança digitais do banco.\n\nCom o reajuste anunciado em setembro, que entrou em vigor em outubro, o valor mínimo corresponde a R$ 691. Além do benefício mínimo, há o pagamento de três adicionais. O Benefício Variável Familiar Nutriz paga seis parcelas de R$ 58 a mães de bebês de até seis meses de idade, para garantir a alimentação da criança. O Bolsa Família também paga um acréscimo de R$ 58 a famílias com gestantes e filhos de 7 a 18 anos e outro, de R$ 173, a famílias com crianças de até 6 anos.\n\nAlém do benefício integral, há o pagamento da regra de proteção. Em vigor desde junho de 2023, essa regra permite que famílias cujos membros consigam emprego e melhorem a renda recebam 50% do benefício a que teriam direito por até dois anos, desde que cada integrante receba o equivalente a até meio salário mínimo.\n\nDesde junho do ano passado, o tempo de permanência na regra de proteção foi reduzido de dois para um ano. No entanto, quem entrou na regra até maio de 2025 continua a receber metade do benefício por dois anos.\n\nDesde 2024, os beneficiários do Bolsa Família não têm mais o desconto do Seguro Defeso. A mudança foi estabelecida pela Lei 14.601/2023, que resgatou o Programa Bolsa Família (PBF). O Seguro Defeso é pago a pessoas que sobrevivem exclusivamente da pesca artesanal e que não podem exercer a atividade durante o período da piracema (reprodução dos peixes).</p>",
-      "imagem": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&auto=format&fit=crop&q=80",
-      "slug": "beneficiarios-com-nis-de-final-3-a-0-recebem-bolsa-familia-de-outubro",
-      "pagina_local": "beneficiarios-com-nis-de-final-3-a-0-recebem-bolsa-familia-de-outubro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-3-0-recebem-bolsa-familia-de-outubro",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
-    },
-    {
-      "titulo": "Mega-Sena não tem acertador e prêmio vai a R$ 200 milhões",
-      "resumo": "Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.072, que foram sorteadas nesta terça-feira (20). \n\nO prêmio acumulou e está estimado em R$ 200 milhões para o próximo sorteio.\n\nOs números sorteados são: 02 - 06...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Ninguém acertou as seis dezenas da Mega-Sena do Concurso 3.072, que foram sorteadas nesta terça-feira (20). \n\nO prêmio acumulou e está estimado em R$ 200 milhões para o próximo sorteio.\n\nOs números sorteados são: 02 - 06 - 09 - 16 - 31 - 40\n\n140 apostas acertaram cinco dezenas e irão receber R$ 38.295,72 cada\n\n9.261 apostas acertaram quatro dezenas e irão receber R$ 954,26 cada\n\nApostas\n\nO próximo concurso acontece na quinta-feira (22). \n\nA aposta simples, com seis dezenas, custa R$ 6.\n\nMega Semana\n\n​Entre os dias 26 e 30 de outubro de 2026, acontecerá a Mega Semana da Mega Sena. A ação promoverá cinco sorteios consecutivos correspondentes aos concursos 3076, 3077, 3078, 3079 e 3080.</p>",
-      "imagem": "https://imagens.ebc.com.br/Rtkw68roLekx1SxopfRd90zWq_E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182751.jpg?itok=x99P54Ik",
-      "slug": "mega-sena-nao-tem-acertador-e-premio-vai-a-r-200-milhoes",
-      "pagina_local": "mega-sena-nao-tem-acertador-e-premio-vai-a-r-200-milhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-acertador-e-premio-vai-r-200-milhoes",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
+      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.073 da Mega-Sena, realizado nesta quinta-feira (22). O prêmio acumulou novamente e está estimado em R$ 230 milhões para o próximo sorteio.\n\nOs números sorteados são:...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Nenhum apostador acertou as seis dezenas do Concurso 3.073 da Mega-Sena, realizado nesta quinta-feira (22). O prêmio acumulou novamente e está estimado em R$ 230 milhões para o próximo sorteio.\n\nOs números sorteados são: 04 - 13 - 23 - 28 - 41 - 58\n\n\n\t203 apostas acertaram cinco dezenas e irão receber R$ 23.138,67 cada\n\t13.143 apostas acertaram quatro dezenas e irão receber R$ 510,55 cada\n\n\nApostas\n\nNotícias relacionadas:Caixa Loterias anuncia antecipação de sorteios para sábado.O próximo concurso acontece sábado (24), às 21h. As apostas podem ser feitas até as 20h (horário de Brasília) do mesmo dia, em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nA aposta simples, com seis dezenas, custa R$ 6.\n\nA Caixa Loterias anunciou a antecipação para sábado dos sorteios previstos para o domingo (25), dia do segundo turno das eleições.</p>",
+      "imagem": "https://imagens.ebc.com.br/CkkvHQJcrBZoLvGaJjEKFvSegUI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_183248.jpg?itok=rmu5rSoe",
+      "slug": "mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
+      "pagina_local": "mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "PF faz operação contra fraudes em concurso público no Rio",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
-    },
-    {
-      "titulo": "Motoristas de ônibus fazem paralisação na zona sul de São Paulo",
-      "resumo": "Motoristas de ônibus da capital paulista iniciaram uma paralisação na manhã desta segunda-feira (19), na zona sul da cidade, atingindo as linhas do Lote D10.\n\nEsses trabalhadores atuavam na antiga Transwolff. No entanto,...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Motoristas de ônibus da capital paulista iniciaram uma paralisação na manhã desta segunda-feira (19), na zona sul da cidade, atingindo as linhas do Lote D10.\n\nEsses trabalhadores atuavam na antiga Transwolff. No entanto, desde a decretação da caducidade do contrato com a empresa em dezembro de 2025, a SPTrans administra e opera as linhas dos lotes D10 e D11.\n\nOs motoristas alegam a ocorrência de problemas trabalhistas e pedem a regularização dos recolhimentos do Fundo de Garantia do Tempo de Serviço (FGTS) e do Instituto Nacional do Seguro Social (INSS). Além disso, reivindicam melhoria nos benefícios.\n\nPor meio da Secretaria Municipal de Mobilidade Urbana e Transporte (SMT) e da SPTrans, a prefeitura de São Paulo informou que a paralisação afeta 267 mil passageiros do lote D10 e que o lote D11 está operando normalmente.\n\nA prefeitura alega que a paralisação é ilegal e que todos os direitos trabalhistas dos empregados estão sendo cumpridos e que pagamentos de salários e benefícios estão sendo feitos em dia. “Os depósitos referentes ao INSS e FGTS estão sendo feitos integralmente pela SPTrans, em juízo, aguardando deliberação do Judiciário”, informou a prefeitura, em nota.\n\nSegundo o município, o plano de saúde está em processo licitatório para contratar fornecedor, enquanto isso, os funcionários estão recebendo o valor de compensação previsto em acordo coletivo.\n\n“Todos os envolvidos que deixaram de trabalhar durante o ato terão o dia descontado de seus pagamentos”, afirmou a prefeitura.</p>",
-      "imagem": "https://imagens.ebc.com.br/5mZY4oVJsoU_ukWO3TWpEeS0q8M=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230323121600_mg_4698.jpg?itok=gwJ6o_Od",
-      "slug": "motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
-      "pagina_local": "motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motoristas-de-onibus-fazem-paralisacao-na-zona-sul-de-sao-paulo",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "22/10/2026 às 23:09"
+      "coletado_em": "23/10/2026 às 04:18"
     }
   ]
 };
