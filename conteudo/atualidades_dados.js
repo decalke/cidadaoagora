@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "23/10/2026 às 19:00:55",
+  "ultima_atualizacao": "23/10/2026 às 22:59:39",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
+      "resumo": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contrataç...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito.\n\nAs mudanças também criam um painel para consulta de dívidas e aumentam as exigências para a oferta de crédito durante transações pelo Pix.\n\nNotícias relacionadas:Portaria convoca instituições financeiras para 3ª fase do Desenrola.Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto.Juros para famílias sobem em agosto e inadimplência chega a 6%.As medidas buscam evitar ofertas inadequadas, dar mais clareza sobre os custos dos empréstimos e ajudar os clientes a avaliar se conseguem assumir novas dívidas. As regras também preveem proteção adicional para pessoas em situação de vulnerabilidade financeira.\n\nAs resoluções serão implementadas em etapas. A regulamentação sobre ofertas ativas de crédito começa a valer em 31 de março de 2027. As regras sobre o Painel de Dívidas Consolidadas e sobre a oferta de crédito no Pix entram em vigor em 1º de julho de 2027.\n\nO que muda?\n\nAs três resoluções tratam de situações diferentes da relação entre bancos e clientes:\n\n\n\tResolução BCB 601: determina a disponibilização de um painel com informações sobre dívidas, além de simulações de custos e alertas antes de novas contratações.\n\tResolução BCB 602: permite bloquear propagandas e ofertas ativas de crédito e estabelece proteção adicional para clientes em situação de vulnerabilidade financeira.\n\tResolução BCB 603: estabelece regras para ofertas de crédito durante a iniciação de transações pelo Pix, incluindo consentimento prévio e intervalo mínimo antes da primeira oferta.\n\n\nBloqueio de ofertas\n\nCom vigência prevista para 31 de março de 2027, a Resolução BCB 602 estabelece regras para as ofertas ativas de crédito, como propagandas e mensagens que bancos e outras instituições financeiras enviam aos clientes para oferecer empréstimos e outros produtos.\n\nCom a mudança, as instituições deverão disponibilizar um mecanismo claro para que o consumidor bloqueie esse tipo de publicidade.\n\nPara clientes em situação de maior vulnerabilidade financeira ou com risco de endividamento excessivo, haverá exigências adicionais: as ofertas dependerão de autorização prévia, específica e inequívoca do cliente.\n\nNesses casos, as ofertas autorizadas deverão ter como objetivo melhorar as condições financeiras do consumidor, sem disponibilizar novos recursos para contratação de dívidas.\n\nVeja exemplos de operações permitidas nesse contexto:\n\nRenegociação: substituir uma dívida por condições de pagamento mais adequadas.\n\nPortabilidade: transferir uma operação de crédito para outra instituição, conforme as regras aplicáveis.\n\nMigração de produto: trocar uma modalidade de crédito por outra com condições mais vantajosas.\n\nA medida não impede o cliente de procurar espontaneamente um banco, pesquisar opções e contratar produtos financeiros. O foco é aumentar o controle sobre as ofertas que chegam até ele.\n\nQuando começa: 31 de março de 2027.\n\nPainel de dívidas\n\nEm vigor a partir de 1º de julho, a Resolução BCB 601 prevê que as instituições financeiras disponibilizem aos clientes o Painel de Dívidas Consolidadas. A ferramenta reunirá informações sobre operações de crédito para facilitar a compreensão do endividamento e do comprometimento da renda.\n\nNa prática, o painel deverá ajudar o consumidor a visualizar quanto deve e avaliar melhor o impacto de assumir uma nova obrigação financeira.\n\nAntes de uma nova contratação, as instituições também deverão apresentar simulações dos custos da operação e de seus efeitos financeiros, acompanhadas de alertas quando houver situações de maior risco.\n\nO que o painel deverá oferecer?\n\n\n\tInformações sobre dívidas: consulta às operações de crédito mantidas na própria instituição;\n\tSimulações de custos: estimativas para ajudar o cliente a entender o impacto financeiro de um novo empréstimo;\n\tAlertas de risco: avisos sobre situações que possam comprometer a capacidade de pagamento;\n\tAmpliação dos dados: incorporação posterior de informações do Sistema de Informações de Créditos (SCR) e do Open Finance.\n\n\nO SCR é uma base de informações sobre operações de crédito mantida pelo Banco Central. Já o Open Finance permite o compartilhamento autorizado de dados financeiros entre instituições participantes.\n\nInicialmente, o painel contemplará as operações mantidas na própria instituição financeira. Em uma etapa posterior, a integração com o SCR e o Open Finance permitirá ampliar a visão sobre as dívidas do cliente em diferentes instituições.\n\nA ampliação dessas informações poderá ajudar o consumidor a ter uma visão mais abrangente de sua situação financeira e a identificar o peso das dívidas no orçamento.\n\nCrédito durante o Pix\n\nTambém com vigência a partir de 1º de julho, a Resolução BCB 603 estabelece novas exigências para a oferta de crédito durante a iniciação de transações pelo Pix.\n\nA medida busca evitar que o consumidor seja levado a contratar um empréstimo sem compreender adequadamente as condições da operação ou sem ter tempo suficiente para avaliar a proposta.\n\nEntre as exigências estão:\n\n\n\tConsentimento específico: a oferta de crédito dependerá de autorização prévia do usuário;\n\tPrazo mínimo: deverá haver um intervalo de pelo menos 24 horas entre a habilitação da oferta e a apresentação da primeira oferta de crédito;\n\tSimulador: as instituições deverão disponibilizar ferramentas para simular as condições do crédito;\n\tConsulta de operações: os clientes terão acesso a um ambiente para consultar as operações contratadas;\n\tRegras adicionais: a resolução estabelece restrições para determinadas modalidades do Pix e regras para devoluções relacionadas a operações de crédito.\n\n\nUma das principais distinções é que a nova regulamentação não altera o recebimento normal de uma transferência pelo Pix: o beneficiário continuará recebendo o valor de forma instantânea e integral.\n\nO foco das regras é a oferta de crédito associada à iniciação de transações, e não o funcionamento básico do sistema de pagamentos.\n\nComo afeta o consumidor?\n\nAs mudanças procuram dar ao cliente mais condições de avaliar propostas, controlar a publicidade recebida e compreender o impacto das dívidas antes de contratar novos empréstimos.\n\nNa prática, o consumidor terá os seguintes benefícios:\n\n\n\tMais controle sobre propagandas e ofertas ativas de crédito;\n\tProteção adicional em situações de vulnerabilidade financeira;\n\tInformações mais organizadas sobre as dívidas e a capacidade de pagamento;\n\tSimulações e alertas antes de assumir novos compromissos;\n\tMais transparência nas ofertas de crédito relacionadas ao Pix.\n\n\nAs medidas, informou o BC, também buscam reduzir o risco de superendividamento, situação em que o consumidor acumula dívidas que comprometem sua capacidade de pagar as despesas e obrigações financeiras.</p>",
+      "imagem": "https://imagens.ebc.com.br/9UXysmYMdoscZXVYIkncIimWnz0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=BQBuSoJl",
+      "slug": "bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
+      "pagina_local": "bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "23/10/2026 às 22:59"
+    },
+    {
+      "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
+      "resumo": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3%, atingindo o maior patamar desde abril,...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3%, atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio.\n\nNo mercado doméstico, investidores ajustaram posições antes da votação de domingo (25), com as tensões geopolíticas no Oriente Médio impulsionando os preços da commodity no exterior.\n\nNotícias relacionadas:Economia da Argentina recua 1,7% em agosto sob risco de recessão.Receita abre consulta a lote residual do Imposto de Renda.Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%.Números do dia:\n\n\n\t    Dólar à vista: R$ 4,993 (-0,92%);\n\t    Dólar na semana: queda de 1,58%;\n\t    Ibovespa: 205.082,56 pontos (+0,47%);\n\t    Ibovespa na semana: queda de 0,17%;\n\t    Petróleo tipo Brent: US$ 116,72 (+3,13%);\n\t    Petróleo tipo WTI: US$ 103,27 (+3,82%).\n\n\nCâmbio\n\nO dólar comercial encerrou a sessão em queda de 0,92%, cotado a R$ 4,993. Na reta final do pregão, a moeda chegou à mínima de R$ 4,989. A cotação está no menor nível desde 9 de outubro, quando terminou em R$ 4,985.\n\nNa semana, a divisa acumulou desvalorização de 1,58% em relação ao real, após ter avançado 1,77% na semana anterior.\n\nO movimento ocorreu no último pregão antes do segundo turno das eleições presidenciais. Investidores ajustaram posições diante das expectativas para o resultado da disputa entre o presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL).\n\nA moeda brasileira apresentou o melhor desempenho entre as principais divisas globais, mesmo com a valorização do dólar no exterior. Por volta das 17h, o índice DXY, que mede a força da moeda estadunidense diante de uma cesta de moedas fortes, subia 0,19%, aos 101,799 pontos.\n\nIbovespa\n\nPrincipal índice da B3, o Ibovespa fechou em alta de 0,47%, aos 205.082,56 pontos. O volume financeiro negociado na sessão somou R$ 30,7 bilhões.\n\nApesar do avanço desta sexta-feira, o índice acumulou queda de 0,17% na semana, marcada pela cautela dos investidores diante da eleição presidencial. No acumulado de outubro, a bolsa registra valorização de 10,06%. Em 2026, a alta chega a 27,28%.\n\nA sessão também foi marcada pela alta de ações de petroleiras e mineradoras, acompanhando a valorização do petróleo e do minério de ferro.\n\nPetróleo\n\nOs contratos futuros do petróleo fecharam em forte alta nesta sexta-feira, impulsionados pelo aumento das tensões no Oriente Médio. Referência nas negociações internacionais, o barril do tipo Brent alcançou o maior nível desde abril, em meio aos temores de novos confrontos envolvendo Estados Unidos, Israel e Irã e de possíveis interrupções no fornecimento global.\n\nO petróleo Brent para dezembro subiu 3,13%, encerrando a US$ 116,72 por barril. O barril do tipo WTI, do Texas, subiu 3,82% e fechou a US$ 103,27.\n\nNa comparação semanal, os contratos do Brent e do WTI para dezembro subiram 6,24% e 4,29%, respectivamente.\n\nA alta foi sustentada pelo risco de agravamento dos conflitos na região. O Irã advertiu que poderá responder a eventuais novos ataques dos Estados Unidos e de Israel com ofensivas contra bases militares, navios de guerra e outros alvos em países vizinhos do Golfo Pérsico. Paralelamente, confrontos envolvendo os houthis e a Arábia Saudita aumentaram as preocupações com a segurança regional.\n\nNos Estados Unidos, o Departamento de Energia autorizou medidas envolvendo a Reserva Estratégica de Petróleo para ajudar a estabilizar o abastecimento de combustíveis diante de perdas de estoques e de possíveis interrupções no mercado.\n\n* Com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/l40576lYrJCJeVWHQo-DX_bSLF4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/23/2026-07-23t123806z_1_lynxmpem6m19r_rtroptp_4_usa-trump-tariffs-indonesia.jpg?itok=uN0pYfYO",
+      "slug": "dolar-fecha-abaixo-de-r-5-e-recua-1-58-na-semana",
+      "pagina_local": "dolar-fecha-abaixo-de-r-5-e-recua-1-58-na-semana.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "23/10/2026 às 22:59"
+    },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
       "resumo": "A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -39,12 +65,12 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
       "resumo": "O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamen...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamento de informações financeiras entre instituições.\n\nAs alterações reforçam a segurança, ampliam a transparência e estabelecem novas exigências para bancos e demais participantes, com atenção especial às necessidades de pessoas jurídicas, como empresas.\n\nNotícias relacionadas:Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan.Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões.Aprovadas em resolução conjunta dos dois órgãos, as novas regras buscam esclarecer as responsabilidades das instituições envolvidas, reduzir divergências de interpretação e dar mais controle aos clientes sobre o uso de suas informações.\n\nEntre as principais mudanças, estão a exigência de consentimento específico para cada empresa parceira, o monitoramento mais rigoroso dessas parcerias e a possibilidade de interromper o compartilhamento de dados diante de riscos à segurança.\n\nA regulamentação também prepara o sistema para permitir que, em determinadas situações, a autorização para compartilhar dados seja concedida em momentos diferentes por cada instituição envolvida. No caso de empresas, isso poderá facilitar processos que dependem da aprovação de diferentes representantes.\n\nO que é Open Finance?\n\nO Open Finance, ou sistema financeiro aberto, permite que clientes autorizem o compartilhamento de seus dados financeiros entre instituições participantes. O objetivo é facilitar o acesso a serviços e estimular a concorrência entre bancos, fintechs e outras empresas do setor.\n\nNa prática, uma pessoa ou empresa pode autorizar uma instituição a consultar informações mantidas em outra, conforme as permissões concedidas. Isso pode ajudar na oferta de serviços financeiros mais adequados ao perfil do cliente.\n\nNum exemplo prático, uma empresa que mantém conta em um banco pode autorizar outra instituição a consultar determinadas informações financeiras para avaliar uma proposta de crédito, sem precisar depender exclusivamente dos dados disponíveis na instituição que fará a oferta.\n\nO compartilhamento depende de autorização e deve seguir as regras de segurança e privacidade aplicáveis.\n\nO que muda?\n\nAs alterações aprovadas pelo CMN e pelo BC abrangem cinco pontos principais:\n\n\n\tConsentimento específico: o cliente deverá autorizar o compartilhamento com cada entidade parceira envolvida, aumentando a clareza sobre quem poderá acessar seus dados;\n\tMais fiscalização: as instituições participantes terão de reforçar o acompanhamento das empresas parceiras, verificando se elas cumprem as regras e protegem adequadamente as informações recebidas;\n\tMais transparência: os clientes terão acesso a informações mais amplas sobre as parcerias e sobre o compartilhamento de seus dados;\n\tInterrupção por segurança: a regulamentação prevê mecanismos para suspender o compartilhamento quando houver situações que representem riscos à segurança das informações;\n\tPrevenção de uso indevido: serão aplicadas restrições adicionais para evitar que os dados compartilhados sejam utilizados de maneira inadequada.\n\n\nO conjunto de medidas procura deixar mais claro quem pode acessar os dados, em quais condições isso pode ocorrer e quais responsabilidades cabem a cada participante.\n\nResponsabilidade\n\nAs mudanças também reforçam o papel da alta administração das instituições financeiras na supervisão do Open Finance.\n\nDiretorias e conselhos de administração deverão ter responsabilidades mais claras em relação ao monitoramento das parcerias, ao cumprimento das normas e à adoção de medidas para prevenir ou corrigir irregularidades.\n\nNa prática, a segurança do sistema não deverá ficar restrita às equipes técnicas. A governança das instituições também deverá acompanhar os riscos relacionados ao compartilhamento de informações.\n\nCaso sejam identificados problemas, as instituições deverão adotar providências preventivas ou corretivas, conforme as exigências regulatórias aplicáveis.\n\nPessoas jurídicas\n\nUma das principais novidades é a preparação para jornadas de consentimento mais flexíveis, especialmente para clientes pessoas jurídicas.\n\nAtualmente, o compartilhamento de dados envolve instituições que transmitem as informações e instituições que as recebem. As mudanças abrem caminho para que as autorizações necessárias sejam concedidas em momentos diferentes em cada uma delas.\n\nNo caso de empresas, quando aplicável, os consentimentos também poderão ser dados por usuários distintos, de acordo com os processos internos de representação e aprovação.\n\nExemplo:\n\n1.    A empresa inicia o processo: um representante pede um serviço financeiro em uma instituição que deseja consultar dados mantidos em outro banco;\n\n2.    As autorizações são organizadas: os consentimentos necessários podem ser concedidos em momentos diferentes nas instituições envolvidas;\n\n3.    Outros responsáveis participam: quando aplicável, outro usuário autorizado pela empresa poderá realizar uma das etapas de aprovação;\n\n4.    O compartilhamento ocorre: os dados poderão ser compartilhados conforme as autorizações concedidas e as regras de segurança do sistema.\n\nEsse modelo pode facilitar a utilização do Open Finance por empresas que exigem aprovação de mais de um responsável para movimentações ou decisões financeiras.\n\nO que muda para o cliente?\n\nPara pessoas físicas e jurídicas, o principal efeito esperado é o aumento do controle e da transparência sobre o compartilhamento de informações.\n\nAs mudanças também buscam tornar os processos mais claros e previsíveis, sem comprometer a segurança dos dados.\n\nEm resumo, os clientes poderão se beneficiar de:\n\n\n\tMaior clareza sobre as entidades autorizadas a receber seus dados;\n\tRegras mais rigorosas para proteger as informações compartilhadas;\n\tMais mecanismos para interromper o compartilhamento em situações de risco;\n\tProcessos de autorização potencialmente mais flexíveis para empresas;\n\tMaior responsabilização das instituições envolvidas.\n\n\nObjetivo das mudanças\n\nSegundo a proposta regulatória, os aperfeiçoamentos buscam permitir que o Open Finance continue evoluindo sem enfraquecer a proteção dos usuários.\n\nAo esclarecer as regras e reforçar a governança, o CMN e o Banco Central pretendem estimular a inovação, ampliar a confiança no compartilhamento de dados e favorecer a concorrência entre instituições financeiras.\n\nA expectativa é que um ambiente com regras mais claras e mecanismos de segurança mais robustos contribua para modernizar o Sistema Financeiro Nacional e facilitar o desenvolvimento de serviços financeiros, especialmente aqueles voltados às necessidades das empresas.\n\nEmbora o presidente do BC, Gabriel Galípolo, também componha o CMN, as regras foram aprovadas em resolução conjunta dos dois órgãos.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamento de informações financeiras entre instituições.\n\nAs alterações reforçam a segurança, ampliam a transparência e estabelecem novas exigências para bancos e demais participantes, com atenção especial às necessidades de pessoas jurídicas, como empresas.\n\nNotícias relacionadas:Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan.Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões.Aprovadas em resolução conjunta dos dois órgãos, as novas regras buscam esclarecer as responsabilidades das instituições envolvidas, reduzir divergências de interpretação e dar mais controle aos clientes sobre o uso de suas informações.\n\nEntre as principais mudanças, estão a exigência de consentimento específico para cada empresa parceira, o monitoramento mais rigoroso dessas parcerias e a possibilidade de interromper o compartilhamento de dados diante de riscos à segurança.\n\nA regulamentação também prepara o sistema para permitir que, em determinadas situações, a autorização para compartilhar dados seja concedida em momentos diferentes por cada instituição envolvida. No caso de empresas, isso poderá facilitar processos que dependem da aprovação de diferentes representantes.\n\nO que é Open Finance?\n\nO Open Finance, ou sistema financeiro aberto, permite que clientes autorizem o compartilhamento de seus dados financeiros entre instituições participantes. O objetivo é facilitar o acesso a serviços e estimular a concorrência entre bancos, fintechs e outras empresas do setor.\n\nNa prática, uma pessoa ou empresa pode autorizar uma instituição a consultar informações mantidas em outra, conforme as permissões concedidas. Isso pode ajudar na oferta de serviços financeiros mais adequados ao perfil do cliente.\n\nNum exemplo prático, uma empresa que mantém conta em um banco pode autorizar outra instituição a consultar determinadas informações financeiras para avaliar uma proposta de crédito, sem precisar depender exclusivamente dos dados disponíveis na instituição que fará a oferta.\n\nO compartilhamento depende de autorização e deve seguir as regras de segurança e privacidade aplicáveis.\n\nO que muda?\n\nAs alterações aprovadas pelo CMN e pelo BC abrangem cinco pontos principais:\n\n\n\tConsentimento específico: o cliente deverá autorizar o compartilhamento com cada entidade parceira envolvida, aumentando a clareza sobre quem poderá acessar seus dados;\n\tMais fiscalização: as instituições participantes terão de reforçar o acompanhamento das empresas parceiras, verificando se elas cumprem as regras e protegem adequadamente as informações recebidas;\n\tMais transparência: os clientes terão acesso a informações mais amplas sobre as parcerias e sobre o compartilhamento de seus dados;\n\tInterrupção por segurança: a regulamentação prevê mecanismos para suspender o compartilhamento quando houver situações que representem riscos à segurança das informações;\n\tPrevenção de uso indevido: serão aplicadas restrições adicionais para evitar que os dados compartilhados sejam utilizados de maneira inadequada.\n\n\nO conjunto de medidas procura deixar mais claro quem pode acessar os dados, em quais condições isso pode ocorrer e quais responsabilidades cabem a cada participante.\n\nResponsabilidade\n\nAs mudanças também reforçam o papel da alta administração das instituições financeiras na supervisão do Open Finance.\n\nDiretorias e conselhos de administração deverão ter responsabilidades mais claras em relação ao monitoramento das parcerias, ao cumprimento das normas e à adoção de medidas para prevenir ou corrigir irregularidades.\n\nNa prática, a segurança do sistema não deverá ficar restrita às equipes técnicas. A governança das instituições também deverá acompanhar os riscos relacionados ao compartilhamento de informações.\n\nCaso sejam identificados problemas, as instituições deverão adotar providências preventivas ou corretivas, conforme as exigências regulatórias aplicáveis.\n\nPessoas jurídicas\n\nUma das principais novidades é a preparação para jornadas de consentimento mais flexíveis, especialmente para clientes pessoas jurídicas.\n\nAtualmente, o compartilhamento de dados envolve instituições que transmitem as informações e instituições que as recebem. As mudanças abrem caminho para que as autorizações necessárias sejam concedidas em momentos diferentes em cada uma delas.\n\nNo caso de empresas, quando aplicável, os consentimentos também poderão ser dados por usuários distintos, de acordo com os processos internos de representação e aprovação.\n\nExemplo:\n\n1.    A empresa inicia o processo: um representante pede um serviço financeiro em uma instituição que deseja consultar dados mantidos em outro banco;\n\n2.    As autorizações são organizadas: os consentimentos necessários podem ser concedidos em momentos diferentes nas instituições envolvidas;\n\n3.    Outros responsáveis participam: quando aplicável, outro usuário autorizado pela empresa poderá realizar uma das etapas de aprovação;\n\n4.    O compartilhamento ocorre: os dados poderão ser compartilhados conforme as autorizações concedidas e as regras de segurança do sistema.\n\nEsse modelo pode facilitar a utilização do Open Finance por empresas que exigem aprovação de mais de um responsável para movimentações ou decisões financeiras.\n\nO que muda para o cliente?\n\nPara pessoas físicas e jurídicas, o principal efeito esperado é o aumento do controle e da transparência sobre o compartilhamento de informações.\n\nAs mudanças também buscam tornar os processos mais claros e previsíveis, sem comprometer a segurança dos dados.\n\nEm resumo, os clientes poderão se beneficiar de:\n\n\n\tMaior clareza sobre as entidades autorizadas a receber seus dados;\n\tRegras mais rigorosas para proteger as informações compartilhadas;\n\tMais mecanismos para interromper o compartilhamento em situações de risco;\n\tProcessos de autorização potencialmente mais flexíveis para empresas;\n\tMaior responsabilização das instituições envolvidas.\n\n\nObjetivo das mudanças\n\nSegundo a proposta regulatória, os aperfeiçoamentos buscam permitir que o Open Finance continue evoluindo sem enfraquecer a proteção dos usuários.\n\nAo esclarecer as regras e reforçar a governança, o CMN e o Banco Central pretendem estimular a inovação, ampliar a confiança no compartilhamento de dados e favorecer a concorrência entre instituições financeiras.\n\nA expectativa é que um ambiente com regras mais claras e mecanismos de segurança mais robustos contribua para modernizar o Sistema Financeiro Nacional e facilitar o desenvolvimento de serviços financeiros, especialmente aqueles voltados às necessidades das empresas.\n\nEmbora o presidente do BC, Gabriel Galípolo, também componha o CMN, as regras foram aprovadas em resolução conjunta dos dois órgãos.\n\nProteção\n\nEm nota, a Associação dos Iniciadores de Transação de Pagamento (INIT) elogiou a medida. Segundo a entidade, as mudanças reforçam a segurança sem reduzir o espaço para inovações no Open Finance.\n\n“A resolução conjunta mostra que proteção e inovação não são objetivos opostos. Ao ampliar a transparência e definir responsabilidades, a norma fortalece a confiança no Open Finance e preserva espaço para novos modelos de negócio. O desafio agora é garantir uma implementação eficiente, que transforme esses avanços em mais concorrência e melhores serviços para pessoas e empresas”, afirmou no comunicado Gustavo Lino, diretor-executivo da INIT.\n\n \n\nMatéria ampliada às 16h40 do dia 23/10 para acréscimo de posicionamento da INIT</p>",
       "imagem": "https://imagens.ebc.com.br/4P4kLfGygwh7yN8EJAMIaG0PqTM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20231025_150203.jpg?itok=55thhM0a",
       "slug": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
       "pagina_local": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance.html",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -104,33 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
-    },
-    {
-      "titulo": "Importações para pesquisa pública terão imunidade tributária",
-      "resumo": "O Ministério da Fazenda anunciou nesta quarta-feira (21) medidas para assegurar a aplicação da imunidade tributária prevista na Constituição nas importações para projetos de universidades públicas, institutos federais e ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério da Fazenda anunciou nesta quarta-feira (21) medidas para assegurar a aplicação da imunidade tributária prevista na Constituição nas importações para projetos de universidades públicas, institutos federais e instituições públicas de ciência, tecnologia e inovação.\n\nDe acordo com o ministério, equipamentos, softwares e insumos importados por fundações de apoio em nome dessas instituições passam a contar com o amparo da imunidade tributária recíproca.\n\nNotícias relacionadas:Professor de ciências precisa de formação constante, diz pesquisadora.Estudantes de escolas públicas querem ensino e aprendizagem melhores.Câmara aprova redução de tributos para indústria química.A medida, segundo a pasta, permitirá que 100% dos recursos destinados à pesquisa sejam convertidos em tecnologia e insumos para laboratórios, sem perdas com tributação indevida.\n\nA iniciativa busca dar segurança jurídica às operações de importação voltadas à pesquisa pública e eliminar dúvidas sobre a manutenção da imunidade quando as fundações de apoio atuam na gestão dos recursos e nos procedimentos de aquisição e despacho aduaneiro.\n\nDe acordo com o ministério, essa incerteza gerava risco de tributação e dificultava a compra de equipamentos, softwares e insumos para atividades de pesquisa.\n\nA Fazenda também definiu que a administração financeira dos projetos pelas fundações é apenas um mecanismo operacional e não altera a natureza pública dos recursos vinculados às universidades e instituições de pesquisa.\n\nExigências\n\nPara ter acesso ao benefício, as operações deverão seguir uma série de exigências, como a realização da importação em nome da instituição pública, a movimentação dos recursos em conta exclusiva do projeto, a incorporação imediata dos bens ao patrimônio da universidade ou instituto beneficiado e a prestação de contas sujeita à fiscalização da Receita Federal e dos órgãos de controle.\n\nSegundo o governo, a medida deve reduzir gargalos burocráticos, ampliar a capacidade de desenvolvimento científico e tecnológico do país e acelerar o reaparelhamento de universidades públicas, institutos federais e instituições públicas de pesquisa.\n\nA medida também busca reduzir os efeitos das limitações do atual sistema de desoneração das importações para pesquisa científica, hoje condicionado a uma cota administrada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), apontada pelo governo como insuficiente para atender toda a demanda de universidades e instituições de pesquisa.\n\nAs mudanças foram definidas após discussões entre a Procuradoria-Geral da Fazenda Nacional (PGFN), a Receita Federal, a Advocacia-Geral da União (AGU) e representantes das universidades federais.</p>",
-      "imagem": "https://imagens.ebc.com.br/38fBcl1RwAZsYExSygcoXN6SiX4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/20160613_111238_resized.jpg?itok=pdqxsfj0",
-      "slug": "importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
-      "pagina_local": "importacoes-para-pesquisa-publica-terao-imunidade-tributaria.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/importacoes-para-pesquisa-publica-terao-imunidade-tributaria",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
-    },
-    {
-      "titulo": "Procon paulistano multa Enel por falhas no fornecimento de energia",
-      "resumo": "O Procon Paulistano, órgão vinculado à Secretaria de Justiça da prefeitura de São Paulo, multou a concessionária de energia Enel em R$ 11,4 milhões por problemas no fornecimento de energia elétrica na capital paulista oc...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Procon Paulistano, órgão vinculado à Secretaria de Justiça da prefeitura de São Paulo, multou a concessionária de energia Enel em R$ 11,4 milhões por problemas no fornecimento de energia elétrica na capital paulista ocorridos no ano passado. A medida foi publicada no Diário Oficial da cidade de São Paulo desta quarta-feira (21).\n\nSegundo o órgão, a multa se refere a falhas registradas entre setembro e dezembro de 2025, principalmente entre os dias 8 e 10 de dezembro, período em que até 3 milhões de consumidores ficaram sem fornecimento de energia elétrica.\n\nNotícias relacionadas:Aneel adia discussão sobre fim de contrato com a Enel em São Paulo.Justiça reconhece falhas da Enel em apagão de dezembro de 2025 em SP.Falhas na prestação de serviços podem encerrar concessão da Enel em SP.A Enel poderá recorrer da decisão à Coordenadoria do Procon Paulistano no prazo de 15 dias, contados a partir da publicação.\n\nMotivação\n\nDe acordo com a prefeitura, a multa foi aplicada originalmente no ano passado pelo Procon Paulistano, em razão dos apagões que comprometeram a prestação de um serviço essencial aos consumidores. Após recurso apresentado pela concessionária, a decisão administrativa manteve a penalidade de R$ 11,4 milhões.\n\nOutro lado\n\nProcurada pela Agência Brasil, a Enel disse discordar da aplicação da punição e que “sua atuação durante os eventos climáticos extremos de dezembro e de setembro de 2025 foi compatível com a magnitude do impacto”.\n\nDe acordo com a concessionária, ventos fortes e prolongados atingiram a área de concessão por dois dias, em dezembro, e afetaram cerca de 4,4 milhões de consumidores.\n\n\n\"A companhia restabeleceu, em até 24 horas, o fornecimento de energia para 80% dos clientes afetados, o equivalente a aproximadamente 3,5 milhões de unidades consumidoras. A resposta foi mais rápida do que nos eventos de novembro de 2023 e outubro de 2024.”\n\n\nQuanto à falha de energia identificada em setembro, a empresa informou que, naquela ocasião, “um vendaval com rajadas de cerca de 100 km/h atingiu a concessão, e a distribuidora restabeleceu a energia para mais de 90% dos clientes afetados em até 24 horas”.</p>",
-      "imagem": "https://imagens.ebc.com.br/PQetpUAIL5uMEtvnd1yBV3lxiXo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/03/18/img_7119.jpg?itok=RVbaK42T",
-      "slug": "procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia",
-      "pagina_local": "procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/procon-paulistano-multa-enel-por-falhas-no-fornecimento-de-energia",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "PF faz operação contra fraudes em concurso público no Rio",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     },
     {
       "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 19:00"
+      "coletado_em": "23/10/2026 às 22:59"
     }
   ]
 };
