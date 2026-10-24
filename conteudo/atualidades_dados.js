@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "24/10/2026 às 07:05:54",
+  "ultima_atualizacao": "24/10/2026 às 12:34:23",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -130,7 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
+    },
+    {
+      "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
+      "resumo": "A Mega-Sena sorteia neste sábado (24) prêmio estimado em R$ 230milhões. As seis dezenas do concurso 3.074 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser fei...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Mega-Sena sorteia neste sábado (24) prêmio estimado em R$ 230milhões. As seis dezenas do concurso 3.074 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser feitas até as 20h (horário de Brasília), em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nNotícias relacionadas:Mega-Sena acumula para R$ 230 milhões; confira os números sorteados.Caixa Loterias anuncia antecipação de sorteios para sábado.A aposta simples, com seis dezenas, custa R$ 6.\n\nA Caixa Loterias anunciou a antecipação para sábado dos sorteios previstos para o domingo (25), por causa do segundo turno das eleições.\n\nNo último concurso, foram sorteados os números 04 - 13 - 23 - 28 - 41 - 58 e nenhum apostador acertou as seis dezenas.</p>",
+      "imagem": "https://imagens.ebc.com.br/lsrLdv4veqHb5D11g2-YVnn3gEE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamg_abr_08052019_8683_1.jpg?itok=Qn6CX8iL",
+      "slug": "mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado",
+      "pagina_local": "mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "PF faz operação contra fraudes em concurso público no Rio",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Polícia faz operação no interior de SP contra fraudes bancárias",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     },
     {
       "titulo": "Secretário de Queimados, no Rio, morre baleado em abordagem da PM",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
-    },
-    {
-      "titulo": "Justiça bloqueia bens de empresa por queda de helicóptero, no Rio",
-      "resumo": "A 26ª Vara da Justiça Federal no Rio de Janeiro determinou a indisponibilidade de bens da empresa Voos Rio Panorâmico e Serviços Aeronáuticos, incluindo contas bancárias, investimentos, imóveis, veículos e participações ...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A 26ª Vara da Justiça Federal no Rio de Janeiro determinou a indisponibilidade de bens da empresa Voos Rio Panorâmico e Serviços Aeronáuticos, incluindo contas bancárias, investimentos, imóveis, veículos e participações societárias, até o limite de R$ 10 milhões, acolhendo parcialmente pedido do Ministério Público Federal (MPF). \n\nA medida judicial foi motivada pela queda de um helicóptero da empresa na Vista Chinesa, na Floresta da Tijuca, no Rio de Janeiro, em 8 de agosto, durante voo panorâmico comercial, que deixou quatro mortos.\n\nNotícias relacionadas:Colombianas que morreram na queda de helicóptero eram avó, mãe e filha.Quatro pessoas morrem em queda de helicóptero no Rio de Janeiro.Morreram no acidente o piloto, Alessandro Rocha, e três turistas colombianas da mesma família: a avó, Rocio Cubillos, a filha Wendy Manrique e a neta, Sofia Murillo, de 17 anos.\n\nA ação movida pelo MPF pede o bloqueio de ativos financeiros, veículos e imóveis dos réus até o limite de R$ 10 milhões, além da elaboração e execução do plano de recuperação ambiental.\n\nO MPF também requer a condenação dos réus ao pagamento de R$ 10 milhões por danos morais coletivos ambientais, além da recuperação integral da área degradada.\n\nNa decisão da última quinta-feira (15), a 26ª Vara da Justiça Federal também ordenou que a companhia e seu sócio-administrador elaborem, no prazo de 30 dias, um Plano de Recuperação de Área Degradada (PRAD), com o objetivo de promover a restauração ecológica integral do local. Já o pedido de indenização será analisado no curso do processo.\n\nNa ação, o MPF sustenta que a responsabilidade civil por danos ambientais é objetiva, não sendo necessário comprovar culpa, mas a relação entre a atividade desenvolvida e o dano ambiental. Nesse regime, não se aplicam, em regra, justificativas como caso fortuito ou força maior para afastar a obrigação de reparar o dano.\n\nA ação civil pública não abrange os direitos individuais das vítimas fatais do acidente e de seus herdeiros porque o Ministério Público não tem legitimidade para propor ação em nome deles.\n\nQueda\n\nA colisão da aeronave contra o solo e a vegetação provocou uma explosão e um incêndio florestal de grandes proporções na Mata Atlântica, em área situada na zona de amortecimento do Parque Nacional da Tijuca. Segundo a perícia realizada, o fogo atingiu árvores a mais de cinco metros de altura e causou danos à fauna e à flora nativas do ecossistema protegido.\n\nAlém dos danos ambientais diretos e das mortes, o MPF ressalta que a operação colocou em risco a vida, a integridade física e o patrimônio de milhares de pessoas que circulavam pela cidade na ocasião.\n\nAs provas apresentadas pelo MPF foram reunidas em procedimento preparatório próprio, em inquérito policial e em fiscalização presencial realizada pela Agência Nacional de Aviação Civil (Anac).\n\nO relatório da agência reguladora apontou falhas graves na gestão da segurança operacional da empresa, incluindo a inoperância do sistema de gerenciamento de segurança operacional, problemas no controle da fadiga dos tripulantes, ausência de placas de identificação do fabricante nas aeronaves e inconsistências nos registros de manutenção aeronáutica.\n\nDiante das irregularidades identificadas, a Anac determinou a suspensão cautelar do Certificado de Operador Aéreo da empresa e a interdição de outras seis aeronaves de sua frota. Esses elementos, juntamente com os laudos periciais e as demais provas reunidas, fundamentam os pedidos apresentados pelo MPF na ação civil pública.</p>",
-      "imagem": "https://imagens.ebc.com.br/ZnJxwmYtv7aQKJBXKw8avbRu2QA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/08/img-20260808-wa0029.jpg?itok=aZPQ9HCA",
-      "slug": "justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio",
-      "pagina_local": "justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/justica-bloqueia-bens-de-empresa-por-queda-de-helicoptero-no-rio",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "24/10/2026 às 07:05"
+      "coletado_em": "24/10/2026 às 12:34"
     }
   ]
 };
