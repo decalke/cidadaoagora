@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "23/10/2026 às 22:59:36",
+  "ultima_atualizacao": "24/10/2026 às 01:30:19",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Segundo turno: acesso à Esplanada será controlado no domingo",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Barra do Corda afasta secretário por ameaça a eleitores do PT",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "ONS fará operação especial para garantir energia no segundo turno",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Forças Armadas mobilizam 25 mil militares para o segundo turno",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Segundo turno: saiba como consultar local de votação para domingo",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Flávio propõe retomada de privatizações; Lula quer fortalecer empresas",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Confira a agenda dos presidenciáveis nesta sexta-feira (23)",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Primeiro governador, depois presidente: saiba qual a ordem de votação",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Eleitor que pediu voto em trânsito pode consultar local no e-Título",
@@ -140,13 +140,69 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
+    },
+    {
+      "titulo": "Moraes determina bloqueio de até R$ 6 bilhões do advogado Willer Tomaz",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira (23) o bloqueio de até R$ 6 bilhões do advogado Willer Tomaz. O ministro também ordenou quebra dos sigilos bancário, fiscal e cambial, além da s...",
+      "conteudo_completo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira (23) o bloqueio de até R$ 6 bilhões do advogado Willer Tomaz. O ministro também ordenou quebra dos sigilos bancário, fiscal e cambial, além da suspensão dos passaportes e a paralisação das atividades econômicas, financeiras e empresariais de todas as empresas do advogado. \n\nWiller é investigado pela Polícia Federal (PF) por suspeitas de lavagem de dinheiro relacionado a negócios envolvendo bets. O valor bloqueado se refere a bens móveis, imóveis, aviões e barcos.\n\nAs medidas foram tomadas pelo ministro após a PF descobrir que Willer Tomaz viajou para Miami, nos Estados Unidos, após ser alvo, em agosto, de busca e apreensão na Operação Sem Desconto, que investiga descontos indevidos nas aposentadorias e beneficiários do INSS.\n\nO Conselho de Controle de Atividades Financeiras (Coaf), o Banco Central, e a Comissão de Valores Mobiliários (CVM) serão comunicados sobre a decisão para efetuarem os bloqueios determinados. Com a ordem de quebra de sigilo, as instituições bancárias deverão fornecer todos os dados bancários de Willer Tomaz, incluindo a Alcazar Holdings, sediada na Ilha da Madeira, em Portugal.\n\nO advogado ficou conhecido nos últimos meses no contexto da campanha eleitoral por ter uma relação de amizade com o candidato Flávio Bolsonaro (PL). Em entrevistas, o candidato disse que mantém apenas relações pessoais com Willer Tomaz e negou ter relações comerciais com o advogado. \n\nA Agência Brasil busca contato com a defesa do advogado. O espaço está aberto para manifestação.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou nesta sexta-feira (23) o bloqueio de até R$ 6 bilhões do advogado Willer Tomaz. O ministro também ordenou quebra dos sigilos bancário, fiscal e cambial, além da suspensão dos passaportes e a paralisação das atividades econômicas, financeiras e empresariais de todas as empresas do advogado. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706383&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706383&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Willer é investigado pela Polícia Federal (PF) por suspeitas de lavagem de dinheiro relacionado a negócios envolvendo bets. O valor bloqueado se refere a bens móveis, imóveis, aviões e barcos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As medidas foram tomadas pelo ministro após a PF descobrir que Willer Tomaz viajou para Miami, nos Estados Unidos, após ser alvo, em agosto, de busca e apreensão na Operação Sem Desconto, que investiga descontos indevidos nas aposentadorias e beneficiários do INSS.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Conselho de Controle de Atividades Financeiras (Coaf), o Banco Central, e a Comissão de Valores Mobiliários (CVM) serão comunicados sobre a decisão para efetuarem os bloqueios determinados. Com a ordem de quebra de sigilo, as instituições bancárias deverão fornecer todos os dados bancários de Willer Tomaz, incluindo a Alcazar Holdings, sediada na Ilha da Madeira, em Portugal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O advogado ficou conhecido nos últimos meses no contexto da campanha eleitoral por ter uma relação de amizade com o candidato Flávio Bolsonaro (PL). Em entrevistas, o candidato disse que mantém apenas relações pessoais com Willer Tomaz e negou ter relações comerciais com o advogado. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <strong>Agência Brasil </strong>busca contato com a defesa do advogado. O espaço está aberto para manifestação.</p>",
+      "imagem": "https://imagens.ebc.com.br/3FWq1riHzcUje1I44xpDMji5zHc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/11042023-pzzb9223.jpg?itok=9pIAKS04",
+      "slug": "moraes-determina-bloqueio-de-ate-r-6-bilhoes-do-advogado-willer-tomaz",
+      "pagina_local": "moraes-determina-bloqueio-de-ate-r-6-bilhoes-do-advogado-willer-tomaz.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-bloqueio-de-ate-r-6-bilhoes-do-advogado-willer-tomaz",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "24/10/2026 às 01:30"
+    },
+    {
+      "titulo": "MPT apura carta de supermercado a funcionários com teor eleitoral",
+      "resumo": "O Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) informou nesta sexta-feira (23) que registrou uma Notícia de Fato (NF) para apurar o envio de uma carta pela rede de Supermercados Zona Sul a seus funcionários, às vésperas da elei...",
+      "conteudo_completo": "O Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) informou nesta sexta-feira (23) que registrou uma Notícia de Fato (NF) para apurar o envio de uma carta pela rede de Supermercados Zona Sul a seus funcionários, às vésperas da eleição.\n\nNo texto, a rede defende o \"voto consciente\" e que \"chegou a hora de mudar\".  Assinado pelo presidente da empresa, o documento “não cita nominalmente nenhum candidato, mas defende uma revisão de prioridades, posturas e modelos”.\n\nNotícias relacionadas:Sociedade civil manifesta preocupação ao TSE por censura nas redes.Meta diz ao TSE que Exército do Lula não viola políticas da plataforma.O documento foi denunciado pelo vereador Rick Azevedo (Psol), eleito deputado federal. Ele escreveu que “a rede de supermercados de elite da zona sul distribuiu aos funcionários uma carta assinada pelo presidente da empresa em defesa do “voto consciente”. O texto fala em “esgotamento de ciclo e “necessidade de mudança”.\n\n“Isso é assédio eleitoral. Cadê o TSE?”, disse o parlamentar.\n\nNo documento, a rede Zona Sul descreve que o Brasil é um país que enfrenta três formas de esgotamento: ético, moral e de modelo. “O primeiro estaria relacionado à perda de espaço dos princípios e da responsabilidade com o interesse público. Já o segundo seria marcado pela deterioração da confiança nas instituições e pela naturalização de situações que deveriam provocar indignação”.\n\nA Agência Brasil não conseguiu contato com a direção da rede de supermercados Zona Sul. O espaço segue aberto para manifestação.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) informou nesta sexta-feira (23) que registrou uma Notícia de Fato (NF) para apurar o envio de uma carta pela rede de Supermercados Zona Sul a seus funcionários, às vésperas da eleição.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706382&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706382&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No texto, a rede defende o \"voto consciente\" e que \"chegou a hora de mudar\".  Assinado pelo presidente da empresa, o documento “não cita nominalmente nenhum candidato, mas defende uma revisão de prioridades, posturas e modelos”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O documento foi denunciado pelo vereador Rick Azevedo (Psol), eleito deputado federal. Ele escreveu que “a rede de supermercados de elite da zona sul distribuiu aos funcionários uma carta assinada pelo presidente da empresa em defesa do “voto consciente”. O texto fala em “esgotamento de ciclo e “necessidade de mudança”.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Isso é assédio eleitoral. Cadê o TSE?”, disse o parlamentar.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No documento, a rede Zona Sul descreve que o Brasil é um país que enfrenta três formas de esgotamento: ético, moral e de modelo. “O primeiro estaria relacionado à perda de espaço dos princípios e da responsabilidade com o interesse público. Já o segundo seria marcado pela deterioração da confiança nas instituições e pela naturalização de situações que deveriam provocar indignação”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A <strong>Agência Brasil</strong> não conseguiu contato com a direção da rede de supermercados Zona Sul. O espaço segue aberto para manifestação.</p>",
+      "imagem": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop&q=80",
+      "slug": "mpt-apura-carta-de-supermercado-a-funcionarios-com-teor-eleitoral",
+      "pagina_local": "mpt-apura-carta-de-supermercado-a-funcionarios-com-teor-eleitoral.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mpt-apura-carta-de-supermercado-funcionarios-com-teor-eleitoral",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "24/10/2026 às 01:30"
+    },
+    {
+      "titulo": "Ministra rejeita ação que pedia transporte interestadual na eleição",
+      "resumo": "A ministra Cármen Lúcia, do Supremo Tribunal Federal (STF), negou nesta sexta-feira (23) pedido protocolado pela campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) para estender a gratuidade de transporte público no segundo tu...",
+      "conteudo_completo": "A ministra Cármen Lúcia, do Supremo Tribunal Federal (STF), negou nesta sexta-feira (23) pedido protocolado pela campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) para estender a gratuidade de transporte público no segundo turno para viagens interestaduais.\n\nNa decisão, a ministra disse que a competência para decidir a questão é do Tribunal Superior Eleitoral (TSE). Além disso, Cármen ressaltou que seria inviável para o Supremo decidir a questão dois dias antes do pleito.\n\nNotícias relacionadas:Prefeituras e estados devem garantir transporte gratuito no 2° turno.Indígenas do Vale do Javari terão transporte gratuito no 2º turno.“O que se pretende na presente petição não pode ser atendido pela precariedade de dados fáticos, contratuais e elementos administrativos e eleitorais para embasar decisão judicial para atendimento imediato e sem ponderação sobre o seu alcance e eventuais consequências administrativas e eleitorais”, decidiu a ministra.\n\nNa petição encaminhada ao Supremo, a campanha de Lula alegou que a decisão do STF que, em 2023, garantiu a gratuidade de transporte coletivo urbano municipal e intermunicipal, inclusive o metropolitano, foi omissa. Segundo a campanha, o transporte coletivo interestadual não foi tratado na decisão.\n\nPara as eleições deste ano, uma resolução do TSE determina que o poder público deve assegurar a oferta gratuita de transporte coletivo urbano municipal e intermunicipal aos eleitores no dia da votação, com mesma frequência dos dias úteis.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A ministra Cármen Lúcia, do Supremo Tribunal Federal (STF), negou nesta sexta-feira (23) pedido protocolado pela campanha do candidato à reeleição Luiz Inácio Lula da Silva (PT) para estender a gratuidade de transporte público no segundo turno para viagens interestaduais.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706381&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706381&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Na decisão, a ministra disse que a competência para decidir a questão é do Tribunal Superior Eleitoral (TSE).</strong> Além disso, Cármen ressaltou que seria inviável para o Supremo decidir a questão dois dias antes do pleito.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O que se pretende na presente petição não pode ser atendido pela precariedade de dados fáticos, contratuais e elementos administrativos e eleitorais para embasar decisão judicial para atendimento imediato e sem ponderação sobre o seu alcance e eventuais consequências administrativas e eleitorais”, decidiu a ministra.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na petição encaminhada ao Supremo, a campanha de Lula alegou que a decisão do STF que, em 2023, garantiu a gratuidade de transporte coletivo urbano municipal e intermunicipal, inclusive o metropolitano, foi omissa. Segundo a campanha, o transporte coletivo interestadual não foi tratado na decisão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Para as eleições deste ano, uma resolução do TSE determina que o <a href=\"http://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleicoes-prefeituras-estados-devem-garantir-transporte-gratuito-no-segundo-turno\">poder público deve assegurar a oferta gratuita</a> de transporte coletivo urbano municipal e intermunicipal aos eleitores no dia da votação, com mesma frequência dos dias úteis.   </strong></p>",
+      "imagem": "https://imagens.ebc.com.br/5_WjCbO-KqAWxTsTphC-LEHoHyQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/01/54036205620_c786f87348_o.jpg?itok=d_u7Qa24",
+      "slug": "ministra-rejeita-acao-que-pedia-transporte-interestadual-na-eleicao",
+      "pagina_local": "ministra-rejeita-acao-que-pedia-transporte-interestadual-na-eleicao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/ministra-rejeita-acao-que-pedia-transporte-interestadual-na-eleicao",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "24/10/2026 às 01:30"
+    },
+    {
+      "titulo": "Meta diz ao TSE que Exército do Lula não viola políticas da plataforma",
+      "resumo": "A Meta afirmou nesta sexta-feira (23) ao Tribunal Superior Eleitoral (STE) que não encontrou irregularidades no funcionamento do canal Exército do Lula, criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da...",
+      "conteudo_completo": "A Meta afirmou nesta sexta-feira (23) ao Tribunal Superior Eleitoral (STE) que não encontrou irregularidades no funcionamento do canal Exército do Lula, criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da Silva (PT).\n\nA manifestação da empresa, que opera as plataformas WhatsApp, Instagram e Facebook, foi solicitada pelo presidente do TSE, Kassio Nunes Marques, que determinou um pente-fino no canal após pedido do candidato Flávio Bolsonaro (PL).\n\nNotícias relacionadas:Ministro do TSE proíbe suspensão do canal Exército do Lula .Presidente do TSE pede à Meta relatório sobre canal Exército do Lula .De acordo com a Meta, a análise técnica constatou que não há violações às políticas da empresa.\n\n“A análise do canal à luz das diretrizes de canais consta da declaração técnica anexa que constatou que não há violação das políticas, detalhando as políticas e metodologia para detecção de conteúdo violador”, afirmou a plataforma.\n\nA campanha de Flávio alega que há indícios de que as redes operadas pela Meta não estariam cumprindo o plano de conformidade entregue ao TSE para garantir a integridade do processo eleitoral.\n\nEntenda\n\nMais cedo, o ministro Floriano de Azevedo Marques, do TSE, decidiu que o canal Exército do Lula não poderá ser suspenso ou restringido novamente por decisões individuais de membros da Corte.\n\nNo dia 11 deste mês, Kassio Nunes Marques suspendeu o canal. Ele atendeu ao pedido da campanha de Flávio Bolsonaro (PL), sob o argumento de que houve replicação de conteúdos que já foram considerados inverídicos pelo tribunal.\n\nEm seguida, o corregedor-geral eleitoral, ministro Ricardo Vilas Bôas Cuêva, derrubou a suspensão e disse que a liminar foi protocolada na presidência do TSE após 41 minutos de sua decisão que havia rejeitado a suspensão do canal.\n\nPosteriormente, Kassio Nunes Marques liberou o canal, após ser registrado oficialmente no TSE.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Meta afirmou nesta sexta-feira (23) ao Tribunal Superior Eleitoral (STE) que não encontrou irregularidades no funcionamento do canal Exército do Lula, criado no WhatsApp para postagens de apoio ao candidato à reeleição Luiz Inácio Lula da Silva (PT).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706379&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706379&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A manifestação da empresa, que opera as plataformas WhatsApp, Instagram e Facebook, foi <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/presidente-do-tse-pede-meta-relatorio-sobre-canal-exercito-do-lula\" target=\"_blank\">solicitada pelo presidente do TSE, Kassio Nunes Marques, que determinou um pente-fino no canal</a> após pedido do candidato Flávio Bolsonaro (PL).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a Meta, <strong>a análise técnica constatou que não há violações às políticas da empresa.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A análise do canal à luz das diretrizes de canais consta da declaração técnica anexa que constatou que não há violação das políticas, detalhando as políticas e metodologia para detecção de conteúdo violador”, afirmou a plataforma.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A campanha de Flávio alega que há indícios de que as redes operadas pela Meta não estariam cumprindo o plano de conformidade entregue ao TSE para garantir a integridade do processo eleitoral.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Entenda</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mais cedo, o ministro Floriano de Azevedo Marques, do TSE,<a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/ministro-do-tse-proibe-suspensao-do-canal-exercito-do-lula\" target=\"_blank\"> decidiu que o canal Exército do Lula não poderá ser suspenso ou restringido novamente por decisões individuais </a>de membros da Corte.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No dia 11 deste mês, Kassio Nunes Marques<a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-atende-flavio-e-manda-suspender-canal-do-whatsapp-exercito-do-lula\" target=\"_blank\"> suspendeu o canal</a>. Ele atendeu ao pedido da campanha de Flávio Bolsonaro (PL), sob o argumento de que houve replicação de conteúdos que já foram considerados inverídicos pelo tribunal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em seguida, o corregedor-geral eleitoral, ministro Ricardo Vilas Bôas Cuêva,<a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/corregedor-derruba-decisao-que-suspendeu-canal-exercito-do-lula\" target=\"_blank\"> derrubou a suspensão</a> e disse que a liminar foi protocolada na presidência do TSE após 41 minutos de sua decisão que havia rejeitado a suspensão do canal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Posteriormente, Kassio Nunes Marques liberou o canal,<a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/tse-kassio-autoriza-reativacao-do-canal-exercito-do-lula\" target=\"_blank\"> após ser registrado oficialmente no TSE</a>.</p>",
+      "imagem": "https://imagens.ebc.com.br/Ii3vDMq1ZfrfcxJTTEcGoqEReeI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/aplicativo_0410211425.jpg?itok=SwPcAYzh",
+      "slug": "meta-diz-ao-tse-que-exercito-do-lula-nao-viola-politicas-da-plataforma",
+      "pagina_local": "meta-diz-ao-tse-que-exercito-do-lula-nao-viola-politicas-da-plataforma.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/meta-diz-ao-tse-que-exercito-do-lula-nao-viola-politicas-da-plataforma",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Caso Ana Clara: ativistas protestam no TSE contra decisão de Mendonça",
       "resumo": "Cerca de 100 pessoas protestaram nesta sexta-feira (23) em Brasília contra decisão do ministro André Mendonça de suspender o impulsionamento pago de vídeo (de 2 minutos e 28 segundos) sobre o caso da menina Ana Clara em plataformas digitais...",
-      "conteudo_completo": "Cerca de 100 pessoas protestaram nesta sexta-feira (23) em Brasília contra decisão do ministro André Mendonça de suspender o impulsionamento pago de vídeo (de 2 minutos e 28 segundos) sobre o caso da menina Ana Clara em plataformas digitais. Ele atendeu a uma solicitação do candidato Flávio Bolsonaro. \n\nO ato ocorreu em frente ao Tribunal Superior Eleitoral (TSE), instituição que tem Mendonça como vice-presidente. O ministro decidiu ainda que a campanha deveria se abster de contratar novos impulsionamentos da gravação Flávio defendeu assassino de criança, sob pena de multa de R$ 10 mil para cada alavancagem.\n\nNotícias relacionadas:Direitos Humanos: planos de Lula e Flávio refletem diferença histórica.Ana Clara, de 5 anos, morreu, em 2021, em uma comunidade em Niterói, no Rio de Janeiro, atingida por tiro de fuzil disparado por um soldado da PM. O vídeo divulgado pela campanha de Lula expõe que, durante o mandato, o senador Flávio Bolsonaro defendeu o acusado.  \n\nCrítica\n\nDe acordo com a presidente da União Brasileira de Mulheres (UBM), Maria das Neves Filha, a decisão do ministro configura “censura”. \n\n\n“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”\n\n\nEla lamentou o fato de a decisão ter sido proferida no último dia útil antes da votação. “É por isso que estamos na rua hoje.”\n\nJustificativa\n\nNa decisão de André Mendonça justificou que não se identifica, no material, conteúdo promocional autônomo da candidatura de Lula, e sim críticas apenas. “A mensagem publicitária dirige-se essencialmente à crítica e à desqualificação do candidato adversário.”\n\nOutra observação do ministro é que o fato de que o vídeo trazer o depoimento da mãe da menina Ana Clara, Cristiane Gomes da Silva, não garantiria autorização de uso do material.\n\n“A circunstância de o material reproduzir manifestações proferidas em debate eleitoral e depoimento de familiar da vítima não afasta, por si só, a irregularidade do impulsionamento remunerado.”",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Cerca de 100 pessoas protestaram nesta sexta-feira (23) em Brasília contra decisão do ministro <a href=\"https://agenciabrasil.ebc.com.br/tags/andre-mendonca\" target=\"_blank\">André Mendonça </a>de suspender o impulsionamento pago de vídeo (de 2 minutos e 28 segundos) sobre o caso da menina Ana Clara em plataformas digitais. Ele atendeu a uma solicitação do candidato <a href=\"https://agenciabrasil.ebc.com.br/tags/flavio-bolsonaro\" target=\"_blank\">Flávio Bolsonaro</a>. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706368&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706368&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ato ocorreu em frente ao<a href=\"https://www.tse.jus.br/\" target=\"_blank\"> Tribunal Superior Eleitoral (TSE)</a>, instituição que tem Mendonça como vice-presidente. O ministro decidiu ainda que a campanha deveria se abster de contratar novos impulsionamentos da gravação <em>Flávio defendeu assassino de criança</em>, sob pena de multa de R$ 10 mil para cada alavancagem.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ana Clara, de 5 anos, morreu, em 2021, em uma comunidade em Niterói, no Rio de Janeiro, atingida por tiro de fuzil disparado por um soldado da PM. O vídeo divulgado pela <a href=\"https://agenciabrasil.ebc.com.br/tags/lula\" target=\"_blank\">campanha de Lula</a> expõe que, durante o mandato, o senador Flávio Bolsonaro defendeu o acusado.  </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Crítica</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>De acordo com a presidente da União Brasileira de Mulheres (UBM), Maria das Neves Filha, a decisão do ministro configura “censura”. </strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ela lamentou o fato de a decisão ter sido proferida no último dia útil antes da votação. “É por isso que estamos na rua hoje.”</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Justificativa</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão de André Mendonça justificou que não se identifica, no material, conteúdo promocional autônomo da candidatura de Lula, e sim críticas apenas. “A mensagem publicitária dirige-se essencialmente à crítica e à desqualificação do candidato adversário.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Outra observação do ministro é que o fato de que o vídeo trazer o depoimento da mãe da menina Ana Clara, Cristiane Gomes da Silva, não garantiria autorização de uso do material.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A circunstância de o material reproduzir manifestações proferidas em debate eleitoral e depoimento de familiar da vítima não afasta, por si só, a irregularidade do impulsionamento remunerado.”</p>",
+      "conteudo_completo": "Cerca de 100 pessoas protestaram nesta sexta-feira (23) em Brasília contra decisão do ministro André Mendonça de suspender o impulsionamento pago de vídeo (de 2 minutos e 28 segundos) sobre o caso da menina Ana Clara em plataformas digitais. Ele atendeu a uma solicitação do candidato Flávio Bolsonaro. \n\nO ato ocorreu em frente ao Tribunal Superior Eleitoral (TSE), instituição que tem Mendonça como vice-presidente. O ministro decidiu ainda que a campanha deveria se abster de contratar novos impulsionamentos da gravação, sob pena de multa de R$ 10 mil para cada alavancagem.\n\nNotícias relacionadas:Direitos Humanos: planos de Lula e Flávio refletem diferença histórica.Ana Clara, de 5 anos, morreu, em 2021, em uma comunidade em Niterói, no Rio de Janeiro, atingida por tiro de fuzil disparado por um soldado da PM. O vídeo divulgado pela campanha de Lula expõe que, durante o mandato, o senador Flávio Bolsonaro defendeu o acusado.  \n\nEm debate na TV Band, ao ser perguntado sobre o caso, Bolsonaro disse que o exercício da advocacia não poderia ser criminalizado e, nem o acusado, condenado antes do julgamento.\n\nCrítica\n\nDe acordo com a presidente da União Brasileira de Mulheres (UBM), Maria das Neves Filha, a decisão do ministro configura “censura”. \n\n\n“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”\n\n\nEla lamentou o fato de a decisão ter sido proferida no último dia útil antes da votação. “É por isso que estamos na rua hoje.”\n\nJustificativa\n\nNa decisão de André Mendonça justificou que não se identifica, no material, conteúdo promocional autônomo da candidatura de Lula, e sim críticas apenas. “A mensagem publicitária dirige-se essencialmente à crítica e à desqualificação do candidato adversário.”\n\nOutra observação do ministro é que o fato de que o vídeo trazer o depoimento da mãe da menina Ana Clara, Cristiane Gomes da Silva, não garantiria autorização de uso do material.\n\n“A circunstância de o material reproduzir manifestações proferidas em debate eleitoral e depoimento de familiar da vítima não afasta, por si só, a irregularidade do impulsionamento remunerado.”",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Cerca de 100 pessoas protestaram nesta sexta-feira (23) em Brasília contra decisão do ministro <a href=\"https://agenciabrasil.ebc.com.br/tags/andre-mendonca\" target=\"_blank\">André Mendonça </a>de suspender o impulsionamento pago de vídeo (de 2 minutos e 28 segundos) sobre o caso da menina Ana Clara em plataformas digitais. Ele atendeu a uma solicitação do candidato <a href=\"https://agenciabrasil.ebc.com.br/tags/flavio-bolsonaro\" target=\"_blank\">Flávio Bolsonaro</a>. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706368&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706368&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ato ocorreu em frente ao<a href=\"https://www.tse.jus.br/\" target=\"_blank\"> Tribunal Superior Eleitoral (TSE)</a>, instituição que tem Mendonça como vice-presidente. O ministro decidiu ainda que a campanha deveria se abster de contratar novos impulsionamentos da gravação, sob pena de multa de R$ 10 mil para cada alavancagem.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ana Clara, de 5 anos, morreu, em 2021, em uma comunidade em Niterói, no Rio de Janeiro, atingida por tiro de fuzil disparado por um soldado da PM. O vídeo divulgado pela campanha de Lula expõe que, durante o mandato, o senador Flávio Bolsonaro defendeu o acusado.  </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em debate na TV Band, ao ser perguntado sobre o caso, Bolsonaro disse que o exercício da advocacia não poderia ser criminalizado e, nem o acusado, condenado antes do julgamento.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Crítica</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>De acordo com a presidente da União Brasileira de Mulheres (UBM), Maria das Neves Filha, a decisão do ministro configura “censura”. </strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Devemos denunciar essa censura flagrante à nossa democracia. Vamos tomar as medidas cabíveis para fazer com que a justiça prevaleça nesse caso.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ela lamentou o fato de a decisão ter sido proferida no último dia útil antes da votação. “É por isso que estamos na rua hoje.”</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Justificativa</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão de André Mendonça justificou que não se identifica, no material, conteúdo promocional autônomo da candidatura de Lula, e sim críticas apenas. “A mensagem publicitária dirige-se essencialmente à crítica e à desqualificação do candidato adversário.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Outra observação do ministro é que o fato de que o vídeo trazer o depoimento da mãe da menina Ana Clara, Cristiane Gomes da Silva, não garantiria autorização de uso do material.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A circunstância de o material reproduzir manifestações proferidas em debate eleitoral e depoimento de familiar da vítima não afasta, por si só, a irregularidade do impulsionamento remunerado.”</p>",
       "imagem": "https://imagens.ebc.com.br/KMXTKTi5XgwutYiqCVmwygXEGF4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/23/whatsapp_image_2026-10-23_at_17.41.04.jpeg?itok=BloZE5BY",
       "slug": "caso-ana-clara-ativistas-protestam-no-tse-contra-decisao-de-mendonca",
       "pagina_local": "caso-ana-clara-ativistas-protestam-no-tse-contra-decisao-de-mendonca.html",
@@ -154,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Mendonça reitera que Lula e Flávio podem abrir sigilos por ato próprio",
@@ -168,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Ministro do TSE proíbe suspensão do canal Exército do Lula",
@@ -182,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "TSE dá 24h para Meta e X explicarem distribuição de material político",
@@ -196,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Propaganda eleitoral gratuita termina nesta sexta-feira",
@@ -210,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Diretora é presa por desvio de alimentos em unidade prisional feminina",
@@ -224,63 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
-    },
-    {
-      "titulo": "Eleitores de Itaguaí, no Rio, votam domingo também para prefeito",
-      "resumo": "Os mais de 100 mil eleitores de Itaguaí, na região metropolitana do Rio de Janeiro, voltarão às urnas neste domingo (25) para escolher o próximo presidente da República e também o novo prefeito do município. A eleição suplementar será reali...",
-      "conteudo_completo": "Os mais de 100 mil eleitores de Itaguaí, na região metropolitana do Rio de Janeiro, voltarão às urnas neste domingo (25) para escolher o próximo presidente da República e também o novo prefeito do município. A eleição suplementar será realizada simultaneamente ao segundo turno das Eleições Gerais 2026, das 8h às 17h.\n\nA votação seguirá a seguinte ordem: primeiro, os eleitores votam para presidente da República; depois, para prefeito. Para evitar erros na digitação dos números, a Justiça Eleitoral recomenda levar uma colinha com os números dos candidatos, anotados em papel. O uso de celulares e de outros aparelhos eletrônicos na cabine de votação é proibido. Por isso, a anotação é a forma indicada para consultar os números durante a votação.\n\nNotícias relacionadas:Eleições: saiba quais documentos são aceitos para votar no 2° turno.Eleições 2026: veja como consultar local de votação e seção eleitoral.Eleições: quem não votou no primeiro turno pode participar do segundo.Quatro chapas disputam a eleição suplementar. Os candidatos eleitos cumprirão mandato até 31 de dezembro de 2028. Concorrem ao pleito Haroldinho Jesus (PDT), que tem como vice Fabiano José Nunes, o Fabinho Taciano (PP); Kelaine Goulart (Novo), com Beto do Posto (Novo) como vice; Luciano Mota (PT), que forma chapa com Dr. Paulo Wesley (PT); e Marcelo Cunha (Democrata), ao lado de Dany Van Tol (Democrata).\n\nTransporte gratuito\n\nPara facilitar o deslocamento de eleitores até os locais de votação e garantir o exercício do direito ao voto, o transporte coletivo no domingo será gratuito em Itaguaí, assim como em todo o estado do Rio. A gratuidade vale das 6h30 às 19h20 no dia da votação.\n\nEleição suplementar\n\nA eleição suplementar ocorre porque a Justiça Eleitoral barrou a candidatura de Rubem Vieira de Souza, do Podemos, conhecido como Dr. Rubão, por entender que ele estaria concorrendo a um terceiro mandato consecutivo.\n\nEm 2020, Dr. Rubão era presidente da Câmara Municipal e assumiu a prefeitura entre julho e o fim daquele ano, depois do afastamento do prefeito e do vice. Depois, foi eleito prefeito e comandou a cidade até o fim de 2024. Naquele ano, disputou novamente o cargo e recebeu a maioria dos votos, mas teve a candidatura barrada. A Justiça Eleitoral considerou que um novo mandato configuraria um terceiro período consecutivo à frente da prefeitura.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os mais de 100 mil eleitores de Itaguaí, na região metropolitana do Rio de Janeiro, voltarão às urnas neste domingo (25) para escolher o próximo presidente da República e também o novo prefeito do município. A eleição suplementar será realizada simultaneamente ao segundo turno das Eleições Gerais 2026, das 8h às 17h.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706276&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706276&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A votação seguirá a seguinte ordem: primeiro, os eleitores votam para presidente da República; depois, para prefeito. Para evitar erros na digitação dos números, a Justiça Eleitoral recomenda levar uma colinha com os números dos candidatos, anotados em papel</strong>. O uso de celulares e de outros aparelhos eletrônicos na cabine de votação é proibido. Por isso, a anotação é a forma indicada para consultar os números durante a votação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Quatro chapas disputam a eleição suplementar. Os candidatos eleitos cumprirão mandato até 31 de dezembro de 2028. Concorrem ao pleito Haroldinho Jesus (PDT), que tem como vice Fabiano José Nunes, o Fabinho Taciano (PP); Kelaine Goulart (Novo), com Beto do Posto (Novo) como vice; Luciano Mota (PT), que forma chapa com Dr. Paulo Wesley (PT); e Marcelo Cunha (Democrata), ao lado de Dany Van Tol (Democrata).</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Transporte gratuito</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Para facilitar o deslocamento de eleitores até os locais de votação e garantir o exercício do direito ao voto, o transporte coletivo no domingo será gratuito em Itaguaí, assim como em todo o estado do Rio. A gratuidade vale das 6h30 às 19h20 no dia da votação.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Eleição suplementar</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A eleição suplementar ocorre porque a Justiça Eleitoral barrou a candidatura de Rubem Vieira de Souza, do Podemos, conhecido como Dr. Rubão, por entender que ele estaria concorrendo a um terceiro mandato consecutivo.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em 2020, Dr. Rubão era presidente da Câmara Municipal e assumiu a prefeitura entre julho e o fim daquele ano, depois do afastamento do prefeito e do vice. Depois, foi eleito prefeito e comandou a cidade até o fim de 2024. Naquele ano, disputou novamente o cargo e recebeu a maioria dos votos, mas teve a candidatura barrada. A Justiça Eleitoral considerou que um novo mandato configuraria um terceiro período consecutivo à frente da prefeitura.</p>",
-      "imagem": "https://imagens.ebc.com.br/dT533nV8EHShBl3p1JU2w-yACEw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/24/_pin5457.jpg-2.jpg?itok=yCAn7QkH",
-      "slug": "eleitores-de-itaguai-no-rio-votam-domingo-tambem-para-prefeito",
-      "pagina_local": "eleitores-de-itaguai-no-rio-votam-domingo-tambem-para-prefeito.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/eleitores-de-itaguai-no-rio-votam-domingo-tambem-para-prefeito",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
-    },
-    {
-      "titulo": "PGR dá parecer contra pedido de acesso a registro de Vorcaro no Senado",
-      "resumo": "O procurador-geral da República, Paulo Gonet, enviou nesta quinta-feira (22) ao Supremo Tribunal Federal (STF) parecer contrário ao pedido de acesso a eventuais registros de entrada e saída da advogada Viviane Barci, esposa do ministro Alex...",
-      "conteudo_completo": "O procurador-geral da República, Paulo Gonet, enviou nesta quinta-feira (22) ao Supremo Tribunal Federal (STF) parecer contrário ao pedido de acesso a eventuais registros de entrada e saída da advogada Viviane Barci, esposa do ministro Alexandre de Moraes, e do ex-banqueiro Daniel Vorcaro no Senado. \n\nA manifestação foi incluída no mandado de segurança no qual o vereador de Curitiba Guilherme Kilter (Novo) pede que a Corte obrigue o Senado a fornecer eventuais registros de entrada e saída de Viviane, Vorcaro e outros citados.\n\nNotícias relacionadas:Fux pede a Senado posição sobre acessos de Vorcaro e esposa de Moraes.Segundo o parlamentar, os pedidos de acesso aos dados foram negados pela Casa por envolver \"informações de caráter pessoal\". \n\nAlém de Viviane e Vorcaro, o vereador quer acesso a eventuais registros de entrada do empresário Antônio Carlos Camilo Antunes, o Careca do INSS, o empresário Fábio Luís Lula da Silva, filho do presidente Luiz Inácio Lula da Silva, nas dependências da Casa.\n\nNo parecer, o procurador disse que o pedido de acesso deve ser rejeitado porque a jurisprudência do Supremo define que não cabe mandado de segurança, protocolado em nome próprio, para defender direitos coletivos. \n\n“O impetrante não logrou comprovar violação de direito subjetivo líquido e certo, o que, nos termos da jurisprudência do Supremo Tribunal Federal, afasta sua legitimidade ativa e, por conseguinte, o cabimento do mandado de segurança”, afirmou Gonet.\n\nO caso é relatado pelo ministro Luiz Fux. Não há data prevista para decisão.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O procurador-geral da República, Paulo Gonet, enviou nesta quinta-feira (22) ao Supremo Tribunal Federal (STF) parecer contrário ao pedido de acesso a eventuais registros de entrada e saída da advogada Viviane Barci, esposa do ministro Alexandre de Moraes, e do ex-banqueiro Daniel Vorcaro no Senado.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706267&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706267&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A manifestação foi incluída no mandado de segurança no qual o vereador de Curitiba Guilherme Kilter (Novo) pede que a Corte obrigue o Senado a fornecer eventuais registros de entrada e saída de Viviane, Vorcaro e outros citados.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o parlamentar, os pedidos de acesso aos dados foram negados pela Casa por envolver \"informações de caráter pessoal\". </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além de Viviane e Vorcaro, o vereador quer acesso a eventuais registros de entrada do empresário Antônio Carlos Camilo Antunes, o Careca do INSS, o empresário Fábio Luís Lula da Silva, filho do presidente Luiz Inácio Lula da Silva, nas dependências da Casa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>No parecer, o procurador disse que o pedido de acesso deve ser rejeitado porque a jurisprudência do Supremo define que não cabe mandado de segurança, protocolado em nome próprio, para defender direitos coletivos. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O impetrante não logrou comprovar violação de direito subjetivo líquido e certo, o que, nos termos da jurisprudência do Supremo Tribunal Federal, afasta sua legitimidade ativa e, por conseguinte, o cabimento do mandado de segurança”, afirmou Gonet.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O caso<a href=\"http://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fux-vai-relatar-acao-sobre-idas-da-esposa-de-moraes-ao-senado\"> é relatado pelo ministro Luiz Fux</a>. Não há data prevista para decisão.</p>",
-      "imagem": "https://imagens.ebc.com.br/DKNAltyNBdm8Qovc6fL2b3PamQM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/09/10/10092025-pzzb1872.jpg?itok=lRDGytDD",
-      "slug": "pgr-da-parecer-contra-pedido-de-acesso-a-registro-de-vorcaro-no-senado",
-      "pagina_local": "pgr-da-parecer-contra-pedido-de-acesso-a-registro-de-vorcaro-no-senado.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pgr-da-parecer-contra-pedido-de-acesso-registro-de-vorcaro-no-senado",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
-    },
-    {
-      "titulo": "Mendonça diz que Flávio e Lula podem divulgar sigilos",
-      "resumo": "O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), decidiu nesta quinta-feira (22) que as campanhas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) podem divulgar seus sigilos bancários, fiscal e telefônico, conforme...",
-      "conteudo_completo": "O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), decidiu nesta quinta-feira (22) que as campanhas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) podem divulgar seus sigilos bancários, fiscal e telefônico, conforme acordo assinado entre os candidatos. \n\nNa decisão, o ministro afirmou que não cabe interferência da Justiça Eleitoral no caso e que os próprios candidatos podem revelar seus dados ao público. \n\nNotícias relacionadas:Campanha de Lula apresenta acordo com Flávio para abrir sigilos.\"Ainda assim, para que não reste dúvida, reafirma-se que os candidatos e pessoas físicas e jurídicas a que se referiram estão autorizadas a divulgar, por ato próprio, como e quando entenderem pertinentes, os dados de que são titulares\", afirmou. \n\nO ministro ainda ressaltou que a divulgação espontânea dos dados dos candidatos não substitui as investigações formais.\n\n\"É de conhecimento público e assente na doutrina especializada que recursos de origem ilícita, procedentes de corrupção e lavagem de dinheiro, invariavelmente não transitam pelas contas de seus beneficiários, mas por interpostas pessoas: os chamados laranjas. Por isso, a divulgação espontânea e voluntária de extratos e declarações pessoais, embora legítima, não substitui as investigações conduzidas pelos órgãos competentes e sob controle judicial, que existem justamente para esclarecer esses fatos.\n\nMais cedo, as campanhas de Lula e Flávio assinaram um acordo para o levantamento de seus sigilos. \n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ministro André Mendonça, do Tribunal Superior Eleitoral (TSE), decidiu nesta quinta-feira (22) que as campanhas de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) podem divulgar seus sigilos bancários, fiscal e telefônico, conforme acordo assinado entre os candidatos.</strong> <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706251&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706251&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão, o ministro afirmou que não cabe interferência da Justiça Eleitoral no caso e que os próprios candidatos podem revelar seus dados ao público. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Ainda assim, para que não reste dúvida, reafirma-se que os candidatos e pessoas físicas e jurídicas a que se referiram estão autorizadas a divulgar, por ato próprio, como e quando entenderem pertinentes, os dados de que são titulares\", afirmou. </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ministro ainda ressaltou que a divulgação espontânea dos dados dos candidatos não substitui as investigações formais.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"É de conhecimento público e assente na doutrina especializada que recursos de origem ilícita, procedentes de corrupção e lavagem de dinheiro, invariavelmente não transitam pelas contas de seus beneficiários, mas por interpostas pessoas: os chamados laranjas. Por isso, a divulgação espontânea e voluntária de extratos e declarações pessoais, embora legítima, não substitui as investigações conduzidas pelos órgãos competentes e sob controle judicial, que existem justamente para esclarecer esses fatos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mais cedo, as campanhas de Lula e Flávio <a href=\"http://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos\">assinaram um acordo para o levantamento de seus sigilos</a>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Saiba mais no Repórter Brasil Tarde, da TV Brasil</strong></p>",
-      "imagem": "https://imagens.ebc.com.br/Pkh0ccdLTbr4TlGANDhx23COeek=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/18/sem_titulo_1.jpg?itok=WGMsot7n",
-      "slug": "mendonca-diz-que-flavio-e-lula-podem-divulgar-sigilos",
-      "pagina_local": "mendonca-diz-que-flavio-e-lula-podem-divulgar-sigilos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mendonca-diz-que-flavio-e-lula-podem-divulgar-sigilos",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
-    },
-    {
-      "titulo": "Indígenas do Vale do Javari terão transporte gratuito no 2º turno",
-      "resumo": "O Tribunal Regional Eleitoral do Amazonas (TRE-AM) informou nesta quinta-feira (22) que os representantes da Terra Indígena Vale do Javari confirmaram a regularização do transporte gratuito dos eleitores, bem como o necessário apoio logísti...",
-      "conteudo_completo": "O Tribunal Regional Eleitoral do Amazonas (TRE-AM) informou nesta quinta-feira (22) que os representantes da Terra Indígena Vale do Javari confirmaram a regularização do transporte gratuito dos eleitores, bem como o necessário apoio logístico à operação, no próximo domingo (25), no segundo turno das eleições gerais.\n\nO acerto entre as lideranças indígenas e autoridades públicas foi selado em reunião conduzida pela juíza da 42ª Zona Eleitoral, Dálethe Borges Messias, na quarta-feira (21). \n\nNotícias relacionadas:Eleições: entidades vão checar informações ao vivo durante debate .ONU aponta falta de isenção da Meta em eleição brasileira.Eleições: saiba quais documentos são aceitos para votar no 2° turno.A juíza lembrou que durante o primeiro turno acompanhou pessoalmente a entrega de urnas eletrônicas nas comunidades de Paraíso e Remancinho, de forma a “assegurar o direito ao voto”.\n\nA juíza eleitoral solicitou que os representantes indígenas apresentem a relação das embarcações que serão utilizadas no 2º turno, com a identificação dos responsáveis e das contribuições prestadas pelas entidades ou órgãos envolvidos na operação de transporte dos eleitores. \n\nDe acordo com a Justiça Eleitoral, a medida permitirá o acompanhamento e a fiscalização do transporte, assegurando transparência e cumprimento da legislação eleitoral.\n\nPara os próximos pleitos, ficou estabelecida a necessidade de apresentação antecipada de informações sobre locais de votação, comunidades atendidas, rotas fluviais, distâncias, condições de navegabilidade, estimativa de eleitores e disponibilidade de embarcações e tripulações.\n\nVale do Javari\n\nA Terra Indígena do Vale do Javari é a segunda maior do Brasil, com 8,5 milhões de hectares, uma área maior que o estado da Paraíba. A terra indígena, homologada em 2001, fica no estado do Amazonas, em uma região de tríplice fronteira entre Brasil, Peru e Colômbia, e abriga 74 aldeias, sete povos e mais de 6 mil indígenas. Também tem a maior concentração de povos indígenas isolados do mundo.\n\nPor causa de sua riqueza natural e localização estratégica, o Vale do Javari é alvo constante de redes de narcotráfico, garimpo ilegal, biopirataria e extração ilícita de madeira.\n\nFoi na região que o indigenista Bruno Pereira e o jornalista Dom Philips foram assassinados em 2022, vítimas de uma emboscada no Rio Itaquaí.\n\n* Com informações do TRE-AM",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Tribunal Regional Eleitoral do Amazonas (TRE-AM) informou nesta quinta-feira (22) que os representantes da Terra Indígena Vale do Javari confirmaram a regularização do transporte gratuito dos eleitores, bem como o necessário apoio logístico à operação, no próximo domingo (25), no segundo turno das eleições gerais.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706244&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706244&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O acerto entre as lideranças indígenas e autoridades públicas foi selado em reunião conduzida pela juíza da 42ª Zona Eleitoral, Dálethe Borges Messias, na quarta-feira (21).</strong> </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A juíza lembrou que durante o primeiro turno acompanhou pessoalmente a entrega de urnas eletrônicas nas comunidades de Paraíso e Remancinho, de forma a “assegurar o direito ao voto”.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A juíza eleitoral solicitou que os representantes indígenas apresentem a relação das embarcações que serão utilizadas no 2º turno, com a identificação dos responsáveis e das contribuições prestadas pelas entidades ou órgãos envolvidos na operação de transporte dos eleitores. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com a Justiça Eleitoral, a <strong>medida permitirá o acompanhamento e a fiscalização do transporte, assegurando transparência e cumprimento da legislação eleitoral</strong>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para os próximos pleitos, ficou estabelecida a necessidade de apresentação antecipada de informações sobre locais de votação, comunidades atendidas, rotas fluviais, distâncias, condições de navegabilidade, estimativa de eleitores e disponibilidade de embarcações e tripulações.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Vale do Javari</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Terra Indígena do Vale do Javari é a segunda maior do Brasil, com 8,5 milhões de hectares, uma área maior que o estado da Paraíba. A terra indígena, homologada em 2001, fica no estado do Amazonas, em uma região de tríplice fronteira entre Brasil, Peru e Colômbia, e <strong>abriga 74 aldeias, sete povos e mais de 6 mil indígenas</strong>. Também tem a maior concentração de povos indígenas isolados do mundo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por causa de sua riqueza natural e localização estratégica, o Vale do Javari é alvo constante de redes de narcotráfico, garimpo ilegal, biopirataria e extração ilícita de madeira.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Foi na região que o indigenista Bruno Pereira e o jornalista Dom Philips foram assassinados em 2022, vítimas de uma emboscada no Rio Itaquaí.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><em>* Com informações do TRE-AM</em></p>",
-      "imagem": "https://imagens.ebc.com.br/yCGUUuUo4E7KeOuPT4vLRO44XIY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/porto-atalaia-do-norte_mcamgo_abr_280220231818-2.jpg?itok=qOBvS5ZA",
-      "slug": "indigenas-do-vale-do-javari-terao-transporte-gratuito-no-2o-turno",
-      "pagina_local": "indigenas-do-vale-do-javari-terao-transporte-gratuito-no-2o-turno.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/indigenas-do-vale-do-javari-terao-transporte-gratuito-no-2o-turno",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "23/10/2026 às 22:59"
+      "coletado_em": "24/10/2026 às 01:30"
     }
   ]
 };
