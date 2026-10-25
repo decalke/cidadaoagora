@@ -20,1347 +20,605 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#2563EB">
+  <meta name="theme-color" content="#0F1B35">
   <link rel="canonical" href="https://cidadaoagora.com.br/">
-  <title>Cidadão Agora - Portal de Serviços, Consultas Públicas, Notícias & Finanças</title>
-  <meta name="description" content="Central de utilidade pública do cidadão brasileiro: consultas de CNPJ e MEI, CPF, tabela CNAE, cálculos trabalhistas CLT, consulta veicular FIPE, notícias e atualidades.">
-  <meta name="keywords" content="cidadaoagora, consulta mei, consultar cnpj, validador cpf, tabela cnae, rescisao clt, consulta fipe placa, noticias brasil">
+  <title>Eleições 2026 – Apuração Presidente ao Vivo | Cidadão Agora</title>
+  <meta name="description" content="Acompanhe em tempo real a apuração do 2º turno das Eleições 2026 para Presidente da República. Dados oficiais do TSE atualizados automaticamente.">
 
   <!-- Design System & Tokens Globais -->
   <link rel="stylesheet" href="css/design-system.css">
-
-  <!-- Tailwind CSS via CDN com Tokens Padronizados -->
+  <!-- Tailwind CSS -->
   <link rel="stylesheet" href="css/tailwind.min.css">
   <!-- Lucide Icons -->
   <script src="js/lucide.min.js"></script>
+
+  <style>
+    /* Animações */
+    @keyframes pulse-slow { 0%, 100% { opacity: 1; } 50% { opacity: .6; } }
+    @keyframes count-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slide-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes bar-grow { from { width: 0; } }
+    .animate-pulse-slow { animation: pulse-slow 2s ease-in-out infinite; }
+    .animate-count { animation: count-up .4s ease-out; }
+    .animate-slide { animation: slide-in .5s ease-out both; }
+    .animate-bar { animation: bar-grow .8s ease-out both; }
+
+    /* Barra de progresso */
+    .bar-lula { background: linear-gradient(90deg, #DC2626, #EF4444); }
+    .bar-bolsonaro { background: linear-gradient(90deg, #1D4ED8, #3B82F6); }
+
+    /* Card de candidato */
+    .card-candidato {
+      backdrop-filter: blur(12px);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .card-candidato:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,.15); }
+
+    /* Tabela de estados */
+    .state-row { transition: background .15s; }
+    .state-row:hover { background: rgba(37, 99, 235, .06); }
+
+    /* Skeleton loading */
+    .skeleton {
+      background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 6px;
+    }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+    /* Número de votos grande */
+    .vote-number {
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.02em;
+    }
+
+    /* Responsividade dos cards */
+    @media (max-width: 640px) {
+      .candidates-grid { flex-direction: column !important; }
+      .vote-number { font-size: 1.5rem !important; }
+    }
+  </style>
 </head>
-<body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
+<body class="bg-[#0A0F1C] text-white min-h-screen flex flex-col antialiased">
 
   <!-- BARRA DE AVISO INSTITUCIONAL -->
-  <div class="bg-[#0F1B35] text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-      <!-- BOTÃO HAMBÚRGUER MOBILE -->
-        <button 
-          id="btn-menu-mobile" 
-          type="button" 
-          class="md:hidden inline-flex items-center justify-center p-2 rounded-xl text-slate-700 hover:text-blue-600 hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 touch-target" 
-          aria-expanded="false" 
-          aria-controls="menu-mobile" 
-          aria-label="Abrir menu de navegação"
-        >
-          <i data-lucide="menu" id="icon-menu-open" class="w-6 h-6"></i>
-          <i data-lucide="x" id="icon-menu-close" class="w-6 h-6 hidden"></i>
-        </button>
-
-        <div class="flex items-center space-x-2">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="font-medium">Portal Independente de Dados Públicos e Informações ao Cidadão</span>
+  <div class="bg-[#060A14] text-slate-400 text-xs py-2 px-4 border-b border-slate-800/50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+        <span class="font-bold text-red-400 uppercase tracking-wider text-[10px]">AO VIVO</span>
+        <span class="text-slate-500">•</span>
+        <span class="font-medium text-slate-300">Eleições 2026 — 2º Turno Presidente</span>
       </div>
-      <div class="flex items-center space-x-4 text-[11px] text-slate-300">
-        <a href="/noticias/" class="hover:text-white transition-colors">Plantão de Notícias</a>
-        <span>•</span>
+      <div class="hidden sm:flex items-center space-x-3 text-[11px]">
+        <a href="/noticias/" class="hover:text-white transition-colors">Notícias</a>
+        <span class="text-slate-700">•</span>
         <a href="/conteudo/politica" class="hover:text-white transition-colors">Política</a>
-        <span>•</span>
-        <a href="/conteudo/atualidades" class="hover:text-white transition-colors">Atualidades</a>
       </div>
     </div>
   </div>
 
-  <!-- CABEÇALHO PRINCIPAL -->
-  <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
+  <!-- CABEÇALHO -->
+  <header class="bg-[#0F1526] border-b border-slate-800/50 sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center space-x-3 touch-target" aria-label="Cidadão Agora - Página Inicial">
-        <div class="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-xl shadow-sm">
+      <a href="/" class="flex items-center space-x-3" aria-label="Cidadão Agora">
+        <div class="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-blue-500/20">
           CA
         </div>
         <div>
-          <h1 class="sr-only">Cidadão Agora - Portal de Consultas Públicas e Ferramentas ao Cidadão</h1>
-          <span class="text-xl font-black tracking-tight text-[#0F1B35]">Cidadão<span class="text-[#2563EB]">Agora</span></span>
-          <span class="text-[11px] block text-[#526078] font-medium -mt-0.5">Central de Consultas & Utilidades</span>
+          <span class="text-xl font-black tracking-tight text-white">Cidadão<span class="text-[#2563EB]">Agora</span></span>
+          <span class="text-[11px] block text-slate-400 font-medium -mt-0.5">Apuração Eleições 2026</span>
         </div>
       </a>
-
-      <!-- Menu Principal de Navegação (Hierarquia Equilibrada, Promoções com menor prioridade) -->
-      <nav class="hidden md:flex items-center space-x-5 text-sm font-semibold text-[#526078]" aria-label="Navegação Principal">
-        <a href="#mais-acessados" class="hover:text-[#2563EB] transition-colors">Mais Acessados</a>
-        <a href="#todos-servicos" class="hover:text-[#2563EB] transition-colors">Serviços</a>
-        <a href="/guias/" class="text-[#1E40AF] hover:text-[#2563EB] font-bold transition-colors">Guias</a>
-        <a href="/conteudo/sobre" class="hover:text-[#2563EB] transition-colors">Sobre Nós</a>
-        <a href="/conteudo/atualidades" class="hover:text-[#2563EB] transition-colors">Atualidades</a>
-        <a href="/conteudo/politica" class="hover:text-[#2563EB] transition-colors">Política</a>
-        <a href="/noticias/" class="hover:text-[#2563EB] transition-colors">Notícias</a>
-        <a href="/consulta-veicular/" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-black transition shadow-xs touch-target">
-          <i data-lucide="car" class="w-3.5 h-3.5 text-slate-950"></i>
-          <span>Consulta Veicular</span>
-        </a>
-      </nav>
-
-      <div class="flex items-center space-x-2">
-        <a href="/conteudo/atualidades" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 hover:bg-blue-50 border border-[#D9E1EC] hover:border-blue-300 text-xs font-semibold text-[#172033] transition-all group shadow-2xs" title="Ver cotações completas e indicadores em Atualidades">
-          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shrink-0"></span>
-          <span class="text-[#0F1B35] font-mono flex items-center gap-1">
-            <span class="text-[10px] font-bold text-[#526078] uppercase">USD</span>
-            <span id="header-dolar" class="font-bold">R$ 5,06</span>
-          </span>
-          <span class="text-[#D9E1EC] hidden sm:inline">|</span>
-          <span class="text-[#0F1B35] font-mono hidden sm:flex items-center gap-1">
-            <span class="text-[10px] font-bold text-[#526078] uppercase">Selic</span>
-            <span id="header-selic" class="font-bold">13,75%</span>
-          </span>
-          <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-[#526078] group-hover:text-[#2563EB] group-hover:translate-x-0.5 transition-transform"></i>
-        </a>
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/50 border border-slate-700/50 text-xs">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span class="text-slate-300">Dados: <strong class="text-white">TSE Oficial</strong></span>
+        </div>
+        <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-500/10 border border-red-500/30 text-xs">
+          <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+          <span class="text-red-300 font-bold" id="status-atualizacao">Aguardando apuração</span>
+        </div>
       </div>
     </div>
   </header>
 
-  <!-- GAVETA DE NAVEGAÇÃO MOBILE ACESSÍVEL -->
-  <div 
-    id="menu-mobile" 
-    class="md:hidden hidden bg-white border-b border-[#D9E1EC] px-4 py-3 shadow-lg transition-all" 
-    role="dialog" 
-    aria-label="Menu principal de navegação"
-  >
-    <nav class="flex flex-col space-y-2 text-sm font-semibold text-[#526078]" aria-label="Navegação Mobile">
-      <a href="#mais-acessados" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Mais Acessados</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="#todos-servicos" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Serviços</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/guias/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span class="font-bold text-[#1E40AF]">Guias & Artigos</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/conteudo/sobre" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Sobre Nós</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/conteudo/atualidades" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Atualidades</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/conteudo/politica" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Política</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/noticias/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-[#2563EB] transition-colors flex items-center justify-between touch-target">
-        <span>Notícias</span>
-        <i data-lucide="arrow-right" class="w-4 h-4 text-slate-400"></i>
-      </a>
-      <a href="/consulta-veicular/" onclick="fecharMenuMobile()" class="px-3 py-2.5 rounded-xl bg-amber-400 text-slate-950 font-black flex items-center justify-between touch-target shadow-xs">
-        <span class="flex items-center gap-2">
-          <i data-lucide="car" class="w-4 h-4"></i>
-          Consulta Veicular
-        </span>
-        <i data-lucide="arrow-right" class="w-4 h-4"></i>
-      </a>
-    </nav>
-  </div>
-
-
   <main class="flex-1">
-
-    <!-- HERO SECTION COMPACTA: ATALHOS RÁPIDOS + DESTAQUE CONSULTA VEICULAR -->
-    <section id="hero-servicos" class="max-w-7xl mx-auto w-full px-4 pt-4 pb-2">
-      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#0F1B35] via-[#172B53] to-[#1E40AF] border border-blue-900/60 p-4 sm:p-6 text-white shadow-xl">
-        
-        <!-- Elementos de Iluminação e Fundo Decorativos -->
-        <div class="absolute -right-16 -top-16 w-80 h-80 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute -left-16 -bottom-16 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="relative z-10 space-y-4">
-          
-          <!-- ATALHOS RÁPIDOS PREENCHIDOS (6 BOTÕES EQUILIBRADOS, INCLUINDO NOVO BOTÃO VERDE) -->
-          <div class="w-full">
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-2.5 w-full">
-              <!-- 1. MEI & CNPJ -->
-              <a href="/servicos/consulta-mei-cnpj" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="building-2" class="w-4 h-4 shrink-0 text-blue-300"></i>
-                <span class="truncate">MEI & CNPJ</span>
-              </a>
-              <!-- 2. Placa & FIPE -->
-              <a href="/servicos/consulta-veicular-fipe" class="bg-[#F59E0B] hover:bg-[#D97706] text-[#0F1B35] text-xs font-black px-3 py-2.5 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="car" class="w-4 h-4 shrink-0"></i>
-                <span class="truncate">Placa & FIPE</span>
-              </a>
-              <!-- 3. Validador CPF -->
-              <a href="/servicos/validador-cpf" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="user-check" class="w-4 h-4 shrink-0 text-emerald-300"></i>
-                <span class="truncate">Validar CPF</span>
-              </a>
-              <!-- 4. Rescisão CLT -->
-              <a href="/servicos/calculadora-rescisao-clt" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="dollar-sign" class="w-4 h-4 shrink-0 text-indigo-300"></i>
-                <span class="truncate">Rescisão CLT</span>
-              </a>
-              <!-- 5. Recibo (PDF) -->
-              <a href="/servicos/gerador-recibo-pagamento" class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3 py-2.5 rounded-xl transition border border-white/15 flex items-center justify-center gap-2 touch-target text-center">
-                <i data-lucide="receipt" class="w-4 h-4 shrink-0 text-teal-300"></i>
-                <span class="truncate">Gerar Recibo</span>
-              </a>
-              <!-- 6. NOVO BOTÃO VERDE: CONSULTAS PÚBLICAS & FERRAMENTAS -->
-              <a href="#todos-servicos" class="bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white text-xs font-black px-3 py-2.5 rounded-xl transition shadow flex items-center justify-center gap-2 touch-target text-center border border-emerald-400/40">
-                <i data-lucide="layout-grid" class="w-4 h-4 shrink-0 text-emerald-200"></i>
-                <span class="truncate">Consultas Públicas</span>
-              </a>
-            </div>
+    <!-- HERO: TÍTULO E TIMER -->
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-600/5 via-transparent to-transparent pointer-events-none"></div>
+      <div class="max-w-7xl mx-auto px-4 pt-6 pb-4 relative z-10">
+        <div class="text-center space-y-3">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold">
+            <i data-lucide="vote" class="w-4 h-4"></i>
+            2º TURNO — 25 DE OUTUBRO DE 2026
           </div>
-
-          <!-- CARTÃO DE DESTAQUE INTEGRADO: CONSULTA VEICULAR -->
-          <div class="rounded-xl bg-gradient-to-r from-blue-950/90 via-cobalto-900/70 to-slate-900/90 border border-amber-400/40 p-4 sm:p-5 backdrop-blur-md shadow-md">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
-              
-              <!-- Texto e Badges da Consulta Veicular -->
-              <div class="lg:col-span-8 space-y-2">
-                <div class="flex flex-wrap items-center gap-2">
-                  <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950 shadow-xs">
-                    <i data-lucide="sparkles" class="w-3 h-3 text-slate-950"></i>
-                    <span>Novo Serviço em Destaque</span>
-                  </span>
-                  <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-white/10 text-emerald-300 border border-white/15">
-                    <i data-lucide="shield-check" class="w-3 h-3"></i>
-                    <span>Conexão API Brasil Oficial</span>
-                  </span>
-                </div>
-
-                <h2 class="text-lg sm:text-2xl font-black text-white tracking-tight leading-tight">
-                  Consulta Veicular Completa: <span class="text-amber-400">Descubra tudo antes de comprar</span>
-                </h2>
-
-                <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-200 font-medium">
-                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Fotos Reais do Modelo</span>
-                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Histórico de Leilão</span>
-                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Preço FIPE & IPVA</span>
-                  <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> Débitos & Restrições</span>
-                </div>
-              </div>
-
-              <!-- Preço e Botão de Ação -->
-              <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-center lg:items-end justify-center gap-2.5">
-                <div class="text-center lg:text-right hidden sm:block">
-                  <span class="text-[10px] uppercase tracking-wider text-slate-300 font-bold block">Relatório com Desbloqueio Imediato</span>
-                  <strong class="text-lg sm:text-xl font-black text-amber-400 block">A partir de R$ 9,90</strong>
-                </div>
-
-                <a 
-                  href="/consulta-veicular/" 
-                  class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-950 font-black text-xs sm:text-sm px-5 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group/btn touch-target"
-                >
-                  <i data-lucide="car" class="w-4 h-4 text-slate-950"></i>
-                  <span>Acessar Consulta Veicular</span>
-                  <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-slate-950 group-hover/btn:translate-x-1 transition-transform"></i>
-                </a>
-
-                <span class="text-[10px] text-slate-300 flex items-center gap-1">
-                  <i data-lucide="lock" class="w-3 h-3 text-emerald-400"></i>
-                  Ambiente 100% seguro & sem cadastro
-                </span>
-              </div>
-
-            </div>
-          </div>
-
+          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight">
+            Apuração <span class="text-[#2563EB]">Presidente</span> da República
+          </h1>
+          <p class="text-slate-400 text-sm max-w-xl mx-auto">
+            Resultados oficiais em tempo real do Tribunal Superior Eleitoral (TSE). Atualização automática a cada 30 segundos.
+          </p>
         </div>
 
+        <!-- BARRA DE PROGRESSO DAS SEÇÕES -->
+        <div class="mt-6 max-w-3xl mx-auto">
+          <div class="flex items-center justify-between text-xs mb-2">
+            <span class="text-slate-400">Seções apuradas</span>
+            <span class="font-bold text-white" id="secoes-pct">0,00%</span>
+          </div>
+          <div class="h-2.5 bg-slate-800 rounded-full overflow-hidden">
+            <div id="secoes-bar" class="h-full bg-gradient-to-r from-emerald-500 to-emerald-400 rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
+          </div>
+          <div class="flex items-center justify-between text-[11px] text-slate-500 mt-1">
+            <span><span id="secoes-apuradas">0</span> de <span id="secoes-total">499.248</span> seções</span>
+            <span>Última atualização: <span id="ultima-atualizacao" class="text-slate-300">--:--:--</span></span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- SEÇÃO: MAIS ACESSADOS (EXATAMENTE AS 6 FERRAMENTAS PRIORITÁRIAS) -->
-    <section id="mais-acessados" class="max-w-7xl mx-auto w-full px-4 pt-8 pb-4">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-3 border-b border-[#D9E1EC] gap-2">
-        <div>
-          <div class="flex items-center gap-2">
-            <span class="ds-badge ds-badge-accent">Destaque</span>
-            <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Mais Acessados</h2>
+    <!-- CARDS DOS CANDIDATOS -->
+    <section class="max-w-7xl mx-auto px-4 pb-6">
+      <div class="candidates-grid flex flex-col sm:flex-row gap-4 sm:gap-6">
+
+        <!-- CANDIDATO 1: LULA -->
+        <div class="card-candidato flex-1 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl border border-slate-700/50 p-5 sm:p-6 relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-1 bar-lula"></div>
+          <div class="flex items-start gap-4 mb-4">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-red-600/20 border-2 border-red-500/40 flex items-center justify-center text-3xl sm:text-4xl font-black text-red-400 shrink-0">
+              13
+            </div>
+            <div class="flex-1 min-w-0">
+              <h2 class="text-xl sm:text-2xl font-black text-white truncate">LULA</h2>
+              <p class="text-sm text-slate-400 truncate">Luiz Inácio Lula da Silva</p>
+              <div class="flex items-center gap-2 mt-1">
+                <span class="inline-block px-2 py-0.5 rounded bg-red-500/20 text-red-300 text-[10px] font-bold">PT</span>
+                <span class="text-[10px] text-slate-500 truncate">PSB / PDT / PCdoB / PV / PSOL / REDE</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-0.5">Vice: <span class="text-slate-400">Geraldo Alckmin (PSB)</span></p>
+            </div>
           </div>
-          <p class="text-xs sm:text-sm text-[#526078] mt-0.5">As 6 ferramentas públicas mais procuradas pelos cidadãos brasileiros:</p>
+          <div class="space-y-3">
+            <div>
+              <div class="flex items-end justify-between">
+                <span class="vote-number text-3xl sm:text-4xl font-black text-white" id="votos-lula">0</span>
+                <span class="text-2xl sm:text-3xl font-black text-red-400" id="pct-lula">0,00%</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-0.5">votos válidos</p>
+            </div>
+            <div class="h-3 bg-slate-800 rounded-full overflow-hidden">
+              <div id="bar-lula" class="h-full bar-lula rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
+            </div>
+          </div>
         </div>
-        <span class="text-xs font-bold text-[#1E40AF] bg-[#EFF6FF] px-3 py-1.5 rounded-full border border-blue-200 self-start sm:self-auto">
-          6 Ferramentas Principais
-        </span>
+
+        <!-- VS CENTRAL -->
+        <div class="hidden sm:flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-lg font-black text-slate-400">
+            VS
+          </div>
+        </div>
+
+        <!-- CANDIDATO 2: FLÁVIO BOLSONARO -->
+        <div class="card-candidato flex-1 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl border border-slate-700/50 p-5 sm:p-6 relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-1 bar-bolsonaro"></div>
+          <div class="flex items-start gap-4 mb-4">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-blue-600/20 border-2 border-blue-500/40 flex items-center justify-center text-3xl sm:text-4xl font-black text-blue-400 shrink-0">
+              22
+            </div>
+            <div class="flex-1 min-w-0">
+              <h2 class="text-xl sm:text-2xl font-black text-white truncate">FLÁVIO BOLSONARO</h2>
+              <p class="text-sm text-slate-400 truncate">Flávio Nantes Bolsonaro</p>
+              <div class="flex items-center gap-2 mt-1">
+                <span class="inline-block px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 text-[10px] font-bold">PL</span>
+                <span class="text-[10px] text-slate-500">Partido Liberal</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-0.5">Vice: <span class="text-slate-400">Alfredo Gaspar (PL)</span></p>
+            </div>
+          </div>
+          <div class="space-y-3">
+            <div>
+              <div class="flex items-end justify-between">
+                <span class="vote-number text-3xl sm:text-4xl font-black text-white" id="votos-bolsonaro">0</span>
+                <span class="text-2xl sm:text-3xl font-black text-blue-400" id="pct-bolsonaro">0,00%</span>
+              </div>
+              <p class="text-xs text-slate-500 mt-0.5">votos válidos</p>
+            </div>
+            <div class="h-3 bg-slate-800 rounded-full overflow-hidden">
+              <div id="bar-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- GRID COM 6 CARDS: 1 COLUNA MOBILE, 2 A 3 DESKTOP -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-
-        <!-- 1. CONSULTA CNPJ E MEI -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-                <i data-lucide="building-2" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Empresas & Receita Federal</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Consulta CNPJ e MEI
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Consulte a situação cadastral ativa de empresas e Microempreendedores Individuais, razão social, CNAE principal e data de abertura.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-mei-cnpj" class="btn-primary w-full text-xs">
-              <span>Consultar CNPJ e MEI</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
+      <!-- RESUMO GERAL -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
+        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
+          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Votos Válidos</p>
+          <p class="text-lg font-black text-white mt-1 vote-number" id="total-validos">0</p>
         </div>
-
-        <!-- 2. CONSULTA VEICULAR E FIPE -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group border-amber-200/80">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
-                <i data-lucide="car" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800 block">Veículos & Preço Médio</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-amber-800 transition-colors mt-0.5">
-                Consulta Veicular e FIPE
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Verifique a placa Mercosul ou padrão antigo, UF de registro, cotação oficial na Tabela FIPE e estimativa de IPVA.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-veicular-fipe" class="btn-accent w-full text-xs">
-              <span>Consultar Veículo & FIPE</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
+        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
+          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Brancos</p>
+          <p class="text-lg font-black text-white mt-1 vote-number" id="total-brancos">0</p>
         </div>
-
-        <!-- 3. VALIDADOR DE CPF -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-emerald-50 text-[#059669] flex items-center justify-center">
-                <i data-lucide="user-check" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-800 block">Segurança & Cidadania</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Validador de CPF
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Verifique se os dígitos verificadores do CPF são matematicamente válidos e descubra a região fiscal de emissão do documento.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/validador-cpf" class="btn-primary w-full text-xs">
-              <span>Validar CPF Grátis</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
+        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
+          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Nulos</p>
+          <p class="text-lg font-black text-white mt-1 vote-number" id="total-nulos">0</p>
         </div>
-
-        <!-- 4. CALCULADORA DE RESCISÃO -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-                <i data-lucide="dollar-sign" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Trabalho & CLT</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Calculadora de Rescisão
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Simule os valores da rescisão do contrato de trabalho com ou sem justa causa, aviso prévio, férias e décimo terceiro proporcional.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/calculadora-rescisao-clt" class="btn-primary w-full text-xs">
-              <span>Calcular Rescisão CLT</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
+        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
+          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Abstenções</p>
+          <p class="text-lg font-black text-white mt-1 vote-number" id="total-abstencoes">0</p>
         </div>
-
-        <!-- 5. GERADOR DE RECIBO -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center">
-                <i data-lucide="receipt" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-teal-800 block">Documentos & PDF</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Gerador de Recibo
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Gere recibos de prestação de serviços, autônomos ou aluguel com preenchimento automático por extenso e baixe o PDF pronto.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-recibo-pagamento" class="btn-primary w-full text-xs">
-              <span>Gerar Recibo em PDF</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- 6. CONSULTA DE CEP -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group">
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <div class="w-11 h-11 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-                <i data-lucide="map-pin" class="w-5 h-5"></i>
-              </div>
-              <span class="ds-badge ds-badge-accent">Mais Acessado</span>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF] block">Cidadania & Correios</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Consulta de CEP
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Localize logradouro, bairro, cidade, estado (UF), código IBGE e DDD oficial com mapa e dados oficiais da BrasilAPI e Correios.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-cep" class="btn-primary w-full text-xs">
-              <span>Consultar CEP Oficial</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
       </div>
     </section>
 
-    <!-- BANNER ADSENSE APÓS O PRIMEIRO BLOCO DE SERVIÇOS (CONFORME REQUISITO UI/UX) -->
-    <div class="max-w-7xl mx-auto w-full px-4 my-6">
-      <div class="my-6 text-center w-full overflow-hidden flex justify-center">
-  <!-- Banner_Cidadao_Responsivo -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-1173007636108448"
-           data-ad-slot="2396617448"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      
-</div>
-    </div>
-
-    <!-- SEÇÃO: TODOS OS SERVIÇOS AGRUPADOS POR CATEGORIA -->
-    <section id="todos-servicos" class="max-w-7xl mx-auto w-full px-4 py-6 space-y-8">
-      <div class="border-b border-[#D9E1EC] pb-4">
-        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Todos os Serviços por Categoria</h2>
-        <p class="text-xs sm:text-sm text-[#526078] mt-0.5">
-          Navegue pelas ferramentas organizadas por área temática:
-        </p>
-
-        <!-- FILTRO RÁPIDO DE CATEGORIAS -->
-        <div class="flex items-center gap-2 overflow-x-auto pt-4 pb-1 no-scrollbar text-xs font-bold">
-          <button onclick="filtrarCategoria('todas')" class="cat-pill active px-4 py-2 rounded-xl bg-[#2563EB] text-white shadow-xs whitespace-nowrap">Todas</button>
-          <button onclick="filtrarCategoria('empresas')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Empresas</button>
-          <button onclick="filtrarCategoria('veiculos')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Veículos</button>
-          <button onclick="filtrarCategoria('trabalho')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Trabalho</button>
-          <button onclick="filtrarCategoria('documentos')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Documentos</button>
-          <button onclick="filtrarCategoria('financas')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Finanças</button>
-          <button onclick="filtrarCategoria('cidadania')" class="cat-pill px-4 py-2 rounded-xl bg-white border border-[#D9E1EC] text-[#526078] hover:text-[#2563EB] whitespace-nowrap">Cidadania</button>
-        </div>
-      </div>
-
-      <!-- GRID COMPLETO DOS SERVIÇOS (COM DATA-CATEGORY PARA FILTRAGEM INSTANTÂNEA) -->
-      <div id="grid-todos-servicos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-
-        <!-- CATEGORIA: EMPRESAS -->
-        <!-- Buscador de CNAE -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="calculator" class="w-5 h-5"></i>
+    <!-- TABELA POR ESTADO -->
+    <section class="max-w-7xl mx-auto px-4 pb-8">
+      <div class="bg-slate-800/30 rounded-2xl border border-slate-700/50 overflow-hidden">
+        <div class="p-4 sm:p-5 border-b border-slate-700/50 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">
+              <i data-lucide="map" class="w-4 h-4 text-blue-400"></i>
             </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Buscador de CNAE & Simples Nacional
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Pesquise códigos CNAE por profissão, verifique se é permitido no MEI e consulte os anexos e alíquotas do Simples.
-            </p>
+            <h2 class="text-lg font-bold">Resultado por Estado</h2>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/buscador-cnae" class="btn-primary w-full text-xs">
-              <span>Buscar CNAE</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
+          <button onclick="toggleEstados()" id="btn-toggle-estados" class="text-xs px-3 py-1.5 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 transition font-medium">
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5 inline-block"></i> Expandir
+          </button>
         </div>
 
-        <!-- Gerador de Orçamento Simples -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Gerador de Orçamento Simples
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Crie propostas comerciais detalhadas para clientes com cálculo automático de mão de obra e baixe em PDF.
-            </p>
+        <div id="tabela-estados" class="hidden">
+          <!-- HEADER -->
+          <div class="grid grid-cols-12 gap-2 px-4 sm:px-5 py-2.5 text-[10px] uppercase tracking-wider text-slate-500 font-bold border-b border-slate-700/30 bg-slate-800/50">
+            <div class="col-span-2 sm:col-span-1">UF</div>
+            <div class="col-span-3 sm:col-span-2">Apurado</div>
+            <div class="col-span-3 sm:col-span-4">Lula (13)</div>
+            <div class="col-span-3 sm:col-span-4">Bolsonaro (22)</div>
+            <div class="hidden sm:block col-span-1 text-right">Líder</div>
           </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-orcamento-simples" class="btn-primary w-full text-xs">
-              <span>Criar Orçamento</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
+          <!-- LINHAS DOS ESTADOS -->
+          <div id="estados-body" class="divide-y divide-slate-800/50 max-h-[600px] overflow-y-auto">
+            <!-- Será preenchido via JS -->
+            <div class="p-8 text-center text-slate-500">
+              <div class="skeleton h-4 w-48 mx-auto mb-3"></div>
+              <div class="skeleton h-4 w-36 mx-auto mb-3"></div>
+              <div class="skeleton h-4 w-52 mx-auto"></div>
+              <p class="mt-4 text-xs">Carregando dados dos estados...</p>
+            </div>
           </div>
         </div>
-
-        <!-- Gerador de Link WhatsApp -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="empresas">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="message-circle" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Empresas</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Gerador de Link WhatsApp
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Gere links curtos wa.me e QR Code para clientes iniciarem conversa rápida com mensagem personalizada.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-link-whatsapp" class="btn-primary w-full text-xs">
-              <span>Gerar Link WhatsApp</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CATEGORIA: VEÍCULOS -->
-        <!-- Como Saber o Estado pela Placa -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="veiculos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
-              <i data-lucide="map" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800">Veículos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Como Saber o Estado pela Placa
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Guia completo e tabela de faixas oficiais de letras do SENATRAN para identificar a origem de qualquer veículo.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/como-saber-estado-pela-placa" class="btn-primary w-full text-xs">
-              <span>Consultar Tabela UF</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Conversão de Placas Mercosul -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="veiculos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center">
-              <i data-lucide="refresh-cw" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-amber-800">Veículos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Consulta Veicular e Tabela FIPE
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Consulte dados cadastrais da placa, origem do emplacamento e cotação oficial na Tabela FIPE.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-veicular-fipe" class="btn-primary w-full text-xs">
-              <span>Consultar Veículo</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CATEGORIA: TRABALHO -->
-        <!-- Calculadora de Férias e 13º -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="trabalho">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="badge-dollar-sign" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Trabalho</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Calculadora de Férias & 13º Salário
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Simule o valor a receber com 1/3 constitucional, abono pecuniário e as parcelas do décimo terceiro salário.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/calculadora-ferias-decimo" class="btn-primary w-full text-xs">
-              <span>Calcular Férias & 13º</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Gerador de Contrato Simples -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="trabalho">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="file-check" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Trabalho</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Contrato de Prestação de Serviços
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Elabore contrato formal entre autônomos, MEIs e contratantes com cláusulas jurídicas válidas em PDF.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-contrato-simples" class="btn-primary w-full text-xs">
-              <span>Gerar Contrato</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CATEGORIA: DOCUMENTOS -->
-        <!-- Nota Promissória Simples -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="file-text" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Nota Promissória Simples
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Emita título de crédito legal conforme Decreto 2.044 com valor por extenso automático e download em PDF.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-nota-promissoria" class="btn-primary w-full text-xs">
-              <span>Gerar Nota Promissória</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Declaração de Residência -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="home" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Declaração de Residência
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Modelo oficial fundamentado na Lei Federal 7.115/83 para comprovação legal de endereço sem comprovante no nome.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-declaracao-residencia" class="btn-primary w-full text-xs">
-              <span>Gerar Declaração</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Declaração de Hipossuficiência -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="scale" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Declaração de Hipossuficiência
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Documento para pedido de justiça gratuita ou isenção de taxa em concursos nos termos do Art. 98 do CPC.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-declaracao-hipossuficiencia" class="btn-primary w-full text-xs">
-              <span>Gerar Hipossuficiência</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Declaração de Conteúdo Correios -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="package-check" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Envios & Correios</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Declaração de Conteúdo Correios
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Preencha o formulário oficial para envios sem nota fiscal. Modelos Etiqueta 10x15cm e Folha A4 para imprimir e salvar em PDF.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/declaracao-de-conteudo" class="btn-primary w-full text-xs">
-              <span>Gerar Declaração Correios</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Formatador de Texto -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="type" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Formatador de Texto & Caracteres
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Converta textos para maiúsculas e minúsculas, conte caracteres, limpe quebras de linha e padronize documentos.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/formatador-texto" class="btn-primary w-full text-xs">
-              <span>Formatar Texto</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Conversor de Imagens -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="documentos">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="image" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Documentos</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Conversor de Imagens e Arquivos
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Converta imagens de PNG para JPG ou JPG para PNG diretamente no navegador sem enviar arquivos para servidores.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/conversor-formatos" class="btn-primary w-full text-xs">
-              <span>Converter Imagens</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CATEGORIA: FINANÇAS -->
-        <!-- Calculadora de Reajuste de Aluguel -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="financas">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="trending-up" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Finanças</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Calculadora Reajuste Aluguel
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Calcule o reajuste anual de aluguel pelos índices oficiais IPCA e IGP-M conforme a Lei do Inquilinato.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/calculadora-reajuste-aluguel" class="btn-primary w-full text-xs">
-              <span>Calcular Aluguel</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Termômetro Econômico -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="financas">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Finanças</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Termômetro Econômico Nacional
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Acompanhe em tempo real a Taxa Selic, Dólar, Euro, IPCA acumulado e Salário Mínimo do Banco Central.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/conteudo/atualidades" class="btn-primary w-full text-xs">
-              <span>Ver Indicadores Oficiais</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CATEGORIA: CIDADANIA -->
-        <!-- Calendário de Feriados -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="calendar" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Cidadania</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Calendário de Feriados Oficiais
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Consulte todos os feriados nacionais, pontes e pontos facultativos federais do ano em uma interface limpa.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/calendario-feriados" class="btn-primary w-full text-xs">
-              <span>Ver Feriados do Ano</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Gerador de Pedido LAI -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="file-question" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Cidadania</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Gerador de Pedido LAI (e-SIC)
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Crie pedidos de informação pública fundamentados na Lei 12.527 para protocolar em prefeituras e órgãos federais.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/gerador-pedido-lai" class="btn-primary w-full text-xs">
-              <span>Gerar Pedido LAI</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Consulta Processual & Certidões Judiciais (NOVO) -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
-              <i data-lucide="scale" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-700">Cidadania & Justiça</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Consulta Processual & Certidões
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Consulte processos por CPF, CNPJ, Nome ou número CNJ nos Tribunais de Justiça e emita certidões públicas de graça.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-processual" class="btn-primary w-full text-xs">
-              <span>Consultar Processos Grátis</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Checagem de Profissionais e Servidores Públicos -->
-        <div class="ds-card ds-card-hover flex flex-col justify-between group item-servico" data-categoria="cidadania">
-          <div class="space-y-2.5">
-            <div class="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-              <i data-lucide="shield-check" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-[11px] font-bold uppercase tracking-wider text-[#1E40AF]">Cidadania</span>
-              <h3 class="text-base font-bold text-[#0F1B35] group-hover:text-[#2563EB] transition-colors mt-0.5">
-                Checagem de Profissionais & Servidores
-              </h3>
-            </div>
-            <p class="text-xs text-[#526078] leading-relaxed line-clamp-3">
-              Consulte a autenticidade de médicos (CRM), advogados (OAB), servidores federais (CGU), juízes e professores em bases oficiais.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-[#D9E1EC]/60">
-            <a href="/servicos/consulta-profissionais-servidores" class="btn-primary w-full text-xs">
-              <span>Consultar Profissionais</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 ml-auto"></i>
-            </a>
-          </div>
-        </div>
-
       </div>
     </section>
 
-    <!-- SEÇÃO EDITORIAL: NOTÍCIAS, POLÍTICA & PROMOÇÕES (POSICIONADAS APÓS A ÁREA DE SERVIÇOS) -->
-    <section class="max-w-7xl mx-auto w-full px-4 py-8">
-      <div class="border-b border-[#D9E1EC] pb-4 mb-6">
-        <h2 class="text-xl sm:text-2xl font-black text-[#0F1B35]">Informação, Decisões & Oportunidades</h2>
-        <p class="text-xs sm:text-sm text-[#526078] mt-0.5">
-          Fique por dentro das principais notícias legislativas e direitos do cidadão:
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-        <!-- CARD: PLANTÃO DE NOTÍCIAS -->
-        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
-          <div>
-            <div class="flex items-center justify-between text-xs font-bold text-[#2563EB] mb-2">
-              <span class="ds-badge ds-badge-brand">Plantão de Notícias</span>
-              <span class="text-[#526078] font-normal">Atualizado hoje</span>
-            </div>
-            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="/noticias/" class="hover:text-[#2563EB] transition-colors">
-                Receita Federal atualiza regras de declaração e facilidades para o MEI
-              </a>
-            </h3>
-            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
-              Confira as mudanças tributárias, novos prazos de entrega do DASN-SIMEI e impactos para pequenos empreendedores.
-            </p>
+    <!-- INFORMATIVO -->
+    <section class="max-w-7xl mx-auto px-4 pb-8">
+      <div class="bg-slate-800/20 rounded-2xl border border-slate-700/30 p-5">
+        <div class="flex items-start gap-3">
+          <i data-lucide="info" class="w-5 h-5 text-blue-400 shrink-0 mt-0.5"></i>
+          <div class="space-y-2 text-xs text-slate-400 leading-relaxed">
+            <p><strong class="text-slate-200">Fonte dos dados:</strong> Tribunal Superior Eleitoral (TSE) — <a href="https://resultados.tse.jus.br" target="_blank" rel="noopener" class="text-blue-400 hover:underline">resultados.tse.jus.br</a>. Dados públicos atualizados automaticamente a cada 30 segundos.</p>
+            <p><strong class="text-slate-200">Sobre este painel:</strong> O Cidadão Agora é um portal independente de utilidade pública. Não temos vínculo com o TSE, partidos políticos ou candidatos. Os dados exibidos são os mesmos publicados oficialmente pelo TSE.</p>
+            <p><strong class="text-slate-200">Horário da apuração:</strong> A totalização dos votos inicia às 17h (horário de Brasília), após o encerramento da votação em todo o território nacional.</p>
           </div>
-          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="/noticias/" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
-              <span>Acessar Notícias</span>
-              <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            </a>
-          </div>
-        </article>
-
-        <!-- CARD: POLÍTICA NACIONAL -->
-        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
-          <div>
-            <div class="flex items-center justify-between text-xs font-bold text-[#2563EB] mb-2">
-              <span class="ds-badge ds-badge-brand">Política Nacional</span>
-              <span class="text-[#526078] font-normal">Congresso</span>
-            </div>
-            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="/conteudo/politica" class="hover:text-[#2563EB] transition-colors">
-                Projetos de Lei no Congresso debatem retorno das cidades nas placas Mercosul
-              </a>
-            </h3>
-            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
-              Entenda como tramita o Projeto de Lei que pretende incluir o brasão do município e estado nas placas veiculares.
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="/conteudo/politica" class="text-xs font-bold text-[#2563EB] hover:text-[#1E40AF] flex items-center gap-1 touch-target">
-              <span>Acessar Política</span>
-              <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            </a>
-          </div>
-        </article>
-
-        <!-- CARD: OPORTUNIDADES & PROMOÇÕES (POSICIONADO COM PRIORIDADE VISUAL CONTROLADA) -->
-        <article class="ds-card flex flex-col justify-between hover:border-blue-400 transition-colors">
-          <div>
-            <div class="flex items-center justify-between text-xs font-bold text-[#526078] mb-2">
-              <span class="ds-badge bg-slate-100 text-slate-700 border border-slate-200">Economia</span>
-              <span class="text-[#526078] font-normal">Utilidades</span>
-            </div>
-            <h3 class="text-base font-bold text-[#0F1B35] leading-snug">
-              <a href="/conteudo/promocoes" class="hover:text-[#2563EB] transition-colors">
-                Promoções, Cupons & Descontos para Serviços do Cidadão
-              </a>
-            </h3>
-            <p class="text-xs text-[#526078] mt-2 line-clamp-3 leading-relaxed">
-              Condições especiais em serviços de contabilidade online, maquininhas, certificados digitais e bancos.
-            </p>
-          </div>
-          <div class="mt-4 pt-3 border-t border-[#D9E1EC]/60">
-            <a href="/conteudo/promocoes" class="text-xs font-bold text-[#526078] hover:text-[#2563EB] flex items-center gap-1 touch-target">
-              <span>Ver Cupons & Benefícios</span>
-              <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            </a>
-          </div>
-        </article>
-
+        </div>
       </div>
     </section>
 
+    <!-- LINK PARA A PÁGINA PRINCIPAL -->
+    <section class="max-w-7xl mx-auto px-4 pb-8 text-center">
+      <a href="/index-original-backup" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 text-sm text-slate-300 hover:text-white transition font-medium">
+        <i data-lucide="layout-grid" class="w-4 h-4"></i>
+        Acessar Serviços e Ferramentas do Cidadão Agora
+      </a>
+    </section>
   </main>
 
-  <!-- RODAPÉ COMPLETO COM LINKS SEO E CRÉDITOS LGPD -->
-  <footer class="bg-[#0F1B35] text-slate-400 text-xs mt-12 pt-12 pb-8 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
-      <div class="space-y-3">
-        <div class="flex items-center space-x-2">
-          <div class="w-8 h-8 rounded-lg bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-sm">
-            CA
-          </div>
-          <span class="text-base font-black text-white">Cidadão Agora</span>
+  <!-- FOOTER COMPACTO -->
+  <footer class="bg-[#060A14] border-t border-slate-800/50 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-lg bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-sm">CA</div>
+          <span class="text-sm font-bold text-white">Cidadão Agora</span>
+          <span class="text-[10px] text-slate-500 bg-slate-800 px-2 py-0.5 rounded">© 2026</span>
         </div>
-        <p class="text-slate-400 leading-relaxed text-[11px]">
-          Portal independente de utilidade pública com ferramentas de consulta gratuitas, dados abertos oficiais e direitos civis.
-        </p>
+        <div class="flex items-center gap-4 text-[11px] text-slate-500">
+          <a href="/conteudo/sobre" class="hover:text-white transition-colors">Sobre</a>
+          <a href="/conteudo/contato" class="hover:text-white transition-colors">Contato</a>
+          <a href="/conteudo/politica-privacidade" class="hover:text-white transition-colors">Privacidade</a>
+          <a href="/conteudo/termos-de-uso" class="hover:text-white transition-colors">Termos</a>
+        </div>
       </div>
-
-      <div>
-        <h4 class="text-white font-bold text-sm mb-3">Serviços Mais Procurados</h4>
-        <ul class="space-y-2 text-[11px]">
-          <li><a href="/consulta-veicular/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors flex items-center gap-1"><span>🚗 Nova Consulta Veicular (Laudo & Fotos)</span></a></li>
-          <li><a href="/servicos/consulta-mei-cnpj" class="hover:text-white transition-colors">Consulta MEI & CNPJ Ativo</a></li>
-          <li><a href="/servicos/consulta-veicular-fipe" class="hover:text-white transition-colors">Consulta Veicular & Tabela FIPE</a></li>
-          <li><a href="/servicos/validador-cpf" class="hover:text-white transition-colors">Validador Oficial de CPF</a></li>
-          <li><a href="/servicos/calculadora-rescisao-clt" class="hover:text-white transition-colors">Calculadora de Rescisão CLT</a></li>
-          <li><a href="/servicos/gerador-recibo-pagamento" class="hover:text-white transition-colors">Gerador de Recibo em PDF</a></li>
-          <li><a href="/servicos/declaracao-de-conteudo" class="hover:text-white transition-colors">Declaração de Conteúdo Correios</a></li>
-          <li><a href="/servicos/consulta-cep" class="hover:text-white transition-colors">Consulta de CEP e Endereço</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="text-white font-bold text-sm mb-3">Conteúdo & Informação</h4>
-        <ul class="space-y-2 text-[11px]">
-          <li><a href="/guias/" class="text-amber-300 hover:text-amber-200 font-bold transition-colors">📚 Guias & Artigos Práticos</a></li>
-          <li><a href="/noticias/" class="hover:text-white transition-colors">Plantão de Notícias</a></li>
-          <li><a href="/conteudo/politica" class="hover:text-white transition-colors">Política & Congresso</a></li>
-          <li><a href="/conteudo/atualidades" class="hover:text-white transition-colors">Atualidades & Finanças</a></li>
-          <li><a href="/conteudo/promocoes" class="hover:text-white transition-colors">Benefícios & Cupons</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="text-white font-bold text-sm mb-3">Institucional & Contato</h4>
-        <ul class="space-y-2 text-[11px] mb-3">
-          <li><a href="/conteudo/sobre" class="hover:text-white transition-colors text-slate-300">Sobre Nós (Quem Somos)</a></li>
-          <li><a href="/conteudo/contato" class="hover:text-white transition-colors text-slate-300">Fale Conosco / Suporte</a></li>
-          <li><a href="/conteudo/politica-privacidade" class="hover:text-white transition-colors text-slate-300">Política de Privacidade (LGPD)</a></li>
-          <li><a href="/conteudo/termos-de-uso" class="hover:text-white transition-colors text-slate-300">Termos de Uso</a></li>
-        </ul>
-        <span class="inline-block px-2.5 py-1 rounded bg-slate-800 text-[10px] text-slate-300">
-          © 2026 Cidadão Agora Brasil
-        </span>
-      </div>
-    </div>
-
-    <div class="max-w-7xl mx-auto px-4 pt-6 text-center text-[11px] text-slate-500">
-      Desenvolvido com foco em velocidade, transparência pública, acessibilidade WCAG AA e segurança de dados do usuário.
+      <p class="text-center text-[10px] text-slate-600 mt-4">
+        Portal independente. Dados públicos do TSE. Nenhum dado pessoal é coletado nesta página.
+      </p>
     </div>
   </footer>
 
-  <!-- BANNER DE COOKIES LGPD ACESSÍVEL COM OPÇÕES EQUIVALENTES (NÃO COBRE CONTEÚDO CRÍTICO) -->
-  <div id="lgpd-banner" class="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:max-w-xl bg-[#0F1B35]/95 text-slate-100 p-5 rounded-2xl border border-slate-700 shadow-2xl z-50 backdrop-blur-md transition-all duration-300" style="display: none;" role="region" aria-label="Consentimento de Cookies LGPD">
-    <div class="space-y-3">
-      <div class="flex items-start gap-3">
-        <i data-lucide="shield-check" class="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"></i>
-        <p class="text-xs text-slate-300 leading-relaxed">
-          Utilizamos cookies essenciais e tecnologias analíticas para aprimorar sua experiência e manter ferramentas gratuitas, em conformidade com a <strong>LGPD</strong>. Você pode configurar suas preferências.
-        </p>
-      </div>
-      <div class="flex flex-wrap items-center justify-end gap-2 pt-1 border-t border-slate-800">
-        <button type="button" onclick="recusarCookiesNaoEssenciais()" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-xl border border-slate-700 hover:bg-slate-800 transition touch-target">
-          Recusar não essenciais
-        </button>
-        <button type="button" onclick="abrirConfiguracoesCookies()" class="text-xs text-slate-300 hover:text-white px-3 py-2 rounded-xl border border-slate-700 hover:bg-slate-800 transition touch-target">
-          Configurar
-        </button>
-        <button type="button" onclick="aceitarTodosCookies()" class="text-xs font-bold bg-[#2563EB] hover:bg-[#1E40AF] text-white px-4 py-2 rounded-xl transition shadow-sm touch-target">
-          Aceitar
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- MODAL DE CONFIGURAÇÃO DE COOKIES -->
-  <div id="modal-cookies" class="ds-modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-cookies-titulo">
-    <div class="ds-modal space-y-4">
-      <div class="flex items-center justify-between border-b border-[#D9E1EC] pb-3">
-        <h3 id="modal-cookies-titulo" class="text-base font-bold text-[#0F1B35]">Preferências de Privacidade & Cookies</h3>
-        <button type="button" onclick="fecharConfiguracoesCookies()" class="p-1 rounded-lg text-slate-400 hover:text-slate-700 touch-target" aria-label="Fechar">
-          <i data-lucide="x" class="w-5 h-5"></i>
-        </button>
-      </div>
-      <div class="space-y-3 text-xs text-[#526078] leading-relaxed">
-        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-          <div class="flex items-center justify-between">
-            <strong class="text-slate-900">Cookies Essenciais (Obrigatórios)</strong>
-            <span class="ds-badge ds-badge-success">Ativo</span>
-          </div>
-          <p class="mt-1">Necessários para segurança, navegação e funcionamento dos cálculos e formulários.</p>
-        </div>
-        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-          <div class="flex items-center justify-between">
-            <strong class="text-slate-900">Cookies de Análise e Métricas</strong>
-            <label class="relative inline-flex items-center cursor-pointer">
-              <input type="checkbox" id="check-analytics" class="sr-only peer" checked>
-              <div class="w-9 h-5 bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#2563EB]"></div>
-            </label>
-          </div>
-          <p class="mt-1">Auxiliam a entender quais ferramentas são mais acessadas para contínua melhoria.</p>
-        </div>
-      </div>
-      <div class="pt-3 border-t border-[#D9E1EC] flex justify-end gap-2">
-        <button type="button" onclick="fecharConfiguracoesCookies()" class="btn-secondary text-xs">Cancelar</button>
-        <button type="button" onclick="salvarConfiguracoesCookies()" class="btn-primary text-xs">Salvar Preferências</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- SCRIPTS FUNCIONAIS: FILTRAGEM DINÂMICA E CONSENTIMENTO -->
   <script>
-    if (window.lucide) {
-      window.lucide.createIcons();
+    // Inicializar Lucide Icons
+    if (window.lucide) window.lucide.createIcons();
+
+    // ============================
+    // CONFIGURAÇÃO DA API DO TSE
+    // ============================
+    const TSE_BASE = 'https://resultados.tse.jus.br/oficial/ele2026/6258/dados';
+    const CARGO = 'c0001'; // Presidente
+    const ELEICAO = 'e006258'; // 2º turno federal
+    const UFS = ['ac','al','am','ap','ba','ce','df','es','go','ma','mg','ms','mt','pa','pb','pe','pi','pr','rj','rn','ro','rr','rs','sc','se','sp','to'];
+    const UF_NOMES = {
+      ac:'Acre',al:'Alagoas',am:'Amazonas',ap:'Amapá',ba:'Bahia',ce:'Ceará',
+      df:'Distrito Federal',es:'Espírito Santo',go:'Goiás',ma:'Maranhão',
+      mg:'Minas Gerais',ms:'Mato Grosso do Sul',mt:'Mato Grosso',pa:'Pará',
+      pb:'Paraíba',pe:'Pernambuco',pi:'Piauí',pr:'Paraná',rj:'Rio de Janeiro',
+      rn:'Rio Grande do Norte',ro:'Rondônia',rr:'Roraima',rs:'Rio Grande do Sul',
+      sc:'Santa Catarina',se:'Sergipe',sp:'São Paulo',to:'Tocantins'
+    };
+
+    let estadosVisivel = false;
+    let dadosEstados = {};
+    let intervaloAtualizacao = null;
+
+    // ============================
+    // FORMATAÇÃO
+    // ============================
+    function fmt(n) {
+      return Number(n).toLocaleString('pt-BR');
     }
 
-    // Atualização em tempo real da mini-pílula de cotações e Selic no topo via Banco Central (bcb.gov.br)
-    async function carregarCotacaoTopo() {
-      const ts = Date.now();
-      // 1. Cotação Oficial do Dólar PTAX (Banco Central do Brasil - Série 1)
+    function fmtPct(str) {
+      // TSE envia "45,23" como string, mantém assim
+      if (!str || str === '0,00') return '0,00';
+      return str.replace('.', ',');
+    }
+
+    // ============================
+    // BUSCAR DADOS NACIONAIS
+    // ============================
+    async function buscarDadosNacionais() {
       try {
-        const res = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
-        if (res.ok) {
+        const url = `${TSE_BASE}/br/br-${CARGO}-${ELEICAO}-u.json?_=${Date.now()}`;
+        const res = await fetch(url, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        atualizarPainelNacional(data);
+        return data;
+      } catch (e) {
+        console.warn('Erro ao buscar dados nacionais:', e);
+        return null;
+      }
+    }
+
+    // ============================
+    // ATUALIZAR PAINEL NACIONAL
+    // ============================
+    function atualizarPainelNacional(data) {
+      if (!data) return;
+
+      // Seções
+      const secoes = data.s || {};
+      const totalSecoes = parseInt(secoes.ts) || 0;
+      const secoesTotalizadas = parseInt(secoes.st) || 0;
+      const pctSecoes = secoes.pst || '0,00';
+
+      document.getElementById('secoes-pct').textContent = pctSecoes + '%';
+      document.getElementById('secoes-bar').style.width = parseFloat(pctSecoes.replace(',', '.')) + '%';
+      document.getElementById('secoes-apuradas').textContent = fmt(secoesTotalizadas);
+      document.getElementById('secoes-total').textContent = fmt(totalSecoes);
+
+      // Eleitores / Abstenções
+      const eleitores = data.e || {};
+      const abstencoes = parseInt(eleitores.a) || 0;
+
+      // Votos
+      const votos = data.v || {};
+      const totalVotos = parseInt(votos.tv) || 0;
+      const brancos = parseInt(votos.vb) || 0;
+      const nulos = parseInt(votos.vn) || 0;
+      const votosValidos = parseInt(votos.vv) || 0;
+
+      document.getElementById('total-validos').textContent = fmt(votosValidos);
+      document.getElementById('total-brancos').textContent = fmt(brancos);
+      document.getElementById('total-nulos').textContent = fmt(nulos);
+      document.getElementById('total-abstencoes').textContent = fmt(abstencoes);
+
+      // Candidatos — extrair de agr (agremiações/coligações)
+      const agrs = (data.carg && data.carg[0] && data.carg[0].agr) || [];
+      let votosLula = 0, pctLula = '0,00';
+      let votosBolsonaro = 0, pctBolsonaro = '0,00';
+
+      for (const agr of agrs) {
+        for (const par of (agr.par || [])) {
+          for (const cand of (par.cand || [])) {
+            if (cand.n === '13') {
+              votosLula = parseInt(cand.vap) || 0;
+              pctLula = cand.pvap || '0,00';
+            } else if (cand.n === '22') {
+              votosBolsonaro = parseInt(cand.vap) || 0;
+              pctBolsonaro = cand.pvap || '0,00';
+            }
+          }
+        }
+      }
+
+      document.getElementById('votos-lula').textContent = fmt(votosLula);
+      document.getElementById('pct-lula').textContent = fmtPct(pctLula) + '%';
+      document.getElementById('bar-lula').style.width = parseFloat(pctLula.replace(',', '.')) + '%';
+
+      document.getElementById('votos-bolsonaro').textContent = fmt(votosBolsonaro);
+      document.getElementById('pct-bolsonaro').textContent = fmtPct(pctBolsonaro) + '%';
+      document.getElementById('bar-bolsonaro').style.width = parseFloat(pctBolsonaro.replace(',', '.')) + '%';
+
+      // Status e horário
+      const agora = new Date();
+      const hora = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+      document.getElementById('ultima-atualizacao').textContent = hora;
+
+      const statusEl = document.getElementById('status-atualizacao');
+      if (secoesTotalizadas > 0) {
+        const pctFloat = parseFloat(pctSecoes.replace(',', '.'));
+        if (pctFloat >= 100) {
+          statusEl.textContent = 'Apuração encerrada';
+          statusEl.className = 'text-emerald-300 font-bold';
+        } else {
+          statusEl.textContent = `Apurando... ${pctSecoes}%`;
+          statusEl.className = 'text-amber-300 font-bold';
+        }
+      } else {
+        statusEl.textContent = 'Aguardando apuração (17h)';
+        statusEl.className = 'text-red-300 font-bold';
+      }
+    }
+
+    // ============================
+    // BUSCAR DADOS DOS ESTADOS
+    // ============================
+    async function buscarDadosEstados() {
+      const promises = UFS.map(async (uf) => {
+        try {
+          const url = `${TSE_BASE}/${uf}/${uf}-${CARGO}-${ELEICAO}-u.json?_=${Date.now()}`;
+          const res = await fetch(url, { cache: 'no-store' });
+          if (!res.ok) return null;
           const data = await res.json();
-          if (data && data[0] && data[0].valor) {
-            const val = parseFloat(data[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-            const elDolar = document.getElementById('header-dolar');
-            if (elDolar) elDolar.textContent = 'R$ ' + val;
+          return { uf, data };
+        } catch (e) {
+          return null;
+        }
+      });
+
+      const resultados = await Promise.all(promises);
+      for (const r of resultados) {
+        if (r) dadosEstados[r.uf] = r.data;
+      }
+      renderizarTabelaEstados();
+    }
+
+    // ============================
+    // RENDERIZAR TABELA DE ESTADOS
+    // ============================
+    function renderizarTabelaEstados() {
+      const body = document.getElementById('estados-body');
+      if (!body) return;
+
+      const linhas = [];
+      const estadosArr = [];
+
+      for (const uf of UFS) {
+        const data = dadosEstados[uf];
+        if (!data) {
+          estadosArr.push({ uf, pctApurado: 0, votosLula: 0, pctLula: 0, votosBolsonaro: 0, pctBolsonaro: 0, lider: '-' });
+          continue;
+        }
+
+        const secoes = data.s || {};
+        const pctApurado = secoes.pst || '0,00';
+
+        const agrs = (data.carg && data.carg[0] && data.carg[0].agr) || [];
+        let votosLula = 0, pctLula = '0,00';
+        let votosBolsonaro = 0, pctBolsonaro = '0,00';
+
+        for (const agr of agrs) {
+          for (const par of (agr.par || [])) {
+            for (const cand of (par.cand || [])) {
+              if (cand.n === '13') { votosLula = parseInt(cand.vap) || 0; pctLula = cand.pvap || '0,00'; }
+              if (cand.n === '22') { votosBolsonaro = parseInt(cand.vap) || 0; pctBolsonaro = cand.pvap || '0,00'; }
+            }
           }
         }
-      } catch (e) {
-        // Mantém fallback estático R$ 5,06
+
+        const pctLulaNum = parseFloat(pctLula.replace(',', '.'));
+        const pctBolsonaroNum = parseFloat(pctBolsonaro.replace(',', '.'));
+        let lider = '-';
+        if (pctLulaNum > pctBolsonaroNum) lider = 'lula';
+        else if (pctBolsonaroNum > pctLulaNum) lider = 'bolsonaro';
+
+        estadosArr.push({ uf, pctApurado, votosLula, pctLula, votosBolsonaro, pctBolsonaro, lider, pctLulaNum, pctBolsonaroNum });
       }
 
-      // 2. Taxa Selic Oficial do Banco Central (BACEN SGS Série 432)
-      try {
-        const resSelic = await fetch(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json&_=${ts}`, { cache: 'no-store' });
-        if (resSelic.ok) {
-          const dataSelic = await resSelic.json();
-          if (dataSelic && dataSelic[0] && dataSelic[0].valor) {
-            const valSelic = parseFloat(dataSelic[0].valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-            const elSelic = document.getElementById('header-selic');
-            if (elSelic) elSelic.textContent = valSelic + '%';
-          }
-        }
-      } catch (e) {
-        // Mantém fallback estático 13,75%
-      }
-    }
-    carregarCotacaoTopo();
-    // Reconsulta o Banco Central a cada 5 minutos se o usuário mantiver a página aberta
-    setInterval(carregarCotacaoTopo, 5 * 60 * 1000);
+      for (const e of estadosArr) {
+        const liderBadge = e.lider === 'lula'
+          ? '<span class="inline-block w-3 h-3 rounded-full bg-red-500" title="Lula lidera"></span>'
+          : e.lider === 'bolsonaro'
+            ? '<span class="inline-block w-3 h-3 rounded-full bg-blue-500" title="Bolsonaro lidera"></span>'
+            : '<span class="text-slate-600">-</span>';
 
+        const pctLulaNum = parseFloat(String(e.pctLula).replace(',', '.')) || 0;
+        const pctBolsonaroNum = parseFloat(String(e.pctBolsonaro).replace(',', '.')) || 0;
 
-    // Busca de serviços em tempo real
-    function filtrarServicosAoDigitar() {
-      const campo = document.getElementById('campo-busca');
-      if (!campo) return;
-      const termo = campo.value.toLowerCase().trim();
-      const feedback = document.getElementById('busca-feedback');
-      const itens = document.querySelectorAll('#grid-todos-servicos .item-servico');
-      let encontrados = 0;
-
-      if (!termo) {
-        itens.forEach(it => it.style.display = '');
-        if (feedback) feedback.classList.add('hidden');
-        return;
-      }
-
-      itens.forEach(item => {
-        const texto = item.innerText.toLowerCase();
-        if (texto.includes(termo)) {
-          item.style.display = '';
-          encontrados++;
-        } else {
-          item.style.display = 'none';
-        }
-      });
-
-      if (feedback) {
-        feedback.classList.remove('hidden');
-        if (encontrados > 0) {
-          feedback.textContent = `Mostrando ${encontrados} ferramenta(s) para "${termo}".`;
-        } else {
-          feedback.textContent = `Nenhuma ferramenta encontrada para "${termo}". Tente buscar por CNPJ, placa, rescisão, etc.`;
-        }
-      }
-    }
-
-    function limparOuFocarBusca() {
-      const campo = document.getElementById('campo-busca');
-      if (campo.value) {
-        campo.value = '';
-        filtrarServicosAoDigitar();
-      }
-      campo.focus();
-    }
-
-    function focarFiltroServicos() {
-      document.getElementById('todos-servicos').scrollIntoView({ behavior: 'smooth' });
-    }
-
-    // Filtro por Categoria de Serviços
-    function filtrarCategoria(categoria) {
-      const pílulas = document.querySelectorAll('.cat-pill');
-      pílulas.forEach(btn => {
-        btn.classList.remove('bg-[#2563EB]', 'text-white', 'shadow-xs');
-        btn.classList.add('bg-white', 'border', 'border-[#D9E1EC]', 'text-[#526078]');
-      });
-
-      // Ativa o botão clicado
-      event.target.classList.add('bg-[#2563EB]', 'text-white', 'shadow-xs');
-      event.target.classList.remove('bg-white', 'border', 'border-[#D9E1EC]', 'text-[#526078]');
-
-      const itens = document.querySelectorAll('#grid-todos-servicos .item-servico');
-      itens.forEach(item => {
-        if (categoria === 'todas' || item.getAttribute('data-categoria') === categoria) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    }
-
-    // Gestão de Consentimento LGPD (Conforme Requisito com Aceitar / Recusar / Configurar)
-    (function verificarConsentimento() {
-      if (!localStorage.getItem('lgpd_consent_cidadaoagora')) {
-        const banner = document.getElementById('lgpd-banner');
-        if (banner) banner.style.display = 'block';
-      }
-    })();
-
-    function aceitarTodosCookies() {
-      localStorage.setItem('lgpd_consent_cidadaoagora', 'todos');
-      fecharBannerLGPD();
-    }
-
-    function recusarCookiesNaoEssenciais() {
-      localStorage.setItem('lgpd_consent_cidadaoagora', 'essenciais');
-      fecharBannerLGPD();
-    }
-
-    function fecharBannerLGPD() {
-      const banner = document.getElementById('lgpd-banner');
-      if (banner) {
-        banner.style.opacity = '0';
-        setTimeout(() => banner.style.display = 'none', 300);
-      }
-    }
-
-    function abrirConfiguracoesCookies() {
-      const modal = document.getElementById('modal-cookies');
-      if (modal) modal.classList.remove('hidden');
-    }
-
-    function fecharConfiguracoesCookies() {
-      const modal = document.getElementById('modal-cookies');
-      if (modal) modal.classList.add('hidden');
-    }
-
-    function salvarConfiguracoesCookies() {
-      const analyticsAtivo = document.getElementById('check-analytics')?.checked;
-      localStorage.setItem('lgpd_consent_cidadaoagora', analyticsAtivo ? 'custom_analytics' : 'essenciais');
-      fecharConfiguracoesCookies();
-      fecharBannerLGPD();
-    }
-
-    // Controle de Acessibilidade do Menu Mobile (Prioridade 5)
-    (function initMenuMobile() {
-      const btnMenuMobile = document.getElementById('btn-menu-mobile');
-      const menuMobile = document.getElementById('menu-mobile');
-      const iconMenuOpen = document.getElementById('icon-menu-open');
-      const iconMenuClose = document.getElementById('icon-menu-close');
-
-      if (!btnMenuMobile || !menuMobile) return;
-
-      function toggleMenuMobile() {
-        const isExpanded = btnMenuMobile.getAttribute('aria-expanded') === 'true';
-        if (isExpanded) {
-          fecharMenuMobile();
-        } else {
-          abrirMenuMobile();
-        }
+        linhas.push(`
+          <div class="state-row grid grid-cols-12 gap-2 px-4 sm:px-5 py-2.5 items-center text-xs">
+            <div class="col-span-2 sm:col-span-1">
+              <span class="font-bold text-white text-sm">${e.uf.toUpperCase()}</span>
+              <span class="hidden sm:inline text-[10px] text-slate-500 ml-1">${UF_NOMES[e.uf] || ''}</span>
+            </div>
+            <div class="col-span-3 sm:col-span-2">
+              <span class="text-slate-300">${fmtPct(String(e.pctApurado))}%</span>
+            </div>
+            <div class="col-span-3 sm:col-span-4">
+              <div class="flex items-center gap-2">
+                <div class="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
+                  <div class="h-full bar-lula rounded-full" style="width: ${pctLulaNum}%"></div>
+                </div>
+                <span class="text-red-400 font-bold w-14 text-right">${fmtPct(String(e.pctLula))}%</span>
+              </div>
+            </div>
+            <div class="col-span-3 sm:col-span-4">
+              <div class="flex items-center gap-2">
+                <div class="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
+                  <div class="h-full bar-bolsonaro rounded-full" style="width: ${pctBolsonaroNum}%"></div>
+                </div>
+                <span class="text-blue-400 font-bold w-14 text-right">${fmtPct(String(e.pctBolsonaro))}%</span>
+              </div>
+            </div>
+            <div class="hidden sm:flex col-span-1 justify-end">${liderBadge}</div>
+          </div>
+        `);
       }
 
-      function abrirMenuMobile() {
-        btnMenuMobile.setAttribute('aria-expanded', 'true');
-        btnMenuMobile.setAttribute('aria-label', 'Fechar menu de navegação');
-        menuMobile.classList.remove('hidden');
-        if (iconMenuOpen) iconMenuOpen.classList.add('hidden');
-        if (iconMenuClose) iconMenuClose.classList.remove('hidden');
-        const firstLink = menuMobile.querySelector('a');
-        if (firstLink) firstLink.focus();
+      body.innerHTML = linhas.join('');
+    }
+
+    // ============================
+    // TOGGLE ESTADOS
+    // ============================
+    function toggleEstados() {
+      const tabela = document.getElementById('tabela-estados');
+      const btn = document.getElementById('btn-toggle-estados');
+      estadosVisivel = !estadosVisivel;
+      if (estadosVisivel) {
+        tabela.classList.remove('hidden');
+        btn.innerHTML = '<i data-lucide="chevron-up" class="w-3.5 h-3.5 inline-block"></i> Recolher';
+        if (Object.keys(dadosEstados).length === 0) buscarDadosEstados();
+      } else {
+        tabela.classList.add('hidden');
+        btn.innerHTML = '<i data-lucide="chevron-down" class="w-3.5 h-3.5 inline-block"></i> Expandir';
       }
+      if (window.lucide) window.lucide.createIcons();
+    }
 
-      function fecharMenuMobile() {
-        btnMenuMobile.setAttribute('aria-expanded', 'false');
-        btnMenuMobile.setAttribute('aria-label', 'Abrir menu de navegação');
-        menuMobile.classList.add('hidden');
-        if (iconMenuOpen) iconMenuOpen.classList.remove('hidden');
-        if (iconMenuClose) iconMenuClose.classList.add('hidden');
+    // ============================
+    // LOOP DE ATUALIZAÇÃO
+    // ============================
+    async function atualizar() {
+      await buscarDadosNacionais();
+      if (estadosVisivel) await buscarDadosEstados();
+    }
+
+    // Início
+    atualizar();
+    intervaloAtualizacao = setInterval(atualizar, 30000); // 30 segundos
+
+    // Visibilidade da página — pausar quando não visível
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        clearInterval(intervaloAtualizacao);
+      } else {
+        atualizar();
+        intervaloAtualizacao = setInterval(atualizar, 30000);
       }
-
-      window.fecharMenuMobile = fecharMenuMobile;
-
-      btnMenuMobile.addEventListener('click', toggleMenuMobile);
-
-      window.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && btnMenuMobile.getAttribute('aria-expanded') === 'true') {
-          fecharMenuMobile();
-          btnMenuMobile.focus();
-        }
-      });
-    })();
+    });
   </script>
 </body>
 </html>
