@@ -659,35 +659,35 @@
         }
 
         return `
-          <div class="state-pill" style="border-radius: 10px; padding: 7px 12px; display: flex; flex-direction: column; justify-content: space-between; height: 50px; min-height: 50px;">
-            <!-- Linha 1: UF, Nome e Apuração -->
+          <div class="state-pill" style="border-radius: 12px; padding: 7px 14px; display: flex; flex-direction: column; justify-content: space-between; height: 60px; min-height: 60px;">
+            <!-- Linha 1: UF (Badge Maior), Nome do Estado (+50% Maior) e Apuração -->
             <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-              <div style="display: flex; align-items: center; gap: 7px;">
-                <span style="width: 25px; height: 18px; border-radius: 4px; font-size: 11px; display: flex; align-items: center; justify-content: center; font-weight: 900; ${badgeStyle}">
+              <div style="display: flex; align-items: center; gap: 9px;">
+                <span style="width: 32px; height: 23px; border-radius: 5px; font-size: 13px; display: flex; align-items: center; justify-content: center; font-weight: 900; ${badgeStyle}">
                   ${est.uf.toUpperCase()}
                 </span>
-                <span style="font-size: 11px; color: #CBD5E1; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px;">
+                <span style="font-size: 16px; color: #FFFFFF; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 190px; letter-spacing: -0.2px;">
                   ${est.nome}
                 </span>
               </div>
-              <span class="font-num" style="font-size: 11px; color: #94A3B8; font-weight: 700;">
-                <span style="color: #64748B; font-size: 10px; font-weight: 500;">apurado:</span> ${formataPercentual(pctApurado)}%
+              <span class="font-num" style="font-size: 12px; color: #CBD5E1; font-weight: 800;">
+                <span style="color: #64748B; font-size: 11px; font-weight: 500;">apurado:</span> ${formataPercentual(pctApurado)}%
               </span>
             </div>
 
-            <!-- Linha 2: Percentuais e Barra Proporcional Larga -->
-            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 8px;">
-              <span class="font-num" style="color: #F87171; font-size: 12px; font-weight: 900; min-width: 44px;">
+            <!-- Linha 2: Percentuais Maiores e Barra Proporcional Espessa -->
+            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 10px;">
+              <span class="font-num" style="color: #F87171; font-size: 13px; font-weight: 900; min-width: 48px;">
                 ${formataPercentual(pctLula)}%
               </span>
 
-              <!-- Barra Proporcional Dupla de 7px de altura -->
-              <div style="height: 7px; flex: 1; background: #000; border-radius: 9999px; overflow: hidden; display: flex; border: 1px solid #1E293B;">
+              <!-- Barra Proporcional Dupla de 8px -->
+              <div style="height: 8px; flex: 1; background: #000; border-radius: 9999px; overflow: hidden; display: flex; border: 1px solid #1E293B;">
                 <div style="height: 100%; width: ${nPctLula}%; background: linear-gradient(90deg, #B91C1C, #EF4444);"></div>
                 <div style="height: 100%; width: ${nPctBolsonaro}%; background: linear-gradient(90deg, #3B82F6, #1D4ED8);"></div>
               </div>
 
-              <span class="font-num" style="color: #60A5FA; font-size: 12px; font-weight: 900; min-width: 44px; text-align: right;">
+              <span class="font-num" style="color: #60A5FA; font-size: 13px; font-weight: 900; min-width: 48px; text-align: right;">
                 ${formataPercentual(pctBolsonaro)}%
               </span>
             </div>
