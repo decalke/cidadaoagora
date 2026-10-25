@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#030508">
 
   <title>ELEIÇÕES 2026 AO VIVO – APURAÇÃO PRESIDENTE | STREAMING 1080p</title>
-  <meta name="description" content="Transmissão ao vivo da apuração das Eleições 2026 para Presidente da República e todos os 27 estados. Dados oficiais do TSE sincronizados a cada 5 segundos.">
+  <meta name="description" content="Transmissão oficial ao vivo da apuração das Eleições 2026 para Presidente da República e todos os 27 estados. Dados oficiais do TSE sincronizados a cada 5 segundos.">
   <link rel="canonical" href="https://cidadaoagora.com.br/">
 
   <!-- Tailwind CSS -->
@@ -55,42 +55,42 @@
       font-variant-numeric: tabular-nums;
     }
 
-    /* Atmosfera de Estúdio de TV */
+    /* Fundo Broadcast com Iluminação Suave de Estúdio */
     .studio-bg {
-      background: radial-gradient(circle at 15% 30%, rgba(220, 38, 38, 0.16) 0%, rgba(3, 5, 8, 0) 55%),
-                  radial-gradient(circle at 85% 30%, rgba(37, 99, 235, 0.16) 0%, rgba(3, 5, 8, 0) 55%),
-                  radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.10) 0%, rgba(3, 5, 8, 0) 50%),
+      background: radial-gradient(circle at 18% 25%, rgba(220, 38, 38, 0.18) 0%, rgba(3, 5, 8, 0) 50%),
+                  radial-gradient(circle at 82% 25%, rgba(37, 99, 235, 0.18) 0%, rgba(3, 5, 8, 0) 50%),
+                  radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.10) 0%, rgba(3, 5, 8, 0) 45%),
                   #030508;
     }
 
-    /* Molduras de TV */
-    .card-broadcast {
-      background: linear-gradient(180deg, rgba(18, 22, 34, 0.85) 0%, rgba(9, 11, 18, 0.95) 100%);
+    /* Painéis de TV */
+    .panel-tv {
+      background: linear-gradient(180deg, rgba(16, 20, 30, 0.90) 0%, rgba(8, 10, 16, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.08);
-      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 12px 35px -8px rgba(0, 0, 0, 0.8);
     }
 
     .card-lula-studio {
-      background: linear-gradient(135deg, rgba(35, 10, 10, 0.9) 0%, rgba(15, 6, 8, 0.95) 100%);
-      border: 1px solid rgba(239, 68, 68, 0.35);
-      box-shadow: 0 0 40px -10px rgba(220, 38, 38, 0.25);
+      background: linear-gradient(135deg, rgba(38, 12, 14, 0.95) 0%, rgba(16, 6, 8, 0.98) 100%);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      box-shadow: 0 0 40px -10px rgba(220, 38, 38, 0.3);
     }
 
     .card-bolsonaro-studio {
-      background: linear-gradient(135deg, rgba(8, 20, 45, 0.9) 0%, rgba(5, 10, 22, 0.95) 100%);
-      border: 1px solid rgba(59, 130, 246, 0.35);
-      box-shadow: 0 0 40px -10px rgba(37, 99, 235, 0.25);
+      background: linear-gradient(135deg, rgba(10, 22, 48, 0.95) 0%, rgba(6, 11, 24, 0.98) 100%);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      box-shadow: 0 0 40px -10px rgba(37, 99, 235, 0.3);
     }
 
-    /* Brilhos e Text Glows */
+    /* Glows de Alta Visibilidade para Stream */
     .glow-red {
-      text-shadow: 0 0 25px rgba(239, 68, 68, 0.65);
+      text-shadow: 0 0 30px rgba(239, 68, 68, 0.7);
     }
     .glow-blue {
-      text-shadow: 0 0 25px rgba(59, 130, 246, 0.65);
+      text-shadow: 0 0 30px rgba(59, 130, 246, 0.7);
     }
     .glow-green {
-      text-shadow: 0 0 20px rgba(16, 185, 129, 0.65);
+      text-shadow: 0 0 25px rgba(16, 185, 129, 0.7);
     }
 
     /* Pulse ao Vivo */
@@ -102,38 +102,38 @@
       animation: live-flash 1.4s ease-in-out infinite;
     }
 
-    /* Barra Cabo de Guerra */
+    /* Cabo de Guerra */
     .bar-duel-red {
-      background: linear-gradient(90deg, #991B1B 0%, #EF4444 100%);
-      box-shadow: 0 0 15px rgba(239, 68, 68, 0.5);
+      background: linear-gradient(90deg, #B91C1C 0%, #EF4444 100%);
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
     }
     .bar-duel-blue {
       background: linear-gradient(90deg, #3B82F6 0%, #1D4ED8 100%);
-      box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
     }
 
     /* Mini cards de estado */
     .state-pill {
-      background: rgba(14, 18, 28, 0.85);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(13, 17, 26, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.07);
       transition: all 0.2s ease;
     }
     .state-pill:hover {
-      background: rgba(22, 28, 44, 0.95);
-      border-color: rgba(255, 255, 255, 0.15);
+      background: rgba(20, 26, 42, 0.95);
+      border-color: rgba(255, 255, 255, 0.16);
     }
   </style>
 </head>
 <body class="studio-bg flex flex-col justify-between h-screen w-screen p-3 lg:p-4 select-none">
 
   <!-- ========================================== -->
-  <!-- 1. TOPO: HEADER BROADCAST DE TELEJORNAL -->
+  <!-- 1. CABEÇALHO BROADCAST FULL HD (54px) -->
   <!-- ========================================== -->
-  <header class="card-broadcast rounded-2xl px-4 py-2.5 flex items-center justify-between shrink-0 mb-2 border border-slate-800">
+  <header class="panel-tv rounded-2xl px-4 py-2 flex items-center justify-between shrink-0 mb-2 border border-slate-800">
     
     <!-- Logo e Identificação -->
     <div class="flex items-center gap-3">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2.5">
         <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 via-blue-600 to-indigo-500 flex items-center justify-center font-black text-white text-base shadow-lg shadow-blue-600/40">
           CA
         </div>
@@ -160,7 +160,7 @@
         </span>
       </div>
 
-      <div class="w-32 lg:w-44 h-3 bg-slate-900 rounded-full overflow-hidden border border-slate-700 p-0.5">
+      <div class="w-36 lg:w-48 h-3 bg-slate-900 rounded-full overflow-hidden border border-slate-700 p-0.5">
         <div id="barra-secoes" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-700 shadow-md shadow-emerald-500/50" style="width: 0.25%;"></div>
       </div>
 
@@ -183,7 +183,7 @@
       <!-- Relógio de Brasília -->
       <div class="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-slate-950/80 border border-slate-800 text-xs">
         <i data-lucide="clock" class="w-3.5 h-3.5 text-blue-400"></i>
-        <span class="font-bold text-white font-num text-sm" id="relogio-brasilia">17:44:12</span>
+        <span class="font-bold text-white font-num text-sm" id="relogio-brasilia">17:48:00</span>
       </div>
 
       <!-- Contador 5s -->
@@ -196,153 +196,151 @@
   </header>
 
   <!-- ======================================================= -->
-  <!-- 2. CORPO CENTRAL: PLACAR DE DUELO NACIONAL (VERSUS) -->
+  <!-- 2. PLACAR PRINCIPAL CORRIGIDO: DUELO SIMÉTRICO E PERFEITO -->
   <!-- ======================================================= -->
-  <div class="grid grid-cols-12 gap-3 shrink-0 mb-2">
+  <div style="display: grid; grid-template-columns: 1fr 290px 1fr; gap: 14px; margin-bottom: 8px; align-items: stretch; flex-shrink: 0;">
 
-    <!-- CARD LULA (13) -->
-    <div class="col-span-5 card-lula-studio rounded-3xl p-4 lg:p-5 relative overflow-hidden flex items-center justify-between border">
-      <!-- Glow Decorativo -->
-      <div class="absolute -right-10 -top-10 w-44 h-44 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
-
-      <!-- Foto e Nome -->
-      <div class="flex items-center gap-4 z-10">
-        <div class="relative">
-          <div class="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl overflow-hidden border-2 border-red-500 shadow-2xl shadow-red-950/80 bg-slate-950">
+    <!-- CARD LULA (LADO ESQUERDO) -->
+    <div class="card-lula-studio" style="border-radius: 20px; padding: 16px 22px; display: flex; align-items: center; justify-content: space-between; border-left: 5px solid #EF4444; position: relative;">
+      
+      <!-- Lado Esquerdo do Card: Foto, Número, Nome e Vice -->
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <div style="position: relative; flex-shrink: 0;">
+          <div style="width: 82px; height: 82px; border-radius: 16px; overflow: hidden; border: 2px solid #EF4444; background: #000; box-shadow: 0 0 25px rgba(239, 68, 68, 0.4);">
             <img 
               id="foto-lula" 
               src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002542548.jpeg" 
               alt="Lula" 
-              class="w-full h-full object-cover object-top"
-              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23ef4444\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
+              style="width: 100%; height: 100%; object-fit: cover; object-position: top;"
+              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'82\' height=\'82\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23ef4444\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
             />
           </div>
-          <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-lg bg-red-600 text-white font-black text-xs shadow-lg border border-red-300">
+          <span style="position: absolute; bottom: -6px; right: -6px; padding: 2px 7px; border-radius: 6px; background: #DC2626; color: #FFF; font-weight: 900; font-size: 11px; border: 1px solid #FCA5A5;">
             13
           </span>
         </div>
 
         <div>
-          <div class="flex items-center gap-2 mb-0.5">
-            <span class="px-2 py-0.5 rounded bg-red-600/30 text-red-400 text-xs font-black border border-red-500/40">PT</span>
-            <span id="badge-lider-lula" class="px-2 py-0.5 rounded bg-red-600 text-white font-black text-[10px] uppercase tracking-wider shadow-sm">
+          <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 2px;">
+            <span style="padding: 2px 6px; border-radius: 4px; background: rgba(220, 38, 38, 0.25); color: #F87171; font-weight: 900; font-size: 11px; border: 1px solid rgba(239, 68, 68, 0.4);">PT</span>
+            <span id="badge-lider-lula" style="padding: 2px 6px; border-radius: 4px; background: #DC2626; color: #FFF; font-weight: 900; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px;">
               LIDERANDO
             </span>
-            <span id="badge-eleito-lula" class="hidden px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[10px] uppercase tracking-wider animate-pulse shadow-md shadow-emerald-600/50">
+            <span id="badge-eleito-lula" class="hidden" style="padding: 2px 6px; border-radius: 4px; background: #059669; color: #FFF; font-weight: 900; font-size: 10px; text-transform: uppercase;">
               ✓ ELEITO
             </span>
           </div>
-          <h2 class="text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">LULA</h2>
-          <p class="text-xs text-slate-400">Luiz Inácio Lula da Silva</p>
-          <p class="text-[11px] text-slate-500">Vice: <strong class="text-slate-300">Geraldo Alckmin (PSB)</strong></p>
+          <h2 style="font-size: 34px; font-weight: 900; color: #FFF; line-height: 1.1; margin: 0; letter-spacing: -0.5px;">LULA</h2>
+          <p style="font-size: 12px; color: #94A3B8; margin: 2px 0 0 0;">Luiz Inácio Lula da Silva</p>
+          <p style="font-size: 11px; color: #64748B; margin: 2px 0 0 0;">Vice: <strong style="color: #CBD5E1;">Geraldo Alckmin (PSB)</strong></p>
         </div>
       </div>
 
-      <!-- Percentual Gigante e Votos -->
-      <div class="text-right z-10">
-        <span class="text-xs uppercase font-extrabold tracking-wider text-red-400/90 block">Votos Válidos</span>
-        <div class="text-5xl lg:text-6xl font-black text-red-500 font-num tracking-tight glow-red leading-none mb-1" id="pct-lula">
+      <!-- Lado Direito do Card: Percentual Gigante e Votos -->
+      <div style="text-align: right;">
+        <span style="font-size: 11px; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; color: #F87171; display: block; margin-bottom: 2px;">Votos Válidos</span>
+        <div id="pct-lula" class="font-num glow-red" style="font-size: 54px; font-weight: 900; color: #EF4444; line-height: 1; letter-spacing: -1px; margin-bottom: 6px;">
           57,66%
         </div>
-        <div class="bg-black/60 rounded-xl px-3 py-1 border border-red-950/80 inline-block">
-          <span class="text-xs text-slate-400">Votos:</span>
-          <span class="text-base font-black text-white font-num ml-1" id="votos-lula">193.574</span>
+        <div style="background: rgba(0, 0, 0, 0.7); border-radius: 10px; padding: 4px 10px; border: 1px solid rgba(239, 68, 68, 0.2); display: inline-block;">
+          <span style="font-size: 11px; color: #94A3B8;">Votos:</span>
+          <span id="votos-lula" class="font-num" style="font-size: 15px; font-weight: 900; color: #FFF; margin-left: 4px;">193.574</span>
         </div>
       </div>
+
     </div>
 
-    <!-- CABO DE GUERRA / DIVISOR CENTRAL (VERSUS E BARRA DE 50%) -->
-    <div class="col-span-2 card-broadcast rounded-3xl p-3 flex flex-col justify-between items-center text-center">
+    <!-- PAINEL CENTRAL (VERSUS / CABO DE GUERRA / META 50%) -->
+    <div class="panel-tv" style="border-radius: 20px; padding: 14px 16px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center;">
       
-      <!-- VS Badge -->
-      <div class="flex items-center justify-center">
-        <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-slate-400 font-black text-xs tracking-wider">
+      <!-- Badge VS -->
+      <div>
+        <span style="padding: 3px 12px; border-radius: 20px; background: #0F172A; border: 1px solid #334155; color: #94A3B8; font-weight: 900; font-size: 12px; letter-spacing: 1px;">
           VS
         </span>
       </div>
 
-      <!-- Barra de Confronto Direto (50% no centro) -->
-      <div class="w-full space-y-1">
-        <div class="flex justify-between text-[10px] font-bold text-slate-400 px-1">
-          <span class="text-red-400 font-num" id="mini-lula">57,7%</span>
-          <span class="text-amber-400 text-[9px] uppercase tracking-wider">Meta: 50%</span>
-          <span class="text-blue-400 font-num" id="mini-bolsonaro">42,3%</span>
+      <!-- Cabo de Guerra dos 50% -->
+      <div style="width: 100%;">
+        <div style="display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; padding: 0 4px; margin-bottom: 4px;">
+          <span id="mini-lula" class="font-num" style="color: #F87171;">57,7%</span>
+          <span style="color: #FBBF24; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Meta: 50%</span>
+          <span id="mini-bolsonaro" class="font-num" style="color: #60A5FA;">42,3%</span>
         </div>
         
-        <div class="h-3 w-full bg-black rounded-full overflow-hidden flex border border-slate-700 relative p-0.5">
-          <!-- Linha dos 50% -->
-          <div class="absolute inset-y-0 left-1/2 w-0.5 bg-yellow-400 z-20 shadow-md"></div>
+        <div style="height: 14px; width: 100%; background: #000; border-radius: 9999px; overflow: hidden; display: flex; border: 1px solid #334155; position: relative; padding: 1px;">
+          <!-- Linha Amarela de Maioria 50% -->
+          <div style="position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; background: #FBBF24; z-index: 20; box-shadow: 0 0 8px #FBBF24;"></div>
           
-          <div id="bar-versus-lula" class="h-full bar-duel-red rounded-l-full transition-all duration-700" style="width: 57.66%;"></div>
-          <div id="bar-versus-bolsonaro" class="h-full bar-duel-blue rounded-r-full transition-all duration-700" style="width: 42.34%;"></div>
+          <div id="bar-versus-lula" class="bar-duel-red" style="height: 100%; width: 57.66%; border-top-left-radius: 9999px; border-bottom-left-radius: 9999px; transition: all 0.7s;"></div>
+          <div id="bar-versus-bolsonaro" class="bar-duel-blue" style="height: 100%; width: 42.34%; border-top-right-radius: 9999px; border-bottom-right-radius: 9999px; transition: all 0.7s;"></div>
         </div>
       </div>
 
-      <!-- Vantagem em Destaque -->
-      <div class="w-full bg-slate-950/80 rounded-xl py-1 px-2 border border-slate-800">
-        <span class="text-[9px] uppercase font-bold text-slate-400 block leading-tight">Diferença</span>
-        <span class="text-xs font-black text-white font-num" id="ticker-vantagem-resumo">+51.405 votos</span>
+      <!-- Diferença de Votos -->
+      <div style="width: 100%; background: rgba(0,0,0,0.6); border-radius: 10px; padding: 5px 8px; border: 1px solid #1E293B;">
+        <span style="font-size: 9px; text-transform: uppercase; font-weight: 800; color: #94A3B8; display: block; line-height: 1;">Vantagem Atual</span>
+        <span id="ticker-vantagem-resumo" class="font-num" style="font-size: 13px; font-weight: 900; color: #FFF;">+51.405 votos</span>
       </div>
 
     </div>
 
-    <!-- CARD FLÁVIO BOLSONARO (22) -->
-    <div class="col-span-5 card-bolsonaro-studio rounded-3xl p-4 lg:p-5 relative overflow-hidden flex items-center justify-between border">
-      <!-- Glow Decorativo -->
-      <div class="absolute -left-10 -top-10 w-44 h-44 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
-
-      <!-- Percentual Gigante e Votos -->
-      <div class="text-left z-10 order-2 sm:order-1">
-        <span class="text-xs uppercase font-extrabold tracking-wider text-blue-400/90 block">Votos Válidos</span>
-        <div class="text-5xl lg:text-6xl font-black text-blue-500 font-num tracking-tight glow-blue leading-none mb-1" id="pct-bolsonaro">
+    <!-- CARD FLÁVIO BOLSONARO (LADO DIREITO - SIMÉTRICO E COMPLETO) -->
+    <div class="card-bolsonaro-studio" style="border-radius: 20px; padding: 16px 22px; display: flex; align-items: center; justify-content: space-between; border-right: 5px solid #3B82F6; position: relative;">
+      
+      <!-- Lado Esquerdo do Card: Percentual Gigante e Votos -->
+      <div style="text-align: left;">
+        <span style="font-size: 11px; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px; color: #60A5FA; display: block; margin-bottom: 2px;">Votos Válidos</span>
+        <div id="pct-bolsonaro" class="font-num glow-blue" style="font-size: 54px; font-weight: 900; color: #3B82F6; line-height: 1; letter-spacing: -1px; margin-bottom: 6px;">
           42,34%
         </div>
-        <div class="bg-black/60 rounded-xl px-3 py-1 border border-blue-950/80 inline-block">
-          <span class="text-xs text-slate-400">Votos:</span>
-          <span class="text-base font-black text-white font-num ml-1" id="votos-bolsonaro">142.169</span>
+        <div style="background: rgba(0, 0, 0, 0.7); border-radius: 10px; padding: 4px 10px; border: 1px solid rgba(59, 130, 246, 0.2); display: inline-block;">
+          <span style="font-size: 11px; color: #94A3B8;">Votos:</span>
+          <span id="votos-bolsonaro" class="font-num" style="font-size: 15px; font-weight: 900; color: #FFF; margin-left: 4px;">142.169</span>
         </div>
       </div>
 
-      <!-- Foto e Nome -->
-      <div class="flex items-center gap-4 z-10 order-1 sm:order-2">
-        <div class="text-right">
-          <div class="flex items-center justify-end gap-2 mb-0.5">
-            <span id="badge-eleito-bolsonaro" class="hidden px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[10px] uppercase tracking-wider animate-pulse shadow-md shadow-emerald-600/50">
+      <!-- Lado Direito do Card: Nome, PL, Vice e Foto Oficial -->
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <div style="text-align: right;">
+          <div style="display: flex; align-items: center; justify-content: flex-end; gap: 6px; margin-bottom: 2px;">
+            <span id="badge-eleito-bolsonaro" class="hidden" style="padding: 2px 6px; border-radius: 4px; background: #059669; color: #FFF; font-weight: 900; font-size: 10px; text-transform: uppercase;">
               ✓ ELEITO
             </span>
-            <span id="badge-lider-bolsonaro" class="hidden px-2 py-0.5 rounded bg-blue-600 text-white font-black text-[10px] uppercase tracking-wider shadow-sm">
+            <span id="badge-lider-bolsonaro" class="hidden" style="padding: 2px 6px; border-radius: 4px; background: #2563EB; color: #FFF; font-weight: 900; font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px;">
               LIDERANDO
             </span>
-            <span class="px-2 py-0.5 rounded bg-blue-600/30 text-blue-400 text-xs font-black border border-blue-500/40">PL</span>
+            <span style="padding: 2px 6px; border-radius: 4px; background: rgba(37, 99, 235, 0.25); color: #60A5FA; font-weight: 900; font-size: 11px; border: 1px solid rgba(59, 130, 246, 0.4);">PL</span>
           </div>
-          <h2 class="text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">FLÁVIO BOLSONARO</h2>
-          <p class="text-xs text-slate-400">Flávio Nantes Bolsonaro</p>
-          <p class="text-[11px] text-slate-500">Vice: <strong class="text-slate-300">Alfredo Gaspar (PL)</strong></p>
+          <h2 style="font-size: 34px; font-weight: 900; color: #FFF; line-height: 1.1; margin: 0; letter-spacing: -0.5px;">FLÁVIO BOLSONARO</h2>
+          <p style="font-size: 12px; color: #94A3B8; margin: 2px 0 0 0;">Flávio Nantes Bolsonaro</p>
+          <p style="font-size: 11px; color: #64748B; margin: 2px 0 0 0;">Vice: <strong style="color: #CBD5E1;">Alfredo Gaspar (PL)</strong></p>
         </div>
 
-        <div class="relative">
-          <div class="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl overflow-hidden border-2 border-blue-500 shadow-2xl shadow-blue-950/80 bg-slate-950">
+        <div style="position: relative; flex-shrink: 0;">
+          <div style="width: 82px; height: 82px; border-radius: 16px; overflow: hidden; border: 2px solid #3B82F6; background: #000; box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);">
             <img 
               id="foto-bolsonaro" 
               src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002551544.jpeg" 
               alt="Flávio Bolsonaro" 
-              class="w-full h-full object-cover object-top"
-              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%233b82f6\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
+              style="width: 100%; height: 100%; object-fit: cover; object-position: top;"
+              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'82\' height=\'82\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%233b82f6\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
             />
           </div>
-          <span class="absolute -bottom-1.5 -left-1.5 px-2 py-0.5 rounded-lg bg-blue-600 text-white font-black text-xs shadow-lg border border-blue-300">
+          <span style="position: absolute; bottom: -6px; left: -6px; padding: 2px 7px; border-radius: 6px; background: #2563EB; color: #FFF; font-weight: 900; font-size: 11px; border: 1px solid #93C5FD;">
             22
           </span>
         </div>
       </div>
+
     </div>
 
   </div>
 
   <!-- ======================================================= -->
-  <!-- 3. PAINEL DOS 27 ESTADOS (GRADE BROADCAST COMPLETA) -->
+  <!-- 3. GRADE DOS 27 ESTADOS (3 COLUNAS DE 9 - ALINHAMENTO PERFEITO) -->
   <!-- ======================================================= -->
-  <div class="card-broadcast rounded-2xl p-3 flex-1 flex flex-col justify-between overflow-hidden border border-slate-800">
+  <div class="panel-tv rounded-2xl p-3 flex-1 flex flex-col justify-between overflow-hidden border border-slate-800">
     
     <!-- Cabeçalho do Painel de Estados -->
     <div class="flex items-center justify-between pb-1.5 border-b border-slate-800/80 shrink-0">
@@ -353,25 +351,24 @@
         </h3>
       </div>
       <div class="flex items-center gap-4 text-[10px] text-slate-400 font-bold uppercase">
-        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-red-500"></span> Lula</span>
-        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-blue-500"></span> Bolsonaro</span>
-        <span class="text-slate-500">•</span>
-        <span class="text-emerald-400">Ao Vivo do TSE</span>
+        <span class="flex items-center gap-1.5"><span style="width: 8px; height: 8px; border-radius: 50%; background: #EF4444; display: inline-block;"></span> Lula</span>
+        <span class="flex items-center gap-1.5"><span style="width: 8px; height: 8px; border-radius: 50%; background: #3B82F6; display: inline-block;"></span> Bolsonaro</span>
+        <span class="text-slate-600">•</span>
+        <span class="text-emerald-400">Dados Oficiais TSE</span>
       </div>
     </div>
 
-    <!-- GRADE DOS 27 ESTADOS EM 3 COLUNAS DE 9 (OU 4 COLUNAS) -->
-    <!-- 27 estados cabem perfeitamente em 3 colunas de 9 ou 4 colunas! -->
-    <div class="grid grid-cols-3 gap-x-3 gap-y-1 py-1.5 flex-1 items-center" id="grade-estados-container">
-      <!-- Inserido dinamicamente pelo JavaScript (27 cards) -->
+    <!-- GRADE DOS 27 ESTADOS: 3 COLUNAS DE 9 LINHAS -->
+    <div id="grade-estados-container" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px 14px; padding: 6px 0; flex: 1; align-content: space-between;">
+      <!-- Preenchido via JavaScript -->
     </div>
 
   </div>
 
   <!-- ======================================================= -->
-  <!-- 4. RODAPÉ BROADCAST COM CHYRON / TICKER DE NOTÍCIAS -->
+  <!-- 4. RODAPÉ BROADCAST COM RESUMO DE VOTOS E TICKER -->
   <!-- ======================================================= -->
-  <footer class="card-broadcast rounded-xl px-4 py-1.5 flex items-center justify-between text-xs shrink-0 mt-2 border border-slate-800">
+  <footer class="panel-tv rounded-xl px-4 py-1.5 flex items-center justify-between text-xs shrink-0 mt-2 border border-slate-800">
     
     <!-- Dados Consolidados -->
     <div class="flex items-center gap-4 text-[11px] font-bold text-slate-400">
@@ -386,7 +383,7 @@
 
     <!-- Ticker de Vantagem Oficial -->
     <div class="flex items-center gap-2 text-[11px]">
-      <span class="w-2 h-2 rounded-full bg-emerald-400 live-pulse"></span>
+      <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-live"></span>
       <span class="text-slate-400 font-bold uppercase text-[10px]">Situação:</span>
       <span class="font-black text-white" id="ticker-vantagem">
         <span class="text-red-400">LULA</span> lidera por <strong class="text-white font-num">+51.405</strong> votos (+15,32%)
@@ -398,7 +395,7 @@
   </footer>
 
   <!-- ======================================================= -->
-  <!-- SCRIPT DE DADOS EM TEMPO REAL COM O TSE -->
+  <!-- SCRIPT DE SINCRONIZAÇÃO EM TEMPO REAL -->
   <!-- ======================================================= -->
   <script>
     if (window.lucide) window.lucide.createIcons();
@@ -407,7 +404,6 @@
     const ELEICAO_ID = 'e006258';
     const CARGO_PRESIDENTE = 'c0001';
 
-    // 27 Estados distribuídos em 3 colunas de 9
     const ESTADOS = [
       { uf: 'ac', nome: 'Acre' },
       { uf: 'al', nome: 'Alagoas' },
@@ -468,7 +464,6 @@
       return isNaN(f) ? 0 : f;
     }
 
-    // Busca consolidada nacional
     async function carregarDadosNacionais() {
       if (emRequisicao) return;
       emRequisicao = true;
@@ -485,7 +480,7 @@
           processarDadosNacionais(dados);
         }
       } catch (err) {
-        console.warn('Erro na sincronização nacional:', err);
+        console.warn('Erro na sincronização:', err);
       } finally {
         emRequisicao = false;
         if (iconRefresh) iconRefresh.classList.remove('animate-spin');
@@ -528,17 +523,17 @@
       const numPctLula = extrairNumero(pctLula);
       const numPctBolsonaro = extrairNumero(pctBolsonaro);
 
-      // Placar Lula
+      // Atualiza Lula
       document.getElementById('votos-lula').textContent = formataNumero(votosLula);
       document.getElementById('pct-lula').textContent = formataPercentual(pctLula) + '%';
       document.getElementById('mini-lula').textContent = formataPercentual(pctLula) + '%';
 
-      // Placar Bolsonaro
+      // Atualiza Bolsonaro
       document.getElementById('votos-bolsonaro').textContent = formataNumero(votosBolsonaro);
       document.getElementById('pct-bolsonaro').textContent = formataPercentual(pctBolsonaro) + '%';
       document.getElementById('mini-bolsonaro').textContent = formataPercentual(pctBolsonaro) + '%';
 
-      // Barra Duelo Cabo de Guerra
+      // Barra Cabo de Guerra
       const barLula = document.getElementById('bar-versus-lula');
       const barBolsonaro = document.getElementById('bar-versus-bolsonaro');
       if (barLula && barBolsonaro) {
@@ -546,7 +541,7 @@
         barBolsonaro.style.width = Math.min(100, Math.max(0, numPctBolsonaro)) + '%';
       }
 
-      // Badges Liderando / Eleito
+      // Badges
       const badgeLiderLula = document.getElementById('badge-lider-lula');
       const badgeLiderBolsonaro = document.getElementById('badge-lider-bolsonaro');
       const badgeEleitoLula = document.getElementById('badge-eleito-lula');
@@ -565,7 +560,7 @@
         }
       }
 
-      // Ticker Diferença
+      // Vantagem
       const diffVotos = Math.abs(votosLula - votosBolsonaro);
       const diffPct = Math.abs(numPctLula - numPctBolsonaro).toFixed(2).replace('.', ',');
       
@@ -583,11 +578,11 @@
         } else if (votosBolsonaro > votosLula) {
           tickerEl.innerHTML = `<span class="text-blue-400 font-black">FLÁVIO BOLSONARO</span> lidera por <strong class="text-white font-num">+${formataNumero(diffVotos)}</strong> votos (+${diffPct}%)`;
         } else {
-          tickerEl.textContent = 'Empate técnico';
+          tickerEl.textContent = 'Empate rigoroso';
         }
       }
 
-      // Resumo Geral de Votos
+      // Estatísticas gerais
       const votosObj = dados.v || {};
       const eleitoresObj = dados.e || {};
 
@@ -602,7 +597,6 @@
       document.getElementById('stat-abstencoes-pct').textContent = formataPercentual(eleitoresObj.pa || '0,00') + '%';
     }
 
-    // Busca de todos os 27 estados
     async function carregarTodosEstados() {
       const requisicoes = ESTADOS.map(async (est) => {
         try {
@@ -626,7 +620,6 @@
       renderizarGradeEstados();
     }
 
-    // Renderiza os 27 cards compactos e elegantes
     function renderizarGradeEstados() {
       const container = document.getElementById('grade-estados-container');
       if (!container) return;
@@ -659,40 +652,40 @@
         const nPctBolsonaro = extrairNumero(pctBolsonaro);
         const nPctApurado = extrairNumero(pctApurado);
 
-        let badgeLiderCor = 'bg-slate-800 text-slate-300';
+        let badgeStyle = 'background: #1E293B; color: #94A3B8;';
         if (nPctApurado > 0) {
-          if (nPctLula > nPctBolsonaro) badgeLiderCor = 'bg-red-600 text-white font-black shadow-sm';
-          else if (nPctBolsonaro > nPctLula) badgeLiderCor = 'bg-blue-600 text-white font-black shadow-sm';
+          if (nPctLula > nPctBolsonaro) badgeStyle = 'background: #DC2626; color: #FFF; font-weight: 900;';
+          else if (nPctBolsonaro > nPctLula) badgeStyle = 'background: #2563EB; color: #FFF; font-weight: 900;';
         }
 
         return `
-          <div class="state-pill rounded-lg px-2 py-1 flex items-center justify-between text-[11px]">
+          <div class="state-pill" style="border-radius: 8px; padding: 5px 10px; display: flex; align-items: center; justify-content: space-between; font-size: 11px;">
             <!-- UF e Nome -->
-            <div class="flex items-center gap-1.5 min-w-[70px]">
-              <span class="w-5 h-4.5 rounded text-[10px] flex items-center justify-center ${badgeLiderCor}">
+            <div style="display: flex; align-items: center; gap: 6px; min-width: 75px;">
+              <span style="width: 22px; height: 18px; border-radius: 4px; font-size: 10px; display: flex; align-items: center; justify-content: center; ${badgeStyle}">
                 ${est.uf.toUpperCase()}
               </span>
-              <span class="text-[9px] text-slate-400 font-medium truncate max-w-[50px] hidden xl:inline">
+              <span style="font-size: 10px; color: #94A3B8; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 60px;">
                 ${est.nome}
               </span>
             </div>
 
             <!-- Apurado -->
-            <span class="text-[10px] text-slate-500 font-num min-w-[32px] text-right">
+            <span class="font-num" style="font-size: 10px; color: #64748B; min-width: 36px; text-align: right;">
               ${formataPercentual(pctApurado)}%
             </span>
 
             <!-- Barra Proporcional Dupla -->
-            <div class="h-2 w-14 lg:w-20 bg-black rounded-full overflow-hidden flex mx-1.5 border border-slate-800 p-0.2">
-              <div class="h-full bg-red-600" style="width: ${nPctLula}%;"></div>
-              <div class="h-full bg-blue-600" style="width: ${nPctBolsonaro}%;"></div>
+            <div style="height: 6px; width: 65px; background: #000; border-radius: 9999px; overflow: hidden; display: flex; margin: 0 6px; border: 1px solid #1E293B;">
+              <div style="height: 100%; width: ${nPctLula}%; background: #EF4444;"></div>
+              <div style="height: 100%; width: ${nPctBolsonaro}%; background: #3B82F6;"></div>
             </div>
 
             <!-- Percentuais dos dois -->
-            <div class="flex items-center gap-1.5 text-[10px] font-num font-bold min-w-[75px] justify-end">
-              <span class="text-red-400">${formataPercentual(pctLula)}%</span>
-              <span class="text-slate-600 font-normal">x</span>
-              <span class="text-blue-400">${formataPercentual(pctBolsonaro)}%</span>
+            <div class="font-num" style="display: flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 800; min-width: 80px; justify-content: flex-end;">
+              <span style="color: #F87171;">${formataPercentual(pctLula)}%</span>
+              <span style="color: #475569; font-weight: 400;">x</span>
+              <span style="color: #60A5FA;">${formataPercentual(pctBolsonaro)}%</span>
             </div>
           </div>
         `;
@@ -701,7 +694,6 @@
       container.innerHTML = cardsHtml;
     }
 
-    // Loop de 5 segundos
     function iniciarCicloAtualizacao() {
       tempoRestante = 5;
       if (timerContador) clearInterval(timerContador);
@@ -727,7 +719,6 @@
       executarCiclo();
     }
 
-    // Inicialização Imediata
     executarCiclo();
     iniciarCicloAtualizacao();
 
