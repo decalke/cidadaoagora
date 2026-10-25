@@ -659,33 +659,37 @@
         }
 
         return `
-          <div class="state-pill" style="border-radius: 8px; padding: 5px 10px; display: flex; align-items: center; justify-content: space-between; font-size: 11px;">
-            <!-- UF e Nome -->
-            <div style="display: flex; align-items: center; gap: 6px; min-width: 75px;">
-              <span style="width: 22px; height: 18px; border-radius: 4px; font-size: 10px; display: flex; align-items: center; justify-content: center; ${badgeStyle}">
-                ${est.uf.toUpperCase()}
-              </span>
-              <span style="font-size: 10px; color: #94A3B8; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 60px;">
-                ${est.nome}
+          <div class="state-pill" style="border-radius: 10px; padding: 7px 12px; display: flex; flex-direction: column; justify-content: space-between; height: 50px; min-height: 50px;">
+            <!-- Linha 1: UF, Nome e Apuração -->
+            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+              <div style="display: flex; align-items: center; gap: 7px;">
+                <span style="width: 25px; height: 18px; border-radius: 4px; font-size: 11px; display: flex; align-items: center; justify-content: center; font-weight: 900; ${badgeStyle}">
+                  ${est.uf.toUpperCase()}
+                </span>
+                <span style="font-size: 11px; color: #CBD5E1; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px;">
+                  ${est.nome}
+                </span>
+              </div>
+              <span class="font-num" style="font-size: 11px; color: #94A3B8; font-weight: 700;">
+                <span style="color: #64748B; font-size: 10px; font-weight: 500;">apurado:</span> ${formataPercentual(pctApurado)}%
               </span>
             </div>
 
-            <!-- Apurado -->
-            <span class="font-num" style="font-size: 10px; color: #64748B; min-width: 36px; text-align: right;">
-              ${formataPercentual(pctApurado)}%
-            </span>
+            <!-- Linha 2: Percentuais e Barra Proporcional Larga -->
+            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 8px;">
+              <span class="font-num" style="color: #F87171; font-size: 12px; font-weight: 900; min-width: 44px;">
+                ${formataPercentual(pctLula)}%
+              </span>
 
-            <!-- Barra Proporcional Dupla -->
-            <div style="height: 6px; width: 65px; background: #000; border-radius: 9999px; overflow: hidden; display: flex; margin: 0 6px; border: 1px solid #1E293B;">
-              <div style="height: 100%; width: ${nPctLula}%; background: #EF4444;"></div>
-              <div style="height: 100%; width: ${nPctBolsonaro}%; background: #3B82F6;"></div>
-            </div>
+              <!-- Barra Proporcional Dupla de 7px de altura -->
+              <div style="height: 7px; flex: 1; background: #000; border-radius: 9999px; overflow: hidden; display: flex; border: 1px solid #1E293B;">
+                <div style="height: 100%; width: ${nPctLula}%; background: linear-gradient(90deg, #B91C1C, #EF4444);"></div>
+                <div style="height: 100%; width: ${nPctBolsonaro}%; background: linear-gradient(90deg, #3B82F6, #1D4ED8);"></div>
+              </div>
 
-            <!-- Percentuais dos dois -->
-            <div class="font-num" style="display: flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 800; min-width: 80px; justify-content: flex-end;">
-              <span style="color: #F87171;">${formataPercentual(pctLula)}%</span>
-              <span style="color: #475569; font-weight: 400;">x</span>
-              <span style="color: #60A5FA;">${formataPercentual(pctBolsonaro)}%</span>
+              <span class="font-num" style="color: #60A5FA; font-size: 12px; font-weight: 900; min-width: 44px; text-align: right;">
+                ${formataPercentual(pctBolsonaro)}%
+              </span>
             </div>
           </div>
         `;
