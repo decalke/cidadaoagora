@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="dark">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
@@ -12,611 +12,877 @@
   <!-- Google AdSense Oficial -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
   <script defer src="js/ads-safe.js"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Favicon Oficial Cidadão Agora -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#0F1B35">
-  <link rel="canonical" href="https://cidadaoagora.com.br/">
-  <title>Eleições 2026 – Apuração Presidente ao Vivo | Cidadão Agora</title>
-  <meta name="description" content="Acompanhe em tempo real a apuração do 2º turno das Eleições 2026 para Presidente da República. Dados oficiais do TSE atualizados automaticamente.">
+  <meta name="theme-color" content="#030712">
 
-  <!-- Design System & Tokens Globais -->
-  <link rel="stylesheet" href="css/design-system.css">
+  <title>Apuração Presidente ao Vivo – Eleições 2026 | Cidadão Agora</title>
+  <meta name="description" content="Acompanhe em tempo real a apuração do 2º turno das Eleições 2026 para Presidente da República entre Lula e Flávio Bolsonaro. Dados oficiais do TSE com atualização a cada 5 segundos.">
+  <link rel="canonical" href="https://cidadaoagora.com.br/">
+
   <!-- Tailwind CSS -->
   <link rel="stylesheet" href="css/tailwind.min.css">
   <!-- Lucide Icons -->
   <script src="js/lucide.min.js"></script>
 
   <style>
-    /* Animações */
-    @keyframes pulse-slow { 0%, 100% { opacity: 1; } 50% { opacity: .6; } }
-    @keyframes count-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes slide-in { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes bar-grow { from { width: 0; } }
-    .animate-pulse-slow { animation: pulse-slow 2s ease-in-out infinite; }
-    .animate-count { animation: count-up .4s ease-out; }
-    .animate-slide { animation: slide-in .5s ease-out both; }
-    .animate-bar { animation: bar-grow .8s ease-out both; }
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap');
 
-    /* Barra de progresso */
-    .bar-lula { background: linear-gradient(90deg, #DC2626, #EF4444); }
-    .bar-bolsonaro { background: linear-gradient(90deg, #1D4ED8, #3B82F6); }
-
-    /* Card de candidato */
-    .card-candidato {
-      backdrop-filter: blur(12px);
-      transition: transform .2s, box-shadow .2s;
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background-color: #030712;
+      color: #F3F4F6;
     }
-    .card-candidato:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,.15); }
 
-    /* Tabela de estados */
-    .state-row { transition: background .15s; }
-    .state-row:hover { background: rgba(37, 99, 235, .06); }
-
-    /* Skeleton loading */
-    .skeleton {
-      background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%);
-      background-size: 200% 100%;
-      animation: shimmer 1.5s infinite;
-      border-radius: 6px;
-    }
-    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
-
-    /* Número de votos grande */
-    .vote-number {
+    .font-mono-num {
+      font-family: 'JetBrains Mono', monospace;
       font-variant-numeric: tabular-nums;
-      letter-spacing: -0.02em;
     }
 
-    /* Responsividade dos cards */
-    @media (max-width: 640px) {
-      .candidates-grid { flex-direction: column !important; }
-      .vote-number { font-size: 1.5rem !important; }
+    /* Glows e Efeitos de Fundo */
+    .radial-bg {
+      background: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.12) 0%, rgba(3, 7, 18, 0) 70%),
+                  radial-gradient(circle at 10% 20%, rgba(220, 38, 38, 0.08) 0%, rgba(3, 7, 18, 0) 50%),
+                  radial-gradient(circle at 90% 20%, rgba(37, 99, 235, 0.08) 0%, rgba(3, 7, 18, 0) 50%);
+    }
+
+    .glass-panel {
+      background: rgba(17, 24, 39, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-card {
+      background: linear-gradient(135deg, rgba(31, 41, 55, 0.7) 0%, rgba(17, 24, 39, 0.85) 100%);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card-lula {
+      position: relative;
+    }
+    .card-lula::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 1.5rem;
+      padding: 1px;
+      background: linear-gradient(180deg, rgba(239, 68, 68, 0.4) 0%, rgba(239, 68, 68, 0.05) 50%, transparent 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    .card-bolsonaro {
+      position: relative;
+    }
+    .card-bolsonaro::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 1.5rem;
+      padding: 1px;
+      background: linear-gradient(180deg, rgba(59, 130, 246, 0.4) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 100%);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+
+    /* Pulse ao Vivo */
+    @keyframes live-ping {
+      0% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.6); opacity: 0; }
+      100% { transform: scale(1); opacity: 0; }
+    }
+    .live-dot {
+      animation: live-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    /* Barra Dinâmica */
+    .bar-lula {
+      background: linear-gradient(90deg, #DC2626 0%, #EF4444 100%);
+      box-shadow: 0 0 20px rgba(239, 68, 68, 0.35);
+    }
+    .bar-bolsonaro {
+      background: linear-gradient(90deg, #2563EB 0%, #3B82F6 100%);
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.35);
+    }
+
+    /* Scrollbar personalizada */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(15, 23, 42, 0.6);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(51, 65, 85, 0.8);
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(71, 85, 105, 1);
     }
   </style>
 </head>
-<body class="bg-[#0A0F1C] text-white min-h-screen flex flex-col antialiased">
+<body class="min-h-screen flex flex-col radial-bg antialiased selection:bg-blue-600 selection:text-white">
 
-  <!-- BARRA DE AVISO INSTITUCIONAL -->
-  <div class="bg-[#060A14] text-slate-400 text-xs py-2 px-4 border-b border-slate-800/50">
-    <div class="max-w-7xl mx-auto flex items-center justify-between gap-2">
-      <div class="flex items-center space-x-2">
-        <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-        <span class="font-bold text-red-400 uppercase tracking-wider text-[10px]">AO VIVO</span>
-        <span class="text-slate-500">•</span>
-        <span class="font-medium text-slate-300">Eleições 2026 — 2º Turno Presidente</span>
+  <!-- TOP BAR BROADCAST -->
+  <header class="sticky top-0 z-50 glass-panel border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      
+      <!-- Marca e Tag Eleições -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <a href="/" class="flex items-center gap-2.5 group">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 to-blue-500 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-blue-600/30 group-hover:scale-105 transition-transform">
+            CA
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="font-black text-lg tracking-tight text-white">Cidadão<span class="text-blue-500">Agora</span></span>
+              <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-blue-500/20 text-blue-400 border border-blue-500/30 uppercase tracking-wide">Eleições 2026</span>
+            </div>
+            <p class="text-[10px] text-slate-400 font-medium hidden sm:block">Totalização Oficial em Tempo Real</p>
+          </div>
+        </a>
       </div>
-      <div class="hidden sm:flex items-center space-x-3 text-[11px]">
-        <a href="/noticias/" class="hover:text-white transition-colors">Notícias</a>
-        <span class="text-slate-700">•</span>
-        <a href="/conteudo/politica" class="hover:text-white transition-colors">Política</a>
-      </div>
-    </div>
-  </div>
 
-  <!-- CABEÇALHO -->
-  <header class="bg-[#0F1526] border-b border-slate-800/50 sticky top-0 z-40">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center space-x-3" aria-label="Cidadão Agora">
-        <div class="w-10 h-10 rounded-xl bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-blue-500/20">
-          CA
+      <!-- Live Badge e Atualizador -->
+      <div class="flex items-center gap-2 sm:gap-4">
+        
+        <!-- Badge Ao Vivo -->
+        <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-950/60 border border-red-800/60 shadow-inner">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="live-dot absolute inline-flex h-full w-full rounded-full bg-red-500"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-600"></span>
+          </span>
+          <span class="text-[11px] font-black tracking-wider text-red-300 uppercase">AO VIVO</span>
         </div>
-        <div>
-          <span class="text-xl font-black tracking-tight text-white">Cidadão<span class="text-[#2563EB]">Agora</span></span>
-          <span class="text-[11px] block text-slate-400 font-medium -mt-0.5">Apuração Eleições 2026</span>
-        </div>
-      </a>
-      <div class="flex items-center gap-3">
-        <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/50 border border-slate-700/50 text-xs">
-          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span class="text-slate-300">Dados: <strong class="text-white">TSE Oficial</strong></span>
-        </div>
-        <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-500/10 border border-red-500/30 text-xs">
-          <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-          <span class="text-red-300 font-bold" id="status-atualizacao">Aguardando apuração</span>
-        </div>
+
+        <!-- Indicador de 5 Segundos / Recarga -->
+        <button id="btn-recarregar" onclick="forcarAtualizacao()" class="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/60 text-xs text-slate-300 hover:text-white transition group cursor-pointer" title="Clique para sincronizar imediatamente com o TSE">
+          <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5 text-blue-400 group-hover:rotate-180 transition-transform duration-500"></i>
+          <span class="hidden sm:inline font-mono-num text-[11px]" id="timer-txt">5s</span>
+        </button>
+
+        <!-- Botão Voltar para Ferramentas -->
+        <a href="/index-original-backup" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-blue-600/10 hover:bg-blue-600/20 border border-blue-500/30 text-xs font-semibold text-blue-300 hover:text-blue-200 transition">
+          <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
+          <span>Serviços do Portal</span>
+        </a>
       </div>
     </div>
   </header>
 
-  <main class="flex-1">
-    <!-- HERO: TÍTULO E TIMER -->
-    <section class="relative overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-b from-blue-600/5 via-transparent to-transparent pointer-events-none"></div>
-      <div class="max-w-7xl mx-auto px-4 pt-6 pb-4 relative z-10">
-        <div class="text-center space-y-3">
-          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold">
-            <i data-lucide="vote" class="w-4 h-4"></i>
-            2º TURNO — 25 DE OUTUBRO DE 2026
-          </div>
-          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight">
-            Apuração <span class="text-[#2563EB]">Presidente</span> da República
-          </h1>
-          <p class="text-slate-400 text-sm max-w-xl mx-auto">
-            Resultados oficiais em tempo real do Tribunal Superior Eleitoral (TSE). Atualização automática a cada 5 segundos.
-          </p>
-        </div>
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-8 space-y-6 sm:space-y-8">
 
-        <!-- BARRA DE PROGRESSO DAS SEÇÕES -->
-        <div class="mt-6 max-w-3xl mx-auto">
-          <div class="flex items-center justify-between text-xs mb-2">
-            <span class="text-slate-400">Seções apuradas</span>
-            <span class="font-bold text-white" id="secoes-pct">0,00%</span>
-          </div>
-          <div class="h-2.5 bg-slate-800 rounded-full overflow-hidden">
-            <div id="secoes-bar" class="h-full bg-gradient-to-r from-emerald-500 to-emerald-400 rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
-          </div>
-          <div class="flex items-center justify-between text-[11px] text-slate-500 mt-1">
-            <span><span id="secoes-apuradas">0</span> de <span id="secoes-total">499.248</span> seções</span>
-            <span>Última atualização: <span id="ultima-atualizacao" class="text-slate-300">--:--:--</span></span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- HERO: STATUS DA APURAÇÃO & SEÇÕES APURADAS -->
+    <div class="glass-panel rounded-3xl p-5 sm:p-7 relative overflow-hidden border border-slate-800/90 shadow-2xl">
+      <div class="absolute -right-20 -top-20 w-80 h-80 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-red-600/10 rounded-full blur-3xl pointer-events-none"></div>
 
-    <!-- CARDS DOS CANDIDATOS -->
-    <section class="max-w-7xl mx-auto px-4 pb-6">
-      <div class="candidates-grid flex flex-col sm:flex-row gap-4 sm:gap-6">
-
-        <!-- CANDIDATO 1: LULA -->
-        <div class="card-candidato flex-1 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl border border-slate-700/50 p-5 sm:p-6 relative overflow-hidden">
-          <div class="absolute top-0 left-0 w-full h-1 bar-lula"></div>
-          <div class="flex items-start gap-4 mb-4">
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-red-600/20 border-2 border-red-500/40 flex items-center justify-center text-3xl sm:text-4xl font-black text-red-400 shrink-0">
-              13
+      <div class="relative z-10 space-y-5">
+        
+        <!-- Cabeçalho do Placar -->
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800/80 pb-4">
+          <div>
+            <div class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-1">
+              <span class="inline-flex items-center gap-1 text-emerald-400">
+                <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+                Dados Oficiais TSE
+              </span>
+              <span>•</span>
+              <span id="hora-extenso">2º Turno Presidencial</span>
             </div>
-            <div class="flex-1 min-w-0">
-              <h2 class="text-xl sm:text-2xl font-black text-white truncate">LULA</h2>
-              <p class="text-sm text-slate-400 truncate">Luiz Inácio Lula da Silva</p>
-              <div class="flex items-center gap-2 mt-1">
-                <span class="inline-block px-2 py-0.5 rounded bg-red-500/20 text-red-300 text-[10px] font-bold">PT</span>
-                <span class="text-[10px] text-slate-500 truncate">PSB / PDT / PCdoB / PV / PSOL / REDE</span>
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
+              Apuração para Presidente da República
+            </h1>
+          </div>
+
+          <div class="flex items-center gap-3 self-start sm:self-auto">
+            <div class="text-right">
+              <span class="text-[10px] uppercase tracking-wider text-slate-400 block font-semibold">Status do Pleito</span>
+              <span id="status-texto" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                Aguardando Apuração (17h)
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grande Barra de Progresso de Totalização das Urnas -->
+        <div class="space-y-2">
+          <div class="flex items-baseline justify-between">
+            <div class="flex items-baseline gap-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Seções Totalizadas</span>
+              <span class="text-[11px] text-slate-400 font-mono-num">(<span id="secoes-apuradas-num">0</span> de <span id="secoes-total-num">499.248</span>)</span>
+            </div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-2xl sm:text-3xl font-black text-emerald-400 font-mono-num" id="secoes-pct-num">0,00%</span>
+            </div>
+          </div>
+
+          <!-- Barra Visual de Urnas -->
+          <div class="h-3 sm:h-3.5 w-full bg-slate-950/80 rounded-full p-0.5 border border-slate-800 shadow-inner overflow-hidden">
+            <div id="barra-secoes" class="h-full bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-400 rounded-full transition-all duration-700 ease-out shadow-lg shadow-emerald-500/20" style="width: 0%;"></div>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-slate-400 pt-1">
+            <span>Última leitura do TSE: <strong id="timestamp-leitura" class="text-slate-300 font-mono-num">Sincronizando...</strong></span>
+            <span class="text-slate-400">Eleitorado Apto: <strong class="text-slate-300 font-mono-num">158.745.502</strong></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PLACAR PRINCIPAL: LULA VS FLÁVIO BOLSONARO -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6">
+
+      <!-- CARD 1: LULA (13) -->
+      <div class="glass-card card-lula rounded-3xl p-5 sm:p-7 relative overflow-hidden flex flex-col justify-between shadow-2xl">
+        
+        <!-- Fundo Iluminado Sutil -->
+        <div class="absolute -right-16 -top-16 w-56 h-56 bg-red-600/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div>
+          <!-- Header do Candidato: Foto, Número, Nomes -->
+          <div class="flex items-center gap-4 sm:gap-5 mb-6">
+            
+            <!-- Foto Oficial do Candidato com Borda e Badge do Número -->
+            <div class="relative shrink-0">
+              <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-red-500/60 shadow-xl shadow-red-950/40 bg-slate-900">
+                <img 
+                  id="foto-lula" 
+                  src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002542548.jpeg" 
+                  alt="Foto de Luiz Inácio Lula da Silva" 
+                  class="w-full h-full object-cover object-top"
+                  onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23ef4444\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\'/><circle cx=\'12\' cy=\'7\' r=\'4\'/></svg>';"
+                />
               </div>
-              <p class="text-[11px] text-slate-500 mt-0.5">Vice: <span class="text-slate-400">Geraldo Alckmin (PSB)</span></p>
-            </div>
-          </div>
-          <div class="space-y-3">
-            <div>
-              <div class="flex items-end justify-between">
-                <span class="vote-number text-3xl sm:text-4xl font-black text-white" id="votos-lula">0</span>
-                <span class="text-2xl sm:text-3xl font-black text-red-400" id="pct-lula">0,00%</span>
+              <div class="absolute -bottom-2 -right-2 px-2 py-0.5 rounded-lg bg-red-600 text-white font-black text-xs sm:text-sm shadow-md border border-red-400">
+                13
               </div>
-              <p class="text-xs text-slate-500 mt-0.5">votos válidos</p>
             </div>
-            <div class="h-3 bg-slate-800 rounded-full overflow-hidden">
-              <div id="bar-lula" class="h-full bar-lula rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
-            </div>
-          </div>
-        </div>
 
-        <!-- VS CENTRAL -->
-        <div class="hidden sm:flex items-center justify-center">
-          <div class="w-14 h-14 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-lg font-black text-slate-400">
-            VS
-          </div>
-        </div>
-
-        <!-- CANDIDATO 2: FLÁVIO BOLSONARO -->
-        <div class="card-candidato flex-1 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl border border-slate-700/50 p-5 sm:p-6 relative overflow-hidden">
-          <div class="absolute top-0 left-0 w-full h-1 bar-bolsonaro"></div>
-          <div class="flex items-start gap-4 mb-4">
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-blue-600/20 border-2 border-blue-500/40 flex items-center justify-center text-3xl sm:text-4xl font-black text-blue-400 shrink-0">
-              22
-            </div>
-            <div class="flex-1 min-w-0">
-              <h2 class="text-xl sm:text-2xl font-black text-white truncate">FLÁVIO BOLSONARO</h2>
-              <p class="text-sm text-slate-400 truncate">Flávio Nantes Bolsonaro</p>
-              <div class="flex items-center gap-2 mt-1">
-                <span class="inline-block px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 text-[10px] font-bold">PL</span>
-                <span class="text-[10px] text-slate-500">Partido Liberal</span>
+            <!-- Dados Nominais -->
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="px-2 py-0.5 rounded-md bg-red-500/20 text-red-400 text-xs font-black uppercase tracking-wider border border-red-500/30">PT</span>
+                <span id="badge-eleito-lula" class="hidden px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 text-xs font-black uppercase tracking-wider border border-emerald-500/40 animate-pulse">
+                  ✓ ELEITO
+                </span>
+                <span id="badge-lider-lula" class="hidden px-2 py-0.5 rounded-md bg-red-600/30 text-red-300 text-[10px] font-bold uppercase tracking-wider">
+                  Liderando
+                </span>
               </div>
-              <p class="text-[11px] text-slate-500 mt-0.5">Vice: <span class="text-slate-400">Alfredo Gaspar (PL)</span></p>
+              <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight truncate">LULA</h2>
+              <p class="text-xs text-slate-400 truncate">Luiz Inácio Lula da Silva</p>
+              <p class="text-[11px] text-slate-400 mt-1">Vice: <span class="text-slate-300 font-medium">Geraldo Alckmin (PSB)</span></p>
             </div>
           </div>
-          <div class="space-y-3">
-            <div>
-              <div class="flex items-end justify-between">
-                <span class="vote-number text-3xl sm:text-4xl font-black text-white" id="votos-bolsonaro">0</span>
-                <span class="text-2xl sm:text-3xl font-black text-blue-400" id="pct-bolsonaro">0,00%</span>
+
+          <!-- Grande Percentual de Votos e Quantitativo -->
+          <div class="bg-slate-950/60 rounded-2xl p-4 sm:p-5 border border-slate-800/80 mb-5">
+            <div class="flex items-baseline justify-between mb-2">
+              <span class="text-xs uppercase tracking-wider text-slate-400 font-bold">Votos Válidos</span>
+              <span class="text-3xl sm:text-4xl md:text-5xl font-black text-red-500 font-mono-num tracking-tight" id="pct-lula">0,00%</span>
+            </div>
+
+            <!-- Barra Individual -->
+            <div class="h-3 w-full bg-slate-900 rounded-full overflow-hidden p-0.5 border border-slate-800/80">
+              <div id="barra-lula" class="h-full bar-lula rounded-full transition-all duration-700 ease-out" style="width: 0%;"></div>
+            </div>
+
+            <div class="flex items-center justify-between text-xs text-slate-400 mt-3 pt-2 border-t border-slate-800/50">
+              <span>Total de votos apurados:</span>
+              <span class="text-sm font-bold text-white font-mono-num" id="votos-lula">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rodapé do Card -->
+        <div class="text-[11px] text-slate-400 flex items-center justify-between">
+          <span>Coligação Brasil Pronto Pra Mais</span>
+          <span>PT / PSB / PDT / PCdoB / PV / PSOL / REDE</span>
+        </div>
+      </div>
+
+      <!-- CARD 2: FLÁVIO BOLSONARO (22) -->
+      <div class="glass-card card-bolsonaro rounded-3xl p-5 sm:p-7 relative overflow-hidden flex flex-col justify-between shadow-2xl">
+        
+        <!-- Fundo Iluminado Sutil -->
+        <div class="absolute -right-16 -top-16 w-56 h-56 bg-blue-600/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div>
+          <!-- Header do Candidato: Foto, Número, Nomes -->
+          <div class="flex items-center gap-4 sm:gap-5 mb-6">
+            
+            <!-- Foto Oficial do Candidato com Borda e Badge do Número -->
+            <div class="relative shrink-0">
+              <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-blue-500/60 shadow-xl shadow-blue-950/40 bg-slate-900">
+                <img 
+                  id="foto-bolsonaro" 
+                  src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002551544.jpeg" 
+                  alt="Foto de Flávio Nantes Bolsonaro" 
+                  class="w-full h-full object-cover object-top"
+                  onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%233b82f6\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\'/><circle cx=\'12\' cy=\'7\' r=\'4\'/></svg>';"
+                />
               </div>
-              <p class="text-xs text-slate-500 mt-0.5">votos válidos</p>
+              <div class="absolute -bottom-2 -right-2 px-2 py-0.5 rounded-lg bg-blue-600 text-white font-black text-xs sm:text-sm shadow-md border border-blue-400">
+                22
+              </div>
             </div>
-            <div class="h-3 bg-slate-800 rounded-full overflow-hidden">
-              <div id="bar-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-700 ease-out" style="width: 0%"></div>
+
+            <!-- Dados Nominais -->
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="px-2 py-0.5 rounded-md bg-blue-500/20 text-blue-400 text-xs font-black uppercase tracking-wider border border-blue-500/30">PL</span>
+                <span id="badge-eleito-bolsonaro" class="hidden px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 text-xs font-black uppercase tracking-wider border border-emerald-500/40 animate-pulse">
+                  ✓ ELEITO
+                </span>
+                <span id="badge-lider-bolsonaro" class="hidden px-2 py-0.5 rounded-md bg-blue-600/30 text-blue-300 text-[10px] font-bold uppercase tracking-wider">
+                  Liderando
+                </span>
+              </div>
+              <h2 class="text-2xl sm:text-3xl font-black text-white tracking-tight truncate">FLÁVIO BOLSONARO</h2>
+              <p class="text-xs text-slate-400 truncate">Flávio Nantes Bolsonaro</p>
+              <p class="text-[11px] text-slate-400 mt-1">Vice: <span class="text-slate-300 font-medium">Alfredo Gaspar (PL)</span></p>
             </div>
+          </div>
+
+          <!-- Grande Percentual de Votos e Quantitativo -->
+          <div class="bg-slate-950/60 rounded-2xl p-4 sm:p-5 border border-slate-800/80 mb-5">
+            <div class="flex items-baseline justify-between mb-2">
+              <span class="text-xs uppercase tracking-wider text-slate-400 font-bold">Votos Válidos</span>
+              <span class="text-3xl sm:text-4xl md:text-5xl font-black text-blue-500 font-mono-num tracking-tight" id="pct-bolsonaro">0,00%</span>
+            </div>
+
+            <!-- Barra Individual -->
+            <div class="h-3 w-full bg-slate-900 rounded-full overflow-hidden p-0.5 border border-slate-800/80">
+              <div id="barra-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-700 ease-out" style="width: 0%;"></div>
+            </div>
+
+            <div class="flex items-center justify-between text-xs text-slate-400 mt-3 pt-2 border-t border-slate-800/50">
+              <span>Total de votos apurados:</span>
+              <span class="text-sm font-bold text-white font-mono-num" id="votos-bolsonaro">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rodapé do Card -->
+        <div class="text-[11px] text-slate-400 flex items-center justify-between">
+          <span>Partido Liberal</span>
+          <span>Candidatura Própria (PL)</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CARDS DE ESTATÍSTICAS RESUMO GERAL -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+      
+      <div class="glass-card rounded-2xl p-4 border border-slate-800/80">
+        <div class="flex items-center gap-2 text-slate-400 text-xs font-semibold mb-1">
+          <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
+          <span>Votos Válidos</span>
+        </div>
+        <p class="text-lg sm:text-xl font-black text-white font-mono-num" id="stat-validos">0</p>
+        <p class="text-[10px] text-slate-400 mt-0.5" id="stat-validos-pct">0,00% do total</p>
+      </div>
+
+      <div class="glass-card rounded-2xl p-4 border border-slate-800/80">
+        <div class="flex items-center gap-2 text-slate-400 text-xs font-semibold mb-1">
+          <i data-lucide="minus-circle" class="w-4 h-4 text-slate-400"></i>
+          <span>Votos em Branco</span>
+        </div>
+        <p class="text-lg sm:text-xl font-black text-white font-mono-num" id="stat-brancos">0</p>
+        <p class="text-[10px] text-slate-400 mt-0.5" id="stat-brancos-pct">0,00% do total</p>
+      </div>
+
+      <div class="glass-card rounded-2xl p-4 border border-slate-800/80">
+        <div class="flex items-center gap-2 text-slate-400 text-xs font-semibold mb-1">
+          <i data-lucide="x-circle" class="w-4 h-4 text-amber-400"></i>
+          <span>Votos Nulos</span>
+        </div>
+        <p class="text-lg sm:text-xl font-black text-white font-mono-num" id="stat-nulos">0</p>
+        <p class="text-[10px] text-slate-400 mt-0.5" id="stat-nulos-pct">0,00% do total</p>
+      </div>
+
+      <div class="glass-card rounded-2xl p-4 border border-slate-800/80">
+        <div class="flex items-center gap-2 text-slate-400 text-xs font-semibold mb-1">
+          <i data-lucide="user-x" class="w-4 h-4 text-purple-400"></i>
+          <span>Abstenções</span>
+        </div>
+        <p class="text-lg sm:text-xl font-black text-white font-mono-num" id="stat-abstencoes">0</p>
+        <p class="text-[10px] text-slate-400 mt-0.5" id="stat-abstencoes-pct">0,00% dos eleitores</p>
+      </div>
+
+    </div>
+
+    <!-- SEÇÃO: RESULTADOS POR ESTADO (27 UFs) -->
+    <div class="glass-panel rounded-3xl p-5 sm:p-7 border border-slate-800/90 shadow-2xl space-y-5">
+      
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800/80 pb-4">
+        <div>
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
+              <i data-lucide="map-pin" class="w-4 h-4"></i>
+            </div>
+            <h2 class="text-lg sm:text-xl font-black text-white tracking-tight">Resultado por Estado & Distrito Federal</h2>
+          </div>
+          <p class="text-xs text-slate-400 mt-1">Acompanhe o desempenho de cada candidato nas 27 unidades da federação</p>
+        </div>
+
+        <!-- Campo de Filtro e Busca Rápida de UF -->
+        <div class="flex items-center gap-2">
+          <div class="relative">
+            <input 
+              type="text" 
+              id="busca-uf" 
+              placeholder="Buscar UF (ex: SP, MG, BA)..." 
+              oninput="filtrarEstados()"
+              class="w-44 sm:w-56 px-3 py-1.5 pl-8 rounded-xl bg-slate-900/90 border border-slate-700 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-blue-500"
+            />
+            <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5"></i>
           </div>
         </div>
       </div>
 
-      <!-- RESUMO GERAL -->
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
-        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
-          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Votos Válidos</p>
-          <p class="text-lg font-black text-white mt-1 vote-number" id="total-validos">0</p>
-        </div>
-        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
-          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Brancos</p>
-          <p class="text-lg font-black text-white mt-1 vote-number" id="total-brancos">0</p>
-        </div>
-        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
-          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Nulos</p>
-          <p class="text-lg font-black text-white mt-1 vote-number" id="total-nulos">0</p>
-        </div>
-        <div class="bg-slate-800/50 rounded-xl border border-slate-700/50 p-3 text-center">
-          <p class="text-[10px] text-slate-500 uppercase tracking-wider font-bold">Abstenções</p>
-          <p class="text-lg font-black text-white mt-1 vote-number" id="total-abstencoes">0</p>
-        </div>
+      <!-- Tabela Responsiva de Estados -->
+      <div class="overflow-x-auto rounded-2xl border border-slate-800/80 bg-slate-950/40">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-slate-900/60">
+              <th class="py-3 px-4">Estado</th>
+              <th class="py-3 px-3">Apurado</th>
+              <th class="py-3 px-3 min-w-[160px]">Lula (PT)</th>
+              <th class="py-3 px-3 min-w-[160px]">Flávio Bolsonaro (PL)</th>
+              <th class="py-3 px-3 text-right">Liderança</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-estados-corpo" class="divide-y divide-slate-800/40">
+            <!-- Linhas inseridas pelo JavaScript -->
+            <tr>
+              <td colspan="5" class="py-8 text-center text-slate-400">
+                <i data-lucide="loader" class="w-6 h-6 animate-spin mx-auto text-blue-500 mb-2"></i>
+                <span>Carregando dados das 27 UFs via TSE...</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
 
-    <!-- TABELA POR ESTADO -->
-    <section class="max-w-7xl mx-auto px-4 pb-8">
-      <div class="bg-slate-800/30 rounded-2xl border border-slate-700/50 overflow-hidden">
-        <div class="p-4 sm:p-5 border-b border-slate-700/50 flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <div class="w-8 h-8 rounded-lg bg-blue-500/20 flex items-center justify-center">
-              <i data-lucide="map" class="w-4 h-4 text-blue-400"></i>
-            </div>
-            <h2 class="text-lg font-bold">Resultado por Estado</h2>
-          </div>
-          <button onclick="toggleEstados()" id="btn-toggle-estados" class="text-xs px-3 py-1.5 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 transition font-medium">
-            <i data-lucide="chevron-down" class="w-3.5 h-3.5 inline-block"></i> Expandir
-          </button>
-        </div>
+    </div>
 
-        <div id="tabela-estados" class="hidden">
-          <!-- HEADER -->
-          <div class="grid grid-cols-12 gap-2 px-4 sm:px-5 py-2.5 text-[10px] uppercase tracking-wider text-slate-500 font-bold border-b border-slate-700/30 bg-slate-800/50">
-            <div class="col-span-2 sm:col-span-1">UF</div>
-            <div class="col-span-3 sm:col-span-2">Apurado</div>
-            <div class="col-span-3 sm:col-span-4">Lula (13)</div>
-            <div class="col-span-3 sm:col-span-4">Bolsonaro (22)</div>
-            <div class="hidden sm:block col-span-1 text-right">Líder</div>
-          </div>
-          <!-- LINHAS DOS ESTADOS -->
-          <div id="estados-body" class="divide-y divide-slate-800/50 max-h-[600px] overflow-y-auto">
-            <!-- Será preenchido via JS -->
-            <div class="p-8 text-center text-slate-500">
-              <div class="skeleton h-4 w-48 mx-auto mb-3"></div>
-              <div class="skeleton h-4 w-36 mx-auto mb-3"></div>
-              <div class="skeleton h-4 w-52 mx-auto"></div>
-              <p class="mt-4 text-xs">Carregando dados dos estados...</p>
-            </div>
-          </div>
-        </div>
+    <!-- AVISO DE UTILIDADE PÚBLICA & FONTES OFICIAIS -->
+    <div class="glass-card rounded-2xl p-5 border border-slate-800/80 text-xs text-slate-400 leading-relaxed space-y-2">
+      <div class="flex items-center gap-2 text-slate-200 font-bold">
+        <i data-lucide="info" class="w-4 h-4 text-blue-400"></i>
+        <span>Informações Oficiais e Transparência Pública</span>
       </div>
-    </section>
+      <p>
+        Os números exibidos nesta plataforma são sincronizados diretamente da infraestrutura aberta de divulgação do <strong>Tribunal Superior Eleitoral (TSE)</strong>.
+        O <strong>Cidadão Agora</strong> é uma plataforma cívica e apartidária dedicada à divulgação de dados de utilidade pública no Brasil.
+      </p>
+      <p class="text-[11px] text-slate-400">
+        Para auditar ou conferir na íntegra os boletins de urna (BUs) e logs de votação, consulte o portal oficial da Justiça Eleitoral em <a href="https://resultados.tse.jus.br" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:underline">resultados.tse.jus.br</a>.
+      </p>
+    </div>
 
-    <!-- INFORMATIVO -->
-    <section class="max-w-7xl mx-auto px-4 pb-8">
-      <div class="bg-slate-800/20 rounded-2xl border border-slate-700/30 p-5">
-        <div class="flex items-start gap-3">
-          <i data-lucide="info" class="w-5 h-5 text-blue-400 shrink-0 mt-0.5"></i>
-          <div class="space-y-2 text-xs text-slate-400 leading-relaxed">
-            <p><strong class="text-slate-200">Fonte dos dados:</strong> Tribunal Superior Eleitoral (TSE) — <a href="https://resultados.tse.jus.br" target="_blank" rel="noopener" class="text-blue-400 hover:underline">resultados.tse.jus.br</a>. Dados públicos atualizados automaticamente a cada 30 segundos.</p>
-            <p><strong class="text-slate-200">Sobre este painel:</strong> O Cidadão Agora é um portal independente de utilidade pública. Não temos vínculo com o TSE, partidos políticos ou candidatos. Os dados exibidos são os mesmos publicados oficialmente pelo TSE.</p>
-            <p><strong class="text-slate-200">Horário da apuração:</strong> A totalização dos votos inicia às 17h (horário de Brasília), após o encerramento da votação em todo o território nacional.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LINK PARA A PÁGINA PRINCIPAL -->
-    <section class="max-w-7xl mx-auto px-4 pb-8 text-center">
-      <a href="/index-original-backup" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 text-sm text-slate-300 hover:text-white transition font-medium">
-        <i data-lucide="layout-grid" class="w-4 h-4"></i>
-        Acessar Serviços e Ferramentas do Cidadão Agora
+    <!-- BOTÃO DE ATALHO PARA RETORNAR ÀS FERRAMENTAS DO SITE -->
+    <div class="text-center pt-2 pb-6">
+      <a href="/index-original-backup" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700/80 text-xs sm:text-sm font-bold text-slate-200 hover:text-white transition shadow-lg">
+        <i data-lucide="arrow-left" class="w-4 h-4 text-blue-400"></i>
+        <span>Ir para a Página Principal de Serviços (MEI, CPF, Rescisão, FIPE)</span>
       </a>
-    </section>
+    </div>
+
   </main>
 
-  <!-- FOOTER COMPACTO -->
-  <footer class="bg-[#060A14] border-t border-slate-800/50 mt-auto">
-    <div class="max-w-7xl mx-auto px-4 py-6">
-      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-lg bg-[#2563EB] flex items-center justify-center text-white font-extrabold text-sm">CA</div>
-          <span class="text-sm font-bold text-white">Cidadão Agora</span>
-          <span class="text-[10px] text-slate-500 bg-slate-800 px-2 py-0.5 rounded">© 2026</span>
-        </div>
-        <div class="flex items-center gap-4 text-[11px] text-slate-500">
-          <a href="/conteudo/sobre" class="hover:text-white transition-colors">Sobre</a>
-          <a href="/conteudo/contato" class="hover:text-white transition-colors">Contato</a>
-          <a href="/conteudo/politica-privacidade" class="hover:text-white transition-colors">Privacidade</a>
-          <a href="/conteudo/termos-de-uso" class="hover:text-white transition-colors">Termos</a>
-        </div>
+  <!-- RODAPÉ MODERNO -->
+  <footer class="glass-panel border-t border-slate-800/80 py-6 text-center text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-slate-300">Cidadão Agora</span>
+        <span>•</span>
+        <span>Cobertura Oficial das Eleições 2026</span>
       </div>
-      <p class="text-center text-[10px] text-slate-600 mt-4">
-        Portal independente. Dados públicos do TSE. Nenhum dado pessoal é coletado nesta página.
-      </p>
+      <div class="flex items-center gap-4 text-[11px]">
+        <a href="/conteudo/sobre" class="hover:text-slate-200 transition">Sobre Nós</a>
+        <a href="/conteudo/politica-privacidade" class="hover:text-slate-200 transition">Privacidade</a>
+        <a href="/conteudo/termos-de-uso" class="hover:text-slate-200 transition">Termos</a>
+        <a href="/conteudo/contato" class="hover:text-slate-200 transition">Contato</a>
+      </div>
     </div>
   </footer>
 
+  <!-- SCRIPT COMPLETO DE DADOS TSE & ATUALIZAÇÃO -->
   <script>
-    // Inicializar Lucide Icons
     if (window.lucide) window.lucide.createIcons();
 
-    // ============================
-    // CONFIGURAÇÃO DA API DO TSE
-    // ============================
+    // Configuração oficial dos endpoints do TSE
     const TSE_BASE = 'https://resultados.tse.jus.br/oficial/ele2026/6258/dados';
-    const CARGO = 'c0001'; // Presidente
-    const ELEICAO = 'e006258'; // 2º turno federal
-    const UFS = ['ac','al','am','ap','ba','ce','df','es','go','ma','mg','ms','mt','pa','pb','pe','pi','pr','rj','rn','ro','rr','rs','sc','se','sp','to'];
-    const UF_NOMES = {
-      ac:'Acre',al:'Alagoas',am:'Amazonas',ap:'Amapá',ba:'Bahia',ce:'Ceará',
-      df:'Distrito Federal',es:'Espírito Santo',go:'Goiás',ma:'Maranhão',
-      mg:'Minas Gerais',ms:'Mato Grosso do Sul',mt:'Mato Grosso',pa:'Pará',
-      pb:'Paraíba',pe:'Pernambuco',pi:'Piauí',pr:'Paraná',rj:'Rio de Janeiro',
-      rn:'Rio Grande do Norte',ro:'Rondônia',rr:'Roraima',rs:'Rio Grande do Sul',
-      sc:'Santa Catarina',se:'Sergipe',sp:'São Paulo',to:'Tocantins'
-    };
+    const ELEICAO_ID = 'e006258'; // 2º Turno Federal
+    const CARGO_PRESIDENTE = 'c0001';
 
-    let estadosVisivel = false;
-    let dadosEstados = {};
-    let intervaloAtualizacao = null;
+    const ESTADOS = [
+      { uf: 'ac', nome: 'Acre' },
+      { uf: 'al', nome: 'Alagoas' },
+      { uf: 'am', nome: 'Amazonas' },
+      { uf: 'ap', nome: 'Amapá' },
+      { uf: 'ba', nome: 'Bahia' },
+      { uf: 'ce', nome: 'Ceará' },
+      { uf: 'df', nome: 'Distrito Federal' },
+      { uf: 'es', nome: 'Espírito Santo' },
+      { uf: 'go', nome: 'Goiás' },
+      { uf: 'ma', nome: 'Maranhão' },
+      { uf: 'mg', nome: 'Minas Gerais' },
+      { uf: 'ms', nome: 'Mato Grosso do Sul' },
+      { uf: 'mt', nome: 'Mato Grosso' },
+      { uf: 'pa', nome: 'Pará' },
+      { uf: 'pb', nome: 'Paraíba' },
+      { uf: 'pe', nome: 'Pernambuco' },
+      { uf: 'pi', nome: 'Piauí' },
+      { uf: 'pr', nome: 'Paraná' },
+      { uf: 'rj', nome: 'Rio de Janeiro' },
+      { uf: 'rn', nome: 'Rio Grande do Norte' },
+      { uf: 'ro', nome: 'Rondônia' },
+      { uf: 'rr', nome: 'Roraima' },
+      { uf: 'rs', nome: 'Rio Grande do Sul' },
+      { uf: 'sc', nome: 'Santa Catarina' },
+      { uf: 'se', nome: 'Sergipe' },
+      { uf: 'sp', nome: 'São Paulo' },
+      { uf: 'to', nome: 'Tocantins' }
+    ];
 
-    // ============================
-    // FORMATAÇÃO
-    // ============================
-    function fmt(n) {
-      return Number(n).toLocaleString('pt-BR');
+    let cacheEstados = {};
+    let tempoRestante = 5;
+    let timerLoop = null;
+    let timerContador = null;
+    let emRequisicao = false;
+
+    // Função de formatação numérica brasileira
+    function formataNumero(val) {
+      const n = parseInt(val, 10);
+      if (isNaN(n)) return '0';
+      return n.toLocaleString('pt-BR');
     }
 
-    function fmtPct(str) {
-      // TSE envia "45,23" como string, mantém assim
-      if (!str || str === '0,00') return '0,00';
-      return str.replace('.', ',');
+    function formataPercentual(str) {
+      if (!str || str === '0,00' || str === '0') return '0,00';
+      return String(str).replace('.', ',');
     }
 
-    // ============================
-    // BUSCAR DADOS NACIONAIS
-    // ============================
-    async function buscarDadosNacionais() {
+    function extrairNumero(str) {
+      if (!str) return 0;
+      const limpo = String(str).replace(',', '.');
+      const f = parseFloat(limpo);
+      return isNaN(f) ? 0 : f;
+    }
+
+    // Busca consolidada nacional
+    async function carregarDadosNacionais() {
+      if (emRequisicao) return;
+      emRequisicao = true;
+
+      const iconRefresh = document.getElementById('icon-refresh');
+      if (iconRefresh) iconRefresh.classList.add('animate-spin');
+
       try {
-        const url = `${TSE_BASE}/br/br-${CARGO}-${ELEICAO}-u.json?_=${Date.now()}`;
-        const res = await fetch(url, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        atualizarPainelNacional(data);
-        return data;
-      } catch (e) {
-        console.warn('Erro ao buscar dados nacionais:', e);
-        return null;
+        const url = `${TSE_BASE}/br/br-${CARGO_PRESIDENTE}-${ELEICAO_ID}-u.json?_=${Date.now()}`;
+        const resposta = await fetch(url, { cache: 'no-store' });
+        
+        if (!resposta.ok) {
+          throw new Error('Código HTTP ' + resposta.status);
+        }
+
+        const dados = await resposta.json();
+        processarDadosNacionais(dados);
+
+        const agora = new Date();
+        const horaStr = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        document.getElementById('timestamp-leitura').textContent = horaStr;
+
+      } catch (err) {
+        console.warn('Sincronização nacional em andamento:', err);
+      } finally {
+        emRequisicao = false;
+        if (iconRefresh) iconRefresh.classList.remove('animate-spin');
       }
     }
 
-    // ============================
-    // ATUALIZAR PAINEL NACIONAL
-    // ============================
-    function atualizarPainelNacional(data) {
-      if (!data) return;
+    function processarDadosNacionais(dados) {
+      if (!dados) return;
 
       // Seções
-      const secoes = data.s || {};
-      const totalSecoes = parseInt(secoes.ts) || 0;
-      const secoesTotalizadas = parseInt(secoes.st) || 0;
+      const secoes = dados.s || {};
+      const totalSecoes = parseInt(secoes.ts, 10) || 499248;
+      const secoesApuradas = parseInt(secoes.st, 10) || 0;
       const pctSecoes = secoes.pst || '0,00';
+      const pctSecoesNum = extrairNumero(pctSecoes);
 
-      document.getElementById('secoes-pct').textContent = pctSecoes + '%';
-      document.getElementById('secoes-bar').style.width = parseFloat(pctSecoes.replace(',', '.')) + '%';
-      document.getElementById('secoes-apuradas').textContent = fmt(secoesTotalizadas);
-      document.getElementById('secoes-total').textContent = fmt(totalSecoes);
+      document.getElementById('secoes-total-num').textContent = formataNumero(totalSecoes);
+      document.getElementById('secoes-apuradas-num').textContent = formataNumero(secoesApuradas);
+      document.getElementById('secoes-pct-num').textContent = formataPercentual(pctSecoes) + '%';
+      document.getElementById('barra-secoes').style.width = Math.min(100, Math.max(0, pctSecoesNum)) + '%';
 
-      // Eleitores / Abstenções
-      const eleitores = data.e || {};
-      const abstencoes = parseInt(eleitores.a) || 0;
-
-      // Votos
-      const votos = data.v || {};
-      const totalVotos = parseInt(votos.tv) || 0;
-      const brancos = parseInt(votos.vb) || 0;
-      const nulos = parseInt(votos.vn) || 0;
-      const votosValidos = parseInt(votos.vv) || 0;
-
-      document.getElementById('total-validos').textContent = fmt(votosValidos);
-      document.getElementById('total-brancos').textContent = fmt(brancos);
-      document.getElementById('total-nulos').textContent = fmt(nulos);
-      document.getElementById('total-abstencoes').textContent = fmt(abstencoes);
-
-      // Candidatos — extrair de agr (agremiações/coligações)
-      const agrs = (data.carg && data.carg[0] && data.carg[0].agr) || [];
-      let votosLula = 0, pctLula = '0,00';
-      let votosBolsonaro = 0, pctBolsonaro = '0,00';
-
-      for (const agr of agrs) {
-        for (const par of (agr.par || [])) {
-          for (const cand of (par.cand || [])) {
-            if (cand.n === '13') {
-              votosLula = parseInt(cand.vap) || 0;
-              pctLula = cand.pvap || '0,00';
-            } else if (cand.n === '22') {
-              votosBolsonaro = parseInt(cand.vap) || 0;
-              pctBolsonaro = cand.pvap || '0,00';
-            }
-          }
-        }
-      }
-
-      document.getElementById('votos-lula').textContent = fmt(votosLula);
-      document.getElementById('pct-lula').textContent = fmtPct(pctLula) + '%';
-      document.getElementById('bar-lula').style.width = parseFloat(pctLula.replace(',', '.')) + '%';
-
-      document.getElementById('votos-bolsonaro').textContent = fmt(votosBolsonaro);
-      document.getElementById('pct-bolsonaro').textContent = fmtPct(pctBolsonaro) + '%';
-      document.getElementById('bar-bolsonaro').style.width = parseFloat(pctBolsonaro.replace(',', '.')) + '%';
-
-      // Status e horário
-      const agora = new Date();
-      const hora = agora.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-      document.getElementById('ultima-atualizacao').textContent = hora;
-
-      const statusEl = document.getElementById('status-atualizacao');
-      if (secoesTotalizadas > 0) {
-        const pctFloat = parseFloat(pctSecoes.replace(',', '.'));
-        if (pctFloat >= 100) {
-          statusEl.textContent = 'Apuração encerrada';
-          statusEl.className = 'text-emerald-300 font-bold';
-        } else {
-          statusEl.textContent = `Apurando... ${pctSecoes}%`;
-          statusEl.className = 'text-amber-300 font-bold';
-        }
+      // Status visual
+      const statusEl = document.getElementById('status-texto');
+      if (secoesApuradas === 0) {
+        statusEl.innerHTML = '<span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span> Aguardando Apuração (17h)';
+        statusEl.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/15 text-amber-300 border border-amber-500/30';
+      } else if (pctSecoesNum >= 100) {
+        statusEl.innerHTML = '<span class="w-2 h-2 rounded-full bg-emerald-400"></span> 100% Apurado — Concluído';
+        statusEl.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30';
       } else {
-        statusEl.textContent = 'Aguardando apuração (17h)';
-        statusEl.className = 'text-red-300 font-bold';
+        statusEl.innerHTML = `<span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span> Apurando: ${formataPercentual(pctSecoes)}%`;
+        statusEl.className = 'inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-500/15 text-blue-300 border border-blue-500/30';
       }
+
+      // Candidatos
+      let votosLula = 0, pctLula = '0,00', eleitoLula = false;
+      let votosBolsonaro = 0, pctBolsonaro = '0,00', eleitoBolsonaro = false;
+
+      const agremiações = (dados.carg && dados.carg[0] && dados.carg[0].agr) || [];
+      agremiações.forEach(agr => {
+        (agr.par || []).forEach(par => {
+          (par.cand || []).forEach(cand => {
+            if (cand.n === '13') {
+              votosLula = cand.vap || 0;
+              pctLula = cand.pvap || '0,00';
+              if (cand.e === 's') eleitoLula = true;
+            } else if (cand.n === '22') {
+              votosBolsonaro = cand.vap || 0;
+              pctBolsonaro = cand.pvap || '0,00';
+              if (cand.e === 's') eleitoBolsonaro = true;
+            }
+          });
+        });
+      });
+
+      const numPctLula = extrairNumero(pctLula);
+      const numPctBolsonaro = extrairNumero(pctBolsonaro);
+
+      // Atualiza Lula
+      document.getElementById('votos-lula').textContent = formataNumero(votosLula);
+      document.getElementById('pct-lula').textContent = formataPercentual(pctLula) + '%';
+      document.getElementById('barra-lula').style.width = Math.min(100, Math.max(0, numPctLula)) + '%';
+
+      // Atualiza Bolsonaro
+      document.getElementById('votos-bolsonaro').textContent = formataNumero(votosBolsonaro);
+      document.getElementById('pct-bolsonaro').textContent = formataPercentual(pctBolsonaro) + '%';
+      document.getElementById('barra-bolsonaro').style.width = Math.min(100, Math.max(0, numPctBolsonaro)) + '%';
+
+      // Liderança / Eleito
+      const badgeLiderLula = document.getElementById('badge-lider-lula');
+      const badgeLiderBolsonaro = document.getElementById('badge-lider-bolsonaro');
+      const badgeEleitoLula = document.getElementById('badge-eleito-lula');
+      const badgeEleitoBolsonaro = document.getElementById('badge-eleito-bolsonaro');
+
+      if (badgeEleitoLula) badgeEleitoLula.classList.toggle('hidden', !eleitoLula);
+      if (badgeEleitoBolsonaro) badgeEleitoBolsonaro.classList.toggle('hidden', !eleitoBolsonaro);
+
+      if (secoesApuradas > 0 && !eleitoLula && !eleitoBolsonaro) {
+        if (numPctLula > numPctBolsonaro) {
+          if (badgeLiderLula) badgeLiderLula.classList.remove('hidden');
+          if (badgeLiderBolsonaro) badgeLiderBolsonaro.classList.add('hidden');
+        } else if (numPctBolsonaro > numPctLula) {
+          if (badgeLiderBolsonaro) badgeLiderBolsonaro.classList.remove('hidden');
+          if (badgeLiderLula) badgeLiderLula.classList.add('hidden');
+        }
+      }
+
+      // Estatísticas gerais
+      const votosObj = dados.v || {};
+      const eleitoresObj = dados.e || {};
+
+      const validos = votosObj.vv || 0;
+      const brancos = votosObj.vb || 0;
+      const nulos = votosObj.vn || 0;
+      const abstencoes = eleitoresObj.a || 0;
+
+      document.getElementById('stat-validos').textContent = formataNumero(validos);
+      document.getElementById('stat-brancos').textContent = formataNumero(brancos);
+      document.getElementById('stat-nulos').textContent = formataNumero(nulos);
+      document.getElementById('stat-abstencoes').textContent = formataNumero(abstencoes);
+
+      document.getElementById('stat-validos-pct').textContent = formataPercentual(votosObj.pvv || '0,00') + '% do total';
+      document.getElementById('stat-brancos-pct').textContent = formataPercentual(votosObj.pvb || '0,00') + '% do total';
+      document.getElementById('stat-nulos-pct').textContent = formataPercentual(votosObj.pvn || '0,00') + '% do total';
+      document.getElementById('stat-abstencoes-pct').textContent = formataPercentual(eleitoresObj.pa || '0,00') + '% dos eleitores';
     }
 
-    // ============================
-    // BUSCAR DADOS DOS ESTADOS
-    // ============================
-    async function buscarDadosEstados() {
-      const promises = UFS.map(async (uf) => {
+    // Busca de estados
+    async function carregarTodosEstados() {
+      const requisicoes = ESTADOS.map(async (est) => {
         try {
-          const url = `${TSE_BASE}/${uf}/${uf}-${CARGO}-${ELEICAO}-u.json?_=${Date.now()}`;
+          const url = `${TSE_BASE}/${est.uf}/${est.uf}-${CARGO_PRESIDENTE}-${ELEICAO_ID}-u.json?_=${Date.now()}`;
           const res = await fetch(url, { cache: 'no-store' });
-          if (!res.ok) return null;
-          const data = await res.json();
-          return { uf, data };
+          if (res.ok) {
+            const data = await res.json();
+            return { uf: est.uf, data };
+          }
         } catch (e) {
-          return null;
+          // ignora falhas pontuais de estados individuais
+        }
+        return null;
+      });
+
+      const respostas = await Promise.all(requisicoes);
+      respostas.forEach(item => {
+        if (item && item.uf) {
+          cacheEstados[item.uf] = item.data;
         }
       });
 
-      const resultados = await Promise.all(promises);
-      for (const r of resultados) {
-        if (r) dadosEstados[r.uf] = r.data;
-      }
       renderizarTabelaEstados();
     }
 
-    // ============================
-    // RENDERIZAR TABELA DE ESTADOS
-    // ============================
     function renderizarTabelaEstados() {
-      const body = document.getElementById('estados-body');
-      if (!body) return;
+      const tbody = document.getElementById('tabela-estados-corpo');
+      if (!tbody) return;
 
-      const linhas = [];
-      const estadosArr = [];
+      const busca = (document.getElementById('busca-uf')?.value || '').toLowerCase().trim();
 
-      for (const uf of UFS) {
-        const data = dadosEstados[uf];
-        if (!data) {
-          estadosArr.push({ uf, pctApurado: 0, votosLula: 0, pctLula: 0, votosBolsonaro: 0, pctBolsonaro: 0, lider: '-' });
-          continue;
-        }
+      const linhasHtml = ESTADOS
+        .filter(est => {
+          if (!busca) return true;
+          return est.uf.includes(busca) || est.nome.toLowerCase().includes(busca);
+        })
+        .map(est => {
+          const d = cacheEstados[est.uf];
+          let pctApurado = '0,00';
+          let votosLula = 0, pctLula = '0,00';
+          let votosBolsonaro = 0, pctBolsonaro = '0,00';
 
-        const secoes = data.s || {};
-        const pctApurado = secoes.pst || '0,00';
+          if (d) {
+            pctApurado = (d.s && d.s.pst) || '0,00';
+            const agrs = (d.carg && d.carg[0] && d.carg[0].agr) || [];
+            agrs.forEach(agr => {
+              (agr.par || []).forEach(par => {
+                (par.cand || []).forEach(cand => {
+                  if (cand.n === '13') {
+                    votosLula = cand.vap || 0;
+                    pctLula = cand.pvap || '0,00';
+                  } else if (cand.n === '22') {
+                    votosBolsonaro = cand.vap || 0;
+                    pctBolsonaro = cand.pvap || '0,00';
+                  }
+                });
+              });
+            });
+          }
 
-        const agrs = (data.carg && data.carg[0] && data.carg[0].agr) || [];
-        let votosLula = 0, pctLula = '0,00';
-        let votosBolsonaro = 0, pctBolsonaro = '0,00';
+          const nPctLula = extrairNumero(pctLula);
+          const nPctBolsonaro = extrairNumero(pctBolsonaro);
+          const nPctApurado = extrairNumero(pctApurado);
 
-        for (const agr of agrs) {
-          for (const par of (agr.par || [])) {
-            for (const cand of (par.cand || [])) {
-              if (cand.n === '13') { votosLula = parseInt(cand.vap) || 0; pctLula = cand.pvap || '0,00'; }
-              if (cand.n === '22') { votosBolsonaro = parseInt(cand.vap) || 0; pctBolsonaro = cand.pvap || '0,00'; }
+          let liderBadge = '<span class="text-slate-600 font-mono">-</span>';
+          if (nPctApurado > 0) {
+            if (nPctLula > nPctBolsonaro) {
+              liderBadge = '<span class="px-2 py-0.5 rounded bg-red-600/20 text-red-400 font-bold text-[10px]">Lula</span>';
+            } else if (nPctBolsonaro > nPctLula) {
+              liderBadge = '<span class="px-2 py-0.5 rounded bg-blue-600/20 text-blue-400 font-bold text-[10px]">Bolsonaro</span>';
+            } else {
+              liderBadge = '<span class="text-slate-400 text-[10px]">Empate</span>';
             }
           }
-        }
 
-        const pctLulaNum = parseFloat(pctLula.replace(',', '.'));
-        const pctBolsonaroNum = parseFloat(pctBolsonaro.replace(',', '.'));
-        let lider = '-';
-        if (pctLulaNum > pctBolsonaroNum) lider = 'lula';
-        else if (pctBolsonaroNum > pctLulaNum) lider = 'bolsonaro';
-
-        estadosArr.push({ uf, pctApurado, votosLula, pctLula, votosBolsonaro, pctBolsonaro, lider, pctLulaNum, pctBolsonaroNum });
-      }
-
-      for (const e of estadosArr) {
-        const liderBadge = e.lider === 'lula'
-          ? '<span class="inline-block w-3 h-3 rounded-full bg-red-500" title="Lula lidera"></span>'
-          : e.lider === 'bolsonaro'
-            ? '<span class="inline-block w-3 h-3 rounded-full bg-blue-500" title="Bolsonaro lidera"></span>'
-            : '<span class="text-slate-600">-</span>';
-
-        const pctLulaNum = parseFloat(String(e.pctLula).replace(',', '.')) || 0;
-        const pctBolsonaroNum = parseFloat(String(e.pctBolsonaro).replace(',', '.')) || 0;
-
-        linhas.push(`
-          <div class="state-row grid grid-cols-12 gap-2 px-4 sm:px-5 py-2.5 items-center text-xs">
-            <div class="col-span-2 sm:col-span-1">
-              <span class="font-bold text-white text-sm">${e.uf.toUpperCase()}</span>
-              <span class="hidden sm:inline text-[10px] text-slate-500 ml-1">${UF_NOMES[e.uf] || ''}</span>
-            </div>
-            <div class="col-span-3 sm:col-span-2">
-              <span class="text-slate-300">${fmtPct(String(e.pctApurado))}%</span>
-            </div>
-            <div class="col-span-3 sm:col-span-4">
-              <div class="flex items-center gap-2">
-                <div class="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
-                  <div class="h-full bar-lula rounded-full" style="width: ${pctLulaNum}%"></div>
+          return `
+            <tr class="hover:bg-slate-900/50 transition">
+              <td class="py-3 px-4 font-bold text-white flex items-center gap-2">
+                <span class="w-6 h-6 rounded-md bg-slate-800 text-blue-400 font-black text-xs flex items-center justify-center">${est.uf.toUpperCase()}</span>
+                <span class="hidden sm:inline text-slate-300 font-medium">${est.nome}</span>
+              </td>
+              <td class="py-3 px-3 font-mono-num text-slate-300">${formataPercentual(pctApurado)}%</td>
+              <td class="py-3 px-3">
+                <div class="space-y-1">
+                  <div class="flex items-center justify-between text-[11px]">
+                    <span class="text-red-400 font-bold font-mono-num">${formataPercentual(pctLula)}%</span>
+                    <span class="text-slate-400 text-[10px] font-mono-num hidden md:inline">${formataNumero(votosLula)}</span>
+                  </div>
+                  <div class="h-1.5 w-full bg-slate-900 rounded-full overflow-hidden">
+                    <div class="h-full bar-lula rounded-full" style="width: ${nPctLula}%"></div>
+                  </div>
                 </div>
-                <span class="text-red-400 font-bold w-14 text-right">${fmtPct(String(e.pctLula))}%</span>
-              </div>
-            </div>
-            <div class="col-span-3 sm:col-span-4">
-              <div class="flex items-center gap-2">
-                <div class="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
-                  <div class="h-full bar-bolsonaro rounded-full" style="width: ${pctBolsonaroNum}%"></div>
+              </td>
+              <td class="py-3 px-3">
+                <div class="space-y-1">
+                  <div class="flex items-center justify-between text-[11px]">
+                    <span class="text-blue-400 font-bold font-mono-num">${formataPercentual(pctBolsonaro)}%</span>
+                    <span class="text-slate-400 text-[10px] font-mono-num hidden md:inline">${formataNumero(votosBolsonaro)}</span>
+                  </div>
+                  <div class="h-1.5 w-full bg-slate-900 rounded-full overflow-hidden">
+                    <div class="h-full bar-bolsonaro rounded-full" style="width: ${nPctBolsonaro}%"></div>
+                  </div>
                 </div>
-                <span class="text-blue-400 font-bold w-14 text-right">${fmtPct(String(e.pctBolsonaro))}%</span>
-              </div>
-            </div>
-            <div class="hidden sm:flex col-span-1 justify-end">${liderBadge}</div>
-          </div>
-        `);
-      }
+              </td>
+              <td class="py-3 px-3 text-right">${liderBadge}</td>
+            </tr>
+          `;
+        })
+        .join('');
 
-      body.innerHTML = linhas.join('');
-    }
-
-    // ============================
-    // TOGGLE ESTADOS
-    // ============================
-    function toggleEstados() {
-      const tabela = document.getElementById('tabela-estados');
-      const btn = document.getElementById('btn-toggle-estados');
-      estadosVisivel = !estadosVisivel;
-      if (estadosVisivel) {
-        tabela.classList.remove('hidden');
-        btn.innerHTML = '<i data-lucide="chevron-up" class="w-3.5 h-3.5 inline-block"></i> Recolher';
-        if (Object.keys(dadosEstados).length === 0) buscarDadosEstados();
-      } else {
-        tabela.classList.add('hidden');
-        btn.innerHTML = '<i data-lucide="chevron-down" class="w-3.5 h-3.5 inline-block"></i> Expandir';
-      }
+      tbody.innerHTML = linhasHtml || `<tr><td colspan="5" class="py-4 text-center text-slate-400">Nenhum estado encontrado.</td></tr>`;
       if (window.lucide) window.lucide.createIcons();
     }
 
-    // ============================
-    // LOOP DE ATUALIZAÇÃO
-    // ============================
-    async function atualizar() {
-      await buscarDadosNacionais();
-      if (estadosVisivel) await buscarDadosEstados();
+    function filtrarEstados() {
+      renderizarTabelaEstados();
     }
 
-    // Início
-    atualizar();
-    intervaloAtualizacao = setInterval(atualizar, 5000); // 5 segundos
+    // Controle do contador de 5 segundos
+    function iniciarCicloAtualizacao() {
+      tempoRestante = 5;
+      
+      if (timerContador) clearInterval(timerContador);
+      timerContador = setInterval(() => {
+        tempoRestante--;
+        const timerTxt = document.getElementById('timer-txt');
+        if (timerTxt) timerTxt.textContent = `${Math.max(1, tempoRestante)}s`;
 
-    // Visibilidade da página — pausar quando não visível
+        if (tempoRestante <= 0) {
+          tempoRestante = 5;
+          executarCiclo();
+        }
+      }, 1000);
+    }
+
+    async function executarCiclo() {
+      await carregarDadosNacionais();
+      // Atualiza os estados em background
+      carregarTodosEstados();
+    }
+
+    function forcarAtualizacao() {
+      tempoRestante = 5;
+      executarCiclo();
+    }
+
+    // Início imediato
+    executarCiclo();
+    iniciarCicloAtualizacao();
+
+    // Pausa e retoma inteligente quando troca de aba
     document.addEventListener('visibilitychange', () => {
       if (document.hidden) {
-        clearInterval(intervaloAtualizacao);
+        if (timerContador) clearInterval(timerContador);
       } else {
-        atualizar();
-        intervaloAtualizacao = setInterval(atualizar, 5000);
+        executarCiclo();
+        iniciarCicloAtualizacao();
       }
     });
   </script>
