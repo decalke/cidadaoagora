@@ -180,10 +180,15 @@
         <span class="text-xs font-black tracking-widest text-red-100 uppercase">AO VIVO</span>
       </div>
 
-      <!-- Relógio de Brasília -->
-      <div class="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-slate-950/80 border border-slate-800 text-xs">
-        <i data-lucide="clock" class="w-3.5 h-3.5 text-blue-400"></i>
-        <span class="font-bold text-white font-num text-sm" id="relogio-brasilia">17:48:00</span>
+      <!-- Relógio Grande de Brasília em Tempo Real -->
+      <div style="background: #000; border: 1.5px solid rgba(59, 130, 246, 0.45); border-radius: 12px; padding: 3px 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 0 22px rgba(59, 130, 246, 0.28); min-width: 160px;">
+        <div style="display: flex; align-items: center; gap: 5px; line-height: 1; margin-bottom: 2px;">
+          <span style="width: 6px; height: 6px; border-radius: 50%; background: #10B981; display: inline-block;" class="pulse-live"></span>
+          <span style="font-size: 9px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #38BDF8;">HORÁRIO DE BRASÍLIA</span>
+        </div>
+        <span id="relogio-brasilia" class="font-num" style="font-size: 26px; font-weight: 900; color: #FFFFFF; line-height: 1; letter-spacing: 1px; text-shadow: 0 0 18px rgba(255, 255, 255, 0.7);">
+          18:17:00
+        </span>
       </div>
 
       <!-- Contador 5s -->
