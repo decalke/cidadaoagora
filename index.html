@@ -155,17 +155,17 @@
         <span class="text-xs font-extrabold uppercase tracking-wider text-neutral-300">Progresso Nacional</span>
         <span class="text-neutral-500 text-xs">•</span>
         <span class="text-xs text-neutral-400">
-          Seções Computadas: <strong class="text-white font-num text-sm" id="secoes-apuradas-num">0</strong> de <span class="font-num text-neutral-400">499.248</span>
+          Seções Computadas: <strong class="text-white font-num text-sm" id="secoes-apuradas-num">1.225</strong> de <span class="font-num text-neutral-400">499.248</span>
         </span>
       </div>
 
       <!-- Barra de Urnas com Percentual Grande -->
       <div class="flex items-center gap-3 sm:w-1/2 lg:w-2/5">
         <div class="h-2.5 flex-1 bg-black rounded-full overflow-hidden border border-[#222228] p-0.5">
-          <div id="barra-secoes" class="h-full bg-emerald-500 rounded-full transition-all duration-500 shadow-md shadow-emerald-500/30" style="width: 0%;"></div>
+          <div id="barra-secoes" class="h-full bg-emerald-500 rounded-full transition-all duration-500 shadow-md shadow-emerald-500/30" style="width: 0.25%;"></div>
         </div>
         <div class="flex items-center gap-1.5 shrink-0">
-          <span class="text-xl sm:text-2xl font-black text-emerald-400 font-num tracking-tight" id="secoes-pct-num">0,00%</span>
+          <span class="text-xl sm:text-2xl font-black text-emerald-400 font-num tracking-tight" id="secoes-pct-num">0,25%</span>
           <span id="status-texto" class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-950 border border-blue-800 text-blue-300 uppercase">
             Apurando
           </span>
@@ -205,7 +205,7 @@
                 <div class="min-w-0 flex-1">
                   <div class="flex items-center gap-2 mb-0.5">
                     <span class="px-2 py-0.5 rounded bg-red-600/25 text-red-400 text-xs font-black border border-red-600/40">PT</span>
-                    <span id="badge-lider-lula" class="hidden text-[10px] px-2 py-0.5 rounded bg-red-600 text-white font-black uppercase tracking-wider">
+                    <span id="badge-lider-lula" class="text-[10px] px-2 py-0.5 rounded bg-red-600 text-white font-black uppercase tracking-wider">
                       LIDERANDO
                     </span>
                     <span id="badge-eleito-lula" class="hidden text-[10px] px-2 py-0.5 rounded bg-emerald-600 text-white font-black uppercase tracking-wider animate-pulse">
@@ -222,17 +222,17 @@
               <div class="panel-sub rounded-xl p-3.5 mb-2">
                 <div class="flex items-baseline justify-between mb-1">
                   <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">Votos Válidos</span>
-                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-red-500 font-num tracking-tight" id="pct-lula">0,00%</span>
+                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-red-500 font-num tracking-tight" id="pct-lula">57,66%</span>
                 </div>
 
                 <!-- Barra de Progresso do Candidato -->
                 <div class="h-3.5 w-full bg-black rounded-full overflow-hidden p-0.5 border border-[#222228] mb-2">
-                  <div id="barra-lula" class="h-full bar-lula rounded-full transition-all duration-500" style="width: 0%;"></div>
+                  <div id="barra-lula" class="h-full bar-lula rounded-full transition-all duration-500" style="width: 57.66%;"></div>
                 </div>
 
                 <div class="flex items-center justify-between text-xs text-neutral-400">
                   <span>Total de Votos:</span>
-                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-lula">0</span>
+                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-lula">193.574</span>
                 </div>
               </div>
             </div>
@@ -283,17 +283,17 @@
               <div class="panel-sub rounded-xl p-3.5 mb-2">
                 <div class="flex items-baseline justify-between mb-1">
                   <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">Votos Válidos</span>
-                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-500 font-num tracking-tight" id="pct-bolsonaro">0,00%</span>
+                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-500 font-num tracking-tight" id="pct-bolsonaro">42,34%</span>
                 </div>
 
                 <!-- Barra de Progresso do Candidato -->
                 <div class="h-3.5 w-full bg-black rounded-full overflow-hidden p-0.5 border border-[#222228] mb-2">
-                  <div id="barra-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-500" style="width: 0%;"></div>
+                  <div id="barra-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-500" style="width: 42.34%;"></div>
                 </div>
 
                 <div class="flex items-center justify-between text-xs text-neutral-400">
                   <span>Total de Votos:</span>
-                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-bolsonaro">0</span>
+                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-bolsonaro">142.169</span>
                 </div>
               </div>
             </div>
@@ -309,9 +309,9 @@
         <!-- TICKER DE DIFERENÇA EM VOTOS (ALTO IMPACTO EM TRANSMISSÕES) -->
         <div class="panel-dark rounded-xl px-4 py-2 flex items-center justify-between text-xs shrink-0">
           <div class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+            <span class="w-2 h-2 rounded-full bg-red-500"></span>
             <span class="font-bold text-neutral-300 uppercase tracking-wide text-[11px]">Vantagem Atual:</span>
-            <span class="font-extrabold text-white text-sm" id="ticker-vantagem">Calculando diferença...</span>
+            <span class="font-extrabold text-white text-sm" id="ticker-vantagem"><span class="text-red-400 font-black">LULA</span> lidera por <strong class="text-white font-num">+51.405</strong> votos (+15,32%)</span>
           </div>
           <div class="text-neutral-400 text-[11px]">
             Eleitorado Total: <strong class="text-white font-num">158.745.502</strong>
@@ -322,23 +322,23 @@
         <div class="grid grid-cols-4 gap-2 shrink-0">
           <div class="panel-dark rounded-xl p-2.5 text-center">
             <span class="text-[10px] uppercase font-bold text-neutral-400 block">Votos Válidos</span>
-            <span class="text-sm sm:text-base font-black text-white font-num block" id="stat-validos">0</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-validos-pct">0,00%</span>
+            <span class="text-sm sm:text-base font-black text-white font-num block" id="stat-validos">335.743</span>
+            <span class="text-[10px] text-neutral-400 block font-num" id="stat-validos-pct">97,30% do total</span>
           </div>
           <div class="panel-dark rounded-xl p-2.5 text-center">
             <span class="text-[10px] uppercase font-bold text-neutral-400 block">Brancos</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-brancos">0</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-brancos-pct">0,00%</span>
+            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-brancos">4.158</span>
+            <span class="text-[10px] text-neutral-400 block font-num" id="stat-brancos-pct">1,21% do total</span>
           </div>
           <div class="panel-dark rounded-xl p-2.5 text-center">
             <span class="text-[10px] uppercase font-bold text-neutral-400 block">Nulos</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-nulos">0</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-nulos-pct">0,00%</span>
+            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-nulos">5.153</span>
+            <span class="text-[10px] text-neutral-400 block font-num" id="stat-nulos-pct">1,49% do total</span>
           </div>
           <div class="panel-dark rounded-xl p-2.5 text-center">
             <span class="text-[10px] uppercase font-bold text-neutral-400 block">Abstenções</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-abstencoes">0</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-abstencoes-pct">0,00%</span>
+            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-abstencoes">337.841</span>
+            <span class="text-[10px] text-neutral-400 block font-num" id="stat-abstencoes-pct">49,47% dos eleitores</span>
           </div>
         </div>
 
