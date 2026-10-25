@@ -138,7 +138,7 @@
             Apuração <span class="text-[#2563EB]">Presidente</span> da República
           </h1>
           <p class="text-slate-400 text-sm max-w-xl mx-auto">
-            Resultados oficiais em tempo real do Tribunal Superior Eleitoral (TSE). Atualização automática a cada 30 segundos.
+            Resultados oficiais em tempo real do Tribunal Superior Eleitoral (TSE). Atualização automática a cada 5 segundos.
           </p>
         </div>
 
@@ -608,7 +608,7 @@
 
     // Início
     atualizar();
-    intervaloAtualizacao = setInterval(atualizar, 30000); // 30 segundos
+    intervaloAtualizacao = setInterval(atualizar, 5000); // 5 segundos
 
     // Visibilidade da página — pausar quando não visível
     document.addEventListener('visibilitychange', () => {
@@ -616,7 +616,7 @@
         clearInterval(intervaloAtualizacao);
       } else {
         atualizar();
-        intervaloAtualizacao = setInterval(atualizar, 30000);
+        intervaloAtualizacao = setInterval(atualizar, 5000);
       }
     });
   </script>
