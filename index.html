@@ -692,9 +692,13 @@
                   ${est.nome}
                 </span>
               </div>
-              <span class="font-num" style="font-size: 12px; color: #CBD5E1; font-weight: 800;">
-                <span style="color: #64748B; font-size: 11px; font-weight: 500;">apurado:</span> ${formataPercentual(pctApurado)}%
-              </span>
+              <div style="display: flex; align-items: baseline; gap: 4px; text-align: right;">
+                <span style="color: #64748B; font-size: 10px; font-weight: 700; text-transform: uppercase;">apurado:</span>
+                <!-- Porcentagem dos Estados com O DOBRO DO TAMANHO (24px) -->
+                <span class="font-num" style="font-size: 24px; color: #34D399; font-weight: 900; line-height: 1;">
+                  ${formataPercentual(pctApurado)}%
+                </span>
+              </div>
             </div>
 
             <!-- Linha 2: Percentuais e Barra Proporcional Espessa -->
