@@ -20,10 +20,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#030508">
 
-  <title>Apuração Presidente ao Vivo – Eleições 2026 | Transmissão 1080p</title>
-  <meta name="description" content="Acompanhe a apuração em tempo real do 2º turno das Eleições 2026 para Presidente da República e todos os 27 estados. Dados oficiais do TSE a cada 5 segundos.">
+  <title>ELEIÇÕES 2026 AO VIVO – APURAÇÃO PRESIDENTE | STREAMING 1080p</title>
+  <meta name="description" content="Transmissão ao vivo da apuração das Eleições 2026 para Presidente da República e todos os 27 estados. Dados oficiais do TSE sincronizados a cada 5 segundos.">
   <link rel="canonical" href="https://cidadaoagora.com.br/">
 
   <!-- Tailwind CSS -->
@@ -32,26 +32,22 @@
   <script src="js/lucide.min.js"></script>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800;900&family=JetBrains+Mono:wght@600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;0,700;0,800;0,900;1,800&family=JetBrains+Mono:wght@700;800;900&display=swap');
 
     * {
       box-sizing: border-box;
+      user-select: none;
     }
 
     html, body {
-      background-color: #000000;
+      background-color: #030508;
       color: #FFFFFF;
       font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       margin: 0;
       padding: 0;
-      overflow-x: hidden;
-    }
-
-    @media (min-width: 1280px) {
-      body {
-        height: 100vh;
-        overflow-y: hidden;
-      }
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
     }
 
     .font-num {
@@ -59,339 +55,351 @@
       font-variant-numeric: tabular-nums;
     }
 
-    /* Cores das Barras com Brilho Broadcast */
-    .bar-lula {
-      background: linear-gradient(90deg, #DC2626 0%, #EF4444 100%);
-      box-shadow: 0 0 16px rgba(239, 68, 68, 0.4);
-    }
-    .bar-bolsonaro {
-      background: linear-gradient(90deg, #2563EB 0%, #3B82F6 100%);
-      box-shadow: 0 0 16px rgba(59, 130, 246, 0.4);
+    /* Atmosfera de Estúdio de TV */
+    .studio-bg {
+      background: radial-gradient(circle at 15% 30%, rgba(220, 38, 38, 0.16) 0%, rgba(3, 5, 8, 0) 55%),
+                  radial-gradient(circle at 85% 30%, rgba(37, 99, 235, 0.16) 0%, rgba(3, 5, 8, 0) 55%),
+                  radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.10) 0%, rgba(3, 5, 8, 0) 50%),
+                  #030508;
     }
 
-    @keyframes live-ping {
+    /* Molduras de TV */
+    .card-broadcast {
+      background: linear-gradient(180deg, rgba(18, 22, 34, 0.85) 0%, rgba(9, 11, 18, 0.95) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.7);
+    }
+
+    .card-lula-studio {
+      background: linear-gradient(135deg, rgba(35, 10, 10, 0.9) 0%, rgba(15, 6, 8, 0.95) 100%);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      box-shadow: 0 0 40px -10px rgba(220, 38, 38, 0.25);
+    }
+
+    .card-bolsonaro-studio {
+      background: linear-gradient(135deg, rgba(8, 20, 45, 0.9) 0%, rgba(5, 10, 22, 0.95) 100%);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      box-shadow: 0 0 40px -10px rgba(37, 99, 235, 0.25);
+    }
+
+    /* Brilhos e Text Glows */
+    .glow-red {
+      text-shadow: 0 0 25px rgba(239, 68, 68, 0.65);
+    }
+    .glow-blue {
+      text-shadow: 0 0 25px rgba(59, 130, 246, 0.65);
+    }
+    .glow-green {
+      text-shadow: 0 0 20px rgba(16, 185, 129, 0.65);
+    }
+
+    /* Pulse ao Vivo */
+    @keyframes live-flash {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(1.15); }
+      50% { opacity: 0.3; transform: scale(1.2); }
     }
-    .live-pulse {
-      animation: live-ping 1.4s ease-in-out infinite;
+    .pulse-live {
+      animation: live-flash 1.4s ease-in-out infinite;
     }
 
-    /* Painéis com preto puro e bordas nítidas */
-    .panel-dark {
-      background-color: #070709;
-      border: 1px solid #1C1C22;
+    /* Barra Cabo de Guerra */
+    .bar-duel-red {
+      background: linear-gradient(90deg, #991B1B 0%, #EF4444 100%);
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.5);
     }
-    .panel-sub {
-      background-color: #030304;
-      border: 1px solid #16161A;
+    .bar-duel-blue {
+      background: linear-gradient(90deg, #3B82F6 0%, #1D4ED8 100%);
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+    }
+
+    /* Mini cards de estado */
+    .state-pill {
+      background: rgba(14, 18, 28, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      transition: all 0.2s ease;
+    }
+    .state-pill:hover {
+      background: rgba(22, 28, 44, 0.95);
+      border-color: rgba(255, 255, 255, 0.15);
     }
   </style>
 </head>
-<body class="bg-black text-white flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+<body class="studio-bg flex flex-col justify-between h-screen w-screen p-3 lg:p-4 select-none">
 
-  <!-- CABEÇALHO BROADCAST FULL HD -->
-  <header class="bg-[#050507] border-b border-[#18181F] shrink-0 z-50">
-    <div class="max-w-[1920px] mx-auto px-4 lg:px-6 h-13 flex items-center justify-between">
-      
-      <!-- Marca e Identificação do Pleito -->
-      <div class="flex items-center gap-3">
-        <a href="/" class="flex items-center gap-2">
-          <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-black text-sm shadow-md shadow-blue-600/30">
-            CA
+  <!-- ========================================== -->
+  <!-- 1. TOPO: HEADER BROADCAST DE TELEJORNAL -->
+  <!-- ========================================== -->
+  <header class="card-broadcast rounded-2xl px-4 py-2.5 flex items-center justify-between shrink-0 mb-2 border border-slate-800">
+    
+    <!-- Logo e Identificação -->
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 via-blue-600 to-indigo-500 flex items-center justify-center font-black text-white text-base shadow-lg shadow-blue-600/40">
+          CA
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-black text-lg tracking-tight text-white leading-none">CIDADÃO<span class="text-blue-500">AGORA</span></span>
+            <span class="px-2 py-0.5 rounded-md bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-black text-[10px] tracking-wider uppercase shadow-sm">
+              AO VIVO • YOUTUBE
+            </span>
           </div>
-          <div>
-            <div class="flex items-center gap-1.5 leading-none">
-              <span class="font-black text-base tracking-tight text-white">Cidadão<span class="text-blue-500">Agora</span></span>
-              <span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-400 border border-blue-500/30 uppercase tracking-wider">ELEIÇÕES 2026</span>
-            </div>
-            <p class="text-[9px] text-neutral-400 font-semibold tracking-wide uppercase mt-0.5">Totalização Presidencial • 2º Turno Oficial</p>
-          </div>
-        </a>
-      </div>
-
-      <!-- Relógio Oficial de Brasília e Indicadores Live -->
-      <div class="flex items-center gap-3 lg:gap-5">
-        
-        <!-- Relógio ao Vivo -->
-        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-lg panel-sub text-xs">
-          <i data-lucide="clock" class="w-3.5 h-3.5 text-neutral-400"></i>
-          <span class="text-neutral-400 text-[11px]">Brasília:</span>
-          <span class="font-bold text-white font-num text-[12px]" id="relogio-brasilia">--:--:--</span>
+          <span class="text-[10px] font-bold text-slate-400 tracking-wider uppercase block -mt-0.5">
+            ELEIÇÕES 2026 • 2º TURNO PRESIDENCIAL
+          </span>
         </div>
-
-        <!-- Badge AO VIVO -->
-        <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-red-950/90 border border-red-700/80 shadow-md shadow-red-950/50">
-          <span class="w-2.5 h-2.5 rounded-full bg-red-500 live-pulse"></span>
-          <span class="text-xs font-black tracking-wider text-red-200 uppercase">AO VIVO</span>
-        </div>
-
-        <!-- Indicador TSE -->
-        <div class="hidden md:flex items-center gap-1.5 text-xs text-neutral-400 font-semibold">
-          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-          <span class="text-neutral-300">TSE Oficial</span>
-        </div>
-
-        <!-- Contador Regressivo de 5s -->
-        <button onclick="forcarAtualizacao()" class="flex items-center gap-1.5 px-3 py-1 rounded-lg panel-sub hover:bg-neutral-900 border border-[#272730] text-xs transition cursor-pointer" title="Clique para sincronizar com o TSE">
-          <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5 text-blue-400"></i>
-          <span class="font-num font-bold text-neutral-200 text-xs" id="timer-txt">5s</span>
-        </button>
-
-        <a href="/index-original-backup" class="hidden xl:inline-flex items-center gap-1 px-3 py-1 rounded-lg panel-sub hover:bg-neutral-900 border border-[#272730] text-[11px] text-neutral-400 hover:text-white transition">
-          <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
-          <span>Serviços</span>
-        </a>
       </div>
     </div>
-  </header>
 
-  <!-- ÁREA PRINCIPAL FULL HD (WIDESCREEN 1920x1080) -->
-  <main class="max-w-[1920px] w-full mx-auto px-4 lg:px-6 py-2.5 lg:py-3.5 flex-1 flex flex-col justify-between gap-3">
-
-    <!-- LINHA DE TOPO: PROGRESSO NACIONAL DE SEÇÕES -->
-    <div class="panel-dark rounded-xl px-4 py-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shrink-0">
-      <div class="flex items-center gap-3">
-        <span class="text-xs font-extrabold uppercase tracking-wider text-neutral-300">Progresso Nacional</span>
-        <span class="text-neutral-500 text-xs">•</span>
-        <span class="text-xs text-neutral-400">
-          Seções Computadas: <strong class="text-white font-num text-sm" id="secoes-apuradas-num">1.225</strong> de <span class="font-num text-neutral-400">499.248</span>
+    <!-- Progresso Nacional de Seções (Centro do Topo) -->
+    <div class="flex items-center gap-4 bg-slate-950/70 border border-slate-800/80 rounded-xl px-4 py-1.5 shadow-inner">
+      <div class="text-right">
+        <span class="text-[9px] uppercase tracking-wider text-slate-400 font-bold block">Totalização Nacional</span>
+        <span class="text-xs font-black text-slate-300">
+          <strong class="text-white font-num text-sm" id="secoes-apuradas-num">1.225</strong> de <span class="font-num text-slate-400">499.248</span> seções
         </span>
       </div>
 
-      <!-- Barra de Urnas com Percentual Grande -->
-      <div class="flex items-center gap-3 sm:w-1/2 lg:w-2/5">
-        <div class="h-2.5 flex-1 bg-black rounded-full overflow-hidden border border-[#222228] p-0.5">
-          <div id="barra-secoes" class="h-full bg-emerald-500 rounded-full transition-all duration-500 shadow-md shadow-emerald-500/30" style="width: 0.25%;"></div>
+      <div class="w-32 lg:w-44 h-3 bg-slate-900 rounded-full overflow-hidden border border-slate-700 p-0.5">
+        <div id="barra-secoes" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-700 shadow-md shadow-emerald-500/50" style="width: 0.25%;"></div>
+      </div>
+
+      <div class="flex items-center gap-1.5">
+        <span class="text-2xl font-black text-emerald-400 font-num glow-green" id="secoes-pct-num">0,25%</span>
+        <span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 uppercase">
+          APURANDO
+        </span>
+      </div>
+    </div>
+
+    <!-- Status, Relógio e Sincronizador -->
+    <div class="flex items-center gap-3">
+      <!-- Badge Ao Vivo -->
+      <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-red-950/90 border border-red-700/80 shadow-md shadow-red-950/50">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-500 pulse-live"></span>
+        <span class="text-xs font-black tracking-widest text-red-100 uppercase">AO VIVO</span>
+      </div>
+
+      <!-- Relógio de Brasília -->
+      <div class="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-slate-950/80 border border-slate-800 text-xs">
+        <i data-lucide="clock" class="w-3.5 h-3.5 text-blue-400"></i>
+        <span class="font-bold text-white font-num text-sm" id="relogio-brasilia">17:44:12</span>
+      </div>
+
+      <!-- Contador 5s -->
+      <button onclick="forcarAtualizacao()" class="flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-300 hover:text-white transition cursor-pointer" title="Clique para sincronizar com o TSE">
+        <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5 text-blue-400"></i>
+        <span class="font-num font-bold text-xs" id="timer-txt">5s</span>
+      </button>
+    </div>
+
+  </header>
+
+  <!-- ======================================================= -->
+  <!-- 2. CORPO CENTRAL: PLACAR DE DUELO NACIONAL (VERSUS) -->
+  <!-- ======================================================= -->
+  <div class="grid grid-cols-12 gap-3 shrink-0 mb-2">
+
+    <!-- CARD LULA (13) -->
+    <div class="col-span-5 card-lula-studio rounded-3xl p-4 lg:p-5 relative overflow-hidden flex items-center justify-between border">
+      <!-- Glow Decorativo -->
+      <div class="absolute -right-10 -top-10 w-44 h-44 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Foto e Nome -->
+      <div class="flex items-center gap-4 z-10">
+        <div class="relative">
+          <div class="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl overflow-hidden border-2 border-red-500 shadow-2xl shadow-red-950/80 bg-slate-950">
+            <img 
+              id="foto-lula" 
+              src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002542548.jpeg" 
+              alt="Lula" 
+              class="w-full h-full object-cover object-top"
+              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23ef4444\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
+            />
+          </div>
+          <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-lg bg-red-600 text-white font-black text-xs shadow-lg border border-red-300">
+            13
+          </span>
         </div>
-        <div class="flex items-center gap-1.5 shrink-0">
-          <span class="text-xl sm:text-2xl font-black text-emerald-400 font-num tracking-tight" id="secoes-pct-num">0,25%</span>
-          <span id="status-texto" class="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-950 border border-blue-800 text-blue-300 uppercase">
-            Apurando
+
+        <div>
+          <div class="flex items-center gap-2 mb-0.5">
+            <span class="px-2 py-0.5 rounded bg-red-600/30 text-red-400 text-xs font-black border border-red-500/40">PT</span>
+            <span id="badge-lider-lula" class="px-2 py-0.5 rounded bg-red-600 text-white font-black text-[10px] uppercase tracking-wider shadow-sm">
+              LIDERANDO
+            </span>
+            <span id="badge-eleito-lula" class="hidden px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[10px] uppercase tracking-wider animate-pulse shadow-md shadow-emerald-600/50">
+              ✓ ELEITO
+            </span>
+          </div>
+          <h2 class="text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">LULA</h2>
+          <p class="text-xs text-slate-400">Luiz Inácio Lula da Silva</p>
+          <p class="text-[11px] text-slate-500">Vice: <strong class="text-slate-300">Geraldo Alckmin (PSB)</strong></p>
+        </div>
+      </div>
+
+      <!-- Percentual Gigante e Votos -->
+      <div class="text-right z-10">
+        <span class="text-xs uppercase font-extrabold tracking-wider text-red-400/90 block">Votos Válidos</span>
+        <div class="text-5xl lg:text-6xl font-black text-red-500 font-num tracking-tight glow-red leading-none mb-1" id="pct-lula">
+          57,66%
+        </div>
+        <div class="bg-black/60 rounded-xl px-3 py-1 border border-red-950/80 inline-block">
+          <span class="text-xs text-slate-400">Votos:</span>
+          <span class="text-base font-black text-white font-num ml-1" id="votos-lula">193.574</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CABO DE GUERRA / DIVISOR CENTRAL (VERSUS E BARRA DE 50%) -->
+    <div class="col-span-2 card-broadcast rounded-3xl p-3 flex flex-col justify-between items-center text-center">
+      
+      <!-- VS Badge -->
+      <div class="flex items-center justify-center">
+        <span class="px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-slate-400 font-black text-xs tracking-wider">
+          VS
+        </span>
+      </div>
+
+      <!-- Barra de Confronto Direto (50% no centro) -->
+      <div class="w-full space-y-1">
+        <div class="flex justify-between text-[10px] font-bold text-slate-400 px-1">
+          <span class="text-red-400 font-num" id="mini-lula">57,7%</span>
+          <span class="text-amber-400 text-[9px] uppercase tracking-wider">Meta: 50%</span>
+          <span class="text-blue-400 font-num" id="mini-bolsonaro">42,3%</span>
+        </div>
+        
+        <div class="h-3 w-full bg-black rounded-full overflow-hidden flex border border-slate-700 relative p-0.5">
+          <!-- Linha dos 50% -->
+          <div class="absolute inset-y-0 left-1/2 w-0.5 bg-yellow-400 z-20 shadow-md"></div>
+          
+          <div id="bar-versus-lula" class="h-full bar-duel-red rounded-l-full transition-all duration-700" style="width: 57.66%;"></div>
+          <div id="bar-versus-bolsonaro" class="h-full bar-duel-blue rounded-r-full transition-all duration-700" style="width: 42.34%;"></div>
+        </div>
+      </div>
+
+      <!-- Vantagem em Destaque -->
+      <div class="w-full bg-slate-950/80 rounded-xl py-1 px-2 border border-slate-800">
+        <span class="text-[9px] uppercase font-bold text-slate-400 block leading-tight">Diferença</span>
+        <span class="text-xs font-black text-white font-num" id="ticker-vantagem-resumo">+51.405 votos</span>
+      </div>
+
+    </div>
+
+    <!-- CARD FLÁVIO BOLSONARO (22) -->
+    <div class="col-span-5 card-bolsonaro-studio rounded-3xl p-4 lg:p-5 relative overflow-hidden flex items-center justify-between border">
+      <!-- Glow Decorativo -->
+      <div class="absolute -left-10 -top-10 w-44 h-44 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+      <!-- Percentual Gigante e Votos -->
+      <div class="text-left z-10 order-2 sm:order-1">
+        <span class="text-xs uppercase font-extrabold tracking-wider text-blue-400/90 block">Votos Válidos</span>
+        <div class="text-5xl lg:text-6xl font-black text-blue-500 font-num tracking-tight glow-blue leading-none mb-1" id="pct-bolsonaro">
+          42,34%
+        </div>
+        <div class="bg-black/60 rounded-xl px-3 py-1 border border-blue-950/80 inline-block">
+          <span class="text-xs text-slate-400">Votos:</span>
+          <span class="text-base font-black text-white font-num ml-1" id="votos-bolsonaro">142.169</span>
+        </div>
+      </div>
+
+      <!-- Foto e Nome -->
+      <div class="flex items-center gap-4 z-10 order-1 sm:order-2">
+        <div class="text-right">
+          <div class="flex items-center justify-end gap-2 mb-0.5">
+            <span id="badge-eleito-bolsonaro" class="hidden px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[10px] uppercase tracking-wider animate-pulse shadow-md shadow-emerald-600/50">
+              ✓ ELEITO
+            </span>
+            <span id="badge-lider-bolsonaro" class="hidden px-2 py-0.5 rounded bg-blue-600 text-white font-black text-[10px] uppercase tracking-wider shadow-sm">
+              LIDERANDO
+            </span>
+            <span class="px-2 py-0.5 rounded bg-blue-600/30 text-blue-400 text-xs font-black border border-blue-500/40">PL</span>
+          </div>
+          <h2 class="text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">FLÁVIO BOLSONARO</h2>
+          <p class="text-xs text-slate-400">Flávio Nantes Bolsonaro</p>
+          <p class="text-[11px] text-slate-500">Vice: <strong class="text-slate-300">Alfredo Gaspar (PL)</strong></p>
+        </div>
+
+        <div class="relative">
+          <div class="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl overflow-hidden border-2 border-blue-500 shadow-2xl shadow-blue-950/80 bg-slate-950">
+            <img 
+              id="foto-bolsonaro" 
+              src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002551544.jpeg" 
+              alt="Flávio Bolsonaro" 
+              class="w-full h-full object-cover object-top"
+              onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'96\' height=\'96\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%233b82f6\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
+            />
+          </div>
+          <span class="absolute -bottom-1.5 -left-1.5 px-2 py-0.5 rounded-lg bg-blue-600 text-white font-black text-xs shadow-lg border border-blue-300">
+            22
           </span>
         </div>
       </div>
     </div>
 
-    <!-- CORPO EM DUAS COLUNAS: ESQUERDA (PLACAR NACIONAL) | DIREITA (TODOS OS 27 ESTADOS) -->
-    <div class="grid grid-cols-1 xl:grid-cols-12 gap-3 flex-1 min-h-0">
+  </div>
 
-      <!-- COLUNA ESQUERDA: DUELO PRESIDENCIAL (7 COLUNAS EM 1080p) -->
-      <div class="xl:col-span-7 flex flex-col justify-between gap-3 min-h-0">
-        
-        <!-- CARDS DOS CANDIDATOS LADO A LADO -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1 min-h-0">
-
-          <!-- CARD 1: LULA (13) -->
-          <div class="panel-dark rounded-2xl p-4 lg:p-5 relative overflow-hidden flex flex-col justify-between border-t-4 border-t-red-600 shadow-xl">
-            <div>
-              <!-- Cabeçalho do Card: Foto Grande, Número, Nome -->
-              <div class="flex items-center gap-3.5 mb-3">
-                <div class="relative shrink-0">
-                  <div class="w-18 h-18 sm:w-20 sm:h-20 lg:w-22 lg:h-22 rounded-2xl overflow-hidden border-2 border-red-600/80 bg-black shadow-lg shadow-red-950/60">
-                    <img 
-                      id="foto-lula" 
-                      src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002542548.jpeg" 
-                      alt="Lula" 
-                      class="w-full h-full object-cover object-top"
-                      onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23ef4444\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
-                    />
-                  </div>
-                  <span class="absolute -bottom-1 -right-1 px-2 py-0.5 rounded-md bg-red-600 text-white font-black text-xs shadow-md border border-red-400">
-                    13
-                  </span>
-                </div>
-
-                <div class="min-w-0 flex-1">
-                  <div class="flex items-center gap-2 mb-0.5">
-                    <span class="px-2 py-0.5 rounded bg-red-600/25 text-red-400 text-xs font-black border border-red-600/40">PT</span>
-                    <span id="badge-lider-lula" class="text-[10px] px-2 py-0.5 rounded bg-red-600 text-white font-black uppercase tracking-wider">
-                      LIDERANDO
-                    </span>
-                    <span id="badge-eleito-lula" class="hidden text-[10px] px-2 py-0.5 rounded bg-emerald-600 text-white font-black uppercase tracking-wider animate-pulse">
-                      ✓ ELEITO
-                    </span>
-                  </div>
-                  <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">LULA</h2>
-                  <p class="text-xs text-neutral-400">Luiz Inácio Lula da Silva</p>
-                  <p class="text-[11px] text-neutral-400 mt-0.5">Vice: <span class="text-neutral-300 font-semibold">Geraldo Alckmin (PSB)</span></p>
-                </div>
-              </div>
-
-              <!-- Grande Percentual de Votos (Visível no YouTube) -->
-              <div class="panel-sub rounded-xl p-3.5 mb-2">
-                <div class="flex items-baseline justify-between mb-1">
-                  <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">Votos Válidos</span>
-                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-red-500 font-num tracking-tight" id="pct-lula">57,66%</span>
-                </div>
-
-                <!-- Barra de Progresso do Candidato -->
-                <div class="h-3.5 w-full bg-black rounded-full overflow-hidden p-0.5 border border-[#222228] mb-2">
-                  <div id="barra-lula" class="h-full bar-lula rounded-full transition-all duration-500" style="width: 57.66%;"></div>
-                </div>
-
-                <div class="flex items-center justify-between text-xs text-neutral-400">
-                  <span>Total de Votos:</span>
-                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-lula">193.574</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text-[10px] text-neutral-400 flex items-center justify-between pt-1 border-t border-[#18181F]">
-              <span>Coligação Brasil Pronto Pra Mais</span>
-              <span>PT/PSB/PDT/PCdoB/PV/PSOL/REDE</span>
-            </div>
-          </div>
-
-          <!-- CARD 2: FLÁVIO BOLSONARO (22) -->
-          <div class="panel-dark rounded-2xl p-4 lg:p-5 relative overflow-hidden flex flex-col justify-between border-t-4 border-t-blue-600 shadow-xl">
-            <div>
-              <!-- Cabeçalho do Card: Foto Grande, Número, Nome -->
-              <div class="flex items-center gap-3.5 mb-3">
-                <div class="relative shrink-0">
-                  <div class="w-18 h-18 sm:w-20 sm:h-20 lg:w-22 lg:h-22 rounded-2xl overflow-hidden border-2 border-blue-600/80 bg-black shadow-lg shadow-blue-950/60">
-                    <img 
-                      id="foto-bolsonaro" 
-                      src="https://resultados.tse.jus.br/oficial/ele2026/6258/fotos/br/280002551544.jpeg" 
-                      alt="Flávio Bolsonaro" 
-                      class="w-full h-full object-cover object-top"
-                      onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%233b82f6\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M6 20v-2a6 6 0 0 1 12 0v2\'/></svg>';"
-                    />
-                  </div>
-                  <span class="absolute -bottom-1 -right-1 px-2 py-0.5 rounded-md bg-blue-600 text-white font-black text-xs shadow-md border border-blue-400">
-                    22
-                  </span>
-                </div>
-
-                <div class="min-w-0 flex-1">
-                  <div class="flex items-center gap-2 mb-0.5">
-                    <span class="px-2 py-0.5 rounded bg-blue-600/25 text-blue-400 text-xs font-black border border-blue-600/40">PL</span>
-                    <span id="badge-lider-bolsonaro" class="hidden text-[10px] px-2 py-0.5 rounded bg-blue-600 text-white font-black uppercase tracking-wider">
-                      LIDERANDO
-                    </span>
-                    <span id="badge-eleito-bolsonaro" class="hidden text-[10px] px-2 py-0.5 rounded bg-emerald-600 text-white font-black uppercase tracking-wider animate-pulse">
-                      ✓ ELEITO
-                    </span>
-                  </div>
-                  <h2 class="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight leading-tight">FLÁVIO BOLSONARO</h2>
-                  <p class="text-xs text-neutral-400">Flávio Nantes Bolsonaro</p>
-                  <p class="text-[11px] text-neutral-400 mt-0.5">Vice: <span class="text-neutral-300 font-semibold">Alfredo Gaspar (PL)</span></p>
-                </div>
-              </div>
-
-              <!-- Grande Percentual de Votos (Visível no YouTube) -->
-              <div class="panel-sub rounded-xl p-3.5 mb-2">
-                <div class="flex items-baseline justify-between mb-1">
-                  <span class="text-xs font-bold uppercase tracking-wider text-neutral-400">Votos Válidos</span>
-                  <span class="text-4xl sm:text-5xl lg:text-6xl font-black text-blue-500 font-num tracking-tight" id="pct-bolsonaro">42,34%</span>
-                </div>
-
-                <!-- Barra de Progresso do Candidato -->
-                <div class="h-3.5 w-full bg-black rounded-full overflow-hidden p-0.5 border border-[#222228] mb-2">
-                  <div id="barra-bolsonaro" class="h-full bar-bolsonaro rounded-full transition-all duration-500" style="width: 42.34%;"></div>
-                </div>
-
-                <div class="flex items-center justify-between text-xs text-neutral-400">
-                  <span>Total de Votos:</span>
-                  <span class="text-base sm:text-lg font-black text-white font-num" id="votos-bolsonaro">142.169</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="text-[10px] text-neutral-400 flex items-center justify-between pt-1 border-t border-[#18181F]">
-              <span>Partido Liberal</span>
-              <span>Candidatura Própria (PL)</span>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- TICKER DE DIFERENÇA EM VOTOS (ALTO IMPACTO EM TRANSMISSÕES) -->
-        <div class="panel-dark rounded-xl px-4 py-2 flex items-center justify-between text-xs shrink-0">
-          <div class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-red-500"></span>
-            <span class="font-bold text-neutral-300 uppercase tracking-wide text-[11px]">Vantagem Atual:</span>
-            <span class="font-extrabold text-white text-sm" id="ticker-vantagem"><span class="text-red-400 font-black">LULA</span> lidera por <strong class="text-white font-num">+51.405</strong> votos (+15,32%)</span>
-          </div>
-          <div class="text-neutral-400 text-[11px]">
-            Eleitorado Total: <strong class="text-white font-num">158.745.502</strong>
-          </div>
-        </div>
-
-        <!-- INDICADORES RESUMO GERAL (LINHA ÚNICA SLIM) -->
-        <div class="grid grid-cols-4 gap-2 shrink-0">
-          <div class="panel-dark rounded-xl p-2.5 text-center">
-            <span class="text-[10px] uppercase font-bold text-neutral-400 block">Votos Válidos</span>
-            <span class="text-sm sm:text-base font-black text-white font-num block" id="stat-validos">335.743</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-validos-pct">97,30% do total</span>
-          </div>
-          <div class="panel-dark rounded-xl p-2.5 text-center">
-            <span class="text-[10px] uppercase font-bold text-neutral-400 block">Brancos</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-brancos">4.158</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-brancos-pct">1,21% do total</span>
-          </div>
-          <div class="panel-dark rounded-xl p-2.5 text-center">
-            <span class="text-[10px] uppercase font-bold text-neutral-400 block">Nulos</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-nulos">5.153</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-nulos-pct">1,49% do total</span>
-          </div>
-          <div class="panel-dark rounded-xl p-2.5 text-center">
-            <span class="text-[10px] uppercase font-bold text-neutral-400 block">Abstenções</span>
-            <span class="text-sm sm:text-base font-black text-neutral-300 font-num block" id="stat-abstencoes">337.841</span>
-            <span class="text-[10px] text-neutral-400 block font-num" id="stat-abstencoes-pct">49,47% dos eleitores</span>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- COLUNA DIREITA: TODOS OS 27 ESTADOS SIMULTANEAMENTE (5 COLUNAS EM 1080p) -->
-      <div class="xl:col-span-5 panel-dark rounded-2xl p-3 sm:p-4 flex flex-col justify-between min-h-0 shadow-xl">
-        
-        <!-- Cabeçalho dos Estados -->
-        <div class="flex items-center justify-between pb-2 border-b border-[#18181F] shrink-0 mb-2">
-          <div class="flex items-center gap-2">
-            <i data-lucide="map" class="w-4 h-4 text-blue-400"></i>
-            <h3 class="text-xs sm:text-sm font-black text-white uppercase tracking-wider">
-              Apuração nos 27 Estados (UFs)
-            </h3>
-          </div>
-          <span class="text-[10px] text-neutral-400 font-bold uppercase tracking-wider">
-            Visão Geral Completa
-          </span>
-        </div>
-
-        <!-- GRADE COM OS 27 ESTADOS EM 3 COLUNAS DE 9 (SEM NECESSIDADE DE SCROLL EM 1080p) -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-1.5 flex-1 min-h-0 overflow-y-auto xl:overflow-visible" id="grade-estados-container">
-          <!-- Gerado dinamicamente com 27 cards compactos -->
-        </div>
-
-        <div class="pt-2 border-t border-[#18181F] flex items-center justify-between text-[10px] text-neutral-400 shrink-0 mt-2">
-          <span><span class="w-2 h-2 rounded-full bg-red-500 inline-block mr-1"></span>Lula</span>
-          <span><span class="w-2 h-2 rounded-full bg-blue-500 inline-block mr-1"></span>Flávio Bolsonaro</span>
-          <span>Atualização automática a cada 5 segundos</span>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- RODAPÉ COMPACTO DO BROADCAST -->
-    <footer class="panel-sub rounded-lg px-4 py-1.5 flex flex-col sm:flex-row items-center justify-between text-[10px] text-neutral-400 shrink-0">
+  <!-- ======================================================= -->
+  <!-- 3. PAINEL DOS 27 ESTADOS (GRADE BROADCAST COMPLETA) -->
+  <!-- ======================================================= -->
+  <div class="card-broadcast rounded-2xl p-3 flex-1 flex flex-col justify-between overflow-hidden border border-slate-800">
+    
+    <!-- Cabeçalho do Painel de Estados -->
+    <div class="flex items-center justify-between pb-1.5 border-b border-slate-800/80 shrink-0">
       <div class="flex items-center gap-2">
-        <strong class="text-neutral-300">Cidadão Agora</strong>
-        <span>•</span>
-        <span>Transmissão Oficial das Eleições 2026 (Formato 1920 × 1080 Full HD)</span>
+        <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+        <h3 class="text-xs font-black uppercase tracking-wider text-white">
+          Apuração Simultânea nos 27 Estados (Unidades da Federação)
+        </h3>
       </div>
-      <div class="flex items-center gap-3">
-        <span>Fonte: Tribunal Superior Eleitoral (TSE)</span>
-        <span>•</span>
-        <span>Última sincronização: <strong id="timestamp-leitura" class="text-white font-num">--:--:--</strong></span>
+      <div class="flex items-center gap-4 text-[10px] text-slate-400 font-bold uppercase">
+        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-red-500"></span> Lula</span>
+        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-blue-500"></span> Bolsonaro</span>
+        <span class="text-slate-500">•</span>
+        <span class="text-emerald-400">Ao Vivo do TSE</span>
       </div>
-    </footer>
+    </div>
 
-  </main>
+    <!-- GRADE DOS 27 ESTADOS EM 3 COLUNAS DE 9 (OU 4 COLUNAS) -->
+    <!-- 27 estados cabem perfeitamente em 3 colunas de 9 ou 4 colunas! -->
+    <div class="grid grid-cols-3 gap-x-3 gap-y-1 py-1.5 flex-1 items-center" id="grade-estados-container">
+      <!-- Inserido dinamicamente pelo JavaScript (27 cards) -->
+    </div>
 
-  <!-- JAVASCRIPT EM TEMPO REAL COM DISPOSIÇÃO 27 UFs -->
+  </div>
+
+  <!-- ======================================================= -->
+  <!-- 4. RODAPÉ BROADCAST COM CHYRON / TICKER DE NOTÍCIAS -->
+  <!-- ======================================================= -->
+  <footer class="card-broadcast rounded-xl px-4 py-1.5 flex items-center justify-between text-xs shrink-0 mt-2 border border-slate-800">
+    
+    <!-- Dados Consolidados -->
+    <div class="flex items-center gap-4 text-[11px] font-bold text-slate-400">
+      <span>Válidos: <strong class="text-white font-num" id="stat-validos">335.743</strong> (<span id="stat-validos-pct" class="font-num">97,30%</span>)</span>
+      <span class="text-slate-700">|</span>
+      <span>Brancos: <strong class="text-slate-300 font-num" id="stat-brancos">4.158</strong> (<span id="stat-brancos-pct" class="font-num">1,21%</span>)</span>
+      <span class="text-slate-700">|</span>
+      <span>Nulos: <strong class="text-slate-300 font-num" id="stat-nulos">5.153</strong> (<span id="stat-nulos-pct" class="font-num">1,49%</span>)</span>
+      <span class="text-slate-700">|</span>
+      <span>Abstenções: <strong class="text-slate-300 font-num" id="stat-abstencoes">337.841</strong> (<span id="stat-abstencoes-pct" class="font-num">49,47%</span>)</span>
+    </div>
+
+    <!-- Ticker de Vantagem Oficial -->
+    <div class="flex items-center gap-2 text-[11px]">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 live-pulse"></span>
+      <span class="text-slate-400 font-bold uppercase text-[10px]">Situação:</span>
+      <span class="font-black text-white" id="ticker-vantagem">
+        <span class="text-red-400">LULA</span> lidera por <strong class="text-white font-num">+51.405</strong> votos (+15,32%)
+      </span>
+      <span class="text-slate-700 ml-2">|</span>
+      <span class="text-[10px] text-slate-500 font-medium ml-1">Fonte: TSE Oficial (resultados.tse.jus.br)</span>
+    </div>
+
+  </footer>
+
+  <!-- ======================================================= -->
+  <!-- SCRIPT DE DADOS EM TEMPO REAL COM O TSE -->
+  <!-- ======================================================= -->
   <script>
     if (window.lucide) window.lucide.createIcons();
 
@@ -399,7 +407,7 @@
     const ELEICAO_ID = 'e006258';
     const CARGO_PRESIDENTE = 'c0001';
 
-    // 27 Estados em ordem alfabética para distribuição equilibrada em 3 colunas de 9
+    // 27 Estados distribuídos em 3 colunas de 9
     const ESTADOS = [
       { uf: 'ac', nome: 'Acre' },
       { uf: 'al', nome: 'Alagoas' },
@@ -407,12 +415,12 @@
       { uf: 'ap', nome: 'Amapá' },
       { uf: 'ba', nome: 'Bahia' },
       { uf: 'ce', nome: 'Ceará' },
-      { uf: 'df', nome: 'Distrito Fed.' },
+      { uf: 'df', nome: 'Distrito Federal' },
       { uf: 'es', nome: 'Espírito Santo' },
       { uf: 'go', nome: 'Goiás' },
       { uf: 'ma', nome: 'Maranhão' },
       { uf: 'mg', nome: 'Minas Gerais' },
-      { uf: 'ms', nome: 'Mato Grosso Sul' },
+      { uf: 'ms', nome: 'Mato Grosso do Sul' },
       { uf: 'mt', nome: 'Mato Grosso' },
       { uf: 'pa', nome: 'Pará' },
       { uf: 'pb', nome: 'Paraíba' },
@@ -420,10 +428,10 @@
       { uf: 'pi', nome: 'Piauí' },
       { uf: 'pr', nome: 'Paraná' },
       { uf: 'rj', nome: 'Rio de Janeiro' },
-      { uf: 'rn', nome: 'Rio Grande Norte' },
+      { uf: 'rn', nome: 'Rio Grande do Norte' },
       { uf: 'ro', nome: 'Rondônia' },
       { uf: 'rr', nome: 'Roraima' },
-      { uf: 'rs', nome: 'Rio Grande Sul' },
+      { uf: 'rs', nome: 'Rio Grande do Sul' },
       { uf: 'sc', nome: 'Santa Catarina' },
       { uf: 'se', nome: 'Sergipe' },
       { uf: 'sp', nome: 'São Paulo' },
@@ -435,11 +443,11 @@
     let timerContador = null;
     let emRequisicao = false;
 
-    // Atualiza o relógio oficial a cada segundo
+    // Relógio ao Vivo
     setInterval(() => {
       const agora = new Date();
-      const elRelogio = document.getElementById('relogio-brasilia');
-      if (elRelogio) elRelogio.textContent = agora.toLocaleTimeString('pt-BR');
+      const el = document.getElementById('relogio-brasilia');
+      if (el) el.textContent = agora.toLocaleTimeString('pt-BR');
     }, 1000);
 
     function formataNumero(val) {
@@ -460,6 +468,7 @@
       return isNaN(f) ? 0 : f;
     }
 
+    // Busca consolidada nacional
     async function carregarDadosNacionais() {
       if (emRequisicao) return;
       emRequisicao = true;
@@ -474,11 +483,9 @@
         if (resposta.ok) {
           const dados = await resposta.json();
           processarDadosNacionais(dados);
-          const agora = new Date();
-          document.getElementById('timestamp-leitura').textContent = agora.toLocaleTimeString('pt-BR');
         }
       } catch (err) {
-        console.warn('Sincronização em andamento:', err);
+        console.warn('Erro na sincronização nacional:', err);
       } finally {
         emRequisicao = false;
         if (iconRefresh) iconRefresh.classList.remove('animate-spin');
@@ -497,18 +504,6 @@
       document.getElementById('secoes-apuradas-num').textContent = formataNumero(secoesApuradas);
       document.getElementById('secoes-pct-num').textContent = formataPercentual(pctSecoes) + '%';
       document.getElementById('barra-secoes').style.width = Math.min(100, Math.max(0, pctSecoesNum)) + '%';
-
-      const statusEl = document.getElementById('status-texto');
-      if (secoesApuradas === 0) {
-        statusEl.textContent = 'Aguardando 17h';
-        statusEl.className = 'text-[10px] font-bold px-2 py-0.5 rounded bg-amber-950 border border-amber-800 text-amber-300 uppercase';
-      } else if (pctSecoesNum >= 100) {
-        statusEl.textContent = '100% Apurado';
-        statusEl.className = 'text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-950 border border-emerald-800 text-emerald-300 uppercase';
-      } else {
-        statusEl.textContent = `Apurando: ${formataPercentual(pctSecoes)}%`;
-        statusEl.className = 'text-[10px] font-bold px-2 py-0.5 rounded bg-blue-950 border border-blue-800 text-blue-300 uppercase';
-      }
 
       let votosLula = 0, pctLula = '0,00', eleitoLula = false;
       let votosBolsonaro = 0, pctBolsonaro = '0,00', eleitoBolsonaro = false;
@@ -533,13 +528,23 @@
       const numPctLula = extrairNumero(pctLula);
       const numPctBolsonaro = extrairNumero(pctBolsonaro);
 
+      // Placar Lula
       document.getElementById('votos-lula').textContent = formataNumero(votosLula);
       document.getElementById('pct-lula').textContent = formataPercentual(pctLula) + '%';
-      document.getElementById('barra-lula').style.width = Math.min(100, Math.max(0, numPctLula)) + '%';
+      document.getElementById('mini-lula').textContent = formataPercentual(pctLula) + '%';
 
+      // Placar Bolsonaro
       document.getElementById('votos-bolsonaro').textContent = formataNumero(votosBolsonaro);
       document.getElementById('pct-bolsonaro').textContent = formataPercentual(pctBolsonaro) + '%';
-      document.getElementById('barra-bolsonaro').style.width = Math.min(100, Math.max(0, numPctBolsonaro)) + '%';
+      document.getElementById('mini-bolsonaro').textContent = formataPercentual(pctBolsonaro) + '%';
+
+      // Barra Duelo Cabo de Guerra
+      const barLula = document.getElementById('bar-versus-lula');
+      const barBolsonaro = document.getElementById('bar-versus-bolsonaro');
+      if (barLula && barBolsonaro) {
+        barLula.style.width = Math.min(100, Math.max(0, numPctLula)) + '%';
+        barBolsonaro.style.width = Math.min(100, Math.max(0, numPctBolsonaro)) + '%';
+      }
 
       // Badges Liderando / Eleito
       const badgeLiderLula = document.getElementById('badge-lider-lula');
@@ -560,22 +565,29 @@
         }
       }
 
-      // Ticker de Vantagem / Diferença em Votos
+      // Ticker Diferença
       const diffVotos = Math.abs(votosLula - votosBolsonaro);
       const diffPct = Math.abs(numPctLula - numPctBolsonaro).toFixed(2).replace('.', ',');
+      
+      const tickerResumo = document.getElementById('ticker-vantagem-resumo');
+      if (tickerResumo) {
+        tickerResumo.textContent = `+${formataNumero(diffVotos)} votos`;
+      }
+
       const tickerEl = document.getElementById('ticker-vantagem');
       if (tickerEl) {
         if (secoesApuradas === 0) {
-          tickerEl.textContent = 'Aguardando apuração';
+          tickerEl.textContent = 'Aguardando início da apuração';
         } else if (votosLula > votosBolsonaro) {
           tickerEl.innerHTML = `<span class="text-red-400 font-black">LULA</span> lidera por <strong class="text-white font-num">+${formataNumero(diffVotos)}</strong> votos (+${diffPct}%)`;
         } else if (votosBolsonaro > votosLula) {
           tickerEl.innerHTML = `<span class="text-blue-400 font-black">FLÁVIO BOLSONARO</span> lidera por <strong class="text-white font-num">+${formataNumero(diffVotos)}</strong> votos (+${diffPct}%)`;
         } else {
-          tickerEl.textContent = 'Empate rigoroso em votos';
+          tickerEl.textContent = 'Empate técnico';
         }
       }
 
+      // Resumo Geral de Votos
       const votosObj = dados.v || {};
       const eleitoresObj = dados.e || {};
 
@@ -584,12 +596,13 @@
       document.getElementById('stat-nulos').textContent = formataNumero(votosObj.vn || 0);
       document.getElementById('stat-abstencoes').textContent = formataNumero(eleitoresObj.a || 0);
 
-      document.getElementById('stat-validos-pct').textContent = formataPercentual(votosObj.pvv || '0,00') + '% do total';
-      document.getElementById('stat-brancos-pct').textContent = formataPercentual(votosObj.pvb || '0,00') + '% do total';
-      document.getElementById('stat-nulos-pct').textContent = formataPercentual(votosObj.pvn || '0,00') + '% do total';
-      document.getElementById('stat-abstencoes-pct').textContent = formataPercentual(eleitoresObj.pa || '0,00') + '% dos eleitores';
+      document.getElementById('stat-validos-pct').textContent = formataPercentual(votosObj.pvv || '0,00') + '%';
+      document.getElementById('stat-brancos-pct').textContent = formataPercentual(votosObj.pvb || '0,00') + '%';
+      document.getElementById('stat-nulos-pct').textContent = formataPercentual(votosObj.pvn || '0,00') + '%';
+      document.getElementById('stat-abstencoes-pct').textContent = formataPercentual(eleitoresObj.pa || '0,00') + '%';
     }
 
+    // Busca de todos os 27 estados
     async function carregarTodosEstados() {
       const requisicoes = ESTADOS.map(async (est) => {
         try {
@@ -613,7 +626,7 @@
       renderizarGradeEstados();
     }
 
-    // Renderiza os 27 estados na tela ao mesmo tempo
+    // Renderiza os 27 cards compactos e elegantes
     function renderizarGradeEstados() {
       const container = document.getElementById('grade-estados-container');
       if (!container) return;
@@ -646,28 +659,39 @@
         const nPctBolsonaro = extrairNumero(pctBolsonaro);
         const nPctApurado = extrairNumero(pctApurado);
 
-        let bordaDestaque = 'border-[#1C1C24]';
+        let badgeLiderCor = 'bg-slate-800 text-slate-300';
         if (nPctApurado > 0) {
-          if (nPctLula > nPctBolsonaro) bordaDestaque = 'border-l-2 border-l-red-500 border-[#1C1C24]';
-          else if (nPctBolsonaro > nPctLula) bordaDestaque = 'border-l-2 border-l-blue-500 border-[#1C1C24]';
+          if (nPctLula > nPctBolsonaro) badgeLiderCor = 'bg-red-600 text-white font-black shadow-sm';
+          else if (nPctBolsonaro > nPctLula) badgeLiderCor = 'bg-blue-600 text-white font-black shadow-sm';
         }
 
         return `
-          <div class="panel-sub rounded-lg px-2.5 py-1.5 ${bordaDestaque} flex flex-col justify-between">
-            <div class="flex items-center justify-between text-[11px] mb-1">
-              <span class="font-black text-white flex items-center gap-1">
-                <span class="text-blue-400 font-num">${est.uf.toUpperCase()}</span>
-                <span class="text-[9px] text-neutral-400 font-medium truncate max-w-[65px]">${est.nome}</span>
+          <div class="state-pill rounded-lg px-2 py-1 flex items-center justify-between text-[11px]">
+            <!-- UF e Nome -->
+            <div class="flex items-center gap-1.5 min-w-[70px]">
+              <span class="w-5 h-4.5 rounded text-[10px] flex items-center justify-center ${badgeLiderCor}">
+                ${est.uf.toUpperCase()}
               </span>
-              <span class="text-[10px] text-neutral-400 font-num">${formataPercentual(pctApurado)}%</span>
+              <span class="text-[9px] text-slate-400 font-medium truncate max-w-[50px] hidden xl:inline">
+                ${est.nome}
+              </span>
             </div>
-            
-            <div class="flex items-center justify-between text-[10px] font-num font-bold">
+
+            <!-- Apurado -->
+            <span class="text-[10px] text-slate-500 font-num min-w-[32px] text-right">
+              ${formataPercentual(pctApurado)}%
+            </span>
+
+            <!-- Barra Proporcional Dupla -->
+            <div class="h-2 w-14 lg:w-20 bg-black rounded-full overflow-hidden flex mx-1.5 border border-slate-800 p-0.2">
+              <div class="h-full bg-red-600" style="width: ${nPctLula}%;"></div>
+              <div class="h-full bg-blue-600" style="width: ${nPctBolsonaro}%;"></div>
+            </div>
+
+            <!-- Percentuais dos dois -->
+            <div class="flex items-center gap-1.5 text-[10px] font-num font-bold min-w-[75px] justify-end">
               <span class="text-red-400">${formataPercentual(pctLula)}%</span>
-              <div class="h-1 flex-1 mx-2 bg-black rounded-full overflow-hidden flex">
-                <div class="h-full bg-red-600" style="width: ${nPctLula}%"></div>
-                <div class="h-full bg-blue-600" style="width: ${nPctBolsonaro}%"></div>
-              </div>
+              <span class="text-slate-600 font-normal">x</span>
               <span class="text-blue-400">${formataPercentual(pctBolsonaro)}%</span>
             </div>
           </div>
@@ -677,6 +701,7 @@
       container.innerHTML = cardsHtml;
     }
 
+    // Loop de 5 segundos
     function iniciarCicloAtualizacao() {
       tempoRestante = 5;
       if (timerContador) clearInterval(timerContador);
@@ -702,6 +727,7 @@
       executarCiclo();
     }
 
+    // Inicialização Imediata
     executarCiclo();
     iniciarCicloAtualizacao();
 
