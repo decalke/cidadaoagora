@@ -1,11 +1,24 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "26/10/2026 às 19:07:04",
+  "ultima_atualizacao": "26/10/2026 às 23:41:17",
   "total": 20,
   "atualidades": [
     {
+      "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
+      "resumo": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais.\n\nO dólar fechou em alta de ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais.\n\nO dólar fechou em alta de 8,21%, a R$ 5,403. O Ibovespa, principal índice da Bolsa de Valores brasileira, recuou 13,88% e atingiu os 176.608,23 pontos. Durante a manhã, a bolsa acionou o mecanismo de circuit breaker, que interrompe temporariamente as negociações diante de quedas acentuadas.\n\nNotícias relacionadas:Líderes estrangeiros reconhecem vitória e parabenizam Lula.Nas redes sociais, líderes latino-americanos saúdam Lula pela vitória.Imprensa internacional destaca vitória histórica de Lula.Principais números do dia:\n\n\n\tDólar: R$ 5,403 (+8,21%);\n\tMáxima do dólar: R$ 5,6049 durante a manhã;\n\tIbovespa: 176.608,23 pontos (-13,88%);\n\tMínima do Ibovespa: 169.516,43 pontos, recuo superior a 17%.\n\tDólar em outubro: alta acumulada de 4,40%.\n\tIbovespa em outubro: queda acumulada de 5,22%.\n\tIbovespa em 2026: valorização acumulada de 9,61%.\n\n\nDólar tem disparada histórica\n\nO dólar comercial encerrou a sessão em alta de 8,21%, cotado a R$ 5,403. Foi a maior valorização percentual diária da moeda americana desde 13 de janeiro de 1999, período marcado por mudanças no regime cambial brasileiro.\n\nDurante a manhã, a divisa chegou a R$ 5,605, ultrapassando a marca de R$ 5,60. Ao longo do dia, porém, perdeu força e recuou para a faixa de R$ 5,40, em um movimento de realização de lucros (venda de dinheiro para embolsar ganhos) e entrada de recursos de exportadores que aproveitaram a alta para internalizar divisas.\n\nO resultado eleitoral alterou as posições que investidores haviam montado antes da votação. Parte do mercado esperava a vitória de Flávio Bolsonaro, que havia liderado o primeiro turno, e precisou ajustar suas estratégias após a confirmação da reeleição de Lula.\n\nO Tesouro Nacional também atuou no mercado por meio da recompra de títulos públicos. Apesar da disparada diária, a moeda estadunidense ainda acumulava queda de 1,57% em 2026.\n\nBolsa registra forte queda\n\nO Ibovespa fechou em baixa de 13,88%, aos 176.608,23 pontos, no menor nível de fechamento desde 31 de agosto. O resultado representou a maior queda diária desde março de 2020, período marcado pelo início da pandemia de covid-19.\n\nDurante a manhã, o índice chegou a recuar mais de 17%, atingindo 169.516,43 pontos. A intensidade da queda levou à ativação do circuit breaker, mecanismo utilizado pela bolsa para interromper temporariamente as negociações em momentos de forte desvalorização.\n\nO volume financeiro movimentado no pregão foi de R$ 88,6 bilhões, muito acima da média diária de aproximadamente R$ 25 bilhões.\n\nCom o resultado da sessão, o Ibovespa eliminou os ganhos acumulados em outubro e passou a registrar queda de 5,22% no mês. No acumulado de 2026, o índice manteve valorização de 9,61%.\n\n*Com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/EWxxyDwzkokjlHCxeSm6du6t7-E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-10-06t120841z_1_lynxmpeh950lf_rtroptp_4_dolar-abre.jpg?itok=Y5tU1sqN",
+      "slug": "dolar-sobe-8-21-e-bolsa-cai-13-88-apos-reeleicao-de-lula",
+      "pagina_local": "dolar-sobe-8-21-e-bolsa-cai-13-88-apos-reeleicao-de-lula.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 23:41"
+    },
+    {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
       "resumo": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recol...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS) pelo regime regular terão até sexta-feira para registrar a opção. Quem não fizer a escolha continuará a recolher pelo regime simplificado, que tem uma alíquota variável por tipo e tamanho de negócio posteriormente rateada em diversos tributos.\n\nNotícias relacionadas:Reforma Tributária: 86% das notas fiscais destacam a CBS.Receita adia cronograma de destaque de impostos da reforma tributária.Também na sexta-feira acaba o prazo para as empresas regularizarem as pendências que impediram o ingresso no Simples Nacional. O prazo de opção pelo regime acabou no dia 15.\n\nO Simples Nacional é um regime simplificado de tributação para quem fatura até R$ 4,8 milhões por ano. Por causa do novo sistema tributário, o Comitê Gestor do Simples Nacional (CGSN) antecipou a escolha do regime tributário.\n\nAs empresas que desejarem ingressar no regime em 2027 fizeram o pedido até 30 de outubro. Até então, a opção pelo Simples era realizada em janeiro de cada ano.\n\nA data limite acabaria em 30 de setembro, mas, após diálogo com o Conselho Federal de Contabilidade e o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae), o CGSN estendeu o prazo para 15 de outubro.\n\nO novo prazo foi regulamentado por resolução do CGSN editada no fim de setembro. As normas incorporaram ao regime simplificado o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS), tributos criados pela reforma tributária sobre o consumo.\n\nAs micro e pequenas empresas têm de 3 de novembro a 20 de dezembro para desistir das opções. O prazo vale tanto para reverter a inclusão no Simples como para cancelar o recolhimento do IBS e da CBS a partir de 2027.\n\nO que muda\n\nA nova regra vale para empresas que ainda não são optantes pelo Simples Nacional e querem utilizar o regime a partir de janeiro de 2027.\n\nOs novos prazos são:\n\n\n\t    1º de setembro a 15 de outubro de 2026: período para solicitar a opção pelo Simples Nacional para 2027;\n\t    1º de setembro a 30 de outubro de 2026: escolha do regime regular da CBS e do IBS para o primeiro semestre de 2027;\n\t    30 de outubro de 2026: regularização de pendências que tenham impedido opção pelo Simples Nacional;\n\t    3 de novembro a 20 de dezembro de 2026: prazo para desistir das opções.\n\n\nAs seguintes datas estão mantidas:\n\n\n\t    1º de janeiro de 2027: início dos efeitos da opção;\n\t    1º a 31 de março de 2027: nova oportunidade para escolher o recolhimento do IBS e da CBS pelo regime regular, com efeitos no segundo semestre.\n\n\nCriada por causa da transição para o novo sistema tributário, a alteração busca dar mais previsibilidade às empresas antes do início do ano-calendário.\n\nIBS e CBS\n\nOutra mudança envolve a forma de recolhimento do IBS e da CBS. A empresa poderá permanecer no Simples Nacional e, simultaneamente, optar pelo recolhimento desses dois tributos pelo regime regular.\n\nPara o primeiro semestre de 2027, a escolha deveria ter sido feita em setembro, com validade de janeiro a junho.\n\nQuem não fez a opção pelo regime regular nesse período permanecerá, no primeiro semestre, com IBS e CBS dentro da sistemática do Simples.\n\nA decisão poderá ser revista em março de 2027, com efeitos para o segundo semestre.\n\nA escolha pode ter impacto especialmente para empresas que vendem para outras empresas, devido à possibilidade de geração e aproveitamento de créditos tributários.\n\nPor isso, a avaliação do regime não deve considerar apenas a alíquota. Também entram na análise fatores como:\n\n\n\t    perfil dos clientes;\n\t    cadeia de fornecedores;\n\t    possibilidade de geração e aproveitamento de créditos;\n\t    formação de preços;\n\t    impacto dos novos tributos no fluxo financeiro.\n\n\nOptantes\n\nQuem já está no Simples Nacional, em regra, não precisa solicitar novamente a permanência no regime.\n\nAinda assim, é recomendado verificar a situação fiscal da empresa em setembro deste ano para identificar eventuais pendências ou exclusões para 2027.\n\nAs empresas que permanecerem no Simples e não quiserem recolher IBS e CBS pelo regime regular não precisarão fazer uma nova opção.\n\nQuem quiser retirar esses dois tributos da sistemática do Simples deverá formalizar a escolha dentro do prazo estabelecido.\n\nAbertura\n\nAs empresas abertas entre 1º de outubro e 31 de dezembro de 2026 terão uma regra específica.\n\nNesse caso, a opção pelo Simples Nacional feita no momento da inscrição do CNPJ produzirá efeitos tanto para o período restante de 2026 quanto para todo o ano de 2027.\n\nA escolha relacionada ao IBS e à CBS pelo regime regular também poderá ser feita na abertura da empresa, com efeitos a partir de janeiro de 2027.\n\nSe o empresário não quiser permanecer no Simples em 2027, poderá solicitar a exclusão por opção até o último dia de 2026.\n\nDesistência\n\nA antecipação da opção também criou uma possibilidade de desistência.\n\nQuem fez o pedido até 15 de outubro poderá cancelar a solicitação até 30 de novembro de 2026.\n\nO cancelamento, porém, será irretratável. Isso significa que, depois de desistir, a empresa não poderá fazer uma nova opção para produzir efeitos em 2027.\n\nA antecipação também permite que eventuais pendências sejam identificadas antes do início do ano. Em caso de indeferimento por problemas que possam ser regularizados, a empresa terá prazo para corrigir a situação.\n\nRegra do MEI\n\nA mudança não altera o calendário de opção pelo Simei, sistema aplicável ao Microempreendedor Individual (MEI).\n\nPara o MEI, a opção pelo Simei continua sendo realizada em janeiro de cada ano, até o último dia útil do mês.\n\nDessa forma, a antecipação para setembro não deve ser confundida com as regras específicas aplicáveis aos microempreendedores individuais.\n\nNFS-e nacional\n\nOutra mudança anunciada pelo CGSN envolve a emissão da Nota Fiscal de Serviço eletrônica (NFS-e) no emissor nacional.\n\nA obrigatoriedade para empresas optantes pelo Simples Nacional foi adiada de 1º de setembro para 1º de novembro de 2026.\n\nO adiamento busca dar mais tempo para municípios e empresas realizarem adaptações tecnológicas e operacionais.\n\nEntre as providências recomendadas estão:\n\n\n\t    testar a emissão das notas;\n\t    verificar a integração com sistemas de gestão;\n\t    conferir a parametrização dos dados fiscais;\n\t    preparar os procedimentos internos antes do início da obrigatoriedade.\n\n\nA regulamentação também altera a forma de prestação de informações fiscais e socioeconômicas.\n\nA Declaração de Informações Socioeconômicas e Fiscais (Defis) deixará de ser apresentada como declaração separada. As informações passarão a ser incorporadas ao Programa Gerador do Documento de Arrecadação do Simples Nacional – Declaratório (PGDAS-D), com entrega anual de janeiro a março.\n\nA mudança faz parte da adaptação do Simples Nacional ao novo modelo tributário.\n\nPlanejamento\n\nCom setembro concentrando decisões relevantes para o próximo ano, especialistas recomendam que empresas e contadores antecipem a análise tributária.\n\nA escolha entre manter IBS e CBS no Simples ou recolhê-los pelo regime regular pode produzir efeitos diferentes dependendo do setor, dos fornecedores e do perfil dos clientes.\n\nPor isso, antes de formalizar a opção, a recomendação é que a micro e pequena empresa simule os dois cenários, além de revisar os sistemas, a emissão de notas fiscais e planejar o caixa para 2027.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS) pelo regime regular terão até sexta-feira para registrar a opção. Quem não fizer a escolha continuará a recolher pelo regime simplificado, que tem uma alíquota variável por tipo e tamanho de negócio posteriormente rateada em diversos tributos.\n\nNotícias relacionadas:Reforma Tributária: 86% das notas fiscais destacam a CBS.Receita adia cronograma de destaque de impostos da reforma tributária.Também na sexta-feira acaba o prazo para as empresas regularizarem as pendências que impediram o ingresso no Simples Nacional. O prazo de opção pelo regime acabou no dia 15.\n\nO Simples Nacional é um regime simplificado de tributação para quem fatura até R$ 4,8 milhões por ano. Por causa do novo sistema tributário, o Comitê Gestor do Simples Nacional (CGSN) antecipou a escolha do regime tributário.\n\nAs empresas que desejarem ingressar no regime em 2027 devem fazer o pedido até 30 de outubro. Até então, a opção pelo Simples era realizada em janeiro de cada ano.\n\nA data limite acabaria em 30 de setembro, mas, após diálogo com o Conselho Federal de Contabilidade e o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae), o CGSN estendeu o prazo para 15 de outubro.\n\nO novo prazo foi regulamentado por resolução do CGSN editada no fim de setembro. As normas incorporaram ao regime simplificado o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS), tributos criados pela reforma tributária sobre o consumo.\n\nAs micro e pequenas empresas têm de 3 de novembro a 20 de dezembro para desistir das opções. O prazo vale tanto para reverter a inclusão no Simples como para cancelar o recolhimento do IBS e da CBS a partir de 2027.\n\nO que muda\n\nA nova regra vale para empresas que ainda não são optantes pelo Simples Nacional e querem utilizar o regime a partir de janeiro de 2027.\n\nOs novos prazos são:\n\n\n\t    1º de setembro a 15 de outubro de 2026: período para solicitar a opção pelo Simples Nacional para 2027;\n\t    1º de setembro a 30 de outubro de 2026: escolha do regime regular da CBS e do IBS para o primeiro semestre de 2027;\n\t    30 de outubro de 2026: regularização de pendências que tenham impedido opção pelo Simples Nacional;\n\t    3 de novembro a 20 de dezembro de 2026: prazo para desistir das opções.\n\n\nAs seguintes datas estão mantidas:\n\n\n\t    1º de janeiro de 2027: início dos efeitos da opção;\n\t    1º a 31 de março de 2027: nova oportunidade para escolher o recolhimento do IBS e da CBS pelo regime regular, com efeitos no segundo semestre.\n\n\nCriada por causa da transição para o novo sistema tributário, a alteração busca dar mais previsibilidade às empresas antes do início do ano-calendário.\n\nIBS e CBS\n\nOutra mudança envolve a forma de recolhimento do IBS e da CBS. A empresa poderá permanecer no Simples Nacional e, simultaneamente, optar pelo recolhimento desses dois tributos pelo regime regular.\n\nPara o primeiro semestre de 2027, a escolha deveria ter sido feita em setembro, com validade de janeiro a junho.\n\nQuem não fez a opção pelo regime regular nesse período permanecerá, no primeiro semestre, com IBS e CBS dentro da sistemática do Simples.\n\nA decisão poderá ser revista em março de 2027, com efeitos para o segundo semestre.\n\nA escolha pode ter impacto especialmente para empresas que vendem para outras empresas, devido à possibilidade de geração e aproveitamento de créditos tributários.\n\nPor isso, a avaliação do regime não deve considerar apenas a alíquota. Também entram na análise fatores como:\n\n\n\t    perfil dos clientes;\n\t    cadeia de fornecedores;\n\t    possibilidade de geração e aproveitamento de créditos;\n\t    formação de preços;\n\t    impacto dos novos tributos no fluxo financeiro.\n\n\nOptantes\n\nQuem já está no Simples Nacional, em regra, não precisa solicitar novamente a permanência no regime.\n\nAinda assim, é recomendado verificar a situação fiscal da empresa em setembro deste ano para identificar eventuais pendências ou exclusões para 2027.\n\nAs empresas que permanecerem no Simples e não quiserem recolher IBS e CBS pelo regime regular não precisarão fazer uma nova opção.\n\nQuem quiser retirar esses dois tributos da sistemática do Simples deverá formalizar a escolha dentro do prazo estabelecido.\n\nAbertura\n\nAs empresas abertas entre 1º de outubro e 31 de dezembro de 2026 terão uma regra específica.\n\nNesse caso, a opção pelo Simples Nacional feita no momento da inscrição do CNPJ produzirá efeitos tanto para o período restante de 2026 quanto para todo o ano de 2027.\n\nA escolha relacionada ao IBS e à CBS pelo regime regular também poderá ser feita na abertura da empresa, com efeitos a partir de janeiro de 2027.\n\nSe o empresário não quiser permanecer no Simples em 2027, poderá solicitar a exclusão por opção até o último dia de 2026.\n\nDesistência\n\nA antecipação da opção também criou uma possibilidade de desistência.\n\nQuem fez o pedido até 15 de outubro poderá cancelar a solicitação até 30 de novembro de 2026.\n\nO cancelamento, porém, será irretratável. Isso significa que, depois de desistir, a empresa não poderá fazer uma nova opção para produzir efeitos em 2027.\n\nA antecipação também permite que eventuais pendências sejam identificadas antes do início do ano. Em caso de indeferimento por problemas que possam ser regularizados, a empresa terá prazo para corrigir a situação.\n\nRegra do MEI\n\nA mudança não altera o calendário de opção pelo Simei, sistema aplicável ao Microempreendedor Individual (MEI).\n\nPara o MEI, a opção pelo Simei continua sendo realizada em janeiro de cada ano, até o último dia útil do mês.\n\nDessa forma, a antecipação para setembro não deve ser confundida com as regras específicas aplicáveis aos microempreendedores individuais.\n\nNFS-e nacional\n\nOutra mudança anunciada pelo CGSN envolve a emissão da Nota Fiscal de Serviço eletrônica (NFS-e) no emissor nacional.\n\nA obrigatoriedade para empresas optantes pelo Simples Nacional foi adiada de 1º de setembro para 1º de novembro de 2026.\n\nO adiamento busca dar mais tempo para municípios e empresas realizarem adaptações tecnológicas e operacionais.\n\nEntre as providências recomendadas estão:\n\n\n\t    testar a emissão das notas;\n\t    verificar a integração com sistemas de gestão;\n\t    conferir a parametrização dos dados fiscais;\n\t    preparar os procedimentos internos antes do início da obrigatoriedade.\n\n\nA regulamentação também altera a forma de prestação de informações fiscais e socioeconômicas.\n\nA Declaração de Informações Socioeconômicas e Fiscais (Defis) deixará de ser apresentada como declaração separada. As informações passarão a ser incorporadas ao Programa Gerador do Documento de Arrecadação do Simples Nacional – Declaratório (PGDAS-D), com entrega anual de janeiro a março.\n\nA mudança faz parte da adaptação do Simples Nacional ao novo modelo tributário.\n\nPlanejamento\n\nCom setembro concentrando decisões relevantes para o próximo ano, especialistas recomendam que empresas e contadores antecipem a análise tributária.\n\nA escolha entre manter IBS e CBS no Simples ou recolhê-los pelo regime regular pode produzir efeitos diferentes dependendo do setor, dos fornecedores e do perfil dos clientes.\n\nPor isso, antes de formalizar a opção, a recomendação é que a micro e pequena empresa simule os dois cenários, além de revisar os sistemas, a emissão de notas fiscais e planejar o caixa para 2027.</p>",
       "imagem": "https://imagens.ebc.com.br/fkfzrsxiXSdFPrlh0vk6GnEjUsQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf1037_1.jpg?itok=QXEJ1MDg",
       "slug": "prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
       "pagina_local": "prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta.html",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -117,20 +130,46 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
-      "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
-      "resumo": "As instituições financeiras poderão apresentar até R$ 90 bilhões em dívidas antigas a serem renegociadas na primeira etapa do Desenrola 3.0, disse nesta quarta-feira (21) o ministro da Fazenda, Dario Durigan. Segundo ele...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As instituições financeiras poderão apresentar até R$ 90 bilhões em dívidas antigas a serem renegociadas na primeira etapa do Desenrola 3.0, disse nesta quarta-feira (21) o ministro da Fazenda, Dario Durigan. Segundo ele, o edital de chamamento dos bancos e de outras instituições será publicado nesta quinta-feira (22), dando início ao processo de habilitação de bancos e fundos interessados em vender carteiras de crédito à União.\n\nApesar do volume previsto, o custo máximo estimado para a compra de todo esse montante seria de R$ 9 bilhões, considerando o desconto mínimo de 90% exigido pelo programa.\n\nNotícias relacionadas:Governo cria 3ª fase do Desenrola com compra de dívidas pela União.Falsos anúncios sobre Desenrola Brasil enganam usuários nas redes.As instituições terão cinco dias úteis para informar o volume de débitos que pretendem oferecer. A etapa, no entanto, não é uma convocação para que os consumidores renegociem suas dívidas, mas um procedimento para medir o interesse dos credores e o volume de dívidas por faixas de renda.\n\n“Estamos fazendo uma chamada aos bancos para que eles se organizem e apresentem o exato volume pelas diferentes faixas dos credores. Nessa chamada de interesse vamos permitir que várias faixas de renda sejam apresentadas, mas nosso foco são faixas de renda menores”, afirmou Durigan.\n\nComo funcionará\n\nO chamamento público será destinado a bancos, instituições financeiras e fundos de investimento em direitos creditórios (FIDCs). Para participar da etapa seguinte, os credores deverão apresentar carteiras de dívidas que atendam aos critérios do programa e aceitar as condições mínimas de desconto.\n\nO procedimento será dividido em etapas:\n\n\n\tChamamento: publicação do edital para manifestação de interesse dos credores;\n\tApresentação das carteiras: prazo de cinco dias úteis para informar os débitos elegíveis;\n\tDefinição do leilão: análise do volume apresentado, com separação por faixas de renda;\n\tCompra das dívidas: realização do leilão, previsto para novembro, com possibilidade de adiamento para o início de dezembro.\n\n\nSegundo o ministro, o governo pretende estruturar a disputa para favorecer devedores de menor renda e microempreendedores individuais (MEIs). No entanto, caso o volume de dívidas de baixa renda seja menor que o previsto, o governo poderá comprar mais dívidas de alta renda.\n\nQuanto custará\n\nA estimativa inicial é que os credores apresentem até R$ 90 bilhões em dívidas. Como o programa exige deságio mínimo de 90%, a União pagaria, no máximo, 10% do valor nominal das carteiras adquiridas.\n\nNa hipótese de compra de todo o montante estimado, o desembolso seria de até R$ 9 bilhões.\n\n“Se, no limite, esses R$ 90 bilhões de dívidas forem ofertados, de partida a gente saberia que no máximo consumiriam R$ 9 bilhões para a gente adquirir tudo”, disse o secretário executivo do Ministério da Fazenda, Rogério Ceron.\n\nO governo, porém, não necessariamente comprará todas as carteiras apresentadas. A intenção é estabelecer um orçamento para o leilão e estimular a concorrência entre os credores, o que pode resultar em descontos superiores ao mínimo exigido.\n\n“A depender do que a gente receber nessas carteiras que os bancos e as instituições financeiras tenham, a gente pode exigir desconto de 93%, 95% no leilão. E aí, no leilão, a depender de como correr o leilão, eu posso conseguir descontos ainda maiores”, disse Durigan.\n\nQuais dívidas entram\n\nO Desenrola 3.0 foi criado por medida provisória assinada pelo presidente Luiz Inácio Lula da Silva em setembro. O programa prevê a compra, pela União, de carteiras de crédito com dívidas antigas para viabilizar a renegociação dos débitos com os consumidores.\n\nEntre as condições previstas estão:\n\n\n\tDívidas de até R$ 10 mil, considerando o valor original do débito;\n\tAtrasos entre 720 e 1.645 dias, o equivalente a aproximadamente dois anos e quatro anos e meio;\n\tDébitos de cartão de crédito, incluindo as modalidades rotativa e parcelada, e de crédito pessoal sem consignação em folha;\n\tPossibilidade de inclusão de dívidas elegíveis de pessoas físicas e MEIs, conforme as regras do programa.\n\n\nNo lançamento da iniciativa, o governo estimou que o volume total de dívidas elegíveis poderia chegar a R$ 150 bilhões, com desembolso de aproximadamente R$ 15 bilhões. A previsão de R$ 90 bilhões divulgada agora corresponde à expectativa inicial de dívidas que os credores poderão apresentar na primeira chamada.\n\nComo será a renegociação\n\nApós o leilão, as dívidas adquiridas pelo governo poderão ser renegociadas com os devedores, com repasse dos descontos obtidos na compra das carteiras.\n\nO consumidor poderá quitar o débito à vista ou parcelar o pagamento, conforme as condições a serem estabelecidas. No caso do parcelamento, haverá cobrança de juros.\n\nOs prazos, as taxas e as demais condições operacionais ainda dependem de definições do Conselho Monetário Nacional (CMN) e da regulamentação aplicável.\n\nNeste momento, os consumidores não precisam procurar os bancos para participar da etapa de chamamento. O governo ainda deverá divulgar as regras e os procedimentos para o acesso às renegociações.\n\nContinuidade\n\nQuestionado sobre a continuidade do programa independentemente do resultado das eleições presidenciais, Durigan afirmou que a iniciativa tem caráter permanente de política pública.\n\nO ministro também criticou sugestões de congelamento temporário de dívidas de pessoas físicas e empresas, que classificou como “uma espécie de calote generalizado no sistema financeiro”.\n\nSegundo Durigan, o governo pretende manter o Desenrola 3.0 como uma política de Estado para enfrentar o endividamento e facilitar a recuperação do acesso ao crédito.\n\nA próxima etapa será a análise das carteiras apresentadas pelos credores. Somente depois desse levantamento a Fazenda deverá definir o volume de dívidas a ser efetivamente adquirido e as condições do leilão.</p>",
-      "imagem": "https://imagens.ebc.com.br/jI-3ooqLJE3qMdJFPBpPa8hXo_k=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/13/pzzb7371.jpg?itok=SNszzvqn",
-      "slug": "ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
-      "pagina_local": "ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
+      "resumo": "Celebrado no dia 28 de outubro, o Dia do Servidor Público terá este ano o ponto facultativo transferido para a sexta-feira. dia 30, próxima sexta-feira. Desta forma, a data se une ao fim de semana e ao feriado do Dia de ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Celebrado no dia 28 de outubro, o Dia do Servidor Público terá este ano o ponto facultativo transferido para a sexta-feira. dia 30, próxima sexta-feira. Desta forma, a data se une ao fim de semana e ao feriado do Dia de Finados, em 2 de novembro, na segunda-feira.\n\nDe acordo com o Ministério da Gestão e da Inovação em Serviços Públicos, o ponto facultativo é seguido pelas entidades da administração pública federal direta, autárquica e fundacional, mas não pode prejudicar a continuidade dos serviços essenciais.\n\nNotícias relacionadas:Bombeiros encontram corpo de mulher levada por correnteza .Força Nacional reforçará segurança na fronteira com a Colômbia.PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP .\"Caberá aos dirigentes máximos de cada órgão ou entidade identificar os serviços considerados essenciais e adotar as medidas necessárias para assegurar seu funcionamento durante a data\", diz o ministério em nota.</p>",
+      "imagem": "https://imagens.ebc.com.br/ylHlw_pEhxAAhx-CSiFVhbhP4yE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/06/22/dji_20260621145838_0073_d.jpg?itok=D1wMTw7F",
+      "slug": "dia-do-servidor-publico-ponto-facultativo-sera-na-sexta-feira",
+      "pagina_local": "dia-do-servidor-publico-ponto-facultativo-sera-na-sexta-feira.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/dia-do-servidor-publico-ponto-facultativo-sera-na-sexta-feira",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 23:41"
+    },
+    {
+      "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
+      "resumo": "Desta segunda-feira (26) até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos. \n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-fei...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Desta segunda-feira (26) até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos. \n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.  \n\nNotícias relacionadas:Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões.Nesta segunda-feira, corre o concurso 3075, cujo prêmio está acumulado em R$ 300 milhões. \n\nAs regras para aposta e prêmios segue a mesma. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/J5kgqjV4tFLwXg8_GzSp8kVKlr4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182658.jpg?itok=_yxjfe3l",
+      "slug": "mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos",
+      "pagina_local": "mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 23:41"
+    },
+    {
+      "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
+      "resumo": "O Corpo de Bombeiros encontrou nesta segunda-feira (26) o corpo de uma mulher que desapareceu após ter o carro arrastado por uma correnteza no Ribeirão do Pinhal, na zona rural de Pinhalzinho, no interior paulista. Ela e...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Corpo de Bombeiros encontrou nesta segunda-feira (26) o corpo de uma mulher que desapareceu após ter o carro arrastado por uma correnteza no Ribeirão do Pinhal, na zona rural de Pinhalzinho, no interior paulista. Ela estava desaparecida desde a manhã de domingo (25), quando tentou atravessar um trecho alagado em uma ponte.\n\nAgora, o estado de São Paulo soma 26 mortes em decorrência das chuvas neste ano. No domingo, a Defesa Civil já havia confirmado a morte de duas mulheres que haviam sido arrastadas pela correnteza após tentarem atravessar um córrego no bairro Casa Branca, em Jundiaí.\n\nNotícias relacionadas:Novo canal de umidade leva chuvas ao Norte, Centro-Oeste e Nordeste.Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul.As fortes chuvas de domingo provocaram alagamentos, deslizamentos de terra e outros danos em municípios paulistas.\n\nEm Capivari, por exemplo, os alagamentos chegaram a interditar trechos de nove vias. Dez famílias ficaram desalojadas e foram encaminhadas para casas de parentes, enquanto outras três foram acolhidas em abrigo municipal.\n\nEm Guareí, cerca de 50 residências foram atingidas por alagamentos na Rua Alameda Jair Martins Siqueira, deixando cerca de 200 pessoas desalojadas.\n\nEm Rafard, a inundação do Rio Capivari provocou alagamentos em 15 residências nas ruas da Colonização, Felício Vigorito e Doutor Laureano. Duas famílias foram encaminhadas para casas de parentes, enquanto outras 13 foram acolhidas em abrigo municipal.\n\nEm Eldorado, a elevação do nível do Rio Ribeira de Iguape provocou alagamentos em duas residências no bairro Vila Nova Esperança. Os moradores foram abrigados em casas de familiares.\n\nEm Ribeirão Branco, foram registrados deslizamentos de terra, enxurradas e alagamentos. Os moradores foram retirados e encaminhados para casas de familiares. Também houve deslizamento na Rua Quatro, no bairro Saival, onde outras duas residências foram atingidas por alagamentos, sem necessidade de remoção dos moradores.\n\nEm Diadema, o desabamento da escada de uma residência na Rua Caracas levou à interdição preventiva do imóvel, após avaliação técnica identificar risco associado a um talude nos fundos da moradia. Doze pessoas ficaram desalojadas e foram acolhidas por familiares.\n\nEm Torrinha, as chuvas provocaram erosão em estradas rurais e a queda de uma ponte na Rua Santo Ângelo, na área rural.\n\nPara esta segunda-feira, a previsão indica chuva persistente no estado de São Paulo, principalmente nas regiões leste e norte, com possibilidade de volumes elevados. Por isso, a Defesa Civil do estado de São Paulo orienta a população a evitar áreas alagadas e nunca atravessar ruas inundadas ou trechos com correnteza, a pé ou em algum veículo.</p>",
+      "imagem": "https://imagens.ebc.com.br/XxyPtoEEzpAiwGHrr8FV0vaSvrQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/altera-votacao-itapevi.jpg?itok=yszkn7Eb",
+      "slug": "bombeiros-encontram-corpo-de-mulher-levada-por-correnteza",
+      "pagina_local": "bombeiros-encontram-corpo-de-mulher-levada-por-correnteza.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/bombeiros-encontram-corpo-de-mulher-levada-por-correnteza",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -143,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -156,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -169,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -182,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -195,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
@@ -208,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -221,46 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
-    },
-    {
-      "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
-      "resumo": "A Caixa Loterias anunciou a antecipação para sábado (24) dos sorteios previstos para o domingo (25), dia do segundo turno das eleições.\n\nCom isso, os apostadores terão até 20h de sábado para fazer seus jogos em concursos...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Caixa Loterias anunciou a antecipação para sábado (24) dos sorteios previstos para o domingo (25), dia do segundo turno das eleições.\n\nCom isso, os apostadores terão até 20h de sábado para fazer seus jogos em concursos como Mega-Sena, Lotofácil, Quina, Milionária e Timemania.\n\nA venda de cotas de Bolão Caixa continuará disponível até as 20h45, exclusivamente pelo App Loterias Caixa e pelo portal Loterias Caixa.\n\nO sorteio será feito no sábado, às 21h, com transmissão ao vivo pelos canais oficiais das Loterias Caixa.\n\nBolão Caixa\n\nNo Bolão Caixa, o apostador pode comprar cotas de bolões organizados pelas lotéricas. As cotas também podem ser compradas no portal Loterias Caixa ou pelo App Loterias Caixa.\n\nHá pagamento de tarifa de serviço adicional de 35% do valor da cota na compra pela internet. Para os bolões organizados pelas lotéricas, pode haver cobrança dessa tarifa até o limite de 35%.\n\nMega Semana \n\nEntre os dias 26 e 30 de outubro de 2026, acontecerá a Mega Semana da Mega Sena. A ação promoverá cinco sorteios consecutivos correspondentes aos concursos 3076, 3077, 3078, 3079 e 3080.\n\nA modalidade, em caráter especial, terá sorteios de segunda a sexta-feira, substituindo o calendário regular de concursos, realizado às terças-feiras, quintas-feiras e domingos.</p>",
-      "imagem": "https://imagens.ebc.com.br/kctx9xttGhGHyxTGpZxaC7xDm2I=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/992441-df_30122015dsc_2978a-.jpg?itok=O5qw1M-W",
-      "slug": "caixa-loterias-anuncia-antecipacao-de-sorteios-para-sabado",
-      "pagina_local": "caixa-loterias-anuncia-antecipacao-de-sorteios-para-sabado.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/caixa-loterias-anuncia-antecipacao-de-sorteios-para-sabado",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
-    },
-    {
-      "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
-      "resumo": "Policiais civis de São Paulo cumpriram nesta quinta-feira (22) um mandado de busca e apreensão, em Guarulhos, contra uma distribuidora de bebidas suspeita de fornecimento de produtos falsificados.\n\nA ação foi em um galpã...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Policiais civis de São Paulo cumpriram nesta quinta-feira (22) um mandado de busca e apreensão, em Guarulhos, contra uma distribuidora de bebidas suspeita de fornecimento de produtos falsificados.\n\nA ação foi em um galpão industrial localizado na Estrada Velha de Guarulhos, no bairro São Miguel.\n\nNotícias relacionadas:Lei Seca: confira onde haverá restrição a bebidas nas eleições 2026.Polícia faz operação no interior de SP contra fraudes bancárias.Três suspeitos são mortos pela polícia militar em assalto a casa em SP.As investigações identificaram indícios de que o estabelecimento movimentava grandes quantidades de bebidas com notas fiscais suspeitas.\n\nAlém disso, segundo a Polícia Civil de São Paulo, irregularidades cadastrais na empresa sugerem o uso de um laranja para esconder o verdadeiro controlador do empreendimento.\n\nO indivíduo apontado como operador seria um empresário com condenação na Justiça mineira por lavagem de dinheiro, ocultação de bens e infrações tributárias. Em outubro de 2025, ele passou a ser investigado por órgãos fiscalizadores devido à suposta participação em esquemas de adulteração de bebidas com uso de metanol.\n\nAo cumprir o mandado, os agentes buscaram examinar as condições sanitárias de armazenamento, averiguar indícios de falsificação e checar a procedência de todas as mercadorias.\n\nA ação é coordenada pela 3ª Delegacia de Investigações Gerais (DIG), com a participação de 30 policiais civis, peritos da Associação Brasileira de Bebidas (Abrabe) e agentes da Vigilância Sanitária e da Secretaria da Fazenda e Planejamento de Sao Paulo.\n\nDe acordo com o delegado Fernando David, da 3ª DIG, a ação visa neutralizar a comercialização de bebidas irregulares e responsabilizar os envolvidos.\n\n“A atuação integrada permite verificar não apenas a procedência dos produtos, mas também as condições em que são armazenados e comercializados, protegendo a saúde do consumidor e combatendo práticas ilegais”, afirmou o delegado.\n\n*Estagiário sob supervisão de Odair Braz Junior.</p>",
-      "imagem": "https://imagens.ebc.com.br/rBUb5izX-G02gYeeHIjRUhtayPg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/07/31/policia-civil-sao-paulo.jpg?itok=iY96SZr2",
-      "slug": "policia-civil-investiga-distribuidora-de-bebidas-em-guarulhos-sp",
-      "pagina_local": "policia-civil-investiga-distribuidora-de-bebidas-em-guarulhos-sp.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-civil-investiga-distribuidora-de-bebidas-em-guarulhos-sp",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
-    },
-    {
-      "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
-      "resumo": "A Secretaria Nacional de Proteção e Defesa Civil reconheceu nesta quinta-feira (22) situação de emergência em sete municípios atingidos por tempestades na Região Sul. \n\nA Portaria nº 3.646 cita cidades do Paraná, Rio Gra...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Secretaria Nacional de Proteção e Defesa Civil reconheceu nesta quinta-feira (22) situação de emergência em sete municípios atingidos por tempestades na Região Sul. \n\nA Portaria nº 3.646 cita cidades do Paraná, Rio Grande do Sul e Santa Catarina que registraram ocorrências no final de setembro e início de outubro.\n\nNotícias relacionadas:Defesa Civil reconhece situação de emergência em seis cidades do Sul.No Paraná, o reconhecimento alcança Altamira do Paraná e Santa Terezinha de Itaipu, municípios afetados por vendavais.\n\nNo Rio Grande do Sul, também houve reconhecimento de emergência por vendaval em Alto Alegre. As cidades gaúchas de Bom Jesus, Formigueiro e Veranópolis registraram chuvas intensas.\n\nEm Santa Catarina, a situação de emergência foi reconhecida em Arabutã, em razão da ocorrência de granizo.\n\nO Instituto Nacional de Meteorologia (Inmet) emitiu alertas de perigo para chuvas e tempestades na Região Sul durante praticamente todo este mês, até o momento. \n\nVeja a lista completa:\n \n\n\n\t\n\t\t\n\t\t\tEstado\n\t\t\tMunicípio\n\t\t\tDesastre\n\t\t\n\t\t\n\t\t\tParaná\n\t\t\t\n\t\t\tAltamira do Paraná\n\t\t\t\n\t\t\t\n\t\t\tVendaval\n\t\t\t\n\t\t\n\t\t\n\t\t\tParaná\n\t\t\t\n\t\t\tSanta Terezinha de Itaipu\n\t\t\t\n\t\t\t\n\t\t\tVendaval\n\t\t\t\n\t\t\n\t\t\n\t\t\tRio Grande do Sul\n\t\t\t\n\t\t\tAlto Alegre\n\t\t\t\n\t\t\t\n\t\t\tVendaval\n\t\t\t\n\t\t\n\t\t\n\t\t\tRio Grande do Sul\n\t\t\t\n\t\t\tBom Jesus\n\t\t\t\n\t\t\t\n\t\t\tChuvas intensas\n\t\t\t\n\t\t\n\t\t\n\t\t\tRio Grande do Sul\n\t\t\t\n\t\t\tFormigueiro\n\t\t\t\n\t\t\t\n\t\t\tChuvas intensas\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tRio Grande do Sul\n\t\t\t\n\t\t\t\n\t\t\tVeranópolis\n\t\t\t\n\t\t\t\n\t\t\tChuvas intensas\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tSanta Catarina\n\t\t\t\n\t\t\t\n\t\t\tArabutã\n\t\t\t\n\t\t\t\n\t\t\tGranizo</p>",
-      "imagem": "https://imagens.ebc.com.br/PLWE5wUVKwH45cyYn8YCk_5aRIg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/22/whatsappimage20260921at11.00.131789999303484_foto.jpeg?itok=WNGHpNnI",
-      "slug": "chuvas-defesa-civil-decreta-situacao-de-emergencia-em-cidades-do-sul",
-      "pagina_local": "chuvas-defesa-civil-decreta-situacao-de-emergencia-em-cidades-do-sul.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/chuvas-defesa-civil-decreta-situacao-de-emergencia-em-cidades-do-sul",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 19:07"
+      "coletado_em": "26/10/2026 às 23:41"
     }
   ]
 };
