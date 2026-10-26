@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "26/10/2026 às 00:01:29",
+  "ultima_atualizacao": "26/10/2026 às 05:54:46",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     },
     {
       "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 00:01"
+      "coletado_em": "26/10/2026 às 05:54"
     }
   ]
 };
