@@ -1,0 +1,92 @@
+[
+  {
+    "id": "antena1",
+    "name": "Antena 1 FM",
+    "genre": "Pop / Adult Contemporary",
+    "url": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+    "logo": "🎵",
+    "bitrate": "128 kbps",
+    "country": "Brasil"
+  },
+  {
+    "id": "kissfm",
+    "name": "Kiss FM (Rock)",
+    "genre": "Classic Rock",
+    "url": "https://ice.fabricahost.com.br/kissfmsp",
+    "logo": "🎸",
+    "bitrate": "128 kbps",
+    "country": "Brasil"
+  },
+  {
+    "id": "alphafm",
+    "name": "Alpha FM",
+    "genre": "Pop / MPB / Flashback",
+    "url": "https://ice.fabricahost.com.br/alphafm",
+    "logo": "✨",
+    "bitrate": "128 kbps",
+    "country": "Brasil"
+  },
+  {
+    "id": "jovempan",
+    "name": "Jovem Pan FM",
+    "genre": "Pop / Hits",
+    "url": "https://stream.zeno.fm/0r0xa792kwzuv",
+    "logo": "🔥",
+    "bitrate": "128 kbps",
+    "country": "Brasil"
+  },
+  {
+    "id": "somafm_groove",
+    "name": "SomaFM: Groove Salad",
+    "genre": "Ambient / Downtempo",
+    "url": "https://ice1.somafm.com/groovesalad-128-mp3",
+    "logo": "🌿",
+    "bitrate": "128 kbps",
+    "country": "EUA"
+  },
+  {
+    "id": "somafm_defcon",
+    "name": "SomaFM: DEF CON Radio",
+    "genre": "Synthwave / Cyber / Hack",
+    "url": "https://ice1.somafm.com/defcon-128-mp3",
+    "logo": "💻",
+    "bitrate": "128 kbps",
+    "country": "EUA"
+  },
+  {
+    "id": "lofi",
+    "name": "Lofi Chill Beats",
+    "genre": "Lo-Fi / Study / Relax",
+    "url": "https://stream.zeno.fm/f3wvbbqmdg8uv",
+    "logo": "☕",
+    "bitrate": "128 kbps",
+    "country": "Mundial"
+  },
+  {
+    "id": "swisspop",
+    "name": "Radio Swiss Pop",
+    "genre": "Pop Hits / Internacional",
+    "url": "http://stream.srg-ssr.ch/m/rsp/mp3_128",
+    "logo": "📻",
+    "bitrate": "128 kbps",
+    "country": "Suíça"
+  },
+  {
+    "id": "classic_rock",
+    "name": "Classic Rock Radio",
+    "genre": "70s & 80s Rock",
+    "url": "https://ice1.somafm.com/seventies-128-mp3",
+    "logo": "⚡",
+    "bitrate": "128 kbps",
+    "country": "EUA"
+  },
+  {
+    "id": "jazz_groove",
+    "name": "Smooth Jazz Lounge",
+    "genre": "Jazz & Soul",
+    "url": "https://ice1.somafm.com/secretagent-128-mp3",
+    "logo": "🎷",
+    "bitrate": "128 kbps",
+    "country": "EUA"
+  }
+]

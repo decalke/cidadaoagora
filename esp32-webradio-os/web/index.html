@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32-S3 RadioOS • Web Radio & Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="theme-cyber-dark">
+  <!-- Desktop Background -->
+  <div class="wallpaper-glow glow-1"></div>
+  <div class="wallpaper-glow glow-2"></div>
+
+  <!-- Top Menu Bar (OS Style) -->
+  <header class="top-bar">
+    <div class="top-bar-left">
+      <div class="apple-logo-wrap" title="ESP32-S3 RadioOS">
+        <span class="chip-badge">⚡ ESP32-S3</span>
+      </div>
+      <span class="os-title"><strong>RadioOS</strong> v1.2</span>
+      <div class="top-nav-items">
+        <span class="nav-item" onclick="openWindow('win-player')">Player</span>
+        <span class="nav-item" onclick="openWindow('win-stations')">Estações</span>
+        <span class="nav-item" onclick="openWindow('win-equalizer')">Equalizador</span>
+        <span class="nav-item" onclick="openWindow('win-system')">Monitor</span>
+      </div>
+    </div>
+
+    <div class="top-bar-right">
+      <div class="status-chip" id="chip-status" title="Conexão com a Placa">
+        <span class="status-dot online"></span>
+        <span id="esp-status-text">ESP32-S3 Online</span>
+      </div>
+      <div class="status-chip" title="Sinal Wi-Fi">
+        <span class="icon">📶</span>
+        <span id="top-wifi-rssi">-54 dBm</span>
+      </div>
+      <div class="status-chip" title="Memória Livre (SRAM + PSRAM 2MB)">
+        <span class="icon">🧠</span>
+        <span id="top-ram">2.3 MB Livre</span>
+      </div>
+      <div class="status-chip" title="Temperatura do SoC">
+        <span class="icon">🌡️</span>
+        <span id="top-temp">41.2 °C</span>
+      </div>
+      <div class="clock" id="top-clock">00:00:00</div>
+    </div>
+  </header>
+
+  <!-- Desktop Icons -->
+  <main class="desktop" id="desktop">
+    <div class="desktop-icons">
+      <div class="desktop-icon" onclick="openWindow('win-player')">
+        <div class="icon-box icon-player">📻</div>
+        <span class="icon-label">Rádio Player</span>
+      </div>
+      <div class="desktop-icon" onclick="openWindow('win-stations')">
+        <div class="icon-box icon-stations">📑</div>
+        <span class="icon-label">Estações</span>
+      </div>
+      <div class="desktop-icon" onclick="openWindow('win-equalizer')">
+        <div class="icon-box icon-eq">🎚️</div>
+        <span class="icon-label">Equalizador</span>
+      </div>
+      <div class="desktop-icon" onclick="openWindow('win-system')">
+        <div class="icon-box icon-monitor">📊</div>
+        <span class="icon-label">Monitor S3</span>
+      </div>
+      <div class="desktop-icon" onclick="openWindow('win-sleep')">
+        <div class="icon-box icon-sleep">⏰</div>
+        <span class="icon-label">Sleep Timer</span>
+      </div>
+      <div class="desktop-icon" onclick="openWindow('win-settings')">
+        <div class="icon-box icon-settings">⚙️</div>
+        <span class="icon-label">Ajustes</span>
+      </div>
+    </div>
+
+    <!-- WINDOW 1: RADIO PLAYER -->
+    <div class="os-window active" id="win-player" style="top: 80px; left: 100px; width: 480px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-player')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-player')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-player')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">📻 Rádio Player • Ao Vivo</div>
+        <div class="win-badge" id="player-status-badge">TOCANDO</div>
+      </div>
+      <div class="win-body player-body">
+        <!-- Station Artwork / Visualizer -->
+        <div class="visualizer-wrapper">
+          <canvas id="visualizer-canvas" width="440" height="130"></canvas>
+          <div class="station-meta-overlay">
+            <div class="station-avatar" id="current-logo">🎵</div>
+            <div class="station-info-group">
+              <h2 id="current-name">Antena 1 FM</h2>
+              <p id="current-genre">Pop / Adult Contemporary</p>
+              <div class="stream-pill-row">
+                <span class="tag-pill" id="current-bitrate">128 kbps</span>
+                <span class="tag-pill" id="current-country">Brasil</span>
+                <span class="tag-pill live-pill">● LIVE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress / Spectrum -->
+        <div class="audio-hud">
+          <div class="hud-left">
+            <span class="hud-label">BUFFER</span>
+            <div class="buffer-bar"><div class="buffer-fill" id="buffer-fill"></div></div>
+          </div>
+          <div class="hud-right">
+            <span id="play-time">00:00:00</span>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="player-controls">
+          <button class="btn-round" title="Anterior" onclick="prevStation()">⏮️</button>
+          <button class="btn-round btn-play" id="btn-play-pause" title="Play/Pause" onclick="togglePlay()">
+            <span id="play-icon">▶️</span>
+          </button>
+          <button class="btn-round" title="Próxima" onclick="nextStation()">⏭️</button>
+        </div>
+
+        <!-- Volume Bar -->
+        <div class="volume-container">
+          <span id="vol-icon" onclick="toggleMute()" style="cursor: pointer;">🔊</span>
+          <input type="range" id="volume-slider" min="0" max="100" value="80" oninput="changeVolume(this.value)">
+          <span class="vol-text" id="vol-text">80%</span>
+        </div>
+
+        <!-- Fast Preset Selector -->
+        <div class="quick-preset-bar">
+          <span class="quick-label">Atalhos:</span>
+          <div class="preset-chips" id="quick-preset-chips"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WINDOW 2: STATIONS LIBRARY -->
+    <div class="os-window" id="win-stations" style="top: 100px; left: 600px; width: 520px; height: 500px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-stations')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-stations')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-stations')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">📑 Biblioteca de Estações</div>
+      </div>
+      <div class="win-body stations-body">
+        <div class="stations-toolbar">
+          <input type="text" id="search-station" placeholder="🔍 Buscar rádio por nome ou gênero..." oninput="filterStations(this.value)">
+          <button class="btn-action" onclick="toggleAddStationModal()">+ Adicionar URL</button>
+        </div>
+
+        <div class="station-list" id="station-list-container">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Add Station Form (Hidden by default) -->
+        <div class="add-station-form" id="add-station-form" style="display: none;">
+          <h4>Nova Estação Web</h4>
+          <input type="text" id="new-name" placeholder="Nome da Rádio (ex: Minha Rádio Rock)">
+          <input type="text" id="new-url" placeholder="URL do Stream (ex: https://stream.../live.mp3)">
+          <input type="text" id="new-genre" placeholder="Gênero (ex: Classic Rock, Notícias)">
+          <div class="form-actions">
+            <button class="btn-secondary" onclick="toggleAddStationModal()">Cancelar</button>
+            <button class="btn-primary" onclick="saveNewStation()">Salvar e Tocar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WINDOW 3: EQUALIZER -->
+    <div class="os-window" id="win-equalizer" style="top: 250px; left: 160px; width: 440px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-equalizer')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-equalizer')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-equalizer')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">🎚️ Equalizador Pro (DSP 5 Bandas)</div>
+      </div>
+      <div class="win-body eq-body">
+        <div class="eq-presets-row">
+          <label>Preset:</label>
+          <select id="eq-preset-select" onchange="applyEqPreset(this.value)">
+            <option value="flat">Flat (Padrão)</option>
+            <option value="bass">Bass Boost (Graves Fortes)</option>
+            <option value="rock">Rock Potente</option>
+            <option value="vocal">Vocal / Notícias</option>
+            <option value="jazz">Jazz Suave</option>
+          </select>
+        </div>
+
+        <div class="eq-sliders-wrap">
+          <div class="eq-band">
+            <span class="band-gain" id="gain-60">0dB</span>
+            <input type="range" class="vertical-slider" min="-12" max="12" value="0" step="1" oninput="setBandGain(0, this.value)">
+            <span class="band-freq">60Hz</span>
+            <span class="band-label">Sub</span>
+          </div>
+          <div class="eq-band">
+            <span class="band-gain" id="gain-230">0dB</span>
+            <input type="range" class="vertical-slider" min="-12" max="12" value="0" step="1" oninput="setBandGain(1, this.value)">
+            <span class="band-freq">230Hz</span>
+            <span class="band-label">Bass</span>
+          </div>
+          <div class="eq-band">
+            <span class="band-gain" id="gain-910">0dB</span>
+            <input type="range" class="vertical-slider" min="-12" max="12" value="0" step="1" oninput="setBandGain(2, this.value)">
+            <span class="band-freq">910Hz</span>
+            <span class="band-label">Mid</span>
+          </div>
+          <div class="eq-band">
+            <span class="band-gain" id="gain-4000">0dB</span>
+            <input type="range" class="vertical-slider" min="-12" max="12" value="0" step="1" oninput="setBandGain(3, this.value)">
+            <span class="band-freq">4kHz</span>
+            <span class="band-label">Presence</span>
+          </div>
+          <div class="eq-band">
+            <span class="band-gain" id="gain-14000">0dB</span>
+            <input type="range" class="vertical-slider" min="-12" max="12" value="0" step="1" oninput="setBandGain(4, this.value)">
+            <span class="band-freq">14kHz</span>
+            <span class="band-label">Treble</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WINDOW 4: SYSTEM MONITOR -->
+    <div class="os-window" id="win-system" style="top: 140px; left: 450px; width: 480px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-system')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-system')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-system')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">📊 Monitor de Recursos • ESP32-S3-N8R2</div>
+      </div>
+      <div class="win-body sys-body">
+        <div class="spec-banner">
+          <div class="soc-icon">⚡</div>
+          <div>
+            <strong>Espressif ESP32-S3 (Dual-Core LX7 @ 240MHz)</strong>
+            <p>8 MB Quad SPI Flash • 2 MB Quad SPI PSRAM • Wi-Fi 4 + BLE 5</p>
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric-card">
+            <span class="m-title">USO DE CPU (Core 0 + 1)</span>
+            <span class="m-val" id="cpu-val">14%</span>
+            <div class="m-bar"><div class="m-bar-fill" id="cpu-bar" style="width: 14%;"></div></div>
+          </div>
+          <div class="metric-card">
+            <span class="m-title">SRAM LIVRE</span>
+            <span class="m-val" id="sram-val">328 KB / 512 KB</span>
+            <div class="m-bar"><div class="m-bar-fill" id="sram-bar" style="width: 64%;"></div></div>
+          </div>
+          <div class="metric-card">
+            <span class="m-title">PSRAM LIVRE (2MB)</span>
+            <span class="m-val" id="psram-val">1.94 MB / 2.00 MB</span>
+            <div class="m-bar"><div class="m-bar-fill highlight" id="psram-bar" style="width: 97%;"></div></div>
+          </div>
+          <div class="metric-card">
+            <span class="m-title">SINAL WI-FI (RSSI)</span>
+            <span class="m-val" id="rssi-val">-54 dBm (Excelente)</span>
+            <div class="m-bar"><div class="m-bar-fill" id="rssi-bar" style="width: 82%;"></div></div>
+          </div>
+        </div>
+
+        <div class="sys-table">
+          <div class="sys-row"><span>IP Local:</span><strong id="sys-ip">192.168.1.109</strong></div>
+          <div class="sys-row"><span>Porta COM Gravada:</span><strong>COM9 (USB JTAG/Serial Nativo)</strong></div>
+          <div class="sys-row"><span>Uptime:</span><strong id="sys-uptime">0 dias, 01:23:44</strong></div>
+          <div class="sys-row"><span>Temperatura Interna:</span><strong id="sys-temp">41.8 °C</strong></div>
+          <div class="sys-row"><span>Áudio Buffer:</span><strong>Circular 64KB em PSRAM (Zero Jitter)</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WINDOW 5: SLEEP TIMER -->
+    <div class="os-window" id="win-sleep" style="top: 200px; left: 300px; width: 380px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-sleep')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-sleep')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-sleep')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">⏰ Temporizador de Desligamento</div>
+      </div>
+      <div class="win-body sleep-body">
+        <p class="sleep-desc">A rádio diminuirá suavemente o volume e desligará a reprodução quando o tempo acabar:</p>
+        <div class="timer-display" id="timer-display">Desativado</div>
+        <div class="sleep-btn-grid">
+          <button class="btn-timer" onclick="setSleepTimer(15)">15 Minutos</button>
+          <button class="btn-timer" onclick="setSleepTimer(30)">30 Minutos</button>
+          <button class="btn-timer" onclick="setSleepTimer(45)">45 Minutos</button>
+          <button class="btn-timer" onclick="setSleepTimer(60)">60 Minutos</button>
+        </div>
+        <button class="btn-cancel-timer" onclick="cancelSleepTimer()">Cancelar Timer</button>
+      </div>
+    </div>
+
+    <!-- WINDOW 6: SETTINGS -->
+    <div class="os-window" id="win-settings" style="top: 180px; left: 520px; width: 440px;">
+      <div class="win-header" onmousedown="startDrag(event, 'win-settings')">
+        <div class="win-controls">
+          <span class="btn-ctrl btn-close" onclick="closeWindow('win-settings')"></span>
+          <span class="btn-ctrl btn-min" onclick="minimizeWindow('win-settings')"></span>
+          <span class="btn-ctrl btn-max"></span>
+        </div>
+        <div class="win-title">⚙️ Ajustes do Sistema</div>
+      </div>
+      <div class="win-body settings-body">
+        <div class="settings-group">
+          <label>Saída de Áudio Ativa:</label>
+          <select id="audio-output-mode" onchange="changeAudioMode(this.value)">
+            <option value="browser">🔊 Alto-falantes do PC / Navegador (Direto)</option>
+            <option value="i2s">📻 Módulo DAC I2S Físico no ESP32 (MAX98357A / PCM5102)</option>
+            <option value="bluetooth">📶 Transmissor Bluetooth A2DP</option>
+          </select>
+          <small class="hint">Modo "PC/Navegador" permite ouvir imediatamente sem fios extras plugados no ESP32!</small>
+        </div>
+
+        <div class="settings-group">
+          <label>Tema da Interface:</label>
+          <div class="theme-buttons">
+            <button class="btn-theme active" onclick="setTheme('theme-cyber-dark')">Cyber Dark</button>
+            <button class="btn-theme" onclick="setTheme('theme-glass-midnight')">Glass Midnight</button>
+            <button class="btn-theme" onclick="setTheme('theme-neon-purple')">Neon Synth</button>
+          </div>
+        </div>
+
+        <div class="settings-group">
+          <label>Rede Wi-Fi (Salva no ESP32):</label>
+          <input type="text" id="wifi-ssid" placeholder="Nome da Rede (SSID)">
+          <input type="password" id="wifi-pass" placeholder="Senha do Wi-Fi">
+          <button class="btn-action" style="margin-top: 8px;" onclick="alert('Configurações de Wi-Fi salvas na Flash NVM do ESP32!')">Gravar no ESP32</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Dock (macOS Style) -->
+  <footer class="dock-container">
+    <div class="dock">
+      <div class="dock-item" onclick="toggleWindow('win-player')" title="Rádio Player">
+        <span class="dock-icon">📻</span>
+        <span class="dock-dot active"></span>
+      </div>
+      <div class="dock-item" onclick="toggleWindow('win-stations')" title="Biblioteca de Estações">
+        <span class="dock-icon">📑</span>
+        <span class="dock-dot"></span>
+      </div>
+      <div class="dock-item" onclick="toggleWindow('win-equalizer')" title="Equalizador">
+        <span class="dock-icon">🎚️</span>
+        <span class="dock-dot"></span>
+      </div>
+      <div class="dock-item" onclick="toggleWindow('win-system')" title="Monitor do ESP32-S3">
+        <span class="dock-icon">📊</span>
+        <span class="dock-dot"></span>
+      </div>
+      <div class="dock-item" onclick="toggleWindow('win-sleep')" title="Sleep Timer">
+        <span class="dock-icon">⏰</span>
+        <span class="dock-dot"></span>
+      </div>
+      <div class="dock-item" onclick="toggleWindow('win-settings')" title="Configurações">
+        <span class="dock-icon">⚙️</span>
+        <span class="dock-dot"></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Audio Element Hidden -->
+  <audio id="audio-engine" crossorigin="anonymous" preload="none"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Wi-Fi - ESP32-S3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9fafb;
+            color: #111827;
+        }
+        h1 { text-align: center; }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th { background-color: #f3f4f6; }
+        .metric {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2563eb;
+            margin: 15px 0;
+        }
+        .chart-box {
+            margin-top: 25px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Monitoramento de Wi-Fi (ESP32-S3)</h1>
+
+        <div id="handshakeList">
+            <h2>Captura de Handshakes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SSID</th>
+                        <th>Tempo de Captura (ms)</th>
+                    </tr>
+                </thead>
+                <tbody id="handshakeBody">
+                    <!-- Linhas adicionadas dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+
+        <h2>Resultados</h2>
+        <p id="averageHandshakeTime" class="metric">Tempo Médio de Handshake: N/A ms</p>
+        
+        <div class="chart-box">
+            <canvas id="handshakeChart" width="400" height="250"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript">
+        let handshakeList = [];
+        let chartInstance = null;
+
+        function updateHandshakeList(handshake) {
+            const tbody = document.getElementById('handshakeBody');
+            const row = document.createElement('tr');
+            const ssidCell = document.createElement('td');
+            const timeCell = document.createElement('td');
+
+            ssidCell.textContent = handshake.ssid;
+            timeCell.textContent = Math.round(handshake.time) + ' ms';
+
+            row.appendChild(ssidCell);
+            row.appendChild(timeCell);
+            tbody.appendChild(row);
+
+            handshakeList.push(handshake);
+            if (handshakeList.length > 10) {
+                handshakeList.shift();
+                if (tbody.rows.length > 10) tbody.deleteRow(0);
+            }
+        }
+
+        function updateAverageHandshakeTime() {
+            if (handshakeList.length > 0) {
+                const totalMillisec = handshakeList.reduce((sum, item) => sum + item.time, 0);
+                const avg = Math.round(totalMillisec / handshakeList.length);
+                document.getElementById('averageHandshakeTime').textContent = `Tempo Médio de Handshake: ${avg} ms`;
+            }
+        }
+
+        function drawChart() {
+            const ctx = document.getElementById('handshakeChart').getContext('2d');
+            const labels = handshakeList.map(item => item.ssid);
+            const data = handshakeList.map(item => item.time);
+
+            if (!chartInstance) {
+                chartInstance = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Tempo de Captura (ms)',
+                            data: data,
+                            backgroundColor: 'rgba(59, 130, 246, 0.4)',
+                            borderColor: 'rgba(59, 130, 246, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: { y: { beginAtZero: true } }
+                    }
+                });
+            } else {
+                chartInstance.data.labels = labels;
+                chartInstance.data.datasets[0].data = data;
+                chartInstance.update();
+            }
+        }
+
+        // Simulação enquanto não conectado à API real do ESP32
+        function simulateHandshake() {
+            const ssids = ["ESP32-S3_Net", "Home_5G", "Office_Mesh", "Lab_Test"];
+            const randomSsid = ssids[Math.floor(Math.random() * ssids.length)];
+            const handshake = { ssid: randomSsid, time: Math.random() * 800 + 100 };
+            updateHandshakeList(handshake);
+            updateAverageHandshakeTime();
+            drawChart();
+        }
+
+        setInterval(simulateHandshake, 2000);
+    </script>
+</body>
+</html>
