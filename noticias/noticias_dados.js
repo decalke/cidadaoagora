@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "26/10/2026 às 05:54:34",
+  "ultima_atualizacao": "26/10/2026 às 12:39:39",
   "total": 33,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-032",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ministro-preve-renegociacao-de-r-90-bi-em-3a-fase-do-desenrola",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
@@ -130,7 +130,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
+    },
+    {
+      "titulo": "Em festa da vitória, Lula pede que público cante Hino da Independência",
+      "resumo": "O presidente da República reeleito, Luiz Inácio Lula da Silva, em discurso na festa da vitória na Avenida Paulista, pediu que os presentes cantassem o Hino da Independência do Brasil. Momentos antes, em entrevista coletiva, Lula afirmou que...",
+      "conteudo_completo": "O presidente da República reeleito, Luiz Inácio Lula da Silva, em discurso na festa da vitória na Avenida Paulista, pediu que os presentes cantassem o Hino da Independência do Brasil. Momentos antes, em entrevista coletiva, Lula afirmou que houve intromissão estrangeira e que as plataformas digitais tentaram direcionar o resultado eleitoral no país.\n\n\n“Eu devo essa vitória a cada um e a cada uma de vocês. Por isso, ontem [em manifestação no mesmo local] fiquei emocionado e quero pedir para, outra vez, cantarem o Hino da Independência para eles saberem que nós não cabemos no quintal de ninguém”, disse.\n\n\nNotícias relacionadas:Lula agradece votos e diz que teve de vencer intromissão vinda de fora.“Vamos mudar o jeito de governar este país”, diz Lula.Nas redes sociais, líderes latino-americanos saúdam Lula pela vitória.Lula disse que a eleição de 2026 serviu de lição e que o seu quarto mandato terá a participação do povo na gestão do governo.\n\n\n“Eu aprendi, neste segundo turno, a grande lição da minha vida. Quando o governante não sabe o que fazer, ele pergunta ao seu povo que o seu povo saberá ensinar o que ele tem que fazer”, acrescentou.\n\n\n“Acho que no dia em que o povo brasileiro acordou e resolveu eleger um metalúrgico, sem diploma universitário, como presidente da República, foi o dedo de Deus que fez vocês confiarem que um operário poderia fazer mais do que a elite brasileira tinha feito em 500 anos neste país”. O presidente agradeceu novamente o deputado federal André Janones (Rede-MG) por ter coordenado uma campanha nas redes sociais de apoio à sua reeleição e comandado o canal no whatsapp Exército do Lula, decisivo na disputa eleitoral.\n\n“O nosso exército teve um papel muito importante nesse segundo turno. Agora, você [dirigindo-se ao deputado André Janones] vai ter que assumir um compromisso com esse povo. Que a gente ganhou a primeira batalha. O exército não pode dispersar. O exército vai ter que continuar”, afirmou Lula.\n\nO vice-presidente da República, Geraldo Alckmin, também discursou na Avenida Paulista. Ele destacou que essa eleição presidencial teve vários recordes e que o presidente Lula já salvou a democracia duas vezes. \n\n\n“O primeiro recorde é que o presidente Lula teve mais de 64 milhões de votos. O presidente Lula é eleito pela quarta vez. [Foi] a menor abstenção em 20 anos. E agradecer a São Paulo. Aqui, entre o primeiro e o segundo turno, aumentou 27,5% a votação do presidente Lula. E, finalmente, trazer uma palavra: o presidente Lula salvou a democracia no Brasil duas vezes.”",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente da República reeleito, Luiz Inácio Lula da Silva, em discurso na festa da vitória na Avenida Paulista, pediu que os presentes cantassem o Hino da Independência do Brasil. <strong>Momentos antes, em entrevista coletiva, Lula afirmou que houve intromissão estrangeira e que as plataformas digitais tentaram direcionar o resultado eleitoral no país.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706814&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706814&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Eu devo essa vitória a cada um e a cada uma de vocês. Por isso, ontem [em manifestação no mesmo local] fiquei emocionado e quero pedir para, outra vez, cantarem o Hino da Independência para eles saberem que nós não cabemos no quintal de ninguém”, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu devo essa vitória a cada um e a cada uma de vocês. Por isso, ontem [em manifestação no mesmo local] fiquei emocionado e quero pedir para, outra vez, cantarem o Hino da Independência para eles saberem que nós não cabemos no quintal de ninguém”, disse.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Lula disse que a eleição de 2026 serviu de lição e que o seu quarto mandato terá a participação do povo na gestão do governo.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Eu aprendi, neste segundo turno, a grande lição da minha vida. Quando o governante não sabe o que fazer, ele pergunta ao seu povo que o seu povo saberá ensinar o que ele tem que fazer”, acrescentou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Eu aprendi, neste segundo turno, a grande lição da minha vida. Quando o governante não sabe o que fazer, ele pergunta ao seu povo que o seu povo saberá ensinar o que ele tem que fazer”, acrescentou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“<strong>Acho que no dia em que o povo brasileiro acordou e resolveu eleger um metalúrgico, sem diploma universitário, como presidente da República, foi o dedo de Deus que fez vocês confiarem que um operário poderia fazer mais do que a elite brasileira tinha feito em 500 anos neste país</strong>”. O presidente agradeceu novamente o deputado federal André Janones (Rede-MG) por ter coordenado uma campanha nas redes sociais de apoio à sua reeleição e comandado o canal no whatsapp Exército do Lula, decisivo na disputa eleitoral.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O nosso exército teve um papel muito importante nesse segundo turno. Agora, você [dirigindo-se ao deputado André Janones] vai ter que assumir um compromisso com esse povo. Que a gente ganhou a primeira batalha. O exército não pode dispersar. O exército vai ter que continuar”, afirmou Lula.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O vice-presidente da República, Geraldo Alckmin, também discursou na Avenida Paulista. Ele destacou que essa eleição presidencial teve vários recordes e que o presidente Lula já salvou a democracia duas vezes. </strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“O primeiro recorde é que o presidente Lula teve mais de 64 milhões de votos. O presidente Lula é eleito pela quarta vez. [Foi] a menor abstenção em 20 anos. E agradecer a São Paulo. Aqui, entre o primeiro e o segundo turno, aumentou 27,5% a votação do presidente Lula. E, finalmente, trazer uma palavra: o presidente Lula salvou a democracia no Brasil duas vezes.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O primeiro recorde é que o presidente Lula teve mais de 64 milhões de votos. O presidente Lula é eleito pela quarta vez. [Foi] a menor abstenção em 20 anos. E agradecer a São Paulo. Aqui, entre o primeiro e o segundo turno, aumentou 27,5% a votação do presidente Lula. E, finalmente, trazer uma palavra: o presidente Lula salvou a democracia no Brasil duas vezes.”</p>",
+      "imagem": "https://imagens.ebc.com.br/sQndnwA3RB4S6uvEONLGVh4y1tk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/26/_int1477.jpg.jpeg?itok=4OguplRr",
+      "slug": "em-festa-da-vitoria-lula-pede-que-publico-cante-hino-da-independencia",
+      "pagina_local": "em-festa-da-vitoria-lula-pede-que-publico-cante-hino-da-independencia.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-festa-da-vitoria-lula-pede-que-publico-cante-hino-da-independencia",
+      "categoria": "Política & Leis",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Lula agradece votos e diz que teve de vencer intromissão vinda de fora",
@@ -143,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-agradece-votos-e-diz-que-teve-de-vencer-intromissao-vinda-de-fora",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Flávio não reconhece vitória de Lula e tentará anulação do pleito",
@@ -156,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-pleito",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "“Vamos mudar o jeito de governar este país”, diz Lula",
@@ -169,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/vamos-mudar-o-jeito-de-governar-este-pais-diz-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Motta e Alcolumbre, líderes do Congresso Nacional, parabenizam Lula",
@@ -182,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/motta-e-alcolumbre-lideres-do-congresso-nacional-parabenizam-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Presidente do TSE liga para Lula para parabenizar reeleição",
@@ -195,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Imprensa internacional destaca vitória histórica de Lula",
@@ -208,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/imprensa-internacional-destaca-vitoria-historica-de-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Prorrogação da votação teve baixa procura e frustração de eleitores",
@@ -221,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/prorrogacao-da-votacao-teve-baixa-procura-e-frustracao-de-eleitores",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Rio Grande do Norte elege Cadu de Lula governador do estado",
@@ -234,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/rio-grande-do-norte-elege-cadu-de-lula-governador-do-estado",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Lula é reeleito presidente do Brasil em virada histórica",
@@ -247,20 +260,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
-      "titulo": "Lorenzo Pazolini vence o segundo turno e vai governar o Espírito Santo",
-      "resumo": "Com 97,34% das urnas apuradas, o candidato Lorenzo Pazolini (Republicanos) foi eleito para governar o estado do Espírito Santo.\n\nSegundo os dados do Tribunal Superior Eleitoral (TSE), Pazolini recebeu, até o momento, 1.116.303 dos votos vál...",
-      "conteudo_completo": "Com 97,34% das urnas apuradas, o candidato Lorenzo Pazolini (Republicanos) foi eleito para governar o estado do Espírito Santo.\n\nSegundo os dados do Tribunal Superior Eleitoral (TSE), Pazolini recebeu, até o momento, 1.116.303 dos votos válidos, o que equivale a 52,01%. Ele disputou o segundo turno com Ricardo Ferraço (MDB), que obteve 1.030.156 votos (47,99%).\n\nNotícias relacionadas:Eleitores do ES definem disputa para governo entre Ferraço e Pazolini .Lorenzo Pazolini foi prefeito de Vitória por dois mandatos. Em 2026, deixou o comando municipal para disputar o governo do Espírito Santo.\n\nNatural da capital capixaba, tem 44 anos, já foi deputado estadual e é delegado de polícia.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Com 97,34% das urnas apuradas, o candidato Lorenzo Pazolini (Republicanos) foi eleito para governar o estado do Espírito Santo.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706348&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706348&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo os dados do Tribunal Superior Eleitoral (TSE), <strong>Pazolini recebeu, até o momento, 1.116.303 dos votos válidos, o que equivale a 52,01%</strong>. Ele disputou o segundo turno com Ricardo Ferraço (MDB), que obteve 1.030.156 votos (47,99%).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Lorenzo Pazolini foi prefeito de Vitória por dois mandatos. Em 2026, deixou o comando municipal para disputar o governo do Espírito Santo.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Natural da capital capixaba, tem 44 anos, já foi deputado estadual e é delegado de polícia.<br/>\n </p>",
-      "imagem": "https://imagens.ebc.com.br/HmlreDKx_TooZ6t69oQsuW03ZPA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/02/lorenzo_pazolini.jpg?itok=qks0-SoO",
-      "slug": "lorenzo-pazolini-vence-o-segundo-turno-e-vai-governar-o-espirito-santo",
-      "pagina_local": "lorenzo-pazolini-vence-o-segundo-turno-e-vai-governar-o-espirito-santo.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lorenzo-pazolini-vence-o-segundo-turno-e-vai-governar-o-espirito-santo",
-      "categoria": "Política & Leis",
+      "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
+      "resumo": "A Força Nacional de Segurança Pública atuará junto com a Polícia Federal na fronteira do Brasil com a Colômbia, no município de Tabatinga, no Amazonas. A permanência tem prazo de 90 dias.\n\nDe acordo com Portaria a 1.313/2026, publicada nest...",
+      "conteudo_completo": "A Força Nacional de Segurança Pública atuará junto com a Polícia Federal na fronteira do Brasil com a Colômbia, no município de Tabatinga, no Amazonas. A permanência tem prazo de 90 dias.\n\nDe acordo com Portaria a 1.313/2026, publicada nesta segunda-feira (26) no Diário Oficial da União, os agentes farão atividades de policiamento e de preservação da ordem pública, além de garantir a segurança de pessoas e patrimônios.\n\nNotícias relacionadas:Força Nacional do SUS apoia atendimentos no Amazonas após incêndios.Força Nacional vai atuar por 90 dias na região de Belo Monte.Rio recebe base da Força Nacional do SUS para enfrentar El Niño.A operação faz parte dos esforços de fortalecimento da segurança na Amazônia e ocorrerá em articulação com os órgãos de segurança pública do estado, dentro do Plano Amazônia: Segurança e Soberania (Plano Amas).\n\nO contingente ainda será definido pela Diretoria da Força Nacional de Segurança Pública, vinculada à Secretaria Nacional de Segurança Pública do Ministério da Justiça e Segurança Pública, de acordo com o planejamento operacional da missão.\n\nLocalidade\n\nTabatinga é um dos principais pontos estratégicos da faixa de fronteira brasileira na Amazônia, em uma área considerada sensível para o combate a crimes transnacionais, como tráfico de drogas, contrabando e crimes ambientais.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A Força Nacional de Segurança Pública atuará junto com a Polícia Federal na fronteira do Brasil com a Colômbia, no município de Tabatinga, no Amazonas. A permanência tem prazo de 90 dias.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706817&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706817&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com <a href=\"https://www.in.gov.br/en/web/dou/-/portaria-mjsp-n-1.313-de-22-de-outubro-de-2026-740356727\" target=\"_blank\">Portaria a 1.313/2026</a>, publicada nesta segunda-feira (26) no <a href=\"https://www.in.gov.br/servicos/diario-oficial-da-uniao/destaques-do-diario-oficial-da-uniao\" target=\"_blank\"><em>Diário Oficial da União</em></a>, os agentes farão atividades de policiamento e de preservação da ordem pública, além de garantir a segurança de pessoas e patrimônios.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A operação faz parte dos esforços de fortalecimento da segurança na Amazônia e ocorrerá em articulação com os órgãos de segurança pública do estado, dentro do <a href=\"https://www.gov.br/mj/pt-br/acesso-a-informacao/acoes-e-programas/amas\" target=\"_blank\">Plano Amazônia: Segurança e Soberania (Plano Amas)</a>.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O contingente ainda será definido pela Diretoria da Força Nacional de Segurança Pública, vinculada à Secretaria Nacional de Segurança Pública do Ministério da Justiça e Segurança Pública, de acordo com o planejamento operacional da missão.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Localidade</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong><a href=\"https://agenciabrasil.ebc.com.br/tags/tabatinga\" target=\"_blank\">Tabatinga</a> é um dos principais pontos estratégicos da faixa de fronteira brasileira na Amazônia, em uma área considerada sensível para o combate a crimes transnacionais, como tráfico de drogas, contrabando e crimes ambientais.</strong></p>",
+      "imagem": "https://imagens.ebc.com.br/Pp7LKz7scanNc4vAAmbaHn8_EDE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/tabatinga-fronteira_mcamgo_abr_030320231818-8.jpg?itok=gt3dNPKp",
+      "slug": "forca-nacional-reforcara-seguranca-na-fronteira-com-a-colombia",
+      "pagina_local": "forca-nacional-reforcara-seguranca-na-fronteira-com-a-colombia.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/forca-nacional-reforcara-seguranca-na-fronteira-com-colombia",
+      "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -273,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/gol-nega-cancelamento-de-voos-em-massa-para-o-nordeste",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -286,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-e-proximo-premio-sera-de-r-300-milhoes",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -299,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/cartorios-lancam-ferramenta-que-permite-pesquisar-imoveis-no-pais",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
@@ -312,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -325,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -338,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/caixa-loterias-anuncia-antecipacao-de-sorteios-para-sabado",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -351,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-civil-investiga-distribuidora-de-bebidas-em-guarulhos-sp",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -364,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/chuvas-defesa-civil-decreta-situacao-de-emergencia-em-cidades-do-sul",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
@@ -377,20 +390,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/metro-de-sao-paulo-amplia-uso-do-pix-no-autoatendimento",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
-    },
-    {
-      "titulo": "Curso falso para sargentos da reserva era usado para compra de armas",
-      "resumo": "Agentes da Delegacia Especializada em Armas, Munições e Explosivos (Desarme), com apoio do Exército Brasileiro, desarticularam um esquema criminoso que simulava cursos de formação de sargentos da reserva para falsificar documentos militares...",
-      "conteudo_completo": "Agentes da Delegacia Especializada em Armas, Munições e Explosivos (Desarme), com apoio do Exército Brasileiro, desarticularam um esquema criminoso que simulava cursos de formação de sargentos da reserva para falsificar documentos militares e permitir a compra irregular de armas de fogo. \n\nNa ação, dois homens foram presos e um terceiro continua foragido. Cinco pistolas e um fuzil foram apreendidos, além de dezenas de documentos falsificados.\n\nAs investigações apontaram que o grupo organizava falsos cursos preparatórios, com aulas presenciais e aplicação de provas, para dar aparência de legalidade à formação dos participantes. \n\nAo final, eram fornecidas carteiras de identidade militar e autorizações de compra de armamentos com assinaturas falsificadas de oficiais do Exército. Os documentos eram utilizados para adquirir armas em estabelecimentos comerciais credenciados.\n\nOs criminosos também falsificavam Certificados de Registro de Arma de Fogo (CRAF), necessários para a retirada do armamento das lojas de venda de armas.\n\nA investigação identificou a compra de cinco armas, avaliadas em aproximadamente R$ 50 mil, entre elas quatro pistolas calibre .40, uma pistola 9 mm e um fuzil calibre 5,56 mm. \n\nParte do armamento ainda estava nos estabelecimentos comerciais quando o esquema foi descoberto, o que permitiu impedir a entrega aos compradores.\n\nInvestigação\n\nAs apurações começaram há dois meses, após a prisão em flagrante de um homem que adquiriu uma pistola utilizando documentação falsa.\n\nA partir desse caso, os agentes identificaram outras compras realizadas com documentos que apresentavam o mesmo padrão de falsificação.\n\nO Exército Brasileiro confirmou que os documentos e as autorizações de aquisição de armas eram falsos.\n\nAlém da primeira prisão em flagrante, outros dois criminosos foram presos durante a ação.\n\nAs investigações prosseguem para identificar os responsáveis pela organização dos cursos, pela produção dos documentos falsificados e outros possíveis envolvidos.\n\nAlém dos mandados de prisão temporária expedidos, a Justiça do Rio determinou que as cinco armas apreendidas poderão ser destinadas ao uso da Polícia Civil.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Agentes da Delegacia Especializada em Armas, Munições e Explosivos (Desarme), com apoio do Exército Brasileiro, desarticularam um esquema criminoso que simulava cursos de formação de sargentos da reserva para falsificar documentos militares e permitir a compra irregular de armas de fogo. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706018&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706018&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na ação, dois homens foram presos e um terceiro continua foragido. Cinco pistolas e um fuzil foram apreendidos, além de dezenas de documentos falsificados.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As investigações apontaram que <strong>o grupo organizava falsos cursos preparatórios, com aulas presenciais e aplicação de provas, para dar aparência de legalidade à formação dos participantes. </strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ao final, eram fornecidas carteiras de identidade militar e autorizações de compra de armamentos com assinaturas falsificadas de oficiais do Exército. </strong>Os documentos eram utilizados para adquirir armas em estabelecimentos comerciais credenciados.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os criminosos também falsificavam Certificados de Registro de Arma de Fogo (CRAF)</strong>, necessários para a retirada do armamento das lojas de venda de armas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A investigação identificou a compra de cinco armas, avaliadas em aproximadamente R$ 50 mil, entre elas quatro pistolas calibre .40, uma pistola 9 mm e um fuzil calibre 5,56 mm. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Parte do armamento ainda estava nos estabelecimentos comerciais quando o esquema foi descoberto, o que permitiu impedir a entrega aos compradores.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Investigação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As apurações começaram há dois meses, após a prisão em flagrante de um homem que adquiriu uma pistola utilizando documentação falsa.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A partir desse caso, os agentes identificaram outras compras realizadas com documentos que apresentavam o mesmo padrão de falsificação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Exército Brasileiro confirmou que os documentos e as autorizações de aquisição de armas eram falsos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além da primeira prisão em flagrante, outros dois criminosos foram presos durante a ação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As investigações prosseguem para identificar os responsáveis pela organização dos cursos, pela produção dos documentos falsificados e outros possíveis envolvidos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Além dos mandados de prisão temporária expedidos, a Justiça do Rio determinou que as cinco armas apreendidas poderão ser destinadas ao uso da Polícia Civil.</p>",
-      "imagem": "https://imagens.ebc.com.br/8Tii1Yd9YzMQ8YT7_c-eXulbj5w=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/02/adobestock_329141086.jpeg?itok=0naNmvJS",
-      "slug": "curso-falso-para-sargentos-da-reserva-era-usado-para-compra-de-armas",
-      "pagina_local": "curso-falso-para-sargentos-da-reserva-era-usado-para-compra-de-armas.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/curso-falso-para-sargentos-da-reserva-era-usado-para-compra-de-armas",
-      "categoria": "Geral & Cidadania",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Fachin diz que vontade dos eleitores deve ser respeitada",
@@ -403,7 +403,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-diz-que-vontade-dos-eleitores-deve-ser-respeitada",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Nas redes sociais, líderes latino-americanos saúdam Lula pela vitória",
@@ -416,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/nas-redes-sociais-lideres-latino-americanos-saudam-lula-pela-vitoria",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     },
     {
       "titulo": "Nunes Maques diz que decisão de Zanin dificultou processo eleitoral",
@@ -429,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/nunes-maques-diz-que-decisao-de-zanin-dificultou-processo-eleitoral",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "26/10/2026 às 05:54"
+      "coletado_em": "26/10/2026 às 12:39"
     }
   ]
 };
