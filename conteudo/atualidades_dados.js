@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "26/10/2026 às 12:39:51",
+  "ultima_atualizacao": "26/10/2026 às 19:07:04",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
+      "resumo": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recol...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS) pelo regime regular terão até sexta-feira para registrar a opção. Quem não fizer a escolha continuará a recolher pelo regime simplificado, que tem uma alíquota variável por tipo e tamanho de negócio posteriormente rateada em diversos tributos.\n\nNotícias relacionadas:Reforma Tributária: 86% das notas fiscais destacam a CBS.Receita adia cronograma de destaque de impostos da reforma tributária.Também na sexta-feira acaba o prazo para as empresas regularizarem as pendências que impediram o ingresso no Simples Nacional. O prazo de opção pelo regime acabou no dia 15.\n\nO Simples Nacional é um regime simplificado de tributação para quem fatura até R$ 4,8 milhões por ano. Por causa do novo sistema tributário, o Comitê Gestor do Simples Nacional (CGSN) antecipou a escolha do regime tributário.\n\nAs empresas que desejarem ingressar no regime em 2027 fizeram o pedido até 30 de outubro. Até então, a opção pelo Simples era realizada em janeiro de cada ano.\n\nA data limite acabaria em 30 de setembro, mas, após diálogo com o Conselho Federal de Contabilidade e o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae), o CGSN estendeu o prazo para 15 de outubro.\n\nO novo prazo foi regulamentado por resolução do CGSN editada no fim de setembro. As normas incorporaram ao regime simplificado o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS), tributos criados pela reforma tributária sobre o consumo.\n\nAs micro e pequenas empresas têm de 3 de novembro a 20 de dezembro para desistir das opções. O prazo vale tanto para reverter a inclusão no Simples como para cancelar o recolhimento do IBS e da CBS a partir de 2027.\n\nO que muda\n\nA nova regra vale para empresas que ainda não são optantes pelo Simples Nacional e querem utilizar o regime a partir de janeiro de 2027.\n\nOs novos prazos são:\n\n\n\t    1º de setembro a 15 de outubro de 2026: período para solicitar a opção pelo Simples Nacional para 2027;\n\t    1º de setembro a 30 de outubro de 2026: escolha do regime regular da CBS e do IBS para o primeiro semestre de 2027;\n\t    30 de outubro de 2026: regularização de pendências que tenham impedido opção pelo Simples Nacional;\n\t    3 de novembro a 20 de dezembro de 2026: prazo para desistir das opções.\n\n\nAs seguintes datas estão mantidas:\n\n\n\t    1º de janeiro de 2027: início dos efeitos da opção;\n\t    1º a 31 de março de 2027: nova oportunidade para escolher o recolhimento do IBS e da CBS pelo regime regular, com efeitos no segundo semestre.\n\n\nCriada por causa da transição para o novo sistema tributário, a alteração busca dar mais previsibilidade às empresas antes do início do ano-calendário.\n\nIBS e CBS\n\nOutra mudança envolve a forma de recolhimento do IBS e da CBS. A empresa poderá permanecer no Simples Nacional e, simultaneamente, optar pelo recolhimento desses dois tributos pelo regime regular.\n\nPara o primeiro semestre de 2027, a escolha deveria ter sido feita em setembro, com validade de janeiro a junho.\n\nQuem não fez a opção pelo regime regular nesse período permanecerá, no primeiro semestre, com IBS e CBS dentro da sistemática do Simples.\n\nA decisão poderá ser revista em março de 2027, com efeitos para o segundo semestre.\n\nA escolha pode ter impacto especialmente para empresas que vendem para outras empresas, devido à possibilidade de geração e aproveitamento de créditos tributários.\n\nPor isso, a avaliação do regime não deve considerar apenas a alíquota. Também entram na análise fatores como:\n\n\n\t    perfil dos clientes;\n\t    cadeia de fornecedores;\n\t    possibilidade de geração e aproveitamento de créditos;\n\t    formação de preços;\n\t    impacto dos novos tributos no fluxo financeiro.\n\n\nOptantes\n\nQuem já está no Simples Nacional, em regra, não precisa solicitar novamente a permanência no regime.\n\nAinda assim, é recomendado verificar a situação fiscal da empresa em setembro deste ano para identificar eventuais pendências ou exclusões para 2027.\n\nAs empresas que permanecerem no Simples e não quiserem recolher IBS e CBS pelo regime regular não precisarão fazer uma nova opção.\n\nQuem quiser retirar esses dois tributos da sistemática do Simples deverá formalizar a escolha dentro do prazo estabelecido.\n\nAbertura\n\nAs empresas abertas entre 1º de outubro e 31 de dezembro de 2026 terão uma regra específica.\n\nNesse caso, a opção pelo Simples Nacional feita no momento da inscrição do CNPJ produzirá efeitos tanto para o período restante de 2026 quanto para todo o ano de 2027.\n\nA escolha relacionada ao IBS e à CBS pelo regime regular também poderá ser feita na abertura da empresa, com efeitos a partir de janeiro de 2027.\n\nSe o empresário não quiser permanecer no Simples em 2027, poderá solicitar a exclusão por opção até o último dia de 2026.\n\nDesistência\n\nA antecipação da opção também criou uma possibilidade de desistência.\n\nQuem fez o pedido até 15 de outubro poderá cancelar a solicitação até 30 de novembro de 2026.\n\nO cancelamento, porém, será irretratável. Isso significa que, depois de desistir, a empresa não poderá fazer uma nova opção para produzir efeitos em 2027.\n\nA antecipação também permite que eventuais pendências sejam identificadas antes do início do ano. Em caso de indeferimento por problemas que possam ser regularizados, a empresa terá prazo para corrigir a situação.\n\nRegra do MEI\n\nA mudança não altera o calendário de opção pelo Simei, sistema aplicável ao Microempreendedor Individual (MEI).\n\nPara o MEI, a opção pelo Simei continua sendo realizada em janeiro de cada ano, até o último dia útil do mês.\n\nDessa forma, a antecipação para setembro não deve ser confundida com as regras específicas aplicáveis aos microempreendedores individuais.\n\nNFS-e nacional\n\nOutra mudança anunciada pelo CGSN envolve a emissão da Nota Fiscal de Serviço eletrônica (NFS-e) no emissor nacional.\n\nA obrigatoriedade para empresas optantes pelo Simples Nacional foi adiada de 1º de setembro para 1º de novembro de 2026.\n\nO adiamento busca dar mais tempo para municípios e empresas realizarem adaptações tecnológicas e operacionais.\n\nEntre as providências recomendadas estão:\n\n\n\t    testar a emissão das notas;\n\t    verificar a integração com sistemas de gestão;\n\t    conferir a parametrização dos dados fiscais;\n\t    preparar os procedimentos internos antes do início da obrigatoriedade.\n\n\nA regulamentação também altera a forma de prestação de informações fiscais e socioeconômicas.\n\nA Declaração de Informações Socioeconômicas e Fiscais (Defis) deixará de ser apresentada como declaração separada. As informações passarão a ser incorporadas ao Programa Gerador do Documento de Arrecadação do Simples Nacional – Declaratório (PGDAS-D), com entrega anual de janeiro a março.\n\nA mudança faz parte da adaptação do Simples Nacional ao novo modelo tributário.\n\nPlanejamento\n\nCom setembro concentrando decisões relevantes para o próximo ano, especialistas recomendam que empresas e contadores antecipem a análise tributária.\n\nA escolha entre manter IBS e CBS no Simples ou recolhê-los pelo regime regular pode produzir efeitos diferentes dependendo do setor, dos fornecedores e do perfil dos clientes.\n\nPor isso, antes de formalizar a opção, a recomendação é que a micro e pequena empresa simule os dois cenários, além de revisar os sistemas, a emissão de notas fiscais e planejar o caixa para 2027.</p>",
+      "imagem": "https://imagens.ebc.com.br/fkfzrsxiXSdFPrlh0vk6GnEjUsQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf1037_1.jpg?itok=QXEJ1MDg",
+      "slug": "prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
+      "pagina_local": "prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/prazo-para-empresas-escolherem-modelo-do-simples-acaba-nesta-sexta",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 19:07"
+    },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
       "resumo": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contrataç...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola",
@@ -117,20 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
-      "titulo": "Perdão de dívidas e novo teto do MEI: entenda o que muda",
-      "resumo": "Sancionada nesta quarta-feira (21) pelo presidente Luiz Inácio Lula da Silva, a Lei Complementar 238/2026, que estabelece novas regras para os microempreendedores individuais (MEI), estabelece o perdão de dívidas tributá...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Sancionada nesta quarta-feira (21) pelo presidente Luiz Inácio Lula da Silva, a Lei Complementar 238/2026, que estabelece novas regras para os microempreendedores individuais (MEI), estabelece o perdão de dívidas tributárias com a União. A legislação também aumenta gradualmente o limite de faturamento anual e amplia a possibilidade de contratação de funcionários.\n\nBatizado de Prospera MEI, o pacote inclui ainda medidas para facilitar a participação de pequenos negócios em compras públicas. Parte das mudanças, porém, só começa a valer em 2027.\n\nNotícias relacionadas:Sancionada lei que perdoa dívida e aumenta limite de MEI.Importações para pesquisa pública terão imunidade tributária.Governo destina R$ 6,49 bilhões a setor de exportação.Além da lei, Lula assinou o decreto que dispensa os MEI da obrigatoriedade de emitir nota fiscal nas vendas de produtos e na prestação de serviços a pessoas físicas. A norma também prevê a dispensa para os chamados nanoempreendedores, conforme as condições estabelecidas na regulamentação.\n\nO que muda?\n\nEntre as principais medidas estão:\n\n\n\tPerdão de dívidas: remissão de débitos tributários federais abrangidos pela lei, incluindo contribuições previdenciárias, multas e juros.\n\tNovo teto de faturamento: limite anual de R$ 110 mil em 2027 e de R$ 140 mil em 2028.\n\tContratação de funcionários: possibilidade de contratar até dois empregados nas atividades contempladas pela nova regra.\n\tNota fiscal: dispensa de emissão nas operações com pessoas físicas, conforme o decreto assinado pelo presidente.\n\tDívidas bancárias: previsão de renegociação com descontos por meio de leilões com instituições financeiras.\n\tCompras públicas: ampliação das oportunidades de participação em contratações governamentais.\n\n\nComo funciona o perdão?\n\nA lei prevê a remissão de débitos tributários federais abrangidos pela medida, constituídos até 13 de outubro de 2026. O benefício inclui o valor das contribuições previdenciárias em atraso, além de multas, juros e encargos relacionados.\n\nA estimativa divulgada pelo governo é de que cerca de 3,6 milhões de microempreendedores sejam beneficiados.\n\nPara manter o benefício, o MEI deverá:\n\n\n\tManter em dia o pagamento das guias mensais do Documento de Arrecadação do Simples Nacional (DAS) durante os seis primeiros meses de vigência da medida.\n\tCumprir as demais condições previstas na legislação para a remissão dos débitos.\n\tObservar as exigências aplicáveis caso existam ações judiciais relacionadas às dívidas.\n\n\nA medida está prevista para entrar em vigor em 1º de janeiro de 2027. O perdão não significa devolução de valores que já tenham sido pagos.\n\nComo fica o faturamento?\n\nO limite anual do MEI, atualmente em R$ 81 mil, será ampliado em duas etapas. A mudança busca permitir que os empreendedores aumentem suas receitas sem precisar deixar imediatamente o regime simplificado por ultrapassar o teto atual.\n\n\n\tAté 2026: teto de R$ 81 mil;\n\tA partir de 2027: R$ 110 mil;\n\tA partir de 2028: R$ 140 mil\n\n\nOs novos limites passam a valer nas datas previstas pela lei. O enquadramento continuará condicionado ao cumprimento dos demais requisitos exigidos para ser MEI.\n\nQuantos funcionários?\n\nA legislação amplia para até dois empregados o limite de contratação nas atividades abrangidas pela nova regra. Os trabalhadores deverão receber, no mínimo, um salário mínimo ou o piso salarial da categoria profissional.\n\nA ampliação não deve ser interpretada como uma autorização irrestrita para todos os MEI: é necessário observar quais atividades estão contempladas e as condições específicas previstas na legislação.\n\nO que muda na nota fiscal?\n\nO presidente Lula também assinou nesta quarta-feira o decreto que dispensa o MEI da emissão de nota fiscal nas vendas de produtos e na prestação de serviços destinados a pessoas físicas, conforme as condições da norma.\n\nA medida também contempla os nanoempreendedores, categoria prevista no contexto da reforma tributária, que poderá reunir pessoas com faturamento anual de até R$ 40,5 mil.\n\nPara esse público, a regulamentação prevê dispensa de abertura de Cadastro Nacional de Pessoa Jurídica (CNPJ) e de emissão de nota fiscal nas vendas a pessoas físicas, respeitados os requisitos aplicáveis.\n\nA dispensa não deve ser confundida com uma autorização geral para deixar de emitir documentos fiscais em qualquer operação. As exigências para transações com empresas e órgãos públicos devem ser observadas conforme as regras aplicáveis.\n\nComo serão as dívidas bancárias?\n\nO pacote também prevê uma frente de renegociação de débitos com instituições financeiras, em iniciativa associada ao Desenrola 3.0.\n\nA proposta é realizar leilões a partir de novembro, com participação de bancos privados. As instituições deverão oferecer descontos mínimos de 90% sobre os saldos devedores para participar da operação, conforme as condições anunciadas pelo governo.\n\nA expectativa oficial é alcançar cerca de 1,6 milhão de MEI inadimplentes. A compra ou renegociação das dívidas bancárias é uma medida diferente do perdão de débitos tributários com a União e depende das regras específicas da operação.\n\nE o Pix de R$ 5 mil?\n\nO pacote anunciado inclui a previsão de um auxílio de até R$ 5 mil para investimento na estruturação de pequenos negócios, chamado de Pix MEI.\n\nA proposta prevê recursos entre 2027 e 2030, com prioridade para mulheres empreendedoras e MEI com faturamento anual de até R$ 40,5 mil. O dinheiro deverá ser aplicado na aquisição de bens que contribuam para o desenvolvimento produtivo da atividade.\n\nA iniciativa também prevê orientação e assistência aos beneficiários, com apoio de parceiros como o Sebrae.\n\nA previsão de recursos, no entanto, não significa que o dinheiro esteja disponível para saque imediato. O acesso dependerá da implementação do programa e das regras operacionais a serem estabelecidas.\n\nComo acessar compras públicas?\n\nA lei também amplia as possibilidades de participação dos MEI em contratações governamentais e prevê mecanismos para facilitar o acesso às compras públicas.\n\nA iniciativa busca aproximar pequenos empreendedores dos órgãos públicos compradores, inclusive por meio de plataformas como o Contrata+Brasil.\n\nOs limites financeiros e os procedimentos aplicáveis variam conforme a modalidade de contratação. Por isso, o empreendedor deverá consultar os editais e as regras vigentes antes de apresentar uma proposta.\n\nQuando as medidas valem?\n\n\n\t21 de outubro de 2026: sanção da lei e assinatura do decreto presidencial.\n\t1º de janeiro de 2027: previsão de início do perdão de dívidas e entrada em vigor de medidas como o novo teto de R$ 110 mil.\n\tA partir de novembro: previsão de início dos leilões para renegociação de dívidas bancárias.\n\t1º de janeiro de 2028: novo aumento do limite anual de faturamento, para R$ 140 mil.\n\tDe 2027 a 2030: período previsto para a concessão dos recursos do Pix MEI, conforme a implementação do programa.\n\n\nA aplicação de cada benefício depende das condições previstas na lei, no decreto e nas regulamentações específicas. O empreendedor deve acompanhar os canais oficiais do governo, como o Serviço de Apoio às Micro e Pequenas Empresas (Sebrae), para verificar os procedimentos de acesso e a data efetiva de cada medida.</p>",
-      "imagem": "https://imagens.ebc.com.br/C6vODAzVtXqCzMwqpzhC9SNJ8mQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/21/sem_titulo-2.jpg?itok=b-5Pl0FL",
-      "slug": "perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda",
-      "pagina_local": "perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-de-dividas-e-novo-teto-do-mei-entenda-o-que-muda",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
+      "resumo": "Sete ocorrências foram registradas pela Polícia Militar durante o segundo turno das eleições até o meio-dia deste domingo (25). Cinco pessoas foram presas. Entre os casos atendidos estão três ocorrências na capital, além...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Sete ocorrências foram registradas pela Polícia Militar durante o segundo turno das eleições até o meio-dia deste domingo (25). Cinco pessoas foram presas. Entre os casos atendidos estão três ocorrências na capital, além de uma em São Caetano do Sul, uma em Marília, uma em Guarantã e uma em Osasco. Foram cinco registros de crimes eleitorais, um de desacato e um atendimento de apoio a oficial de Justiça.\n\nUm eleitor foi flagrado por mesárias, na cidade de São Paulo, fotografando a urna eletrônica. A imagem foi apagada, e os envolvidos foram encaminhados a um Distrito Policial para a elaboração de termo circunstanciado.\n\nNotícias relacionadas:Força Nacional reforçará segurança na fronteira com a Colômbia.Gol nega cancelamento de voos em massa para o Nordeste.Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões.Em São Caetano do Sul, a PM foi acionada após uma eleitora ser identificada utilizando um aparelho celular na cabine de votação. Também por fotografar a urna eletrônica, outra pessoa foi levada a um Distrito Policial no bairro Rochdale, em Osasco.\n\nEm Marília, policiais militares atenderam a uma ocorrência de desacato envolvendo um mesário.\n\nOperação especial\n\nDurante o segundo turno das eleições, a Secretaria da Segurança Pública (SSP) implantou uma operação especial, mobilizando as polícias Civil e Militar para o policiamento preventivo, a proteção dos locais de votação e o atendimento às ocorrências em todos os 645 municípios paulistas.\n\nA atuação incluiu a segurança de cartórios e postos de atendimento eleitoral desde quinta-feira (22). No sábado (24), foi realizada a escolta e a guarda das urnas eletrônicas. No domingo (25), o policiamento foi intensificado desde as 6h nas imediações dos locais de votação.\n\nApós o encerramento da votação, houve a continuidade do apoio à Justiça Eleitoral, com a segurança dos locais de apuração e a escolta das urnas e das mídias de resultados.</p>",
+      "imagem": "https://imagens.ebc.com.br/SD-1YJ7io5xNneGILoLdpJ8_eBI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/10/06/_mg_2276.jpg?itok=PRj9aZug",
+      "slug": "pm-registra-7-ocorrencias-e-6-detidos-ate-o-meio-dia-de-domingo-em-sp",
+      "pagina_local": "pm-registra-7-ocorrencias-e-6-detidos-ate-o-meio-dia-de-domingo-em-sp.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pm-registra-7-ocorrencias-e-6-detidos-ate-o-meio-dia-de-domingo-em-sp",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Caixa Loterias anuncia antecipação de sorteios para sábado",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Polícia Civil investiga distribuidora de bebidas em Guarulhos (SP)",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     },
     {
       "titulo": "Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
-    },
-    {
-      "titulo": "Metrô de São Paulo amplia uso do Pix no autoatendimento",
-      "resumo": "As máquinas de autoatendimento do metrô de São Paulo já estão aceitando o Pix como forma de pagamento. \n\nA nova modalidade de pagamento passou a ser aceita nesta terça-feira (20), inicialmente, apenas para a Linha 1-Azul...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As máquinas de autoatendimento do metrô de São Paulo já estão aceitando o Pix como forma de pagamento. \n\nA nova modalidade de pagamento passou a ser aceita nesta terça-feira (20), inicialmente, apenas para a Linha 1-Azul. \n\nA funcionalidade será ampliada para usuários de outras linhas nos próximos dias, o que exige que os equipamentos sejam reprogramados.\n\nSegundo a prefeitura, o calendário de implementação do sistema nas máquinas do Metrô ocorrerá da seguinte forma:\n\n\n\tLinha 2-Verde, 23 a 26 de outubro;\n\tLinha 3-Vermelha, 27 e 28 de outubro; \n\tLinha 15-Prata, 29 e 30 de outubro.\n\n\nTrens\n\nNo sistema ferroviário, o recurso já está presente em todas as linhas e estações desde o primeiro semestre deste ano. A solução visa facilitar as possibilidades de pagamento tornando o Pix uma alternativa conveniente durante o processo de compras de bilhetes e recargas.\n\nO modelo de pagamento está disponível nos terminais de venda automatizados, que oferecem diferentes opções para a compra e a recarga, incluindo cartões de crédito e débito.\n\nEssa inovação amplia as opções de acesso às linhas do Metrô para os passageiros. Além de utilizar os guichês tradicionais e os cartões Bilhete Único e TOP, é possível adquirir bilhetes pelo WhatsApp (11 3777-9456), por aplicativo móvel (app TOP para Android e iOS), em caixas eletrônicos/máquinas ATM nas estações ou mediante pagamento por aproximação diretamente nas catracas.\n\nDisponibilizado pelo Metrô em dezembro do ano passado, o pagamento por aproximação permite o uso de cartões de débito e crédito, tanto físicos quanto virtuais, via smartphones e smartwatches com carteira digital habilitada.\n\nA modernização dos meios de ingresso ao sistema inclui também a aposentadoria do bilhete magnético, conhecido popularmente como Edmonson. Os passageiros têm até o dia 31 de outubro para usar este bilhete nas estações do Metrô e após esta data o Metrô vai disponibilizar postos de troca.\n\n*Estagiário sob supervisão de Odair Braz Junior</p>",
-      "imagem": "https://imagens.ebc.com.br/LydywL-bgxe-dCvWuqBiMqrByAM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/21/pix.jpeg?itok=GMTukPL-",
-      "slug": "metro-de-sao-paulo-amplia-uso-do-pix-no-autoatendimento",
-      "pagina_local": "metro-de-sao-paulo-amplia-uso-do-pix-no-autoatendimento.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/metro-de-sao-paulo-amplia-uso-do-pix-no-autoatendimento",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 12:39"
+      "coletado_em": "26/10/2026 às 19:07"
     }
   ]
 };
