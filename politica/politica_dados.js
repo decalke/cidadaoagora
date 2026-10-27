@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "27/10/2026 às 04:35:17",
+  "ultima_atualizacao": "27/10/2026 às 10:18:56",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "CNBB parabeniza Lula e pede atenção aos mais pobres",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Trump questiona eleição brasileira e Alckmin rebate: “equivocado”",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Líderes estrangeiros reconhecem vitória e parabenizam Lula",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Moraes manda Flávio entregar passaporte e o proíbe de deixar o país",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Posse de Lula será em 5 de janeiro",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "PF registrou 86 casos de possíveis crimes eleitorais no 2º turno",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Eleições 2026: oito partidos vão comandar 26 estados e o DF",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Segundo turno das eleições registra menor abstenção em 20 anos",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Em São Paulo, três municípios escolhem novos prefeitos",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "TRE-BA revoga ordem de prisão de secretário de Mobilidade de Salvador",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "TSE nega acusação de Flávio sobre expulsão de fiscais de sala-cofre",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Eleitores de sete cidades escolheram seus prefeitos neste 2º turno",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "PF investiga se problemas na circulação de ônibus prejudicaram eleitor",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Fachin diz que vontade dos eleitores deve ser respeitada",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Nunes Maques diz que decisão de Zanin dificultou processo eleitoral",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Em SP, 80% das urnas estavam encerradas quando votação foi prorrogada",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Centrais sindicais criticam falta de ônibus no dia da eleição",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Advogado vê sabotagem à democracia em falta de transporte de eleitores",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "TSE retoma contagem de votos em todo o país",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 04:35"
+      "coletado_em": "27/10/2026 às 10:18"
     }
   ]
 };
