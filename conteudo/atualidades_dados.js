@@ -1,7 +1,72 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "27/10/2026 às 10:19:00",
+  "ultima_atualizacao": "27/10/2026 às 16:20:36",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
+      "resumo": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cum...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cumprimento da meta fiscal.\n\n\n“Nosso compromisso é com a responsabilidade fiscal, com a estabilidade fiscal e isso vai ser buscado com diálogo”, disse o ministro a jornalistas ao chegar, nesta manhã, ao Ministério da Fazenda.\n\n\nNotícias relacionadas:Governo enviará dois projetos de lei alternativos à MP do IOF.Banco Central diz que estabilidade financeira não está em risco.Para conter oscilações, Tesouro anuncia nova recompra de títulos.O ministro revelou que, na segunda-feira (26), entrou em contato com representantes do setor financeiro para tentar acalmar o mercado, um dia após o presidente Luiz Inácio Lula da Silva ser reeleito para mais quatro anos à frente do governo federal.\n\nSem fornecer mais detalhes, Durigan comentou que a equipe de governo já vem discutindo medidas de ajuste fiscal, incluindo a possibilidade de uma ampliação da fatia do Orçamento da União passível de ser contingenciada - medida que depende da aprovação do Congresso Nacional. \n\n\n“Já temos várias medidas sendo estudadas e algumas prontas”, revelou Durigan, explicando que as propostas em análise vão ser anunciadas em breve, com a autorização do presidente Lula, que, antes, quer definir os novos integrantes de sua equipe econômica.\n\n\n“Estamos passando por um período de transição”, destacou o ministro, referindo-se ao período entre o anúncio do resultado do segundo turno das eleições presidenciais e o dia 5 de janeiro, quando Lula e o vice-presidente, Geraldo Alckmin, serão reempossados.\n\n“[Até lá] o presidente vai se sentar tanto com a equipe atual, quanto com a que ainda vai designar para o novo mandato, e definir os próximos passos concretos. Sabendo que já temos medidas prontas, como a busca pelo centro da meta, que vão ser tratadas com o Congresso Nacional em breve.”</p>",
+      "imagem": "https://imagens.ebc.com.br/ZHwDUBvDuOV9hbQxPzy1u1nv8XY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/12/0d9a7467.jpg?itok=DdlnxcKL",
+      "slug": "governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
+      "pagina_local": "governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
+    },
+    {
+      "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
+      "resumo": "O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União.\n\n...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União.\n\nA renovação já havia sido sinalizada mais cedo pelo ministro da Fazenda, Dario Durigan. Ao ser questionado sobre o tema, ele disse que o governo ainda discutia os detalhes para a publicação da medida.\n\nNotícias relacionadas:Fazenda mantém subsídio de R$ 2,12 ao óleo diesel.Petrobras inova na produção sustentável de combustível de aviação.“A gente vai tratar [da questão da renovação da subvenção do diesel]. Temos reuniões durante o dia e faremos anúncios nas próximas horas ou dias”, declarou o ministro.\n\nDe acordo com o governo, o impacto fiscal da prorrogação será compensado por receitas extraordinárias provenientes do petróleo, preservando a neutralidade fiscal.\n\nA subvenção está prevista na Medida Provisória nº 1.391, de 11 de setembro de 2026, que autorizou a União a conceder subvenção econômica a produtores e importadores de óleo diesel enquanto persistirem as instabilidades no mercado internacional de combustíveis decorrentes de conflitos geopolíticos\n\nA legislação federal tem, como objetivo, reduzir os efeitos da volatilidade do mercado internacional sobre o preço do diesel no país.\n\nEm nota, o Ministério do Planejamento e Orçamento informou que a renovação terá validade de 30 dias e poderá ser novamente prorrogada conforme a evolução do mercado internacional de combustíveis.</p>",
+      "imagem": "https://imagens.ebc.com.br/vdZ84gev7mIlNfRdihWW5eX4NrE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/ffraz_abr2405182853_1.jpg?itok=4e5n1yET",
+      "slug": "governo-prorroga-por-um-mes-subvencao-de-r-2-12-ao-diesel",
+      "pagina_local": "governo-prorroga-por-um-mes-subvencao-de-r-2-12-ao-diesel.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
+    },
+    {
+      "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
+      "resumo": "O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de re...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de recompra será divulgado no site da instituição.\n\nA medida foi autorizada pelo ministro da Fazenda, Dario Durigan, que disse a jornalistas, em Brasília, que a recompra dos títulos seria anunciada “na medida em que estivessem colocadas as condições e a necessidade [do governo federal] de fazer uma intervenção”.\n\nNotícias relacionadas:Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel.Banco Central diz que estabilidade financeira não está em risco.Ao comunicar que prepara um novo leilão de recompra de títulos, a Secretaria do Tesouro também anunciou o cancelamento do próximo leilão de Letras Financeiras do Tesouro (LFT). Conhecidas como Tesouro Selic, as LFTs são títulos públicos de renda fixa indexados à Taxa Selic, a taxa básica de juros da economia.\n\nOntem (26), um dia após o segundo turno das eleições gerais - cuja disputa à Presidência da República foi vencida pelo candidato à reeleição Luiz Inácio Lula da Silva -, o Tesouro Nacional recomprou mais de R$ 14,8 bilhões em títulos públicos.\n\nA recompra dos títulos públicos é uma medida extraordinária adotada para corrigir eventuais instabilidades verificadas no mercado, como as registradas nesta segunda-feira e que Durigan classificou como “variações” decorrentes do ajuste de expectativas frente ao resultado das eleições.\n\n\n“O mercado estava apostando em um determinado candidato, mas um outro, o presidente Lula, conseguiu uma vitória histórica. [Neste contexto] É natural que uma “troca de posições” cause um desarranjo [temporário] no mercado”, disse o ministro aos jornalistas, demonstrando confiança na retomada da “racionalidade de mercado”.\n\n\n“Espero que hoje a gente mantenha o nível de racionalidade. Não estou falando de nível de preços, até porque não me compete falar sobre isso, mas de racionalidade, sem grandes oscilações”, acrescentou Durigan.</p>",
+      "imagem": "https://imagens.ebc.com.br/1cy5uguugv_1vsOe-4tl9WNcfN0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf1010_1.jpg?itok=DbnHfTFq",
+      "slug": "para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
+      "pagina_local": "para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
+    },
+    {
+      "titulo": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
+      "resumo": "O ministro da Fazenda, Dario Durigan, afirmou que o governo federal deve enviar ao Congresso Nacional, nos próximos dias, uma Medida Provisória (MP) estabelecendo as alíquotas do chamado Imposto Seletivo (IS).\n\nTambém co...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O ministro da Fazenda, Dario Durigan, afirmou que o governo federal deve enviar ao Congresso Nacional, nos próximos dias, uma Medida Provisória (MP) estabelecendo as alíquotas do chamado Imposto Seletivo (IS).\n\nTambém conhecido como Imposto do Pecado, o tributo foi aprovado junto com a reforma tributária e será cobrado a partir de 2027, com a justificativa de desestimular o consumo de produtos e atividades consideradas prejudiciais à saúde ou ao meio ambiente, como cigarros, bebidas alcoólicas, refrigerantes, alguns tipos de veículos, além da extração de bens minerais, loterias, apostas e jogos de fantasy sports (jogos online). \n\n\nNotícias relacionadas:Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula.Durigan prevê envio de MP do Imposto Seletivo após eleições.“Vamos enviar [a MP] em breve, provavelmente esta semana”, disse Durigan a jornalistas, hoje (27), em Brasília.\n\n\nNo início do mês, o ministro já tinha antecipado que o governo planejava encaminhar a proposta ao Congresso Nacional logo após o segundo turno das eleições gerais, realizadas no último domingo (25).\n\nEm entrevista na entrada do ministério, Durigan disse que o governo renovaria a subvenção ao óleo diesel. Quase no mesmo momento, o Ministério do Planejamento e Orçamento confirmou a renovação da subvenção ao combustível, no valor de R$ 2,12 por litro, como forma de conter a alta dos preços. A medida tem validade de um mês, podendo ser renovada ao fim do período.</p>",
+      "imagem": "https://imagens.ebc.com.br/ZHwDUBvDuOV9hbQxPzy1u1nv8XY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/12/0d9a7467.jpg?itok=DdlnxcKL",
+      "slug": "governo-vai-enviar-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
+      "pagina_local": "governo-vai-enviar-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
+    },
+    {
+      "titulo": "Banco Central diz que estabilidade financeira não está em risco",
+      "resumo": "O Banco Central (BC) informou nesta terça-feira (27) que \"não vê risco relevante\" para a estabilidade financeira do país, apesar da piora dos indicadores de crédito das famílias.\n\nSegundo o Relatório de Estabilidade Fina...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Banco Central (BC) informou nesta terça-feira (27) que \"não vê risco relevante\" para a estabilidade financeira do país, apesar da piora dos indicadores de crédito das famílias.\n\nSegundo o Relatório de Estabilidade Financeira referente ao primeiro semestre de 2026, o sistema financeiro continua com níveis confortáveis de capitalização e liquidez, além de capacidade de resistir a cenários adversos.\n\nNotícias relacionadas:IBC-Br recuou 0,6% em junho, diz Banco Central.Banco Central estuda interligar Pix com sistemas de outros países.O documento mostra que os ativos problemáticos das famílias, indicador que reúne operações com atraso ou sinais de dificuldade de pagamento, aumentaram e atingiram o maior nível desde 2012 na maioria das modalidades de crédito.\n\nDe acordo com o BC, a inadimplência foi o principal fator responsável por esse movimento.\n\nA autoridade monetária também informou que o comprometimento da renda das famílias com o pagamento de dívidas alcançou o maior nível dos últimos 21 anos.\n\nAs estimativas do banco apontam que a pressão sobre a capacidade de pagamento dos consumidores deve continuar ao longo do segundo semestre.\n\nResiliência\n\nApesar desse cenário, o BC avalia que o Sistema Financeiro Nacional permanece resiliente. As provisões constituídas pelas instituições financeiras seguem compatíveis com as perdas esperadas, enquanto os testes de estresse de capital e de liquidez indicam que os bancos mantêm capacidade de enfrentar cenários econômicos adversos.\n\nO relatório aponta ainda desaceleração do crédito para famílias e empresas, em linha com os juros elevados e a atividade econômica mais moderada. Segundo o BC, as instituições financeiras também vêm demonstrando maior cautela na concessão de empréstimos.\n\nConfiança\n\nPesquisa feita pela autoridade monetária mostra que 73% das instituições financeiras consultadas estão muito ou totalmente confiantes na resiliência do sistema.\n\nAs principais preocupações apontadas foram o risco fiscal e a possibilidade de aumento da inadimplência em um ambiente de juros elevados por um período prolongado.\n\nNa avaliação do Banco Central, o aumento do endividamento de famílias e empresas exige cautela adicional na oferta de crédito. O órgão informou que estuda medidas voltadas aos segmentos de maior risco para reduzir situações de superendividamento e fortalecer a sustentabilidade do crédito no país.</p>",
+      "imagem": "https://imagens.ebc.com.br/4P4kLfGygwh7yN8EJAMIaG0PqTM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20231025_150203.jpg?itok=55thhM0a",
+      "slug": "banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "pagina_local": "banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
+    },
     {
       "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
       "resumo": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.\n\nOs números sorteados são: 07 -...",
@@ -13,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -26,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -39,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -52,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -65,72 +130,33 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
-      "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
-      "resumo": "A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Receita Federal abriu nesta sexta-feira (23) a consulta ao lote residual de restituição do Imposto de Renda Pessoa Física (IRPF). Ao todo, 184.442 contribuintes serão contemplados com R$ 531,6 milhões. O pagamento está previsto para 30 de outubro.\n\nSegundo a Receita, o lote contempla declarações do Imposto de Renda de 2026 entregues fora do prazo ou que estavam retidas em malha fina e tiveram as pendências regularizadas pelos contribuintes, além de restituições residuais de exercícios anteriores.\n\nNotícias relacionadas:Restituições do IR batem recorde e chegam a R$ 41 bilhões em 2026.Do valor total, R$ 293,4 milhões serão destinados a contribuintes com prioridade legal. Serão beneficiados 5.424 idosos acima de 80 anos, 27.948 contribuintes entre 60 e 79 anos, 4.047 pessoas com deficiência física, mental ou com moléstia grave e 8.827 contribuintes cuja principal fonte de renda é o magistério.\n\nO lote também contempla 121.531 contribuintes sem prioridade legal que utilizaram a declaração pré-preenchida e/ou optaram por receber a restituição por Pix. Outros 16.665 contribuintes não prioritários também receberão a restituição neste lote.\n\nConsulta\n\nA consulta pode ser feita no site da Receita Federal. Basta acessar a área Meu Imposto de Renda e clicar em Consultar Minha Eestituição. O serviço também está disponível no aplicativo da Receita para celulares e tablets.\n\nAlém de verificar a liberação da restituição, o contribuinte pode consultar o extrato do processamento da declaração no Centro Virtual de Atendimento ao Contribuinte (e-CAC). Caso sejam identificadas pendências, é possível enviar uma declaração retificadora.\n\nCrédito\n\nA restituição é paga exclusivamente em conta bancária de titularidade do contribuinte. Se houver erro nos dados informados ou problema na conta indicada, o crédito não será realizado.\n\nNesses casos, o contribuinte poderá solicitar o reagendamento do pagamento junto ao Banco do Brasil por até um ano após a primeira tentativa de depósito. Após esse prazo, o resgate do valor deverá ser pedido por meio do portal e-CAC.\n\nTambém é possível fazer o reagendamento por meio da Central de Relacionamento BB, nos números 4004-0001 (capitais); 0800-729-0001 (demais localidades); 0800-729-0088 (deficientes auditivos).</p>",
-      "imagem": "https://imagens.ebc.com.br/uKX49-O7c6wbIMzfsIhaLX5OMw8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/24/_mg_6811.jpg?itok=jzzX6lGR",
-      "slug": "receita-abre-consulta-a-lote-residual-do-imposto-de-renda",
-      "pagina_local": "receita-abre-consulta-a-lote-residual-do-imposto-de-renda.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-abre-consulta-lote-residual-do-imposto-de-renda",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "titulo": "Polícia investiga morte de engenheiro agredido em Santos",
+      "resumo": "A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista....",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista.\n\nImagens que circulam nas redes sociais mostram o momento em que Rocha caminhava pela rua quando foi abordado por dois homens exigindo a entrega de seu aparelho celular. Em seguida, mais cinco pessoas se aproximam, cercam Marcelo e passam a agredi-lo com socos e chutes. Ele cai no chão, já sem consciência.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Deputado do Rio volta a ser alvo da PF por suspeita de fraudes.PF investiga desvio de dinheiro em empresa de previdência de São Roque.Socorrido inicialmente na Santa Casa de Santos, o rapaz foi transferido para o Hospital São Paulo, unidade universitária vinculada à Universidade Federal de São Paulo (Unifesp), mas não resistiu aos ferimentos decorrentes das agressões.\n\nO engenheiro retornava de um ato político na cidade e usava um adesivo de apoio a Luiz Inácio Lula da Silva, candidato reeleito à Presidência também no domingo. O caso é tratado pela Polícia Civil como latrocínio, que é roubo seguido de morte.\n\nOs investigadores utilizam imagens de câmeras de segurança, vídeos compartilhados na internet e depoimentos de testemunhas para identificar os suspeitos e individualizar a conduta de cada um dos agressores.\n\nMarcelo era formado em engenharia e cursava mestrado na Unifesp. Em nota oficial, a universidade manifestou pesar e cobrou celeridade na apuração do crime:\n\n\n“A Unifesp expressa sua solidariedade aos familiares, amigos e colegas de Marcelo, neste momento de dor e consternação. A gravidade do ocorrido exige a apuração rigorosa das circunstâncias e motivações da agressão, bem como a identificação e responsabilização dos envolvidos.”\n\n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
+      "imagem": "https://imagens.ebc.com.br/P7UeedtZPGUm116KlpRlKYVSEU0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/86b9cab4-2ff6-4485-abd1-45d80a5218ec.jpeg?itok=ABqDQ6Si",
+      "slug": "policia-investiga-morte-de-engenheiro-agredido-em-santos",
+      "pagina_local": "policia-investiga-morte-de-engenheiro-agredido-em-santos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-investiga-morte-de-engenheiro-agredido-em-santos",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
-      "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
-      "resumo": "A prévia da inflação oficial de outubro ficou em 0,32%, menos da metade do mês anterior (0,7%), conforme divulgou o Instituto Brasileiro de Geografia e Estatística (IBGE), nesta sexta-feira (23).\n\nO resultado faz com que...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A prévia da inflação oficial de outubro ficou em 0,32%, menos da metade do mês anterior (0,7%), conforme divulgou o Instituto Brasileiro de Geografia e Estatística (IBGE), nesta sexta-feira (23).\n\nO resultado faz com que o Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15) acumule 4,62% em 12 meses. Esse patamar fica acima da meta do governo, que tolera até 4,5% ao ano. Em setembro, o acumulado de 12 meses era 4,47%. Em outubro de 2025, o índice marcou 0,18%.\n\nNotícias relacionadas:Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan.CMN e BC atualizam regras de segurança e transparência do Open Finance.Após cinco meses, conta de luz voltará à bandeira verde em outubro.Veja o comportamento dos grupos de produtos e serviços apurados pelo IBGE em outubro:\n\n- Alimentação e bebidas: 0,88% (impacto de 0,19 ponto percentual - p.p.)\n\n- Despesas pessoais: 0,55% (0,06 p.p.)\n\n- Vestuário: 0,53% (0,02 p.p.)\n\n- Comunicação: 0,43% (0,02 p.p.)\n\n- Artigos de residência: 0,28% (0,01 p.p.)\n\n- Saúde e cuidados pessoais: 0,15% (0,02 p.p.)\n\n- Educação: 0,09% (0,01 p.p.)\n\n- Transportes: 0,05% (0,01 p.p.)\n\n- Habitação: -0,10% (-0,02 p.p.)\n\nNo grupo alimentação e bebidas, o IBGE destaca que a alimentação no domicílio subiu 1,01%. Em setembro, variou 0,38%.\n\nAs maiores altas do grupo foram:\n\ntomate: 24,54%\n\ncebola: 13,63%\n\nbatata-inglesa: 10,96%\n\narroz: 5,80%\n\nO tomate, aliás, foi o preço individual que mais pressionou o IPCA-15.\n\nPelo lado dos recuos, os principais subitens foram cenoura (-10,67%), frutas (-1,37%) e café moído (-1,16%).\n\nNo grupo transporte, a alta foi pressionada pelos combustíveis, que subiram 1,2% em outubro. Subiram os preços do óleo diesel (3,70%), etanol (2,73%) e da gasolina (0,92%). O gás veicular recuou 0,18%.\n\nAs passagens aéreas ficaram, em média, 9,24% mais em conta, sendo o subitem que mais puxou a prévia da inflação para baixo (impacto de -0,08 p.p.).\n\nÚnico grupo a apresentar retração, a habitação (-0,10%) teve como principal contribuição negativa o custo da energia elétrica residencial, que variou -0,89%.\n\nA explicação está na bandeira tarifária, que passou de amarela (com acréscimo de R$ 1,885 a cada 100 Kwh consumidos) para verde, sem cobrança adicional para os consumidores. ((https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/apos-cinco-meses-conta-de-luz-voltara-bandeira-verde-em-outubro))\n\nEm setembro, a conta de luz (+7,42%) tinha sido o principal motor de alta do IPCA-15. A explicação foi a devolução do bônus de Itaipu, desconto que os consumidores tiveram na conta de luz do mês de agosto. Sem o desconto, o preço voltou ao patamar normal em setembro. \n\nNa avaliação do economista Roberto Luis Troster, coordenador do Centro de Estudos do Financiamento das Empresas Brasileiras (Cefeb) da Fundação Instituto de Pesquisas Econômicas (Fipe), não houve alívio disseminado dos preços, e a maior pressão veio dos alimentos.\n\n\n“A desaceleração mensal é bem-vinda, mas ainda não demonstra uma trajetória consistente de queda da inflação. Em resumo: ganhou-se uma batalha contra a inflação, mas a guerra ainda não acabou”, avalia.\n\n\nIPCA15 x IPCA\n\nO IPCA-15 tem basicamente a mesma metodologia do IPCA, a chamada inflação oficial, que serve de base para a política de meta de inflação do governo: 3% no acumulado em 12 meses, com margem de tolerância de 1,5 p.p. para mais ou para menos. \n\nA diferença está no período de coleta de preços e na abrangência geográfica. Na prévia, a pesquisa é feita e divulgada antes mesmo de acabar o mês de referência. Em relação à divulgação atual, o período de coleta foi de 16 de setembro a 14 de outubro.\n\nOs dois índices levam em consideração uma cesta de produtos e serviços para famílias com rendimentos entre um e 40 salários mínimos. Atualmente o valor do mínimo é R$ 1.621.\n\nO IPCA-15 coleta preços de 367 produtos e serviços (10 a menos que o IPCA) em 11 localidades do país (as regiões metropolitanas do Rio de Janeiro, Porto Alegre, Belo Horizonte, Recife, São Paulo, Belém, Fortaleza, Salvador e Curitiba, além de Brasília e Goiânia.); e o IPCA, 16 localidades (inclui Vitória, Campo Grande, Rio Branco, São Luís e Aracaju). \n\nO IPCA cheio de outubro será divulgado em 12 de novembro.\n\nO boletim Focus da última segunda-feira (19), sondagem do Banco Central (BC) com instituições do mercado financeiro, sinaliza que o mercado espera que a inflação de outubro fique em 0,32%.</p>",
-      "imagem": "https://imagens.ebc.com.br/zINkRz1_V0fLMRD-XYDGT7OCSUo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/luz.jpg?itok=BOWE2W1i",
-      "slug": "previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-0-32",
-      "pagina_local": "previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-0-32.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previa-da-inflacao-oficial-cai-pela-metade-e-fecha-outubro-em-032",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
-    },
-    {
-      "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
-      "resumo": "As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraord...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As instituições financeiras terão cinco dias úteis para a informar ao governo as dívidas que pretendem oferecer para renegociação na primeira etapa do Desenrola 3.0. O Diário Oficial da União publicou, em edição extraordinária, a portaria com o edital de chamamento.\n\nA terceira versão do Desenrola prevê a compra de dívidas pelo governo. Na quarta-feira (21), o ministro da Fazenda, Dario Durigan, estimou em R$ 90 bilhões o volume de dívidas antigas que podem ser apresentadas nesse edital, que dá início ao processo de habilitação de bancos e fundos interessados em vender carteiras de crédito à União.\n\nNotícias relacionadas:Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola.Governo cria 3ª fase do Desenrola com compra de dívidas pela União.Apesar do volume previsto, o custo máximo estimado para a compra de todo esse montante seria de R$ 9 bilhões, considerando o desconto mínimo de 90% exigido pelo programa.\n\nAs instituições terão cinco dias úteis para informar o volume de débitos que pretendem oferecer. A etapa, no entanto, não é uma convocação para que os consumidores renegociem suas dívidas, mas um procedimento para medir o interesse dos credores e o volume de dívidas por faixas de renda.\n\nComo funcionará\n\nO chamamento público será destinado a bancos, instituições financeiras e fundos de investimento em direitos creditórios (FIDCs). Para participar da etapa seguinte, os credores deverão apresentar carteiras de dívidas que atendam aos critérios do programa e aceitar as condições mínimas de desconto.\n\nO procedimento será dividido em etapas:\n\n\n\tChamamento: publicação do edital para manifestação de interesse dos credores;\n\tApresentação das carteiras: prazo de cinco dias úteis para informar os débitos elegíveis;\n\tDefinição do leilão: análise do volume apresentado, com separação por faixas de renda;\n\tCompra das dívidas: realização do leilão, previsto para novembro, com possibilidade de adiamento para o início de dezembro.\n\n\nSegundo o ministro, o governo pretende estruturar a disputa para favorecer devedores de menor renda e microempreendedores individuais (MEIs). No entanto, caso o volume de dívidas de baixa renda seja menor que o previsto, o governo poderá comprar mais dívidas de alta renda.\n\nCustos\n\nA estimativa inicial é que os credores apresentem até R$ 90 bilhões em dívidas. Como o programa exige deságio mínimo de 90%, a União pagaria, no máximo, 10% do valor nominal das carteiras adquiridas.\n\nNa hipótese de compra de todo o montante estimado, o desembolso seria de até R$ 9 bilhões.\n\nO governo, porém, não necessariamente comprará todas as carteiras apresentadas. A intenção é estabelecer um orçamento para o leilão e estimular a concorrência entre os credores, o que pode resultar em descontos superiores ao mínimo exigido.\n\nA depender do que o governo receber nas carteiras dos bancos e das instituições financeiras, o governo pode pedir desconto de 93% a 95% no leilão.\n\nQuais dívidas entram\n\nO Desenrola 3.0 foi criado por medida provisória assinada pelo presidente Luiz Inácio Lula da Silva em setembro. O programa prevê a compra, pela União, de carteiras de crédito com dívidas antigas para viabilizar a renegociação dos débitos com os consumidores.\n\nEntre as condições previstas estão:\n\n\n\tDívidas de até R$ 10 mil, considerando o valor original do débito;\n\tAtrasos entre 720 e 1.645 dias, o equivalente a aproximadamente dois anos e quatro anos e meio;\n\tDébitos de cartão de crédito, incluindo as modalidades rotativa e parcelada, e de crédito pessoal sem consignação em folha;\n\tPossibilidade de inclusão de dívidas elegíveis de pessoas físicas e MEIs, conforme as regras do programa.\n\n\nNo lançamento da iniciativa, o governo estimou que o volume total de dívidas elegíveis poderia chegar a R$ 150 bilhões, com desembolso de aproximadamente R$ 15 bilhões. A previsão de R$ 90 bilhões divulgada agora corresponde à expectativa inicial de dívidas que os credores poderão apresentar na primeira chamada.\n\nRenegociação\n\nApós o leilão, as dívidas adquiridas pelo governo poderão ser renegociadas com os devedores, com repasse dos descontos obtidos na compra das carteiras.\n\nO consumidor poderá quitar o débito à vista ou parcelar o pagamento, conforme as condições a serem estabelecidas. No caso do parcelamento, haverá cobrança de juros.\n\nOs prazos, as taxas e as demais condições operacionais ainda dependem de definições do Conselho Monetário Nacional (CMN) e da regulamentação aplicável.\n\nNeste momento, os consumidores não precisam procurar os bancos para participar da etapa de chamamento. O governo ainda deverá divulgar as regras e os procedimentos para o acesso às renegociações.</p>",
-      "imagem": "https://imagens.ebc.com.br/FsOUn81CA0D9s3Rrvxyw6gHr4Ow=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223671.jpg?itok=r5cN9dxx",
-      "slug": "portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
-      "pagina_local": "portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/portaria-convoca-instituicoes-financeiras-para-3a-fase-do-desenrola",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
-    },
-    {
-      "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
-      "resumo": "O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamen...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Conselho Monetário Nacional (CMN) e o Banco Central (BC) aprovaram nesta quinta-feira (22) mudanças nas regras de compartilhamento de dados pelo Open Finance, sistema que permite aos clientes autorizar o compartilhamento de informações financeiras entre instituições.\n\nAs alterações reforçam a segurança, ampliam a transparência e estabelecem novas exigências para bancos e demais participantes, com atenção especial às necessidades de pessoas jurídicas, como empresas.\n\nNotícias relacionadas:Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan.Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões.Aprovadas em resolução conjunta dos dois órgãos, as novas regras buscam esclarecer as responsabilidades das instituições envolvidas, reduzir divergências de interpretação e dar mais controle aos clientes sobre o uso de suas informações.\n\nEntre as principais mudanças, estão a exigência de consentimento específico para cada empresa parceira, o monitoramento mais rigoroso dessas parcerias e a possibilidade de interromper o compartilhamento de dados diante de riscos à segurança.\n\nA regulamentação também prepara o sistema para permitir que, em determinadas situações, a autorização para compartilhar dados seja concedida em momentos diferentes por cada instituição envolvida. No caso de empresas, isso poderá facilitar processos que dependem da aprovação de diferentes representantes.\n\nO que é Open Finance?\n\nO Open Finance, ou sistema financeiro aberto, permite que clientes autorizem o compartilhamento de seus dados financeiros entre instituições participantes. O objetivo é facilitar o acesso a serviços e estimular a concorrência entre bancos, fintechs e outras empresas do setor.\n\nNa prática, uma pessoa ou empresa pode autorizar uma instituição a consultar informações mantidas em outra, conforme as permissões concedidas. Isso pode ajudar na oferta de serviços financeiros mais adequados ao perfil do cliente.\n\nNum exemplo prático, uma empresa que mantém conta em um banco pode autorizar outra instituição a consultar determinadas informações financeiras para avaliar uma proposta de crédito, sem precisar depender exclusivamente dos dados disponíveis na instituição que fará a oferta.\n\nO compartilhamento depende de autorização e deve seguir as regras de segurança e privacidade aplicáveis.\n\nO que muda?\n\nAs alterações aprovadas pelo CMN e pelo BC abrangem cinco pontos principais:\n\n\n\tConsentimento específico: o cliente deverá autorizar o compartilhamento com cada entidade parceira envolvida, aumentando a clareza sobre quem poderá acessar seus dados;\n\tMais fiscalização: as instituições participantes terão de reforçar o acompanhamento das empresas parceiras, verificando se elas cumprem as regras e protegem adequadamente as informações recebidas;\n\tMais transparência: os clientes terão acesso a informações mais amplas sobre as parcerias e sobre o compartilhamento de seus dados;\n\tInterrupção por segurança: a regulamentação prevê mecanismos para suspender o compartilhamento quando houver situações que representem riscos à segurança das informações;\n\tPrevenção de uso indevido: serão aplicadas restrições adicionais para evitar que os dados compartilhados sejam utilizados de maneira inadequada.\n\n\nO conjunto de medidas procura deixar mais claro quem pode acessar os dados, em quais condições isso pode ocorrer e quais responsabilidades cabem a cada participante.\n\nResponsabilidade\n\nAs mudanças também reforçam o papel da alta administração das instituições financeiras na supervisão do Open Finance.\n\nDiretorias e conselhos de administração deverão ter responsabilidades mais claras em relação ao monitoramento das parcerias, ao cumprimento das normas e à adoção de medidas para prevenir ou corrigir irregularidades.\n\nNa prática, a segurança do sistema não deverá ficar restrita às equipes técnicas. A governança das instituições também deverá acompanhar os riscos relacionados ao compartilhamento de informações.\n\nCaso sejam identificados problemas, as instituições deverão adotar providências preventivas ou corretivas, conforme as exigências regulatórias aplicáveis.\n\nPessoas jurídicas\n\nUma das principais novidades é a preparação para jornadas de consentimento mais flexíveis, especialmente para clientes pessoas jurídicas.\n\nAtualmente, o compartilhamento de dados envolve instituições que transmitem as informações e instituições que as recebem. As mudanças abrem caminho para que as autorizações necessárias sejam concedidas em momentos diferentes em cada uma delas.\n\nNo caso de empresas, quando aplicável, os consentimentos também poderão ser dados por usuários distintos, de acordo com os processos internos de representação e aprovação.\n\nExemplo:\n\n1.    A empresa inicia o processo: um representante pede um serviço financeiro em uma instituição que deseja consultar dados mantidos em outro banco;\n\n2.    As autorizações são organizadas: os consentimentos necessários podem ser concedidos em momentos diferentes nas instituições envolvidas;\n\n3.    Outros responsáveis participam: quando aplicável, outro usuário autorizado pela empresa poderá realizar uma das etapas de aprovação;\n\n4.    O compartilhamento ocorre: os dados poderão ser compartilhados conforme as autorizações concedidas e as regras de segurança do sistema.\n\nEsse modelo pode facilitar a utilização do Open Finance por empresas que exigem aprovação de mais de um responsável para movimentações ou decisões financeiras.\n\nO que muda para o cliente?\n\nPara pessoas físicas e jurídicas, o principal efeito esperado é o aumento do controle e da transparência sobre o compartilhamento de informações.\n\nAs mudanças também buscam tornar os processos mais claros e previsíveis, sem comprometer a segurança dos dados.\n\nEm resumo, os clientes poderão se beneficiar de:\n\n\n\tMaior clareza sobre as entidades autorizadas a receber seus dados;\n\tRegras mais rigorosas para proteger as informações compartilhadas;\n\tMais mecanismos para interromper o compartilhamento em situações de risco;\n\tProcessos de autorização potencialmente mais flexíveis para empresas;\n\tMaior responsabilização das instituições envolvidas.\n\n\nObjetivo das mudanças\n\nSegundo a proposta regulatória, os aperfeiçoamentos buscam permitir que o Open Finance continue evoluindo sem enfraquecer a proteção dos usuários.\n\nAo esclarecer as regras e reforçar a governança, o CMN e o Banco Central pretendem estimular a inovação, ampliar a confiança no compartilhamento de dados e favorecer a concorrência entre instituições financeiras.\n\nA expectativa é que um ambiente com regras mais claras e mecanismos de segurança mais robustos contribua para modernizar o Sistema Financeiro Nacional e facilitar o desenvolvimento de serviços financeiros, especialmente aqueles voltados às necessidades das empresas.\n\nEmbora o presidente do BC, Gabriel Galípolo, também componha o CMN, as regras foram aprovadas em resolução conjunta dos dois órgãos.\n\nProteção\n\nEm nota, a Associação dos Iniciadores de Transação de Pagamento (INIT) elogiou a medida. Segundo a entidade, as mudanças reforçam a segurança sem reduzir o espaço para inovações no Open Finance.\n\n“A resolução conjunta mostra que proteção e inovação não são objetivos opostos. Ao ampliar a transparência e definir responsabilidades, a norma fortalece a confiança no Open Finance e preserva espaço para novos modelos de negócio. O desafio agora é garantir uma implementação eficiente, que transforme esses avanços em mais concorrência e melhores serviços para pessoas e empresas”, afirmou no comunicado Gustavo Lino, diretor-executivo da INIT.\n\n \n\nMatéria ampliada às 16h40 do dia 23/10 para acréscimo de posicionamento da INIT</p>",
-      "imagem": "https://imagens.ebc.com.br/4P4kLfGygwh7yN8EJAMIaG0PqTM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20231025_150203.jpg?itok=55thhM0a",
-      "slug": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
-      "pagina_local": "cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-e-bc-atualizam-regras-de-seguranca-e-transparencia-do-open-finance",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
-    },
-    {
-      "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
-      "resumo": "A previsão de superávit primário no Orçamento de 2027 está mantida, mesmo após o anúncio recente de medidas com impacto nas contas públicas, disse nesta quinta-feira (22) o ministro da Fazenda, Dario Durigan. Segundo ele...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A previsão de superávit primário no Orçamento de 2027 está mantida, mesmo após o anúncio recente de medidas com impacto nas contas públicas, disse nesta quinta-feira (22) o ministro da Fazenda, Dario Durigan. Segundo ele, as iniciativas foram planejadas dentro das regras fiscais vigentes e sem alterações no arcabouço fiscal.\n\n“Na parte fiscal, nós estamos entregando superávit para o ano que vem no Orçamento, considerando todas essas medidas que o presidente anunciou”, declarou Durigan em entrevista ao portal Metrópoles. “Deixando para o próximo governo, seja qual for ele, uma previsão de superávit com tudo colocado”, acrescentou.\n\nNotícias relacionadas:Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões.Ministro prevê renegociação de R$ 90 bi em 3ª fase do Desenrola.Economia cresce 0,5% em agosto após dois meses de recuo, estima FGV.O ministro também defendeu a condução das contas públicas pela atual gestão e afirmou que houve melhora em relação ao governo anterior.\n\n“Do ponto de vista fiscal, nós melhoramos em R$ 200 bilhões a conta do Brasil [desde 2023]”, disse.\n\nMedidas dentro do arcabouço\n\nDurigan sustentou que as iniciativas anunciadas pelo governo em 2026 são viáveis porque foram elaboradas com base na identificação de espaço no Orçamento e na definição de prioridades, sem mudanças nas regras fiscais.\n\n\n“O que o governo fez este ano ele fez dentro de um marco fiscal, sem alterar as regras fiscais do país, encontrando espaços e definindo prioridades de alocação”, afirmou.\n\n\nEntre as medidas anunciadas estão o reajuste do Bolsa Família em cerca de 15%, ações para reduzir o custo dos combustíveis, o Desenrola 3.0 e iniciativas relacionadas às apostas esportivas. O governo também apresentou uma proposta de emenda à Constituição (PEC) para instituir tarifa zero no transporte público aos fins de semana e feriados.\n\nPara o ministro, as iniciativas seguem critérios técnicos e fiscais. “Tudo que está sendo feito está numa esteira de racionalidade fiscal e racionalidade do projeto do presidente Lula”, declarou.\n\nSobre os subsídios e as desonerações de combustíveis, Durigan argumentou que as medidas estão relacionadas aos efeitos da guerra no Oriente Médio sobre os preços do petróleo e a arrecadação federal.\n\nSegundo ele, a expectativa de receitas adicionais com royalties e tributos permitiu ao governo direcionar recursos para reduzir o custo do diesel e da gasolina.\n\nO ministro também afirmou que o reajuste do Bolsa Família só foi anunciado após a identificação de espaço fiscal para absorver o aumento das despesas.\n\nImpacto no Orçamento\n\nPara acomodar parte dos custos, o Ministério do Planejamento e Orçamento anunciou que o governo pretende encaminhar ao Congresso Nacional uma proposta de alteração do Projeto de Lei Orçamentária Anual (PLOA) de 2027. A estratégia prevê o remanejamento de aproximadamente R$ 20 bilhões, sem elevar o limite total de despesas.\n\nO restante do impacto fiscal seria acomodado por meio da revisão da estimativa de gastos obrigatórios. A medida busca incorporar parte das iniciativas anunciadas sem ampliar o teto de gastos estabelecido pelo arcabouço fiscal.\n\nDesenrola\n\nDurigan diferenciou a renegociação de débitos, como a do Programa Desenrola, de um eventual congelamento de dívidas. De acordo com o ministro, o Desenrola busca oferecer condições para que famílias e empresas regularizem suas pendências e recuperem o acesso ao crédito.\n\nNas duas versões anteriores do programa, os credores leiloavam as dívidas com deságio médio de 95% do valor. Na terceira etapa do Desenrola, o governo comprará parte dos débitos com desconto de pelo menos 90%, com a redução podendo ser maior à medida que as dívidas forem leiloadas.\n\nO ministro acrescentou que o endividamento de famílias e pequenos empreendedores agravou-se durante a pandemia. Ele defendeu as medidas de renegociação como instrumentos para facilitar a retomada da capacidade de pagamento.\n\nSegundo Durigan, o congelamento de dívidas significaria a interrupção ampla dos pagamentos. Isso afetaria diretamente o fluxo financeiro das instituições credoras, representando um calote que poderia chegar a R$ 3 trilhões.</p>",
-      "imagem": "https://imagens.ebc.com.br/nr8-BvDXcHmbGQHTKtRy4mTd24g=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/21/55284099217_86d7fe9192_o.jpg?itok=k5HXbOam",
-      "slug": "previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
-      "pagina_local": "previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/previsao-de-superavit-no-orcamento-de-2027-esta-mantida-diz-durigan",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
+      "resumo": "A empresa São Roque Prev, responsável pela previdência social dos servidores da cidade de São Roque, no interior de São Paulo, é alvo, nesta terça-feira (27), de investigação da Polícia Federal por desvio de dinheiro.\n\nS...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A empresa São Roque Prev, responsável pela previdência social dos servidores da cidade de São Roque, no interior de São Paulo, é alvo, nesta terça-feira (27), de investigação da Polícia Federal por desvio de dinheiro.\n\nSegundo a apuração, que é feita por meio da Operação Entressafras, cerca de R$ 100 milhões foram movimentados sem pareceres técnicos e fundamentação adequada entre 2022 e 2024. A empresa teria aplicado mais de R$ 90 milhões no Banco Master, de Daniel Vorcaro, que está preso atualmente.\n\nNotícias relacionadas:PF faz operação contra fraudes em concurso público no Rio.PF faz ação para prender 23 envolvidos com facção criminosa no Rio.PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Entre as infrações sob apuração, estão gestão fraudulenta, lavagem de capitais, peculato financeiro e delitos praticados contra a administração pública.\n\nA PF também cumpriu, nesta terça-feira (27), nove mandados de busca e apreensão na cidade de São Roque e também no estado de Pernambuco.</p>",
+      "imagem": "https://imagens.ebc.com.br/_dr_roPLd2aUt7r8x6LStStwais=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/27/5d291c89-ba9e-46e1-bc7c-3f5eec48f552.jpeg?itok=EOnLybN6",
+      "slug": "pf-investiga-desvio-de-dinheiro-em-empresa-de-previdencia-de-sao-roque",
+      "pagina_local": "pf-investiga-desvio-de-dinheiro-em-empresa-de-previdencia-de-sao-roque.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-investiga-desvio-de-dinheiro-em-empresa-de-previdencia-de-sao-roque",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -143,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
@@ -156,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
@@ -169,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -182,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -195,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -208,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -221,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:18"
+      "coletado_em": "27/10/2026 às 16:20"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -234,33 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:19"
-    },
-    {
-      "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
-      "resumo": "A Mega-Sena sorteia neste sábado (24) prêmio estimado em R$ 230milhões. As seis dezenas do concurso 3.074 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser fei...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Mega-Sena sorteia neste sábado (24) prêmio estimado em R$ 230milhões. As seis dezenas do concurso 3.074 serão sorteadas a partir das 21h (horário de Brasília) no Espaço da Sorte, em São Paulo.\n\nAs apostas podem ser feitas até as 20h (horário de Brasília), em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nNotícias relacionadas:Mega-Sena acumula para R$ 230 milhões; confira os números sorteados.Caixa Loterias anuncia antecipação de sorteios para sábado.A aposta simples, com seis dezenas, custa R$ 6.\n\nA Caixa Loterias anunciou a antecipação para sábado dos sorteios previstos para o domingo (25), por causa do segundo turno das eleições.\n\nNo último concurso, foram sorteados os números 04 - 13 - 23 - 28 - 41 - 58 e nenhum apostador acertou as seis dezenas.</p>",
-      "imagem": "https://imagens.ebc.com.br/lsrLdv4veqHb5D11g2-YVnn3gEE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mcamg_abr_08052019_8683_1.jpg?itok=Qn6CX8iL",
-      "slug": "mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado",
-      "pagina_local": "mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-sorteia-premio-acumulado-em-r-230-milhoes-neste-sabado",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:19"
-    },
-    {
-      "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
-      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.073 da Mega-Sena, realizado nesta quinta-feira (22). O prêmio acumulou novamente e está estimado em R$ 230 milhões para o próximo sorteio.\n\nOs números sorteados são:...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Nenhum apostador acertou as seis dezenas do Concurso 3.073 da Mega-Sena, realizado nesta quinta-feira (22). O prêmio acumulou novamente e está estimado em R$ 230 milhões para o próximo sorteio.\n\nOs números sorteados são: 04 - 13 - 23 - 28 - 41 - 58\n\n\n\t203 apostas acertaram cinco dezenas e irão receber R$ 23.138,67 cada\n\t13.143 apostas acertaram quatro dezenas e irão receber R$ 510,55 cada\n\n\nApostas\n\nNotícias relacionadas:Caixa Loterias anuncia antecipação de sorteios para sábado.O próximo concurso acontece sábado (24), às 21h. As apostas podem ser feitas até as 20h (horário de Brasília) do mesmo dia, em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nA aposta simples, com seis dezenas, custa R$ 6.\n\nA Caixa Loterias anunciou a antecipação para sábado dos sorteios previstos para o domingo (25), dia do segundo turno das eleições.</p>",
-      "imagem": "https://imagens.ebc.com.br/CkkvHQJcrBZoLvGaJjEKFvSegUI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_183248.jpg?itok=rmu5rSoe",
-      "slug": "mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
-      "pagina_local": "mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-para-r-230-milhoes-confira-os-numeros-sorteados",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 10:19"
+      "coletado_em": "27/10/2026 às 16:20"
     }
   ]
 };
