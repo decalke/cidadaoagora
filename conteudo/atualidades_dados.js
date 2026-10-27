@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "27/10/2026 às 16:20:36",
+  "ultima_atualizacao": "27/10/2026 às 21:10:40",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
+      "resumo": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC).\n\nO contingente representa 17% dos devedores do Sistema Financeiro Nacional. Diante do avanço do problema, o presidente do BC, Gabriel Galípolo, afirmou que a instituição pretende anunciar novas medidas para conter ofertas agressivas de crédito ainda este ano.\n\nNotícias relacionadas:Sancionada lei que perdoa dívida e aumenta limite de MEI.BC reforça regras de proteção ao consumidor nas ofertas de crédito.Banco Central diz que estabilidade financeira não está em risco.Principais números:\n\n\n\t20,3 milhões: brasileiros em situação de endividamento de risco;\n\t75%: crescimento do contingente entre junho de 2021 e junho de 2026;\n\t17%: participação dos devedores de risco no sistema financeiro;\n\t42%: comprometimento da renda com dívidas entre pessoas que ganham até dois salários mínimos;\n\t15%: parcela da renda dessa faixa comprometida com dívidas no cartão de crédito;\n\t18,6%: comprometimento total da renda entre quem ganha mais de dez salários mínimos.\n\n\nBC prepara novas medidas\n\nSegundo Galípolo, as próximas iniciativas devem priorizar consumidores que já utilizam o crédito rotativo do cartão ou apresentam atrasos significativos no pagamento das dívidas.\n\n“Pretendemos adicionar medidas ainda este ano”, afirmou o presidente do BC. Ele destacou a preocupação com pessoas que já enfrentam juros elevados e dificuldades financeiras.\n\nGalípolo também apontou o crescimento de modalidades de crédito sem garantia, como cartão de crédito, cheque especial e empréstimo pessoal não consignado, mesmo em um cenário de juros elevados.\n\n\n“A preocupação que existe é nessas modalidades, em que estamos assistindo crescimento de maneira pouco sensível a preço”, disse.\n\n\nQuem está em risco\n\nPara classificar um consumidor como endividado de risco, o BC considera quatro critérios. É necessário atender a pelo menos dois deles:\n\n\n\tAtraso superior a 90 dias no pagamento de parcelas de crédito;\n\tComprometimento de mais de 50% da renda mensal com dívidas;\n\tUso simultâneo de cheque especial, crédito pessoal sem consignação e crédito rotativo;\n\tRenda restante, após o pagamento das dívidas, abaixo da linha de pobreza.\n\n\nA classificação não significa que todos os 20,3 milhões de brasileiros estejam inadimplentes, mas indica maior vulnerabilidade financeira.\n\nO relatório do BC mostra ainda que o comprometimento da renda com dívidas no cartão aumentou em todas as faixas salariais. Entre os que recebem até dois salários mínimos, grupo que reúne 61,2 milhões de pessoas, o comprometimento total chegou a 42% da renda em junho de 2026.\n\nRegras para empréstimos\n\nNa última sexta-feira (23), o Banco Central anunciou medidas para restringir ofertas inadequadas de crédito e ampliar a transparência na contratação de empréstimos.\n\nEntre as mudanças, as instituições financeiras deverão oferecer mecanismos para bloquear publicidade e propostas ativas de crédito. Para consumidores considerados vulneráveis ou em risco de endividamento excessivo, as ofertas dependerão de autorização prévia, específica e inequívoca.\n\nNesses casos, as propostas deverão se limitar a alternativas que melhorem as condições financeiras do cliente, como renegociação e portabilidade, sem concessão de novos recursos.\n\nAs regras de bloqueio de ofertas entram em vigor em 31 de março de 2027. Outras medidas, previstas para julho do mesmo ano, incluem painéis digitais com informações sobre dívidas e limites para ofertas de empréstimos durante transações iniciadas pelo Pix.\n\nAs iniciativas buscam reduzir a contratação de crédito inadequado e evitar o agravamento do endividamento das famílias brasileiras.</p>",
+      "imagem": "https://imagens.ebc.com.br/kaz2rDKhUJbEapfVuOXpze2wyyo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223667.jpg?itok=3-W0UM8Q",
+      "slug": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
+      "pagina_local": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 21:10"
+    },
     {
       "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
       "resumo": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cum...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Banco Central diz que estabilidade financeira não está em risco",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -117,38 +130,51 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
-      "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
-      "resumo": "O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3%, atingindo o maior patamar desde abril,...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O dólar fechou abaixo de R$ 5 nesta sexta-feira (23), e a bolsa brasileira subiu no último dia útil antes do segundo turno das eleições presidenciais. O petróleo avançou mais de 3%, atingindo o maior patamar desde abril, com o agravamento das tensões no Oriente Médio.\n\nNo mercado doméstico, investidores ajustaram posições antes da votação de domingo (25), com as tensões geopolíticas no Oriente Médio impulsionando os preços da commodity no exterior.\n\nNotícias relacionadas:Economia da Argentina recua 1,7% em agosto sob risco de recessão.Receita abre consulta a lote residual do Imposto de Renda.Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%.Números do dia:\n\n\n\t    Dólar à vista: R$ 4,993 (-0,92%);\n\t    Dólar na semana: queda de 1,58%;\n\t    Ibovespa: 205.082,56 pontos (+0,47%);\n\t    Ibovespa na semana: queda de 0,17%;\n\t    Petróleo tipo Brent: US$ 116,72 (+3,13%);\n\t    Petróleo tipo WTI: US$ 103,27 (+3,82%).\n\n\nCâmbio\n\nO dólar comercial encerrou a sessão em queda de 0,92%, cotado a R$ 4,993. Na reta final do pregão, a moeda chegou à mínima de R$ 4,989. A cotação está no menor nível desde 9 de outubro, quando terminou em R$ 4,985.\n\nNa semana, a divisa acumulou desvalorização de 1,58% em relação ao real, após ter avançado 1,77% na semana anterior.\n\nO movimento ocorreu no último pregão antes do segundo turno das eleições presidenciais. Investidores ajustaram posições diante das expectativas para o resultado da disputa entre o presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL).\n\nA moeda brasileira apresentou o melhor desempenho entre as principais divisas globais, mesmo com a valorização do dólar no exterior. Por volta das 17h, o índice DXY, que mede a força da moeda estadunidense diante de uma cesta de moedas fortes, subia 0,19%, aos 101,799 pontos.\n\nIbovespa\n\nPrincipal índice da B3, o Ibovespa fechou em alta de 0,47%, aos 205.082,56 pontos. O volume financeiro negociado na sessão somou R$ 30,7 bilhões.\n\nApesar do avanço desta sexta-feira, o índice acumulou queda de 0,17% na semana, marcada pela cautela dos investidores diante da eleição presidencial. No acumulado de outubro, a bolsa registra valorização de 10,06%. Em 2026, a alta chega a 27,28%.\n\nA sessão também foi marcada pela alta de ações de petroleiras e mineradoras, acompanhando a valorização do petróleo e do minério de ferro.\n\nPetróleo\n\nOs contratos futuros do petróleo fecharam em forte alta nesta sexta-feira, impulsionados pelo aumento das tensões no Oriente Médio. Referência nas negociações internacionais, o barril do tipo Brent alcançou o maior nível desde abril, em meio aos temores de novos confrontos envolvendo Estados Unidos, Israel e Irã e de possíveis interrupções no fornecimento global.\n\nO petróleo Brent para dezembro subiu 3,13%, encerrando a US$ 116,72 por barril. O barril do tipo WTI, do Texas, subiu 3,82% e fechou a US$ 103,27.\n\nNa comparação semanal, os contratos do Brent e do WTI para dezembro subiram 6,24% e 4,29%, respectivamente.\n\nA alta foi sustentada pelo risco de agravamento dos conflitos na região. O Irã advertiu que poderá responder a eventuais novos ataques dos Estados Unidos e de Israel com ofensivas contra bases militares, navios de guerra e outros alvos em países vizinhos do Golfo Pérsico. Paralelamente, confrontos envolvendo os houthis e a Arábia Saudita aumentaram as preocupações com a segurança regional.\n\nNos Estados Unidos, o Departamento de Energia autorizou medidas envolvendo a Reserva Estratégica de Petróleo para ajudar a estabilizar o abastecimento de combustíveis diante de perdas de estoques e de possíveis interrupções no mercado.\n\n* Com informações da Reuters</p>",
-      "imagem": "https://imagens.ebc.com.br/l40576lYrJCJeVWHQo-DX_bSLF4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/23/2026-07-23t123806z_1_lynxmpem6m19r_rtroptp_4_usa-trump-tariffs-indonesia.jpg?itok=uN0pYfYO",
-      "slug": "dolar-fecha-abaixo-de-r-5-e-recua-1-58-na-semana",
-      "pagina_local": "dolar-fecha-abaixo-de-r-5-e-recua-1-58-na-semana.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-abaixo-de-r-5-e-recua-158-na-semana",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
-    },
-    {
-      "titulo": "Polícia investiga morte de engenheiro agredido em Santos",
-      "resumo": "A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista....",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista.\n\nImagens que circulam nas redes sociais mostram o momento em que Rocha caminhava pela rua quando foi abordado por dois homens exigindo a entrega de seu aparelho celular. Em seguida, mais cinco pessoas se aproximam, cercam Marcelo e passam a agredi-lo com socos e chutes. Ele cai no chão, já sem consciência.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Deputado do Rio volta a ser alvo da PF por suspeita de fraudes.PF investiga desvio de dinheiro em empresa de previdência de São Roque.Socorrido inicialmente na Santa Casa de Santos, o rapaz foi transferido para o Hospital São Paulo, unidade universitária vinculada à Universidade Federal de São Paulo (Unifesp), mas não resistiu aos ferimentos decorrentes das agressões.\n\nO engenheiro retornava de um ato político na cidade e usava um adesivo de apoio a Luiz Inácio Lula da Silva, candidato reeleito à Presidência também no domingo. O caso é tratado pela Polícia Civil como latrocínio, que é roubo seguido de morte.\n\nOs investigadores utilizam imagens de câmeras de segurança, vídeos compartilhados na internet e depoimentos de testemunhas para identificar os suspeitos e individualizar a conduta de cada um dos agressores.\n\nMarcelo era formado em engenharia e cursava mestrado na Unifesp. Em nota oficial, a universidade manifestou pesar e cobrou celeridade na apuração do crime:\n\n\n“A Unifesp expressa sua solidariedade aos familiares, amigos e colegas de Marcelo, neste momento de dor e consternação. A gravidade do ocorrido exige a apuração rigorosa das circunstâncias e motivações da agressão, bem como a identificação e responsabilização dos envolvidos.”\n\n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
-      "imagem": "https://imagens.ebc.com.br/P7UeedtZPGUm116KlpRlKYVSEU0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/86b9cab4-2ff6-4485-abd1-45d80a5218ec.jpeg?itok=ABqDQ6Si",
-      "slug": "policia-investiga-morte-de-engenheiro-agredido-em-santos",
-      "pagina_local": "policia-investiga-morte-de-engenheiro-agredido-em-santos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-investiga-morte-de-engenheiro-agredido-em-santos",
+      "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
+      "resumo": "O presidente Luiz Inácio Lula da Silva se solidarizou com o jornalista Juca Kfouri pela morte de sua filha, Camila Kfouri, nesta terça-feira (27). Lula usou o X, antigo Twitter, para enviar condolências ao jornalista.\n\n\n...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O presidente Luiz Inácio Lula da Silva se solidarizou com o jornalista Juca Kfouri pela morte de sua filha, Camila Kfouri, nesta terça-feira (27). Lula usou o X, antigo Twitter, para enviar condolências ao jornalista.\n\n\n“Meu querido amigo Juca Kfouri, é difícil imaginar a imensa dor que você está sentindo pela partida de sua filha Camila. Por isso, mesmo à distância, quero que receba o meu carinho e a minha solidariedade. Desejo, do fundo do meu coração, que você e todos os seus familiares tenham a força que lhes ajude a atravessar essa hora tão difícil”, escreveu o presidente.\n\n\nNotícias relacionadas:Polícia investiga morte de engenheiro agredido após ato pró-Lula.Agência Brasil e TV Brasil recebem Prêmio Vladimir Herzog.Camila morreu aos 48 anos. Segundo o pai, ela sofria de doenças adquiridas a partir do trauma de ver o avô paterno ser atingido por um tiro durante um assalto, em 1985, quando ela tinha apenas 6 anos de idade. Na época, o procurador aposentado Carlos Alberto Gouvêa Kfouri passou 11 dias internado antes de falecer.\n\n“Camila, a Camiloca, a Cam, minha Joaninha, a menina entre meus quatro filhos, resolveu ir embora depois de sofrer muito com doenças adquiridas desde que, aos 6 anos, viu o avô paterno ser alvejado em assalto na porta de casa, e desenvolver uma porção de sequelas. Hoje, a última vítima daquele dia não resistiu mais. Disfunção de supra-renal, gordura em família longilínia, cirurgia bariátrica, compulsão, e neuropatia diabética”, escreveu Kfouri em artigo no Portal UOL.\n\nJuca Kfouri é jornalista do UOL e também apresenta o programa Trio de Ataque, na TV Brasil.</p>",
+      "imagem": "https://imagens.ebc.com.br/ATN2BT89T2OYfpXqOR1Up6glItk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/27/camila-kfouri.jpg?itok=t88io4dg",
+      "slug": "lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri",
+      "pagina_local": "lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri",
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
+    },
+    {
+      "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
+      "resumo": "Desde 2023, quando foi sancionada a lei que cria o Dia Nacional de Zumbi e da Consciência Negra, o Brasil tem três feriados nacionais no calendário de novembro. Em 2026, eles são comemorados nas seguintes datas: \n\n\n\t2 de...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Desde 2023, quando foi sancionada a lei que cria o Dia Nacional de Zumbi e da Consciência Negra, o Brasil tem três feriados nacionais no calendário de novembro. Em 2026, eles são comemorados nas seguintes datas: \n\n\n\t2 de novembro (segunda-feira): Dia de Finados \n\t15 de novembro (domingo): Proclamação da República \n\t20 de novembro (sexta-feira): Dia Nacional da Consciência Negra \n\n\nDia de Finados \n\nComemoração de seguidores da Igreja Católica e cristãos de outras tradições, que também é conhecida como Dia dos Mortos. É celebrada como feriado no Brasil de acordo com a Lei Nº 10.607 de 19 de dezembro de 2002. \n\nProclamação da República \n\nNotícias relacionadas:Igualdade racial ainda é cenário distante, avaliam ativistas negras.Hoje é Dia: datas, fatos e feriados de outubro de 2026.A Proclamação da República ocorreu em 15 de novembro de 1889, quando o marechal Deodoro da Fonseca saiu de sua casa no centro do Rio de Janeiro, próximo à Central do Brasil, para proclamar a República acompanhado por uma tropa de cerca de mil militares. É comemorado conforme Lei Nº 662, de 6 de abril de 1949. Marca a data da promulgação do Decreto 1 de 15 de novembro de 1889, que foi assinado por Deodoro da Fonseca.  \n\nDia da Consciência Negra \n\n \n\n\n            \n        \n    \nCortejo da Tia Ciata em comemoração do Dia da Consciência Negra - Tomaz Silva/Agência Brasil\n\n\nA data de 20 Novembro remete à morte do líder do Quilombo dos Palmares, Zumbi, assassinado em 1695. O local foi um dos maiores quilombos do Brasil durante o período colonial, símbolo de resistência contra a escravização negra no país. Antes de ser feriado nacional, a data era oficial apenas em alguns estados, como Rio de Janeiro, Alagoas e São Paulo - e em mais de 1,2 mil cidades por meio de leis municipais e estaduais.</p>",
+      "imagem": "https://imagens.ebc.com.br/3qW3P2YFh5wjHux36lmtt1_qjPg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/05/26/lei_do_luto_parental.jpg?itok=yZ5cUmDR",
+      "slug": "zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro",
+      "pagina_local": "zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 21:10"
+    },
+    {
+      "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
+      "resumo": "A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista....",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista.\n\nImagens que circulam nas redes sociais mostram o momento em que Rocha caminhava pela rua quando foi abordado por dois homens exigindo a entrega de seu aparelho celular. Em seguida, mais cinco pessoas se aproximam, cercam Marcelo e passam a agredi-lo com socos e chutes. Ele cai no chão, já sem consciência.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Deputado do Rio volta a ser alvo da PF por suspeita de fraudes.PF investiga desvio de dinheiro em empresa de previdência de São Roque.Socorrido inicialmente na Santa Casa de Santos, o rapaz foi transferido para o Hospital São Paulo, unidade universitária vinculada à Universidade Federal de São Paulo (Unifesp), mas não resistiu aos ferimentos decorrentes das agressões.\n\nO engenheiro retornava de um ato político na cidade e usava um adesivo de apoio a Luiz Inácio Lula da Silva, candidato reeleito à Presidência também no domingo. O caso é tratado pela Polícia Civil como latrocínio, que é roubo seguido de morte.\n\nOs investigadores utilizam imagens de câmeras de segurança, vídeos compartilhados na internet e depoimentos de testemunhas para identificar os suspeitos e individualizar a conduta de cada um dos agressores.\n\nMarcelo era formado em engenharia e cursava mestrado na Unifesp. Em nota oficial, a universidade manifestou pesar e cobrou celeridade na apuração do crime.\n\n\n“A Unifesp expressa sua solidariedade aos familiares, amigos e colegas de Marcelo, neste momento de dor e consternação. A gravidade do ocorrido exige a apuração rigorosa das circunstâncias e motivações da agressão, bem como a identificação e responsabilização dos envolvidos.”\n\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil\n\n\n\n \n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
+      "imagem": "https://imagens.ebc.com.br/P7UeedtZPGUm116KlpRlKYVSEU0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/86b9cab4-2ff6-4485-abd1-45d80a5218ec.jpeg?itok=ABqDQ6Si",
+      "slug": "policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula",
+      "pagina_local": "policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
       "resumo": "A empresa São Roque Prev, responsável pela previdência social dos servidores da cidade de São Roque, no interior de São Paulo, é alvo, nesta terça-feira (27), de investigação da Polícia Federal por desvio de dinheiro.\n\nS...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A empresa São Roque Prev, responsável pela previdência social dos servidores da cidade de São Roque, no interior de São Paulo, é alvo, nesta terça-feira (27), de investigação da Polícia Federal por desvio de dinheiro.\n\nSegundo a apuração, que é feita por meio da Operação Entressafras, cerca de R$ 100 milhões foram movimentados sem pareceres técnicos e fundamentação adequada entre 2022 e 2024. A empresa teria aplicado mais de R$ 90 milhões no Banco Master, de Daniel Vorcaro, que está preso atualmente.\n\nNotícias relacionadas:PF faz operação contra fraudes em concurso público no Rio.PF faz ação para prender 23 envolvidos com facção criminosa no Rio.PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Entre as infrações sob apuração, estão gestão fraudulenta, lavagem de capitais, peculato financeiro e delitos praticados contra a administração pública.\n\nA PF também cumpriu, nesta terça-feira (27), nove mandados de busca e apreensão na cidade de São Roque e também no estado de Pernambuco.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A empresa São Roque Prev, responsável pela previdência social dos servidores da cidade de São Roque, no interior de São Paulo, é alvo, nesta terça-feira (27), de investigação da Polícia Federal por desvio de dinheiro.\n\nSegundo a apuração, que é feita por meio da Operação Entressafras, cerca de R$ 100 milhões foram movimentados sem pareceres técnicos e fundamentação adequada entre 2022 e 2024. A empresa teria aplicado mais de R$ 90 milhões no Banco Master, de Daniel Vorcaro, que está preso atualmente.\n\nNotícias relacionadas:PF faz operação contra fraudes em concurso público no Rio.PF faz ação para prender 23 envolvidos com facção criminosa no Rio.PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Entre as infrações sob apuração, estão gestão fraudulenta, lavagem de capitais, peculato financeiro e delitos praticados contra a administração pública.\n\nA PF também cumpriu, nesta terça-feira (27), nove mandados de busca e apreensão na cidade de São Roque e também no estado de Pernambuco.\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil</p>",
       "imagem": "https://imagens.ebc.com.br/_dr_roPLd2aUt7r8x6LStStwais=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/27/5d291c89-ba9e-46e1-bc7c-3f5eec48f552.jpeg?itok=EOnLybN6",
       "slug": "pf-investiga-desvio-de-dinheiro-em-empresa-de-previdencia-de-sao-roque",
       "pagina_local": "pf-investiga-desvio-de-dinheiro-em-empresa-de-previdencia-de-sao-roque.html",
@@ -156,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -169,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
@@ -182,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
@@ -195,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -208,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -221,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -234,33 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
-    },
-    {
-      "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
-      "resumo": "Ninguém acertou acertou as seis dezenas do Concurso 3.074 da Mega-Sena, sorteado nesse sábado (24). O prêmio acumulou novamente e está estimado em R$ 300 milhões para a nova rodada.\n\nOs números sorteados são: 02 - 03 - 2...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Ninguém acertou acertou as seis dezenas do Concurso 3.074 da Mega-Sena, sorteado nesse sábado (24). O prêmio acumulou novamente e está estimado em R$ 300 milhões para a nova rodada.\n\nOs números sorteados são: 02 - 03 - 20 - 25 - 39 - 57.\n\nNotícias relacionadas:Caixa Loterias anuncia antecipação de sorteios para sábado.A quina teve 175 apostas ganhadoras. Cada uma receberá R$ 30.318,56. A quadra saiu para 11.643 apostas, no valor de R$ 651 cada.\n\nApostas\n\nO próximo concurso  ocorre na segunda-feira (26), às 21h. As apostas podem ser feitas até as 20h (horário de Brasília) do mesmo dia, em qualquer lotérica do país ou pela internet, no site ou aplicativo da Caixa.\n\nA aposta simples, com seis dezenas, custa R$ 6.\n\nA Caixa Loterias antecipou para sábado os sorteios previstos para este domingo (25), dia do segundo turno das eleições.</p>",
-      "imagem": "https://imagens.ebc.com.br/4FxaKp-ufKrP2KKeqa46Ii_CIGc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/23/mega-sena-30-anos-mc_abr_23052026-5.jpg?itok=YvaILHK7",
-      "slug": "mega-sena-acumula-e-proximo-premio-sera-de-r-300-milhoes",
-      "pagina_local": "mega-sena-acumula-e-proximo-premio-sera-de-r-300-milhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-e-proximo-premio-sera-de-r-300-milhoes",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
-    },
-    {
-      "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
-      "resumo": "Já é possível pesquisar informações relacionadas ao vínculo de CPFs e CNPJs a imóveis nos mais de 3,6 mil Registros de Imóveis dos 26 estados e do Distrito Federal. Lançada neste mês, a Pesquisa Nacional de Bens está dis...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Já é possível pesquisar informações relacionadas ao vínculo de CPFs e CNPJs a imóveis nos mais de 3,6 mil Registros de Imóveis dos 26 estados e do Distrito Federal. Lançada neste mês, a Pesquisa Nacional de Bens está disponível na plataforma eletrônica oficial que reúne todos os cartórios de Registro de Imóveis do Brasil em um só lugar, o RI Digital.\n\nSegundo o Operador Nacional do Sistema de Registro Eletrônico de Imóveis (ONR), a novidade é a evolução de um serviço eletrônico que já permitia buscas patrimoniais, mas era limitado a dez unidades da federação. A ferramenta anterior teve mais de 4,3 milhões de consultas desde 2021, sendo 1,14 milhão somente em 2025 e mais de 800 mil nos primeiros oito meses deste ano. Agora, com a incorporação dos demais estados, a pesquisa passa a ter abrangência nacional.\n\nNotícias relacionadas:Declaração do imposto sobre imóveis rurais pode ser feita por internet.Reforma tributária impulsiona doações de imóveis a herdeiros.O primeiro resultado da pesquisa ocorre em menos de um minuto. Se alguma unidade estiver temporariamente indisponível, o sistema faz novas tentativas automáticas a cada 20 minutos, por até três vezes, buscando complementar a consulta em até uma hora. O serviço funciona 24 horas por dia, sete dias por semana, inclusive nos finais de semana e feriados.\n\nDisponível no RI Digital, a Pesquisa Nacional de Bens pode ser utilizada por cidadãos, escritórios de advocacia, empresas do mercado imobiliário, companhias de recuperação de crédito e instituições que realizam análises patrimoniais. No setor público, procuradorias, tribunais, Ministério Público e órgãos policiais estão entre os potenciais usuários da ferramenta para localização e investigação patrimonial.\n\nPara Flaviano Galhardo, diretor-geral do ONR, o potencial é gigantesco, tanto para o cidadão e para o mercado quanto para o Poder Público.\n\n\n“Trata-se de um instrumento de rastreamento patrimonial seguro, alinhado a rigorosos padrões de compliance, proteção de dados e governança nas pesquisas e nas entregas”, afirma.\n\n\nO que a pesquisa identifica\n\nA Pesquisa Nacional de Bens localiza ocorrências de determinado CPF ou CNPJ nos registros imobiliários. Um resultado positivo, portanto, não significa necessariamente que a pessoa pesquisada seja a atual proprietária do imóvel. Ela pode constar ou ter constado na matrícula como proprietária, locatária, fiadora ou titular de outro direito.\n\nPara identificar o tipo de vínculo daquele CPF ou CNPJ com o imóvel, o usuário pode solicitar uma certidão digital ou realizar uma Pesquisa Qualificada, também disponível na plataforma. Essa modalidade, que permite aprofundar a pesquisa, já contabilizou 8,8 milhões de consultas desde 2021.\n\nSegundo o ONR, a ampliação da plataforma foi possível a partir da digitalização dos acervos imobiliários e da estruturação de seus dados pelos Registros de Imóveis de todo o país.\n\nSobre o ONR\n\nO Operador Nacional do Sistema de Registro Eletrônico de Imóveis (ONR) é uma entidade de natureza jurídica especial, instituída pela Lei nº 13.465/2017, responsável por implementar e operar, em âmbito nacional, o Sistema de Registro Eletrônico de Imóveis (SREI) no Brasil. O organismo integra todos os 3.621 Cartórios de Registro de Imóveis dos Estados e do Distrito Federal, promovendo a digitalização e a integração dos serviços registrais imobiliários.</p>",
-      "imagem": "https://imagens.ebc.com.br/CZ9A_4dJllpUdoleSAio0tK1CUE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/21/img_9497.jpg-16.jpg?itok=Scnv_k0v",
-      "slug": "cartorios-lancam-ferramenta-que-permite-pesquisar-imoveis-no-pais",
-      "pagina_local": "cartorios-lancam-ferramenta-que-permite-pesquisar-imoveis-no-pais.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/cartorios-lancam-ferramenta-que-permite-pesquisar-imoveis-no-pais",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 16:20"
+      "coletado_em": "27/10/2026 às 21:10"
     }
   ]
 };
