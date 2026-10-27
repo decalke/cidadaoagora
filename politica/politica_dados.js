@@ -1,7 +1,35 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "26/10/2026 às 23:41:14",
+  "ultima_atualizacao": "27/10/2026 às 04:35:17",
   "total": 30,
   "politica": [
+    {
+      "titulo": "PL, partido de Flávio, reconhece vitória de Lula nas eleições",
+      "resumo": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos so...",
+      "conteudo_completo": "O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas “eleitoreiras”, com “ampliação de gastos públicos”.\n\n\n““Reconhecemos o resultado presidencial, proclamado pelo Tribunal Superior Eleitoral (TSE), mas entendemos que os questionamentos levantados precisam ser devidamente esclarecidos”, afirmou a nota.\n\n\nArgumentos\n\nNotícias relacionadas:Moraes manda Flávio entregar passaporte e o proíbe de deixar o país .TSE nega acusação de Flávio sobre expulsão de fiscais de sala-cofre.Líderes estrangeiros reconhecem vitória e parabenizam Lula.Após a divulgação da vitória do atual presidente, o candidato derrotado, o senador Flávio Bolsonaro, disse que não reconheceria o resultado. A justificativa do candidato seria a prorrogação do horário de votação eleitoral, decidida pelo ministro do Supremo Tribunal Federal (STF), Cristiano Zanin, que atendeu um pedido de ambas as candidaturas, incluindo a da campanha de Flávio.\n\nNa nota, o presidente do PL não traz o mesmo argumento. Para Costa Neto, houve ampliação dos gastos públicos com benefícios sociais “às vésperas da votação”, o que levantaria questionamentos sobre os “efeitos dessas medidas em um processo eleitoral justo”.\n\nAo pedir “esclarecimentos”, o presidente da legenda disse que o partido vai acompanhar os fatos e buscar “respostas com responsabilidade, transparência e respeito à instituições”. \n\nNa eleição de domingo, Flávio Bolsonaro teve 59,8 milhões de votos (48,2%), enquanto que o presidente Lula chegou a 64,2 milhões (51,7%).",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O presidente do Partido Liberal (PL), Valdemar Costa Neto, publicou nota oficial, nesta segunda-feira (26), em que reconhece a vitória do presidente Luiz Inácio Lula da Silva nas eleições deste ano. <strong>No entanto, ele cobrou esclarecimentos sobre o que chamou de medidas “eleitoreiras”, com “ampliação de gastos públicos”.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706891&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706891&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>““Reconhecemos o resultado presidencial, proclamado pelo Tribunal Superior Eleitoral (TSE), mas entendemos que os questionamentos levantados precisam ser devidamente esclarecidos”, afirmou a nota.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>““Reconhecemos o resultado presidencial, proclamado pelo Tribunal Superior Eleitoral (TSE), mas entendemos que os questionamentos levantados precisam ser devidamente esclarecidos”, afirmou a nota.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Argumentos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após a divulgação da vitória do atual presidente, o candidato derrotado, o senador Flávio Bolsonaro, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-pleito\" target=\"_blank\">disse que não reconheceria o resultado.</a> A justificativa do candidato seria a <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/zanin-manda-ampliar-horario-de-votacao-ate-19h\" target=\"_blank\">prorrogação do horário de votação eleitoral</a>, decidida pelo ministro do Supremo Tribunal Federal (STF), Cristiano Zanin, que atendeu um pedido de ambas as candidaturas, incluindo a da campanha de Flávio.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na nota, o presidente do PL não traz o mesmo argumento. Para Costa Neto, houve ampliação dos gastos públicos com benefícios sociais “às vésperas da votação”, o que levantaria questionamentos sobre os “efeitos dessas medidas em um processo eleitoral justo”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao pedir “esclarecimentos”, o presidente da legenda disse que o partido vai acompanhar os fatos e buscar “respostas com responsabilidade, transparência e respeito à instituições”. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na eleição de domingo, Flávio Bolsonaro teve 59,8 milhões de votos (48,2%), enquanto que o <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica\" target=\"_blank\">presidente Lula</a> chegou a 64,2 milhões (51,7%).</p>",
+      "imagem": "https://imagens.ebc.com.br/0Q5U1TD_ZoexrcD-Ehc4ZROZw4E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/pl_imprensa_mcajr_abr_2311222328.jpg?itok=t-1LZ8sx",
+      "slug": "pl-partido-de-flavio-reconhece-vitoria-de-lula-nas-eleicoes",
+      "pagina_local": "pl-partido-de-flavio-reconhece-vitoria-de-lula-nas-eleicoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 04:35"
+    },
+    {
+      "titulo": "CNBB parabeniza Lula e pede atenção aos mais pobres",
+      "resumo": "A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis.\n\n\"...",
+      "conteudo_completo": "A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis.\n\n\"Acreditamos que a dignidade da pessoa humana, a destinação universal dos bens, a solidariedade, a subsidiariedade e o bem comum devem orientar as decisões políticas e econômicas\", diz nota da entidade da Igreja Católica.\n\nNotícias relacionadas:Líderes estrangeiros reconhecem vitória e parabenizam Lula.Posse de Lula será em 5 de janeiro .Vitória de Lula repercute na imprensa europeia e asiática.”Esses princípios encontram expressão concreta na defesa da vida desde a concepção até seu fim natural, na superação da fome e da miséria, na promoção do trabalho digno, na garantia de acesso à saúde, à educação e à moradia, na proteção das crianças, dos idosos e das famílias, no cuidado com os povos indígenas e as comunidades tradicionais e na preservação de nossa Casa Comum”, pontua a nota.\n\nA nota fala ainda da polarização vivida pelo país no período eleitoral e que o Brasil precisa de gestos concretos de pacificação e respeito às diferenças e de valorização das instituições democráticas.\n\nPara a CNBB, o desenvolvimento de uma nação não pode ser avaliado apenas por indicadores econômicos, mas também pela capacidade de assegurar condições dignas de existência àqueles que permanecem à margem das oportunidades e dos direitos fundamentais.\n\n\"Também desejamos reafirmar a importância do fortalecimento das instituições, do respeito à Constituição Federal, da promoção da paz social e do combate à corrupção e a toda forma de violência\", conclui a nota.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Conferência Nacional dos Bispos do Brasil (CNBB) parabenizou o presidente Luiz Inácio Lula da Silva e ao vice-presidente Geraldo Alckmin pela reeleição, no 2º turno das eleições e pediu atenção prioritária para os pobres e vulneráveis.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706888&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706888&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Acreditamos que a dignidade da pessoa humana, a destinação universal dos bens, a solidariedade, a subsidiariedade e o bem comum devem orientar as decisões políticas e econômicas\", diz nota da entidade da Igreja Católica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>”Esses princípios encontram expressão concreta na defesa da vida desde a concepção até seu fim natural, na superação da fome e da miséria, na promoção do trabalho digno, na garantia de acesso à saúde, à educação e à moradia, na proteção das crianças, dos idosos e das famílias, no cuidado com os povos indígenas e as comunidades tradicionais e na preservação de nossa Casa Comum”, pontua a nota.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A nota fala ainda da polarização vivida pelo país no período eleitoral e que o Brasil precisa de gestos concretos de pacificação e respeito às diferenças e de valorização das instituições democráticas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para a CNBB, o desenvolvimento de uma nação não pode ser avaliado apenas por indicadores econômicos, mas também pela capacidade de assegurar condições dignas de existência àqueles que permanecem à margem das oportunidades e dos direitos fundamentais.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Também desejamos reafirmar a importância do fortalecimento das instituições, do respeito à Constituição Federal, da promoção da paz social e do combate à corrupção e a toda forma de violência\", conclui a nota.</p>",
+      "imagem": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=1200&auto=format&fit=crop&q=80",
+      "slug": "cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres",
+      "pagina_local": "cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/cnbb-parabeniza-lula-e-pede-atencao-aos-mais-pobres",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 04:35"
+    },
     {
       "titulo": "Trump questiona eleição brasileira e Alckmin rebate: “equivocado”",
       "resumo": "O presidente dos Estados Unidos, Donald Trump, questionou o processo eleitoral brasileiro, nesta segunda-feira (26). \n\nEm conversa com jornalistas, o presidente estadunidense questionou a prorrogação do horário da votação, ecoando o posicio...",
@@ -14,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Líderes estrangeiros reconhecem vitória e parabenizam Lula",
@@ -28,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Moraes manda Flávio entregar passaporte e o proíbe de deixar o país",
@@ -42,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Posse de Lula será em 5 de janeiro",
@@ -56,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "PF registrou 86 casos de possíveis crimes eleitorais no 2º turno",
@@ -70,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Eleições 2026: oito partidos vão comandar 26 estados e o DF",
@@ -84,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Segundo turno das eleições registra menor abstenção em 20 anos",
@@ -98,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Em São Paulo, três municípios escolhem novos prefeitos",
@@ -112,35 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
-    },
-    {
-      "titulo": "Lula cresce em número de votos em todos os estados; Flávio recua em 6",
-      "resumo": "Entre os brasileiros que compareceram neste domingo (25) às urnas no segundo turno das Eleições de 2026, 64.256.232 escolheram o presidente Luiz Inácio Lula da Silva. O total representa 10,3 milhões de votos a mais que os que Lula recebeu n...",
-      "conteudo_completo": "Entre os brasileiros que compareceram neste domingo (25) às urnas no segundo turno das Eleições de 2026, 64.256.232 escolheram o presidente Luiz Inácio Lula da Silva. O total representa 10,3 milhões de votos a mais que os que Lula recebeu no primeiro turno, quando foram registrados quase 53,9 milhões. O crescimento de votos se deu em todos os 26 estados e no Distrito Federal, com destaque para Minas Gerais. \n\nFlávio Bolsonaro também cresceu na maior parte dos estados, mas com menor diferença entre os dois turnos. Em seis estados, o candidato recuou mais de 52,3 mil votos. São eles: Maranhão, Acre, Amapá, Roraima, Amazonas e Tocantins. \n\nNotícias relacionadas:Votação de Lula é a maior já recebida por um presidenciável no país.Fachin diz que vontade dos eleitores deve ser respeitada .Motta e Alcolumbre, líderes do Congresso Nacional, parabenizam Lula.Em termos absolutos, São Paulo foi o estado onde Lula abriu a maior margem de diferença entre os dois turnos, com crescimento de 2,6 milhões de votos.\n\nO segundo foi Minas Gerais, com mais de 1,1 milhão conquistados em menos de um mês. Minas também foi o único estado em que Lula virou o resultado, uma vez que Flávio Bolsonaro tinha terminado o primeiro turno à frente, com 5,7 milhões de votos contra 5,1 milhões de votos para o petista. No segundo turno, Lula avançou para 6,3 milhões de votos no estado, contra 6,2 milhões de votos de Flávio. \n\nO crescimento de Lula no Rio de Janeiro, reduto político de Flávio Bolsonaro, também chama a atenção. Entre os dois turnos, o candidato do PT cresceu mais de 872 mil votos, enquanto Flávio Bolsonaro avançou pouco mais de 202 mil votos.\n\nOs estados onde o petista cresceu menos, em números absolutos, foram Roraima, Acre e Amapá, onde o presidente somou, respectivamente, pouco mais de 9 mil votos, 9,7 mil e 10,4 mil.\n\nConfira mais detalhes sobre a radiografia dos votos no Repórter Brasil Tarde, da TV Brasil\n\n\n\n*texto ampliado às 14h15",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Entre os brasileiros que compareceram neste domingo (25) às urnas no segundo turno das Eleições de 2026, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/votacao-de-lula-e-maior-ja-recebida-por-um-presidenciavel-no-pais\" target=\"_blank\">64.256.232 escolheram o presidente Luiz Inácio Lula da Silva</a>. <strong>O total representa 10,3 milhões de votos a mais que os que Lula recebeu no primeiro turno, quando foram registrados quase 53,9 milhões. O crescimento de votos se deu em todos os 26 estados e no Distrito Federal, com destaque para Minas Gerais. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706848&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706848&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Flávio Bolsonaro também cresceu na maior parte dos estados, mas com menor diferença entre os dois turnos. Em seis estados, o candidato recuou mais de 52,3 mil votos. </strong>São eles: Maranhão, Acre, Amapá, Roraima, Amazonas e Tocantins. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em termos absolutos, São Paulo foi o estado onde Lula abriu a maior margem de diferença entre os dois turnos, com crescimento de 2,6 milhões de votos.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O segundo foi Minas Gerais, com mais de 1,1 milhão conquistados em menos de um mês. <strong>Minas também foi o único estado em que Lula virou o resultado, uma vez que Flávio Bolsonaro tinha terminado o primeiro turno à frente, com 5,7 milhões de votos contra 5,1 milhões de votos para o petista. No segundo turno, Lula avançou para 6,3 milhões de votos no estado, contra 6,2 milhões de votos de Flávio</strong>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O crescimento de Lula no Rio de Janeiro, reduto político de Flávio Bolsonaro, também chama a atenção. Entre os dois turnos, o candidato do PT cresceu mais de 872 mil votos, enquanto Flávio Bolsonaro avançou pouco mais de 202 mil votos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os estados onde o petista cresceu menos, em números absolutos, foram Roraima, Acre e Amapá, onde o presidente somou, respectivamente, pouco mais de 9 mil votos, 9,7 mil e 10,4 mil.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Confira mais detalhes sobre a radiografia dos votos no Repórter Brasil Tarde, da TV Brasil</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>*texto ampliado às 14h15</strong></p>",
-      "imagem": "https://imagens.ebc.com.br/sm8Iqd7ZLmP68Vz_1eIH0P_5F-0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/_int9468.jpg?itok=QpWDFi6O",
-      "slug": "lula-cresce-em-numero-de-votos-em-todos-os-estados-flavio-recua-em-6",
-      "pagina_local": "lula-cresce-em-numero-de-votos-em-todos-os-estados-flavio-recua-em-6.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-cresce-em-numero-de-votos-em-todos-os-estados-flavio-recuou-em-6",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
-    },
-    {
-      "titulo": "Votação de Lula é a maior já recebida por um presidenciável no país",
-      "resumo": "Ao terminar o segundo turno da eleição presidencial com 64.256.232 votos neste domingo (25), o presidente reeleito, Luiz Inácio Lula da Silva (PT), conquistou a maior votação já obtida por um presidenciável na história do país.\n\nOs mais de ...",
-      "conteudo_completo": "Ao terminar o segundo turno da eleição presidencial com 64.256.232 votos neste domingo (25), o presidente reeleito, Luiz Inácio Lula da Silva (PT), conquistou a maior votação já obtida por um presidenciável na história do país.\n\nOs mais de 64 milhões de votos de Lula superam o recorde que já pertencia a ele, ao vencer a eleição de 2022 no segundo turno com mais de 60 milhões de votos, impedindo a reeleição de Jair Bolsonaro.\n\nNotícias relacionadas:Lula agradece votos e diz que teve de vencer intromissão vinda de fora.Em festa da vitória, Lula pede que público cante Hino da Independência.Lula é reeleito presidente do Brasil em virada histórica.Veja as maiores votações dos candidatos eleitos no país desde 1989, primeira eleição direta para a Presidência na redemocratização.\n\n2026\n\nLuiz Inácio Lula da Silva (PT): 64.256.232 votos\n\n2022\n\nLuiz Inácio Lula da Silva (PT): 60.345.999 votos\n\n2006\n\nLuiz Inácio Lula da Silva (PT): 58.295.042 votos\n\n2018\n\nJair Bolsonaro (PSL): 57.797.847 votos\n\n2010\n\nDilma Rousseff (PT): 55.752.529 votos\n\n2014\n\nDilma Rousseff (PT): 54.501.118 votos\n\n2002\n\nLuiz Inácio Lula da Silva (PT): 52.793.364 votos\n\n1998\n\nFernando Henrique Cardoso (PSDB): 35.936.916 votos\n\n1989\n\nFernando Collor (PRN): 35.090.206 votos\n\n1994\n\nFernando Henrique Cardoso (PSDB): 34.377.829 votos\n\nDas dez eleições presidenciais após a redemocratização, apenas 1994 e 1998 foram decididas no primeiro turno.\n\nEvolução do eleitorado\n\nOs números resultantes das urnas mostram crescimento do eleitorado brasileiro. Em 1989, o país tinha pouco mais de 82 milhões de eleitores. O contingente cresceu ano a ano até alcançar mais de 158 milhões em 2026.\n\nComo houve o aumento do eleitorado, o recorde de votos recebidos por Lula nesse domingo não representa a maior vitória em termos de votos válidos. Lula conquistou 51,79% da preferência do eleitorado. O recorde pertence à primeira eleição do petista, em 2002, quando derrotou José Serra (PSDB) com 61,27% dos votos válidos.\n\nVeja os maiores percentuais de votos válidos recebidos pelos vencedores:\n\n2002\n\nLuiz Inácio Lula da Silva (PT): 61,27%\n\n2006\n\nLuiz Inácio Lula da Silva (PT): 60,83%\n\n2010\n\nDilma Rousseff (PT): 56,05%\n\n2018\n\nJair Bolsonaro (PSL): 55,13%\n\n1994\n\nFernando Henrique Cardoso (PSDB): 54,28%\n\n1998\n\nFernando Henrique Cardoso (PSDB): 53,06%\n\n1989\n\nFernando Collor (PRN): 53,03%\n\n2026\n\nLuiz Inácio Lula da Silva (PT): 51,79%\n\n2014\n\nDilma Rousseff (PT): 51,64%\n\n2022\n\nLuiz Inácio Lula da Silva (PT): 50,90%\n\nO próximo mandato de Lula começa em 5 de janeiro de 2027.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao terminar o segundo turno da eleição presidencial com 64.256.232 votos neste domingo (25), o presidente reeleito, Luiz Inácio Lula da Silva (PT), conquistou a maior votação já obtida por um presidenciável na história do país.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706842&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706842&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os mais de 64 milhões de votos de Lula superam o recorde que já pertencia a ele, ao vencer a eleição de 2022 no segundo turno com mais de 60 milhões de votos, impedindo a reeleição de Jair Bolsonaro.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Veja as maiores votações dos candidatos eleitos no país desde 1989, primeira eleição direta para a Presidência na redemocratização.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2026</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 64.256.232 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2022</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 60.345.999 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2006</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 58.295.042 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2018</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Jair Bolsonaro (PSL): 57.797.847 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2010</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Dilma Rousseff (PT): 55.752.529 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2014</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Dilma Rousseff (PT): 54.501.118 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2002</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 52.793.364 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1998</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Henrique Cardoso (PSDB): 35.936.916 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1989</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Collor (PRN): 35.090.206 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1994</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Henrique Cardoso (PSDB): 34.377.829 votos</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Das dez eleições presidenciais após a redemocratização, apenas 1994 e 1998 foram decididas no primeiro turno.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Evolução do eleitorado</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os números resultantes das urnas mostram crescimento do eleitorado brasileiro. Em 1989, o país tinha pouco mais de 82 milhões de eleitores. O contingente cresceu ano a ano até alcançar mais de 158 milhões em 2026.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Como houve o aumento do eleitorado, o recorde de votos recebidos por Lula nesse domingo não representa a maior vitória em termos de votos válidos. Lula conquistou 51,79% da preferência do eleitorado. O recorde pertence à primeira eleição do petista, em 2002, quando derrotou José Serra (PSDB) com 61,27% dos votos válidos.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Veja os maiores percentuais de votos válidos recebidos pelos vencedores:</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2002</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 61,27%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2006</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 60,83%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2010</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Dilma Rousseff (PT): 56,05%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2018</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Jair Bolsonaro (PSL): 55,13%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1994</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Henrique Cardoso (PSDB): 54,28%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1998</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Henrique Cardoso (PSDB): 53,06%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>1989</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Fernando Collor (PRN): 53,03%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2026</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 51,79%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2014</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Dilma Rousseff (PT): 51,64%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>2022</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Luiz Inácio Lula da Silva (PT): 50,90%</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O próximo mandato de Lula começa em 5 de janeiro de 2027. </strong><br/>\n </p>",
-      "imagem": "https://imagens.ebc.com.br/1NINlYHI8fqmA-xpeKPPCzuetCo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/26/_int0648.jpg.jpeg?itok=xDShwHWC",
-      "slug": "votacao-de-lula-e-a-maior-ja-recebida-por-um-presidenciavel-no-pais",
-      "pagina_local": "votacao-de-lula-e-a-maior-ja-recebida-por-um-presidenciavel-no-pais.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/votacao-de-lula-e-maior-ja-recebida-por-um-presidenciavel-no-pais",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "TRE-BA revoga ordem de prisão de secretário de Mobilidade de Salvador",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "TSE nega acusação de Flávio sobre expulsão de fiscais de sala-cofre",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Eleitores de sete cidades escolheram seus prefeitos neste 2º turno",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "PF investiga se problemas na circulação de ônibus prejudicaram eleitor",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Fachin diz que vontade dos eleitores deve ser respeitada",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Nunes Maques diz que decisão de Zanin dificultou processo eleitoral",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Em SP, 80% das urnas estavam encerradas quando votação foi prorrogada",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Centrais sindicais criticam falta de ônibus no dia da eleição",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Advogado vê sabotagem à democracia em falta de transporte de eleitores",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "TSE retoma contagem de votos em todo o país",
@@ -280,7 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
+    },
+    {
+      "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
+      "resumo": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.\n\nOs números sorteados são: 07 - 10 - 14 - 27 - 36 -...",
+      "conteudo_completo": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.\n\nOs números sorteados são: 07 - 10 - 14 - 27 - 36 - 55\n\nA quina teve 182 apostas ganhadoras. Cada uma receberá R$ 19.433,12. A quadra saiu para 11.018 apostas, no valor de R$ 458,57 cada.\n\nApostas\n\nO próximo concurso será nesta terça-feira (27).\n\nAté sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.\n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706892&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706892&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os números sorteados são: 07 - 10 - 14 - 27 - 36 - 55</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A quina teve 182 apostas ganhadoras. Cada uma receberá R$ 19.433,12. A quadra saiu para 11.018 apostas, no valor de R$ 458,57 cada.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Apostas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O próximo concurso será nesta terça-feira (27).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/Rtkw68roLekx1SxopfRd90zWq_E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182751.jpg?itok=x99P54Ik",
+      "slug": "mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "pagina_local": "mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
-    },
-    {
-      "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
-      "resumo": "A arrecadação das receitas federais somou R$ 239,4 bilhões em setembro, informou nesta quinta-feira (22) a Receita Federal. O valor representa crescimento real de 5,62%, descontada a inflação pelo Índice Nacional de Preços ao Consumidor Amp...",
-      "conteudo_completo": "A arrecadação das receitas federais somou R$ 239,4 bilhões em setembro, informou nesta quinta-feira (22) a Receita Federal. O valor representa crescimento real de 5,62%, descontada a inflação pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), na comparação com setembro de 2025.\n\nDe janeiro a setembro, a arrecadação alcançou R$ 2,351 trilhões, com alta real de 6,97% em relação ao mesmo período do ano passado.\n\nNotícias relacionadas:Arrecadação federal ultrapassa R$ 2 trilhões em oito meses.Arrecadação com ‘imposto do pecado’ deve chegar a R$ 41,9 bi em 2027.As receitas administradas pela Receita Federal totalizaram R$ 231,4 bilhões em setembro, com crescimento real de 5,03%. Nos nove primeiros meses do ano, a arrecadação dessas receitas chegou a R$ 2,25 trilhões, alta real de 6,89%.\n\nSegundo a Receita, o resultado foi impulsionado principalmente pelo aumento da arrecadação da contribuição previdenciária, do PIS/Cofins, do Imposto de Renda Retido na Fonte (IRRF) sobre rendimentos de capital e do recolhimento de Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e Contribuição Social sobre o Lucro Líquido (CSLL). O órgão também destacou a arrecadação do Imposto de Exportação sobre óleo bruto.\n\nPrevidência\n\nA arrecadação previdenciária somou R$ 64,6 bilhões em setembro, com alta real de 6,18%. O resultado refletiu os aumentos reais observados de 1,72% da massa salarial em agosto de 2026 (na comparação com o mesmo mês do ano anterior), bem como de 7,42% na arrecadação do Simples Nacional previdenciário em setembro de 2026 em relação a setembro de 2025.\n\nDeve-se ainda ao crescimento de 14,88% no montante das compensações tributárias com débitos de receita previdenciária em relação a setembro de 2025.\n\n“Houve, também, a reoneração escalonada da contribuição patronal dos municípios e da folha de pagamentos”, complementou a Receita.\n\nImportações e rendimentos de capital\n\nOs tributos incidentes sobre as importações arrecadaram R$ 13,3 bilhões no mês, com alta real de 21,07%, influenciados pelo crescimento das importações e pelo aumento das alíquotas efetivas de tributos e com o decréscimo de 4,15% na taxa média de câmbio.\n\nO IRRF sobre rendimentos de capital somou R$ 12,06 bilhões em setembro, com alta real de 9,68%, impulsionado pelo aumento da arrecadação sobre aplicações de renda fixa e pela tributação de dividendos.\n\nAcumulado do ano\n\nNo acumulado do ano, a arrecadação da Previdência alcançou R$ 575,9 bilhões, com alta real de 5,16%. Já o IRPJ e a CSLL arrecadaram R$ 444,2 bilhões, com alta de 5,76%.\n\nO IRRF sobre rendimentos de capital arrecadou R$ 131,15 bilhões entre janeiro e setembro, com alta real de 17,57%. No mesmo período, o PIS/Pasep e a Cofins somaram R$ 466,55 bilhões – aumento real de 4,1%.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A <a href=\"https://agenciabrasil.ebc.com.br/tags/arrecadacao-0\" target=\"_blank\">arrecadação das receitas federais </a>somou R$ 239,4 bilhões em setembro, informou nesta quinta-feira (22) a <a href=\"https://www.gov.br/receitafederal/pt-br\" target=\"_blank\">Receita Federal</a>. O valor representa crescimento real de 5,62%, descontada a inflação pelo <a href=\"https://agenciabrasil.ebc.com.br/tags/ipca\" target=\"_blank\">Índice Nacional de Preços ao Consumidor Amplo (IPCA)</a>, na comparação com setembro de 2025.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706179&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706179&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De janeiro a setembro, a arrecadação alcançou R$ 2,351 trilhões, com alta real de 6,97% em relação ao mesmo período do ano passado.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As receitas administradas pela Receita Federal totalizaram R$ 231,4 bilhões em setembro, com crescimento real de 5,03%. Nos nove primeiros meses do ano, a arrecadação dessas receitas chegou a R$ 2,25 trilhões, alta real de 6,89%.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a Receita, o resultado foi impulsionado principalmente pelo aumento da arrecadação da contribuição previdenciária, do PIS/Cofins, do Imposto de Renda Retido na Fonte (IRRF) sobre rendimentos de capital e do recolhimento de Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e Contribuição Social sobre o Lucro Líquido (CSLL). O órgão também destacou a arrecadação do Imposto de Exportação sobre óleo bruto.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Previdência</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A arrecadação previdenciária somou R$ 64,6 bilhões em setembro, com alta real de 6,18%. O resultado refletiu os aumentos reais observados de 1,72% da massa salarial em agosto de 2026 (na comparação com o mesmo mês do ano anterior), bem como de 7,42% na arrecadação do Simples Nacional previdenciário em setembro de 2026 em relação a setembro de 2025.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Deve-se ainda ao crescimento de 14,88% no montante das compensações tributárias com débitos de receita previdenciária em relação a setembro de 2025.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Houve, também, a reoneração escalonada da contribuição patronal dos municípios e da folha de pagamentos”, complementou a Receita.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Importações e rendimentos de capital</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os tributos incidentes sobre as importações arrecadaram R$ 13,3 bilhões no mês, com alta real de 21,07%, influenciados pelo crescimento das importações e pelo aumento das alíquotas efetivas de tributos e com o decréscimo de 4,15% na taxa média de câmbio.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O IRRF sobre rendimentos de capital somou R$ 12,06 bilhões em setembro, com alta real de 9,68%, impulsionado pelo aumento da arrecadação sobre aplicações de renda fixa e pela tributação de dividendos.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Acumulado do ano</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No acumulado do ano, a arrecadação da Previdência alcançou R$ 575,9 bilhões, com alta real de 5,16%. Já o IRPJ e a CSLL arrecadaram R$ 444,2 bilhões, com alta de 5,76%.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O IRRF sobre rendimentos de capital arrecadou R$ 131,15 bilhões entre janeiro e setembro, com alta real de 17,57%. No mesmo período, o PIS/Pasep e a Cofins somaram R$ 466,55 bilhões – aumento real de 4,1%.</p>",
-      "imagem": "https://imagens.ebc.com.br/AChhqV_tqYhYSrsNlssVxs30_f4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moedadinheiro_jfcrz_abr_1701220048_1.jpg?itok=x0brd3gH",
-      "slug": "arrecadacao-federal-cresce-5-62-em-setembro-e-soma-r-239-4-bilhoes",
-      "pagina_local": "arrecadacao-federal-cresce-5-62-em-setembro-e-soma-r-239-4-bilhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     }
   ]
 };

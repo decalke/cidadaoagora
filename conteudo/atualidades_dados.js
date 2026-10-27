@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "26/10/2026 às 23:41:17",
+  "ultima_atualizacao": "27/10/2026 às 04:35:23",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
+      "resumo": "Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.\n\nOs números sorteados são: 07 -...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Ninguém acertou acertou as seis dezenas do Concurso 3.075 da Mega-Sena, sorteado nesta segunda-feira (26). O prêmio acumulou novamente e está estimado em R$ 305 milhões para a nova rodada.\n\nOs números sorteados são: 07 - 10 - 14 - 27 - 36 - 55\n\nA quina teve 182 apostas ganhadoras. Cada uma receberá R$ 19.433,12. A quadra saiu para 11.018 apostas, no valor de R$ 458,57 cada.\n\nApostas\n\nO próximo concurso será nesta terça-feira (27).\n\nAté sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.\n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/Rtkw68roLekx1SxopfRd90zWq_E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182751.jpg?itok=x99P54Ik",
+      "slug": "mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "pagina_local": "mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-premio-acumula-para-r-305-milhoes",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "27/10/2026 às 04:35"
+    },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
       "resumo": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais.\n\nO dólar fechou em alta de ...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Receita abre consulta a lote residual do Imposto de Renda",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Prévia da inflação oficial cai pela metade e fecha outubro em 0,32%",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Portaria convoca instituições financeiras para 3ª fase do Desenrola",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "CMN e BC atualizam regras de segurança e transparência do Open Finance",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Previsão de superávit no Orçamento de 2027 está mantida, diz Durigan",
@@ -117,20 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
-    },
-    {
-      "titulo": "Arrecadação federal cresce 5,62% em setembro e soma R$ 239,4 bilhões",
-      "resumo": "A arrecadação das receitas federais somou R$ 239,4 bilhões em setembro, informou nesta quinta-feira (22) a Receita Federal. O valor representa crescimento real de 5,62%, descontada a inflação pelo Índice Nacional de Preç...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A arrecadação das receitas federais somou R$ 239,4 bilhões em setembro, informou nesta quinta-feira (22) a Receita Federal. O valor representa crescimento real de 5,62%, descontada a inflação pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), na comparação com setembro de 2025.\n\nDe janeiro a setembro, a arrecadação alcançou R$ 2,351 trilhões, com alta real de 6,97% em relação ao mesmo período do ano passado.\n\nNotícias relacionadas:Arrecadação federal ultrapassa R$ 2 trilhões em oito meses.Arrecadação com ‘imposto do pecado’ deve chegar a R$ 41,9 bi em 2027.As receitas administradas pela Receita Federal totalizaram R$ 231,4 bilhões em setembro, com crescimento real de 5,03%. Nos nove primeiros meses do ano, a arrecadação dessas receitas chegou a R$ 2,25 trilhões, alta real de 6,89%.\n\nSegundo a Receita, o resultado foi impulsionado principalmente pelo aumento da arrecadação da contribuição previdenciária, do PIS/Cofins, do Imposto de Renda Retido na Fonte (IRRF) sobre rendimentos de capital e do recolhimento de Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e Contribuição Social sobre o Lucro Líquido (CSLL). O órgão também destacou a arrecadação do Imposto de Exportação sobre óleo bruto.\n\nPrevidência\n\nA arrecadação previdenciária somou R$ 64,6 bilhões em setembro, com alta real de 6,18%. O resultado refletiu os aumentos reais observados de 1,72% da massa salarial em agosto de 2026 (na comparação com o mesmo mês do ano anterior), bem como de 7,42% na arrecadação do Simples Nacional previdenciário em setembro de 2026 em relação a setembro de 2025.\n\nDeve-se ainda ao crescimento de 14,88% no montante das compensações tributárias com débitos de receita previdenciária em relação a setembro de 2025.\n\n“Houve, também, a reoneração escalonada da contribuição patronal dos municípios e da folha de pagamentos”, complementou a Receita.\n\nImportações e rendimentos de capital\n\nOs tributos incidentes sobre as importações arrecadaram R$ 13,3 bilhões no mês, com alta real de 21,07%, influenciados pelo crescimento das importações e pelo aumento das alíquotas efetivas de tributos e com o decréscimo de 4,15% na taxa média de câmbio.\n\nO IRRF sobre rendimentos de capital somou R$ 12,06 bilhões em setembro, com alta real de 9,68%, impulsionado pelo aumento da arrecadação sobre aplicações de renda fixa e pela tributação de dividendos.\n\nAcumulado do ano\n\nNo acumulado do ano, a arrecadação da Previdência alcançou R$ 575,9 bilhões, com alta real de 5,16%. Já o IRPJ e a CSLL arrecadaram R$ 444,2 bilhões, com alta de 5,76%.\n\nO IRRF sobre rendimentos de capital arrecadou R$ 131,15 bilhões entre janeiro e setembro, com alta real de 17,57%. No mesmo período, o PIS/Pasep e a Cofins somaram R$ 466,55 bilhões – aumento real de 4,1%.</p>",
-      "imagem": "https://imagens.ebc.com.br/AChhqV_tqYhYSrsNlssVxs30_f4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moedadinheiro_jfcrz_abr_1701220048_1.jpg?itok=x0brd3gH",
-      "slug": "arrecadacao-federal-cresce-5-62-em-setembro-e-soma-r-239-4-bilhoes",
-      "pagina_local": "arrecadacao-federal-cresce-5-62-em-setembro-e-soma-r-239-4-bilhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/arrecadacao-federal-cresce-562-em-setembro-e-soma-r-2394-bilhoes",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Cartórios lançam ferramenta que permite pesquisar imóveis no país",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Mega-Sena sorteia prêmio acumulado em R$ 230 milhões neste sábado",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     },
     {
       "titulo": "Mega-Sena acumula para R$ 230 milhões; confira os números sorteados",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "26/10/2026 às 23:41"
+      "coletado_em": "27/10/2026 às 04:35"
     }
   ]
 };
