@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "28/10/2026 às 01:05:21",
+  "ultima_atualizacao": "28/10/2026 às 08:10:11",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Banco Central diz que estabilidade financeira não está em risco",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 01:05"
+      "coletado_em": "28/10/2026 às 08:10"
     }
   ]
 };
