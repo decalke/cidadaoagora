@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "27/10/2026 às 21:10:40",
+  "ultima_atualizacao": "28/10/2026 às 01:05:21",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
+      "resumo": "O mercado financeiro apresentou movimentos de acomodação nesta terça-feira (27), após a forte reação da véspera à reeleição do presidente Luiz Inácio Lula da Silva. O dólar fechou em queda próxima de 1% e ficou abaixo de...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O mercado financeiro apresentou movimentos de acomodação nesta terça-feira (27), após a forte reação da véspera à reeleição do presidente Luiz Inácio Lula da Silva. O dólar fechou em queda próxima de 1% e ficou abaixo de R$ 5,35. A bolsa recuou cerca de 0,5%.\n\nA sessão foi marcada pela correção cambial após a disparada da véspera e pela continuidade das perdas na bolsa, em meio às incertezas sobre a política econômica do próximo mandato, como a falta de definição do próximo ministro da Fazenda.\n\nNotícias relacionadas:Governo buscará cumprir meta fiscal com diálogo, diz Durigan.Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula.Principais números\n\n\n\t    Dólar: R$ 5,349 (-1,07%);\n\t    Mínima do dólar: R$ 5,316, por volta das 10h45;\n\t    Dólar em 2026: queda acumulada de 2,55%;\n\t    Ibovespa: 175.710,05 pontos (-0,51%);\n\t    Petróleo tipo Brent: US$ 109,41 o barril (-1,20%).\n\n\nCâmbio\n\nO dólar à vista encerrou o pregão em baixa de 1,07%, a R$ 5,349, após subir mais de 8% na segunda-feira (26), quando a moeda estadunidense registrou sua maior alta diária desde janeiro de 1999.\n\nA divisa recuou ao longo de toda a sessão e chegou à mínima de R$ 5,316 pela manhã. O movimento refletiu um ajuste de posições após a forte valorização anterior, provocada pela reação dos investidores ao resultado eleitoral. Em 2026, o dólar acumula queda de 2,55%.\n\nNa véspera, o dólar havia avançado em meio à revisão de apostas que consideravam a vitória do senador Flávio Bolsonaro e às preocupações com a condução da política fiscal no novo mandato de Lula.\n\nNesta terça-feira, o ministro da Fazenda, Dario Durigan, reafirmou que o governo pretende perseguir o centro da meta fiscal e que a proposta será discutida com o Congresso Nacional.\n\nO presidente do Banco Central, Gabriel Galípolo, também afirmou que a instituição poderá atuar no mercado cambial caso identifique disfuncionalidades.\n\nNo cenário internacional, o índice DXY, que mede o desempenho do dólar ante uma cesta de seis moedas, subia cerca de 0,35% no fim da tarde, movimento contrário ao observado no mercado brasileiro.\n\nIbovespa\n\nO Ibovespa fechou em baixa de 0,51%, aos 175.710,05 pontos, prolongando o movimento negativo após o tombo de quase 14% registrado na segunda-feira (26).\n\nA queda ocorreu mesmo com a recuperação do câmbio, em uma sessão marcada pela continuidade dos ajustes nas carteiras de investimentos e pela cautela diante das perspectivas econômicas para o próximo mandato presidencial.\n\nEntre os fatores que pressionaram a bolsa esteve o recuo de 1,20% do petróleo Brent, referência internacional para a commodity, que encerrou a US$ 109,41 o barril. As ações da Petrobras, com maior peso no Ibovespa, caíram 2%.\n\nCom o novo recuo, o Ibovespa permaneceu nos menores níveis desde agosto, enquanto investidores aguardam definições sobre a equipe econômica e os próximos passos da política fiscal do governo.\n\n* Com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/l40576lYrJCJeVWHQo-DX_bSLF4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/23/2026-07-23t123806z_1_lynxmpem6m19r_rtroptp_4_usa-trump-tariffs-indonesia.jpg?itok=uN0pYfYO",
+      "slug": "dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral",
+      "pagina_local": "dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-cai-quase-1-e-ibovespa-recua-apos-tombo-eleitoral",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "28/10/2026 às 01:05"
+    },
     {
       "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
       "resumo": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Banco Central diz que estabilidade financeira não está em risco",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Mega-Sena não tem ganhador; prêmio acumula para R$ 305 milhões",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Prazo para empresas escolherem modelo do Simples acaba nesta sexta",
@@ -117,20 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
-      "titulo": "BC reforça regras de proteção ao consumidor nas ofertas de crédito",
-      "resumo": "As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contrataç...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As propagandas de empréstimos obedecerão a novas regras a partir do próximo ano, decidiu nesta sexta-feira (23) o Banco Central (BC). O órgão aprovou três resoluções para reforçar a proteção dos consumidores na contratação de crédito.\n\nAs mudanças também criam um painel para consulta de dívidas e aumentam as exigências para a oferta de crédito durante transações pelo Pix.\n\nNotícias relacionadas:Portaria convoca instituições financeiras para 3ª fase do Desenrola.Dinheiro esquecido em bancos sobe para R$ 5,8 bilhões em agosto.Juros para famílias sobem em agosto e inadimplência chega a 6%.As medidas buscam evitar ofertas inadequadas, dar mais clareza sobre os custos dos empréstimos e ajudar os clientes a avaliar se conseguem assumir novas dívidas. As regras também preveem proteção adicional para pessoas em situação de vulnerabilidade financeira.\n\nAs resoluções serão implementadas em etapas. A regulamentação sobre ofertas ativas de crédito começa a valer em 31 de março de 2027. As regras sobre o Painel de Dívidas Consolidadas e sobre a oferta de crédito no Pix entram em vigor em 1º de julho de 2027.\n\nO que muda?\n\nAs três resoluções tratam de situações diferentes da relação entre bancos e clientes:\n\n\n\tResolução BCB 601: determina a disponibilização de um painel com informações sobre dívidas, além de simulações de custos e alertas antes de novas contratações.\n\tResolução BCB 602: permite bloquear propagandas e ofertas ativas de crédito e estabelece proteção adicional para clientes em situação de vulnerabilidade financeira.\n\tResolução BCB 603: estabelece regras para ofertas de crédito durante a iniciação de transações pelo Pix, incluindo consentimento prévio e intervalo mínimo antes da primeira oferta.\n\n\nBloqueio de ofertas\n\nCom vigência prevista para 31 de março de 2027, a Resolução BCB 602 estabelece regras para as ofertas ativas de crédito, como propagandas e mensagens que bancos e outras instituições financeiras enviam aos clientes para oferecer empréstimos e outros produtos.\n\nCom a mudança, as instituições deverão disponibilizar um mecanismo claro para que o consumidor bloqueie esse tipo de publicidade.\n\nPara clientes em situação de maior vulnerabilidade financeira ou com risco de endividamento excessivo, haverá exigências adicionais: as ofertas dependerão de autorização prévia, específica e inequívoca do cliente.\n\nNesses casos, as ofertas autorizadas deverão ter como objetivo melhorar as condições financeiras do consumidor, sem disponibilizar novos recursos para contratação de dívidas.\n\nVeja exemplos de operações permitidas nesse contexto:\n\nRenegociação: substituir uma dívida por condições de pagamento mais adequadas.\n\nPortabilidade: transferir uma operação de crédito para outra instituição, conforme as regras aplicáveis.\n\nMigração de produto: trocar uma modalidade de crédito por outra com condições mais vantajosas.\n\nA medida não impede o cliente de procurar espontaneamente um banco, pesquisar opções e contratar produtos financeiros. O foco é aumentar o controle sobre as ofertas que chegam até ele.\n\nQuando começa: 31 de março de 2027.\n\nPainel de dívidas\n\nEm vigor a partir de 1º de julho, a Resolução BCB 601 prevê que as instituições financeiras disponibilizem aos clientes o Painel de Dívidas Consolidadas. A ferramenta reunirá informações sobre operações de crédito para facilitar a compreensão do endividamento e do comprometimento da renda.\n\nNa prática, o painel deverá ajudar o consumidor a visualizar quanto deve e avaliar melhor o impacto de assumir uma nova obrigação financeira.\n\nAntes de uma nova contratação, as instituições também deverão apresentar simulações dos custos da operação e de seus efeitos financeiros, acompanhadas de alertas quando houver situações de maior risco.\n\nO que o painel deverá oferecer?\n\n\n\tInformações sobre dívidas: consulta às operações de crédito mantidas na própria instituição;\n\tSimulações de custos: estimativas para ajudar o cliente a entender o impacto financeiro de um novo empréstimo;\n\tAlertas de risco: avisos sobre situações que possam comprometer a capacidade de pagamento;\n\tAmpliação dos dados: incorporação posterior de informações do Sistema de Informações de Créditos (SCR) e do Open Finance.\n\n\nO SCR é uma base de informações sobre operações de crédito mantida pelo Banco Central. Já o Open Finance permite o compartilhamento autorizado de dados financeiros entre instituições participantes.\n\nInicialmente, o painel contemplará as operações mantidas na própria instituição financeira. Em uma etapa posterior, a integração com o SCR e o Open Finance permitirá ampliar a visão sobre as dívidas do cliente em diferentes instituições.\n\nA ampliação dessas informações poderá ajudar o consumidor a ter uma visão mais abrangente de sua situação financeira e a identificar o peso das dívidas no orçamento.\n\nCrédito durante o Pix\n\nTambém com vigência a partir de 1º de julho, a Resolução BCB 603 estabelece novas exigências para a oferta de crédito durante a iniciação de transações pelo Pix.\n\nA medida busca evitar que o consumidor seja levado a contratar um empréstimo sem compreender adequadamente as condições da operação ou sem ter tempo suficiente para avaliar a proposta.\n\nEntre as exigências estão:\n\n\n\tConsentimento específico: a oferta de crédito dependerá de autorização prévia do usuário;\n\tPrazo mínimo: deverá haver um intervalo de pelo menos 24 horas entre a habilitação da oferta e a apresentação da primeira oferta de crédito;\n\tSimulador: as instituições deverão disponibilizar ferramentas para simular as condições do crédito;\n\tConsulta de operações: os clientes terão acesso a um ambiente para consultar as operações contratadas;\n\tRegras adicionais: a resolução estabelece restrições para determinadas modalidades do Pix e regras para devoluções relacionadas a operações de crédito.\n\n\nUma das principais distinções é que a nova regulamentação não altera o recebimento normal de uma transferência pelo Pix: o beneficiário continuará recebendo o valor de forma instantânea e integral.\n\nO foco das regras é a oferta de crédito associada à iniciação de transações, e não o funcionamento básico do sistema de pagamentos.\n\nComo afeta o consumidor?\n\nAs mudanças procuram dar ao cliente mais condições de avaliar propostas, controlar a publicidade recebida e compreender o impacto das dívidas antes de contratar novos empréstimos.\n\nNa prática, o consumidor terá os seguintes benefícios:\n\n\n\tMais controle sobre propagandas e ofertas ativas de crédito;\n\tProteção adicional em situações de vulnerabilidade financeira;\n\tInformações mais organizadas sobre as dívidas e a capacidade de pagamento;\n\tSimulações e alertas antes de assumir novos compromissos;\n\tMais transparência nas ofertas de crédito relacionadas ao Pix.\n\n\nAs medidas, informou o BC, também buscam reduzir o risco de superendividamento, situação em que o consumidor acumula dívidas que comprometem sua capacidade de pagar as despesas e obrigações financeiras.</p>",
-      "imagem": "https://imagens.ebc.com.br/9UXysmYMdoscZXVYIkncIimWnz0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=BQBuSoJl",
-      "slug": "bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
-      "pagina_local": "bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
+      "resumo": "O Concurso 3.076 da Mega-Sena, sorteado nesta terça-feira (27), não teve ganhador. O prêmio acumulou novamente e está estimado em R$ 320 milhões para a nova rodada.\n\nOs números sorteados são: 06 - 30 - 32 - 38 - 49 - 57....",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Concurso 3.076 da Mega-Sena, sorteado nesta terça-feira (27), não teve ganhador. O prêmio acumulou novamente e está estimado em R$ 320 milhões para a nova rodada.\n\nOs números sorteados são: 06 - 30 - 32 - 38 - 49 - 57.\n\nNotícias relacionadas:Mega-Sena terá semana especial com cinco sorteios consecutivos.A quina teve 68 apostas ganhadoras. Cada uma receberá R$ 58.086,17. A quadra saiu para 6.491 apostas, no valor de R$ 869,30 cada.\n\nApostas\n\nO próximo concurso será nesta quarta-feira (28).\n\nAté sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.\n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/J5kgqjV4tFLwXg8_GzSp8kVKlr4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182658.jpg?itok=_yxjfe3l",
+      "slug": "mega-sena-acumula-novamente-e-premio-vai-a-r-320-milhoes",
+      "pagina_local": "mega-sena-acumula-novamente-e-premio-vai-a-r-320-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-novamente-e-premio-vai-r-320-milhoes",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "PM registra 7 ocorrências e 6 detidos até o meio-dia de domingo em SP",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     },
     {
       "titulo": "Força Nacional reforçará segurança na fronteira com a Colômbia",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
-    },
-    {
-      "titulo": "Gol nega cancelamento de voos em massa para o Nordeste",
-      "resumo": "Diversas denúncias publicadas nas redes sociais neste sábado (25) acusaram a companhia aérea Gol de ter cancelado voos em massa que sairiam de Porto Alegre para o Nordeste transportando centenas de eleitores. A empresa n...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Diversas denúncias publicadas nas redes sociais neste sábado (25) acusaram a companhia aérea Gol de ter cancelado voos em massa que sairiam de Porto Alegre para o Nordeste transportando centenas de eleitores. A empresa negou os cancelamentos em massa e afirmou que apenas um voo, com destino a Salvador, foi cancelado no Aeroporto Salgado Filho, em Porto Alegre.\n\nEm nota oficial, a companhia informou que “a aeronave do voo G3 1979, entre Porto Alegre e Salvador, deste sábado (24), apresentou problemas técnicos e, por consequência, o voo foi cancelado”.\n\nNotícias relacionadas:Nas duas primeiras horas de votação, 467 urnas foram substituídas.Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões.Cartórios lançam ferramenta que permite pesquisar imóveis no país.Ainda de acordo com o comunicado, os passageiros afetados foram reacomodados em outros voos da companhia, “com possibilidades de partida hoje [sábado] e amanhã [este domingo]”.\n\nA empresa também informou que criou um voo extra em razão do cancelamento, com partida prevista para a 1h deste domingo, de Porto Alegre para Salvador.\n\n\n“A Gol reforça que todas as ações tomadas para esse voo tiveram como foco a segurança, nosso valor número 1”, justificou a companhia.\n\n\nA Agência Nacional de Aviação Civil (Anac) também se manifestou sobre o caso e confirmou o cancelamento do voo G3 1979. O órgão informou que, em razão do segundo turno das eleições, reforçou a atenção a atrasos e cancelamentos, mas que “não há anormalidades no fluxo aéreo brasileiro”.</p>",
-      "imagem": "https://imagens.ebc.com.br/48TqEF-yv8zrFtfn51RwCbFaMQw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/aviao_decola_no_aeroporto_de_congonhas_abr_010819196625330.jpg?itok=Xe3Rf6Z3",
-      "slug": "gol-nega-cancelamento-de-voos-em-massa-para-o-nordeste",
-      "pagina_local": "gol-nega-cancelamento-de-voos-em-massa-para-o-nordeste.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/gol-nega-cancelamento-de-voos-em-massa-para-o-nordeste",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "27/10/2026 às 21:10"
+      "coletado_em": "28/10/2026 às 01:05"
     }
   ]
 };
