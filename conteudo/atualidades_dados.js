@@ -1,7 +1,46 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "28/10/2026 às 20:54:08",
+  "ultima_atualizacao": "29/10/2026 às 00:42:55",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Governo estuda restringir crédito a empresas por assédio eleitoral",
+      "resumo": "O governo federal e instituições como o Ministério Público do Trabalho (MPT) e o Tribunal Superior do Trabalho (TST) garantiram, nesta quarta (28), que empresas que cometerem assédio eleitoral, incluindo pressão ou demis...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O governo federal e instituições como o Ministério Público do Trabalho (MPT) e o Tribunal Superior do Trabalho (TST) garantiram, nesta quarta (28), que empresas que cometerem assédio eleitoral, incluindo pressão ou demissões por conta de opiniões políticas, serão punidas com o rigor da lei. \n\nEm coletiva de imprensa, o ministro do Trabalho, Luiz Marinho, disse que o governo estuda a criação de uma “lista suja” de empresas que cometem assédio eleitoral no Brasil, incluindo pressão ou demissão por conta de opção política. Segundo ele, a empresa que cometer essa ilegalidade vai sofrer sanções de restrição de créditos públicos. \n\nNotícias relacionadas:Assédio eleitoral: saiba como denunciar crime mesmo após eleições.Governo reforçará investigações de violência política no segundo turno.Ele informou que uma força-tarefa foi criada para combater esse tipo de violação. \n\n\n“[O objetivo é] poder, além das providências, ter uma lista que a gente possa mostrar para a sociedade que tem empresas cometendo ilegalidades de eventual crime contra o trabalhador”, afirmou.\n\n\nMarinho explica que a restrição ocorrerá a partir do Banco Central, que informará a rede financeira do país sobre quem violar o princípio democrático de livre escolha dos representantes.\n\n“Mão pesada”\n\nO procurador regional do trabalho Maurício Coentro Pais de Mello destacou que chegaram ao Ministério Público do Trabalho, nos últimos três dias, ao menos 1.140 denúncias de assédio eleitoral, das 3.080 que ocorreram desde o início da campanha. \n\n“Isso mostra exatamente que quase 30% das denúncias ocorreram pós-processo eleitoral. Isso é uma preocupação muito grande”. \n\nLuiz Marinho disse que não se pode aceitar que um trabalhador seja pressionado e vitimado por demissão ou por não contratação. “Nós não estamos falando de coloração A ou B. O trabalhador tem o direito democrático garantido na nossa Constituição de ter o direito à sua opção política”. \n\n“Recado dado”\n\nO presidente do Tribunal Superior do Trabalho (TST), Luiz Philippe Vieira de Mello Filho, destacou que estão sendo atingidos trabalhadores assalariados e profissionais autônomos que divulgam seu trabalho por redes sociais e estabelecimentos comerciais de pequenos portes ou propriedades que manifestaram sua posição política. \n\n“É preciso que o recado seja dado com muita clareza. A resposta para aqueles que praticaram a ilegalidade será dura e rápida, será ágil. E mais: esses empregadores que, infelizmente, tiveram essa conduta, se preocupem. Porque o risco econômico que estão assumindo é muito grande”. \n\nLuiz Marinho destacou que a eleição teve o maior volume desse tipo de problemas relacionados ao assédio e violência eleitoral. Por isso, há dois canais de denúncias para informar sobre essas violações: pelo Ministério do Trabalho e Emprego e no canal do Ministério Público do Trabalho. \n\n\n“Se tiver mau empresário, terá a mão pesada do Estado. É isso que nós estamos anunciando aqui”. \n\n\nDe olho nas redes\n\nO secretário executivo do Ministério da Justiça, Adhemar Borges, que também esteve na coletiva de imprensa, chamou atenção que as plataformas digitais têm a obrigação legal de exercerem dever de combater violências, como o racismo, a discriminação e a violência contra a mulher. \n\n“Em relação a esses crimes mais graves, as plataformas têm o dever de retirada do conteúdo ilícito de maneira proativa, independente de notificação das vítimas e dos usuários”, afirmou. \n\nDe toda forma, os usuários têm direito a notificar as plataformas para que retirem os conteúdos ilícitos no prazo fixado.\n\n\n“Há registro de casos que envolvem as relações de trabalho e que expressam diversas formas de opressão, de assédio e de constrição à liberdade dos trabalhadores em relação ao voto, inclusive com chamamentos a boicotes e demissões”.</p>",
+      "imagem": "https://imagens.ebc.com.br/eE3TROvPVXe7mYvTc0FSmnXwL-s=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/13/pzzb9935.jpg?itok=tCBvSYgF",
+      "slug": "governo-estuda-restringir-credito-a-empresas-por-assedio-eleitoral",
+      "pagina_local": "governo-estuda-restringir-credito-a-empresas-por-assedio-eleitoral.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-estuda-restringir-credito-empresas-por-assedio-eleitoral",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 00:42"
+    },
+    {
+      "titulo": "União libera R$ 950 milhões para instalar Comitê do IBS",
+      "resumo": "A União vai liberar R$ 950 milhões para financiar a instalação e o funcionamento inicial do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS). O órgão será responsável pela administração do novo tributo de responsab...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A União vai liberar R$ 950 milhões para financiar a instalação e o funcionamento inicial do Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS). O órgão será responsável pela administração do novo tributo de responsabilidade dos estados e dos municípios, criado pela reforma tributária.\n\nAssinado na terça-feira (27) no Ministério da Fazenda, o contrato de operação de crédito autoriza o recebimento de recursos referentes a 2025 e 2026.\n\nEstrutura do comitê\n\nNotícias relacionadas:TCU aprova cálculo da alíquota de referência da CBS em 11,3%.O dinheiro será destinado à formação da estrutura administrativa, tecnológica e de pessoal necessária para o funcionamento do órgão. Entre as atribuições do Comitê Gestor estão a arrecadação, a fiscalização e a distribuição das receitas do IBS entre os estados, o Distrito Federal e os municípios.\n\nO imposto vai unificar e substituir o Imposto sobre a Circulação de Mercadorias e Serviços (ICMS), de competência estadual, e o Imposto sobre Serviços (ISS), cobrado pelos municípios. A estruturação do comitê é uma das etapas necessárias para colocar em prática a reforma tributária sobre o consumo.\n\nA operação de crédito está prevista na Emenda Constitucional 132/2023, que reformulou a tributação sobre o consumo, e regulamentada pela Lei Complementar 214/2025. A legislação estabelece que a União deve financiar as despesas de instalação do órgão entre 2025 e 2028, respeitados os limites definidos em lei.\n\nDevolução dos recursos\n\nO valor recebido pelo Comitê Gestor será integralmente devolvido à União, com remuneração pela taxa Selic. O ressarcimento ocorrerá em 20 parcelas semestrais, a partir de 2029, utilizando recursos da própria arrecadação do IBS.\n\nSegundo o presidente do CGIBS, Flávio César de Oliveira, o financiamento permitirá avançar na implantação da infraestrutura tecnológica e na organização das equipes responsáveis pelas atividades do órgão. Ele também destacou a importância da cooperação entre a União, os estados e os municípios para cumprir o cronograma da reforma tributária.\n\nA operação havia sido autorizada pelo Conselho Superior do Comitê no início de outubro. As negociações com a Secretaria do Tesouro Nacional foram conduzidas pela Diretoria Executiva e pela primeira vice-presidência do CGIBS.</p>",
+      "imagem": "https://imagens.ebc.com.br/Psv3ZDMW3Aqdq3r3wRtVlUWPTk8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223675.jpg?itok=UBNq1tzx",
+      "slug": "uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs",
+      "pagina_local": "uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/uniao-libera-r-950-milhoes-para-instalar-comite-do-ibs",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 00:42"
+    },
+    {
+      "titulo": "Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34",
+      "resumo": "O mercado financeiro brasileiro teve mais um dia de forte pressão sobre as ações nesta quarta-feira (28). O Ibovespa caiu 2,68%, aos 171.006,10 pontos, no terceiro pregão consecutivo de perdas, enquanto o dólar encerrou ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O mercado financeiro brasileiro teve mais um dia de forte pressão sobre as ações nesta quarta-feira (28). O Ibovespa caiu 2,68%, aos 171.006,10 pontos, no terceiro pregão consecutivo de perdas, enquanto o dólar encerrou em leve baixa, cotado a R$ 5,34.\n\nAs incertezas sobre a política fiscal do governo mantiveram os investidores cautelosos, apesar da decisão do Federal Reserve (Fed), o banco central dos Estados Unidos, de manter os juros inalterados.\n\nPrincipais números\n\n\n\tIbovespa: 171.006,10 pontos (-2,68%);\n\tBolsa na semana: perda acumulada de 16,6%;\n\tBolsa no mês: recuo de 8,2%;\n\tDólar comercial: R$ 5,34 (-0,19%);\n\tDólar na semana: alta acumulada de 6,95%;\n\tDólar no mês: valorização de 3,19%.\n\n\nIbovespa renova mínima\n\nNotícias relacionadas:CNI reduz previsão de crescimento do PIB para 1,6% em 2026.Consumo de alimentos cresce após proibição das bets no país, diz Abras.TCU aprova cálculo da alíquota de referência da CBS em 11,3%.O Ibovespa fechou no menor nível desde 20 de agosto, quando havia encerrado aos 167.927,15 pontos. Durante o pregão desta quarta-feira, o índice oscilou entre a mínima de 170.162,48 pontos e a máxima de 175.711,22 pontos.\n\nAs perdas atingiram diferentes setores da bolsa, com destaque para empresas mais sensíveis às condições da economia brasileira, como setor imobiliário e companhias de menor porte.\n\nO movimento ocorre após uma sequência de ajustes nas posições dos investidores desde o resultado das eleições presidenciais. Dados da B3 indicaram que os investidores estrangeiros retiraram R$ 2,846 bilhões da bolsa na segunda-feira (26), primeiro pregão após o segundo turno.\n\nNo cenário internacional, o Fed manteve os juros norte-americanos entre 3,75% e 4% ao ano, conforme esperado pelo mercado. A decisão teve impacto limitado sobre os negócios brasileiros, enquanto o índice S&P 500, das 500 maiores empresas dos Estados Unidos, encerrou o dia em alta de 0,28%.\n\nDólar fecha em baixa\n\nO dólar comercial encerrou esta quarta-feira com queda de 0,19%, cotado a R$ 5,34, após uma sessão marcada por oscilações. Por volta das 13h30, a moeda estadunidense chegou a R$ 5,399, mas perdeu força na reta final dos negócios, acompanhando o movimento de enfraquecimento do dólar no exterior após a decisão do Fed.\n\nNo mercado doméstico, as atenções permaneceram voltadas às incertezas sobre a política fiscal do novo governo e à repercussão do cenário político brasileiro nas relações com os Estados Unidos.\n\nA moeda estadunidense acumula alta de 6,95% na semana, refletindo principalmente a disparada registrada na segunda-feira, e valorização de 3,19% em outubro. No acumulado do ano, porém, registra queda de 2,59%.\n\n* com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/EWxxyDwzkokjlHCxeSm6du6t7-E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2021-10-06t120841z_1_lynxmpeh950lf_rtroptp_4_dolar-abre.jpg?itok=Y5tU1sqN",
+      "slug": "ibovespa-cai-2-68-e-dolar-fecha-em-leve-baixa-a-r-5-34",
+      "pagina_local": "ibovespa-cai-2-68-e-dolar-fecha-em-leve-baixa-a-r-5-34.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-r-534",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 00:42"
+    },
     {
       "titulo": "CNI reduz previsão de crescimento do PIB para 1,6% em 2026",
       "resumo": "A Confederação Nacional da Indústria (CNI) reduziu de 2% para 1,6% a projeção de crescimento da economia brasileira em 2026. \n\nSegundo o Informe Conjuntural do terceiro trimestre, divulgado nesta quarta-feira (28), a rev...",
@@ -13,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Consumo de alimentos cresce após proibição das bets no país, diz Abras",
@@ -26,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
@@ -39,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Governo libera R$ 5,2 bilhões para reforçar assistência social e saúde",
@@ -52,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
@@ -65,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
@@ -78,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
@@ -91,46 +130,33 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
-      "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
-      "resumo": "O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União.\n\n...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União.\n\nA renovação já havia sido sinalizada mais cedo pelo ministro da Fazenda, Dario Durigan. Ao ser questionado sobre o tema, ele disse que o governo ainda discutia os detalhes para a publicação da medida.\n\nNotícias relacionadas:Fazenda mantém subsídio de R$ 2,12 ao óleo diesel.Petrobras inova na produção sustentável de combustível de aviação.“A gente vai tratar [da questão da renovação da subvenção do diesel]. Temos reuniões durante o dia e faremos anúncios nas próximas horas ou dias”, declarou o ministro.\n\nDe acordo com o governo, o impacto fiscal da prorrogação será compensado por receitas extraordinárias provenientes do petróleo, preservando a neutralidade fiscal.\n\nA subvenção está prevista na Medida Provisória nº 1.391, de 11 de setembro de 2026, que autorizou a União a conceder subvenção econômica a produtores e importadores de óleo diesel enquanto persistirem as instabilidades no mercado internacional de combustíveis decorrentes de conflitos geopolíticos\n\nA legislação federal tem, como objetivo, reduzir os efeitos da volatilidade do mercado internacional sobre o preço do diesel no país.\n\nEm nota, o Ministério do Planejamento e Orçamento informou que a renovação terá validade de 30 dias e poderá ser novamente prorrogada conforme a evolução do mercado internacional de combustíveis.</p>",
-      "imagem": "https://imagens.ebc.com.br/vdZ84gev7mIlNfRdihWW5eX4NrE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/ffraz_abr2405182853_1.jpg?itok=4e5n1yET",
-      "slug": "governo-prorroga-por-um-mes-subvencao-de-r-2-12-ao-diesel",
-      "pagina_local": "governo-prorroga-por-um-mes-subvencao-de-r-2-12-ao-diesel.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
+      "resumo": "Dois adolescentes foram apreendidos por suspeita de participação do roubo seguido de morte do engenheiro ambiental Marcelo de Oliveira da Rocha, de 30 anos, em Santos (SP), na madrugada de sábado (24). De acordo com a Po...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Dois adolescentes foram apreendidos por suspeita de participação do roubo seguido de morte do engenheiro ambiental Marcelo de Oliveira da Rocha, de 30 anos, em Santos (SP), na madrugada de sábado (24). De acordo com a Polícia Civil, sete suspeitos do crime foram identificados.\n\nImagens que circulam nas redes sociais mostram o momento em que Rocha caminhava pela rua, após participar de show em apoio à candidatura de Luiz Inácio Lula da Silva a presidente da República, quando foi abordado por dois homens exigindo a entrega de seu aparelho celular. Em seguida, mais cinco pessoas se aproximaram, cercaram Marcelo e passaram a agredi-lo com socos e chutes. \n\nNotícias relacionadas:Polícia investiga morte de engenheiro agredido após ato pró-Lula.Polícia faz ação contra de exploração sexual de adolescentes no Rio.Afastamentos por vício em jogos cresceram 5 vezes em três anos.Socorrido inicialmente na Santa Casa de Santos, a vitima foi transferida para o Hospital São Paulo, unidade universitária vinculada à Universidade Federal de São Paulo (Unifesp), e faleceu no domingo, por causa dos ferimentos decorrentes das agressões.\n\nMarcelo era formado em engenharia e cursava mestrado na Unifesp. Em nota oficial, a universidade manifestou pesar e cobrou celeridade na apuração do crime. A banda que se apresentava também manifestou pesar e realizará um ato no sábado, dia 31, em homenagem ao jovem.</p>",
+      "imagem": "https://imagens.ebc.com.br/Zj2HBg8LcNNFpfyVNq2OHmDNV8A=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/02/12/policia_civil_sp.jpg?itok=rHkR2SKK",
+      "slug": "santos-policia-apreende-dois-menores-suspeitos-da-morte-de-engenheiro",
+      "pagina_local": "santos-policia-apreende-dois-menores-suspeitos-da-morte-de-engenheiro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/santos-policia-apreende-dois-menores-suspeitos-da-morte-de-engenheiro",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
-      "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
-      "resumo": "O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de re...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de recompra será divulgado no site da instituição.\n\nA medida foi autorizada pelo ministro da Fazenda, Dario Durigan, que disse a jornalistas, em Brasília, que a recompra dos títulos seria anunciada “na medida em que estivessem colocadas as condições e a necessidade [do governo federal] de fazer uma intervenção”.\n\nNotícias relacionadas:Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel.Banco Central diz que estabilidade financeira não está em risco.Ao comunicar que prepara um novo leilão de recompra de títulos, a Secretaria do Tesouro também anunciou o cancelamento do próximo leilão de Letras Financeiras do Tesouro (LFT). Conhecidas como Tesouro Selic, as LFTs são títulos públicos de renda fixa indexados à Taxa Selic, a taxa básica de juros da economia.\n\nOntem (26), um dia após o segundo turno das eleições gerais - cuja disputa à Presidência da República foi vencida pelo candidato à reeleição Luiz Inácio Lula da Silva -, o Tesouro Nacional recomprou mais de R$ 14,8 bilhões em títulos públicos.\n\nA recompra dos títulos públicos é uma medida extraordinária adotada para corrigir eventuais instabilidades verificadas no mercado, como as registradas nesta segunda-feira e que Durigan classificou como “variações” decorrentes do ajuste de expectativas frente ao resultado das eleições.\n\n\n“O mercado estava apostando em um determinado candidato, mas um outro, o presidente Lula, conseguiu uma vitória histórica. [Neste contexto] É natural que uma “troca de posições” cause um desarranjo [temporário] no mercado”, disse o ministro aos jornalistas, demonstrando confiança na retomada da “racionalidade de mercado”.\n\n\n“Espero que hoje a gente mantenha o nível de racionalidade. Não estou falando de nível de preços, até porque não me compete falar sobre isso, mas de racionalidade, sem grandes oscilações”, acrescentou Durigan.</p>",
-      "imagem": "https://imagens.ebc.com.br/1cy5uguugv_1vsOe-4tl9WNcfN0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf1010_1.jpg?itok=DbnHfTFq",
-      "slug": "para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
-      "pagina_local": "para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
-    },
-    {
-      "titulo": "Governo vai enviar MP do Imposto Seletivo e renova subvenção ao diesel",
-      "resumo": "O ministro da Fazenda, Dario Durigan, afirmou que o governo federal deve enviar ao Congresso Nacional, nos próximos dias, uma Medida Provisória (MP) estabelecendo as alíquotas do chamado Imposto Seletivo (IS).\n\nTambém co...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O ministro da Fazenda, Dario Durigan, afirmou que o governo federal deve enviar ao Congresso Nacional, nos próximos dias, uma Medida Provisória (MP) estabelecendo as alíquotas do chamado Imposto Seletivo (IS).\n\nTambém conhecido como Imposto do Pecado, o tributo foi aprovado junto com a reforma tributária e será cobrado a partir de 2027, com a justificativa de desestimular o consumo de produtos e atividades consideradas prejudiciais à saúde ou ao meio ambiente, como cigarros, bebidas alcoólicas, refrigerantes, alguns tipos de veículos, além da extração de bens minerais, loterias, apostas e jogos de fantasy sports (jogos online). \n\n\nNotícias relacionadas:Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula.Durigan prevê envio de MP do Imposto Seletivo após eleições.“Vamos enviar [a MP] em breve, provavelmente esta semana”, disse Durigan a jornalistas, hoje (27), em Brasília.\n\n\nNo início do mês, o ministro já tinha antecipado que o governo planejava encaminhar a proposta ao Congresso Nacional logo após o segundo turno das eleições gerais, realizadas no último domingo (25).\n\nEm entrevista na entrada do ministério, Durigan disse que o governo renovaria a subvenção ao óleo diesel. Quase no mesmo momento, o Ministério do Planejamento e Orçamento confirmou a renovação da subvenção ao combustível, no valor de R$ 2,12 por litro, como forma de conter a alta dos preços. A medida tem validade de um mês, podendo ser renovada ao fim do período.</p>",
-      "imagem": "https://imagens.ebc.com.br/ZHwDUBvDuOV9hbQxPzy1u1nv8XY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/12/0d9a7467.jpg?itok=DdlnxcKL",
-      "slug": "governo-vai-enviar-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
-      "pagina_local": "governo-vai-enviar-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-enviara-mp-do-imposto-seletivo-e-renova-subvencao-ao-diesel",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
+      "resumo": "O número de trabalhadores brasileiros afastados temporariamente do trabalho por causa de transtorno associado ao vício de jogo aumentou cinco vezes entre 2023 e 2025. O dado é do Ministério do Trabalho e Emprego (MTE).\n\n...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O número de trabalhadores brasileiros afastados temporariamente do trabalho por causa de transtorno associado ao vício de jogo aumentou cinco vezes entre 2023 e 2025. O dado é do Ministério do Trabalho e Emprego (MTE).\n\nA análise considerou os benefícios por incapacidade temporária concedidos pelo Instituto Nacional do Seguro Social (INSS) e que tinham o código de doença relacionado à ludopatia, que é o comportamento compulsivo de jogar. Essa compulsão se refere a qualquer tipo de jogo, mas a maioria dos casos está relacionada às apostas online.\n\nNotícias relacionadas:Consumo de alimentos cresce após proibição das bets no país, diz Abras.Ações sobre bets aumentam mais de 1.000% na Justiça do Rio.Governo cobra na Justiça gastos do SUS com tratamento de apostadores.Em 2023, 67 pessoas com a doença foram afastadas do trabalho. Em 2024, o número subiu para 157 e em 2025 alcançou 361. De acordo com os dados, a maioria desses trabalhadores era homem (71%) e na faixa etária entre 30 e 39 anos (44,1%).\n\nFim das bets\n\nNos últimos anos, o vício em jogos em plataformas de apostas online, conhecidas como bets, foi responsável por uma verdadeira epidemia de saúde pública e empobrecimento da população.\n\nEm 25 de setembro deste ano, o governo federal proibiu a exploração, a oferta, a intermediação e a publicidade de apostas online no país.\n\n*Com informações do Ministério do Trabalho em Emprego</p>",
+      "imagem": "https://imagens.ebc.com.br/WWvJdyft7_Mxh9ZoCMU-UzwIRpg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/06/0d4a2639.jpg?itok=Y-17NT73",
+      "slug": "afastamentos-por-vicio-em-jogos-cresceram-5-vezes-em-tres-anos",
+      "pagina_local": "afastamentos-por-vicio-em-jogos-cresceram-5-vezes-em-tres-anos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/afastamentos-por-vicio-em-jogos-cresceram-5-vezes-em-tres-anos",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
@@ -143,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "PF impede desvio de até R$ 10 bi no seguro defeso no Maranhão",
@@ -156,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
@@ -169,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
@@ -182,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
@@ -195,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
@@ -208,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
@@ -221,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -234,33 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
-    },
-    {
-      "titulo": "Mega-Sena terá semana especial com cinco sorteios consecutivos",
-      "resumo": "Desta segunda-feira (26) até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos. \n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-fei...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Desta segunda-feira (26) até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos. \n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.  \n\nNotícias relacionadas:Mega-Sena acumula, e próximo prêmio será de R$ 300 milhões.Nesta segunda-feira, corre o concurso 3075, cujo prêmio está acumulado em R$ 300 milhões. \n\nAs regras para aposta e prêmios segue a mesma. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
-      "imagem": "https://imagens.ebc.com.br/J5kgqjV4tFLwXg8_GzSp8kVKlr4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182658.jpg?itok=_yxjfe3l",
-      "slug": "mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos",
-      "pagina_local": "mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-tera-semana-especial-com-cinco-sorteios-consecutivos",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
-    },
-    {
-      "titulo": "Bombeiros encontram corpo de mulher levada por correnteza",
-      "resumo": "O Corpo de Bombeiros encontrou nesta segunda-feira (26) o corpo de uma mulher que desapareceu após ter o carro arrastado por uma correnteza no Ribeirão do Pinhal, na zona rural de Pinhalzinho, no interior paulista. Ela e...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Corpo de Bombeiros encontrou nesta segunda-feira (26) o corpo de uma mulher que desapareceu após ter o carro arrastado por uma correnteza no Ribeirão do Pinhal, na zona rural de Pinhalzinho, no interior paulista. Ela estava desaparecida desde a manhã de domingo (25), quando tentou atravessar um trecho alagado em uma ponte.\n\nAgora, o estado de São Paulo soma 26 mortes em decorrência das chuvas neste ano. No domingo, a Defesa Civil já havia confirmado a morte de duas mulheres que haviam sido arrastadas pela correnteza após tentarem atravessar um córrego no bairro Casa Branca, em Jundiaí.\n\nNotícias relacionadas:Novo canal de umidade leva chuvas ao Norte, Centro-Oeste e Nordeste.Chuvas: Defesa Civil decreta situação de emergência em cidades do Sul.As fortes chuvas de domingo provocaram alagamentos, deslizamentos de terra e outros danos em municípios paulistas.\n\nEm Capivari, por exemplo, os alagamentos chegaram a interditar trechos de nove vias. Dez famílias ficaram desalojadas e foram encaminhadas para casas de parentes, enquanto outras três foram acolhidas em abrigo municipal.\n\nEm Guareí, cerca de 50 residências foram atingidas por alagamentos na Rua Alameda Jair Martins Siqueira, deixando cerca de 200 pessoas desalojadas.\n\nEm Rafard, a inundação do Rio Capivari provocou alagamentos em 15 residências nas ruas da Colonização, Felício Vigorito e Doutor Laureano. Duas famílias foram encaminhadas para casas de parentes, enquanto outras 13 foram acolhidas em abrigo municipal.\n\nEm Eldorado, a elevação do nível do Rio Ribeira de Iguape provocou alagamentos em duas residências no bairro Vila Nova Esperança. Os moradores foram abrigados em casas de familiares.\n\nEm Ribeirão Branco, foram registrados deslizamentos de terra, enxurradas e alagamentos. Os moradores foram retirados e encaminhados para casas de familiares. Também houve deslizamento na Rua Quatro, no bairro Saival, onde outras duas residências foram atingidas por alagamentos, sem necessidade de remoção dos moradores.\n\nEm Diadema, o desabamento da escada de uma residência na Rua Caracas levou à interdição preventiva do imóvel, após avaliação técnica identificar risco associado a um talude nos fundos da moradia. Doze pessoas ficaram desalojadas e foram acolhidas por familiares.\n\nEm Torrinha, as chuvas provocaram erosão em estradas rurais e a queda de uma ponte na Rua Santo Ângelo, na área rural.\n\nPara esta segunda-feira, a previsão indica chuva persistente no estado de São Paulo, principalmente nas regiões leste e norte, com possibilidade de volumes elevados. Por isso, a Defesa Civil do estado de São Paulo orienta a população a evitar áreas alagadas e nunca atravessar ruas inundadas ou trechos com correnteza, a pé ou em algum veículo.</p>",
-      "imagem": "https://imagens.ebc.com.br/XxyPtoEEzpAiwGHrr8FV0vaSvrQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/altera-votacao-itapevi.jpg?itok=yszkn7Eb",
-      "slug": "bombeiros-encontram-corpo-de-mulher-levada-por-correnteza",
-      "pagina_local": "bombeiros-encontram-corpo-de-mulher-levada-por-correnteza.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/bombeiros-encontram-corpo-de-mulher-levada-por-correnteza",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "28/10/2026 às 20:54"
+      "coletado_em": "29/10/2026 às 00:42"
     }
   ]
 };
