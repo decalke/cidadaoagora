@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "29/10/2026 às 06:53:31",
+  "ultima_atualizacao": "29/10/2026 às 14:02:41",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Economistas criticam usar corte de gastos para conter dívida pública",
+      "resumo": "A trajetória da dívida pública brasileira, que saiu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026, vem sendo apontada pelo mercado financeiro e por economistas considerados ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A trajetória da dívida pública brasileira, que saiu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026, vem sendo apontada pelo mercado financeiro e por economistas considerados “liberais” ou “ortodoxos” como o “maior problema” do próximo governo que colocaria em risco a economia brasileira. Para esta ala, reduzir gastos é o principal caminho para manter o equilíbrio fiscal.\n\nDe outro lado, há economistas de outras correntes de pensamento, consideradas “heterodoxas” ou “desenvolvimentistas”, que apontam essa proposta do mercado financeiro como prejudicial à população por tirar recursos de áreas fundamentais, como saúde, educação, previdência e assistência social.\n\n\nNotícias relacionadas:CNI reduz previsão de crescimento do PIB para 1,6% em 2026.Consumo de alimentos cresce após proibição das bets no país, diz Abras.TCU aprova cálculo da alíquota de referência da CBS em 11,3%.\n\nPara esses especialistas, são os juros altos praticados pelo Banco Central (BC) o principal problema econômico do país que pressiona a dívida pública. Já o BC tem condicionado a redução dos juros a realização de superávits primários pela União, que é quando as receitas superam as despesas, excluindo os gastos da dívida.\n\nA revista Forbes, especializada em finanças com sede nos Estados Unidos (EUA), publicou artigo sugerindo um corte de até R$ 450 bilhões para estabilizar a dívida pública brasileira, usando como base estudos do Instituto Fiscal Independente (IFI), ligado ao Senado.\n\nDurante a campanha presidencial, a promessa de corte de magnitude menor, de R$ 250 bilhões, foi atribuído ao candidato Flávio Bolsonaro (PL) a partir de revelações da imprensa. A proposta foi atacada pelo candidato Luiz Inácio Lula da Silva (PT) que acusou Flávio de preparar um “tesouraço” nos benefícios sociais.    \n\nConsultados pela Agência Brasil, economistas rejeitaram a tese dominante veiculada na imprensa de que a trajetória da dívida brasileira deve ser combatida com corte de gastos primários, ou seja, aqueles usados para prestação dos serviços públicos.\n\nCalote e inflação\n\nA professora do Instituto de Economia da Unicamp Simone Deos afirma que não há risco de calote da dívida ou de aumento da inflação, como alertam os economistas liberais, em função do aumento do endividamento bruto nos últimos anos.\n\n“Isso não tem maiores consequências porque a dívida pública é em reais, não em moeda estrangeira. A história não mostra nenhum país que não tenha conseguido pagar a sua dívida interna, em moeda nacional, por falta de recursos. Haveria risco se a dívida fosse em dólares”, diz.\n\nO professor de economia da Universidade Federal Rural do Rio de Janeiro (UFRRJ) Fernando Henrique Lemos Rodrigues afirmou à Agência Brasil que a dívida ainda não preocupa como os economistas liberais têm alertado.\n\n\n“A dívida enquanto proporção do PIB não é uma preocupação prioritária. A dívida está dentro dos parâmetros internacionais considerando a complexidade do Brasil e o peso da dívida interna. São níveis aceitáveis ainda, mesmo com o crescimento dos últimos anos”, afirma.\n\n\nO doutor em teoria econômica critica ainda a comparação, comum no noticiário econômico, do Estado brasileiro com uma família ao argumentar que o governo não poder gastar mais do que arrecada.\n\n“Nós não estamos falando de uma dona de casa, nem de uma dona de padaria. Estamos falando de um país com capacidade de arrecadação, de alongar o seu endividamento e de conseguir receitas das suas estatais”, explicou Fernando.\n\nComparação internacional\n\nA pesquisadora Simone Deos, que atua no Centro de Estudos de Relações Econômicas Internacionais (CERI) da Unicamp, acrescenta que muitos países têm nível de dívida superior ou similar ao Brasil.\n\nJapão (236% do PIB), Estados Unidos (120% do PIB), Reino Unido (101% do PIB), Itália (135%), Índia (81,2%) e Canadá (110% do PIB) são países que registram dívidas públicas maiores ou semelhantes à do Brasil, segundo dados do Fundo Monetário Internacional (FMI) de 2024.\n\nPara Simone, o problema do aumento da dívida é porque uma parcela maior do orçamento público fica comprometido com pagamento de juros para os mais ricos.\n\n\n“O que está causando essa trajetória de aumento é o pagamento de juros. E o problema dela é que uma parcela cada vez maior do PIB está sendo transferida para rentistas [pessoas ou empresas que obtém renda por meio de aplicações financeiras]”, acrescenta.\n\n\nJuros pressionam dívida\n\nA taxa de juros real no Brasil de 8,45%, a maior do mundo segundo levantamento da consultoria Moneyou, é o principal fator para o crescimento da dívida pública, segundo dados do Banco Central (BC). \n\nNos últimos 12 meses, o Brasil gastou R$1,1 trilhão em juros, o que representa 8,86% do PIB, calcula o BC. Ao longo de 2026, o principal fator para o crescimento de 4,2 pontos percentuais (p.p) da dívida/PIB foram os juros nominais. \n\n\n            \n        \n    \nFernando Henrique Lemos critica a comparação entre os gastos públicos e os gastos das famílias- Fernando Henrique Lemos/Arquivo Pessoal\n\n\nO professor Fernando Henrique argumenta que a pressão por redução dos gastos públicos no Brasil é uma “chantagem” do mercado financeiro com objetivo de manter os juros elevados. Isso porque o BC tem condicionado a redução dos juros aos superávits primários.\n\nSegundo o professor, como o governo não pode fazer o ajuste fiscal que o mercado pede sem reduzir os direitos sociais da população, a pressão por cortes funciona para justificar a manutenção das altas taxas de juros.\n\n“O mercado sabe que o governo não vai cortar. Existe um conluio para manter a taxa de juros alta. Um fundo de aplicação financeira tem cerca de 90% da rentabilidade vindo da dívida pública”, explicou Rodrigues.\n\nO professor da UFRRJ argumenta que o Brasil está com a inflação “bastante controlada”, havendo espaço para uma redução maior da taxa de juros.\n\n“Acontece que o BC brasileiro é refém, sobretudo, das instituições financeiras de maior poder de fogo, grandes bancos e grandes corretoras, que é o pessoal da Faria Lima”, explicou.\n\nOutro motivo apontado para reduzir os juros no Brasil é o fato de os juros serem baixos nos países desenvolvidos, o que cria uma pressão do mercado financeiro para manter os juros altos em países como Brasil, México, Rússia, Turquia e Indonésia.\n\nO Banco Central justifica os juros elevados, entre outros motivos, às pressões inflacionárias e aos déficits fiscais primários nas contas públicas. Segundo a autoridade monetária, os gastos primários acima da arrecadação pressionam a inflação.\n\nAlternativa ao ajuste fiscal\n\nA professora da Unicamp Simone Deos pondera, por outro lado, que é válido um debate sobre a eficiência e a qualidade dos gastos públicos, mas defende que mudanças não podem prejudicar políticas sociais.\n\nA pesquisadora do CIRE argumenta que a doutrina econômica adotada pelo BC não tem funcionado para o Brasil. “Tem que mudar a cartilha do BC para ele agir de outra forma”.\n\nSegundo a especialista, é possível reduzir os juros no Brasil e, com isso, equilibrar a dívida pública de forma coordenada e planejada por meio da intervenção no mercado de câmbio, um dos principais fatores de inflação no Brasil. Para isso, o BC teria que fazer uso dos US$ 350 bilhões de reservas em dólar.\n\n“Uma redução dos juros é mais do que suficiente para a dívida estabilizar. Para isso, precisa de uma ação coordenada com a questão cambial do BC. No mais, a gente tem que discutir qualidade do gasto”, comentou.\n\nO professor da UFRRJ Fernando Henrique Rodrigues, por sua vez, defende que o Estado precisa fortalecer seu orçamento social e de investimentos em estatais para perseguir algum desenvolvimento econômico.\n\n“Se um gasto público, num primeiro momento, tem um impacto que se diria negativo sobre as contas públicas, em um segundo momento, ele gera renda, emprego e novos investimentos. Isso volta na forma de arrecadação”, comentou.</p>",
+      "imagem": "https://imagens.ebc.com.br/cPWIr8skaPz9x1Llhl6ktfmbDbE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/07/11/0d4a1789.jpg?itok=w91NScrE",
+      "slug": "economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "pagina_local": "economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 14:02"
+    },
     {
       "titulo": "Aposta do Mato Grosso leva prêmio de mais de R$ 324 milhões da Mega",
       "resumo": "Uma aposta de Rondonópolis (MT) acertou as seis dezenas do Concurso 3.077 da Mega-Sena, sorteado nesta quarta-feira (28), e faturou prêmio de mias de R$ 324 milhões.  \n\nOs números sorteados são: 02 - 14 - 18 - 31 - 35 - ...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Governo estuda restringir crédito a empresas por assédio eleitoral",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "União libera R$ 950 milhões para instalar Comitê do IBS",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "CNI reduz previsão de crescimento do PIB para 1,6% em 2026",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Consumo de alimentos cresce após proibição das bets no país, diz Abras",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Governo libera R$ 5,2 bilhões para reforçar assistência social e saúde",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
@@ -117,20 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
-    },
-    {
-      "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
-      "resumo": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC).\n\nO contingente representa 17% dos devedores do Sistema Financeiro Nacional. Diante do avanço do problema, o presidente do BC, Gabriel Galípolo, afirmou que a instituição pretende anunciar novas medidas para conter ofertas agressivas de crédito ainda este ano.\n\nNotícias relacionadas:Sancionada lei que perdoa dívida e aumenta limite de MEI.BC reforça regras de proteção ao consumidor nas ofertas de crédito.Banco Central diz que estabilidade financeira não está em risco.Principais números:\n\n\n\t20,3 milhões: brasileiros em situação de endividamento de risco;\n\t75%: crescimento do contingente entre junho de 2021 e junho de 2026;\n\t17%: participação dos devedores de risco no sistema financeiro;\n\t42%: comprometimento da renda com dívidas entre pessoas que ganham até dois salários mínimos;\n\t15%: parcela da renda dessa faixa comprometida com dívidas no cartão de crédito;\n\t18,6%: comprometimento total da renda entre quem ganha mais de dez salários mínimos.\n\n\nBC prepara novas medidas\n\nSegundo Galípolo, as próximas iniciativas devem priorizar consumidores que já utilizam o crédito rotativo do cartão ou apresentam atrasos significativos no pagamento das dívidas.\n\n“Pretendemos adicionar medidas ainda este ano”, afirmou o presidente do BC. Ele destacou a preocupação com pessoas que já enfrentam juros elevados e dificuldades financeiras.\n\nGalípolo também apontou o crescimento de modalidades de crédito sem garantia, como cartão de crédito, cheque especial e empréstimo pessoal não consignado, mesmo em um cenário de juros elevados.\n\n\n“A preocupação que existe é nessas modalidades, em que estamos assistindo crescimento de maneira pouco sensível a preço”, disse.\n\n\nQuem está em risco\n\nPara classificar um consumidor como endividado de risco, o BC considera quatro critérios. É necessário atender a pelo menos dois deles:\n\n\n\tAtraso superior a 90 dias no pagamento de parcelas de crédito;\n\tComprometimento de mais de 50% da renda mensal com dívidas;\n\tUso simultâneo de cheque especial, crédito pessoal sem consignação e crédito rotativo;\n\tRenda restante, após o pagamento das dívidas, abaixo da linha de pobreza.\n\n\nA classificação não significa que todos os 20,3 milhões de brasileiros estejam inadimplentes, mas indica maior vulnerabilidade financeira.\n\nO relatório do BC mostra ainda que o comprometimento da renda com dívidas no cartão aumentou em todas as faixas salariais. Entre os que recebem até dois salários mínimos, grupo que reúne 61,2 milhões de pessoas, o comprometimento total chegou a 42% da renda em junho de 2026.\n\nRegras para empréstimos\n\nNa última sexta-feira (23), o Banco Central anunciou medidas para restringir ofertas inadequadas de crédito e ampliar a transparência na contratação de empréstimos.\n\nEntre as mudanças, as instituições financeiras deverão oferecer mecanismos para bloquear publicidade e propostas ativas de crédito. Para consumidores considerados vulneráveis ou em risco de endividamento excessivo, as ofertas dependerão de autorização prévia, específica e inequívoca.\n\nNesses casos, as propostas deverão se limitar a alternativas que melhorem as condições financeiras do cliente, como renegociação e portabilidade, sem concessão de novos recursos.\n\nAs regras de bloqueio de ofertas entram em vigor em 31 de março de 2027. Outras medidas, previstas para julho do mesmo ano, incluem painéis digitais com informações sobre dívidas e limites para ofertas de empréstimos durante transações iniciadas pelo Pix.\n\nAs iniciativas buscam reduzir a contratação de crédito inadequado e evitar o agravamento do endividamento das famílias brasileiras.</p>",
-      "imagem": "https://imagens.ebc.com.br/kaz2rDKhUJbEapfVuOXpze2wyyo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223667.jpg?itok=3-W0UM8Q",
-      "slug": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
-      "pagina_local": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "PF impede desvio de até R$ 10 bi no seguro defeso no Maranhão",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "PF investiga desvio de dinheiro em empresa de previdência de São Roque",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Dia do Servidor Público: ponto facultativo será na sexta-feira",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     }
   ]
 };

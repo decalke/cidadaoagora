@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "29/10/2026 às 06:53:27",
+  "ultima_atualizacao": "29/10/2026 às 14:02:39",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Governo reforçará investigações de violência política no segundo turno",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "STF nega ter ordenado buscas em endereços de Flávio Bolsonaro",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Avião com Flávio Bolsonaro e família segue para Miami",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Flávio Bolsonaro cruza fronteira argentina e segue para o Equador",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Lula e eleitores idosos se emocionam em “festa de aniversário”",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Coordenador de campanha se diz surpreso com fuga de Flávio",
@@ -140,7 +140,21 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
+    },
+    {
+      "titulo": "PF cumpre no Rio novos mandados da Operação Unha e Carne",
+      "resumo": "Policiais Federais cumprem quatro mandados de busca e apreensão na nona fase da Operação Unha e Carne, nesta quinta-feira (29), na cidade do Rio de Janeiro. \n\nA ação investiga crimes de lavagem de dinheiro e ocultação patrimonial de organiz...",
+      "conteudo_completo": "Policiais Federais cumprem quatro mandados de busca e apreensão na nona fase da Operação Unha e Carne, nesta quinta-feira (29), na cidade do Rio de Janeiro. \n\nA ação investiga crimes de lavagem de dinheiro e ocultação patrimonial de organização criminosa, por meio de imóveis de alto padrão, veículos de luxo e aeronaves executivas registradas em nome de “laranjas”.\n\nNotícias relacionadas:PF faz nova ação contra suspeitos de lavagem de dinheiro em postos.Polícia Federal deflagra 6ª fase da Operação Unha e Carne, no Rio .RJ: deputado estadual Thiago Rangel é preso na Operação Unha e Carne .De acordo com a Polícia Federal (PF), o grupo é suspeito de registrar bens e valores em nome de familiares, colaboradores próximos e terceiros formalmente desvinculados do núcleo investigado, a fim de ocultar os verdadeiros proprietários.\n\nA investigação apurou também o uso de dinheiro em espécie, movimentações financeiras sem rastreabilidade e o emprego de empresas nacionais e estrangeiras, inclusive em paraísos fiscais. \n\nTambém há indícios do envolvimento de entidades religiosas e holdings patrimoniais para desvinculação formal da titularidade de bens de elevado valor econômico.\n\nFase anterior\n\nOs mandados foram expedidos pelo Supremo Tribunal Federal (STF). A oitava fase da operação Unha e Carne resultou na prisão de um ex-prefeito de município da Baixada Fluminense e um ex-secretário da Polícia Civil fluminense.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Policiais Federais cumprem quatro mandados de busca e apreensão na nona fase da <a href=\"https://agenciabrasil.ebc.com.br/tags/operacao-unha-e-carne\" target=\"_blank\">Operação Unha e Carne</a>, nesta quinta-feira (29), na cidade do <a href=\"https://agenciabrasil.ebc.com.br/tags/rio-de-janeiro\" target=\"_blank\">Rio de Janeiro</a>. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707152&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707152&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ação investiga crimes de lavagem de dinheiro e ocultação patrimonial de organização criminosa, por meio de imóveis de alto padrão, veículos de luxo e aeronaves executivas registradas em nome de “laranjas”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>De acordo com a <a href=\"https://www.gov.br/pf/pt-br\" target=\"_blank\">Polícia Federal (PF)</a>, o grupo é suspeito de registrar bens e valores em nome de familiares, colaboradores próximos e terceiros formalmente desvinculados do núcleo investigado, a fim de ocultar os verdadeiros proprietários.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A investigação apurou também o uso de dinheiro em espécie, movimentações financeiras sem rastreabilidade e o emprego de empresas nacionais e estrangeiras, inclusive em paraísos fiscais. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Também há indícios do envolvimento de entidades religiosas e holdings patrimoniais para desvinculação formal da titularidade de bens de elevado valor econômico.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Fase anterior</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os mandados foram expedidos pelo Supremo Tribunal Federal (STF). A <a href=\"https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-faz-nova-acao-contra-suspeitos-de-lavagem-de-dinheiro-em-postos\" target=\"_blank\">oitava fase da operação</a> Unha e Carne resultou na prisão de um ex-prefeito de município da Baixada Fluminense e um ex-secretário da Polícia Civil fluminense.</strong></p>",
+      "imagem": "https://imagens.ebc.com.br/P7UeedtZPGUm116KlpRlKYVSEU0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/86b9cab4-2ff6-4485-abd1-45d80a5218ec.jpeg?itok=ABqDQ6Si",
+      "slug": "pf-cumpre-no-rio-novos-mandados-da-operacao-unha-e-carne",
+      "pagina_local": "pf-cumpre-no-rio-novos-mandados-da-operacao-unha-e-carne.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/pf-cumpre-no-rio-novos-mandados-da-operacao-unha-e-carne",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Presidente do TSE diz que eleições ocorreram dentro da normalidade",
@@ -154,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Justiça bloqueia R$ 327 mi do CV por venda ilegal de gás de cozinha",
@@ -168,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "PF indicia Vorcaro e mais 14 investigados no caso Master",
@@ -182,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Kassio pede à PGR parecer sobre revisão da pena de Bolsonaro",
@@ -196,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "PGE: desfile de carnaval sobre Lula não foi propaganda antecipada",
@@ -210,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Polícia faz ação contra de exploração sexual de adolescentes no Rio",
@@ -224,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "MPSP passa a usar Smart Sampa para combate ao crime organizado",
@@ -238,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Fachin arquiva três investigações do inquérito das Fake News",
@@ -252,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Ministro pede prisão de PM que atropelou motociclista em SC",
@@ -266,21 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
-      "titulo": "Justiça proíbe deputada de incentivar demissão de opositores",
-      "resumo": "A Justiça do Trabalho atendeu parcialmente pedido do Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) e determinou, em decisão liminar, que a deputada estadual Índia Armelau se abstenha de promover atos que incentivem empregadores ...",
-      "conteudo_completo": "A Justiça do Trabalho atendeu parcialmente pedido do Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) e determinou, em decisão liminar, que a deputada estadual Índia Armelau se abstenha de promover atos que incentivem empregadores a discriminar, demitir ou perseguir trabalhadores por suas convicções políticas. \n\nA parlamentar em seu segundo mandato pelo Partido Liberal (PL) foi a mais votada para a Assembleia Legislativa do Rio de Janeiro (Alerj) com mais de 248 mil votos. No primeiro mandato, em 2022, a parlamentar obteve mais de 57 mil votos.\n\nNotícias relacionadas:Deputado do Rio volta a ser alvo da PF por suspeita de fraudes.Deputado estadual Marcelo Aguiar é detido após disparo em bar.Em publicação nas redes sociais, a deputada, que conta com cerca de um milhão de seguidores, publicou a mensagem “Empresário, olha a rede social do teu funcionário aí e confere se ele fez o “L”. Acho que não faz sentido nenhum manter na tua empresa quem odeia empresários”.\n\nNa decisão, o juiz do Trabalho Leonardo Saggese Fonseca destaca que “sendo a ré uma integrante do Parlamento, mais do que qualquer outro cidadão, deve prezar pela liberdade de expressão, desde que respeitosa, deve fomentar a democracia e aceitar as diferentes opções políticas de cidadãos e trabalhadores, sem utilizar de discursos e falas que podem gerar pela sua leitura ou escuta, sentimentos de ódio, perseguição ou discriminação.”\n\nA liminar também determina que a deputada Índia Armelau remova as comunicações e publicações que deram origem à ação civil pública dos locais em que foram divulgadas, especialmente sites, perfis em redes sociais e aplicativos de mensagens. \n\nEm caso de descumprimento, será aplicada multa diária de R$ 5 mil, a partir do primeiro dia útil seguinte ao término do prazo de 48 horas para cumprimento da determinação.\n\nDefesa\n\nEm nota pública, em suas redes sociais, a deputada estadual Índia Armelau esclarece que jamais teve qualquer preconceito contra quem quer que seja.\n\n“Como empresária, sempre convivi com a diversidade ideológica e defendo que as opções políticas dos trabalhadores sejam integralmente respeitadas. Mas preocupo-me com situações de sabotagem às próprias empresas, quebra da confiança e fidúcia entre empregador e empregado, contrariando missão, valores e objetivos da empresa”, disse.\n\nNo texto, a parlamentar esclarece que “o episódio em questão decorre de um equívoco interpretativo: o comentário foi feito a partir de replicagem, oriunda de uma postagem de terceiro de outra rede e não expressa qualquer orientação ou encorajamento sobre contratações ou demissões por parte da deputada por convicção política”.\n\n“Índia Armelau defende relações equilibradas e a pacificação social entre o capital e o trabalho. Ao perceber que foi mal interpretada, deletou imediatamente os stories e postagens neste sentido, para evitar utilização indevida e qualquer tipo de tensionamento social sobre o tema”, explicou a parlamentar.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A Justiça do Trabalho atendeu parcialmente pedido do Ministério Público do Trabalho no Rio de Janeiro (MPT-RJ) e determinou, em decisão liminar, que a deputada estadual Índia Armelau se abstenha de promover atos que incentivem empregadores a discriminar, demitir ou perseguir trabalhadores por suas convicções políticas. <img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706974&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706974&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A parlamentar em seu segundo mandato pelo Partido Liberal (PL) foi a mais votada para a Assembleia Legislativa do Rio de Janeiro (Alerj) com mais de 248 mil votos. No primeiro mandato, em 2022, a parlamentar obteve mais de 57 mil votos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Em publicação nas redes sociais, a deputada, que conta com cerca de um milhão de seguidores, publicou a mensagem “Empresário, olha a rede social do teu funcionário aí e confere se ele fez o “L”. Acho que não faz sentido nenhum manter na tua empresa quem odeia empresários”.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão, o juiz do Trabalho Leonardo Saggese Fonseca destaca que “sendo a ré uma integrante do Parlamento, mais do que qualquer outro cidadão, deve prezar pela liberdade de expressão, desde que respeitosa, deve fomentar a democracia e aceitar as diferentes opções políticas de cidadãos e trabalhadores, sem utilizar de discursos e falas que podem gerar pela sua leitura ou escuta, sentimentos de ódio, perseguição ou discriminação.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A liminar também determina que a deputada Índia Armelau remova as comunicações e publicações que deram origem à ação civil pública</strong> dos locais em que foram divulgadas, especialmente sites, perfis em redes sociais e aplicativos de mensagens. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em caso de descumprimento, será aplicada multa diária de R$ 5 mil, a partir do primeiro dia útil seguinte ao término do prazo de 48 horas para cumprimento da determinação.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Defesa</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em nota pública, em suas redes sociais, a deputada estadual Índia Armelau esclarece que jamais teve qualquer preconceito contra quem quer que seja.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“Como empresária, sempre convivi com a diversidade ideológica e defendo que as opções políticas dos trabalhadores sejam integralmente respeitadas. Mas preocupo-me com situações de sabotagem às próprias empresas, quebra da confiança e fidúcia entre empregador e empregado, contrariando missão, valores e objetivos da empresa”, disse.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No texto, a parlamentar esclarece que “o episódio em questão decorre de um equívoco interpretativo: o comentário foi feito a partir de replicagem, oriunda de uma postagem de terceiro de outra rede e não expressa qualquer orientação ou encorajamento sobre contratações ou demissões por parte da deputada por convicção política”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Índia Armelau defende relações equilibradas e a pacificação social entre o capital e o trabalho. Ao perceber que foi mal interpretada, deletou imediatamente os stories e postagens neste sentido, para evitar utilização indevida e qualquer tipo de tensionamento social sobre o tema”, explicou a parlamentar.</p>",
-      "imagem": "https://imagens.ebc.com.br/lSBldzbqUvItFWG57pqqk_OHuXg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/27/deputada.jpg?itok=MUHd7_BR",
-      "slug": "justica-proibe-deputada-de-incentivar-demissao-de-opositores",
-      "pagina_local": "justica-proibe-deputada-de-incentivar-demissao-de-opositores.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-proibe-deputada-de-incentivar-demissao-de-opositores",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "titulo": "Economistas criticam usar corte de gastos para conter dívida pública",
+      "resumo": "A trajetória da dívida pública brasileira, que saiu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026, vem sendo apontada pelo mercado financeiro e por economistas considerados “liberais” ou “ortod...",
+      "conteudo_completo": "A trajetória da dívida pública brasileira, que saiu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026, vem sendo apontada pelo mercado financeiro e por economistas considerados “liberais” ou “ortodoxos” como o “maior problema” do próximo governo que colocaria em risco a economia brasileira. Para esta ala, reduzir gastos é o principal caminho para manter o equilíbrio fiscal.\n\nDe outro lado, há economistas de outras correntes de pensamento, consideradas “heterodoxas” ou “desenvolvimentistas”, que apontam essa proposta do mercado financeiro como prejudicial à população por tirar recursos de áreas fundamentais, como saúde, educação, previdência e assistência social.\n\n\nNotícias relacionadas:CNI reduz previsão de crescimento do PIB para 1,6% em 2026.Consumo de alimentos cresce após proibição das bets no país, diz Abras.TCU aprova cálculo da alíquota de referência da CBS em 11,3%.\n\nPara esses especialistas, são os juros altos praticados pelo Banco Central (BC) o principal problema econômico do país que pressiona a dívida pública. Já o BC tem condicionado a redução dos juros a realização de superávits primários pela União, que é quando as receitas superam as despesas, excluindo os gastos da dívida.\n\nA revista Forbes, especializada em finanças com sede nos Estados Unidos (EUA), publicou artigo sugerindo um corte de até R$ 450 bilhões para estabilizar a dívida pública brasileira, usando como base estudos do Instituto Fiscal Independente (IFI), ligado ao Senado.\n\nDurante a campanha presidencial, a promessa de corte de magnitude menor, de R$ 250 bilhões, foi atribuído ao candidato Flávio Bolsonaro (PL) a partir de revelações da imprensa. A proposta foi atacada pelo candidato Luiz Inácio Lula da Silva (PT) que acusou Flávio de preparar um “tesouraço” nos benefícios sociais.    \n\nConsultados pela Agência Brasil, economistas rejeitaram a tese dominante veiculada na imprensa de que a trajetória da dívida brasileira deve ser combatida com corte de gastos primários, ou seja, aqueles usados para prestação dos serviços públicos.\n\nCalote e inflação\n\nA professora do Instituto de Economia da Unicamp Simone Deos afirma que não há risco de calote da dívida ou de aumento da inflação, como alertam os economistas liberais, em função do aumento do endividamento bruto nos últimos anos.\n\n“Isso não tem maiores consequências porque a dívida pública é em reais, não em moeda estrangeira. A história não mostra nenhum país que não tenha conseguido pagar a sua dívida interna, em moeda nacional, por falta de recursos. Haveria risco se a dívida fosse em dólares”, diz.\n\nO professor de economia da Universidade Federal Rural do Rio de Janeiro (UFRRJ) Fernando Henrique Lemos Rodrigues afirmou à Agência Brasil que a dívida ainda não preocupa como os economistas liberais têm alertado.\n\n\n“A dívida enquanto proporção do PIB não é uma preocupação prioritária. A dívida está dentro dos parâmetros internacionais considerando a complexidade do Brasil e o peso da dívida interna. São níveis aceitáveis ainda, mesmo com o crescimento dos últimos anos”, afirma.\n\n\nO doutor em teoria econômica critica ainda a comparação, comum no noticiário econômico, do Estado brasileiro com uma família ao argumentar que o governo não poder gastar mais do que arrecada.\n\n“Nós não estamos falando de uma dona de casa, nem de uma dona de padaria. Estamos falando de um país com capacidade de arrecadação, de alongar o seu endividamento e de conseguir receitas das suas estatais”, explicou Fernando.\n\nComparação internacional\n\nA pesquisadora Simone Deos, que atua no Centro de Estudos de Relações Econômicas Internacionais (CERI) da Unicamp, acrescenta que muitos países têm nível de dívida superior ou similar ao Brasil.\n\nJapão (236% do PIB), Estados Unidos (120% do PIB), Reino Unido (101% do PIB), Itália (135%), Índia (81,2%) e Canadá (110% do PIB) são países que registram dívidas públicas maiores ou semelhantes à do Brasil, segundo dados do Fundo Monetário Internacional (FMI) de 2024.\n\nPara Simone, o problema do aumento da dívida é porque uma parcela maior do orçamento público fica comprometido com pagamento de juros para os mais ricos.\n\n\n“O que está causando essa trajetória de aumento é o pagamento de juros. E o problema dela é que uma parcela cada vez maior do PIB está sendo transferida para rentistas [pessoas ou empresas que obtém renda por meio de aplicações financeiras]”, acrescenta.\n\n\nJuros pressionam dívida\n\nA taxa de juros real no Brasil de 8,45%, a maior do mundo segundo levantamento da consultoria Moneyou, é o principal fator para o crescimento da dívida pública, segundo dados do Banco Central (BC). \n\nNos últimos 12 meses, o Brasil gastou R$1,1 trilhão em juros, o que representa 8,86% do PIB, calcula o BC. Ao longo de 2026, o principal fator para o crescimento de 4,2 pontos percentuais (p.p) da dívida/PIB foram os juros nominais. \n\n\n            \n        \n    \nFernando Henrique Lemos critica a comparação entre os gastos públicos e os gastos das famílias- Fernando Henrique Lemos/Arquivo Pessoal\n\n\nO professor Fernando Henrique argumenta que a pressão por redução dos gastos públicos no Brasil é uma “chantagem” do mercado financeiro com objetivo de manter os juros elevados. Isso porque o BC tem condicionado a redução dos juros aos superávits primários.\n\nSegundo o professor, como o governo não pode fazer o ajuste fiscal que o mercado pede sem reduzir os direitos sociais da população, a pressão por cortes funciona para justificar a manutenção das altas taxas de juros.\n\n“O mercado sabe que o governo não vai cortar. Existe um conluio para manter a taxa de juros alta. Um fundo de aplicação financeira tem cerca de 90% da rentabilidade vindo da dívida pública”, explicou Rodrigues.\n\nO professor da UFRRJ argumenta que o Brasil está com a inflação “bastante controlada”, havendo espaço para uma redução maior da taxa de juros.\n\n“Acontece que o BC brasileiro é refém, sobretudo, das instituições financeiras de maior poder de fogo, grandes bancos e grandes corretoras, que é o pessoal da Faria Lima”, explicou.\n\nOutro motivo apontado para reduzir os juros no Brasil é o fato de os juros serem baixos nos países desenvolvidos, o que cria uma pressão do mercado financeiro para manter os juros altos em países como Brasil, México, Rússia, Turquia e Indonésia.\n\nO Banco Central justifica os juros elevados, entre outros motivos, às pressões inflacionárias e aos déficits fiscais primários nas contas públicas. Segundo a autoridade monetária, os gastos primários acima da arrecadação pressionam a inflação.\n\nAlternativa ao ajuste fiscal\n\nA professora da Unicamp Simone Deos pondera, por outro lado, que é válido um debate sobre a eficiência e a qualidade dos gastos públicos, mas defende que mudanças não podem prejudicar políticas sociais.\n\nA pesquisadora do CIRE argumenta que a doutrina econômica adotada pelo BC não tem funcionado para o Brasil. “Tem que mudar a cartilha do BC para ele agir de outra forma”.\n\nSegundo a especialista, é possível reduzir os juros no Brasil e, com isso, equilibrar a dívida pública de forma coordenada e planejada por meio da intervenção no mercado de câmbio, um dos principais fatores de inflação no Brasil. Para isso, o BC teria que fazer uso dos US$ 350 bilhões de reservas em dólar.\n\n“Uma redução dos juros é mais do que suficiente para a dívida estabilizar. Para isso, precisa de uma ação coordenada com a questão cambial do BC. No mais, a gente tem que discutir qualidade do gasto”, comentou.\n\nO professor da UFRRJ Fernando Henrique Rodrigues, por sua vez, defende que o Estado precisa fortalecer seu orçamento social e de investimentos em estatais para perseguir algum desenvolvimento econômico.\n\n“Se um gasto público, num primeiro momento, tem um impacto que se diria negativo sobre as contas públicas, em um segundo momento, ele gera renda, emprego e novos investimentos. Isso volta na forma de arrecadação”, comentou.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A trajetória da dívida pública brasileira, que saiu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026, vem sendo apontada pelo mercado financeiro e por economistas considerados “liberais” ou “ortodoxos” como o “maior problema” do próximo governo que colocaria em risco a economia brasileira. Para esta ala, reduzir gastos é o principal caminho para manter o equilíbrio fiscal.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707097&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707097&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De outro lado, há economistas de outras correntes de pensamento, consideradas “heterodoxas” ou “desenvolvimentistas”, que apontam essa proposta do mercado financeiro como prejudicial à população por tirar recursos de áreas fundamentais, como saúde, educação, previdência e assistência social.<br/>\n<!--END copyright=478341--></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Para esses especialistas, são os juros altos praticados pelo Banco Central (BC) o principal problema econômico do país que pressiona a dívida pública. Já o BC tem condicionado a redução dos juros a realização de superávits primários pela União, que é quando as receitas superam as despesas, excluindo os gastos da dívida.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A revista Forbes, especializada em finanças com sede nos Estados Unidos (EUA), publicou artigo sugerindo um corte de até R$ 450 bilhões para estabilizar a dívida pública brasileira, usando como base estudos do Instituto Fiscal Independente (IFI), ligado ao Senado.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante a campanha presidencial, a promessa de corte de magnitude menor, de R$ 250 bilhões, foi atribuído ao candidato Flávio Bolsonaro (PL) a partir de revelações da imprensa. A proposta foi atacada pelo candidato Luiz Inácio Lula da Silva (PT) que acusou Flávio de <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas\" target=\"_blank\">preparar um “tesouraço</a>” nos benefícios sociais.    </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Consultados pela <strong>Agência Brasil</strong>, economistas rejeitaram a tese dominante veiculada na imprensa de que a trajetória da dívida brasileira deve ser combatida com corte de gastos primários, ou seja, aqueles usados para prestação dos serviços públicos.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Calote e inflação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A professora do Instituto de Economia da Unicamp Simone Deos afirma que não há risco de calote da dívida ou de aumento da inflação, como alertam os economistas liberais, em função do aumento do endividamento bruto nos últimos anos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Isso não tem maiores consequências porque a dívida pública é em reais, não em moeda estrangeira. A história não mostra nenhum país que não tenha conseguido pagar a sua dívida interna, em moeda nacional, por falta de recursos. Haveria risco se a dívida fosse em dólares”, diz.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O professor de economia da Universidade Federal Rural do Rio de Janeiro (UFRRJ) Fernando Henrique Lemos Rodrigues afirmou à <strong>Agência Brasil</strong> que a dívida ainda não preocupa como os economistas liberais têm alertado.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“A dívida enquanto proporção do PIB não é uma preocupação prioritária. A dívida está dentro dos parâmetros internacionais considerando a complexidade do Brasil e o peso da dívida interna. São níveis aceitáveis ainda, mesmo com o crescimento dos últimos anos”, afirma.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A dívida enquanto proporção do PIB não é uma preocupação prioritária. A dívida está dentro dos parâmetros internacionais considerando a complexidade do Brasil e o peso da dívida interna. São níveis aceitáveis ainda, mesmo com o crescimento dos últimos anos”, afirma.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O doutor em teoria econômica critica ainda a comparação, comum no noticiário econômico, do Estado brasileiro com uma família ao argumentar que o governo não poder gastar mais do que arrecada.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nós não estamos falando de uma dona de casa, nem de uma dona de padaria. Estamos falando de um país com capacidade de arrecadação, de alongar o seu endividamento e de conseguir receitas das suas estatais”, explicou Fernando.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Comparação internacional</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A pesquisadora Simone Deos, que atua no Centro de Estudos de Relações Econômicas Internacionais (CERI) da Unicamp, acrescenta que muitos países têm nível de dívida superior ou similar ao Brasil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Japão (236% do PIB), Estados Unidos (120% do PIB), Reino Unido (101% do PIB), Itália (135%), Índia (81,2%) e Canadá (110% do PIB) são países que registram dívidas públicas maiores ou semelhantes à do Brasil, segundo dados do Fundo Monetário Internacional (FMI) de 2024.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Para Simone, o problema do aumento da dívida é porque uma parcela maior do orçamento público fica comprometido com <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/juros-pressionam-divida-mais-que-gastos-publicos-dizem-economistas\" target=\"_blank\">pagamento de juros para os mais ricos</a>.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“O que está causando essa trajetória de aumento é o pagamento de juros. E o problema dela é que uma parcela cada vez maior do PIB está sendo transferida para rentistas [pessoas ou empresas que obtém renda por meio de aplicações financeiras]”, acrescenta.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O que está causando essa trajetória de aumento é o pagamento de juros. E o problema dela é que uma parcela cada vez maior do PIB está sendo transferida para rentistas [pessoas ou empresas que obtém renda por meio de aplicações financeiras]”, acrescenta.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Juros pressionam dívida</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A taxa de juros real no Brasil de 8,45%, a maior do mundo segundo <a href=\"https://moneyou.com.br/wp-content/uploads/2026/09/rankingdejurosreais160926.pdf\" target=\"_blank\">levantamento da consultoria Moneyou</a>, é o principal fator para o crescimento da dívida pública, segundo dados do Banco Central (BC). </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nos últimos 12 meses, o Brasil gastou R$1,1 trilhão em juros, o que representa 8,86% do PIB, <a href=\"https://www.bcb.gov.br/estatisticas/estatisticasfiscais\" target=\"_blank\">calcula o BC</a>. Ao longo de 2026, o principal fator para o crescimento de 4,2 pontos percentuais (p.p) da dívida/PIB foram os juros nominais. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O professor Fernando Henrique argumenta que a pressão por redução dos gastos públicos no Brasil é uma “chantagem” do mercado financeiro com objetivo de manter os juros elevados. Isso porque o BC tem condicionado a redução dos juros aos superávits primários.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo o professor, como o governo não pode fazer o ajuste fiscal que o mercado pede sem reduzir os direitos sociais da população, a pressão por cortes funciona para justificar a manutenção das altas taxas de juros.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O mercado sabe que o governo não vai cortar. Existe um conluio para manter a taxa de juros alta. Um fundo de aplicação financeira tem cerca de 90% da rentabilidade vindo da dívida pública”, explicou Rodrigues.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O professor da UFRRJ argumenta que o Brasil está com a inflação “bastante controlada”, havendo espaço para uma redução maior da taxa de juros.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Acontece que o BC brasileiro é refém, sobretudo, das instituições financeiras de maior poder de fogo, grandes bancos e grandes corretoras, que é o pessoal da Faria Lima”, explicou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Outro motivo apontado para reduzir os juros no Brasil é o fato de os juros serem baixos nos países desenvolvidos, o que cria uma pressão do mercado financeiro para manter os juros altos em países como Brasil, México, Rússia, Turquia e Indonésia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Banco Central justifica os juros elevados, entre outros motivos, às pressões inflacionárias e aos déficits fiscais primários nas contas públicas. Segundo a autoridade monetária, os gastos primários acima da arrecadação pressionam a inflação.</strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Alternativa ao ajuste fiscal</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A professora da Unicamp Simone Deos pondera, por outro lado, que é válido um debate sobre a eficiência e a qualidade dos gastos públicos, mas defende que mudanças não podem prejudicar políticas sociais.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A pesquisadora do CIRE argumenta que a doutrina econômica adotada pelo BC não tem funcionado para o Brasil. “Tem que mudar a cartilha do BC para ele agir de outra forma”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo a especialista, é possível reduzir os juros no Brasil e, com isso, equilibrar a dívida pública de forma coordenada e planejada por meio da intervenção no mercado de câmbio, um dos principais fatores de inflação no Brasil. Para isso, o BC teria que fazer uso dos US$ 350 bilhões de reservas em dólar.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Uma redução dos juros é mais do que suficiente para a dívida estabilizar. Para isso, precisa de uma ação coordenada com a questão cambial do BC. No mais, a gente tem que discutir qualidade do gasto”, comentou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O professor da UFRRJ Fernando Henrique Rodrigues, por sua vez, defende que o Estado precisa fortalecer seu orçamento social e de investimentos em estatais para perseguir algum desenvolvimento econômico.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Se um gasto público, num primeiro momento, tem um impacto que se diria negativo sobre as contas públicas, em um segundo momento, ele gera renda, emprego e novos investimentos. Isso volta na forma de arrecadação”, comentou.</p>",
+      "imagem": "https://imagens.ebc.com.br/cPWIr8skaPz9x1Llhl6ktfmbDbE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/07/11/0d4a1789.jpg?itok=w91NScrE",
+      "slug": "economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "pagina_local": "economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Aposta do Mato Grosso leva prêmio de mais de R$ 324 milhões da Mega",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Governo estuda restringir crédito a empresas por assédio eleitoral",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "União libera R$ 950 milhões para instalar Comitê do IBS",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "CNI reduz previsão de crescimento do PIB para 1,6% em 2026",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Consumo de alimentos cresce após proibição das bets no país, diz Abras",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Governo libera R$ 5,2 bilhões para reforçar assistência social e saúde",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     },
     {
       "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
-    },
-    {
-      "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
-      "resumo": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC).\n\nO contingente re...",
-      "conteudo_completo": "O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o Relatório de Estabiliadde Financeira do Banco Central (BC).\n\nO contingente representa 17% dos devedores do Sistema Financeiro Nacional. Diante do avanço do problema, o presidente do BC, Gabriel Galípolo, afirmou que a instituição pretende anunciar novas medidas para conter ofertas agressivas de crédito ainda este ano.\n\nNotícias relacionadas:Sancionada lei que perdoa dívida e aumenta limite de MEI.BC reforça regras de proteção ao consumidor nas ofertas de crédito.Banco Central diz que estabilidade financeira não está em risco.Principais números:\n\n\n\t20,3 milhões: brasileiros em situação de endividamento de risco;\n\t75%: crescimento do contingente entre junho de 2021 e junho de 2026;\n\t17%: participação dos devedores de risco no sistema financeiro;\n\t42%: comprometimento da renda com dívidas entre pessoas que ganham até dois salários mínimos;\n\t15%: parcela da renda dessa faixa comprometida com dívidas no cartão de crédito;\n\t18,6%: comprometimento total da renda entre quem ganha mais de dez salários mínimos.\n\n\nBC prepara novas medidas\n\nSegundo Galípolo, as próximas iniciativas devem priorizar consumidores que já utilizam o crédito rotativo do cartão ou apresentam atrasos significativos no pagamento das dívidas.\n\n“Pretendemos adicionar medidas ainda este ano”, afirmou o presidente do BC. Ele destacou a preocupação com pessoas que já enfrentam juros elevados e dificuldades financeiras.\n\nGalípolo também apontou o crescimento de modalidades de crédito sem garantia, como cartão de crédito, cheque especial e empréstimo pessoal não consignado, mesmo em um cenário de juros elevados.\n\n\n“A preocupação que existe é nessas modalidades, em que estamos assistindo crescimento de maneira pouco sensível a preço”, disse.\n\n\nQuem está em risco\n\nPara classificar um consumidor como endividado de risco, o BC considera quatro critérios. É necessário atender a pelo menos dois deles:\n\n\n\tAtraso superior a 90 dias no pagamento de parcelas de crédito;\n\tComprometimento de mais de 50% da renda mensal com dívidas;\n\tUso simultâneo de cheque especial, crédito pessoal sem consignação e crédito rotativo;\n\tRenda restante, após o pagamento das dívidas, abaixo da linha de pobreza.\n\n\nA classificação não significa que todos os 20,3 milhões de brasileiros estejam inadimplentes, mas indica maior vulnerabilidade financeira.\n\nO relatório do BC mostra ainda que o comprometimento da renda com dívidas no cartão aumentou em todas as faixas salariais. Entre os que recebem até dois salários mínimos, grupo que reúne 61,2 milhões de pessoas, o comprometimento total chegou a 42% da renda em junho de 2026.\n\nRegras para empréstimos\n\nNa última sexta-feira (23), o Banco Central anunciou medidas para restringir ofertas inadequadas de crédito e ampliar a transparência na contratação de empréstimos.\n\nEntre as mudanças, as instituições financeiras deverão oferecer mecanismos para bloquear publicidade e propostas ativas de crédito. Para consumidores considerados vulneráveis ou em risco de endividamento excessivo, as ofertas dependerão de autorização prévia, específica e inequívoca.\n\nNesses casos, as propostas deverão se limitar a alternativas que melhorem as condições financeiras do cliente, como renegociação e portabilidade, sem concessão de novos recursos.\n\nAs regras de bloqueio de ofertas entram em vigor em 31 de março de 2027. Outras medidas, previstas para julho do mesmo ano, incluem painéis digitais com informações sobre dívidas e limites para ofertas de empréstimos durante transações iniciadas pelo Pix.\n\nAs iniciativas buscam reduzir a contratação de crédito inadequado e evitar o agravamento do endividamento das famílias brasileiras.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O número de brasileiros em situação de endividamento de risco chegou a 20,3 milhões em junho de 2026, alta de 75% em cinco anos, informou nesta terça-feira (27) o <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco\">Relatório de Estabiliadde Financeira do Banco Central (BC)</a>.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706970&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706970&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O contingente representa 17% dos devedores do Sistema Financeiro Nacional. Diante do avanço do problema, o presidente do BC,<strong> Gabriel Galípolo, afirmou que a instituição pretende anunciar novas medidas para conter ofertas agressivas de crédito ainda este ano.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Principais números:</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>BC prepara novas medidas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo Galípolo, as próximas iniciativas devem priorizar consumidores que já utilizam o crédito rotativo do cartão ou apresentam atrasos significativos no pagamento das dívidas.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Pretendemos adicionar medidas ainda este ano”, afirmou o presidente do BC. Ele destacou a preocupação com pessoas que já enfrentam juros elevados e dificuldades financeiras.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Galípolo também apontou o crescimento de modalidades de crédito sem garantia, como cartão de crédito, cheque especial e empréstimo pessoal não consignado, mesmo em um cenário de juros elevados.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“A preocupação que existe é nessas modalidades, em que estamos assistindo crescimento de maneira pouco sensível a preço”, disse.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A preocupação que existe é nessas modalidades, em que estamos assistindo crescimento de maneira pouco sensível a preço”, disse.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Quem está em risco</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Para classificar um consumidor como endividado de risco, o BC considera quatro critérios. É necessário atender a pelo menos dois deles:</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A classificação não significa que todos os 20,3 milhões de brasileiros estejam inadimplentes, mas indica maior vulnerabilidade financeira.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O relatório do BC mostra ainda que o comprometimento da renda com dívidas no cartão aumentou em todas as faixas salariais. Entre os que recebem até dois salários mínimos, grupo que reúne 61,2 milhões de pessoas, o comprometimento total chegou a 42% da renda em junho de 2026.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Regras para empréstimos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Na última sexta-feira (23), o Banco Central <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/bc-reforca-regras-de-protecao-ao-consumidor-nas-ofertas-de-credito\">anunciou medidas para restringir</a> ofertas inadequadas de crédito e ampliar a transparência na contratação de empréstimos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Entre as mudanças, as instituições financeiras deverão oferecer mecanismos para bloquear publicidade e propostas ativas de crédito. Para consumidores considerados vulneráveis ou em risco de endividamento excessivo, as ofertas dependerão de autorização prévia, específica e inequívoca.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nesses casos, as propostas deverão se limitar a alternativas que melhorem as condições financeiras do cliente, como renegociação e portabilidade, sem concessão de novos recursos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As regras de bloqueio de ofertas entram em vigor em 31 de março de 2027. Outras medidas, previstas para julho do mesmo ano, incluem painéis digitais com informações sobre dívidas e limites para ofertas de empréstimos durante transações iniciadas pelo Pix.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As iniciativas buscam reduzir a contratação de crédito inadequado e evitar o agravamento do endividamento das famílias brasileiras.</p>",
-      "imagem": "https://imagens.ebc.com.br/kaz2rDKhUJbEapfVuOXpze2wyyo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moeda_dinheiro_mcajr_2904223667.jpg?itok=3-W0UM8Q",
-      "slug": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
-      "pagina_local": "numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/numero-de-superendividados-no-brasil-cresceu-75-em-cinco-anos-diz-bc",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 06:53"
+      "coletado_em": "29/10/2026 às 14:02"
     }
   ]
 };
