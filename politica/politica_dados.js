@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "29/10/2026 às 00:42:50",
+  "ultima_atualizacao": "29/10/2026 às 06:53:27",
   "total": 30,
   "politica": [
     {
@@ -14,13 +14,13 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
       "resumo": "Após fugir do Brasil para os Estados Unidos, o candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), divulgou uma carta em que agradece aos presidentes da Argentina, Javier Milei, e dos Estados Unidos, Donald Trump, pelo apoio...",
-      "conteudo_completo": "Após fugir do Brasil para os Estados Unidos, o candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), divulgou uma carta em que agradece aos presidentes da Argentina, Javier Milei, e dos Estados Unidos, Donald Trump, pelo apoio recebido para sair do país.\n\nEm uma primeira versão da carta golpista, o senador se declarava o \"verdadeiro presidente eleito do país\". Meia hora depois, o termo foi alterado para \"líder do Brasil\".\n\nNotícias relacionadas:PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil.Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil.“Ato vergonhoso”, diz Lula sobre fuga de Flávio Bolsonaro.No documento, o candidato derrotado afirma, sem provas, que a eleição brasileira foi fraudada e critica a decisão do ministro do Supremo Tribunal Federal Cristiano Zanin de estender o prazo de votação até as 19h. Zanin atendeu a pedido das campanhas do PL e do PT.\n\nFlávio Bolsonaro foi derrotado pelo presidente Luiz Inácio Lula da Silva no segundo turno das eleições para a Presidência da República. No pleito, realizado no último domingo (25), Lula obteve 64 milhões de votos. Já Flávio ficou com pouco mais de 59 milhões de votos. As duas horas de extensão no horário de votação computaram apenas 34.393 votos. Cerca de 158,7 milhões de eleitores brasileiros estavam aptos a votar, segundo o Tribunal Superior Eleitoral (TSE).\n\n“Uma decisão do STF, tomada por cima da competência do TSE, estendeu a votação no apagar das luzes, e a ordem só chegou depois do fim do horário legal, quando as urnas já estavam encerradas”, reclamou.\n\nAs afirmações de Flávio contrariam a apuração e o reconhecimento do pleito pelo Tribunal Superior Eleitoral (TSE). As eleições no Brasil tiveram ainda o reconhecimento da Organização dos Estados Americanos (OEA) e de líderes de diversos países de diferentes continentes. O PL, partido de Flávio, também reconheceu a vitória de Lula nas urnas. \n\nNa carta, Flávio criticou ainda a decisão do ministro do STF Alexandre de Moraes que o proibiu de deixar o país e determinou a entrega de seus passaportes pessoal e diplomático. Moraes expediu a ordem judicial de apreensão dos passaportes a pedido da Polícia Federal (PF), que apontou riscos de o senador fugir do país em meio a investigações contra ele sobre casos de lavagem de dinheiro e evasão de divisas.\n\nFlávio é investigado em dois inquéritos que tramitam no Supremo. Em um deles, é suspeito, ao lado do advogado Willer Tomaz, de lavagem de dinheiro por meio de plataformas de bets. Ele também é alvo de outro inquérito que investiga o financiamento do filme Dark Horse, sobre a trajetória de seu pai.\n\nNo comunicado distribuído à imprensa por sua assessoria, Flávio diz ainda que vai liderar a oposição a partir dos Estados Unidos e que correrá os riscos que os parlamentares eleitos do PL não poderão correr.\n\n\"Por isso, liderarei a oposição daqui. Direi o que vocês, aí, não podem dizer, e assumirei os riscos que vocês não podem correr\", diz.\n\nA primeira versão da carta trazia um brasão da República com a palavra \"Brazil\", escrita com \"z\", em vez de Brasil, com \"s\". No lugar de República Federativa do Brasil, o símbolo trazia a denominação “Estados Unidos do Brazil”, nome que deixou de ser usado em março de 1967.\n\nO senador chegou a Miami, nos Estados Unidos, com a mulher e as duas filhas na manhã desta quarta-feira (28), após um dia de incertezas sobre o seu paradeiro. Eles cruzaram a fronteira com a Argentina às 22h50 de terça-feira (27) por meio da Ponte Internacional Tancredo Neves, em Foz do Iguaçu, cidade que faz fronteira com a argentina Puerto Iguazú. Às 23h30, a família embarcou em um avião privado rumo a Guayaquil, no Equador. De lá, eles foram para os Estados Unidos. \n\nIrmão nos EUA\n\nIrmão mais novo de Flávio, Eduardo Bolsonaro está nos Estados Unidos desde março de 2025. Poucos dias antes do segundo turno, ele chegou a falar em entrevista que Flávio deveria deixar o Brasil, caso perdesse as eleições.\n\nEduardo foi condenado pelo STF por ter articulado o tarifaço aplicado pelo governo dos Estados Unidos ao Brasil, em julho de 2025. O intuito era impedir o julgamento do seu pai, Jair Bolsonaro. O ex-presidente foi condenado, meses mais tarde, a 27 anos de prisão por golpe de Estado.\n\nDemocratas\n\nNa manhã de hoje (28), o Comitê de Relações Exteriores da Câmara dos Deputados dos Estados Unidos criticou a decisão do governo de Donald Trump de conceder visto ao senador brasileiro Flávio Bolsonaro (PL-RJ).\n\nNas redes sociais, o comitê, ligado aos democratas, fez um comparativo entre a atual política migratória estadunidense aplicada a pessoas que fogem de conflitos e o tratamento concedido a Flávio e à família Bolsonaro.\n\n“Nenhum asilo para pessoas fugindo da guerra no Sudão ou de conflitos no Haiti, mas [o secretário de Estado Marco] Rubio está estendendo o tapete vermelho para Bolsonaro”, diz o post do comitê no X.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-chega-aos-estados-unidos-depois-de-fugir-do-brasil\" target=\"_blank\">fugir do Brasil</a> para os Estados Unidos, o candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), divulgou uma carta em que agradece aos presidentes da Argentina, Javier Milei, e dos Estados Unidos, Donald Trump, pelo apoio recebido para sair do país.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707104&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707104&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em uma primeira versão da carta golpista, o senador se declarava o \"verdadeiro presidente eleito do país\". Meia hora depois, o termo foi alterado para \"líder do Brasil\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No documento, o candidato derrotado afirma, sem provas, que a eleição brasileira foi fraudada e critica a decisão do ministro do Supremo Tribunal Federal Cristiano Zanin de estender o prazo de votação até as 19h. Zanin atendeu a pedido das campanhas do PL e do PT.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio Bolsonaro <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica\" target=\"_blank\">foi derrotado</a> pelo presidente Luiz Inácio Lula da Silva no segundo turno das eleições para a Presidência da República. No pleito, realizado no último domingo (25), Lula obteve 64 milhões de votos. Já Flávio ficou com pouco mais de 59 milhões de votos. As duas horas de extensão no horário de votação <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-contabiliza-menos-de-35-mil-votos-apos-as-17h-no-2-turno\" target=\"_blank\">computaram apenas 34.393 votos</a>. Cerca de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-vao-urnas-neste-domingo-para-escolher-o-presidente-do-pais\" target=\"_blank\">158,7 milhões de eleitores brasileiros estavam aptos a votar</a>, segundo o Tribunal Superior Eleitoral (TSE).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Uma decisão do STF, tomada por cima da competência do TSE, estendeu a votação no apagar das luzes, e a ordem só chegou depois do fim do horário legal, quando as urnas já estavam encerradas”, reclamou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As afirmações de Flávio contrariam a apuração e o <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao\" target=\"_blank\">reconhecimento do pleito pelo Tribunal Superior Eleitoral (TSE)</a>. As eleições no Brasil tiveram ainda o reconhecimento da Organização dos Estados Americanos (OEA) e de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lideres-estrangeiros-reconhecem-vitoria-e-parabenizam-lula\" target=\"_blank\">líderes de diversos países de diferentes continentes</a>. O PL, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes\" target=\"_blank\">partido de Flávio, também reconheceu a vitória de Lula nas urnas</a>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na carta, Flávio criticou ainda a <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais\" target=\"_blank\">decisão do ministro do STF Alexandre de Moraes que o proibiu de deixar o país</a> e determinou a entrega de seus passaportes pessoal e diplomático. Moraes expediu a ordem judicial de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais\" target=\"_blank\">apreensão dos passaportes a pedido da Polícia Federal</a> (PF), que apontou riscos de o senador fugir do país em meio a investigações contra ele sobre casos de lavagem de dinheiro e evasão de divisas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio é <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/entenda-investigacoes-contra-flavio-continuam-no-stf-apos-fuga\" target=\"_blank\">investigado em dois inquéritos</a> que tramitam no Supremo. Em um deles, é suspeito, ao lado do advogado Willer Tomaz, de lavagem de dinheiro por meio de plataformas de bets. Ele também é alvo de outro inquérito que investiga o financiamento do filme Dark Horse, sobre a trajetória de seu pai.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No comunicado distribuído à imprensa por sua assessoria, Flávio diz ainda que vai liderar a oposição a partir dos Estados Unidos e que correrá os riscos que os parlamentares eleitos do PL não poderão correr.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Por isso, liderarei a oposição daqui. Direi o que vocês, aí, não podem dizer, e assumirei os riscos que vocês não podem correr\", diz.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A primeira versão da carta trazia um brasão da República com a palavra \"Brazil\", escrita com \"z\", em vez de Brasil, com \"s\". No lugar de República Federativa do Brasil, o símbolo trazia a denominação “Estados Unidos do Brazil”, nome que deixou de ser usado em março de 1967.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O senador chegou a Miami, nos Estados Unidos, com a mulher e as duas filhas na manhã desta quarta-feira (28), <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-diz-agencia-reuters\" target=\"_blank\">após um dia de incertezas sobre o seu paradeiro</a>. Eles <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/flavio-bolsonaro-cruza-fronteira-argentina-e-segue-para-o-equador\" target=\"_blank\">cruzaram a fronteira com a Argentina</a> às 22h50 de terça-feira (27) por meio da Ponte Internacional Tancredo Neves, em Foz do Iguaçu, cidade que faz fronteira com a argentina Puerto Iguazú. Às 23h30, a família embarcou em um avião privado rumo a Guayaquil, no Equador. <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aviao-com-flavio-bolsonaro-e-familia-segue-para-miami\" target=\"_blank\">De lá, eles foram para os Estados Unidos</a>. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Irmão nos EUA</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Irmão mais novo de Flávio, Eduardo Bolsonaro está nos Estados Unidos desde março de 2025. Poucos dias antes do segundo turno, ele chegou a falar em entrevista que Flávio deveria deixar o Brasil, caso perdesse as eleições.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"http://agenciabrasil.ebc.com.br/justica/noticia/2026-09/primeira-turma-do-stf-mantem-condenacao-de-eduardo-bolsonaro\" target=\"_blank\">Eduardo foi condenado</a> pelo STF por ter articulado o <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/em-carta-lula-trump-anuncia-tarifa-de-50-produtos-brasileiros\" target=\"_blank\">tarifaço aplicado pelo governo dos Estados Unidos ao Brasil, em julho de 2025</a>. O intuito era impedir o julgamento do seu pai, Jair Bolsonaro. O ex-presidente foi condenado, meses mais tarde, a <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/stf-condena-bolsonaro-27-anos-e-tres-meses-de-prisao\" target=\"_blank\">27 anos de prisão por golpe de Estado</a>.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Democratas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na manhã de hoje (28), o Comitê de Relações Exteriores da Câmara dos Deputados dos Estados Unidos criticou a decisão do governo de Donald Trump de <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/democratas-condenam-decisao-de-trump-de-conceder-visto-flavio\" target=\"_blank\">conceder visto</a> ao senador brasileiro Flávio Bolsonaro (PL-RJ).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nas redes sociais, o comitê, ligado aos democratas, fez um comparativo entre a atual política migratória estadunidense aplicada a pessoas que fogem de conflitos e o tratamento concedido a Flávio e à família Bolsonaro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nenhum asilo para pessoas fugindo da guerra no Sudão ou de conflitos no Haiti, mas [o secretário de Estado Marco] Rubio está estendendo o tapete vermelho para Bolsonaro”, diz o post do comitê no X.</p>",
+      "conteudo_completo": "Após fugir do Brasil para os Estados Unidos, o candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), divulgou uma carta em que agradece aos presidentes da Argentina, Javier Milei, e dos Estados Unidos, Donald Trump, pelo apoio recebido para sair do país.\n\nEm uma primeira versão da carta golpista, o senador se declarava o \"verdadeiro presidente eleito do país\". Meia hora depois, o termo foi alterado para \"líder do Brasil\".\n\nNotícias relacionadas:PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil.Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil.“Ato vergonhoso”, diz Lula sobre fuga de Flávio Bolsonaro.No documento, o candidato derrotado afirma, sem provas, que a eleição brasileira foi fraudada e critica a decisão do ministro do Supremo Tribunal Federal Cristiano Zanin de estender o prazo de votação até as 19h. Zanin atendeu a pedido das campanhas do PL e do PT.\n\nFlávio Bolsonaro foi derrotado pelo presidente Luiz Inácio Lula da Silva no segundo turno das eleições para a Presidência da República. No pleito, realizado no último domingo (25), Lula obteve 64 milhões de votos. Já Flávio ficou com pouco mais de 59 milhões de votos. As duas horas de extensão no horário de votação computaram apenas 34.393 votos. Cerca de 158,7 milhões de eleitores brasileiros estavam aptos a votar, segundo o Tribunal Superior Eleitoral (TSE).\n\n“Uma decisão do STF, tomada por cima da competência do TSE, estendeu a votação no apagar das luzes, e a ordem só chegou depois do fim do horário legal, quando as urnas já estavam encerradas”, reclamou.\n\nAs afirmações de Flávio contrariam a apuração e o reconhecimento do pleito pelo Tribunal Superior Eleitoral (TSE). As eleições no Brasil tiveram ainda o reconhecimento da Organização dos Estados Americanos (OEA) e de líderes de diversos países de diferentes continentes. O PL, partido de Flávio, também reconheceu a vitória de Lula nas urnas. \n\nNa carta, Flávio criticou ainda a decisão do ministro do STF Alexandre de Moraes que o proibiu de deixar o país e determinou a entrega de seus passaportes pessoal e diplomático. Moraes expediu a ordem judicial de apreensão dos passaportes a pedido da Polícia Federal (PF), que apontou riscos de o senador fugir do país em meio a investigações contra ele sobre casos de lavagem de dinheiro e evasão de divisas.\n\nFlávio é investigado em dois inquéritos que tramitam no Supremo. Em um deles, é suspeito, ao lado do advogado Willer Tomaz, de lavagem de dinheiro por meio de plataformas de bets. Ele também é alvo de outro inquérito que investiga o financiamento do filme Dark Horse, sobre a trajetória de seu pai.\n\nNo comunicado distribuído à imprensa por sua assessoria, Flávio diz ainda que vai liderar a oposição a partir dos Estados Unidos e que correrá os riscos que os parlamentares eleitos do PL não poderão correr.\n\n\"Por isso, liderarei a oposição daqui. Direi o que vocês, aí, não podem dizer, e assumirei os riscos que vocês não podem correr\", diz.\n\nA primeira versão da carta trazia um brasão da República com a palavra \"Brazil\", escrita com \"z\", em vez de Brasil, com \"s\". No lugar de República Federativa do Brasil, o símbolo trazia a denominação “Estados Unidos do Brazil”, nome que deixou de ser usado em março de 1967.\n\nO senador chegou a Miami, nos Estados Unidos, com a mulher e as duas filhas na manhã desta quarta-feira (28), após um dia de incertezas sobre o seu paradeiro. Eles cruzaram a fronteira com a Argentina às 22h50 de terça-feira (27) por meio da Ponte Internacional Tancredo Neves, em Foz do Iguaçu, cidade que faz fronteira com a argentina Puerto Iguazú. Às 23h30, a família embarcou em um avião privado rumo a Guayaquil, no Equador. De lá, eles foram para os Estados Unidos. \n\nIrmão nos EUA\n\nIrmão mais novo de Flávio, Eduardo Bolsonaro está nos Estados Unidos desde março de 2025. Poucos dias antes do segundo turno, ele chegou a falar em entrevista que Flávio deveria deixar o Brasil, caso perdesse as eleições.\n\nEduardo foi condenado pelo STF por ter articulado o tarifaço aplicado pelo governo dos Estados Unidos ao Brasil, em julho de 2025. O intuito era impedir o julgamento do seu pai, Jair Bolsonaro. O ex-presidente foi condenado, meses mais tarde, a 27 anos de prisão por golpe de Estado.\n\nDemocratas\n\nNa manhã de hoje (28), o Comitê de Relações Exteriores da Câmara dos Deputados dos Estados Unidos criticou a decisão do governo de Donald Trump de conceder visto ao senador brasileiro Flávio Bolsonaro (PL-RJ).\n\nNas redes sociais, o comitê, ligado aos democratas, fez um comparativo entre a atual política migratória estadunidense aplicada a pessoas que fogem de conflitos e o tratamento concedido a Flávio e à família Bolsonaro.\n\n“Nenhum asilo para pessoas fugindo da guerra no Sudão ou de conflitos no Haiti, mas [o secretário de Estado Marco] Rubio está estendendo o tapete vermelho para Bolsonaro”, diz o post do comitê no X.\n\nDeclarações \n\nA respeito da carta do senador, o Sindicato dos Jornalistas Profissionais do Distrito Federal (SJPDF) alertou que a reprodução de declarações sem a devida contextualização pode contribuir para a desinformação. \n\n\"Alguns veículos de imprensa reproduziram, nesta quarta-feira, 28 de outubro, declarações de Flávio Bolsonaro que questionavam a lisura do processo eleitoral brasileiro. Parte desse material, porém, deixou de contextualizar que negociar com governos, ou grupos estrangeiros para provocar desestabilização nacional ou invasão do território, pode configurar crime, conforme as circunstâncias e o enquadramento legal\", diz a nota. \n\n\"O papel do jornalismo não é apenas repercutir falas, mas oferecer à sociedade informações verificadas, contextualizadas e precisas\", acrescenta.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-chega-aos-estados-unidos-depois-de-fugir-do-brasil\" target=\"_blank\">fugir do Brasil</a> para os Estados Unidos, o candidato derrotado na eleição presidencial, Flávio Bolsonaro (PL), divulgou uma carta em que agradece aos presidentes da Argentina, Javier Milei, e dos Estados Unidos, Donald Trump, pelo apoio recebido para sair do país.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707104&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707104&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em uma primeira versão da carta golpista, o senador se declarava o \"verdadeiro presidente eleito do país\". Meia hora depois, o termo foi alterado para \"líder do Brasil\".</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No documento, o candidato derrotado afirma, sem provas, que a eleição brasileira foi fraudada e critica a decisão do ministro do Supremo Tribunal Federal Cristiano Zanin de estender o prazo de votação até as 19h. Zanin atendeu a pedido das campanhas do PL e do PT.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio Bolsonaro <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica\" target=\"_blank\">foi derrotado</a> pelo presidente Luiz Inácio Lula da Silva no segundo turno das eleições para a Presidência da República. No pleito, realizado no último domingo (25), Lula obteve 64 milhões de votos. Já Flávio ficou com pouco mais de 59 milhões de votos. As duas horas de extensão no horário de votação <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-contabiliza-menos-de-35-mil-votos-apos-as-17h-no-2-turno\" target=\"_blank\">computaram apenas 34.393 votos</a>. Cerca de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eleitores-vao-urnas-neste-domingo-para-escolher-o-presidente-do-pais\" target=\"_blank\">158,7 milhões de eleitores brasileiros estavam aptos a votar</a>, segundo o Tribunal Superior Eleitoral (TSE).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Uma decisão do STF, tomada por cima da competência do TSE, estendeu a votação no apagar das luzes, e a ordem só chegou depois do fim do horário legal, quando as urnas já estavam encerradas”, reclamou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As afirmações de Flávio contrariam a apuração e o <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/presidente-do-tse-liga-para-lula-para-parabenizar-reeleicao\" target=\"_blank\">reconhecimento do pleito pelo Tribunal Superior Eleitoral (TSE)</a>. As eleições no Brasil tiveram ainda o reconhecimento da Organização dos Estados Americanos (OEA) e de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lideres-estrangeiros-reconhecem-vitoria-e-parabenizam-lula\" target=\"_blank\">líderes de diversos países de diferentes continentes</a>. O PL, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/partido-de-flavio-pl-reconhece-vitoria-de-lula-nas-eleicoes\" target=\"_blank\">partido de Flávio, também reconheceu a vitória de Lula nas urnas</a>. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na carta, Flávio criticou ainda a <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais\" target=\"_blank\">decisão do ministro do STF Alexandre de Moraes que o proibiu de deixar o país</a> e determinou a entrega de seus passaportes pessoal e diplomático. Moraes expediu a ordem judicial de <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais\" target=\"_blank\">apreensão dos passaportes a pedido da Polícia Federal</a> (PF), que apontou riscos de o senador fugir do país em meio a investigações contra ele sobre casos de lavagem de dinheiro e evasão de divisas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Flávio é <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/entenda-investigacoes-contra-flavio-continuam-no-stf-apos-fuga\" target=\"_blank\">investigado em dois inquéritos</a> que tramitam no Supremo. Em um deles, é suspeito, ao lado do advogado Willer Tomaz, de lavagem de dinheiro por meio de plataformas de bets. Ele também é alvo de outro inquérito que investiga o financiamento do filme Dark Horse, sobre a trajetória de seu pai.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No comunicado distribuído à imprensa por sua assessoria, Flávio diz ainda que vai liderar a oposição a partir dos Estados Unidos e que correrá os riscos que os parlamentares eleitos do PL não poderão correr.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Por isso, liderarei a oposição daqui. Direi o que vocês, aí, não podem dizer, e assumirei os riscos que vocês não podem correr\", diz.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A primeira versão da carta trazia um brasão da República com a palavra \"Brazil\", escrita com \"z\", em vez de Brasil, com \"s\". No lugar de República Federativa do Brasil, o símbolo trazia a denominação “Estados Unidos do Brazil”, nome que deixou de ser usado em março de 1967.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O senador chegou a Miami, nos Estados Unidos, com a mulher e as duas filhas na manhã desta quarta-feira (28), <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-diz-agencia-reuters\" target=\"_blank\">após um dia de incertezas sobre o seu paradeiro</a>. Eles <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/flavio-bolsonaro-cruza-fronteira-argentina-e-segue-para-o-equador\" target=\"_blank\">cruzaram a fronteira com a Argentina</a> às 22h50 de terça-feira (27) por meio da Ponte Internacional Tancredo Neves, em Foz do Iguaçu, cidade que faz fronteira com a argentina Puerto Iguazú. Às 23h30, a família embarcou em um avião privado rumo a Guayaquil, no Equador. <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aviao-com-flavio-bolsonaro-e-familia-segue-para-miami\" target=\"_blank\">De lá, eles foram para os Estados Unidos</a>. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Irmão nos EUA</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Irmão mais novo de Flávio, Eduardo Bolsonaro está nos Estados Unidos desde março de 2025. Poucos dias antes do segundo turno, ele chegou a falar em entrevista que Flávio deveria deixar o Brasil, caso perdesse as eleições.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"http://agenciabrasil.ebc.com.br/justica/noticia/2026-09/primeira-turma-do-stf-mantem-condenacao-de-eduardo-bolsonaro\" target=\"_blank\">Eduardo foi condenado</a> pelo STF por ter articulado o <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/em-carta-lula-trump-anuncia-tarifa-de-50-produtos-brasileiros\" target=\"_blank\">tarifaço aplicado pelo governo dos Estados Unidos ao Brasil, em julho de 2025</a>. O intuito era impedir o julgamento do seu pai, Jair Bolsonaro. O ex-presidente foi condenado, meses mais tarde, a <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/stf-condena-bolsonaro-27-anos-e-tres-meses-de-prisao\" target=\"_blank\">27 anos de prisão por golpe de Estado</a>.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Democratas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na manhã de hoje (28), o Comitê de Relações Exteriores da Câmara dos Deputados dos Estados Unidos criticou a decisão do governo de Donald Trump de <a href=\"https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/democratas-condenam-decisao-de-trump-de-conceder-visto-flavio\" target=\"_blank\">conceder visto</a> ao senador brasileiro Flávio Bolsonaro (PL-RJ).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Nas redes sociais, o comitê, ligado aos democratas, fez um comparativo entre a atual política migratória estadunidense aplicada a pessoas que fogem de conflitos e o tratamento concedido a Flávio e à família Bolsonaro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nenhum asilo para pessoas fugindo da guerra no Sudão ou de conflitos no Haiti, mas [o secretário de Estado Marco] Rubio está estendendo o tapete vermelho para Bolsonaro”, diz o post do comitê no X.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Declarações </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A respeito da carta do senador, o Sindicato dos Jornalistas Profissionais do Distrito Federal (SJPDF) alertou que a reprodução de declarações sem a devida contextualização pode contribuir para a desinformação. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"Alguns veículos de imprensa reproduziram, nesta quarta-feira, 28 de outubro, declarações de Flávio Bolsonaro que questionavam a lisura do processo eleitoral brasileiro. Parte desse material, porém, deixou de contextualizar que negociar com governos, ou grupos estrangeiros para provocar desestabilização nacional ou invasão do território, pode configurar crime, conforme as circunstâncias e o enquadramento legal\", diz a nota. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>\"O papel do jornalismo não é apenas repercutir falas, mas oferecer à sociedade informações verificadas, contextualizadas e precisas\", acrescenta. </p>",
       "imagem": "https://imagens.ebc.com.br/sKPd4d8UKTn0AdJBba5m8qn_d50=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/25/0d4a6236.jpg?itok=3AF9OK3O",
       "slug": "em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga",
       "pagina_local": "em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga.html",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Governo reforçará investigações de violência política no segundo turno",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "STF nega ter ordenado buscas em endereços de Flávio Bolsonaro",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Avião com Flávio Bolsonaro e família segue para Miami",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Flávio Bolsonaro cruza fronteira argentina e segue para o Equador",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Lula e eleitores idosos se emocionam em “festa de aniversário”",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Coordenador de campanha se diz surpreso com fuga de Flávio",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Presidente do TSE diz que eleições ocorreram dentro da normalidade",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Justiça bloqueia R$ 327 mi do CV por venda ilegal de gás de cozinha",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "PF indicia Vorcaro e mais 14 investigados no caso Master",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Kassio pede à PGR parecer sobre revisão da pena de Bolsonaro",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "PGE: desfile de carnaval sobre Lula não foi propaganda antecipada",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Polícia faz ação contra de exploração sexual de adolescentes no Rio",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "MPSP passa a usar Smart Sampa para combate ao crime organizado",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Fachin arquiva três investigações do inquérito das Fake News",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Ministro pede prisão de PM que atropelou motociclista em SC",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Justiça proíbe deputada de incentivar demissão de opositores",
@@ -280,7 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
+    },
+    {
+      "titulo": "Aposta do Mato Grosso leva prêmio de mais de R$ 324 milhões da Mega",
+      "resumo": "Uma aposta de Rondonópolis (MT) acertou as seis dezenas do Concurso 3.077 da Mega-Sena, sorteado nesta quarta-feira (28), e faturou prêmio de mias de R$ 324 milhões.  \n\nOs números sorteados são: 02 - 14 - 18 - 31 - 35 - 40\n\nA quina teve 116...",
+      "conteudo_completo": "Uma aposta de Rondonópolis (MT) acertou as seis dezenas do Concurso 3.077 da Mega-Sena, sorteado nesta quarta-feira (28), e faturou prêmio de mias de R$ 324 milhões.  \n\nOs números sorteados são: 02 - 14 - 18 - 31 - 35 - 40\n\nA quina teve 116 apostas ganhadoras. Cada uma receberá R$ 32.185,33. A quadra saiu para 7.598 apostas, no valor de R$ 701,97 cada.\n\nApostas\n\nO próximo concurso será nesta quinta-feira (29).\n\nAté sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.\n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Uma aposta de Rondonópolis (MT) acertou as seis dezenas do Concurso 3.077 da Mega-Sena, sorteado nesta quarta-feira (28), e faturou prêmio de mias de R$ 324 milhões.  </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707144&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707144&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os números sorteados são: 02 - 14 - 18 - 31 - 35 - 40</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A quina teve 116 apostas ganhadoras. Cada uma receberá R$ 32.185,33. A quadra saiu para 7.598 apostas, no valor de R$ 701,97 cada.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Apostas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O próximo concurso será nesta quinta-feira (29).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Até sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/Rtkw68roLekx1SxopfRd90zWq_E=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182751.jpg?itok=x99P54Ik",
+      "slug": "aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega",
+      "pagina_local": "aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aposta-do-mato-grosso-leva-premio-de-mais-de-r-324-milhoes-da-mega",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Governo estuda restringir crédito a empresas por assédio eleitoral",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "União libera R$ 950 milhões para instalar Comitê do IBS",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Ibovespa cai 2,68%, e dólar fecha em leve baixa a R$ 5,34",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "CNI reduz previsão de crescimento do PIB para 1,6% em 2026",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Consumo de alimentos cresce após proibição das bets no país, diz Abras",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Governo libera R$ 5,2 bilhões para reforçar assistência social e saúde",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     },
     {
       "titulo": "Número de superendividados no Brasil cresceu 75% em cinco anos, diz BC",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
-    },
-    {
-      "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
-      "resumo": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cumprimento da meta fis...",
-      "conteudo_completo": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cumprimento da meta fiscal.\n\n\n“Nosso compromisso é com a responsabilidade fiscal, com a estabilidade fiscal e isso vai ser buscado com diálogo”, disse o ministro a jornalistas ao chegar, nesta manhã, ao Ministério da Fazenda.\n\n\nNotícias relacionadas:Governo enviará dois projetos de lei alternativos à MP do IOF.Banco Central diz que estabilidade financeira não está em risco.Para conter oscilações, Tesouro anuncia nova recompra de títulos.O ministro revelou que, na segunda-feira (26), entrou em contato com representantes do setor financeiro para tentar acalmar o mercado, um dia após o presidente Luiz Inácio Lula da Silva ser reeleito para mais quatro anos à frente do governo federal.\n\nSem fornecer mais detalhes, Durigan comentou que a equipe de governo já vem discutindo medidas de ajuste fiscal, incluindo a possibilidade de uma ampliação da fatia do Orçamento da União passível de ser contingenciada - medida que depende da aprovação do Congresso Nacional. \n\n\n“Já temos várias medidas sendo estudadas e algumas prontas”, revelou Durigan, explicando que as propostas em análise vão ser anunciadas em breve, com a autorização do presidente Lula, que, antes, quer definir os novos integrantes de sua equipe econômica.\n\n\n“Estamos passando por um período de transição”, destacou o ministro, referindo-se ao período entre o anúncio do resultado do segundo turno das eleições presidenciais e o dia 5 de janeiro, quando Lula e o vice-presidente, Geraldo Alckmin, serão reempossados.\n\n“[Até lá] o presidente vai se sentar tanto com a equipe atual, quanto com a que ainda vai designar para o novo mandato, e definir os próximos passos concretos. Sabendo que já temos medidas prontas, como a busca pelo centro da meta, que vão ser tratadas com o Congresso Nacional em breve.”",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o cumprimento da meta fiscal.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1706942&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1706942&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p><strong>“Nosso compromisso é com a responsabilidade fiscal, com a estabilidade fiscal e isso vai ser buscado com diálogo”, disse o ministro a jornalistas ao chegar, nesta manhã, ao Ministério da Fazenda.</strong></p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“Nosso compromisso é com a responsabilidade fiscal, com a estabilidade fiscal e isso vai ser buscado com diálogo”, disse o ministro a jornalistas ao chegar, nesta manhã, ao Ministério da Fazenda.</strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro revelou que, na segunda-feira (26), entrou em contato com representantes do setor financeiro para tentar acalmar o mercado, um dia após o presidente Luiz Inácio Lula da Silva ser reeleito para mais quatro anos à frente do governo federal.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Sem fornecer mais detalhes, Durigan comentou que a equipe de governo já vem discutindo medidas de ajuste fiscal, incluindo a possibilidade de uma ampliação da fatia do Orçamento da União passível de ser contingenciada - medida que depende da aprovação do Congresso Nacional. </strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Já temos várias medidas sendo estudadas e algumas prontas”, revelou Durigan, explicando que as propostas em análise vão ser anunciadas em breve, com a autorização do presidente Lula, que, antes, quer definir os novos integrantes de sua equipe econômica.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Já temos várias medidas sendo estudadas e algumas prontas”, revelou Durigan, explicando que as propostas em análise vão ser anunciadas em breve, com a autorização do presidente Lula, que, antes, quer definir os novos integrantes de sua equipe econômica.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“Estamos passando por um período de transição”, destacou o ministro, referindo-se ao período entre o anúncio do resultado do segundo turno das eleições presidenciais e o dia 5 de janeiro, quando Lula e o vice-presidente, Geraldo Alckmin, serão reempossados.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“[Até lá] o presidente vai se sentar tanto com a equipe atual, quanto com a que ainda vai designar para o novo mandato, e definir os próximos passos concretos. Sabendo que já temos medidas prontas, como a busca pelo centro da meta, que vão ser tratadas com o Congresso Nacional em breve.”</p>",
-      "imagem": "https://imagens.ebc.com.br/ZHwDUBvDuOV9hbQxPzy1u1nv8XY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/12/0d9a7467.jpg?itok=DdlnxcKL",
-      "slug": "governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
-      "pagina_local": "governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "29/10/2026 às 00:42"
+      "coletado_em": "29/10/2026 às 06:53"
     }
   ]
 };
