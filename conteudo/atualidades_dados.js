@@ -1,7 +1,33 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "30/10/2026 às 19:11:28",
+  "ultima_atualizacao": "30/10/2026 às 23:34:02",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
+      "resumo": "O mercado financeiro brasileiro encerrou outubro sob forte pressão, com disparada do dólar e queda acentuada da bolsa de valores. Nesta sexta-feira (30), a moeda estadunidense avançou cerca de 1% e fechou perto de R$ 5,4...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O mercado financeiro brasileiro encerrou outubro sob forte pressão, com disparada do dólar e queda acentuada da bolsa de valores. Nesta sexta-feira (30), a moeda estadunidense avançou cerca de 1% e fechou perto de R$ 5,45, enquanto o Ibovespa recuou 0,75%, aos 167,9 mil pontos.\n\nNa semana, o dólar acumulou valorização superior a 9%, a maior desde a crise financeira de 2008. O principal índice da B3 registrou a pior queda semanal desde março de 2020, no início da pandemia de covid-19.\n\nNo plano nacional, o desempenho dos ativos foi marcado pelos ajustes do mercado após a reeleição do presidente Luiz Inácio Lula da Silva, pelas incertezas sobre a política fiscal brasileira. No cenário internacional, a forte queda de ações de empresas tecnológicas e de inteligência artificial pressionou o dólar e as bolsas de outros países.\n\nNúmeros do dia\n\n\n\tDólar à vista: R$ 5,446 (+1,09%);\n\tMáxima do dólar no dia: R$ 5,463, por volta das 16h;\n\tIbovespa: 167.921,80 pontos (-0,75%);\n\tDólar na semana: +9,15%;\n\tIbovespa na semana: -18,12%;\n\tDólar em outubro: +5,27%;\n\tIbovespa em outubro: -9,88%.\n\n\nCâmbio\n\nO dólar comercial fechou a sexta-feira em alta de 1,09%, cotado a R$ 5,446, no maior valor de fechamento de 2026. Durante a sessão, a moeda chegou a R$ 5,463, antes de reduzir parte dos ganhos.\n\nNa semana posterior ao segundo turno das eleições presidenciais, o dólar acumulou alta de 9,15%, movimento que representa a maior valorização semanal desde outubro de 2008, durante a crise financeira internacional.\n\nEm outubro, a moeda estadunidense avançou 5,27%. Com isso, passou a acumular valorização de 0,81% no ano.\n\nParte da volatilidade registrada na primeira metade do pregão esteve relacionada à formação da Ptax de fim de mês, taxa calculada pelo Banco Central e utilizada como referência para a liquidação de contratos futuros de câmbio.\n\nA pressão sobre o real também foi influenciada pela reavaliação das posições dos investidores após o resultado eleitoral. A expectativa pela definição da equipe econômica do próximo governo e pela apresentação de medidas relacionadas às contas públicas manteve o mercado atento aos rumos da política fiscal brasileira.\n\nOutro fator foi a procura por proteção cambial antes do fim de semana prolongado pelo feriado de Finados, na segunda-feira (2). No mercado internacional, a moeda estadunidense voltou a subir, perante moedas de países emergentes, num dia marcado por turbulências ligadas a empresas de tecnologia.\n\nBolsa acumula perdas\n\nO Ibovespa encerrou o pregão desta sexta-feira com queda de 0,75%, aos 167.921,80 pontos. O resultado representou o quinto pregão consecutivo de baixa do principal índice da Bolsa brasileira.\n\nNa semana, o indicador acumulou desvalorização de 18,12%, a maior desde março de 2020, quando havia recuado 18,88% em meio aos impactos iniciais da pandemia de covid-19.\n\nO desempenho mensal também foi negativo. Em outubro, o Ibovespa caiu 9,88%, o pior resultado desde junho de 2022, quando a perda havia sido de 11,5%.\n\nA pressão sobre as ações brasileiras ganhou força após a reeleição de Lula. No primeiro pregão depois do resultado eleitoral, na segunda-feira (26), a queda do índice acionou o circuit breaker, mecanismo que interrompe temporariamente as negociações diante de perdas expressivas.\n\nAo longo da semana, a saída de recursos estrangeiros também contribuiu para a pressão sobre os ativos. Dados da B3 apontaram retirada líquida de quase R$ 7,6 bilhões do mercado secundário de ações nos três primeiros pregões da semana.\n\nCenário externo\n\nAlém das incertezas domésticas, o mercado brasileiro acompanhou um ambiente internacional desfavorável, marcado pela cautela dos investidores em relação às empresas de tecnologia dos Estados Unidos e às perspectivas para a inflação e os juros globais.\n\nEm Nova York, o índice S&P 500 encerrou a sessão com queda de 1,82%, refletindo parte das preocupações relacionadas aos resultados de grandes empresas de tecnologia e aos investimentos em inteligência artificial.\n\nNo mercado de câmbio, o índice do dólar, que mede o desempenho da moeda estadunidense diante de uma cesta de seis divisas fortes, registrava alta de 0,01%, aos 101,890 pontos, às 17h31.\n\n*Com informações da Reuters</p>",
+      "imagem": "https://imagens.ebc.com.br/l40576lYrJCJeVWHQo-DX_bSLF4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/23/2026-07-23t123806z_1_lynxmpem6m19r_rtroptp_4_usa-trump-tariffs-indonesia.jpg?itok=uN0pYfYO",
+      "slug": "dolar-fecha-a-r-5-44-e-registra-maior-alta-semanal-desde-2008",
+      "pagina_local": "dolar-fecha-a-r-5-44-e-registra-maior-alta-semanal-desde-2008.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 23:33"
+    },
+    {
+      "titulo": "Aneel mantém bandeira tarifária verde em novembro",
+      "resumo": "Pelo segundo mês consecutivo, as contas de luz não terão cobrança de tarifa extra, informou nesta sexta-feira (30) a Agência Nacional de Energia Elétrica (Aneel). A manutenção da bandeira verde permanece em novembro devi...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Pelo segundo mês consecutivo, as contas de luz não terão cobrança de tarifa extra, informou nesta sexta-feira (30) a Agência Nacional de Energia Elétrica (Aneel). A manutenção da bandeira verde permanece em novembro devido às condições favoráveis de geração.\n\nA bandeira tarifária verde voltou a vigorar em outubro, após cinco meses de bandeira amarela, que tem custo adicional de R$ 1,885 a cada 100 kWh consumidos para todos os consumidores conectados ao Sistema Interligado Nacional (SIN).\n\nNotícias relacionadas:Aneel prevê três leilões de transmissão de energia em 2027.Com muita disputa, Aneel leiloou oito lotes de transmissão de energia.\"O aumento de chuvas nas regiões onde estão localizadas as principais usinas hidrelétricas traz equilíbrio nos reservatórios. Nesse cenário, não haverá necessidade de maior acionamento de termelétricas, cujo custo é mais elevado\", esclareceu a agência reguladora.\n\nCriado em 2015 pela Aneel, o sistema de bandeiras tarifárias reflete os custos variáveis da geração de energia elétrica. Divididas em cores, as bandeiras indicam quanto está custando para o SIN gerar a energia usada nas residências, em estabelecimentos comerciais e nas indústrias.\n\nAs cores das bandeiras tarifárias são definidas a partir da previsão de variação do custo da energia em cada mês. Quando a conta de luz é calculada pela bandeira verde, não há nenhum acréscimo. Quando são aplicadas as bandeiras vermelha ou amarela, a conta sofre acréscimo a cada 100 quilowatts-hora (kWh) consumido.\n\nOs valores cobrados são os seguintes: \n\n\n\tna bandeira amarela, com condições de geração menos favoráveis, a tarifa sofre acréscimo de R$ 1,88 para cada 100 quilowatt-hora (kWh) consumidos; \n\tna bandeira vermelha, no Patamar 1, com condições mais custosas de geração, a tarifa sofre acréscimo de R$ 4,46 para 100 quilowatt-hora kWh consumido. \n\tna bandeira vermelha, no Patamar 2, as condições de geração são ainda mais custosas, e a tarifa sofre acréscimo de R$ 7,87 para cada 100 quilowatt-hora kWh consumido.</p>",
+      "imagem": "https://imagens.ebc.com.br/YrWqPNvpRMVVcMIeNEX9nbOXJwo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/04/21/_rbr1646.jpg?itok=t2XeGQvn",
+      "slug": "aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+      "pagina_local": "aneel-mantem-bandeira-tarifaria-verde-em-novembro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 23:33"
+    },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
       "resumo": "A Agência Nacional de Energia Elétrica (Aneel) prevê a realização de três leilões de transmissão de energia no próximo ano. A estimativa foi dada nesta sexta-feira (30) por Ivo Sechi Nazareno, secretário de Leilões da An...",
@@ -13,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -26,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -39,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -52,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -65,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Receita paga nesta sexta-feira lote da malha fina do Imposto de Renda",
@@ -78,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
@@ -91,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
@@ -104,33 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:33"
     },
     {
-      "titulo": "FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027",
-      "resumo": "O Conselho Curador do Fundo de Garantia do Tempo de Serviço (FGTS) aprovou nesta quinta-feira o orçamento de R$ 144,5 bilhões para investimentos em habitação em 2027.\n\nO valor é o mesmo previsto para 2026 e inclui recurs...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Conselho Curador do Fundo de Garantia do Tempo de Serviço (FGTS) aprovou nesta quinta-feira o orçamento de R$ 144,5 bilhões para investimentos em habitação em 2027.\n\nO valor é o mesmo previsto para 2026 e inclui recursos destinados ao programa Minha Casa, Minha Vida, subsídios habitacionais e financiamentos com condições especiais.\n\nNotícias relacionadas:Minha Casa, Minha Vida: conselho do FGTS aumenta subsídios para 2026.Consumo nos lares acumula alta de 2,70% até setembro, diz Abras.Do total previsto para habitação, R$ 125,5 bilhões serão destinados às famílias de baixa renda, enquanto R$ 15 bilhões serão destinados à classe média no âmbito do Minha Casa, Minha Vida. Outros R$ 4 bilhões serão destinados à linha pró-cotista, que oferece juros reduzidos no financiamento imobiliário para trabalhadores com conta vinculada ao FGTS.\n\nDistribuição dos recursos\n\nO orçamento habitacional prevê a seguinte divisão:\n\n\n\tR$ 125,5 bilhões: financiamento para famílias de baixa renda;\n\tR$ 15 bilhões: recursos para a classe média no Minha Casa, Minha Vida;\n\tR$ 13 bilhões: subsídios para famílias de baixa renda;\n\tR$ 4 bilhões: linha pró-cotista para financiamento habitacional.\n\n\nComo integram as políticas de financiamento habitacional, os valores destinados aos subsídios e à linha pró-cotista e não devem ser somados automaticamente às duas primeiras categorias, pois podem existir sobreposições na composição dos recursos.\n\nOrçamento total\n\nAlém da habitação, o Conselho Curador aprovou orçamento total de R$ 169 bilhões para 2027, destinado a políticas públicas em diferentes áreas. Segundo o Ministério do Trabalho, a distribuição será a seguinte:\n\n\n\tHabitação: R$ 144,5 bilhões;\n\tSaneamento básico: R$ 8 bilhões;\n\tInfraestrutura urbana: R$ 8 bilhões;\n\tSaúde: R$ 8,5 bilhões.\n\n\nO colegiado também aprovou os orçamentos plurianuais para habitação entre 2028 e 2030. Para esse período, a previsão é manter R$ 125,5 bilhões por ano para famílias de baixa renda. Os recursos para a classe média no Minha Casa, Minha Vida cairão para R$ 10 bilhões anuais a partir de 2028.\n\nO orçamento total do FGTS para as políticas públicas deverá recuar para R$ 163,7 bilhões por ano até 2030.\n\nSaque-aniversário\n\nNa mesma reunião, o conselho prorrogou até 31 de março a regra de transição que permite aos trabalhadores usar até cinco saques-aniversário futuros do FGTS como garantia em operações de crédito.\n\nA mudança está relacionada à resolução publicada em outubro de 2025, que prevê a redução para três saques futuros que podem ser vinculados a empréstimos a partir de 1º de novembro de 2026. A norma também estabelece limites para os valores cedidos:\n\n\n\tValor mínimo: R$ 100 por saque anual;\n\tValor máximo: R$ 500 por saque anual;\n\tLimite futuro: três saques-aniversário anuais, conforme o cronograma da regra.\n\n\nDe acordo com o Ministério do Trabalho, a alteração poderá afetar 12,2 milhões de trabalhadores. Desse total, 92% recebem até quatro salários mínimos.\n\nVolume movimentado\n\nDesde a criação do saque-aniversário, a modalidade movimentou R$ 242,5 bilhões, segundo o ministério. Desse montante, R$ 94,2 bilhões foram recebidos diretamente pelos trabalhadores, enquanto R$ 148,3 bilhões foram destinados às instituições financeiras para quitar empréstimos garantidos pelos recursos do FGTS.\n\nO ministério atribui a redução prevista nos orçamentos dos próximos anos a fatores como autorizações de saques especiais, incluindo valores residuais de contas vinculadas de trabalhadores demitidos que aderiram ao saque-aniversário, e empréstimos destinados à área da saúde.\n\nOs recursos do FGTS destinados aos programas governamentais são separados das contas individuais dos trabalhadores e têm origem, segundo as informações divulgadas, no lucro anual do Fundo.</p>",
-      "imagem": "https://imagens.ebc.com.br/C0ZpBsFTQOtJGt4ULjTkarMOF2U=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/08/08/_mg_8465.jpg?itok=E6tFasZC",
-      "slug": "fgts-mantem-orcamento-de-r-144-5-bilhoes-para-habitacao-em-2027",
-      "pagina_local": "fgts-mantem-orcamento-de-r-144-5-bilhoes-para-habitacao-em-2027.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/fgts-mantem-orcamento-de-r-1445-bilhoes-para-habitacao-em-2027",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
-    },
-    {
-      "titulo": "Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela",
-      "resumo": "Em meio a preocupações com o cenário econômico nacional e internacional, o dólar fechou em alta de cerca de 1% nesta quinta-feira (29), aproximando-se de R$ 5,40. A bolsa caiu pouco mais de 1% e encerrou abaixo dos 170 m...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Em meio a preocupações com o cenário econômico nacional e internacional, o dólar fechou em alta de cerca de 1% nesta quinta-feira (29), aproximando-se de R$ 5,40. A bolsa caiu pouco mais de 1% e encerrou abaixo dos 170 mil pontos, na quarta queda consecutiva.\n\nO mercado financeiro foi influenciado pelo avanço da moeda norte-americana frente a divisas de países emergentes, por dados econômicos dos Estados Unidos e pelas incertezas sobre a política fiscal e a composição da equipe econômica do próximo mandato do presidente Luiz Inácio Lula da Silva.\n\nNotícias relacionadas:Dívida pública fica em 82,9% do PIB, e déficit soma R$ 5,5 bilhões.Principais números\n\n\n\tDólar comercial: R$ 5,387 (+0,76%);\n\tIbovespa: 169.186 pontos (-1,06%);\n\tMáxima do dólar: R$ 5,43, por volta das 15h30;\n\tMínima do Ibovespa: 168.765 pontos, às 15h26.\n\tDólar no ano: queda acumulada de 1,85%\n\n\nCâmbio\n\nO dólar à vista encerrou o pregão com valorização de 0,76%, cotado a R$ 5,387. Por volta das 15h30, a moeda chegou a R$ 5,43, alta de 1,56% em relação ao fechamento anterior.\n\nNo cenário internacional, a divulgação de indicadores econômicos dos Estados Unidos contribuiu para o movimento cambial. O Produto Interno Bruto (PIB, soma dos bens e serviços produzidos) estadunidense cresceu 3,4% no terceiro trimestre, acima da projeção de 3,2% de economistas consultados pela Reuters. Os gastos dos consumidores avançaram 0,5% em setembro.\n\nO núcleo do índice de preços de despesas de consumo pessoal (PCE), indicador de inflação acompanhado pelo Federal Reserve (Fed), Banco Central dos Estados Unidos, subiu 0,3% no mês, em linha com as expectativas. O índice cheio avançou 0,5%.\n\nApós a divulgação dos dados, o dólar ganhou força em relação a moedas de países emergentes, incluindo o peso mexicano, o peso chileno, o rand sul-africano e o real.\n\nNo Brasil, as atenções também se voltaram às expectativas para o próximo mandato presidencial, como a formação da equipe econômica e futuras medidas na área.\n\nA preocupação fiscal também ganhou relevância após dados do Banco Central indicarem que a dívida bruta do setor público chegou a 82,9% do PIB em setembro. A dívida líquida atingiu 70% do PIB, contra 69,3% no mês anterior.\n\nNo exterior, às 17h07, o índice do dólar, que mede o desempenho da moeda norte-americana frente a uma cesta de seis divisas, recuava 0,16%, aos 101,960 pontos.\n\nBolsa acumula perdas\n\nO Ibovespa caiu 1,06%, aos 169.186,42 pontos, e completou a quarta sessão consecutiva de perdas. Durante o pregão, o principal índice da B3 oscilou entre 168.765,35 e 171.402,97 pontos.\n\nOs investidores também acompanharam os dados de inflação dos Estados Unidos e as perspectivas para os juros norte-americanos. Em Nova York, o S&P 500 fechou em baixa de 0,3%, em uma sessão negativa para o setor de tecnologia, após os resultados da Alphabet ampliarem as preocupações com os custos crescentes de investimentos em inteligência artificial.\n\nNo Brasil, o mercado também repercutiu os dados fiscais divulgados pelo Banco Central.\n\n* Com informações da Reuters</p>",
-      "imagem": "https://imagens.ebc.com.br/6cBKvd2Gn_bpUzjMP8ZFsNjqBWI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221211.jpg?itok=39fSIBWo",
-      "slug": "dolar-sobe-0-76-e-fecha-a-r-5-39-em-dia-de-cautela",
-      "pagina_local": "dolar-sobe-0-76-e-fecha-a-r-5-39-em-dia-de-cautela.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
+      "resumo": "Quem pretende fazer concurso público em 2027 pode se preparar. Segundo o Ministério da Gestão e da Inovação em Serviços Públicos (MGI), existe a expectativa de um novo Concurso Público Nacional Unificado (CPNU) no próxim...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Quem pretende fazer concurso público em 2027 pode se preparar. Segundo o Ministério da Gestão e da Inovação em Serviços Públicos (MGI), existe a expectativa de um novo Concurso Público Nacional Unificado (CPNU) no próximo ano com até 3 mil vagas. \n\nA realização do certame, porém, depende da aprovação, pelo Congresso Nacional, do Projeto de Lei Orçamentária Anual (PLOA) que permita espaço fiscal para preenchimento de novas vagas no serviço público.\n\nNotícias relacionadas:CNU 2025: sai nova lista de classificados para vagas remanescentes.Na nota enviada à Agencia Brasil, o MGI diz que considera o CNPU “uma política pública de renovação, modernização e democratização do acesso ao serviço público federal” e que a ideia é que ele se consolide como um processo permanente de seleção de servidores, com edições realizadas em ciclos regulares, idealmente a cada dois anos.\n\nO CNPU foi criado em 2023 pelo governo federal e ficou conhecido como “Enem dos Concursos”. O objetivo foi centralizar os processos seletivos para contratação de servidores públicos em diversos órgãos do Poder Executivo federal e aumentar os locais de prova pelo país.</p>",
+      "imagem": "https://imagens.ebc.com.br/bwffyjPtQuIon3XbqQ6kJel623o=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/05/0d7a9087.jpg?itok=2T1n0CbF",
+      "slug": "terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
+      "pagina_local": "terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     },
     {
       "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
-    },
-    {
-      "titulo": "PF impede desvio de até R$ 10 bi no seguro defeso no Maranhão",
-      "resumo": "A Polícia Federal (PF) deflagrou, nesta quarta-feira (28), a Operação Indefeso, para desarticular organização criminosa suspeita de fraudar a concessão do benefício do Seguro Defeso, que assegura renda aos pescadores art...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Federal (PF) deflagrou, nesta quarta-feira (28), a Operação Indefeso, para desarticular organização criminosa suspeita de fraudar a concessão do benefício do Seguro Defeso, que assegura renda aos pescadores artesanais durante o período em que a atividade pesqueira é legalmente interrompida. Segundo os indícios de prova já reunidos e análises realizadas, a atuação da organização criminosa poderia causar um prejuízo de, aproximadamente, R$ 10 bilhões aos cofres públicos em cinco anos.\n\nA operação mobilizou, aproximadamente, 160 policiais federais e contou com o apoio técnico da Controladoria-Geral da União (CGU), sendo cumpridos 35 mandados de busca e apreensão em 16 municípios maranhenses, além do afastamento de dois agentes públicos supostamente envolvidos no esquema investigado.\n\nNotícias relacionadas:Pescadores artesanais começam a receber seguro-defeso retroativo.Ministério da Pesca cancela mais de 76 mil licenças de pescadores.Por determinação judicial, também foram impostas 17 medidas cautelares diversas da prisão, a fim de interromper a atuação do grupo criminoso, de preservar a instrução processual e de evitar a continuidade das práticas ilícitas.\n\nAlém disso, a PF informou que foi decretado o bloqueio de cerca de R$ 400 milhões em bens e valores pertencentes aos investigados, visando garantir o ressarcimento dos danos causados ao erário e impedir a ocultação ou a dissipação de patrimônio supostamente proveniente das atividades criminosas.\n\n\n“As investigações apontam a existência de esquema de fraudes envolvendo a concessão indevida do Seguro Defeso, mediante a inserção de informações falsas em sistemas governamentais, a utilização de documentos fraudulentos e a possível participação de agentes públicos e particulares”, diz a PF.\n\n\nDurante o cumprimento das buscas, foram apreendidos veículos, armas, documentos e telefones celulares.\n\nOs investigados poderão responder pelos crimes de organização criminosa, estelionato previdenciário, inserção de dados falsos em sistema informatizado da administração pública, corrupção ativa e passiva e lavagem de dinheiro.\n\nSegundo a corporação, as investigações vão prosseguir com a análise do material apreendido e com o aprofundamento das diligências, visando identificar outros envolvidos, delimitar a extensão da atuação criminosa e quantificar com precisão os prejuízos causados ao erário.</p>",
-      "imagem": "https://imagens.ebc.com.br/a1h6Z0wMEDj0FSBZ-UYNQH6W6Hs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/_d6a7045.jpg?itok=9oHN92Hd",
-      "slug": "pf-impede-desvio-de-ate-r-10-bi-no-seguro-defeso-no-maranhao",
-      "pagina_local": "pf-impede-desvio-de-ate-r-10-bi-no-seguro-defeso-no-maranhao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/pf-impede-desvio-de-ate-r-10-bi-no-seguro-defeso-no-maranhao",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 19:11"
+      "coletado_em": "30/10/2026 às 23:34"
     }
   ]
 };
