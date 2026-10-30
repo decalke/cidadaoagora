@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "30/10/2026 às 00:43:44",
+  "ultima_atualizacao": "30/10/2026 às 06:56:14",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "MPT vai à Justiça para que Meta apague postagens de assédio eleitoral",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Câmara Municipal de SP discute impeachment do prefeito Ricardo Nunes",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Coordenador de campanha do PL admite não ter prova de fraude eleitoral",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Governo reforçará investigações de violência política no segundo turno",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil",
@@ -140,7 +140,21 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
+    },
+    {
+      "titulo": "Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, decidiu nesta quinta-feira (29) devolver a relatoria das investigações sobre os descontos ilegais nos benefícios do INSS ao ministro André Mendonça.\n\nNa decisão, Fachin ...",
+      "conteudo_completo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, decidiu nesta quinta-feira (29) devolver a relatoria das investigações sobre os descontos ilegais nos benefícios do INSS ao ministro André Mendonça.\n\nNa decisão, Fachin entendeu que não há mais motivos para retenção das investigações na presidência do Supremo.\n\nNotícias relacionadas:Vorcaro diz que não fez nada errado e pede voto de confiança.PF indicia Vorcaro e mais 14 investigados no caso Master.INSS alerta para golpes que usam informação falsa sobre biometria.Em setembro, o caso foi retirado de Mendonça após a guerra de liminares envolvendo o pedido de investigação contra o ministro Alexandre de Moraes, que é citado em mensagens obtidas pela Polícia Federal (PF) no celular do ex-banqueiro Daniel Vorcaro.\n\nCaso Master\n\nFachin também decidiu que as investigações que envolvem o Banco Master vão continuam sob sua relatoria temporária pelo prazo de 90 dias, contatos a partir de 12 de setembro.\n\nNo entendimento do presidente, o caso ainda não pode ser distribuído entre os demais ministros porque envolve citações a membros da Corte.\n\nOs processos do Master também foram retirados de Mendonça no auge da crise interna no Supremo.\n\nA decisão de Fachin será submetida a referendo do plenário. A data do julgamento ainda não foi definida.\n\nEnquanto o caso Master permanecer na presidência da Corte, Fachin será responsável por medidas urgentes que eventualmente foram solicitadas pela Polícia Federal (PF) ou a Procuradoria-Geral da República (PGR), como pedidos de revogação de prisões e autorizações de diligências.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, decidiu nesta quinta-feira (29) devolver a relatoria das investigações sobre os descontos ilegais nos benefícios do INSS ao ministro André Mendonça.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707272&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707272&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na decisão, Fachin entendeu que não há mais motivos para retenção das investigações na presidência do Supremo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em setembro, o caso foi retirado de Mendonça após a guerra de liminares envolvendo o pedido de investigação contra o ministro Alexandre de Moraes, que é citado em mensagens obtidas pela Polícia Federal (PF) no celular do ex-banqueiro Daniel Vorcaro.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Caso Master</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Fachin também decidiu que as investigações que envolvem o Banco Master vão continuam sob sua relatoria temporária</strong> pelo prazo de 90 dias, contatos a partir de 12 de setembro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No entendimento do presidente, o caso ainda não pode ser distribuído entre os demais ministros porque envolve citações a membros da Corte.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os processos do Master também foram retirados de Mendonça no auge da crise interna no Supremo.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>A decisão de Fachin será submetida a referendo do plenário.</strong> A data do julgamento ainda não foi definida.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Enquanto o caso Master permanecer na presidência da Corte, Fachin será responsável por medidas urgentes que eventualmente foram solicitadas pela Polícia Federal (PF) ou a Procuradoria-Geral da República (PGR), como pedidos de revogação de prisões e autorizações de diligências.</p>",
+      "imagem": "https://imagens.ebc.com.br/YR93avVmMxcrHslwkCO49_BhVhk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/02/02/abertura-stf-mc_abr_30012026-9.jpg?itok=qTwq3VDS",
+      "slug": "fachin-devolve-relatoria-do-caso-do-inss-a-mendonca-e-mantem-master",
+      "pagina_local": "fachin-devolve-relatoria-do-caso-do-inss-a-mendonca-e-mantem-master.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-devolve-relatoria-do-caso-do-inss-mendonca-e-mantem-master",
+      "categoria": "Justiça & TSE",
+      "orgao": "Justiça & Eleitoral",
+      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Defesa diz que 657 arquivos do celular de Vorcaro foram modificados",
@@ -154,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Vorcaro diz que não fez nada errado e pede voto de confiança",
@@ -168,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Operação Contenção: DPRJ pede R$ 50 milhões em reparação a moradores",
@@ -182,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Fachin arquiva mais cinco investigações do Inquérito das Fake News",
@@ -196,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Condenado por lesão corporal contra mulher fica inelegível, decide TSE",
@@ -210,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "PF cumpre no Rio novos mandados da Operação Unha e Carne",
@@ -224,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Presidente do TSE diz que eleições ocorreram dentro da normalidade",
@@ -238,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Justiça bloqueia R$ 327 mi do CV por venda ilegal de gás de cozinha",
@@ -252,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "PF indicia Vorcaro e mais 14 investigados no caso Master",
@@ -266,21 +280,21 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
-      "titulo": "Kassio pede à PGR parecer sobre revisão da pena de Bolsonaro",
-      "resumo": "O ministro Kassio Nunes Marques, do Supremo Tribunal Federal (STF), concedeu nesta quarta-feira (28) prazo de dez dias para Procuradoria-Geral da República (PGR) se manifestar sobre o pedido de revisão criminal protocolado pela defesa do ex...",
-      "conteudo_completo": "O ministro Kassio Nunes Marques, do Supremo Tribunal Federal (STF), concedeu nesta quarta-feira (28) prazo de dez dias para Procuradoria-Geral da República (PGR) se manifestar sobre o pedido de revisão criminal protocolado pela defesa do ex-presidente Jair Bolsonaro.\n\nNa petição, protocolada no mês passado no Supremo, a defesa de Bolsonaro pretende derrubar a decisão da Primeira Turma que condenou o ex-presidente a 27 anos e três meses de prisão no processo que julgou a tentativa de golpe de estado no Brasil.\n\nNotícias relacionadas:Democratas condenam decisão de Trump de conceder visto a Flávio.Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil.Polícia faz ação contra de exploração sexual de adolescentes no Rio.Após receber a manifestação da PGR, Kassio deve liberar o caso para julgamento no plenário da Corte.\n\nKassio se tornou relator da revisão criminal por integrar a Segunda Turma da Corte, colegiado que não realizou o julgamento do ex-presidente. \n\nA defesa de Bolsonaro alega diversas nulidades processuais durante a tramitação do processo da trama golpista, como cerceamento de defesa pela falta de acesso integral do material da investigação, falta de parecer da PGR em alguns procedimentos, entre outros argumentos.\n\nNão há data prevista para o julgamento do caso.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ministro Kassio Nunes Marques, do Supremo Tribunal Federal (STF), concedeu nesta quarta-feira (28) prazo de dez dias para Procuradoria-Geral da República (PGR) se manifestar sobre o pedido de revisão criminal protocolado pela defesa do ex-presidente Jair Bolsonaro.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707085&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707085&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Na petição, protocolada no mês passado no Supremo, a defesa de Bolsonaro pretende derrubar a decisão da Primeira Turma que condenou o ex-presidente a <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/stf-condena-bolsonaro-27-anos-e-tres-meses-de-prisao\" target=\"_blank\">27 anos e três meses</a> de prisão no processo que julgou a tentativa de golpe de estado no Brasil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após receber a manifestação da PGR, Kassio deve liberar o caso para julgamento no plenário da Corte.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Kassio se tornou relator da revisão criminal por integrar a Segunda Turma da Corte, colegiado que não realizou o julgamento do ex-presidente. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A defesa de Bolsonaro alega diversas nulidades processuais durante a tramitação do processo da trama golpista, como cerceamento de defesa pela falta de acesso integral do material da investigação, falta de parecer da PGR em alguns procedimentos, entre outros argumentos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Não há data prevista para o julgamento do caso.</p>",
-      "imagem": "https://imagens.ebc.com.br/mL7hg6O6EzcCiE3b3ajAgCpWohY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/05/12/0d7a3465.jpg.jpeg?itok=5Sf3Z2rh",
-      "slug": "kassio-pede-a-pgr-parecer-sobre-revisao-da-pena-de-bolsonaro",
-      "pagina_local": "kassio-pede-a-pgr-parecer-sobre-revisao-da-pena-de-bolsonaro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/kassio-pede-pgr-parecer-sobre-revisao-da-pena-de-bolsonaro",
-      "categoria": "Justiça & TSE",
-      "orgao": "Justiça & Eleitoral",
-      "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
+      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.078 da Mega-Sena, sorteado nesta quinta-feira (29). O prêmio acumulou novamente e está estimado em R$ 6 milhões para a nova rodada.\n\nOs números sorteados são: 05 - 07 - 12 - 29 - 34 - 3...",
+      "conteudo_completo": "Nenhum apostador acertou as seis dezenas do Concurso 3.078 da Mega-Sena, sorteado nesta quinta-feira (29). O prêmio acumulou novamente e está estimado em R$ 6 milhões para a nova rodada.\n\nOs números sorteados são: 05 - 07 - 12 - 29 - 34 - 36\n\nA quina teve 31 apostas ganhadoras. Cada uma receberá R$ 20.770,47. A quadra saiu para 2.333 apostas, no valor de R$ 394,27 cada.\n\nApostas\n\nO próximo concurso será nesta sexta-feira (30).\n\nDurante esta semana, correram sorteios da Mega-Sena.  A ação especial teve sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Nenhum apostador acertou as seis dezenas do Concurso 3.078 da Mega-Sena, sorteado nesta quinta-feira (29). O prêmio acumulou novamente e está estimado em R$ 6 milhões para a nova rodada.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707273&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707273&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os números sorteados são: 05 - 07 - 12 - 29 - 34 - 36</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A quina teve 31 apostas ganhadoras. Cada uma receberá R$ 20.770,47. A quadra saiu para 2.333 apostas, no valor de R$ 394,27 cada.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Apostas</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O próximo concurso será nesta sexta-feira (30).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Durante esta semana, correram sorteios da Mega-Sena.  A ação especial teve sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Após a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/P7lxcGm8k6UohJ5Os3uzi8kr8QQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena_mcajr_abr_2904223680.jpg?itok=vZ2eHAv_",
+      "slug": "mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "pagina_local": "mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "categoria": "Novos Tributos & Economia",
+      "orgao": "Receita & Ministério da Fazenda",
+      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
@@ -294,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027",
@@ -308,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela",
@@ -322,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "CMN amplia em R$ 2 bi limite de crédito a estados e municípios",
@@ -336,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Temporada de cruzeiros começa na sexta com projeção de mais empregos",
@@ -350,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
@@ -364,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dívida pública fica em 82,9% do PIB, e déficit soma R$ 5,5 bilhões",
@@ -378,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Instituto prevê impacto fiscal de R$ 40 bilhões com medidas de Lula",
@@ -392,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Consumo nos lares acumula alta de 2,70% até setembro, diz Abras",
@@ -406,21 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
-    },
-    {
-      "titulo": "Governo alerta que cadastramento para o Pix MEI ainda não começou",
-      "resumo": "Os microempreendedores individuais (MEI) devem estar atentos às tentativas de golpes financeiros usando o Pix MEI como isca. Segundo o ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pereira, a iniciativa,...",
-      "conteudo_completo": "Os microempreendedores individuais (MEI) devem estar atentos às tentativas de golpes financeiros usando o Pix MEI como isca. Segundo o ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pereira, a iniciativa, que prevê o repasse direto de até R$ 5 mil para cada beneficiário contemplado, ainda está sendo estruturada e qualquer promessa de liberação imediata de dinheiro é uma fraude.\n\n“O programa só vai começar a ser implementado no ano que vem. Não vai ter Pix MEI este ano. Então, se você receber qualquer mensagem do tipo “cadastre-se aqui”, não caia nesta! É golpe”, alertou Paulo Pereira ao participar do programa Bom Dia, Ministro, uma coprodução entre a Secretaria de Comunicação Social (Secom) da Presidência da República e o Canal Gov, transmitida pelos veículos da Empresa Brasil de Comunicação (EBC).\n\nNotícias relacionadas:Perdão das dívidas de MEIs é medida fiscal “necessária”, diz ministro.Brasil chega a 35% dos empreendedores com CNPJ.O ministro também advertiu que há uma série de boatos e questionamentos infundados circulando nas redes sociais, como o que sustenta que o pagamento do benefício, quando começar, será dividido em parcelas mensais de R$ 400. \n\nO ministro acredita que essa \"informação equivocada\" deve ter surgido de cálculos feitos a partir de dados incompletos ou falsos, como dividir a previsão inicial de dotação orçamentária anual do programa pelo número de meses do ano (12).\n\n\n“Não é esse o desenho da política pública. O programa vai subsidiar até R$ 5 mil em projetos específicos de investimento, priorizando setores como mulheres empreendedoras e MEI de menor faturamento\", explicou Paulo Pereira.\n\n\n“Não é esse o programa. Os critérios ainda estão sendo definidos e o detalhamento das regras devem sair até o fim deste ano, mas não precisamos implementar tudo de uma vez. Vamos testar o programa, privilegiar setores, criar linhas específicas, priorizando a parcela dos MEIs que faturam menos”, esclareceu o ministro.\n\nEle alertou que também há muita gente afirmando, nas redes sociais, que o governo não poderá executar o Pix MEI por ele não estar previsto na Lei Complementar nº 238, que o presidente Luiz Inácio Lula da Silva sancionou no dia 21 agora, instituindo o programa Prospera Mei. \n\n“O Pix MEI não precisa estar na lei. Ele só precisa estar encartado no orçamento de 2027”, disse o ministro.\n\nPaulo Pereira advertiu as pessoas a não clicarem em links não oficiais, nem fornecer dados pessoais ou bancários em qualquer outro ambiente digital além da página do Prospera MEI.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os microempreendedores individuais (MEI) devem estar atentos às tentativas de golpes financeiros usando o Pix MEI como isca. Segundo o ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pereira, a iniciativa, que prevê o repasse direto de até R$ 5 mil para cada beneficiário contemplado, ainda está sendo estruturada e qualquer promessa de liberação imediata de dinheiro é uma fraude.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707204&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707204&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“<strong>O programa só vai começar a ser implementado no ano que vem</strong>. Não vai ter Pix MEI este ano. Então, se você receber qualquer mensagem do tipo “cadastre-se aqui”, não caia nesta! É golpe”, alertou Paulo Pereira ao participar do <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro\" target=\"_blank\">programa Bom Dia, Ministro</a>, uma coprodução entre a Secretaria de Comunicação Social (Secom) da Presidência da República e o <strong>Canal Gov</strong>, transmitida pelos veículos da <strong>Empresa Brasil de Comunicação (EBC)</strong>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro também advertiu que há uma série de boatos e questionamentos infundados circulando nas redes sociais, como o que sustenta que o pagamento do benefício, quando começar, será dividido em parcelas mensais de R$ 400. </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O ministro acredita que essa \"informação equivocada\" deve ter surgido de cálculos feitos a partir de dados incompletos ou falsos, como dividir a previsão inicial de dotação orçamentária anual do programa pelo número de meses do ano (12).</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Não é esse o desenho da política pública. O programa vai subsidiar até R$ 5 mil em projetos específicos de investimento, priorizando setores como mulheres empreendedoras e MEI de menor faturamento\", explicou Paulo Pereira.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não é esse o desenho da política pública. O programa vai subsidiar até R$ 5 mil em projetos específicos de investimento, priorizando setores como mulheres empreendedoras e MEI de menor faturamento\", explicou Paulo Pereira.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não é esse o programa. Os critérios ainda estão sendo definidos e o detalhamento das regras devem sair até o fim deste ano, mas não precisamos implementar tudo de uma vez. Vamos testar o programa, privilegiar setores, criar linhas específicas, priorizando a parcela dos MEIs que faturam menos”, esclareceu o ministro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele alertou que também há muita gente afirmando, nas redes sociais, que o governo não poderá executar o Pix MEI por ele não estar previsto na <a href=\"https://www.in.gov.br/web/dou/-/lei-complementar-n-238-de-21-de-outubro-de-2026-739686316\" target=\"_blank\">Lei Complementar nº 238</a>, que o presidente Luiz Inácio Lula da Silva <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/sancionada-lei-que-perdoa-divida-e-aumenta-limite-de-mei\" target=\"_blank\">sancionou no dia 21 agora</a>, instituindo o programa Prospera Mei. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>“O Pix MEI não precisa estar na lei. Ele só precisa estar encartado no orçamento de 2027”, disse o ministro.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Paulo Pereira advertiu as pessoas a não clicarem em links não oficiais, nem fornecer dados pessoais ou bancários em qualquer outro ambiente digital além da <a href=\"http://www.gov.br/memp\" target=\"_blank\">página do Prospera MEI</a>.</p>",
-      "imagem": "https://imagens.ebc.com.br/DFlOWVWdCFfGQ3uL5N4zz_OQaEA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/29/pzzb8996.jpg?itok=649ce0Xe",
-      "slug": "governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
-      "pagina_local": "governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
-      "categoria": "Novos Tributos & Economia",
-      "orgao": "Receita & Ministério da Fazenda",
-      "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     }
   ]
 };

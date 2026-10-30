@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "30/10/2026 às 00:43:47",
+  "ultima_atualizacao": "30/10/2026 às 06:56:19",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
+      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.078 da Mega-Sena, sorteado nesta quinta-feira (29). O prêmio acumulou novamente e está estimado em R$ 6 milhões para a nova rodada.\n\nOs números sorteados são: 05 - 0...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Nenhum apostador acertou as seis dezenas do Concurso 3.078 da Mega-Sena, sorteado nesta quinta-feira (29). O prêmio acumulou novamente e está estimado em R$ 6 milhões para a nova rodada.\n\nOs números sorteados são: 05 - 07 - 12 - 29 - 34 - 36\n\nA quina teve 31 apostas ganhadoras. Cada uma receberá R$ 20.770,47. A quadra saiu para 2.333 apostas, no valor de R$ 394,27 cada.\n\nApostas\n\nO próximo concurso será nesta sexta-feira (30).\n\nDurante esta semana, correram sorteios da Mega-Sena.  A ação especial teve sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
+      "imagem": "https://imagens.ebc.com.br/P7lxcGm8k6UohJ5Os3uzi8kr8QQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/mega_sena_mcajr_abr_2904223680.jpg?itok=vZ2eHAv_",
+      "slug": "mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "pagina_local": "mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 06:56"
+    },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
       "resumo": "A Petrobras anunciou nesta quinta-feira (29) a terceira descoberta de petróleo no poço Morpho, no bloco FZA-M-59, localizado em águas ultraprofundas na costa do estado do Amapá, na Foz do Amazonas, em lâmina d’água de 2....",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "CMN amplia em R$ 2 bi limite de crédito a estados e municípios",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Temporada de cruzeiros começa na sexta com projeção de mais empregos",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Dívida pública fica em 82,9% do PIB, e déficit soma R$ 5,5 bilhões",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Instituto prevê impacto fiscal de R$ 40 bilhões com medidas de Lula",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Consumo nos lares acumula alta de 2,70% até setembro, diz Abras",
@@ -117,20 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
-    },
-    {
-      "titulo": "Governo alerta que cadastramento para o Pix MEI ainda não começou",
-      "resumo": "Os microempreendedores individuais (MEI) devem estar atentos às tentativas de golpes financeiros usando o Pix MEI como isca. Segundo o ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pe...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os microempreendedores individuais (MEI) devem estar atentos às tentativas de golpes financeiros usando o Pix MEI como isca. Segundo o ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pereira, a iniciativa, que prevê o repasse direto de até R$ 5 mil para cada beneficiário contemplado, ainda está sendo estruturada e qualquer promessa de liberação imediata de dinheiro é uma fraude.\n\n“O programa só vai começar a ser implementado no ano que vem. Não vai ter Pix MEI este ano. Então, se você receber qualquer mensagem do tipo “cadastre-se aqui”, não caia nesta! É golpe”, alertou Paulo Pereira ao participar do programa Bom Dia, Ministro, uma coprodução entre a Secretaria de Comunicação Social (Secom) da Presidência da República e o Canal Gov, transmitida pelos veículos da Empresa Brasil de Comunicação (EBC).\n\nNotícias relacionadas:Perdão das dívidas de MEIs é medida fiscal “necessária”, diz ministro.Brasil chega a 35% dos empreendedores com CNPJ.O ministro também advertiu que há uma série de boatos e questionamentos infundados circulando nas redes sociais, como o que sustenta que o pagamento do benefício, quando começar, será dividido em parcelas mensais de R$ 400. \n\nO ministro acredita que essa \"informação equivocada\" deve ter surgido de cálculos feitos a partir de dados incompletos ou falsos, como dividir a previsão inicial de dotação orçamentária anual do programa pelo número de meses do ano (12).\n\n\n“Não é esse o desenho da política pública. O programa vai subsidiar até R$ 5 mil em projetos específicos de investimento, priorizando setores como mulheres empreendedoras e MEI de menor faturamento\", explicou Paulo Pereira.\n\n\n“Não é esse o programa. Os critérios ainda estão sendo definidos e o detalhamento das regras devem sair até o fim deste ano, mas não precisamos implementar tudo de uma vez. Vamos testar o programa, privilegiar setores, criar linhas específicas, priorizando a parcela dos MEIs que faturam menos”, esclareceu o ministro.\n\nEle alertou que também há muita gente afirmando, nas redes sociais, que o governo não poderá executar o Pix MEI por ele não estar previsto na Lei Complementar nº 238, que o presidente Luiz Inácio Lula da Silva sancionou no dia 21 agora, instituindo o programa Prospera Mei. \n\n“O Pix MEI não precisa estar na lei. Ele só precisa estar encartado no orçamento de 2027”, disse o ministro.\n\nPaulo Pereira advertiu as pessoas a não clicarem em links não oficiais, nem fornecer dados pessoais ou bancários em qualquer outro ambiente digital além da página do Prospera MEI.</p>",
-      "imagem": "https://imagens.ebc.com.br/DFlOWVWdCFfGQ3uL5N4zz_OQaEA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/29/pzzb8996.jpg?itok=649ce0Xe",
-      "slug": "governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
-      "pagina_local": "governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-alerta-que-cadastramento-para-o-pix-mei-ainda-nao-comecou",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "PF impede desvio de até R$ 10 bi no seguro defeso no Maranhão",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     },
     {
       "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 00:43"
+      "coletado_em": "30/10/2026 às 06:56"
     }
   ]
 };
