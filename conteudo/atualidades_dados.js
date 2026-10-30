@@ -1,19 +1,58 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "30/10/2026 às 13:58:37",
+  "ultima_atualizacao": "30/10/2026 às 19:11:28",
   "total": 20,
   "atualidades": [
     {
-      "titulo": "Desemprego de 5,2% no 3° trimestre é o menor para o período desde 2012",
-      "resumo": "A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs da...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs dados são da Pesquisa Nacional por Amostra de Domicílios (Pnad) Contínua, divulgada nesta sexta-feira (30), pelo Instituto Brasileiro de Geografia e Estatística (IBGE). \n\nNotícias relacionadas:Taxa de desemprego cai para 5,3%, a menor para o trimestre até agosto.A população desocupada (5,6 milhões) diminuiu 4% (menos 234 mil pessoas) na comparação com o trimestre de abril a junho (5,9 milhões). Em comparação com igual trimestre do ano anterior (6 milhões), houve queda de 6,9% (menos 417 mil pessoas).\n\nPopulação ocupada\n\nA população ocupada, que totaliza 103,6 milhões de pessoa, foi a maior da série histórica, com alta de 0,6% no trimestre (mais 581 mil) e aumento de 1,2% no ano (mais 1,2 milhão).\n\nO nível da ocupação  – percentual de pessoas ocupadas na população em idade de trabalhar – também foi recorde, ao alcançar 59%. Além disso, houve variação de 0,2 pontos percentuais frente ao trimestre anterior (58,8%) e estabilidade em relação a igual trimestre do ano anterior (58,7%).\n\nInformalidade\n\nSegundo a pesquisa, a taxa de informalidade foi de 37,5% da população ocupada (ou 38,8 milhões de trabalhadores informais), contra 37,4% (ou 38,6 milhões) no trimestre e 37,8% (ou 38,7 milhões) no ano.\n\nRendimento\n\nO IBGE informou que o rendimento real habitual de todos os trabalhos (R$ 3.790) ficou estável no trimestre e cresceu 3,6% no ano (mais R$ 131). A massa de rendimento real habitual (R$ 387,5 bilhões) foi a maior da série, com alta de 1,5% no trimestre (mais R$ 5,6 bilhões) e 4,7% no ano (mais R$ 17,5 bilhões).</p>",
-      "imagem": "https://imagens.ebc.com.br/_xUgzK879LQoQgjcea_VicynYDY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/coronavirus_industria_automobilistica_fabrica2005200371.jpg?itok=as8xvE-n",
-      "slug": "desemprego-de-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012",
-      "pagina_local": "desemprego-de-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-de-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
+      "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
+      "resumo": "A Agência Nacional de Energia Elétrica (Aneel) prevê a realização de três leilões de transmissão de energia no próximo ano. A estimativa foi dada nesta sexta-feira (30) por Ivo Sechi Nazareno, secretário de Leilões da An...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Agência Nacional de Energia Elétrica (Aneel) prevê a realização de três leilões de transmissão de energia no próximo ano. A estimativa foi dada nesta sexta-feira (30) por Ivo Sechi Nazareno, secretário de Leilões da Aneel.\n\nEm entrevista à imprensa logo após participar do último leilão de transmissão de energia de 2026, realizado na manhã desta sexta-feira na B3, Nazareno destacou que os próximos certames poderão superar os R$ 50 bilhões em investimentos.\n\nNotícias relacionadas:Com muita disputa, Aneel leiloou oito lotes de transmissão de energia.Aneel adia discussão sobre fim de contrato com a Enel em São Paulo.O primeiro, segundo o diretor da Aneel, deve ser realizado em abril. E no segundo semestre deverão ocorrer os outros dois, um em outubro, envolvendo o novo sistema de transmissão em corrente contínua, com tecnologia VSC (Voltage Source Converter), e outro em dezembro.\n\n“Para o segundo semestre [de 2027], há uma expectativa de duas licitações de transmissão, uma envolvendo o sistema de corrente contínua e tecnologia inédita, VSC. Em detrimento das tecnologias das contratações anteriores que são diferentes, ela é mais complexa, elaborada e mais moderna.\n\nProvavelmente esses contratos que se originarem desse leilão serão os maiores que o Brasil já contratou em transmissão”, explicou Ivo Sechi.\n\nO diretor da Aneel adiantou que os dois leilões do segundo semestre “serão instruídos em conjunto”.\n\n“Vão ser dois leilões instruídos de forma conjunta com provável segregação de atividades, um em outubro, provavelmente o de corrente contínua, e outro em dezembro, que será o de corrente alternada”, disse.</p>",
+      "imagem": "https://imagens.ebc.com.br/DkfEfIvHEUBCJLIqybadTUDHoXg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/1102699-belom9_1.jpg?itok=co-W7nbh",
+      "slug": "aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027",
+      "pagina_local": "aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027",
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
+    },
+    {
+      "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
+      "resumo": "A Agência Nacional de Energia Elétrica (Aneel) leiloou nesta sexta-feira (30), na sede da B3, na capital paulista, oito projetos de transmissão de energia. Foi o último leilão do ano.\n\nO certame prevê investimentos de R$...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Agência Nacional de Energia Elétrica (Aneel) leiloou nesta sexta-feira (30), na sede da B3, na capital paulista, oito projetos de transmissão de energia. Foi o último leilão do ano.\n\nO certame prevê investimentos de R$ 8,9 bilhões e previsão de mais de 20,3 mil empregos diretos e indiretos.\n\nNotícias relacionadas:Aneel leiloa mais quatro lotes de transmissão de energia.Procon paulistano multa Enel por falhas no fornecimento de energia.Consumidores poderão escolher fornecedores de energia a partir de 2027.Foram negociados 1.866 quilômetros de novas linhas de transmissão e seccionamentos, com a continuidade de 483 km de linhas existentes, e 12.694 megavolt-amperes (MVA) em capacidade de transformação. \n\nOs empreendimentos serão instalados na Bahia, Goiás, Mato Grosso do Sul, Paraíba, Paraná, Rondônia e São Paulo.\n\nOs prazos para conclusão dos projetos variam entre 42 meses e 60 meses, contados a partir da assinatura dos contratos de concessão. As concessões têm duração de 30 anos.\n\nInvestimentos\n\nO certame desta sexta-feira foi bastante concorrido, com deságios que chegaram a alcançar 57,08%. Um dos lotes, o de número 1, foi extremamente disputado, com 150 lances em viva-voz.\n\nA Celeo venceu dois dos oito lotes, os de número 4 e 8. O mesmo ocorreu com Cymi, que venceu os lotes 3 e 5, e a Neonergia, com os lotes 1 e 7. A Cox venceu o lote 6 e a EDP, o lote 2.\n\nO primeiro lote a ser leiloado foi o de número 4, o maior empreendimento do certame e que corresponde a instalações no Paraná, Mato Grosso do Sul e Goiás. Ele foi dividido em sublotes e a empresa vencedora foi a Celeo Redes Brasil, que ofertou R$ 377.094.858 de Receita Anual Permitida (RAP), com deságio de 50,55% em relação ao teto definido pelo regulador. \n\nA receita anual permitida é uma remuneração que as transmissoras de energia elétrica recebem pela prestação do serviço público de transmissão aos usuários.\n\nSegundo o Ministério de Minas e Energia, esse lote tem investimentos previstos em R$ 4,113 bilhões, com 1.167 quilômetros de linhas e estimativa de 8.225 empregos. O conjunto reforçará o atendimento ao Mato Grosso do Sul e ampliará a capacidade de escoamento da geração.\n\nTambém concorreram na disputa desse lote a Cymi Construções e Participações, o Consórcio Olympus XXI, a Axia Energia Norte, a Engie Transmissão de Energia Participaçoes, o Fundo de Investimento e Participação Warehouse e a EDP Transmissão Goiás.\n\nO segundo lote leiloado foi o de número 3, com instalações no estado de São Paulo. A vencedora foi a Cymi Construções e Participações, que ofertou R$ 78.703.693, com deságio de 57,08%. Ela concorria com a EDP Energias do Brasil, a Axia e a Consórcio Olympus.\n\nEsse projeto reforça o atendimento à região metropolitana da capital paulista, que prevê R$ 1,071 bilhão, 45 quilômetros de linhas e 2.676 empregos.\n\nO lote 1 foi o terceiro a ser leiloado e inclui instalações na Bahia. Após a apresentação das propostas em papel feita por cinco empresas, esse lote acabou sendo disputado em uma etapa de viva-voz. Nessa etapa participaram apenas as empresas Neonergia e Tradetek Soluções em Iluminação Pública e Infraestrutura, que haviam feito as melhores propostas em papel. \n\nApós uma grande disputa, com 150 lances em viva-voz, a empresa vencedora foi a Neoernegia que apresentou a oferta de R$ 59.850.000, com deságio de 51,21%.\n\nOs lotes 5 e 6 foram os seguintes a serem leiloados e correspondiam a instalações no estado do Paraná. O lote 5 tem 173 quilômetros de extensão e também foi levado a uma disputa por viva-voz entre a Engie e a Cymi. A vencedora foi a Cymi, com oferta de R$ 96.400.000 e deságio de 46,36%.\n\nO lote 6, com quatro quilômetros de extensão e que corresponde ao município de Santa Terezinha do Itaipu, no Paraná, também teve lances em viva-voz entre as empresas Engie e Cox Brasil e foi vencido pela Cox Brasil que ofertou R$ 37.850.000 e deságio de 53,46%.\n\nNo Paraná, esses dois empreendimentos somam R$ 1,46 bilhão, 177 quilômetros de linhas e 3.336 empregos, com benefícios para a região metropolitana de Curitiba e as regiões oeste e sudoeste.\n\nO lote 7, que corresponde a instalações na Paraíba, foi também para uma etapa em viva-voz e foi vencido pela Neoenergia , que bateu a Celeo, com proposta de R$ 68.000.000 e deságio de 38,55%.\n\nJuntos, o lote 7 e lote 1, que correspondem a instalações na Paraíba e na Bahia, somam R$ 1,16 bilhão em investimentos, com previsão de 3.132 empregos e 351 quilômetros de novas linhas. Segundo o ministério, as obras desses dois lotes vão reforçar o atendimento ao sul e centro-sul baiano e ao sertão paraibano.\n\nO lote 8, com instalações em Rondônia, foi vencido pela Celeo, com oferta de R$ 66.664.542, com deságio de 48,02%. Nesse lote estão previstos R$ 753,2 milhões em investimentos e 2.151 empregos para instalação na Subestação Coletora Porto Velho, em Rondônia. O objetivo é ampliar a estabilidade e a resiliência do sistema de transmissão que atende Acre e Rondônia.\n\nO último lote leiloado nesta sexta-feira foi o 2, com instalações em Goiás e na Bahia. Esse lote foi vencido pela EDP, com proposta de R$ 26.530.000 e deságio de 53,29%.\n\nOs investimentos nesse lote 2 são da ordem de R$ 317 milhões e serão destinados à conexão entre Bahia e Goiás, com 126 quilômetros de linhas e estimativa de 792 empregos, para ampliar o atendimento ao nordeste goiano.\n\nSegundo o Ministério de Minas e Energia, os leilões de transmissão de energia elétrica já mobilizaram R$ 69,64 bilhões em investimentos estimados entre os anos de 2023 e 2026, montante que chega a R$ 77,54 bilhões quando atualizado pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).</p>",
+      "imagem": "https://imagens.ebc.com.br/Bvwe_csVVdE39DW5hshc04H6tII=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/30/_int2625.jpg?itok=lV5JXMX2",
+      "slug": "com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
+      "pagina_local": "com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
+    },
+    {
+      "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
+      "resumo": "O governo brasileiro concluiu negociações sanitárias que abriram o mercado de Bangladesh para material genético bovino e bubalino e o mercado colombiano para produtos destinados a animais de estimação.\n\nA autorizaçção an...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O governo brasileiro concluiu negociações sanitárias que abriram o mercado de Bangladesh para material genético bovino e bubalino e o mercado colombiano para produtos destinados a animais de estimação.\n\nA autorizaçção anunciada pelos ministérios da Agricultura e Pecuária (Mapa) e das Relações Exteriores (MRE) elevam para 721 o total de aberturas de mercado obtidas pelo agronegócio brasileiro desde o início de 2023.\n\nNotícias relacionadas:Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012.FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027.Segundo o governo federal, as autoridades de Bangladesh passaram a permitir a entrada de embriões bovinos e bubalinos produzidos por diferentes técnicas de reprodução, além de sêmen bovino e animais vivos destinados ao melhoramento genético dos rebanhos.\n\nBangladesh importou mais de US$ 2,66 bilhões em produtos agropecuários brasileiros em 2025. Entre os principais itens embarcados para o país asiático estão produtos do complexo sucroalcooleiro, fibras e produtos têxteis, além de soja e derivados.\n\nA Colômbia habilitou a compra de alimentos para animais de companhia (termo técnico utilizado para se referir a pets), incluindo produtos mastigáveis desidratados de origem bovina e suína.\n\nEm 2025, as importações colombianas de produtos agropecuários brasileiros superaram US$ 873 milhões, com destaque para café, produtos florestais e outros produtos de origem animal.\n\nCom as novas autorizações, o agronegócio brasileiro alcançou 721 aberturas de mercado desde janeiro de 2023, resultado atribuído ao trabalho conjunto do Mapa e do Itamaraty.\n\nEstratégias de exportação\n\nAs medidas integram a estratégia do governo de ampliar a presença de produtos brasileiros no exterior. Neste mês, o Mapa anunciou que o país havia alcançado a marca de 700 aberturas de mercado em 99 destinos, entre países e blocos econômicos, desde o início de 2023.\n\nAlém das negociações sanitárias conduzidas pelo Mapa e pelo MRE, a política comercial coordenada pela Câmara de Comércio Exterior (Camex) tem buscado ampliar o acesso de empresas brasileiras a novos mercados e diversificar os destinos das exportações nacionais, como forma de amenizar os efeitos do tarifaço implementado pelos EUA contra o Brasil.</p>",
+      "imagem": "https://imagens.ebc.com.br/22xi4oMxxrlwe8qjYiN5uvxWPwo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/agenciabrasil260712_abr9887.jpg?itok=EJnv9aXh",
+      "slug": "brasil-abre-mercado-em-bangladesh-e-colombia-para-pecuaria",
+      "pagina_local": "brasil-abre-mercado-em-bangladesh-e-colombia-para-pecuaria.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
+    },
+    {
+      "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
+      "resumo": "A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs da...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs dados são da Pesquisa Nacional por Amostra de Domicílios (Pnad) Contínua, divulgada nesta sexta-feira (30), pelo Instituto Brasileiro de Geografia e Estatística (IBGE). \n\nNotícias relacionadas:Taxa de desemprego cai para 5,3%, a menor para o trimestre até agosto.A população desocupada (5,6 milhões) diminuiu 4% (menos 234 mil pessoas) na comparação com o trimestre de abril a junho (5,9 milhões). Em comparação com igual trimestre do ano anterior (6 milhões), houve queda de 6,9% (menos 417 mil pessoas).\n\nPopulação ocupada\n\nA população ocupada, que totaliza 103,6 milhões de pessoa, foi a maior da série histórica, com alta de 0,6% no trimestre (mais 581 mil) e aumento de 1,2% no ano (mais 1,2 milhão).\n\nO nível da ocupação  – percentual de pessoas ocupadas na população em idade de trabalhar – também foi recorde, ao alcançar 59%. Além disso, houve variação de 0,2 pontos percentuais frente ao trimestre anterior (58,8%) e estabilidade em relação a igual trimestre do ano anterior (58,7%).\n\nInformalidade\n\nSegundo a pesquisa, a taxa de informalidade foi de 37,5% da população ocupada (ou 38,8 milhões de trabalhadores informais), contra 37,4% (ou 38,6 milhões) no trimestre e 37,8% (ou 38,7 milhões) no ano.\n\nRendimento\n\nO IBGE informou que o rendimento real habitual de todos os trabalhos (R$ 3.790) ficou estável no trimestre e cresceu 3,6% no ano (mais R$ 131). A massa de rendimento real habitual (R$ 387,5 bilhões) foi a maior da série, com alta de 1,5% no trimestre (mais R$ 5,6 bilhões) e 4,7% no ano (mais R$ 17,5 bilhões).</p>",
+      "imagem": "https://imagens.ebc.com.br/_xUgzK879LQoQgjcea_VicynYDY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/coronavirus_industria_automobilistica_fabrica2005200371.jpg?itok=as8xvE-n",
+      "slug": "desemprego-em-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012",
+      "pagina_local": "desemprego-em-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -26,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Receita paga nesta sexta-feira lote da malha fina do Imposto de Renda",
@@ -39,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
@@ -52,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
@@ -65,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027",
@@ -78,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Dólar sobe 0,76% e fecha a R$ 5,39 em dia de cautela",
@@ -91,46 +130,59 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
-      "titulo": "CMN amplia em R$ 2 bi limite de crédito a estados e municípios",
-      "resumo": "Os estados, os municípios e o Distrito Federal terão R$ 2 bilhões adicionais para pegarem emprestados no sistema financeiro até o fim do ano. Em reunião extraordinária, o Conselho Monetário Nacional (CMN) elevou, de R$ 2...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os estados, os municípios e o Distrito Federal terão R$ 2 bilhões adicionais para pegarem emprestados no sistema financeiro até o fim do ano. Em reunião extraordinária, o Conselho Monetário Nacional (CMN) elevou, de R$ 28,625 bilhões para R$ 30,625 bilhões, o limite global de operações de crédito para os governos locais.\n\nEm nota, o Ministério da Fazenda informou que a medida busca ampliar a capacidade de estados e municípios de obter empréstimos para financiar projetos e outras despesas autorizadas, tanto com garantia da União quanto sem essa garantia.\n\nNotícias relacionadas:CMN e BC atualizam regras de segurança e transparência do Open Finance.CMN endurece regras para fundos comprarem créditos judiciais.CMN amplia renegociação de dívidas rurais ligadas a eventos climáticos.Segundo o governo, a ampliação foi possível após um levantamento da Secretaria do Tesouro Nacional identificar recursos fiscais nos estados previstos para 2026 que não devem ser usados até o fim do ano.\n\nComo funciona a medida\n\nOs limites definidos pelo CMN estabelecem quanto os governos estaduais e municipais podem contratar em operações de crédito dentro das regras fiscais aplicáveis.\n\nNa prática, a ampliação permite que esses entes tenham mais espaço para buscar financiamentos, desde que cumpram as exigências legais e fiscais para contratar os empréstimos.\n\nExistem duas modalidades principais:\n\n\n\tCrédito com garantia da União: o governo federal oferece uma garantia ao credor caso o estado ou município não cumpra as obrigações do empréstimo. Essa garantia pode facilitar o acesso ao financiamento, mas depende do atendimento aos critérios exigidos;\n\tCrédito sem garantia da União: o próprio estado ou município assume a obrigação perante o credor, sem garantia federal para a operação.\n\n\nA resolução amplia os limites disponíveis para as duas modalidades.\n\nNovos limites de crédito\n\nA distribuição dos R$ 2 bilhões adicionais ficou definida da seguinte forma:\n\n\n\tOperações com garantia da União: aumento de R$ 1,5 bilhão, de R$ 8,5 bilhões para R$ 10 bilhões.\n\tOperações sem garantia da União: aumento de R$ 500 milhões, de R$ 6,5 bilhões para R$ 7 bilhões.\n\n\nCom isso, os sublimites destinados a essas operações passam a somar R$ 17 bilhões.\n\nOs demais limites definidos pelo CMN permanecem inalterados.\n\nDe onde vêm os recursos\n\nA ampliação foi baseada em um levantamento da Secretaria do Tesouro Nacional junto aos entes que participam de programas de acompanhamento e ajuste fiscal.\n\nO estudo identificou cerca de R$ 7,87 bilhões em espaço fiscal sem perspectiva de utilização até o fim de 2026. Esse espaço corresponde à margem disponível dentro dos limites fiscais e de crédito já estabelecidos.\n\nDesse total, R$ 5 bilhões haviam sido destinados anteriormente por meio de duas resoluções do CMN, uma de agosto, que liberou R$ 3 bilhões, e uma de setembro, que liberou R$ 2 bilhões.\n\nRestava um saldo estimado de R$ 2,87 bilhões em espaço fiscal. A nova resolução destina mais R$ 2 bilhões desse montante à ampliação dos limites de crédito para estados, Distrito Federal e municípios.\n\nSegundo o governo, a mudança ocorre porque os limites disponíveis para as operações de crédito de governos locais estavam praticamente esgotados.\n\nOutros limites mantidos\n\nA resolução não altera os valores reservados a outras modalidades de crédito e órgãos públicos. Permanecem os seguintes limites:\n\n\n\tNovo PAC com garantia da União: R$ 2,8 bilhões;\n\tNovo PAC sem garantia da União: R$ 2,2 bilhões.\n\tEmpresa Brasileira de Correios e Telégrafos: R$ 8 bilhões;\n\tÓrgãos e entidades da União: R$ 625 milhões.\n\n\nO Novo PAC é o Programa de Aceleração do Crescimento, iniciativa federal que reúne investimentos em infraestrutura e outras áreas.\n\nO que muda na prática\n\nCom o aumento do limite, estados e municípios passam a contar com maior margem para contratar financiamentos ainda em 2026. Isso pode facilitar a obtenção de recursos para investimentos e projetos públicos, conforme as regras aplicáveis a cada operação.\n\nA medida, porém, não significa que os R$ 2 bilhões serão transferidos diretamente aos governos regionais. O valor corresponde ao aumento do limite autorizado para operações de crédito. Cada ente ainda precisa contratar o financiamento e atender às exigências legais, fiscais e financeiras.\n\nA resolução entra em vigor na data da sua publicação.\n\nQuem compõe o CMN\n\nO Conselho Monetário Nacional é o órgão responsável por estabelecer diretrizes para as políticas monetária, creditícia e cambial do país.\n\nPresidido pelo ministro da Fazenda, Dario Durigan, o colegiado também é composto pelo presidente do Banco Central, Gabriel Galípolo, e pelo ministro do Planejamento e Orçamento, Bruno Moretti.</p>",
-      "imagem": "https://imagens.ebc.com.br/9UXysmYMdoscZXVYIkncIimWnz0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=BQBuSoJl",
-      "slug": "cmn-amplia-em-r-2-bi-limite-de-credito-a-estados-e-municipios",
-      "pagina_local": "cmn-amplia-em-r-2-bi-limite-de-credito-a-estados-e-municipios.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
+      "resumo": "A Corregedoria-Geral da Polícia Civil, a prefeitura de São Paulo e a Controladoria-Geral do município investigam uma suposta organização criminosa que obtinha irregularmente os registros de óbitos na capital paulista e r...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Corregedoria-Geral da Polícia Civil, a prefeitura de São Paulo e a Controladoria-Geral do município investigam uma suposta organização criminosa que obtinha irregularmente os registros de óbitos na capital paulista e repassava para empresas do setor funerário.  \n\nA segunda fase da Operação Luctus foi deflagrada nesta quinta-feira (29) para apurar mais informações. O grupo é investigado por crimes contra a administração pública, corrupção, acesso indevido a informações sigilosas, lavagem de capitais e outros delitos correlatos. \n\n\n“A investigação teve origem a pedido da prefeitura. A operação cumpriu mandados de busca e apreensão em 21 alvos, entre eles um policial civil, um funcionário da prefeitura e empresários do setor. Integrantes da Corregedoria do Município acompanharam as diligências”, informou a Secretaria de Segurança Pública do Estado de São Paulo (SSP-SP). \n\n\nSegundo a SSP-SP, a segunda fase da operação, pretende, além da responsabilização penal dos envolvidos, identificar vulnerabilidades no sistema e formas para aperfeiçoar os mecanismos de controle interno, governança e integridade. \n\nUma das empresas envolvidas é a concessionária Velar SP, um dos quatro grupos que administram os 22 cemitérios da capital paulista. A Velar é responsável por seis deles, como Vila Alpina, Itaquera e Freguesia do Ó. \n\nEm nota, a Velar afirmou que tomou conhecimento da Operação Luctus pela imprensa e até o momento não teve acesso aos autos nem à decisão judicial que fundamentou as diligências e que está à disposição das autoridades para contribuir com o pleno esclarecimento dos fatos. \n\n“A Velar reafirma seu compromisso com a lisura de sua atuação e com o respeito às famílias atendidas, repudia quaisquer práticas ilícitas e esclarece que já havia se colocado à disposição das autoridades para colaborar no esclarecimento dos fatos e de eventuais ilicitudes praticadas por quem quer que seja”, diz a nota.</p>",
+      "imagem": "https://imagens.ebc.com.br/fXmgHs6L2UzfwFAEnR7GT-Xu_vQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/994352-sp_05012016-05012016_abr8862-.jpg?itok=ZStJZ7yE",
+      "slug": "policia-de-sp-investiga-venda-de-dados-de-mortos-a-funerarias",
+      "pagina_local": "policia-de-sp-investiga-venda-de-dados-de-mortos-a-funerarias.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-de-sp-investiga-venda-de-dados-de-mortos-funerarias",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
-      "titulo": "Temporada de cruzeiros começa na sexta com projeção de mais empregos",
-      "resumo": "A temporada brasileira de cruzeiros turísticos 2026/2027 começa nesta sexta-feira (30), com um quarto a mais de leitos e a perspectiva de superar a marca de 72 mil empregos gerados no período passado. As viagens na costa...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A temporada brasileira de cruzeiros turísticos 2026/2027 começa nesta sexta-feira (30), com um quarto a mais de leitos e a perspectiva de superar a marca de 72 mil empregos gerados no período passado. As viagens na costa do país se estendem até 9 de abril do ano que vem.\n\nO Ministério do Turismo disse nesta quinta-feira (29) que espera uma movimentação de R$ 4,72 bilhões. Isso deve ser possível com o aumento de 24% nos quartos oferecidos pelos navios, que terão um total de 800 mil leitos. A pasta se baseia em informações da Associação Internacional de Cruzeiros Marítimos (Clia, na sigla em inglês).\n\nNotícias relacionadas:Cristo Redentor se prepara para compensar impacto ambiental do turismo.Brasil é quarto país que mais ampliou turismo internacional, diz OCDE.Projeto seleciona quatro territórios para rede nacional de afroturismo.Nesta temporada, serão oito navios dedicados à costa nacional, um a mais do que no ciclo anterior. Os portos de embarque e desembarque incluem Santos, Rio de Janeiro, Salvador, Maceió, Itajaí, Balneário Camboriú e Paranaguá.\n\nHaverá ainda embarcações internacionais de passagem. Estão programados 28 navios de longo curso, de 22 companhias diferentes, que realizarão mais de 200 escalas em 32 portos e pontos de parada ao longo do litoral do país.\n\nO ministro do Turismo, Gustavo Feliciano, explicou que a temporada de cruzeiros impacta a economia brasileira de ponta a ponta.\n\n\n\"Quando um navio chega a um destino, toda a cadeia de serviços é beneficiada, do transporte à hospedagem, da alimentação ao comércio local. Isso gera oportunidades para pequenos e grandes empreendedores, além de criar empregos e gerar renda para quem recebe os turistas”, afirmou.\n\n\nMais estrangeiros\n\nUm dado importante para o setor é a tendência de aumento da participação de estrangeiros entre os cruzeiristas, que foi de 16,1%, em 2024/2025, para 23,9%, em 2025/2026.\n\nFeliciano aponta essa tendência como uma oportunidade para impulsionar a entrada de turistas internacionais.\n\n\"Quando o turista desembarca e vivencia a cultura e a hospitalidade local, ele movimenta a economia e se torna um promotor dos destinos. É essa engrenagem que consolida o turismo como um motor definitivo de desenvolvimento, transformando o potencial dos nossos destinos em geração real de negócios, postos de trabalho e crescimento econômico nas cidades\", ressaltou o ministro.\n\nPrincipais portos\n\nSegundo dados da Clia no Brasil, considerando as operações de cabotagem e os navios de longo curso, Santos (SP) lidera a projeção da temporada, com 640 mil leitos previstos e um potencial de injeção de mais de R$ 616 milhões na economia.\n\nNa sequência, o Rio de Janeiro (RJ) aguarda 316 mil leitos e impacto de R$ 304 milhões. \n\nNo Nordeste, Salvador (BA) deve receber cerca de 182 mil leitos, com impacto estimado em R$ 175,2 milhões, enquanto Maceió (AL) tem previsão de 137 mil leitos e R$ 131,9 milhões em movimentação econômica.\n\nNo Sul, Balneário Camboriú (SC) aparece com 198.071 leitos ofertados e impacto econômico estimado em R$ 190,6 milhões, seguido por Itajaí (SC), com 165.474 leitos movimentando R$ 159,3 milhões.\n\nJá Paranaguá (PR) registra 36.356 leitos ofertados, com potencial de impacto econômico de aproximadamente R$ 35 milhões.\n\nA grande circulação de turistas na alta temporada requer um cuidado a mais de todos: manter a carteirinha de vacinação em dia. Deve-se ter atenção especial às doenças que podem afetar mais facilmente crianças não vacinadas, como sarampo, hepatites e rubéola.</p>",
-      "imagem": "https://imagens.ebc.com.br/_nvDTaelQhU8C9N-pswDzL49SHw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/_mg_3412.jpg?itok=t_l7MRiL",
-      "slug": "temporada-de-cruzeiros-comeca-na-sexta-com-projecao-de-mais-empregos",
-      "pagina_local": "temporada-de-cruzeiros-comeca-na-sexta-com-projecao-de-mais-empregos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/temporada-de-cruzeiros-comeca-na-sexta-com-projecao-de-mais-empregos",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
+      "resumo": "Mais de 2 milhões de passageiros devem circular por aeroportos do país, entre 30 de outubro e 3 de novembro, por causa do feriado de Finados lembrado na próxima segunda-feira (2). A expectativa é de mais de 10,3 mil voos...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Mais de 2 milhões de passageiros devem circular por aeroportos do país, entre 30 de outubro e 3 de novembro, por causa do feriado de Finados lembrado na próxima segunda-feira (2). A expectativa é de mais de 10,3 mil voos, de acordo com projeção Ministério do Turismo (MTur), com base em dados de operadoras e concessionárias que administram os principais aeroportos.\n\nPara o ministro do Turismo, Gustavo Feliciano, cada feriado é oportunidade para redescobrir o Brasil, com diversidade de destinos, paisagens, culturas e experiências.\n\n\nNotícias relacionadas:Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio.Biometria facial será obrigatória para usuários de telefonia móvel.EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil.\"Quando o brasileiro escolhe conhecer o próprio país, ele movimenta comunidades, fortalece pequenos empreendedores e contribui para que o turismo gere oportunidades em todas as regiões”, destaca o ministro.\n\n\nEm capitais como Belo Horizonte, Curitiba e Goiânia, o número de embarques e desembarques deve crescer 9,4%, na comparação com o mesmo período de 2025, o que representa mais de 255,2 mil passageiros nos estados.\n\nGuarulhos\n\nNo Aeroporto de Guarulhos, em São Paulo, o número de pessoas em circulação pelo terminal deve ser 3,6% maior em relação ao mesmo período de 2025, concentrando cerca de 824 mil em 4,5 mil voos previstos no fim de semana – a maior concentração do país, com 43,6% dos voos em território nacional.\n\nDo Sul ao Nordeste, os dados destacam a circulação de voos domésticos. Juntos, Porto Alegre e Fortaleza somam quase 200 mil passageiros, que devem movimentar um total de 1.374 voos domésticos.\n\nO roteiro dos brasileiros se divide principalmente entre grandes metrópoles e praias do Nordeste, com São Paulo e Rio de Janeiro liderando as buscas. Também aparecem Recife, Salvador, Fortaleza e Maceió, além de Porto Alegre, Curitiba, Foz do Iguaçu e Belo Horizonte.</p>",
+      "imagem": "https://imagens.ebc.com.br/1crjxCjilWk7lmD5mKwgZFvbifk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/aeroporto_guarulhos.jpg?itok=pc0hO7Jh",
+      "slug": "finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
+      "pagina_local": "finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
-      "titulo": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
-      "resumo": "A incidência dos juros da dívida pública fez a Dívida Pública Federal (DPF) subir em setembro. Segundo números divulgados nesta quinta-feira (29) pelo Tesouro Nacional, a DPF passou de R$ 9,293 trilhões em agosto para R$...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A incidência dos juros da dívida pública fez a Dívida Pública Federal (DPF) subir em setembro. Segundo números divulgados nesta quinta-feira (29) pelo Tesouro Nacional, a DPF passou de R$ 9,293 trilhões em agosto para R$ 9,383 trilhões no mês passado, alta de 0,97%.\n\nEm maio deste ano, o indicador havia superado a barreira de R$ 9 trilhões. Apesar da alta, a dívida pública está abaixo do previsto. \n\nNotícias relacionadas:Dívida pública fica em 82,9% do PIB, e déficit soma R$ 5,5 bilhões.Perdão das dívidas de MEIs é medida fiscal “necessária”, diz ministro.Tesouro Direto bate recorde em agosto com R$ 15 bi em investimentos.De acordo com o Plano Anual de Financiamento (PAF), apresentado em janeiro e revisado em agosto, o estoque da DPF deve encerrar 2026 entre R$ 9,7 trilhões e R$ 10,3 trilhões.\n\nA Dívida Pública Mobiliária (em títulos) interna (DPMFi) avançou 1,04%, passando de R$ 8,944 trilhões em agosto para R$ 9,037 trilhões em setembro. \n\nNo mês passado, o Tesouro emitiu R$ 3,78 bilhões em títulos a mais do que resgatou, volume baixo para os padrões históricos. A apropriação de R$ 89,29 bilhões em juros, porém, impediu a queda do endividamento.\n\nPor meio da apropriação de juros, o governo reconhece, mês a mês, a correção dos juros que incide sobre os títulos e incorpora o valor ao estoque da dívida pública. Com a Taxa Selic (juros básicos da economia) em 13,75% ao ano, a apropriação de juros pressiona o endividamento do governo.\n\nNo mês passado, o Tesouro emitiu R$ 189,44 bilhões em títulos da DPMFi. Os resgates em setembro somaram R$ 185,66 bilhões, motivados principalmente pelo elevado volume de vencimentos de títulos corrigidos pela Taxa Selic, juros básicos da economia.\n\nA Dívida Pública Federal externa (DPFe) caiu 0,82%, passando de R$ 348,26 bilhões em agosto para R$ 345,41 bilhões em setembro. O principal fator foi a estabilidade do dólar no mês passado e o pagamento corrente de cerca de R$ 3 bilhões.\n\nColchão\n\nApós cair em agosto, o colchão da dívida pública (reserva financeira usada em momentos de turbulência ou de forte concentração de vencimentos) subiu em setembro. Essa reserva passou de R$ 1,208 trilhão em agosto para R$ 1,273 trilhão em setembro.\n\nAtualmente, o colchão cobre 7,71 meses de vencimentos da dívida pública. Nos próximos 12 meses, está previsto o vencimento de R$ 1,87 trilhão em títulos federais.\n\nCom o forte vencimento de títulos vinculados à Selic, a composição da DPF variou da seguinte forma de agosto para setembro:\n\n\n\t    Títulos vinculados a Selic: 52,74% para 51,6%;\n\t    Títulos corrigidos pela inflação: 23,22% para 23,59%;\n\t    Títulos prefixados: 20,31% para 21,14%;\n\t    Títulos vinculados ao câmbio: 3,74% para 3,67%.\n\n\nRevisado em agosto, o PAF prevê que os títulos encerrarão o ano nos seguintes intervalos\n\n\n\t    Títulos vinculados a Selic: 49% a 53%;\n\t    Títulos corrigidos pela inflação: 21% a 25%;\n\t    Títulos prefixados: 20% a 24%;\n\t    Títulos vinculados ao câmbio: 3% a 7%.\n\n\nNormalmente, os papéis prefixados (com taxas definidas no momento da emissão) indicam mais previsibilidade para a dívida pública, porque as taxas são definidas com antecedência. No entanto, em momentos de instabilidade no mercado financeiro, as emissões caem porque os investidores pedem juros muito altos, que comprometeria a administração da dívida do governo.\n\nEm relação aos papéis vinculados à Selic (juros básicos da economia), esses títulos estão atraindo o interesse dos compradores por causa dos juros altos definidos pelo Comitê de Política Monetária do Banco Central (Copom). A dívida cambial é composta por antigos títulos da dívida interna corrigidos em dólar e pela dívida externa.\n\nPrazo\n\nO prazo médio da DPF manteve-se estável em 4,1 anos. O Tesouro só fornece a estimativa em anos, não em meses. Esse é o intervalo médio em que o governo leva para renovar (refinanciar) a dívida pública. Prazos maiores indicam mais confiança dos investidores na capacidade do governo de honrar os compromissos.\n\nA composição dos detentores da Dívida Pública Federal interna ficou a seguinte:\n\n\n\t    Instituições financeiras: 31,33% do estoque;\n\t    Fundos de pensão: 22,41%;\n\t    Fundos de investimentos: 22,93%;\n\t    Não-residentes (estrangeiros): 9,58%\n\t    Demais grupos: 13,76%.\n\n\nCom a maior tensão no mercado financeiro em setembro, com a guerra no Oriente Médio, a participação dos não residentes (estrangeiros) caiu em relação a agosto, quando estava em 9,91%. Quanto maior a fatia de estrangeiros na dívida interna, maior a confiança no Brasil.\n\nPor meio da dívida pública, o governo pega dinheiro emprestado dos investidores para honrar compromissos financeiros. Em troca, compromete-se a devolver os recursos depois de alguns anos, com alguma correção, que pode seguir a taxa Selic (juros básicos da economia), a inflação, o dólar ou ser prefixada (definida com antecedência).</p>",
-      "imagem": "https://imagens.ebc.com.br/JCcvEpdiDH45JKwq4QHlxZ_fmLM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/real_moedadinheiro_jfcrz_abr_1701220043_1.jpg?itok=I0f8omrf",
-      "slug": "divida-publica-sobe-0-97-em-setembro-e-encosta-em-r-9-4-trilhoes",
-      "pagina_local": "divida-publica-sobe-0-97-em-setembro-e-encosta-em-r-9-4-trilhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-sobe-097-em-setembro-e-encosta-em-r-94-trilhoes",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
+      "resumo": "O Ministério da Integração e do Desenvolvimento Regional alerta para um golpe que circula por aplicativos de mensagens e redes sociais sobre o suposto pagamento de “Auxílio Reconstrução 2026”, no valor de R$ 1.680.\n\nA pu...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério da Integração e do Desenvolvimento Regional alerta para um golpe que circula por aplicativos de mensagens e redes sociais sobre o suposto pagamento de “Auxílio Reconstrução 2026”, no valor de R$ 1.680.\n\nA publicação afirma que o cidadão pode consultar se tem direito ao benefício por meio de um link falso e receber o valor. O benefício não existe, e a mensagem não é do governo federal.\n\nNotícias relacionadas:INSS alerta para golpes que usam informação falsa sobre biometria.Em sabatina, Flávio nega tentativa de golpe e defende fim da reeleição.Medida provisória quer coibir excesso de chamadas e golpes telefônicos.As informações oficiais sobre o Auxílio Reconstrução estão disponíveis apenas no site auxilioreconstrucao.dataprev.gov.br/reconstrucao/cidadao/ do benefício.\n\nO ministério reforça que a população deve desconfiar de mensagens que prometem o recebimento de benefícios mediante acesso a links ou fornecimento de informações pessoais em páginas não oficiais.\n\nBenefício\n\nO Auxílio Reconstrução é um benefício financeiro pago em parcela única pelo governo federal para apoiar famílias que sofreram perdas materiais ou ficaram desabrigados em decorrência de desastres naturais reconhecidos.</p>",
+      "imagem": "https://imagens.ebc.com.br/E3CFenWBEBmftw_Cyd0GH8VMJNg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/23/_rbr5563ta_42_1.jpg?itok=ctBgVOhB",
+      "slug": "governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
+      "pagina_local": "governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
+    },
+    {
+      "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
+      "resumo": "Um acidente envolvendo 20 veículos na Rodovia Presidente Dutra (BR-116), no Rio de Janeiro, deixou pelo menos 11 feridos, na manhã desta sexta-feira (30). \n\nDe acordo com a Polícia Rodoviária Federal (PRF), o engavetamen...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Um acidente envolvendo 20 veículos na Rodovia Presidente Dutra (BR-116), no Rio de Janeiro, deixou pelo menos 11 feridos, na manhã desta sexta-feira (30). \n\nDe acordo com a Polícia Rodoviária Federal (PRF), o engavetamento dos automóveis aconteceu depois que um ônibus perdeu o controle, no município de São João de Meriti, na Baixada Fluminense.\n\nAs primeiras informações indicam que o motorista do coletivo passou mal. Ele acabou morrendo de infarto, segundo informações da concessionária responsável pelo trecho rodoviária, a Ecovias Rio Minas.\n\nA Ecovias Rio Minas informou que nenhuma pessoa ficou ferida com gravidade. Seis vítimas foram encaminhadas ao Hospital Geral de Nova Iguaçu e cinco para o Hospital Municipal de São João de Meriti.\n\nA Delegacia de São João de Meriti (64ª DP) investiga a morte do motorista do ônibus.</p>",
+      "imagem": "https://imagens.ebc.com.br/TYzHiKMyhxdxTKR1cfMNkmUBYHY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/30/motorista_infarta_e_engavetamento_de_20_veiculos_deixa_feridos_no_rio.jpg?itok=fBhivR7t",
+      "slug": "motorista-infarta-e-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
+      "pagina_local": "motorista-infarta-e-engavetamento-de-20-veiculos-deixa-feridos-no-rio.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motorista-infarta-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -143,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -156,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
@@ -169,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
@@ -182,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
@@ -195,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     },
     {
       "titulo": "PF impede desvio de até R$ 10 bi no seguro defeso no Maranhão",
@@ -208,59 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
-    },
-    {
-      "titulo": "Mega-Sena acumula novamente e prêmio vai a R$ 320 milhões",
-      "resumo": "O Concurso 3.076 da Mega-Sena, sorteado nesta terça-feira (27), não teve ganhador. O prêmio acumulou novamente e está estimado em R$ 320 milhões para a nova rodada.\n\nOs números sorteados são: 06 - 30 - 32 - 38 - 49 - 57....",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Concurso 3.076 da Mega-Sena, sorteado nesta terça-feira (27), não teve ganhador. O prêmio acumulou novamente e está estimado em R$ 320 milhões para a nova rodada.\n\nOs números sorteados são: 06 - 30 - 32 - 38 - 49 - 57.\n\nNotícias relacionadas:Mega-Sena terá semana especial com cinco sorteios consecutivos.A quina teve 68 apostas ganhadoras. Cada uma receberá R$ 58.086,17. A quadra saiu para 6.491 apostas, no valor de R$ 869,30 cada.\n\nApostas\n\nO próximo concurso será nesta quarta-feira (28).\n\nAté sexta-feira (30), a Caixa realiza a Mega Semana da Mega-Sena, com cinco sorteios consecutivos.\n\nA ação especial terá sorteios (concursos 3075, 3076, 3077, 3078 e 3079) de segunda a sexta-feira, substituindo o calendário regular.   \n\nAs regras para aposta e prêmios não mudam. Os interessados devem apostar até as 20h e os sorteios serão realizados às 21h no horário de Brasília. A aposta simples, de seis números, custa R$ 6.\n\nAs apostas na Mega-Sena podem ser feitas nas casas lotéricas de todo o país, no site e no aplicativo Loterias CAIXA e no Internet Banking. \n\nApós a semana especial, a Mega-Sena retomará seu calendário regular de sorteios e abrirá as vendas da Mega da Virada 2026.</p>",
-      "imagem": "https://imagens.ebc.com.br/J5kgqjV4tFLwXg8_GzSp8kVKlr4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182658.jpg?itok=_yxjfe3l",
-      "slug": "mega-sena-acumula-novamente-e-premio-vai-a-r-320-milhoes",
-      "pagina_local": "mega-sena-acumula-novamente-e-premio-vai-a-r-320-milhoes.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/mega-sena-acumula-novamente-e-premio-vai-r-320-milhoes",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
-    },
-    {
-      "titulo": "Lula se solidariza com Juca Kfouri pela morte da filha, Camila Kfouri",
-      "resumo": "O presidente Luiz Inácio Lula da Silva se solidarizou com o jornalista Juca Kfouri pela morte de sua filha, Camila Kfouri, nesta terça-feira (27). Lula usou o X, antigo Twitter, para enviar condolências ao jornalista.\n\n\n...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O presidente Luiz Inácio Lula da Silva se solidarizou com o jornalista Juca Kfouri pela morte de sua filha, Camila Kfouri, nesta terça-feira (27). Lula usou o X, antigo Twitter, para enviar condolências ao jornalista.\n\n\n“Meu querido amigo Juca Kfouri, é difícil imaginar a imensa dor que você está sentindo pela partida de sua filha Camila. Por isso, mesmo à distância, quero que receba o meu carinho e a minha solidariedade. Desejo, do fundo do meu coração, que você e todos os seus familiares tenham a força que lhes ajude a atravessar essa hora tão difícil”, escreveu o presidente.\n\n\nNotícias relacionadas:Polícia investiga morte de engenheiro agredido após ato pró-Lula.Agência Brasil e TV Brasil recebem Prêmio Vladimir Herzog.Camila morreu aos 48 anos. Segundo o pai, ela sofria de doenças adquiridas a partir do trauma de ver o avô paterno ser atingido por um tiro durante um assalto, em 1985, quando ela tinha apenas 6 anos de idade. Na época, o procurador aposentado Carlos Alberto Gouvêa Kfouri passou 11 dias internado antes de falecer.\n\n“Camila, a Camiloca, a Cam, minha Joaninha, a menina entre meus quatro filhos, resolveu ir embora depois de sofrer muito com doenças adquiridas desde que, aos 6 anos, viu o avô paterno ser alvejado em assalto na porta de casa, e desenvolver uma porção de sequelas. Hoje, a última vítima daquele dia não resistiu mais. Disfunção de supra-renal, gordura em família longilínia, cirurgia bariátrica, compulsão, e neuropatia diabética”, escreveu Kfouri em artigo no Portal UOL.\n\nJuca Kfouri é jornalista do UOL e também apresenta o programa Trio de Ataque, na TV Brasil.</p>",
-      "imagem": "https://imagens.ebc.com.br/ATN2BT89T2OYfpXqOR1Up6glItk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/27/camila-kfouri.jpg?itok=t88io4dg",
-      "slug": "lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri",
-      "pagina_local": "lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/lula-se-solidariza-com-juca-kfouri-pela-morte-da-filha-camila-kfouri",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
-    },
-    {
-      "titulo": "Zumbi, Finados e Proclamação: confira feriados nacionais de novembro",
-      "resumo": "Desde 2023, quando foi sancionada a lei que cria o Dia Nacional de Zumbi e da Consciência Negra, o Brasil tem três feriados nacionais no calendário de novembro. Em 2026, eles são comemorados nas seguintes datas: \n\n\n\t2 de...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Desde 2023, quando foi sancionada a lei que cria o Dia Nacional de Zumbi e da Consciência Negra, o Brasil tem três feriados nacionais no calendário de novembro. Em 2026, eles são comemorados nas seguintes datas: \n\n\n\t2 de novembro (segunda-feira): Dia de Finados \n\t15 de novembro (domingo): Proclamação da República \n\t20 de novembro (sexta-feira): Dia Nacional da Consciência Negra \n\n\nDia de Finados \n\nComemoração de seguidores da Igreja Católica e cristãos de outras tradições, que também é conhecida como Dia dos Mortos. É celebrada como feriado no Brasil de acordo com a Lei Nº 10.607 de 19 de dezembro de 2002. \n\nProclamação da República \n\nNotícias relacionadas:Igualdade racial ainda é cenário distante, avaliam ativistas negras.Hoje é Dia: datas, fatos e feriados de outubro de 2026.A Proclamação da República ocorreu em 15 de novembro de 1889, quando o marechal Deodoro da Fonseca saiu de sua casa no centro do Rio de Janeiro, próximo à Central do Brasil, para proclamar a República acompanhado por uma tropa de cerca de mil militares. É comemorado conforme Lei Nº 662, de 6 de abril de 1949. Marca a data da promulgação do Decreto 1 de 15 de novembro de 1889, que foi assinado por Deodoro da Fonseca.  \n\nDia da Consciência Negra \n\n \n\n\n            \n        \n    \nCortejo da Tia Ciata em comemoração do Dia da Consciência Negra - Tomaz Silva/Agência Brasil\n\n\nA data de 20 Novembro remete à morte do líder do Quilombo dos Palmares, Zumbi, assassinado em 1695. O local foi um dos maiores quilombos do Brasil durante o período colonial, símbolo de resistência contra a escravização negra no país. Antes de ser feriado nacional, a data era oficial apenas em alguns estados, como Rio de Janeiro, Alagoas e São Paulo - e em mais de 1,2 mil cidades por meio de leis municipais e estaduais.</p>",
-      "imagem": "https://imagens.ebc.com.br/3qW3P2YFh5wjHux36lmtt1_qjPg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/05/26/lei_do_luto_parental.jpg?itok=yZ5cUmDR",
-      "slug": "zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro",
-      "pagina_local": "zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/zumbi-finados-e-proclamacao-confira-feriados-nacionais-de-novembro",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
-    },
-    {
-      "titulo": "Polícia investiga morte de engenheiro agredido após ato pró-Lula",
-      "resumo": "A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista....",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Civil investiga a morte do engenheiro Marcelo de Oliveira da Rocha, de 30 anos, que morreu no último domingo (25) após ter sido brutalmente espancado na madrugada de sábado (24), em Santos, no litoral paulista.\n\nImagens que circulam nas redes sociais mostram o momento em que Rocha caminhava pela rua quando foi abordado por dois homens exigindo a entrega de seu aparelho celular. Em seguida, mais cinco pessoas se aproximam, cercam Marcelo e passam a agredi-lo com socos e chutes. Ele cai no chão, já sem consciência.\n\nNotícias relacionadas:Polícia Federal e MPSP fazem operação contra tráfico de drogas.Deputado do Rio volta a ser alvo da PF por suspeita de fraudes.PF investiga desvio de dinheiro em empresa de previdência de São Roque.Socorrido inicialmente na Santa Casa de Santos, o rapaz foi transferido para o Hospital São Paulo, unidade universitária vinculada à Universidade Federal de São Paulo (Unifesp), mas não resistiu aos ferimentos decorrentes das agressões.\n\nO engenheiro retornava de um ato político na cidade e usava um adesivo de apoio a Luiz Inácio Lula da Silva, candidato reeleito à Presidência também no domingo. O caso é tratado pela Polícia Civil como latrocínio, que é roubo seguido de morte.\n\nOs investigadores utilizam imagens de câmeras de segurança, vídeos compartilhados na internet e depoimentos de testemunhas para identificar os suspeitos e individualizar a conduta de cada um dos agressores.\n\nMarcelo era formado em engenharia e cursava mestrado na Unifesp. Em nota oficial, a universidade manifestou pesar e cobrou celeridade na apuração do crime.\n\n\n“A Unifesp expressa sua solidariedade aos familiares, amigos e colegas de Marcelo, neste momento de dor e consternação. A gravidade do ocorrido exige a apuração rigorosa das circunstâncias e motivações da agressão, bem como a identificação e responsabilização dos envolvidos.”\n\n\nSaiba mais no Repórter Brasil Tarde, da TV Brasil\n\n\n\n \n\n*Estagiário da Agência Brasil sob supervisão de Odair Braz Junior</p>",
-      "imagem": "https://imagens.ebc.com.br/P7UeedtZPGUm116KlpRlKYVSEU0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/17/86b9cab4-2ff6-4485-abd1-45d80a5218ec.jpeg?itok=ABqDQ6Si",
-      "slug": "policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula",
-      "pagina_local": "policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-investiga-morte-de-engenheiro-agredido-apos-ato-pro-lula",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "30/10/2026 às 13:58"
+      "coletado_em": "30/10/2026 às 19:11"
     }
   ]
 };
