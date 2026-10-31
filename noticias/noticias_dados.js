@@ -1,5 +1,5 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "31/10/2026 às 05:01:54",
+  "ultima_atualizacao": "31/10/2026 às 12:00:43",
   "total": 36,
   "noticias": [
     {
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Receita paga nesta sexta-feira lote da malha fina do Imposto de Renda",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/mega-sena-nao-tem-ganhador-e-premio-sobe-para-r-6-milhoes",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
@@ -130,7 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Entidades repudiam listas de boicote por divergência política",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/entidades-repudiam-listas-de-boicote-divergencia-politica",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Ato de estudantes da UFF deu pontapé em mobilização por virada de Lula",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-de-estudantes-da-uff-deu-pontape-em-mobilizacao-por-virada-de-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Republicação de conteúdos após período de defeso eleitoral é concluída",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ebc-conclui-republicacao-de-conteudos-apos-periodo-de-defeso-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-orienta-trabalhadores-sobre-denuncias-de-assedio-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mpt-vai-justica-pede-rs-50-milhoes-da-meta-por-assedio-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/fuga-e-carta-golpista-ampliam-isolamento-de-flavio-bolsonaro",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/denuncias-de-assedio-eleitoral-no-trabalho-disparam-75-apos-2-turno",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Câmara Municipal de SP discute impeachment do prefeito Ricardo Nunes",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/camara-municipal-de-sp-discute-impeachment-do-prefeito-ricardo-nunes",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Coordenador de campanha do PL admite não ter prova de fraude eleitoral",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/coordenador-de-campanha-do-pl-admite-nao-ter-prova-de-fraude-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
@@ -260,7 +260,20 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
+    },
+    {
+      "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
+      "resumo": "Há 30 anos, Sandra Assali havia levado o marido, o médico cardiologista José Rahal Abu Assali, até o Aeroporto de Congonhas, na zona sul de São Paulo. Ele iria embarcar em um voo da então companhia aérea TAM (atual Latam) com destino ao Rio...",
+      "conteudo_completo": "Há 30 anos, Sandra Assali havia levado o marido, o médico cardiologista José Rahal Abu Assali, até o Aeroporto de Congonhas, na zona sul de São Paulo. Ele iria embarcar em um voo da então companhia aérea TAM (atual Latam) com destino ao Rio de Janeiro, onde daria aula em um congresso. Seria um bate e volta, já que o retorno à capital paulista era esperado para o mesmo dia.\n\nMas o cardiologista nunca chegou ao seu destino. Apenas 24 segundos depois da decolagem, de acordo com o relatório final elaborado pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), a aeronave em que ele estava bateu em três prédios e caiu em cima de diversas casas na Rua Luís Orsini de Castro, a cerca de 2 quilômetros do aeroporto. Com a queda, o avião pegou fogo, matando todas as 96 pessoas a bordo. Três pessoas que estavam no solo também morreram.\n\nNotícias relacionadas:Acidente com Fokker 100 exigiu mudanças na aviação brasileira.O acidente ocorreu por volta das 8h30 do dia 31 de outubro de 1996. Sandra tinha dois filhos pequenos naquela época. “O luto é permanente”, diz ela à reportagem da Agência Brasil.\n\n\n“A perda de alguém sempre marca. Você lembra o momento em que você recebeu essa notícia. Imagine então para um familiar. Para mim, a memória que eu tenho foi de ter deixado o meu marido no aeroporto e, em questão de 40 minutos, já tive a confirmação da perda dele.”\n\n\nSegundo Sandra, continuar falando sobre o acidente é importante para “manter essa data viva” e para que ela mesma se mantenha em movimento. “Isso é muito importante porque é isso que nos move, que faz a gente fazer as coisas acontecerem. A vida não tem preço, então esse é um assunto eterno”, afirmou.\n \n\n\n            \n        \n    \nSão Paulo - Rua Luís Orsini de Castro, no Jabaquara, onde há 30 anos caiu um avião modelo Fokker 100 da TAM - Foto: Rovena Rosa/Agência Brasil\n\n\nA associação\n\nDepois do acidente, a vida de Sandra e de todas aquelas famílias mudou completamente. “A vida dá, literalmente, uma guinada. E você se vê pai e mãe, algo que não era planejado. Aliás, nada daquilo era planejado. Pelo contrário, os planos eram muitos outros. E aí você tem que deixar tudo para lá porque agora há algo novo na sua vida. Receber essa informação, com esse impacto, e ter que trabalhar essa informação em você é muito complicado, para além do fato de que você está impactada, em choque, em sofrimento. Foi muito complexo”, disse.\n\nSem ter recebido o apoio necessário da empresa, ela e outros familiares de vítimas ajudaram a criar a primeira associação sobre um acidente aéreo do Brasil, a Associação Brasileira de Parentes e Amigos de Vítimas de Acidentes Aéreos (Abrapavaa), da qual Sandra é presidente. Um dos grandes marcos dessa associação foi ter ajudado a mudar a aviação no Brasil.\n\nAté 1996, quando ocorreu o acidente, as companhias aéreas ainda não eram obrigadas a fornecer assistência para as famílias de vítimas de acidentes. Mas, com muita luta, a associação conseguiu garantir que as empresas fossem obrigadas a garantir amparo e a assistência aos familiares em caso de acidentes aéreos.\n\n\n            \n        \n    \nA presidente da Associação Brasileira de Parentes e Amigos de Vítimas de Acidentes Aéreos (Abrapavaa), Sandra Assali - Foto: Sandra Assali/Arquivo Pessoal\n\n\n“Há um antes e um depois desse acidente. Mudou-se a forma de investigar [um acidente aéreo], mudou-se a forma das indenizações, mudou também a forma de se trabalhar com a reparação das famílias. Mudou até a assistência para familiares de vítimas, que não existia e passou a existir com a Abrapavaa. A associação trouxe, principalmente, uma forma de lidar com os familiares das vítimas. Esse foi um dos trabalhos que a gente conquistou”, destacou a presidente.\n\nDesde que foi criada, em 1997, a associação realizou uma série de congressos e acompanhou mais de 300 acidentes aéreos. “Só neste ano, tivemos 135 acidentes no Brasil. São muitos acidentes e tem muita coisa que, com certeza, dá para mudar e melhorar”, reforçou Sandra.\n\nO acidente\n\nA queda do Fokker 100 da TAM foi provocada por uma falha no reversor da turbina direita (o freio aerodinâmico), que abriu durante a decolagem. O reversor se abre para desacelerar o avião, preparando-o para o pouso. Mas, naquele dia, ele abriu na decolagem, em pleno voo. Isso foi como acionar o freio no momento em que a aeronave precisava acelerar para ganhar mais sustentação. Um problema para o qual o piloto e o copiloto não haviam sido treinados, já que as chances de que isso ocorresse eram raríssimas, da ordem de uma em 100 bilhões.\n\nDesestabilizado, o Fokker 100 \"tombou\" para a direita e atingiu prédios e casas até parar, provocando a morte de três pessoas em solo, matando além de passageiros e tripulantes. Após a investigação sobre as causas do acidente, nenhuma pessoa foi responsabilizada pela tragédia.\n\nProcurada pela Agência Brasil, a Latam Airlines Brasil informou que se solidariza com todas as pessoas Impactadas pelo trágico acidente. Em nota, a empresa destaca que, embora esteja consciente de que nada irá compensar as perdas dos entes queridos, “empenhou-se, desde o primeiro momento, em apoiar os familiares de todas as maneiras possíveis”.\n\n“A empresa informa que as causas do acidente foram esclarecidas em relatório do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), publicado em 1997. O documento incluiu recomendações necessárias sobre mudanças em procedimentos adotados pela companhia na época, além de solicitar modificações técnicas à fabricante da aeronave, cujo modelo deixou a frota em 2008”, escreveu a aérea.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Há 30 anos, Sandra Assali havia levado o marido, o médico cardiologista José Rahal Abu Assali, até o Aeroporto de Congonhas, na zona sul de São Paulo. Ele iria embarcar em um voo da então companhia aérea TAM (atual Latam) com destino ao Rio de Janeiro, onde daria aula em um congresso. Seria um bate e volta, já que o retorno à capital paulista era esperado para o mesmo dia.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707328&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707328&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mas o cardiologista nunca chegou ao seu destino. <strong>Apenas 24 segundos depois da decolagem, de acordo com o relatório final elaborado pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), a aeronave em que ele estava bateu em três prédios e caiu em cima de diversas casas na Rua Luís Orsini de Castro, a cerca de 2 quilômetros do aeroporto. Com a queda, o avião pegou fogo, matando todas as 96 pessoas a bordo. Três pessoas que estavam no solo também morreram.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O acidente ocorreu por volta das 8h30 do dia 31 de outubro de 1996. Sandra tinha dois filhos pequenos naquela época. “O luto é permanente”, diz ela à reportagem da <strong>Agência Brasil</strong>.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“A perda de alguém sempre marca. Você lembra o momento em que você recebeu essa notícia. Imagine então para um familiar. Para mim, a memória que eu tenho foi de ter deixado o meu marido no aeroporto e, em questão de 40 minutos, já tive a confirmação da perda dele.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A perda de alguém sempre marca. Você lembra o momento em que você recebeu essa notícia. Imagine então para um familiar. Para mim, a memória que eu tenho foi de ter deixado o meu marido no aeroporto e, em questão de 40 minutos, já tive a confirmação da perda dele.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo Sandra, continuar falando sobre o acidente é importante para “manter essa data viva” e para que ela mesma se mantenha em movimento. “Isso é muito importante porque é isso que nos move, que faz a gente fazer as coisas acontecerem. A vida não tem preço, então esse é um assunto eterno”, afirmou.<br/>\n </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>A associação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Depois do acidente, a vida de Sandra e de todas aquelas famílias mudou completamente. “A vida dá, literalmente, uma guinada. E você se vê pai e mãe, algo que não era planejado. Aliás, nada daquilo era planejado. Pelo contrário, os planos eram muitos outros. E aí você tem que deixar tudo para lá porque agora há algo novo na sua vida. Receber essa informação, com esse impacto, e ter que trabalhar essa informação em você é muito complicado, para além do fato de que você está impactada, em choque, em sofrimento. Foi muito complexo”, disse.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Sem ter recebido o apoio necessário da empresa, ela e outros familiares de vítimas ajudaram a criar a primeira associação sobre um acidente aéreo do Brasil, a Associação Brasileira de Parentes e Amigos de Vítimas de Acidentes Aéreos (Abrapavaa), da qual Sandra é presidente. Um dos <a href=\"https://agenciabrasil.ebc.com.br/geral/noticia/2021-10/acidente-com-fokker-100-exigiu-mudancas-na-aviacao-brasileira\" target=\"_blank\">grandes marcos </a>dessa associação foi ter ajudado a mudar a aviação no Brasil.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Até 1996, quando ocorreu o acidente, as companhias aéreas ainda não eram obrigadas a fornecer assistência para as famílias de vítimas de acidentes. Mas, com muita luta, a associação conseguiu garantir que as empresas fossem obrigadas a garantir amparo e a assistência aos familiares em caso de acidentes aéreos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Há um antes e um depois desse acidente. Mudou-se a forma de investigar [um acidente aéreo], mudou-se a forma das indenizações, mudou também a forma de se trabalhar com a reparação das famílias. Mudou até a assistência para familiares de vítimas, que não existia e passou a existir com a Abrapavaa. A associação trouxe, principalmente, uma forma de lidar com os familiares das vítimas. Esse foi um dos trabalhos que a gente conquistou”, destacou a presidente.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desde que foi criada, em 1997, a associação realizou uma série de congressos e acompanhou mais de 300 acidentes aéreos. “Só neste ano, tivemos 135 acidentes no Brasil. São muitos acidentes e tem muita coisa que, com certeza, dá para mudar e melhorar”, reforçou Sandra.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>O acidente</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A queda do Fokker 100 da TAM foi provocada por uma falha no reversor da turbina direita (o freio aerodinâmico), que abriu durante a decolagem. O reversor se abre para desacelerar o avião, preparando-o para o pouso. Mas, naquele dia, ele abriu na decolagem, em pleno voo. Isso foi como acionar o freio no momento em que a aeronave precisava acelerar para ganhar mais sustentação. Um problema para o qual o piloto e o copiloto não haviam sido treinados, já que as chances de que isso ocorresse eram raríssimas, da ordem de uma em 100 bilhões.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Desestabilizado, o Fokker 100 \"tombou\" para a direita e atingiu prédios e casas até parar, provocando a morte de três pessoas em solo, matando além de passageiros e tripulantes. Após a investigação sobre as causas do acidente, nenhuma pessoa foi responsabilizada pela tragédia.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Procurada pela <strong>Agência Brasil</strong>, a Latam Airlines Brasil informou que se solidariza com todas as pessoas Impactadas pelo trágico acidente. Em nota, a empresa destaca que, embora esteja consciente de que nada irá compensar as perdas dos entes queridos, “empenhou-se, desde o primeiro momento, em apoiar os familiares de todas as maneiras possíveis”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A empresa informa que as causas do acidente foram esclarecidas em relatório do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), publicado em 1997. O documento incluiu recomendações necessárias sobre mudanças em procedimentos adotados pela companhia na época, além de solicitar modificações técnicas à fabricante da aeronave, cujo modelo deixou a frota em 2008”, escreveu a aérea.</p>",
+      "imagem": "https://imagens.ebc.com.br/nrXwd7uk5J1s8gMRXEIFLMlU9xc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/30/captura_de_tela_2026-10-30_as_16.56.06.jpg?itok=5dSFNIT9",
+      "slug": "luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam",
+      "pagina_local": "luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam",
+      "categoria": "Geral & Cidadania",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
@@ -273,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -286,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-de-sp-investiga-venda-de-dados-de-mortos-funerarias",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -299,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
@@ -312,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
@@ -325,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motorista-infarta-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -338,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ebc-conquista-mais-r-23-milhoes-para-investimento-na-tv-30-no-brasil",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -351,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/biometria-facial-sera-obrigatoria-para-usuarios-de-telefonia-movel",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Santos: Polícia apreende dois menores suspeitos da morte de engenheiro",
@@ -364,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/santos-policia-apreende-dois-menores-suspeitos-da-morte-de-engenheiro",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Afastamentos por vício em jogos cresceram 5 vezes em três anos",
@@ -377,20 +390,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/afastamentos-por-vicio-em-jogos-cresceram-5-vezes-em-tres-anos",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
-    },
-    {
-      "titulo": "INSS alerta para golpes que usam informação falsa sobre biometria",
-      "resumo": "O Instituto Nacional do Seguro Social (INSS) divulgou nota para informar que são falsas informações que circulam na internet e nas redes sociais sobre o bloqueio de benefícios. Os conteúdos falsos dizem que seria necessário realizar um cada...",
-      "conteudo_completo": "O Instituto Nacional do Seguro Social (INSS) divulgou nota para informar que são falsas informações que circulam na internet e nas redes sociais sobre o bloqueio de benefícios. Os conteúdos falsos dizem que seria necessário realizar um cadastro biométrico para impedir que o benefício fosse suspenso. \n\nNo entanto, o INSS informa que essa exigência só é válida para novos pedidos feitos desde 21 de novembro de 2025. O órgão reforça que os beneficiários não precisam comparecer às agências do INSS para fazer cadastro biométrico.\n\nNotícias relacionadas:Saiba como se proteger de golpes digitais.Cartórios lançam ferramenta que permite pesquisar imóveis no país.Quase um terço dos usuários de internet relatam tentativas de golpe.“Em realidade, nem sequer existe essa opção. Pois o registro biométrico significa que o cidadão precisa ter sua identidade confirmada por meio de uma biometria cadastrada em uma base oficial do governo”, diz a nota. \n\nEsse cadastramento é feito quando o cidadão emite algum documento público, como a Carteira de Identidade Nacional (CIN), a Carteira Nacional de Habilitação (CNH) ou título de eleitor. \n\nGolpe \n\nO INSS alerta para tentativas de fraude que utilizam informações falsas sobre biometria para obter dados pessoais das vítimas. O órgão ressalta que não envia servidores à casa dos cidadãos para fazer a comprovação de vida, nem solicita senhas, dados bancários ou transferências de dinheiro. \n\nTambém orienta para não clicar em links desconhecidos, uma vez que os golpistas usam páginas falsas para capturar dados e aplicá-los em outras fraudes. \n\nIsenção \n\nMesmo entre quem solicitou o benefício após 21 de novembro do ano passado, nem todos precisam de documento com biometria. A legislação estabelece algumas exceções, como idosos com mais de 80 anos, migrantes, refugiados, apátridas, pessoas impossibilitadas de se deslocar por mais de 30 dias por motivo de saúde, entre outros.\n\nAlém disso, também estão isentos da obrigatoriedade do registro biométrico os pedidos de salário-maternidade, benefícios por incapacidade e pensão por morte.\n\nEm caso de dúvida sobre a situação do benefício, o cidadão deve consultar o Meu INSS ou ligar para o 135.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Instituto Nacional do Seguro Social (INSS) divulgou nota para informar que são falsas informações que circulam na internet e nas redes sociais sobre o bloqueio de benefícios. Os conteúdos falsos dizem que seria necessário realizar um cadastro biométrico para impedir que o benefício fosse suspenso. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707069&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707069&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No entanto, o INSS informa que essa exigência só é válida para novos pedidos feitos desde 21 de novembro de 2025. <strong>O órgão reforça que os beneficiários não precisam comparecer às agências do INSS para fazer cadastro biométrico.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Em realidade, nem sequer existe essa opção. Pois o registro biométrico significa que o cidadão precisa ter sua identidade confirmada por meio de uma biometria cadastrada em uma base oficial do governo”, diz a nota. </p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Esse cadastramento é feito quando o cidadão emite algum documento público</strong>,<strong> </strong>como a Carteira de Identidade Nacional (CIN), a Carteira Nacional de Habilitação (CNH) ou título de eleitor. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Golpe </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O INSS alerta para tentativas de fraude que utilizam informações falsas sobre biometria para obter dados pessoais das vítimas. </strong>O órgão ressalta que não envia servidores à casa dos cidadãos para fazer a comprovação de vida, nem solicita senhas, dados bancários ou transferências de dinheiro. </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Também orienta para não clicar em <em>links</em> desconhecidos, uma vez que os golpistas usam páginas falsas para capturar dados e aplicá-los em outras fraudes. </strong></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Isenção </h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Mesmo entre quem solicitou o benefício após 21 de novembro do ano passado, nem todos precisam de documento com biometria. A legislação estabelece algumas exceções, como idosos com mais de 80 anos, migrantes, refugiados, apátridas, pessoas impossibilitadas de se deslocar por mais de 30 dias por motivo de saúde, entre outros.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Além disso, também estão isentos da obrigatoriedade do registro biométrico os pedidos de salário-maternidade, benefícios por incapacidade e pensão por morte.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em caso de dúvida sobre a situação do benefício, o cidadão deve consultar o <a href=\"https://meu.inss.gov.br/#/login\" target=\"_blank\">Meu INSS</a> ou ligar para o 135.</p>",
-      "imagem": "https://imagens.ebc.com.br/MCBegwIqcunIxkSgEksMPFwkegM=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/biometria.jpg?itok=LJ-Fszmv",
-      "slug": "inss-alerta-para-golpes-que-usam-informacao-falsa-sobre-biometria",
-      "pagina_local": "inss-alerta-para-golpes-que-usam-informacao-falsa-sobre-biometria.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/inss-alerta-para-golpes-que-usam-informacao-falsa-sobre-biometria",
-      "categoria": "Geral & Cidadania",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Família denuncia agressão a Marielle em grupo de WhatsApp da PUC-Rio",
@@ -403,7 +403,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/familia-denuncia-agressao-marielle-em-grupo-de-whatsapp-da-puc-rio",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
@@ -416,7 +416,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Caseiro explorado e usado como laranja no DF receberá pensão mensal",
@@ -429,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/caseiro-explorado-eusado-como-laranja-no-df-recebera-pensao-mensal",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "SUS detecta quase 10 mil testes positivos para HPV de alto risco",
@@ -442,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/sus-detecta-quase-10-mil-testes-positivos-para-hpv-de-alto-risco",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Pesca na foz do Rio Doce volta a ser liberada depois de dez anos",
@@ -455,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/pesca-na-foz-do-rio-doce-volta-ser-liberada-depois-de-dez-anos",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Países consideram insuficientes ações contra crise da biodiversidade",
@@ -468,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/paises-consideram-insuficientes-acoes-contra-crise-da-biodiversidade",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     }
   ]
 };

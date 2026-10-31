@@ -1,5 +1,5 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "31/10/2026 às 05:02:02",
+  "ultima_atualizacao": "31/10/2026 às 12:00:53",
   "total": 30,
   "politica": [
     {
@@ -14,7 +14,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Ato de estudantes da UFF deu pontapé em mobilização por virada de Lula",
@@ -28,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Republicação de conteúdos após período de defeso eleitoral é concluída",
@@ -42,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
@@ -56,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral",
@@ -70,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
@@ -84,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno",
@@ -98,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Câmara Municipal de SP discute impeachment do prefeito Ricardo Nunes",
@@ -112,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Coordenador de campanha do PL admite não ter prova de fraude eleitoral",
@@ -126,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
@@ -140,7 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Caseiro explorado e usado como laranja no DF receberá pensão mensal",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Empresário é condenado a 17 anos por morte de motorista de aplicativo",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Defesa diz que 657 arquivos do celular de Vorcaro foram modificados",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Vorcaro diz que não fez nada errado e pede voto de confiança",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Operação Contenção: DPRJ pede R$ 50 milhões em reparação a moradores",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Fachin arquiva mais cinco investigações do Inquérito das Fake News",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Condenado por lesão corporal contra mulher fica inelegível, decide TSE",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:01"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "PF cumpre no Rio novos mandados da Operação Unha e Carne",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Receita paga nesta sexta-feira lote da malha fina do Imposto de Renda",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Mega-Sena não tem ganhador e prêmio sobe para R$ 6 milhões",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     },
     {
       "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 05:02"
+      "coletado_em": "31/10/2026 às 12:00"
     }
   ]
 };
