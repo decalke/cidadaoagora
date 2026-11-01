@@ -1,6 +1,6 @@
 const DADOS_NOTICIAS = {
-  "ultima_atualizacao": "01/11/2026 às 00:52:56",
-  "total": 36,
+  "ultima_atualizacao": "01/11/2026 às 07:17:13",
+  "total": 37,
   "noticias": [
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
@@ -13,7 +13,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -26,7 +26,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -39,7 +39,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acordo-mercosul-ue-eleva-exportacoes-brasileiras-em-21",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -52,7 +52,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -65,7 +65,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -78,7 +78,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-preve-tres-leiloes-de-transmissao-de-energia-em-2027",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -91,7 +91,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/com-muita-disputa-aneel-leiloou-oito-lotes-de-transmissao-de-energia",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -104,7 +104,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/brasil-abre-mercados-de-bangladesh-e-colombia",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -117,7 +117,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -130,7 +130,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
       "categoria": "Economia & Tributos",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral em três dias",
@@ -143,7 +143,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mte-recebe-43-mil-denuncias-de-assedio-eleitoral-em-tres-dias",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Aluno é ameaçado de morte no DF por opção política",
@@ -156,7 +156,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aluno-e-ameacado-de-morte-no-df-por-opcao-politica",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Estudantes relatam violência relacionada à eleição presidencial",
@@ -169,7 +169,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/estudantes-relatam-violencia-relacionada-eleicao-presidencial",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Ação Popular pede suspensão de salário do senador Flávio Bolsonaro",
@@ -182,7 +182,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/acao-popular-pede-suspensao-de-salario-do-senador-flavio-bolsonaro",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Vieira encontra Rubio nos EUA após vitória de Lula e fuga de Flávio",
@@ -195,7 +195,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/vieira-encontra-rubio-nos-eua-apos-vitoria-de-lula-e-fuga-de-flavio",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC da Segurança Pública para terça-feira",
@@ -208,7 +208,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-feira",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Entidades repudiam listas de boicote por divergência política",
@@ -221,7 +221,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/entidades-repudiam-listas-de-boicote-divergencia-politica",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Ato de estudantes da UFF deu pontapé em mobilização por virada de Lula",
@@ -234,7 +234,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-de-estudantes-da-uff-deu-pontape-em-mobilizacao-por-virada-de-lula",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Republicação de conteúdos após período de defeso eleitoral é concluída",
@@ -247,7 +247,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ebc-conclui-republicacao-de-conteudos-apos-periodo-de-defeso-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
@@ -260,7 +260,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-orienta-trabalhadores-sobre-denuncias-de-assedio-eleitoral",
       "categoria": "Política & Leis",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Inscrições para Prêmio Desenvolvimento em Jogo terminam neste domingo",
@@ -273,7 +273,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/inscricoes-para-premio-desenvolvimento-em-jogo-terminam-neste-domingo",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Inmet alerta para chuvas no Norte, Sudeste e Centro-Oeste",
@@ -286,7 +286,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/inmet-alerta-para-chuvas-no-norte-sudeste-e-centro-oeste",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
@@ -299,7 +299,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
@@ -312,7 +312,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -325,7 +325,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-de-sp-investiga-venda-de-dados-de-mortos-funerarias",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -338,7 +338,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
@@ -351,7 +351,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
@@ -364,7 +364,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motorista-infarta-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -377,7 +377,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ebc-conquista-mais-r-23-milhoes-para-investimento-na-tv-30-no-brasil",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -390,7 +390,33 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/biometria-facial-sera-obrigatoria-para-usuarios-de-telefonia-movel",
       "categoria": "Geral & Cidadania",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
+    },
+    {
+      "titulo": "Com viradas, Corinthians bate Palmeiras na semi do Paulista F Sub-20",
+      "resumo": "O Palmeiras virou, mas o Corinthians virou de volta e venceu o primeiro confronto da semifinal do Campeonato Paulista Feminino Sub-20 Petrobras, neste sábado (31), na Arena Barueri. \n\nO duelo, que teve transmissão ao vivo da TV Brasil, term...",
+      "conteudo_completo": "O Palmeiras virou, mas o Corinthians virou de volta e venceu o primeiro confronto da semifinal do Campeonato Paulista Feminino Sub-20 Petrobras, neste sábado (31), na Arena Barueri. \n\nO duelo, que teve transmissão ao vivo da TV Brasil, terminou com vitória das Brabas por 3 a 2. O jogo de volta ocorre no dia 9 de novembro, na casa do Timão.\n\nNotícias relacionadas:SP e Ferroviária empatam no 1º jogo da semifinal do Paulista F Sub-20.O dérbi teve um primeiro tempo agitado. Logo no começo, as Brabas abriram o placar. Após cobrança de escanteio pela direita, a goleira Vitória falhou e não conseguiu interceptar a bola, que foi desviada por Dani Pereira para dentro do gol.\n\nAs Palestrinas não tardaram a igualar. Após bola rebatida, Thaís ajeitou e chutou forte, de fora da área. A bola tocou no travessão e quicou já dentro do gol corintiano.\n\nEm ritmo frenético, o Palmeiras virou aos 21. Após erro na saída de bola do Corinthians, Ket pegou o rebote de uma finalização defendida por Ana Morganti e marcou.\n\nPouco antes do intervalo, novo empate. A zaga alviverde afastou mal uma bola longa e Jordi, de primeira, marcou um golaço encobrindo Vitória.\n\nAos 18 da segunda etapa, quando o Palmeiras já tinha uma jogadora a menos (Kerlly foi expulsa), Jordi completou nova virada com seu segundo gol.\n\nEla recebeu cruzamento rasteiro pela esquerda e aproveitou que Vitória saiu mal da meta para finalizar para as redes, dando números finais à partida.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Palmeiras virou, mas o Corinthians virou de volta e venceu o primeiro confronto da semifinal do Campeonato Paulista Feminino Sub-20 Petrobras, neste sábado (31), na Arena Barueri. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707441&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707441&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O duelo, que teve transmissão ao vivo da <strong>TV Brasil</strong>, terminou com vitória das Brabas por 3 a 2. O jogo de volta ocorre no dia 9 de novembro, na casa do Timão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O dérbi teve um primeiro tempo agitado. Logo no começo, as Brabas abriram o placar. Após cobrança de escanteio pela direita, a goleira Vitória falhou e não conseguiu interceptar a bola, que foi desviada por Dani Pereira para dentro do gol.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As Palestrinas não tardaram a igualar. Após bola rebatida, Thaís ajeitou e chutou forte, de fora da área. A bola tocou no travessão e quicou já dentro do gol corintiano.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em ritmo frenético, o Palmeiras virou aos 21. Após erro na saída de bola do Corinthians, Ket pegou o rebote de uma finalização defendida por Ana Morganti e marcou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Pouco antes do intervalo, novo empate. A zaga alviverde afastou mal uma bola longa e Jordi, de primeira, marcou um golaço encobrindo Vitória.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Aos 18 da segunda etapa, quando o Palmeiras já tinha uma jogadora a menos (Kerlly foi expulsa), Jordi completou nova virada com seu segundo gol.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ela recebeu cruzamento rasteiro pela esquerda e aproveitou que Vitória saiu mal da meta para finalizar para as redes, dando números finais à partida. </p>",
+      "imagem": "https://imagens.ebc.com.br/6QsCwqdCKC6HBjTKNlin20jWNbE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/31/com_viradas_corinthians_bate_palmeiras_na_semi_do_paulista_f_sub-20.jpg?itok=0SQ-naUR",
+      "slug": "com-viradas-corinthians-bate-palmeiras-na-semi-do-paulista-f-sub-20",
+      "pagina_local": "com-viradas-corinthians-bate-palmeiras-na-semi-do-paulista-f-sub-20.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/com-viradas-corinthians-bate-palmeiras-na-semi-do-paulista-f-sub-20",
+      "categoria": "Últimas Notícias",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "01/11/2026 às 07:17"
+    },
+    {
+      "titulo": "Coritiba derrota Vitória e volta a vencer depois de sete jogos: 2 a 0",
+      "resumo": "No jogo que encerrou a 33ª rodada do Campeonato Brasileiro, o Coritiba venceu o Vitória por 2 a 0, neste sábado (31), no Couto Pereira, ganhando fôlego na briga contra o rebaixamento e se afastando do grupo dos quatro últimos colocados.\n\nA ...",
+      "conteudo_completo": "No jogo que encerrou a 33ª rodada do Campeonato Brasileiro, o Coritiba venceu o Vitória por 2 a 0, neste sábado (31), no Couto Pereira, ganhando fôlego na briga contra o rebaixamento e se afastando do grupo dos quatro últimos colocados.\n\nA equipe paranaense acumulava sete jogos sem vitória e agora soma 42 pontos, seis a mais do que o primeiro clube dentro do Z-4, o Corinthians. Já o Vitória, que agora vive um breve jejum de quatro jogos sem triunfos, é o 14º, com 38.\n\nNotícias relacionadas:Remo volta a vencer após 12 jogos e complica Botafogo no Brasileirão.Com dois empates e cinco derrotas nos sete jogos anteriores, o Coxa teve um primeiro tempo nervoso, de várias chances criadas mas não convertidas. Em uma delas, após defesa do goleiro Lucas Arcanjo, a bola bateu na travessão e foi afastada pela defesa praticamente em cima da linha.\n\nNo segundo tempo, a equipe paranaense, comandada de forma interina por Guilherme Bossle após a demissão de Fernando Seabra, enfim conseguiu transformar o domínio em vantagem.\n\nAos 13 minutos, Pedro Rocha aproveitou rebote de chute longo de Sebastián Gómez para abrir o placar.\n\nDez minutos depois, o gol que assegurou os três pontos veio com Tinga, que estava bem posicionado na pequena área quando Tiago Cóser cabeceou para o meio após cobrança de escanteio.\n\nO resultado aliviou o drama do Coritiba mas mantém o do Vitória, que ainda não venceu como visitante em todo o Campeonato Brasileiro de 2026.\n\nContando com a força da torcida no Barradão, o Rubro-Negro baiano tenta vencer o Fluminense na sexta-feira (5). O Coritiba entra em campo três dias antes, visitando o Internacional no Beira-Rio.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>No jogo que encerrou a 33ª rodada do Campeonato Brasileiro, o Coritiba venceu o Vitória por 2 a 0</strong>, neste sábado (31), no Couto Pereira, ganhando fôlego na briga contra o rebaixamento e se afastando do grupo dos quatro últimos colocados.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707443&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707443&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A equipe paranaense acumulava sete jogos sem vitória e agora soma 42 pontos, seis a mais do que o primeiro clube dentro do Z-4, o Corinthians. Já o Vitória, que agora vive um breve jejum de quatro jogos sem triunfos, é o 14º, com 38.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com dois empates e cinco derrotas nos sete jogos anteriores, o Coxa teve um primeiro tempo nervoso, de várias chances criadas mas não convertidas. Em uma delas, após defesa do goleiro Lucas Arcanjo, a bola bateu na travessão e foi afastada pela defesa praticamente em cima da linha.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No segundo tempo, a equipe paranaense, comandada de forma interina por Guilherme Bossle após a demissão de Fernando Seabra, enfim conseguiu transformar o domínio em vantagem.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Aos 13 minutos, Pedro Rocha aproveitou rebote de chute longo de Sebastián Gómez para abrir o placar.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Dez minutos depois, o gol que assegurou os três pontos veio com Tinga, que estava bem posicionado na pequena área quando Tiago Cóser cabeceou para o meio após cobrança de escanteio.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O resultado aliviou o drama do Coritiba mas mantém o do Vitória, que ainda não venceu como visitante em todo o Campeonato Brasileiro de 2026.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Contando com a força da torcida no Barradão, o Rubro-Negro baiano tenta vencer o Fluminense na sexta-feira (5). O Coritiba entra em campo três dias antes, visitando o Internacional no Beira-Rio. </p>",
+      "imagem": "https://imagens.ebc.com.br/ccMiYnW9QYgIYsfn361MB_exukU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/31/coritiba_derrota_vitoria_e_volta_a_vencer_depois_de_sete_jogos_2_a_0.jpg?itok=rTl41JZ3",
+      "slug": "coritiba-derrota-vitoria-e-volta-a-vencer-depois-de-sete-jogos-2-a-0",
+      "pagina_local": "coritiba-derrota-vitoria-e-volta-a-vencer-depois-de-sete-jogos-2-a-0.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/coritiba-derrota-vitoria-e-volta-vencer-depois-de-sete-jogos-2-0",
+      "categoria": "Últimas Notícias",
+      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Aldeias Guarani Kaiowá vão receber proteção da Força Nacional",
@@ -403,7 +429,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/aldeias-guarani-kaiowa-vao-receber-protecao-da-forca-nacional",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Brasil avança às quartas da AmeriCup no basquete masculino 3x3",
@@ -416,7 +442,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/brasil-avanca-quartas-da-americup-no-basquete-masculino-3x3",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Protestos da Geração Z chegam à Alemanha; milhares se manifestam",
@@ -429,7 +455,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/protestos-da-geracao-z-chegam-alemanha-milhares-se-manifestam",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Corinthians encerra jejum com vitória sobre o Mirassol: 2 a 0",
@@ -442,7 +468,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-10/corinthians-encerra-jejum-com-vitoria-sobre-o-mirassol-2-0",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     },
     {
       "titulo": "Incêndio na APA Alter do Chão (PA) foi controlado, diz prefeitura",
@@ -455,20 +481,7 @@ const DADOS_NOTICIAS = {
       "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/incendio-na-apa-alter-do-chao-pa-foi-controlado-diz-prefeitura",
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
-    },
-    {
-      "titulo": "STF determina soltura de desembargador preso na Operação Unha e Carne",
-      "resumo": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes autorizou a soltura do desembargador federal Macário Júdice. Ele havia sido preso durante a Operação Unha e Carne, da Polícia Federal (PF), em dezembro do ano passado. \n\n&gt;&...",
-      "conteudo_completo": "O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes autorizou a soltura do desembargador federal Macário Júdice. Ele havia sido preso durante a Operação Unha e Carne, da Polícia Federal (PF), em dezembro do ano passado. \n\n&gt;&gt; Clique aqui e leia mais sobre a Operação Unha e Carne na Agência Brasil\n\nNotícias relacionadas:PF cumpre no Rio novos mandados da Operação Unha e Carne.RJ: deputado estadual Thiago Rangel é preso na Operação Unha e Carne .Polícia Federal deflagra 6ª fase da Operação Unha e Carne, no Rio .De acordo com a assessoria de imprensa do STF, sua prisão preventiva foi convertida em medidas cautelares e uso de tornozeleira eletrônica. \n\nMacário Júdice atua no 2º Tribunal Regional Federal (TRF 2) e foi preso na segunda fase da Unha e Carne, que investiga o vazamento de informações sigilosas da investigação contra o ex-deputado estadual TH Joias.\n\nA prisão dele foi um desdobramento da operação que já havia prendido dias antes, o então presidente da Assembleia Legislativa do Rio (Alerj), agora ex-deputado Rodrigo Bacellar.\n\nSegundo o advogado de Rodrigo Bacellar, Daniel Bialski, o ministro Alexandre de Moraes também decidiu transferir seu cliente, da penitenciária federal de Mossoró para o sistema penal fluminense.\n\nEle disse, no entanto, que ainda não há informações sobre o destino de Bacellar. O STF não deu informações sobre a transferência do ex-deputado.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes autorizou a soltura do desembargador federal Macário Júdice. <a href=\"https://agenciabrasil.ebc.com.br/justica/noticia/2025-12/desembargador-e-preso-por-operacao-que-mirou-em-presidente-da-alerj\" target=\"_blank\">Ele havia sido preso durante</a> a Operação Unha e Carne, da Polícia Federal (PF), em dezembro do ano passado. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707432&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707432&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>&gt;&gt; Clique aqui e leia mais sobre a <a href=\"https://agenciabrasil.ebc.com.br/tags/operacao-unha-e-carne\" target=\"_blank\">Operação Unha e Carne</a> na <strong>Agência Brasil</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>De acordo com a assessoria de imprensa do STF, sua prisão preventiva foi convertida em medidas cautelares e uso de tornozeleira eletrônica. </strong></p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Macário Júdice atua no 2º Tribunal Regional Federal (TRF 2) e foi preso na segunda fase da Unha e Carne, que investiga o vazamento de informações sigilosas da investigação contra o ex-deputado estadual TH Joias.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A prisão dele foi um desdobramento da operação que já havia prendido dias antes, o então presidente da Assembleia Legislativa do Rio (Alerj), agora ex-deputado Rodrigo Bacellar.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo o advogado de Rodrigo Bacellar, Daniel Bialski, o ministro Alexandre de Moraes também decidiu transferir seu cliente, da penitenciária federal de Mossoró para o sistema penal fluminense.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ele disse, no entanto, que ainda não há informações sobre o destino de Bacellar. O STF não deu informações sobre a transferência do ex-deputado.</p>",
-      "imagem": "https://imagens.ebc.com.br/_YpC-ND1VXOQZ7AiRrtz74XN988=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/11042023-pzzb9267.jpg?itok=HIB9xWvI",
-      "slug": "stf-determina-soltura-de-desembargador-preso-na-operacao-unha-e-carne",
-      "pagina_local": "stf-determina-soltura-de-desembargador-preso-na-operacao-unha-e-carne.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/stf-determina-soltura-de-desembargador-preso-na-operacao-unha-e-carne",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "01/11/2026 às 00:52"
+      "coletado_em": "01/11/2026 às 07:17"
     }
   ]
 };
