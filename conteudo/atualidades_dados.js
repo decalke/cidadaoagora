@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "01/11/2026 às 14:53:57",
+  "ultima_atualizacao": "01/11/2026 às 19:27:59",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Petrobras reajusta combustível de aviação em R$ 0,45 por litro",
+      "resumo": "A Petrobras anunciou reajuste médio de 7,2% no querosene de aviação vendido às distribuidoras, a partir deste domingo (1°). Isso corresponde a um aumento de R$ 0,45 por litro em relação ao mês anterior.\n\nEm outubro, o co...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Petrobras anunciou reajuste médio de 7,2% no querosene de aviação vendido às distribuidoras, a partir deste domingo (1°). Isso corresponde a um aumento de R$ 0,45 por litro em relação ao mês anterior.\n\nEm outubro, o combustível utilizado em aviões e helicópteros já havia sofrido reajuste médio de 11,76%, ou 0,65 centavos por litro.\n\nNotícias relacionadas:Petrobras inova na produção sustentável de combustível de aviação.A estatal tem participação de cerca de 85% na produção do QAV nacional, mas o mercado é aberto à livre concorrência, sem restrições para outras empresas atuarem como produtoras ou importadoras.\n\nDe acordo com a companhia, o reajuste se deve ao aumento da cotação internacional do combustível, \"em um cenário de intensificação das tensões geopolíticas no Oriente Médio e de redução da capacidade de refino na Rússia e na Ucrânia em decorrência do conflito entre os dois países.\" \n\nA Petrobras ressalvou, em nota, que as variações acumuladas no Brasil são menores do que as observadas no mercado internacional, onde os reajustes chegam a ser diários, desde o início do conflito no Oriente Médio. Aqui, o valor é reajustado mensalmente. \n\nA companhia disse também que segue uma \"fórmula paramétrica prevista em contrato\", que vem amortecendo as oscilações de curto prazo, \"resultando em reajustes mais moderados do que os observados internacionalmente.\" \n\nApesar disso, de acordo com a Associação Brasileira de Empresas Aéreas, a participação do QAV nos custos operacionais das companhias brasileiras subiu de 30% para mais de 45% desde o início dos conflitos no Oriente Médio.</p>",
+      "imagem": "https://imagens.ebc.com.br/mIxopQgCPhfLCEntjAfos5JBGt4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/15/img_0228-4.jpg?itok=yG0GqGVg",
+      "slug": "petrobras-reajusta-combustivel-de-aviacao-em-r-0-45-por-litro",
+      "pagina_local": "petrobras-reajusta-combustivel-de-aviacao-em-r-0-45-por-litro.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-reajusta-combustivel-de-aviacao-em-r-045-por-litro",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "01/11/2026 às 19:27"
+    },
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
       "resumo": "Estudo da Universidade Federal de Viçosa (UFV), em parceria com a Croplife Brasil, associação que reúne empresas de biotecnologia, melhoramento genético e defensivos agrícolas, mostrou que as lavouras de soja no país ter...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -117,20 +130,33 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
-      "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
-      "resumo": "Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recol...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os micro e pequenos empresários precisam ficar atentos. Acaba nesta sexta-feira (30) o prazo para a escolha do regime tributário que entrará em vigor em janeiro, com a reforma tributária.\n\nOs negócios que desejarem recolher o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS) pelo regime regular terão até esta sexta para registrar a opção.\n\nNotícias relacionadas:TCU aprova cálculo da alíquota de referência da CBS em 11,3%.Reforma Tributária: 86% das notas fiscais destacam a CBS.União libera R$ 950 milhões para instalar Comitê do IBS.Quem não fizer a escolha continuará a recolher pelo regime simplificado, que tem uma alíquota variável por tipo e tamanho de negócio posteriormente rateada em diversos tributos.\n\nTambém acaba nesta sexta o prazo para as empresas regularizarem as pendências que impediram o ingresso no Simples Nacional. O prazo de opção pelo regime acabou no dia 15.\n\nO Simples Nacional é um regime simplificado de tributação para quem fatura até R$ 4,8 milhões por ano. Por causa do novo sistema tributário, o Comitê Gestor do Simples Nacional (CGSN) antecipou a escolha do regime tributário. Até então, a opção pelo Simples era realizada em janeiro de cada ano.\n\nA data limite acabaria em 30 de setembro, mas, após diálogo com o Conselho Federal de Contabilidade e o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae), o CGSN estendeu o prazo para 15 de outubro.\n\nO novo prazo foi regulamentado por resolução do CGSN editada no fim de setembro. As normas incorporaram ao regime simplificado o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS), tributos criados pela reforma tributária sobre o consumo.\n\nAs micro e pequenas empresas têm de 3 de novembro a 20 de dezembro para desistir das opções. O prazo vale tanto para reverter a inclusão no Simples como para cancelar o recolhimento do IBS e da CBS a partir de 2027.\n\nO que muda\n\nA nova regra vale para empresas que ainda não são optantes pelo Simples Nacional e querem utilizar o regime a partir de janeiro de 2027.\n\nOs novos prazos são:\n\n\n\t1º de setembro a 15 de outubro de 2026: período para solicitar a opção pelo Simples Nacional para 2027;\n\t1º de setembro a 30 de outubro de 2026: escolha do regime regular da CBS e do IBS para o primeiro semestre de 2027;\n\t30 de outubro de 2026: regularização de pendências que tenham impedido opção pelo Simples Nacional;\n\t3 de novembro a 20 de dezembro de 2026: prazo para desistir das opções.\n\n\nAs seguintes datas estão mantidas:\n\n\n\t1º de janeiro de 2027: início dos efeitos da opção;\n\t1º a 31 de março de 2027: nova oportunidade para escolher o recolhimento do IBS e da CBS pelo regime regular, com efeitos no segundo semestre.\n\n\nCriada por causa da transição para o novo sistema tributário, a alteração busca dar mais previsibilidade às empresas antes do início do ano-calendário.\n\nIBS e CBS\n\nOutra mudança envolve a forma de recolhimento do IBS e da CBS. A empresa poderá permanecer no Simples Nacional e, simultaneamente, optar pelo recolhimento desses dois tributos pelo regime regular.\n\nPara o primeiro semestre de 2027, a escolha deveria ter sido feita em setembro, com validade de janeiro a junho.\n\nQuem não fez a opção pelo regime regular nesse período permanecerá, no primeiro semestre, com IBS e CBS dentro da sistemática do Simples.\n\nA decisão poderá ser revista em março de 2027, com efeitos para o segundo semestre.\n\nA escolha pode ter impacto especialmente para empresas que vendem para outras empresas, devido à possibilidade de geração e aproveitamento de créditos tributários.\n\nPor isso, a avaliação do regime não deve considerar apenas a alíquota. Também entram na análise fatores como:\n\n\n\tperfil dos clientes;\n\tcadeia de fornecedores;\n\tpossibilidade de geração e aproveitamento de créditos;\n\tformação de preços;\n\timpacto dos novos tributos no fluxo financeiro.\n\n\nOptantes\n\nQuem já está no Simples Nacional, em regra, não precisa solicitar novamente a permanência no regime.\n\nAinda assim, é recomendado verificar a situação fiscal da empresa em setembro deste ano, para identificar eventuais pendências ou exclusões para 2027.\n\nAs empresas que permanecerem no Simples e não quiserem recolher IBS e CBS pelo regime regular não precisarão fazer uma nova opção.\n\nQuem quiser retirar esses dois tributos da sistemática do Simples deverá formalizar a escolha dentro do prazo estabelecido.\n\nAbertura de empresas\n\nAs empresas abertas entre 1º de outubro e 31 de dezembro de 2026 terão uma regra específica.\n\nNesse caso, a opção pelo Simples Nacional feita no momento da inscrição do CNPJ produzirá efeitos tanto para o período restante de 2026 quanto para todo o ano de 2027.\n\nA escolha relacionada ao IBS e à CBS pelo regime regular também poderá ser feita na abertura da empresa, com efeitos a partir de janeiro de 2027.\n\nSe o empresário não quiser permanecer no Simples em 2027, poderá solicitar a exclusão por opção até o último dia de 2026.\n\nDesistência\n\nA antecipação da opção também criou uma possibilidade de desistência.\n\nQuem fez o pedido até 15 de outubro poderá cancelar a solicitação até 30 de novembro de 2026.\n\nO cancelamento, porém, será irretratável. Isso significa que, depois de desistir, a empresa não poderá fazer uma nova opção para produzir efeitos em 2027.\n\nA antecipação também permite que eventuais pendências sejam identificadas antes do início do ano. Em caso de indeferimento por problemas que possam ser regularizados, a empresa terá prazo para corrigir a situação.\n\nRegra do MEI\n\nA mudança não altera o calendário de opção pelo Simei, sistema aplicável ao Microempreendedor Individual (MEI).\n\nPara o MEI, a opção pelo Simei continua sendo realizada em janeiro de cada ano, até o último dia útil do mês.\n\nDessa forma, a antecipação para setembro não deve ser confundida com as regras específicas aplicáveis aos microempreendedores individuais.\n\nNFS-e nacional\n\nOutra mudança anunciada pelo CGSN envolve a emissão da Nota Fiscal de Serviço eletrônica (NFS-e) no emissor nacional.\n\nA obrigatoriedade para empresas optantes pelo Simples Nacional foi adiada de 1º de setembro para 1º de novembro de 2026.\n\nO adiamento busca dar mais tempo para municípios e empresas realizarem adaptações tecnológicas e operacionais.\n\nEntre as providências recomendadas estão:\n\n\n\ttestar a emissão das notas;\n\tverificar a integração com sistemas de gestão;\n\tconferir a parametrização dos dados fiscais;\n\tpreparar os procedimentos internos antes do início da obrigatoriedade.\n\n\nA regulamentação também altera a forma de prestação de informações fiscais e socioeconômicas.\n\nA Declaração de Informações Socioeconômicas e Fiscais (Defis) deixará de ser apresentada como declaração separada. As informações passarão a ser incorporadas ao Programa Gerador do Documento de Arrecadação do Simples Nacional – Declaratório (PGDAS-D), com entrega anual de janeiro a março.\n\nA mudança faz parte da adaptação do Simples Nacional ao novo modelo tributário.\n\nPlanejamento\n\nCom setembro concentrando decisões relevantes para o próximo ano, especialistas recomendam que empresas e contadores antecipem a análise tributária.\n\nA escolha entre manter IBS e CBS no Simples ou recolhê-los pelo regime regular pode produzir efeitos diferentes dependendo do setor, dos fornecedores e do perfil dos clientes.\n\nPor isso, antes de formalizar a opção, a recomendação é que a micro e pequena empresa simule os dois cenários, além de revisar os sistemas, a emissão de notas fiscais e planejar o caixa para 2027.</p>",
-      "imagem": "https://imagens.ebc.com.br/9UXysmYMdoscZXVYIkncIimWnz0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/07/10/_raf0993_1.jpg?itok=BQBuSoJl",
-      "slug": "acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
-      "pagina_local": "acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "titulo": "Mega-Sena acumula; prêmio para sorteio de quarta vai a R$ 46 milhões",
+      "resumo": "O concurso 3080 da Mega-Sena, sorteado neste domingo (1°) não teve nenhuma aposta que acertou as seis dezenas. \n\nCom isso, o prêmio acumulou e está estimado em R$ 46 milhões no sorteio da próxima quarta-feira (4).\n\nAs de...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O concurso 3080 da Mega-Sena, sorteado neste domingo (1°) não teve nenhuma aposta que acertou as seis dezenas. \n\nCom isso, o prêmio acumulou e está estimado em R$ 46 milhões no sorteio da próxima quarta-feira (4).\n\nAs dezenas sorteadas na manhã de hoje foram: 13, 17, 28, 29, 39 e 58.\n\nVinte e nove apostas acertaram cinco dezenas e vão receber prêmio de R$ 38.878 cada.\n\nJá a quadra teve 3.133 apostas ganhadoras que vão receber R$ 514 cada.</p>",
+      "imagem": "https://imagens.ebc.com.br/J5kgqjV4tFLwXg8_GzSp8kVKlr4=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230622_182658.jpg?itok=_yxjfe3l",
+      "slug": "mega-sena-acumula-premio-para-sorteio-de-quarta-vai-a-r-46-milhoes",
+      "pagina_local": "mega-sena-acumula-premio-para-sorteio-de-quarta-vai-a-r-46-milhoes.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/mega-sena-acumula-premio-para-sorteio-de-quarta-vai-r-46-milhoes",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "01/11/2026 às 19:27"
+    },
+    {
+      "titulo": "Recebimento de vales-alimentação e refeição mudam a partir do dia 7",
+      "resumo": "Os cartões de vale-refeição (VR) e vale-alimentação (VA) terão mudanças a partir de 7 de novembro. A principal é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Os cartões de vale-refeição (VR) e vale-alimentação (VA) terão mudanças a partir de 7 de novembro. A principal é a aceitação de cartões de diferentes operadoras em qualquer maquininha habilitada para processar esse tipo de pagamento.\n\nA transição começou em maio e vai até novembro, quando completa um ano da assinatura do decreto que atualizou o Programa de Alimentação do Trabalhador (PAT).\n\nNotícias relacionadas:Campanha orienta trabalhadores sobre denúncias de assédio eleitoral.Novas regras para vales-alimentação e refeição entram em vigor .Setor de alimentação recebe positivamente as mudanças no vale-refeição.Na prática, a medida pretende ampliar as opções de uso dos benefícios em restaurantes, supermercados e outros estabelecimentos que trabalham com alimentação. Cartões de empresas como Alelo, Ticket, VR Benefícios, Pluxee, Flash e Swile estão entre os abrangidos pelas mudanças, conforme o enquadramento no PAT.\n\nAs novas regras também estabelecem limites para as taxas cobradas dos estabelecimentos comerciais e reduzem o prazo para o repasse dos valores das vendas. O objetivo do governo é estimular a concorrência no setor e facilitar a aceitação dos benefícios pelo comércio.\n\nApesar da previsão de implementação em novembro, a mudança enfrenta desafios operacionais. A Associação Brasileira de Bares e Restaurantes (Abrasel) alega que os sistemas das empresas ainda não estão totalmente integrados e aponta dificuldades para o funcionamento da medida no prazo previsto. Além disso, parte das regras é alvo de questionamentos judiciais por operadoras do setor.\n\nO que muda?\n\nA partir de 7 de novembro, está prevista a entrada em vigor integral da interoperabilidade entre os cartões de vale-refeição e vale-alimentação.\n\nIsso significa que cartões de diferentes operadoras deverão funcionar em qualquer maquininha habilitada para receber esse tipo de pagamento, sem depender de contratos ou equipamentos específicos para cada bandeira.\n\nA mudança não obriga todos os estabelecimentos a aceitar os benefícios. A regra vale para os comércios habilitados a processar essas transações.\n\nOnde usar?\n\nA proposta é ampliar a rede de aceitação dos cartões. Assim, o trabalhador poderá utilizar o benefício em diferentes estabelecimentos que aceitem a modalidade correspondente, independentemente da operadora responsável pelo cartão.\n\nA aceitação dependerá da habilitação do estabelecimento e do funcionamento da integração entre os sistemas de pagamento.\n\nO valor aumenta?\n\nNão. As novas regras não determinam aumento nem redução automática do valor do vale-refeição ou do vale-alimentação pago pelas empresas aos funcionários.\n\nOs recursos continuam destinados exclusivamente à alimentação. O vale-refeição é utilizado para a compra de refeições prontas, enquanto o vale-alimentação é voltado à aquisição de alimentos.\n\nA principal mudança para o trabalhador é a ampliação das possibilidades de utilização do benefício.\n\nQuais regras já valem?\n\nAlém da interoperabilidade, a regulamentação do PAT estabeleceu limites para as taxas cobradas dos estabelecimentos e reduziu o prazo de repasse dos valores das vendas.\n\nAs principais medidas são:\n\n\n\t    Taxa máxima de 3,6%: limite para a taxa de desconto cobrada dos estabelecimentos nas transações com benefícios vinculados ao PAT;\n\t    Tarifa de intercâmbio de até 2%: teto para a cobrança relacionada às operações entre participantes do sistema;\n\t    Repasse em até 15 dias corridos: prazo máximo para que os estabelecimentos recebam os valores das vendas.\n\n\nAntes da mudança, comerciantes reclamavam de taxas elevadas e de prazos de recebimento que podiam ultrapassar 30 dias.\n\nTodos os benefícios entram?\n\nNão necessariamente. As regras descritas se aplicam aos benefícios vinculados ao PAT, criado em 1976.\n\nHá uma diferença entre os benefícios concedidos no âmbito do PAT e o auxílio-alimentação previsto na legislação trabalhista. Segundo a Abrasel, essa distinção tem provocado dificuldades na identificação das transações e na conciliação financeira dos estabelecimentos.\n\nA entidade afirma que parte das empresas teria migrado operações para o auxílio-alimentação após a regulamentação, modalidade que não está sujeita aos mesmos limites de taxas e prazos previstos para o PAT.\n\nA mudança está garantida?\n\nA implementação está prevista para novembro, mas enfrenta obstáculos operacionais. A Abrasel afirma que as empresas responsáveis pelos cartões e as credenciadoras ainda precisam integrar seus sistemas para permitir o funcionamento pleno da interoperabilidade.\n\nSegundo a associação, um dos problemas envolve o canal específico utilizado para processar transações com vales, que ainda não estaria funcionando plenamente.\n\nA entidade também afirma que a falta de integração pode dificultar a identificação das modalidades de benefício utilizadas pelos consumidores e o controle financeiro dos estabelecimentos.\n\nQuais são as punições?\n\nO descumprimento das regras aplicáveis ao PAT pode resultar em sanções administrativas e financeiras.\n\nEntre as penalidades previstas estão:\n\n\n\t    Multas;\n\t    Autuações;\n\t    Descredenciamento do programa;\n\t    Cobrança de benefícios fiscais anteriormente utilizados, quando cabível.\n\n\nAs consequências dependem da infração identificada e podem atingir operadoras, empresas participantes do programa e estabelecimentos comerciais.\n\nO que dizem as operadoras?\n\nEmpresas do setor questionam na Justiça pontos do decreto que regulamentou as mudanças no PAT. Entre os argumentos apresentados estão a contestação dos limites tarifários e a imposição de alterações estruturais por meio de decreto.\n\nAlgumas operadoras conseguiram decisões provisórias que suspenderam parte das exigências, mas as liminares foram posteriormente derrubadas, conforme as informações reunidas no material de referência.\n\nA Associação Brasileira das Empresas de Benefícios ao Trabalhador (ABBT) também manifestou preocupação com o modelo de arranjo aberto. A entidade argumenta que a ampliação da aceitação dos cartões pode dificultar o controle e a fiscalização dos estabelecimentos credenciados.\n\nO que falta?\n\nA implementação da interoperabilidade depende da integração dos sistemas das operadoras de benefícios e das empresas responsáveis pelas maquininhas.\n\nEmbora a regra esteja prevista para entrar em vigor integralmente em novembro, a avaliação da Abrasel é que ainda existem dificuldades técnicas para garantir o funcionamento em toda a rede. Para os trabalhadores, a expectativa é de ampliação das opções de uso dos cartões, mas a efetiva disponibilidade dependerá da conclusão dessa integração.</p>",
+      "imagem": "https://imagens.ebc.com.br/TPjLDwb4Qj-t1zn7lSzLEsDRYoo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/11/12/_d6a9151.jpg?itok=tkCUYa-z",
+      "slug": "recebimento-de-vales-alimentacao-e-refeicao-mudam-a-partir-do-dia-7",
+      "pagina_local": "recebimento-de-vales-alimentacao-e-refeicao-mudam-a-partir-do-dia-7.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/recebimento-de-vales-alimentacao-e-refeicao-mudam-partir-do-dia-7",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Hoje é Dia: datas, fatos e feriados de novembro de 2026",
@@ -143,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Inscrições para Prêmio Desenvolvimento em Jogo terminam neste domingo",
@@ -156,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Inmet alerta para chuvas no Norte, Sudeste e Centro-Oeste",
@@ -169,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
@@ -182,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
@@ -195,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -208,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -221,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     },
     {
       "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
@@ -234,33 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
-    },
-    {
-      "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
-      "resumo": "Um acidente envolvendo 20 veículos na Rodovia Presidente Dutra (BR-116), no Rio de Janeiro, deixou pelo menos 11 feridos, na manhã desta sexta-feira (30). \n\nDe acordo com a Polícia Rodoviária Federal (PRF), o engavetamen...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Um acidente envolvendo 20 veículos na Rodovia Presidente Dutra (BR-116), no Rio de Janeiro, deixou pelo menos 11 feridos, na manhã desta sexta-feira (30). \n\nDe acordo com a Polícia Rodoviária Federal (PRF), o engavetamento dos automóveis aconteceu depois que um ônibus perdeu o controle, no município de São João de Meriti, na Baixada Fluminense.\n\nAs primeiras informações indicam que o motorista do coletivo passou mal. Ele acabou morrendo de infarto, segundo informações da concessionária responsável pelo trecho rodoviária, a Ecovias Rio Minas.\n\nA Ecovias Rio Minas informou que nenhuma pessoa ficou ferida com gravidade. Seis vítimas foram encaminhadas ao Hospital Geral de Nova Iguaçu e cinco para o Hospital Municipal de São João de Meriti.\n\nA Delegacia de São João de Meriti (64ª DP) investiga a morte do motorista do ônibus.</p>",
-      "imagem": "https://imagens.ebc.com.br/TYzHiKMyhxdxTKR1cfMNkmUBYHY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/30/motorista_infarta_e_engavetamento_de_20_veiculos_deixa_feridos_no_rio.jpg?itok=fBhivR7t",
-      "slug": "motorista-infarta-e-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
-      "pagina_local": "motorista-infarta-e-engavetamento-de-20-veiculos-deixa-feridos-no-rio.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/motorista-infarta-engavetamento-de-20-veiculos-deixa-feridos-no-rio",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
-    },
-    {
-      "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
-      "resumo": "A diretoria da Empresa Brasil de Comunicação (EBC) conquistou R$ 23 milhões junto a ANATEL/GIRED para investimento na implantação da infraestrutura necessária à TV 3.0 no Brasil.\n\nPara a diretora-presidente da EBC, Anton...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A diretoria da Empresa Brasil de Comunicação (EBC) conquistou R$ 23 milhões junto a ANATEL/GIRED para investimento na implantação da infraestrutura necessária à TV 3.0 no Brasil.\n\nPara a diretora-presidente da EBC, Antonia Pellegrino, a aprovação dos recursos reforça o protagonismo da empresa na implantação da nova geração da TV aberta no país.\n\nNotícias relacionadas:EBC destaca protagonismo da comunicação pública na TV 3.0.\"Essa conquista orçamentária representa mais um passo concreto para a consolidação da TV 3.0 no Brasil e reforça o papel estratégico da EBC na construção da Plataforma Comum\", avalia. \"A infraestrutura permitirá ampliar a presença da comunicação pública nesse novo ambiente, reunindo conteúdos, serviços e aplicações, levando ao cidadão uma experiência de televisão mais integrada e conectada\", explica.\n\nTrabalhadores também ganham\n\nCom o investimento, a EBC passará a contar com um novo sistema MAM (Media AssetManagement ou Gerenciamento de Ativos de Mídia) para Brasília, que servirá à Plataforma Comum e à empresa.\n\nA EBC poderá utilizar parte da capacidade desse sistema para que seu Acervo melhore armazenamento, organização, catalogação e distribuição de arquivos de mídia digital. A nova estrutura permitirá, ainda, à Plataforma Comum integrar conteúdo do Tela Brasil, serviço público e gratuito de streaming dedicado à produção audiovisual brasileira.\n\nSegundo o diretor de Operações, Engenharia e Tecnologia da EBC, Bráulio Ribeiro, os recursos serão fundamentais para colocar a Plataforma Comum em operação em larga escala.\n\n\"O projeto como um todo contempla data centers, servidores, balanceamento e toda a camada tecnológica necessária para suportar dezenas de milhares de acessos simultâneos e integrar diferentes conteúdos e serviços\", explica. \"É uma estrutura pensada para garantir capacidade, disponibilidade e escalabilidade à TV 3.0\", resume.\n\nA expectativa é que a infraestrutura esteja em pleno funcionamento em julho de 2027, fortalecendo o papel da EBC como articuladora da transformação tecnológica da televisão aberta brasileira e contribuindo para a consolidação da TV 3.0 no país.\n\nSobre a TV 3.0\n\nA TV 3.0 é a próxima geração da televisão digital brasileira e prevê a evolução da experiência da TV aberta por meio da integração entre transmissão e conectividade. O novo modelo possibilita a combinação de conteúdos lineares, vídeo sob demanda e aplicações digitais, ampliando as possibilidades de distribuição e interação com o público.</p>",
-      "imagem": "https://imagens.ebc.com.br/0BptuC0aNRelxaZoDWcVyqOhkl8=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/20230816_182332.jpg?itok=4fbksrep",
-      "slug": "ebc-conquista-mais-r-23-milhoes-para-investimento-na-tv-3-0-no-brasil",
-      "pagina_local": "ebc-conquista-mais-r-23-milhoes-para-investimento-na-tv-3-0-no-brasil.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/ebc-conquista-mais-r-23-milhoes-para-investimento-na-tv-30-no-brasil",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "01/11/2026 às 14:53"
+      "coletado_em": "01/11/2026 às 19:27"
     }
   ]
 };
