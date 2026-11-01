@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "31/10/2026 às 21:17:29",
+  "ultima_atualizacao": "01/11/2026 às 00:53:09",
   "total": 20,
   "atualidades": [
     {
@@ -13,7 +13,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -26,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -130,7 +130,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Inscrições para Prêmio Desenvolvimento em Jogo terminam neste domingo",
@@ -143,7 +143,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Inmet alerta para chuvas no Norte, Sudeste e Centro-Oeste",
@@ -156,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
@@ -169,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
@@ -182,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -195,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -208,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
@@ -221,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio",
@@ -234,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil",
@@ -247,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Biometria facial será obrigatória para usuários de telefonia móvel",
@@ -260,7 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     }
   ]
 };

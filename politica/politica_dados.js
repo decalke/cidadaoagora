@@ -1,7 +1,21 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "31/10/2026 às 21:17:26",
+  "ultima_atualizacao": "01/11/2026 às 00:53:06",
   "total": 30,
   "politica": [
+    {
+      "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral em três dias",
+      "resumo": "O Ministério do Trabalho e Emprego (MTE) recebeu aproximadamente 4,3 mil denúncias de assédio eleitoral no ambiente de trabalho apenas nos três primeiros dias de funcionamento de um canal específico para esse tipo de ocorrência. \n\nO canal c...",
+      "conteudo_completo": "O Ministério do Trabalho e Emprego (MTE) recebeu aproximadamente 4,3 mil denúncias de assédio eleitoral no ambiente de trabalho apenas nos três primeiros dias de funcionamento de um canal específico para esse tipo de ocorrência. \n\nO canal começou a funcionar no dia 28 de outubro, depois que diversas denúncias desse tipo de prática começaram a surgir tanto na internet como em órgãos competentes.    \n\nNotícias relacionadas:Campanha orienta trabalhadores sobre denúncias de assédio eleitoral.MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral.Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno.A maior parte dos casos foram no estado de São Paulo (1.325), seguido por Rio de Janeiro (354), Minas Gerais (345), Paraná (268) e Santa Catarina (259). A Região Sudeste concentrou 48,5% das ocorrências.\n\nSegundo o MTE, as denúncias já estão sendo apuradas. \n\n&gt;&gt; Clique aqui e leia mais sobre assédio eleitoral, na Agência Brasil\n\nO que é o assédio eleitoral\n\nAssédio eleitoral é quando um chefe ou superiores hierárquicos pressionam o trabalhador a votar ou deixar de votar em um determinado candidato.\n\nDemitir um funcionário pela opção política dele também é considerado assédio e, se ficar provado que a dispensa ocorreu por esse motivo, a empresa pode ser obrigada a readmitir o empregado e pagar indenização por danos morais. \n\nComo denunciar\n\nQuem sofrer ou presenciar casos de assédio eleitoral no ambiente de trabalho deve fazer a denúncia nos canais do Ministério do Trabalho e Emprego (MTE) ou do Ministério Público do Trabalho (MPT).\n\nAs denúncias são mantidas em sigilo e encaminhadas aos órgãos competentes.",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Ministério do Trabalho e Emprego (MTE) recebeu aproximadamente 4,3 mil denúncias de assédio eleitoral no ambiente de trabalho apenas nos três primeiros dias de funcionamento de um canal específico para esse tipo de ocorrência. </strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707442&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707442&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O canal começou a funcionar no dia 28 de outubro, depois que diversas denúncias desse tipo de prática começaram a surgir tanto na internet como em órgãos competentes.    </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A maior parte dos casos foram no estado de São Paulo (1.325), seguido por Rio de Janeiro (354), Minas Gerais (345), Paraná (268) e Santa Catarina (259). A Região Sudeste concentrou 48,5% das ocorrências.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Segundo o MTE, as denúncias já estão sendo apuradas. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://agenciabrasil.ebc.com.br/tags/assedio-eleitoral\" target=\"_blank\">&gt;&gt; Clique aqui e leia mais sobre assédio eleitoral, na <strong>Agência Brasil</strong></a></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>O que é o assédio eleitoral</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Assédio eleitoral é quando um chefe ou superiores hierárquicos pressionam o trabalhador a votar ou deixar de votar em um determinado candidato.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Demitir um funcionário pela opção política dele também é considerado assédio e, se ficar provado que a dispensa ocorreu por esse motivo, a empresa pode ser obrigada a readmitir o empregado e pagar indenização por danos morais. </p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Como denunciar</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Quem sofrer ou presenciar casos de assédio eleitoral no ambiente de trabalho deve fazer a denúncia nos canais do <a href=\"https://assedioeleitoral.trabalho.gov.br\" target=\"_blank\">Ministério do Trabalho e Emprego</a> (MTE) ou do <a href=\"https://mpt.mp.br/assedio-eleitoral\" target=\"_blank\">Ministério Público do Trabalho</a> (MPT).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>As denúncias são mantidas em sigilo e encaminhadas aos órgãos competentes. </p>",
+      "imagem": "https://imagens.ebc.com.br/z0vsMQe4-aYyWD5534hI1sti6Rs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/fachada-ministerio_mcamgo_abr_100420231818-11.jpg?itok=4t0Lnv1p",
+      "slug": "mte-recebe-4-3-mil-denuncias-de-assedio-eleitoral-em-tres-dias",
+      "pagina_local": "mte-recebe-4-3-mil-denuncias-de-assedio-eleitoral-em-tres-dias.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mte-recebe-43-mil-denuncias-de-assedio-eleitoral-em-tres-dias",
+      "categoria": "Política Nacional",
+      "orgao": "Congresso & Planalto",
+      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
+      "coletado_em": "01/11/2026 às 00:52"
+    },
     {
       "titulo": "Aluno é ameaçado de morte no DF por opção política",
       "resumo": "“Eu juro que amanhã se você for para a escola você não volta vivo”. Essa foi a mensagem de áudio que Felipe* (nome fictício), de 17 anos, recebeu em um grupo de WhatsApp de estudantes da turma dele em uma escola no Distrito Federal.\n\nA amea...",
@@ -14,7 +28,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Estudantes relatam violência relacionada à eleição presidencial",
@@ -28,7 +42,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Ação Popular pede suspensão de salário do senador Flávio Bolsonaro",
@@ -42,7 +56,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Vieira encontra Rubio nos EUA após vitória de Lula e fuga de Flávio",
@@ -56,7 +70,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC da Segurança Pública para terça-feira",
@@ -70,7 +84,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Entidades repudiam listas de boicote por divergência política",
@@ -84,7 +98,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Ato de estudantes da UFF deu pontapé em mobilização por virada de Lula",
@@ -98,7 +112,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Republicação de conteúdos após período de defeso eleitoral é concluída",
@@ -112,7 +126,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
@@ -126,21 +140,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
-    },
-    {
-      "titulo": "MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral",
-      "resumo": "O Ministério Público do Trabalho (MPT) acionou a Justiça, nesta quinta-feira (29), para obrigar a Meta a retirar do ar, em até 24 horas, todas as publicações que estimulem empresários a vigiar, expor, deixar de contratar e demitir funcionár...",
-      "conteudo_completo": "O Ministério Público do Trabalho (MPT) acionou a Justiça, nesta quinta-feira (29), para obrigar a Meta a retirar do ar, em até 24 horas, todas as publicações que estimulem empresários a vigiar, expor, deixar de contratar e demitir funcionários por preferências políticas ou voto. O pedido inclui as plataformas Instagram, Facebook e Threads, que pertencem à big tech americana.\n\nO MPT aponta a responsabilidade da Meta pelo conteúdo publicado em suas plataformas e pede que o Tribunal Regional do Trabalho (TRT) da 2ª Região arbitre indenização de R$ 50 milhões por danos morais coletivos.\n\nNotícias relacionadas:Denúncias de assédio eleitoral no trabalho disparam 75% após 2º turno.Governo estuda restringir crédito a empresas por assédio eleitoral.Justiça proíbe deputada de incentivar demissão de opositores.Embora os sete procuradores que assinam a ação tenham apontado a urgência da remoção das publicações que caracterizem assédio eleitoral, a primeira audiência foi agendada para o dia 29 de março de 2027, na 77ª Vara do Trabalho de São Paulo.\n\n&gt;&gt; Descubra se você está sofrendo assédio eleitoral e saiba como denunciar\n\nPerseguição política\n\nConforme a Agência Brasil noticiou, as denúncias de assédio eleitoral aumentaram mais de 75% desde a última segunda-feira (26), dia seguinte ao segundo turno das eleições gerais, totalizando 1.459 casos em todo o país.\n\nO maior número de denúncias é proveniente de São Paulo (620), seguido de Minas Gerais (351), Paraná (338), Rio de Janeiro (252), Rio Grande do Sul (223) e Santa Catarina (165).\n\nOs dados coincidem com a multiplicação de relatos sobre incentivos a boicotes e a demissões de funcionários que tenham votado em candidato contrário à orientação política do patrão.\n\nDe acordo com o MPT, passado o pleito em que o presidente Luiz Inácio Lula da Silva se reelegeu, perfis nas plataformas digitais passaram a incentivar e orientar empregadores a vasculharem as redes sociais de seus funcionários ou colaboradores com o objetivo de descobrir em quem estes votaram e, no caso de a opção ser diferente da patronal, demiti-los.\n\n“Outras publicações expõem pessoas à ridicularização, com nome e imagem, ou comemoram demissões”, sustenta o MPT, assegurando que só quatro das publicações analisadas em um único perfil, que totaliza 3,8 milhões de seguidores, somaram mais de 2 milhões de curtidas.\n\nDe acordo com o MPT, além de permitir conteúdos ilegais durante dias, os próprios sistemas de recomendação da Meta, como a aba ‘Explorar’ e os ‘Reels’ sugeridos, ampliam o alcance do que gera mais engajamento.\n\nConsultada pela reportagem, a Meta informou que não comentaria o assunto.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O Ministério Público do Trabalho (MPT) acionou a Justiça, nesta quinta-feira (29), para obrigar a Meta a retirar do ar, em até 24 horas, todas as publicações que estimulem empresários a vigiar, expor, deixar de contratar e demitir funcionários por preferências políticas ou voto. O pedido inclui as plataformas Instagram, Facebook e Threads, que pertencem à <em>big tech </em>americana.<img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707239&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707239&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O MPT aponta a responsabilidade da Meta pelo conteúdo publicado em suas plataformas e pede que o Tribunal Regional do Trabalho (TRT) da 2ª Região arbitre indenização de R$ 50 milhões por danos morais coletivos.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Embora os sete procuradores que assinam a ação tenham apontado a urgência da remoção das publicações que caracterizem assédio eleitoral, a primeira audiência foi agendada para o dia 29 de março de 2027, na 77ª Vara do Trabalho de São Paulo.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/assedio-eleitoral-saiba-como-denunciar-crime-mesmo-apos-elei%C3%A7oes\" target=\"_blank\">&gt;&gt; Descubra se você está sofrendo assédio eleitoral e saiba como denunciar</a></p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Perseguição política</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Conforme a <strong>Agência Brasil</strong> noticiou, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/denuncias-de-assedio-eleitoral-no-trabalho-disparam-75-apos-2-turno\" target=\"_blank\">as denúncias de assédio eleitoral aumentaram mais de 75% desde a última segunda-feira (26)</a>, dia seguinte ao segundo turno das eleições gerais, totalizando 1.459 casos em todo o país.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O maior número de denúncias é proveniente de São Paulo (620), seguido de Minas Gerais (351), Paraná (338), Rio de Janeiro (252), Rio Grande do Sul (223) e Santa Catarina (165).</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os dados coincidem com a multiplicação de relatos sobre incentivos a boicotes e a demissões de funcionários que tenham votado em candidato contrário à orientação política do patrão.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o MPT, <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica\" target=\"_blank\">passado o pleito em que o presidente Luiz Inácio Lula da Silva se reelegeu</a>, perfis nas plataformas digitais passaram a incentivar e orientar empregadores a vasculharem as redes sociais de seus funcionários ou colaboradores com o objetivo de descobrir em quem estes votaram e, no caso de a opção ser diferente da patronal, demiti-los.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Outras publicações expõem pessoas à ridicularização, com nome e imagem, ou comemoram demissões”, sustenta o MPT, assegurando que só quatro das publicações analisadas em um único perfil, que totaliza 3,8 milhões de seguidores, somaram mais de 2 milhões de curtidas.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o MPT, além de permitir conteúdos ilegais durante dias, os próprios sistemas de recomendação da Meta, como a aba ‘Explorar’ e os ‘Reels’ sugeridos, ampliam o alcance do que gera mais engajamento.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Consultada pela reportagem, a Meta informou que não comentaria o assunto.</p>",
-      "imagem": "https://imagens.ebc.com.br/Ic537IitdCfDoBiB2zUN1FWHLQA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/19/_int2268.jpg?itok=pec9y6Z_",
-      "slug": "mpt-vai-a-justica-e-pede-r-50-milhoes-da-meta-por-assedio-eleitoral",
-      "pagina_local": "mpt-vai-a-justica-e-pede-r-50-milhoes-da-meta-por-assedio-eleitoral.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mpt-vai-justica-pede-rs-50-milhoes-da-meta-por-assedio-eleitoral",
-      "categoria": "Política Nacional",
-      "orgao": "Congresso & Planalto",
-      "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "STF determina soltura de desembargador preso na Operação Unha e Carne",
@@ -154,7 +154,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:52"
     },
     {
       "titulo": "Justiça intima Jairinho a justificar apelação por morte de Henry Borel",
@@ -168,7 +168,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
@@ -182,7 +182,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Caseiro explorado e usado como laranja no DF receberá pensão mensal",
@@ -196,7 +196,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Empresário é condenado a 17 anos por morte de motorista de aplicativo",
@@ -210,7 +210,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master",
@@ -224,7 +224,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Defesa diz que 657 arquivos do celular de Vorcaro foram modificados",
@@ -238,7 +238,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Vorcaro diz que não fez nada errado e pede voto de confiança",
@@ -252,7 +252,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Operação Contenção: DPRJ pede R$ 50 milhões em reparação a moradores",
@@ -266,7 +266,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Fachin arquiva mais cinco investigações do Inquérito das Fake News",
@@ -280,7 +280,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
@@ -294,7 +294,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -308,7 +308,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -322,7 +322,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -336,7 +336,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -350,7 +350,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -364,7 +364,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -378,7 +378,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -392,7 +392,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -406,7 +406,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     },
     {
       "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
@@ -420,7 +420,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "31/10/2026 às 21:17"
+      "coletado_em": "01/11/2026 às 00:53"
     }
   ]
 };
