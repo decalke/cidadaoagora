@@ -185,11 +185,6 @@
         renderizarFeed(TODAS_NOTCAIAS);
         return;
       }
-        TODAS_NOTCAIAS = DADOS_NOTCAIAS.noticias;
-        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_NOTCAIAS.ultima_atualizacao;
-        renderizarFeed(TODAS_NOTCAIAS);
-        return;
-      }
 
       // 2. Fallback para fetch (quando estiver hospedado na internet)
       try {
