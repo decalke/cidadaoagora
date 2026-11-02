@@ -3,9 +3,25 @@ import xml.etree.ElementTree as ET
 import json
 import os
 import re
+import sys
 import unicodedata
 from datetime import datetime
 from bs4 import BeautifulSoup
+
+# Detecta dinamicamente a pasta raiz do projeto (funciona no Windows, Linux e GitHub Actions)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+NOTICIAS_DIR = os.path.join(BASE_DIR, "noticias")
+OUTPUT_JSON = os.path.join(NOTICIAS_DIR, "noticias.json")
+
+# Importa o módulo editorial com IA para reescrita original
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+try:
+    from editor_ia import reescrever_com_ia, formatar_bloco_destaques, inserir_ads_no_corpo
+except ImportError:
+    reescrever_com_ia = None
+    formatar_bloco_destaques = lambda d: ""
+    inserir_ads_no_corpo = lambda c: c
 
 # Feeds Oficiais de Dados Públicos do Governo Federal (EBC / Agência Brasil)
 FEEDS = [
@@ -14,11 +30,6 @@ FEEDS = [
     { "categoria": "Geral & Cidadania", "url": "https://agenciabrasil.ebc.com.br/rss/geral/feed.xml" },
     { "categoria": "Últimas Notícias", "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml" }
 ]
-
-# Detecta dinamicamente a pasta raiz do projeto (funciona no Windows, Linux e GitHub Actions)
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-NOTICIAS_DIR = os.path.join(BASE_DIR, "noticias")
-OUTPUT_JSON = os.path.join(NOTICIAS_DIR, "noticias.json")
 
 def limpar_html(texto):
     if not texto:
@@ -48,14 +59,6 @@ def extrair_imagem(item):
     return "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&auto=format&fit=crop&q=80"
 
 def extrair_artigo_completo_formatado(url_materia, texto_fallback):
-    """
-    Acessa a página original da EBC e extrai a notícia completa preservando:
-    - Parágrafos separados (<p>)
-    - Negritos (<strong>, <b>)
-    - Subtítulos e Headings (<h2>, <h3>)
-    - Citações estilizadas (<blockquote>)
-    - Destaques em itálico (<em>)
-    """
     if not url_materia or not url_materia.startswith("http"):
         return f"<p class='text-base text-slate-700 leading-relaxed'>{texto_fallback}</p>"
 
@@ -68,7 +71,6 @@ def extrair_artigo_completo_formatado(url_materia, texto_fallback):
             html = resp.read().decode('utf-8', errors='ignore')
             soup = BeautifulSoup(html, 'html.parser')
 
-            # Na EBC / Drupal, o texto jornalístico fica em div.content ou article
             content_div = soup.find('div', class_='content') or soup.find('article') or soup.find('div', class_='region-content')
             if not content_div:
                 return f"<p class='text-base text-slate-700 leading-relaxed'>{texto_fallback}</p>"
@@ -77,7 +79,6 @@ def extrair_artigo_completo_formatado(url_materia, texto_fallback):
             tags_relevantes = content_div.find_all(['p', 'h2', 'h3', 'blockquote'])
 
             for el in tags_relevantes:
-                # Remove lixo de scripts ou propagandas internas se houver
                 if el.find_parent('nav') or el.find_parent('footer') or 'share' in str(el.get('class', [])):
                     continue
 
@@ -85,7 +86,6 @@ def extrair_artigo_completo_formatado(url_materia, texto_fallback):
                 if not texto_puro or len(texto_puro) < 3:
                     continue
 
-                # Evita duplicar o rodapé de crédito padrão
                 if 'Edição:' in texto_puro or 'Compartilhe:' in texto_puro:
                     elementos_formatados.append(f"<p class='text-xs font-semibold text-slate-500 pt-4 border-t border-slate-100'>{el.decode_contents()}</p>")
                     continue
@@ -97,24 +97,14 @@ def extrair_artigo_completo_formatado(url_materia, texto_fallback):
                 elif el.name == 'blockquote':
                     elementos_formatados.append(f"<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>{el.decode_contents()}</blockquote>")
                 elif el.name == 'p':
-                    elementos_formatados.append(f"<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>{el.decode_contents()}</p>")
+                    elementos_formatados.append(f"<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>{el.decode_contents()}</p>")
 
             if elementos_formatados:
-                # Insere o anúncio do Google AdSense elegantemente no meio da leitura (após o 3º parágrafo)
-                if len(elementos_formatados) >= 4:
-                    bloco_ad = """
-                    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8">
-                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>
-                    </div>
-                    """
-                    elementos_formatados.insert(3, bloco_ad)
-
-                return "\n".join(elementos_formatados)
+                return inserir_ads_no_corpo("\n".join(elementos_formatados))
 
     except Exception as e:
         print(f"Aviso: Não foi possível obter HTML completo de {url_materia} ({e}). Usando fallback.")
 
-    # Se falhar o scraper ao vivo da matéria, quebra o fallback em parágrafos para não ficar bloco único
     partes = [p.strip() for p in texto_fallback.split('\n') if p.strip()]
     if partes:
         return "".join([f"<p class='text-base text-slate-700 leading-relaxed mb-4'>{p}</p>" for p in partes])
@@ -123,6 +113,15 @@ def extrair_artigo_completo_formatado(url_materia, texto_fallback):
 def gerar_pagina_materia(noticia):
     arquivo_html = os.path.join(NOTICIAS_DIR, noticia["slug"] + ".html")
     
+    badge_editorial = """
+    <span class="inline-flex items-center gap-1 font-bold text-xs text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+      <i data-lucide="sparkles" class="w-3 h-3 text-blue-600"></i>
+      <span>Edição & Estrutura Cidadão Agora</span>
+    </span>
+    """ if noticia.get("reescrito_ia") else ""
+
+    destaques_bloco = noticia.get("destaques_html", "")
+
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -199,6 +198,7 @@ def gerar_pagina_materia(noticia):
           <span class="font-extrabold uppercase tracking-wider text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
             {noticia['categoria']}
           </span>
+          {badge_editorial}
           <span class="text-slate-400 font-medium">• Publicado em {noticia['coletado_em']}</span>
         </div>
         
@@ -211,24 +211,27 @@ def gerar_pagina_materia(noticia):
         </p>
       </div>
 
-      <!-- IMAGEM GRANDE OFICIAL -->
+      <!-- IMAGEM DESTAQUE -->
       <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm max-h-[500px] bg-slate-900 flex items-center justify-center">
         <img src="{noticia['imagem']}" alt="{noticia['titulo']}" class="w-full h-full object-cover">
       </div>
 
-      <!-- TEXTO DA MATÉRIA COMPLETA COM FORMATAÇÃO ORIGINAL (NEGRITOS, HEADINGS, PARÁGRAFOS) -->
+      <!-- DESTAQUES DA NOTÍCIA -->
+      {destaques_bloco}
+
+      <!-- CORPO DA MATÉRIA EDITADA -->
       <div class="prose max-w-none pt-4">
         {noticia['corpo_html']}
       </div>
 
-      <!-- BOX DE CRÉDITO E LINK OFICIAL DA EBC -->
+      <!-- BOX DE CRÉDITO E FONTE OFICIAL -->
       <div class="p-5 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs mt-8">
         <div>
-          <span class="text-slate-500 block font-medium">Fonte Governamental Oficial:</span>
+          <span class="text-slate-500 block font-medium">Fonte e Apuração Original:</span>
           <span class="font-bold text-slate-800">{noticia['fonte']}</span>
         </div>
         <a href="{noticia['link_oficial']}" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 py-2.5 rounded-xl transition-colors flex items-center justify-center gap-1.5 shadow-sm">
-          <span>Ver Matéria na Íntegra na EBC</span>
+          <span>Ver Apuração Original na EBC</span>
           <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
         </a>
       </div>
@@ -258,7 +261,19 @@ def coletar_e_gerar():
     todas_noticias = []
     titulos_vistos = set()
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Rastreando notícias completas com formatação original...")
+    # Carrega cache de notícias já processadas para reaproveitar matérias existentes
+    cache_existentes = {}
+    if os.path.exists(OUTPUT_JSON):
+        try:
+            with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
+                dados_velhos = json.load(f)
+                for item in dados_velhos.get("noticias", []):
+                    if item.get("link_oficial"):
+                        cache_existentes[item["link_oficial"]] = item
+        except Exception:
+            pass
+
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Rastreando notícias (com redação de IA)...")
 
     for feed_info in FEEDS:
         url = feed_info["url"]
@@ -283,29 +298,60 @@ def coletar_e_gerar():
                     link_oficial = item.find('link').text if item.find('link') is not None else "#"
                     descricao = item.find('description')
                     desc_texto = limpar_html(descricao.text) if descricao is not None else ""
-                    
-                    resumo = desc_texto[:240] + "..." if len(desc_texto) > 240 else desc_texto
+                    resumo_padrao = desc_texto[:240] + "..." if len(desc_texto) > 240 else desc_texto
                     imagem_url = extrair_imagem(item)
-                    slug = criar_slug(titulo_limpo)
 
-                    # EXTRAI O TEXTO RICO ORIGINAL DIRETO DA PÁGINA OFICIAL
-                    corpo_formatado = extrair_artigo_completo_formatado(link_oficial, desc_texto)
+                    # Se já foi processada em ciclo anterior e o HTML existe no disco, reaproveita
+                    if link_oficial in cache_existentes:
+                        item_existente = cache_existentes[link_oficial]
+                        caminho_antigo = os.path.join(NOTICIAS_DIR, item_existente.get("slug", "") + ".html")
+                        if os.path.exists(caminho_antigo):
+                            todas_noticias.append(item_existente)
+                            continue
+
+                    # Extrai o conteúdo jornalístico da página oficial
+                    corpo_bruto = extrair_artigo_completo_formatado(link_oficial, desc_texto)
+
+                    titulo_final = titulo_limpo
+                    resumo_final = resumo_padrao
+                    slug_final = criar_slug(titulo_limpo)
+                    destaques_html = ""
+                    corpo_final = corpo_bruto
+                    foi_reescrito = False
+
+                    # Aciona reescrita jornalística inédita com Gemini
+                    if reescrever_com_ia:
+                        print(f"-> Analisando e reescrevendo com IA: '{titulo_limpo[:45]}...'")
+                        artigo_ia = reescrever_com_ia(
+                            titulo_original=titulo_limpo,
+                            conteudo_texto=corpo_bruto,
+                            categoria=categoria,
+                            orgao="Agência Brasil / EBC"
+                        )
+                        if artigo_ia:
+                            titulo_final = artigo_ia["titulo"]
+                            resumo_final = artigo_ia.get("resumo", resumo_padrao)
+                            slug_final = criar_slug(titulo_final)
+                            destaques_html = formatar_bloco_destaques(artigo_ia.get("destaques", []))
+                            corpo_final = inserir_ads_no_corpo(artigo_ia["corpo_html"])
+                            foi_reescrito = True
 
                     item_noticia = {
-                        "titulo": titulo_limpo,
-                        "resumo": resumo,
+                        "titulo": titulo_final,
+                        "resumo": resumo_final,
                         "conteudo_completo": desc_texto,
-                        "corpo_html": corpo_formatado,
+                        "corpo_html": corpo_final,
+                        "destaques_html": destaques_html,
                         "imagem": imagem_url,
-                        "slug": slug,
-                        "pagina_local": f"{slug}.html",
+                        "slug": slug_final,
+                        "pagina_local": f"{slug_final}.html",
                         "link_oficial": link_oficial,
                         "categoria": categoria,
                         "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-                        "coletado_em": datetime.now().strftime("%d/%m/%Y às %H:%M")
+                        "coletado_em": datetime.now().strftime("%d/%m/%Y às %H:%M"),
+                        "reescrito_ia": foi_reescrito
                     }
 
-                    # Gera a página HTML local completa com formatação preservada
                     gerar_pagina_materia(item_noticia)
                     todas_noticias.append(item_noticia)
 
@@ -326,7 +372,7 @@ def coletar_e_gerar():
         with open(js_file, "w", encoding="utf-8") as f:
             f.write("const DADOS_NOTICIAS = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
 
-        print(f"Concluído! {len(todas_noticias)} notícias formatadas e geradas com sucesso.")
+        print(f"Concluído! {len(todas_noticias)} notícias salvas e organizadas com sucesso.")
 
 if __name__ == "__main__":
     coletar_e_gerar()

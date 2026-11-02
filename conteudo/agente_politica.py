@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import json
 import os
 import re
+import sys
 import unicodedata
 from datetime import datetime
 from bs4 import BeautifulSoup
@@ -14,10 +15,19 @@ FEEDS_POLITICA = [
     { "orgao": "Receita & Ministério da Fazenda", "categoria": "Novos Tributos & Economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml" }
 ]
 
-# Detecta dinamicamente a pasta raiz do projeto (funciona no Windows, Linux e GitHub Actions)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 POLITICA_DIR = os.path.join(BASE_DIR, "politica")
 CONTEUDO_DIR = os.path.join(BASE_DIR, "conteudo")
+
+# Importa o módulo editorial com IA para reescrita original
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+try:
+    from editor_ia import reescrever_com_ia, formatar_bloco_destaques, inserir_ads_no_corpo
+except ImportError:
+    reescrever_com_ia = None
+    formatar_bloco_destaques = lambda d: ""
+    inserir_ads_no_corpo = lambda c: c
 
 def limpar_html(texto):
     if not texto:
@@ -85,18 +95,10 @@ def extrair_artigo_politica_formatado(url_materia, texto_fallback):
                 elif el.name == 'blockquote':
                     elementos_formatados.append(f"<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>{el.decode_contents()}</blockquote>")
                 elif el.name == 'p':
-                    elementos_formatados.append(f"<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>{el.decode_contents()}</p>")
+                    elementos_formatados.append(f"<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>{el.decode_contents()}</p>")
 
             if elementos_formatados:
-                if len(elementos_formatados) >= 4:
-                    bloco_ad = """
-                    <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8">
-                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>
-                    </div>
-                    """
-                    elementos_formatados.insert(3, bloco_ad)
-
-                return "\n".join(elementos_formatados)
+                return inserir_ads_no_corpo("\n".join(elementos_formatados))
 
     except Exception as e:
         print(f"Aviso: Não foi possível obter HTML de {url_materia} ({e}).")
@@ -109,6 +111,15 @@ def extrair_artigo_politica_formatado(url_materia, texto_fallback):
 def gerar_pagina_politica(noticia):
     arquivo_html = os.path.join(POLITICA_DIR, noticia["slug"] + ".html")
     
+    badge_editorial = """
+    <span class="inline-flex items-center gap-1 font-bold text-xs text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
+      <i data-lucide="sparkles" class="w-3 h-3 text-blue-600"></i>
+      <span>Edição & Estrutura Cidadão Agora</span>
+    </span>
+    """ if noticia.get("reescrito_ia") else ""
+
+    destaques_bloco = noticia.get("destaques_html", "")
+
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -153,24 +164,22 @@ def gerar_pagina_politica(noticia):
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans antialiased">
 
-  <!-- CABEÇALHO -->
   <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
     <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="../index.html" class="flex items-center space-x-2.5">
         <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg shadow-sm">CA</div>
         <div>
-          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-blue-600">Política</span></span>
-          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Portal</span>
+          <span class="text-lg font-black text-slate-900">Cidadão<span class="text-blue-600">Agora</span></span>
+          <span class="text-[10px] block text-slate-400 font-medium">Voltar para o Início</span>
         </div>
       </a>
       <a href="../conteudo/politica.html" class="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1">
         <i data-lucide="arrow-left" class="w-4 h-4"></i>
-        <span>Todas as Matérias de Política</span>
+        <span>Painel de Política</span>
       </a>
     </div>
   </header>
 
-  <!-- BANNER ADSENSE TOPO -->
   <div class="max-w-5xl mx-auto w-full px-4 pt-4">
     <div class="ad-placeholder rounded-xl p-3 text-center text-xs text-slate-400 font-medium">
       <span>[Espaço Reservado - Banner Google AdSense 728x90 Topo da Matéria]</span>
@@ -185,7 +194,10 @@ def gerar_pagina_politica(noticia):
           <span class="font-extrabold uppercase tracking-wider text-blue-700 bg-blue-50 px-2.5 py-1 rounded-full border border-blue-200">
             {noticia['categoria']}
           </span>
-          <span class="text-slate-500 font-medium">Órgão: <strong>{noticia['orgao']}</strong></span>
+          <span class="font-bold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">
+            {noticia['orgao']}
+          </span>
+          {badge_editorial}
           <span class="text-slate-400 font-medium">• {noticia['coletado_em']}</span>
         </div>
         
@@ -198,38 +210,39 @@ def gerar_pagina_politica(noticia):
         </p>
       </div>
 
-      <!-- IMAGEM OFICIAL -->
       <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm max-h-[500px] bg-slate-900 flex items-center justify-center">
         <img src="{noticia['imagem']}" alt="{noticia['titulo']}" class="w-full h-full object-cover">
       </div>
 
-      <!-- TEXTO DA MATÉRIA COMPLETA COM FORMATAÇÃO ORIGINAL (NEGRITOS, HEADINGS, PARÁGRAFOS) -->
+      <!-- DESTAQUES DA MATÉRIA -->
+      {destaques_bloco}
+
+      <!-- CORPO FORMATADO -->
       <div class="prose max-w-none pt-4">
         {noticia['corpo_html']}
       </div>
 
-      <!-- BOX DE FONTE OFICIAL -->
+      <!-- CRÉDITO E LINK OFICIAL -->
       <div class="p-5 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs mt-8">
         <div>
-          <span class="text-slate-500 block font-medium">Fonte Governamental Oficial:</span>
+          <span class="text-slate-500 block font-medium">Fonte e Apuração Original:</span>
           <span class="font-bold text-slate-800">{noticia['fonte']}</span>
         </div>
         <a href="{noticia['link_oficial']}" target="_blank" rel="noopener noreferrer" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 py-2.5 rounded-xl transition-colors flex items-center justify-center gap-1.5 shadow-sm">
-          <span>Ver Matéria Oficial na Íntegra</span>
+          <span>Ver Apuração Original na EBC</span>
           <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
         </a>
       </div>
 
     </article>
 
-    <!-- BANNER RODAPÉ ADSENSE -->
     <div class="ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium mt-6">
       <span>[Espaço Reservado - Banner Google AdSense 728x90 Inferior]</span>
     </div>
   </main>
 
   <footer class="bg-white border-t border-slate-200 py-6 text-slate-500 text-xs text-center">
-    <p>Cidadão Agora Brasil © 2026 - Cobertura de política, leis e utilidades públicas.</p>
+    <p>Cidadão Agora Política © 2026 - Transparência pública e cobertura de leis.</p>
   </footer>
 
   <script>
@@ -245,12 +258,26 @@ def coletar_e_gerar_politica():
     todas_materias = []
     titulos_vistos = set()
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Rastreando política oficial completa com formatação original...")
+    # Cache de matérias já salvas
+    cache_existentes = {}
+    json_politica = os.path.join(POLITICA_DIR, "politica.json")
+    if os.path.exists(json_politica):
+        try:
+            with open(json_politica, "r", encoding="utf-8") as f:
+                dados_velhos = json.load(f)
+                for item in dados_velhos.get("politica", []):
+                    if item.get("link_oficial"):
+                        cache_existentes[item["link_oficial"]] = item
+        except Exception:
+            pass
+
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Rastreando matérias de política com IA...")
 
     for feed_info in FEEDS_POLITICA:
         url = feed_info["url"]
         categoria = feed_info["categoria"]
         orgao = feed_info["orgao"]
+        
         try:
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
             with urllib.request.urlopen(req, timeout=15) as resp:
@@ -271,26 +298,58 @@ def coletar_e_gerar_politica():
                     link_oficial = item.find('link').text if item.find('link') is not None else "#"
                     descricao = item.find('description')
                     desc_texto = limpar_html(descricao.text) if descricao is not None else ""
-                    
-                    resumo = desc_texto[:240] + "..." if len(desc_texto) > 240 else desc_texto
+                    resumo_padrao = desc_texto[:240] + "..." if len(desc_texto) > 240 else desc_texto
                     imagem_url = extrair_imagem(item)
-                    slug = criar_slug(titulo_limpo)
 
-                    corpo_formatado = extrair_artigo_politica_formatado(link_oficial, desc_texto)
+                    # Se já existe no cache e o HTML está salvo no disco, reaproveita
+                    if link_oficial in cache_existentes:
+                        item_existente = cache_existentes[link_oficial]
+                        caminho_antigo = os.path.join(POLITICA_DIR, item_existente.get("slug", "") + ".html")
+                        if os.path.exists(caminho_antigo):
+                            todas_materias.append(item_existente)
+                            continue
+
+                    corpo_bruto = extrair_artigo_politica_formatado(link_oficial, desc_texto)
+
+                    titulo_final = titulo_limpo
+                    resumo_final = resumo_padrao
+                    slug_final = criar_slug(titulo_limpo)
+                    destaques_html = ""
+                    corpo_final = corpo_bruto
+                    foi_reescrito = False
+
+                    # Aciona reescrita jornalística inédita com Gemini
+                    if reescrever_com_ia:
+                        print(f"-> Analisando e reescrevendo com IA: '{titulo_limpo[:45]}...'")
+                        artigo_ia = reescrever_com_ia(
+                            titulo_original=titulo_limpo,
+                            conteudo_texto=corpo_bruto,
+                            categoria=categoria,
+                            orgao=f"EBC / {orgao}"
+                        )
+                        if artigo_ia:
+                            titulo_final = artigo_ia["titulo"]
+                            resumo_final = artigo_ia.get("resumo", resumo_padrao)
+                            slug_final = criar_slug(titulo_final)
+                            destaques_html = formatar_bloco_destaques(artigo_ia.get("destaques", []))
+                            corpo_final = inserir_ads_no_corpo(artigo_ia["corpo_html"])
+                            foi_reescrito = True
 
                     item_noticia = {
-                        "titulo": titulo_limpo,
-                        "resumo": resumo,
+                        "titulo": titulo_final,
+                        "resumo": resumo_final,
                         "conteudo_completo": desc_texto,
-                        "corpo_html": corpo_formatado,
+                        "corpo_html": corpo_final,
+                        "destaques_html": destaques_html,
                         "imagem": imagem_url,
-                        "slug": slug,
-                        "pagina_local": f"{slug}.html",
+                        "slug": slug_final,
+                        "pagina_local": f"{slug_final}.html",
                         "link_oficial": link_oficial,
                         "categoria": categoria,
                         "orgao": orgao,
                         "fonte": f"EBC / {orgao} (Canais Oficiais)",
-                        "coletado_em": datetime.now().strftime("%d/%m/%Y às %H:%M")
+                        "coletado_em": datetime.now().strftime("%d/%m/%Y às %H:%M"),
+                        "reescrito_ia": foi_reescrito
                     }
 
                     gerar_pagina_politica(item_noticia)
@@ -322,7 +381,7 @@ def coletar_e_gerar_politica():
         with open(js_conteudo, "w", encoding="utf-8") as f:
             f.write("const DADOS_POLITICA = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
 
-        print(f"Concluído! {len(todas_materias)} matérias de política formatadas e salvas com sucesso.")
+        print(f"Concluído! {len(todas_materias)} matérias de política salvas com sucesso.")
 
 if __name__ == "__main__":
     coletar_e_gerar_politica()

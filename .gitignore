@@ -3,3 +3,6 @@ scratch/
 .DS_Store
 Thumbs.db
 .wrangler/
+__pycache__/
+*.pyc
+.env

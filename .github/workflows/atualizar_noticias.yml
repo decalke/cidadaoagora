@@ -13,6 +13,9 @@ jobs:
     permissions:
       contents: write # Permite que o robô salve os novos arquivos HTML e faça commit
 
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
     steps:
       - name: Baixar o código do repositório
         uses: actions/checkout@v4

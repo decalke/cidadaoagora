@@ -1,12 +1,13 @@
 const DADOS_POLITICA = {
-  "ultima_atualizacao": "02/11/2026 às 23:23:46",
+  "ultima_atualizacao": "02/11/2026 às 20:31:29",
   "total": 30,
   "politica": [
     {
       "titulo": "Desembargador assume governo de MS após licença de governador e vice",
       "resumo": "Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Exe...",
       "conteudo_completo": "Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Executivo estadual neste domingo (1º).\n\nPavan deve permanecer à frente do governo sul-mato-grossense até a próxima sexta-feira (6), quando termina a licença temporária solicitada pelo governador Eduardo Riedel (PP) – reeleito no primeiro turno das eleições de 2026, em 4 de outubro.\n\nNotícias relacionadas:Eduardo Riedel é reeleito governador de MS no primeiro turno.Segundo a Secretaria Executiva de Comunicação (Secom), Riedel e o vice-governador Barbosinha (Republicanos) pediram licença de seus cargos para descansar por alguns dias após o fim das eleições.\n\nOs dois comunicaram o afastamento em um ofício enviado à Assembleia Legislativa, no qual Riedel informou que pretendia deixar o estado e, possivelmente, o Brasil, e que, no mesmo período, seu vice também planejava se afastar das funções.\n\nCom a ausência do governador e do vice, quem deveria assumir seria o atual presidente da Assembleia Legislativa, deputado Gerson Claro (PP), que também comunicou a intenção de se ausentar durante esta semana para cumprir compromissos de agenda.\n\nCoube, então, ao presidente do TJ-MS assumir temporariamente o comando do estado.\n\nAo comentar a situação, Pavan declarou que pretende seguir as diretrizes da atual gestão, priorizando a manutenção da governabilidade.\n\n“Não haverá, portanto, qualquer propósito de promover inovações administrativas, alterações nas políticas públicas ou intervenções que possam afetar o plano de governo e a execução orçamentária em curso, cuja condução compete legitimamente ao governador titular”, assegurou o desembargador.\n\nDe acordo com o TJ-MS, esta é a quarta vez, desde abril de 2002, que um presidente da Corte ocupa temporariamente o comando do Poder Executivo estadual.\n\nEm um vídeo divulgado em suas redes sociais, Eduardo Riedel desejou sorte e agradeceu ao apoio de Pavan.\n\n“Não tenho dúvida nenhuma de que o estado estará em ótimas mãos durante esta semana.”",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Executivo estadual neste domingo (1º).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707533&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707533&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Pavan deve permanecer à frente do governo sul-mato-grossense até a próxima sexta-feira (6), quando termina a licença temporária solicitada pelo governador Eduardo Riedel (PP) – <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eduardo-riedel-e-reeleito-governador-de-ms-no-primeiro-turno\" target=\"_blank\">reeleito no primeiro turno</a> das eleições de 2026, em 4 de outubro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a Secretaria Executiva de Comunicação (Secom), Riedel e o vice-governador Barbosinha (Republicanos) pediram licença de seus cargos para descansar por alguns dias após o fim das eleições.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Os dois comunicaram o afastamento em um ofício enviado à Assembleia Legislativa, no qual Riedel informou que pretendia deixar o estado e, possivelmente, o Brasil, e que, no mesmo período, seu vice também planejava se afastar das funções.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Com a ausência do governador e do vice, quem deveria assumir seria o atual presidente da Assembleia Legislativa, deputado Gerson Claro (PP), que também comunicou a intenção de se ausentar durante esta semana para cumprir compromissos de agenda.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Coube, então, ao presidente do TJ-MS assumir temporariamente o comando do estado.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Ao comentar a situação, Pavan declarou que pretende seguir as diretrizes da atual gestão, priorizando a manutenção da governabilidade.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não haverá, portanto, qualquer propósito de promover inovações administrativas, alterações nas políticas públicas ou intervenções que possam afetar o plano de governo e a execução orçamentária em curso, cuja condução compete legitimamente ao governador titular”, assegurou o desembargador.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>De acordo com o TJ-MS, esta é a quarta vez, desde abril de 2002, que um presidente da Corte ocupa temporariamente o comando do Poder Executivo estadual.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Em um vídeo divulgado em suas redes sociais, Eduardo Riedel desejou sorte e agradeceu ao apoio de Pavan.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Não tenho dúvida nenhuma de que o estado estará em ótimas mãos durante esta semana.”</p>",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>Terceiro na linha de sucessão ao governo de Mato Grosso do Sul em caso de vacância do cargo de governador, o presidente do Tribunal de Justiça estadual (TJ-MS), desembargador Dorival Renato Pavan, assumiu interinamente a chefia do Poder Executivo estadual neste domingo (1º).</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707533&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707533&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Pavan deve permanecer à frente do governo sul-mato-grossense até a próxima sexta-feira (6), quando termina a licença temporária solicitada pelo governador Eduardo Riedel (PP) – <a href=\"https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/eduardo-riedel-e-reeleito-governador-de-ms-no-primeiro-turno\" target=\"_blank\">reeleito no primeiro turno</a> das eleições de 2026, em 4 de outubro.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Segundo a Secretaria Executiva de Comunicação (Secom), Riedel e o vice-governador Barbosinha (Republicanos) pediram licença de seus cargos para descansar por alguns dias após o fim das eleições.</p>\n\n    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n    </div>\n    \n\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>Os dois comunicaram o afastamento em um ofício enviado à Assembleia Legislativa, no qual Riedel informou que pretendia deixar o estado e, possivelmente, o Brasil, e que, no mesmo período, seu vice também planejava se afastar das funções.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Com a ausência do governador e do vice, quem deveria assumir seria o atual presidente da Assembleia Legislativa, deputado Gerson Claro (PP), que também comunicou a intenção de se ausentar durante esta semana para cumprir compromissos de agenda.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>Coube, então, ao presidente do TJ-MS assumir temporariamente o comando do estado.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Ao comentar a situação, Pavan declarou que pretende seguir as diretrizes da atual gestão, priorizando a manutenção da governabilidade.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Não haverá, portanto, qualquer propósito de promover inovações administrativas, alterações nas políticas públicas ou intervenções que possam afetar o plano de governo e a execução orçamentária em curso, cuja condução compete legitimamente ao governador titular”, assegurou o desembargador.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>De acordo com o TJ-MS, esta é a quarta vez, desde abril de 2002, que um presidente da Corte ocupa temporariamente o comando do Poder Executivo estadual.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Em um vídeo divulgado em suas redes sociais, Eduardo Riedel desejou sorte e agradeceu ao apoio de Pavan.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Não tenho dúvida nenhuma de que o estado estará em ótimas mãos durante esta semana.”</p>",
+      "destaques_html": "",
       "imagem": "https://imagens.ebc.com.br/KPENsvW6ZfUyfi1W1KDFv5fdqqk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/sem_titulo.jpg?itok=r3xm_Fx5",
       "slug": "desembargador-assume-governo-de-ms-apos-licenca-de-governador-e-vice",
       "pagina_local": "desembargador-assume-governo-de-ms-apos-licenca-de-governador-e-vice.html",
@@ -14,7 +15,8 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 20:31",
+      "reescrito_ia": false
     },
     {
       "titulo": "Lula garante que programas sociais serão mantidos",
@@ -28,7 +30,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Denúncias de violência política quadriplicam em outubro no Disque 100",
@@ -42,7 +44,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral em três dias",
@@ -56,7 +58,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Aluno é ameaçado de morte no DF por opção política",
@@ -70,7 +72,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Estudantes relatam violência relacionada à eleição presidencial",
@@ -84,7 +86,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Ação Popular pede suspensão de salário do senador Flávio Bolsonaro",
@@ -98,7 +100,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Vieira encontra Rubio nos EUA após vitória de Lula e fuga de Flávio",
@@ -112,7 +114,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Alcolumbre marca votação da PEC da Segurança Pública para terça-feira",
@@ -126,7 +128,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Entidades repudiam listas de boicote por divergência política",
@@ -140,7 +142,7 @@ const DADOS_POLITICA = {
       "categoria": "Política Nacional",
       "orgao": "Congresso & Planalto",
       "fonte": "EBC / Congresso & Planalto (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Fux atende AGU e inclui ministérios e Abras em debate sobre bets",
@@ -154,7 +156,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "STF determina soltura de desembargador preso na Operação Unha e Carne",
@@ -168,7 +170,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Justiça intima Jairinho a justificar apelação por morte de Henry Borel",
@@ -182,7 +184,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
@@ -196,7 +198,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Caseiro explorado e usado como laranja no DF receberá pensão mensal",
@@ -210,7 +212,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Empresário é condenado a 17 anos por morte de motorista de aplicativo",
@@ -224,7 +226,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master",
@@ -238,7 +240,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Defesa diz que 657 arquivos do celular de Vorcaro foram modificados",
@@ -252,7 +254,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Vorcaro diz que não fez nada errado e pede voto de confiança",
@@ -266,7 +268,7 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Operação Contenção: DPRJ pede R$ 50 milhões em reparação a moradores",
@@ -280,13 +282,14 @@ const DADOS_POLITICA = {
       "categoria": "Justiça & TSE",
       "orgao": "Justiça & Eleitoral",
       "fonte": "EBC / Justiça & Eleitoral (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
       "resumo": "O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio das altas taxas de jur...",
       "conteudo_completo": "O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio das altas taxas de juros. O especialista defende novas regras para as despesas e os juros no país.\n\n“Acuso o Banco Central de sustentar, em nome de uma teoria anacrônica, a taxa de juros que é a principal causa do desequilíbrio fiscal que diz combater.”\n\nNotícias relacionadas:Economistas criticam usar corte de gastos para conter dívida pública.Programas sociais abrangentes ajudam países a combater fome e pobreza .Formado pela PUC do Rio de Janeiro, André Lara Resende tem PhD em economia pelo Massachusetts Institute of Technology (MIT), nos Estados Unidos, além de ter atuado em instituições financeiras no Brasil.\n\nO especialista questiona a teoria econômica defendida pelo mercado financeiro e pelo BC para justificar a taxa Selic em 13,75% ao ano. Segundo ranking da Moneyou, o Brasil tem a taxa de juros real mais alta do mundo.\n\n\n“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”\n\n\nEscrito às vésperas do primeiro turno eleitoral, o artigo de André Lara Resende ainda acusou “todos os que, sabendo que juros absurdos inviabilizam o país, preferem o conforto do consenso ao incômodo da verdade”.\n\nO Banco Central justifica os juros elevados, entre outros motivos, devido às pressões inflacionárias e aos déficits fiscais primários nas contas públicas, que é quando as despesas superam as receitas, excluindo os gastos com a dívida.\n\nSegundo a autoridade monetária, os gastos primários maiores que arrecadação pressionam a inflação.\n\nDívida e déficit públicos\n\nApesar de reconhecer que o Brasil gasta mal e aloca recursos de forma “irracional”, como nos casos das emendas parlamentares, das vantagens salariais do Judiciário e das isenções tributárias “de toda ordem”, André Lara Resende demonstra que o Brasil tem um déficit fiscal pequeno, entre os menores do mundo.\n\n“Quando se exclui o serviço da dívida, as contas estão praticamente equilibradas. A grande despesa do Estado é com os juros sobre a dívida”, escreveu.  \n \n\n\n            \n        \n    \n\nA dívida pública brasileira cresceu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026. Para combater esse aumento, analistas do mercado financeiro tem cobrado corte de despesas da União, o que tende a afetar as políticas sociais. \n\nO professor André Lara Resende reconhece que o crescimento da dívida é insustentável, mas destaca que o problema não está nos “gastos primários”, que são as despesas com serviços públicos que o mercado financeiro cobra para reduzir.  \n\n“Nos últimos anos, exceto durante a Covid, o resultado primário foi apenas ligeiramente negativo; já o déficit nominal, puxado pelos juros, foi sempre alto e agora aproxima-se de 10% do PIB”, explicou.\n \n\n\n            \n        \n    \n\n“O equilíbrio das contas públicas não é uma condição necessária e nem suficiente para o bom funcionamento da política econômica”, afirmou no artigo publicado no Substack.\n\nAndré Lara Resende concluiu que a redução da taxa de juros é a solução para o desequilíbrio fiscal no Brasil. Nos últimos 12 meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento ou 8,9% do PIB.\n\n\n“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.\n\n\nJuros e inflação\n\nO Banco Central sustenta que a atual taxa de juros é necessária para manter a inflação sob controle uma vez que a Selic elevada inibe o crescimento econômico e a demanda, forçando uma queda dos preços.\n\nOs comunicados oficiais do Comitê de Política Monetária (Copom) do BC, responsável por definir a Selic, apontam como fatores que contribuem para inflação e, por isso, justificam os juros altos: o aquecimento da economia e do mercado de trabalho e a trajetória dos gastos públicos.\n\n“O Comitê reafirma a visão de que o esmorecimento no esforço de reformas estruturais e disciplina fiscal, o aumento de crédito direcionado e as incertezas sobre a estabilização da dívida pública têm o potencial de elevar a taxa de juros”, diz a última ata do Copom.\n\nNo artigo, Lara Resende questiona a tese de que o BC não tem alternativa para controlar a inflação além dos juros elevados. Para ele, não há mais uma relação inversa entre desemprego e inflação que sugere que o aumento do desemprego, um dos resultados dos juros altos, reduz a inflação.\n\n“A fragilidade conceitual e empírica deste modelo macro convencional que pauta a política dos BCs é tão flagrante que, apesar de ainda dominante e repetido na mídia como verdade incontestável, passou a ser criticado até mesmo pelos economistas mais conservadores”, diz.\n\nPor outro lado, o economista reconhece que a redução dos juros traz um aumento da inflação, mas sustenta que essa é uma relação de “curto prazo” e transitória.\n\n&gt;&gt; Clique aqui e leia a íntegra do texto Eu Acuso: Uma Proposta para Eliminar os Juros Absurdos do ex-diretor do Banco Central e ex-presidente do Banco Nacional de Desenvolvimento Social (BNDES).\n\nNovo regime fiscal e monetário\n\nO especialista que ajudou a elaborar o Plano Real durante o governo de Fernando Henrique Cardoso (FHC) aponta que não há corte de gastos possível que interrompa o crescimento da dívida em relação ao PIB sem uma redução do juro para “em torno da taxa de crescimento nominal da economia”.\n\nComo proposta, André Lara Resende sugere um novo regime fiscal e monetário para o Brasil com um planejamento de metas fiscais e de juros por um período mais longo, de quarto a cinco anos, a serem anunciadas de forma conjunta.\n\n\n“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.\n\n\nO especialista acrescenta que a intervenção do BC no mercado de câmbio deve ser necessária para evitar qualquer depreciação mais intensa do real.\n\n“Com reservas internacionais de mais de US$ 350 bilhões, o BC tem munição de sobra para isso”, escreveu.",
-      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio das altas taxas de juros. O especialista defende novas regras para as despesas e os juros no país.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707521&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707521&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Acuso o Banco Central de sustentar, em nome de uma teoria anacrônica, a taxa de juros que é a principal causa do desequilíbrio fiscal que diz combater.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Formado pela PUC do Rio de Janeiro, André Lara Resende tem PhD em economia pelo Massachusetts Institute of Technology (MIT), nos Estados Unidos, além de ter atuado em instituições financeiras no Brasil.</p>\n\n                    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n                      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio do Artigo]</span>\n                    </div>\n                    \n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O especialista <a href=\"http://https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica\" target=\"_blank\">questiona a teoria econômica defendida</a> pelo mercado financeiro e pelo BC para justificar a taxa Selic em 13,75% ao ano. </strong>Segundo <a href=\"https://moneyou.com.br/wp-content/uploads/2026/09/rankingdejurosreais160926.pdf\" target=\"_blank\"><em>ranking</em> da Moneyou</a>, o Brasil tem a taxa de juros real mais alta do mundo.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Escrito às vésperas do primeiro turno eleitoral, o artigo de André Lara Resende ainda acusou “todos os que, sabendo que juros absurdos inviabilizam o país, preferem o conforto do consenso ao incômodo da verdade”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Banco Central justifica os juros elevados, entre outros motivos, devido às pressões inflacionárias e aos déficits fiscais primários nas contas públicas</strong>, que é quando as despesas superam as receitas, excluindo os gastos com a dívida.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Segundo a autoridade monetária, os gastos primários maiores que arrecadação pressionam a inflação.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Dívida e déficit públicos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Apesar de reconhecer que o Brasil gasta mal e aloca recursos de forma “irracional”, como nos casos das emendas parlamentares, das vantagens salariais do Judiciário e das isenções tributárias “de toda ordem”, <strong>André Lara Resende demonstra que o Brasil tem um déficit fiscal pequeno, entre os menores do mundo.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Quando se exclui o serviço da dívida, as contas estão praticamente equilibradas. A grande despesa do Estado é com os juros sobre a dívida”, escreveu.  <br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>A dívida pública brasileira cresceu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026. <strong>Para combater esse aumento, analistas do <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas\" target=\"_blank\">mercado financeiro tem cobrado corte de despesas</a> da União, o que tende a afetar as políticas sociais. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O professor André Lara Resende reconhece que o crescimento da dívida é insustentável, mas destaca que o problema não está nos “gastos primários”, que são as despesas com serviços públicos que o mercado financeiro cobra para reduzir.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Nos últimos anos, exceto durante a Covid, o resultado primário foi apenas ligeiramente negativo; já o déficit nominal, puxado pelos juros, foi sempre alto e agora aproxima-se de 10% do PIB”, explicou.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O equilíbrio das contas públicas não é uma condição necessária e nem suficiente para o bom funcionamento da política econômica”, afirmou no artigo publicado no Substack.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>André Lara Resende concluiu que a redução da taxa de juros é a solução para o desequilíbrio fiscal no Brasil. Nos últimos 12 meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento ou 8,9% do PIB.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Juros e inflação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>O Banco Central sustenta que a atual taxa de juros é necessária para manter a inflação sob controle uma vez que a Selic elevada inibe o crescimento econômico e a demanda, forçando uma queda dos preços.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Os comunicados oficiais do Comitê de Política Monetária (Copom) do BC, responsável por definir a Selic, apontam como fatores que contribuem para inflação e, por isso, justificam os juros altos: o aquecimento da economia e do mercado de trabalho e a trajetória dos gastos públicos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“O Comitê reafirma a visão de que o esmorecimento no esforço de reformas estruturais e disciplina fiscal, o aumento de crédito direcionado e as incertezas sobre a estabilização da dívida pública têm o potencial de elevar a taxa de juros”, diz a <a href=\"https://www.bcb.gov.br/publicacoes/atascopom\" target=\"_blank\">última ata do Copom</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>No artigo, Lara Resende questiona a tese de que o BC não tem alternativa para controlar a inflação além dos juros elevados. Para ele, não há mais uma relação inversa entre desemprego e inflação que sugere que o aumento do desemprego, um dos resultados dos juros altos, reduz a inflação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“A fragilidade conceitual e empírica deste modelo macro convencional que pauta a política dos BCs é tão flagrante que, apesar de ainda dominante e repetido na mídia como verdade incontestável, passou a ser criticado até mesmo pelos economistas mais conservadores”, diz.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>Por outro lado, o economista reconhece que a redução dos juros traz um aumento da inflação, mas sustenta que essa é uma relação de “curto prazo” e transitória.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>&gt;&gt; Clique aqui e leia a íntegra do texto <em><a href=\"https://andrelararesende.substack.com/p/eu-acuso-uma-proposta-para-eliminar\" target=\"_blank\">Eu Acuso: Uma Proposta para Eliminar os Juros Absurdos</a></em> do ex-diretor do Banco Central e ex-presidente do Banco Nacional de Desenvolvimento Social (BNDES).</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Novo regime fiscal e monetário</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O especialista que ajudou a elaborar o Plano Real durante o governo de Fernando Henrique Cardoso (FHC) aponta que não há corte de gastos possível que interrompa o crescimento da dívida em relação ao PIB sem uma redução do juro para “em torno da taxa de crescimento nominal da economia”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'><strong>Como proposta, André Lara Resende sugere um novo regime fiscal e monetário para o Brasil com um planejamento de metas fiscais e de juros por um período mais longo, de quarto a cinco anos, a serem anunciadas de forma conjunta.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>O especialista acrescenta que a intervenção do BC no mercado de câmbio deve ser necessária para evitar qualquer depreciação mais intensa do real.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal'>“Com reservas internacionais de mais de US$ 350 bilhões, o BC tem munição de sobra para isso”, escreveu.</p>",
+      "corpo_html": "<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio das altas taxas de juros. O especialista defende novas regras para as despesas e os juros no país.</strong><img src=\"https://agenciabrasil.ebc.com.br/ebc.png?id=1707521&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/><img src=\"https://agenciabrasil.ebc.com.br/ebc.gif?id=1707521&amp;o=node\" style=\"width:1px; height:1px; display:inline;\"/></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Acuso o Banco Central de sustentar, em nome de uma teoria anacrônica, a taxa de juros que é a principal causa do desequilíbrio fiscal que diz combater.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Formado pela PUC do Rio de Janeiro, André Lara Resende tem PhD em economia pelo Massachusetts Institute of Technology (MIT), nos Estados Unidos, além de ter atuado em instituições financeiras no Brasil.</p>\n\n    <div class=\"ad-placeholder rounded-xl p-4 text-center text-xs text-slate-400 font-medium my-8\">\n      <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>\n    </div>\n    \n\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>O especialista <a href=\"http://https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica\" target=\"_blank\">questiona a teoria econômica defendida</a> pelo mercado financeiro e pelo BC para justificar a taxa Selic em 13,75% ao ano. </strong>Segundo <a href=\"https://moneyou.com.br/wp-content/uploads/2026/09/rankingdejurosreais160926.pdf\" target=\"_blank\"><em>ranking</em> da Moneyou</a>, o Brasil tem a taxa de juros real mais alta do mundo.</p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Escrito às vésperas do primeiro turno eleitoral, o artigo de André Lara Resende ainda acusou “todos os que, sabendo que juros absurdos inviabilizam o país, preferem o conforto do consenso ao incômodo da verdade”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>O Banco Central justifica os juros elevados, entre outros motivos, devido às pressões inflacionárias e aos déficits fiscais primários nas contas públicas</strong>, que é quando as despesas superam as receitas, excluindo os gastos com a dívida.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Segundo a autoridade monetária, os gastos primários maiores que arrecadação pressionam a inflação.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Dívida e déficit públicos</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Apesar de reconhecer que o Brasil gasta mal e aloca recursos de forma “irracional”, como nos casos das emendas parlamentares, das vantagens salariais do Judiciário e das isenções tributárias “de toda ordem”, <strong>André Lara Resende demonstra que o Brasil tem um déficit fiscal pequeno, entre os menores do mundo.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Quando se exclui o serviço da dívida, as contas estão praticamente equilibradas. A grande despesa do Estado é com os juros sobre a dívida”, escreveu.  <br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>A dívida pública brasileira cresceu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026. <strong>Para combater esse aumento, analistas do <a href=\"https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/corte-amplo-de-gastos-publicos-afetaria-area-social-dizem-economistas\" target=\"_blank\">mercado financeiro tem cobrado corte de despesas</a> da União, o que tende a afetar as políticas sociais. </strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>O professor André Lara Resende reconhece que o crescimento da dívida é insustentável, mas destaca que o problema não está nos “gastos primários”, que são as despesas com serviços públicos que o mercado financeiro cobra para reduzir.  </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Nos últimos anos, exceto durante a Covid, o resultado primário foi apenas ligeiramente negativo; já o déficit nominal, puxado pelos juros, foi sempre alto e agora aproxima-se de 10% do PIB”, explicou.<br/>\n </p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“O equilíbrio das contas públicas não é uma condição necessária e nem suficiente para o bom funcionamento da política econômica”, afirmou no artigo publicado no Substack.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>André Lara Resende concluiu que a redução da taxa de juros é a solução para o desequilíbrio fiscal no Brasil. Nos últimos 12 meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento ou 8,9% do PIB.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Juros e inflação</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>O Banco Central sustenta que a atual taxa de juros é necessária para manter a inflação sob controle uma vez que a Selic elevada inibe o crescimento econômico e a demanda, forçando uma queda dos preços.</strong></p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Os comunicados oficiais do Comitê de Política Monetária (Copom) do BC, responsável por definir a Selic, apontam como fatores que contribuem para inflação e, por isso, justificam os juros altos: o aquecimento da economia e do mercado de trabalho e a trajetória dos gastos públicos.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“O Comitê reafirma a visão de que o esmorecimento no esforço de reformas estruturais e disciplina fiscal, o aumento de crédito direcionado e as incertezas sobre a estabilização da dívida pública têm o potencial de elevar a taxa de juros”, diz a <a href=\"https://www.bcb.gov.br/publicacoes/atascopom\" target=\"_blank\">última ata do Copom</a>.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>No artigo, Lara Resende questiona a tese de que o BC não tem alternativa para controlar a inflação além dos juros elevados. Para ele, não há mais uma relação inversa entre desemprego e inflação que sugere que o aumento do desemprego, um dos resultados dos juros altos, reduz a inflação.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“A fragilidade conceitual e empírica deste modelo macro convencional que pauta a política dos BCs é tão flagrante que, apesar de ainda dominante e repetido na mídia como verdade incontestável, passou a ser criticado até mesmo pelos economistas mais conservadores”, diz.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>Por outro lado, o economista reconhece que a redução dos juros traz um aumento da inflação, mas sustenta que essa é uma relação de “curto prazo” e transitória.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>&gt;&gt; Clique aqui e leia a íntegra do texto <em><a href=\"https://andrelararesende.substack.com/p/eu-acuso-uma-proposta-para-eliminar\" target=\"_blank\">Eu Acuso: Uma Proposta para Eliminar os Juros Absurdos</a></em> do ex-diretor do Banco Central e ex-presidente do Banco Nacional de Desenvolvimento Social (BNDES).</p>\n<h2 class='text-xl sm:text-2xl font-black text-slate-900 mt-8 mb-3 tracking-tight'>Novo regime fiscal e monetário</h2>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>O especialista que ajudou a elaborar o Plano Real durante o governo de Fernando Henrique Cardoso (FHC) aponta que não há corte de gastos possível que interrompa o crescimento da dívida em relação ao PIB sem uma redução do juro para “em torno da taxa de crescimento nominal da economia”.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'><strong>Como proposta, André Lara Resende sugere um novo regime fiscal e monetário para o Brasil com um planejamento de metas fiscais e de juros por um período mais longo, de quarto a cinco anos, a serem anunciadas de forma conjunta.</strong></p>\n<blockquote class='border-l-4 border-blue-600 bg-slate-50 p-4 sm:p-5 rounded-r-2xl my-6 text-slate-700 italic font-medium text-base shadow-sm'>\n<p>“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.</p>\n</blockquote>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>O especialista acrescenta que a intervenção do BC no mercado de câmbio deve ser necessária para evitar qualquer depreciação mais intensa do real.</p>\n<p class='text-base sm:text-lg text-slate-700 leading-relaxed font-normal mb-5'>“Com reservas internacionais de mais de US$ 350 bilhões, o BC tem munição de sobra para isso”, escreveu.</p>",
+      "destaques_html": "",
       "imagem": "https://imagens.ebc.com.br/k_BccIJnyE--3B3hEMbCKbnNXOY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/andre-lara-resende-senado.jpg?itok=oKul82-q",
       "slug": "economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-via-juros",
       "pagina_local": "economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-via-juros.html",
@@ -294,7 +297,8 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 20:31",
+      "reescrito_ia": false
     },
     {
       "titulo": "Petrobras reajusta combustível de aviação em R$ 0,45 por litro",
@@ -308,7 +312,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
@@ -322,7 +326,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -336,7 +340,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -350,7 +354,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -364,7 +368,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -378,7 +382,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -392,7 +396,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -406,7 +410,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -420,7 +424,7 @@ const DADOS_POLITICA = {
       "categoria": "Novos Tributos & Economia",
       "orgao": "Receita & Ministério da Fazenda",
       "fonte": "EBC / Receita & Ministério da Fazenda (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 23:23"
+      "coletado_em": "02/11/2026 às 15:23"
     }
   ]
 };
