@@ -134,9 +134,15 @@ def gerar_pagina_materia(noticia):
   <meta property="og:description" content="{noticia['resumo']}">
   <meta property="og:image" content="{noticia['imagem']}">
   <meta property="og:type" content="article">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <meta name="theme-color" content="#2563EB">
+  <link rel="stylesheet" href="../css/design-system.css">
+  <link rel="stylesheet" href="../css/tailwind.min.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script defer src="../js/ads-safe.js"></script>
+  <script src="../js/lucide.min.js"></script>
   <style>
     .ad-placeholder {{
       border: 1px dashed #cbd5e1;
@@ -144,6 +150,7 @@ def gerar_pagina_materia(noticia):
     }}
     .prose p {{
       margin-bottom: 1.25rem;
+      line-height: 1.8;
     }}
     .prose strong {{
       color: #0f172a;

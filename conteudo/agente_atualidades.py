@@ -114,12 +114,18 @@ def gerar_pagina_materia(materia):
   </script>
   <!-- Google AdSense Oficial -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+  <script defer src="../js/ads-safe.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <meta name="theme-color" content="#2563EB">
   <title>{materia['titulo']} - Atualidades Cidadão Agora</title>
   <meta name="description" content="{materia['resumo'][:150]}...">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="../css/design-system.css">
+  <link rel="stylesheet" href="../css/tailwind.min.css">
+  <script src="../js/lucide.min.js"></script>
   <style>
     .ad-placeholder {{
       border: 1px dashed #cbd5e1;
