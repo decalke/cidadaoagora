@@ -23,6 +23,7 @@
   <meta name="theme-color" content="#2563EB">
   <title>Plantão de Notícias Oficiais do Governo Federal - Cidadão Agora</title>
   <meta name="description" content="Notícias oficiais em tempo real sobre novas políticas públicas, tributos, economia, programas sociais e decisões do Governo Federal (Agência Brasil / EBC).">
+  <link rel="stylesheet" href="../css/design-system.css">
   <link rel="stylesheet" href="../css/tailwind.min.css">
   <script src="../js/lucide.min.js"></script>
   <style>
@@ -176,7 +177,14 @@
 
     async function carregarNoticiasDoAgente() {
       // 1. Tenta carregar via DADOS_NOTCAIAS (funciona imediatamente sem servidor local)
-      if (typeof DADOS_NOTCAIAS !== "undefined" && DADOS_NOTCAIAS.noticias) {
+      const fonteDados = (typeof DADOS_NOTICIAS !== "undefined" && DADOS_NOTICIAS.noticias) ? DADOS_NOTICIAS : 
+                         (typeof DADOS_NOTCAIAS !== "undefined" && DADOS_NOTCAIAS.noticias) ? DADOS_NOTCAIAS : null;
+      if (fonteDados) {
+        TODAS_NOTCAIAS = fonteDados.noticias;
+        document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + fonteDados.ultima_atualizacao;
+        renderizarFeed(TODAS_NOTCAIAS);
+        return;
+      }
         TODAS_NOTCAIAS = DADOS_NOTCAIAS.noticias;
         document.getElementById('label-ultima-atualizacao').innerText = 'Atualizado em: ' + DADOS_NOTCAIAS.ultima_atualizacao;
         renderizarFeed(TODAS_NOTCAIAS);

@@ -372,6 +372,13 @@ def coletar_e_gerar():
         with open(js_file, "w", encoding="utf-8") as f:
             f.write("const DADOS_NOTICIAS = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";")
 
+        conteudo_dir = os.path.join(BASE_DIR, "conteudo")
+        os.makedirs(conteudo_dir, exist_ok=True)
+        with open(os.path.join(conteudo_dir, "noticias.json"), "w", encoding="utf-8") as f:
+            json.dump(dados_salvar, f, ensure_ascii=False, indent=2)
+        with open(os.path.join(conteudo_dir, "noticias_dados.js"), "w", encoding="utf-8") as f:
+            f.write("const DADOS_NOTICIAS = " + json.dumps(dados_salvar, ensure_ascii=False, indent=2) + ";\nvar DADOS_NOTCAIAS = DADOS_NOTICIAS;\n")
+
         print(f"Concluído! {len(todas_noticias)} notícias salvas e organizadas com sucesso.")
 
 if __name__ == "__main__":
