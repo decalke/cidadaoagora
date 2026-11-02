@@ -1,7 +1,20 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "02/11/2026 às 15:23:47",
+  "ultima_atualizacao": "02/11/2026 às 23:23:50",
   "total": 20,
   "atualidades": [
+    {
+      "titulo": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
+      "resumo": "O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio da...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O artigo de um dos economistas da equipe que elaborou o Plano Real, professor André Lara Resende, tem ganhado destaque nos últimos dias por acusar o Banco Central (BC) de causar desequilíbrio fiscal no Brasil por meio das altas taxas de juros. O especialista defende novas regras para as despesas e os juros no país.\n\n“Acuso o Banco Central de sustentar, em nome de uma teoria anacrônica, a taxa de juros que é a principal causa do desequilíbrio fiscal que diz combater.”\n\nNotícias relacionadas:Economistas criticam usar corte de gastos para conter dívida pública.Programas sociais abrangentes ajudam países a combater fome e pobreza .Formado pela PUC do Rio de Janeiro, André Lara Resende tem PhD em economia pelo Massachusetts Institute of Technology (MIT), nos Estados Unidos, além de ter atuado em instituições financeiras no Brasil.\n\nO especialista questiona a teoria econômica defendida pelo mercado financeiro e pelo BC para justificar a taxa Selic em 13,75% ao ano. Segundo ranking da Moneyou, o Brasil tem a taxa de juros real mais alta do mundo.\n\n\n“Acuso a grande imprensa de repetir, sem exame, que o problema está no gasto primário, quando está nos juros. Acuso os analistas do mercado financeiro de confundir o interesse dos rentistas com a racionalidade econômica.”\n\n\nEscrito às vésperas do primeiro turno eleitoral, o artigo de André Lara Resende ainda acusou “todos os que, sabendo que juros absurdos inviabilizam o país, preferem o conforto do consenso ao incômodo da verdade”.\n\nO Banco Central justifica os juros elevados, entre outros motivos, devido às pressões inflacionárias e aos déficits fiscais primários nas contas públicas, que é quando as despesas superam as receitas, excluindo os gastos com a dívida.\n\nSegundo a autoridade monetária, os gastos primários maiores que arrecadação pressionam a inflação.\n\nDívida e déficit públicos\n\nApesar de reconhecer que o Brasil gasta mal e aloca recursos de forma “irracional”, como nos casos das emendas parlamentares, das vantagens salariais do Judiciário e das isenções tributárias “de toda ordem”, André Lara Resende demonstra que o Brasil tem um déficit fiscal pequeno, entre os menores do mundo.\n\n“Quando se exclui o serviço da dívida, as contas estão praticamente equilibradas. A grande despesa do Estado é com os juros sobre a dívida”, escreveu.  \n \n\n\n            \n        \n    \n\nA dívida pública brasileira cresceu de 71,7% do Produto Interno Bruto (PIB) em 2022 para cerca de 82,9% do PIB em agosto de 2026. Para combater esse aumento, analistas do mercado financeiro tem cobrado corte de despesas da União, o que tende a afetar as políticas sociais. \n\nO professor André Lara Resende reconhece que o crescimento da dívida é insustentável, mas destaca que o problema não está nos “gastos primários”, que são as despesas com serviços públicos que o mercado financeiro cobra para reduzir.  \n\n“Nos últimos anos, exceto durante a Covid, o resultado primário foi apenas ligeiramente negativo; já o déficit nominal, puxado pelos juros, foi sempre alto e agora aproxima-se de 10% do PIB”, explicou.\n \n\n\n            \n        \n    \n\n“O equilíbrio das contas públicas não é uma condição necessária e nem suficiente para o bom funcionamento da política econômica”, afirmou no artigo publicado no Substack.\n\nAndré Lara Resende concluiu que a redução da taxa de juros é a solução para o desequilíbrio fiscal no Brasil. Nos últimos 12 meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento ou 8,9% do PIB.\n\n\n“A economia tem um problema básico: a extraordinariamente alta taxa básica de juros. Um problema que tem solução clara. Só é preciso vencer os preconceitos associados a uma teoria monetária e fiscal anacrônica”, concluiu.\n\n\nJuros e inflação\n\nO Banco Central sustenta que a atual taxa de juros é necessária para manter a inflação sob controle uma vez que a Selic elevada inibe o crescimento econômico e a demanda, forçando uma queda dos preços.\n\nOs comunicados oficiais do Comitê de Política Monetária (Copom) do BC, responsável por definir a Selic, apontam como fatores que contribuem para inflação e, por isso, justificam os juros altos: o aquecimento da economia e do mercado de trabalho e a trajetória dos gastos públicos.\n\n“O Comitê reafirma a visão de que o esmorecimento no esforço de reformas estruturais e disciplina fiscal, o aumento de crédito direcionado e as incertezas sobre a estabilização da dívida pública têm o potencial de elevar a taxa de juros”, diz a última ata do Copom.\n\nNo artigo, Lara Resende questiona a tese de que o BC não tem alternativa para controlar a inflação além dos juros elevados. Para ele, não há mais uma relação inversa entre desemprego e inflação que sugere que o aumento do desemprego, um dos resultados dos juros altos, reduz a inflação.\n\n“A fragilidade conceitual e empírica deste modelo macro convencional que pauta a política dos BCs é tão flagrante que, apesar de ainda dominante e repetido na mídia como verdade incontestável, passou a ser criticado até mesmo pelos economistas mais conservadores”, diz.\n\nPor outro lado, o economista reconhece que a redução dos juros traz um aumento da inflação, mas sustenta que essa é uma relação de “curto prazo” e transitória.\n\n&gt;&gt; Clique aqui e leia a íntegra do texto Eu Acuso: Uma Proposta para Eliminar os Juros Absurdos do ex-diretor do Banco Central e ex-presidente do Banco Nacional de Desenvolvimento Social (BNDES).\n\nNovo regime fiscal e monetário\n\nO especialista que ajudou a elaborar o Plano Real durante o governo de Fernando Henrique Cardoso (FHC) aponta que não há corte de gastos possível que interrompa o crescimento da dívida em relação ao PIB sem uma redução do juro para “em torno da taxa de crescimento nominal da economia”.\n\nComo proposta, André Lara Resende sugere um novo regime fiscal e monetário para o Brasil com um planejamento de metas fiscais e de juros por um período mais longo, de quarto a cinco anos, a serem anunciadas de forma conjunta.\n\n\n“As metas de inflação seriam anunciadas em conjunto com metas para a taxa básica de juros. O BC se comprometeria a manter a taxa básica num intervalo entre a meta de inflação, 3%, e taxa de crescimento nominal potencial”, explicou.\n\n\nO especialista acrescenta que a intervenção do BC no mercado de câmbio deve ser necessária para evitar qualquer depreciação mais intensa do real.\n\n“Com reservas internacionais de mais de US$ 350 bilhões, o BC tem munição de sobra para isso”, escreveu.</p>",
+      "imagem": "https://imagens.ebc.com.br/k_BccIJnyE--3B3hEMbCKbnNXOY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/andre-lara-resende-senado.jpg?itok=oKul82-q",
+      "slug": "economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-via-juros",
+      "pagina_local": "economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-via-juros.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-juros",
+      "categoria": "Finanças do Cidadão",
+      "orgao": "Economia & Finanças",
+      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
+    },
     {
       "titulo": "Petrobras reajusta combustível de aviação em R$ 0,45 por litro",
       "resumo": "A Petrobras anunciou reajuste médio de 7,2% no querosene de aviação vendido às distribuidoras, a partir deste domingo (1°). Isso corresponde a um aumento de R$ 0,45 por litro em relação ao mês anterior.\n\nEm outubro, o co...",
@@ -13,7 +26,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
@@ -26,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
@@ -39,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -52,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -65,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -78,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -91,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -104,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -117,20 +130,72 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
-      "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
-      "resumo": "A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs da...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A taxa de desocupação para o terceiro trimestre caiu para 5,2%, a menor já registrada para esse período desde 2012. O desemprego era de 5,4% no segundo trimestre deste ano e de 5,6% no terceiro trimestre de 2025. \n\nOs dados são da Pesquisa Nacional por Amostra de Domicílios (Pnad) Contínua, divulgada nesta sexta-feira (30), pelo Instituto Brasileiro de Geografia e Estatística (IBGE). \n\nNotícias relacionadas:Taxa de desemprego cai para 5,3%, a menor para o trimestre até agosto.A população desocupada (5,6 milhões) diminuiu 4% (menos 234 mil pessoas) na comparação com o trimestre de abril a junho (5,9 milhões). Em comparação com igual trimestre do ano anterior (6 milhões), houve queda de 6,9% (menos 417 mil pessoas).\n\nPopulação ocupada\n\nA população ocupada, que totaliza 103,6 milhões de pessoa, foi a maior da série histórica, com alta de 0,6% no trimestre (mais 581 mil) e aumento de 1,2% no ano (mais 1,2 milhão).\n\nO nível da ocupação  – percentual de pessoas ocupadas na população em idade de trabalhar – também foi recorde, ao alcançar 59%. Além disso, houve variação de 0,2 pontos percentuais frente ao trimestre anterior (58,8%) e estabilidade em relação a igual trimestre do ano anterior (58,7%).\n\nInformalidade\n\nSegundo a pesquisa, a taxa de informalidade foi de 37,5% da população ocupada (ou 38,8 milhões de trabalhadores informais), contra 37,4% (ou 38,6 milhões) no trimestre e 37,8% (ou 38,7 milhões) no ano.\n\nRendimento\n\nO IBGE informou que o rendimento real habitual de todos os trabalhos (R$ 3.790) ficou estável no trimestre e cresceu 3,6% no ano (mais R$ 131). A massa de rendimento real habitual (R$ 387,5 bilhões) foi a maior da série, com alta de 1,5% no trimestre (mais R$ 5,6 bilhões) e 4,7% no ano (mais R$ 17,5 bilhões).</p>",
-      "imagem": "https://imagens.ebc.com.br/_xUgzK879LQoQgjcea_VicynYDY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/coronavirus_industria_automobilistica_fabrica2005200371.jpg?itok=as8xvE-n",
-      "slug": "desemprego-em-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012",
-      "pagina_local": "desemprego-em-5-2-no-3-trimestre-e-o-menor-para-o-periodo-desde-2012.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
-      "categoria": "Finanças do Cidadão",
-      "orgao": "Economia & Finanças",
-      "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "titulo": "Polícia investiga acidente com asa-delta que deixou dois mortos no Rio",
+      "resumo": "A Polícia Civil investiga o acidente com uma asa-delta que deixou dois mortos nesta segunda-feira (2), na cidade do Rio de Janeiro. O equipamento de voo se chocou com o solo, na praia de São Conrado, na zona sul da cidad...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Polícia Civil investiga o acidente com uma asa-delta que deixou dois mortos nesta segunda-feira (2), na cidade do Rio de Janeiro. O equipamento de voo se chocou com o solo, na praia de São Conrado, na zona sul da cidade, com duas pessoas a bordo: Luis Eduardo Rodrigues dos Santos e de Adrian Guillermo Arismendi.\n\nDe acordo com a Polícia Civil, a Delegacia da Gávea (15ª DP) ouvirá testemunhas do incidente. Além disso, a asa-delta passará por perícia.\n\n\n            \n        \n    \nDuas pessoas morrem após queda de asa-delta em praia do Rio de Janeiro. Reprodução/ Vídeo\n\n\nNotícias relacionadas:Duas pessoas morrem em queda de asa-delta em São Conrado, no Rio.Unesco: 189 jornalistas foram mortos no mundo em 2024 e 2025.Em 7 anos, Patrulha Maria da Penha acompanhou mais de 135 mil mulheres.As duas vítimas chegaram a ser socorridas pelo Corpo de Bombeiros, mas ambas estavam em situação grave, com parada cardiorrespiratória.\n\nNo Hospital Municipal Miguel Couto, as equipes médicas ainda tentaram salvá-los, mas eles não resistiram, segundo a Secretaria Municipal de Saúde.\n\nA praia de São Conrado funciona como uma pista de pouso para as asas-deltas que partem do alto da Pedra Bonita, muitas delas em voos duplos.</p>",
+      "imagem": "https://imagens.ebc.com.br/9dVJs-Kl8hdh_tzksxmuArCkeUQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/04/_d6a0164.jpg?itok=R8kXI0mH",
+      "slug": "policia-investiga-acidente-com-asa-delta-que-deixou-dois-mortos-no-rio",
+      "pagina_local": "policia-investiga-acidente-com-asa-delta-que-deixou-dois-mortos-no-rio.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/policia-investiga-acidente-com-asa-delta-que-deixou-dois-mortos-no-rio",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
+    },
+    {
+      "titulo": "Novas regras de atendimento ao consumidor começam a valer hoje",
+      "resumo": "A partir desta segunda-feira (2), os canais de atendimento telefônicos e eletrônicos - Serviço de Antendimento ao Consumidor (SAC) - das empresas estão obrigados a funcionar em contato direto com os consumidores.\n\nO decr...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A partir desta segunda-feira (2), os canais de atendimento telefônicos e eletrônicos - Serviço de Antendimento ao Consumidor (SAC) - das empresas estão obrigados a funcionar em contato direto com os consumidores.\n\nO decreto do governo federal com as mudanças foi publicado em 13 de outubro e exige a garantia de atendimento humano tanto por telefone quanto nos canais eletrônicos, das 8h às 20h, todos os dias da semana, inclusive nos finais de semana e feriados. \n\nNotícias relacionadas:Recebimento de vales-alimentação e refeição mudam a partir do dia 7.Hoje é Dia: datas, fatos e feriados de novembro de 2026.A norma define ainda que os fornecedores deverão manter pelo menos um canal eletrônico em funcionamento 24 horas por dia, sete dias, além de prazos para resposta e cancelamento. Entre os canais eletrônicos estão os chats oferecidos em sites ou aplicativos e os serviços de mensagens instantâneas.  \n\nOs novos parâmetros de atendimento valem para aos fornecedores de produtos e serviços regulados governo federal. Entram nessa categoria operadoras de telefonia e de planos de saúde, empresas aéreas, concessionárias de energia e empresas do setor financeiro, como bancos e fintechs. \n\nAs normas incluem as plataformas digitais de intermediação de produtos e serviços, serviços de transporte remunerado privado individual de passageiros e serviços de entrega de produtos ou mercadorias. As empresas terão que apresentar dados à Secretaria Nacional do Consumidor (Senacon). \n\n\n“Sistemas automatizados e ferramentas de inteligência artificial poderão ser utilizados na triagem, na distribuição interna e na resolução das demandas, mas não poderão impedir ou afastar a opção de atendimento em tempo real por uma pessoa durante esse período”, diz a Senacom.  \n\n\nO decreto determina atendimento prioritário e adequado às necessidades das pessoas idosas. Os canais de SAC (Sistema de Atendimento ao Consumidor) deverão ainda observar requisitos de acessibilidade para pessoas com deficiência, conforme regras a serem estabelecidas pelos órgãos e entidades reguladores competentes. \n\nTempo de espera e prazos de resolução \n\nSegundo o decreto, o contato com uma pessoa nos atendimentos telefônicos deve ocorrer em até 20 segundos em pelo menos 80% das demandas atendidas. Nas outras o tempo máximo de espera será de cinco minutos.  \n\nSe a ligação for interrompida acidentalmente antes da conclusão do atendimento, o fornecedor deverá retornar a chamada em até cinco minutos, aproveitar as informações já fornecidas pelo consumidor e informar o número de protocolo anteriormente atribuído, quando houver.  \n\nO consumidor também não poderá ser obrigado a reiniciar o atendimento ou realizar novos contatos para tratar da mesma solicitação e não poderá ser encaminhado para outro canal, exceto quando o atendimento presencial for indispensável à resolução do problema. \n\nCom atendimento obrigatoriamente gratuito, o encaminhamento para uma pessoa não poderá ser condicionado ao fornecimento prévio de número de contrato, CPF ou outros dados do consumidor. Também está proibida a veiculação de publicidade durante o atendimento e no período de espera.  \n\n“As demandas não urgentes deverão ser respondidas em até sete dias corridos. A resposta deverá ser clara, objetiva, conclusiva e abordar todos os pontos apresentados pelo consumidor. As demandas que envolvam risco relevante ao consumidor terão tratamento prioritário e atendimento imediato, a qualquer tempo. Caberá às agências ou aos órgãos reguladores competentes definir as situações consideradas urgentes”, explica o Senacom. \n\nCancelamento no SAC e nos canais de contratação \n\nSegundo a nova norma, a opção de cancelamento do produto ou do serviço deverá estar disponível em todos os níveis de atendimento do SAC, inclusive no primeiro, tanto nos canais telefônicos quanto nos canais eletrônicos. Todos os meios e canais disponibilizados para a contratação também deverão permitir o cancelamento.  \n\n“Nesses canais, a opção deverá ser oferecida no mesmo menu eletrônico utilizado para contratar ou, quando houver atendimento humano, pela mesma equipe de atendentes responsável pela contratação. O consumidor não poderá ser direcionado a outro menu, atendente ou canal para realizar o cancelamento”, afirma o Senacom.  \n\nO decreto garante ainda ao consumidor acesso gratuito ao histórico de suas demandas. O histórico deverá ser fornecido mediante solicitação em até cinco dias úteis. As gravações das chamadas telefônicas e as mensagens trocadas nos canais de SAC deverão ser mantidas por, no mínimo, 90 dias.</p>",
+      "imagem": "https://imagens.ebc.com.br/KDX0pvye8d1pP4ZMJedWoSjgyJQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/08/05/pzzb3511.jpg?itok=Nk-9ePfE",
+      "slug": "novas-regras-de-atendimento-ao-consumidor-comecam-a-valer-hoje",
+      "pagina_local": "novas-regras-de-atendimento-ao-consumidor-comecam-a-valer-hoje.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/novas-regras-de-atendimento-ao-consumidor-comecam-valer-hoje",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
+    },
+    {
+      "titulo": "Duas pessoas morrem em queda de asa-delta em São Conrado, no Rio",
+      "resumo": "Duas pessoas morreram nesta segunda-feira (2), depois que uma asa-delta caiu na praia de São Conrado, na zona sul da cidade do Rio de Janeiro. O Corpo de Bombeiros informou que foi acionado para o socorro das vítimas, ma...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Duas pessoas morreram nesta segunda-feira (2), depois que uma asa-delta caiu na praia de São Conrado, na zona sul da cidade do Rio de Janeiro. O Corpo de Bombeiros informou que foi acionado para o socorro das vítimas, mas não deu detalhes de como ocorreu o acidente.\n\nOs dois foram levados para o Hospital Municipal Miguel Couto, em estado grave com parada cardiorrespiratória. Um deles chegou a ser transportado com a ajuda de um helicóptero.\n\nNotícias relacionadas:Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio.De acordo com a Secretaria Municipal de Saúde, no entanto, apesar de todos os esforços da equipe médica, as vítimas não resistiram. A identificação delas não foi divulgada.\n\nA praia de São Conrado funciona como uma pista de pouso para as asas-deltas que partem do alto da Pedra Bonita.</p>",
+      "imagem": "https://imagens.ebc.com.br/e1MPyjn85WEPyVq8tYNfHxYfdGk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/acidente_asa_delta_sao_conrado_1_-731969.jpg?itok=Fm5qpFOB",
+      "slug": "duas-pessoas-morrem-em-queda-de-asa-delta-em-sao-conrado-no-rio",
+      "pagina_local": "duas-pessoas-morrem-em-queda-de-asa-delta-em-sao-conrado-no-rio.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/duas-pessoas-morrem-em-queda-de-asa-delta-em-sao-conrado-no-rio",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
+    },
+    {
+      "titulo": "No Rio, familiares soltam balões em homenagem ao Dia de Finados",
+      "resumo": "Dezenas de pessoas participaram, no início da tarde desta segunda-feira (2), de uma cerimônia de soltura de balões brancos no Cemitério da Penitência, na zona portuária do Rio de Janeiro. A manifestação, criada há cerca ...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Dezenas de pessoas participaram, no início da tarde desta segunda-feira (2), de uma cerimônia de soltura de balões brancos no Cemitério da Penitência, na zona portuária do Rio de Janeiro. A manifestação, criada há cerca de uma década, homenageia parentes e amigos falecidos, no Dia de Finados.\n\nAlém de participar da cerimônia dos balões, quem foi ao complexo de cemitérios do Caju, nesta segunda-feira, teve a oportunidade de participar de missas na igreja local e escrever mensagens para seus entes queridos na instalação artística Janelas da Vida.\n\n\n            \n        \n    \nFamílas no Dia de Finados, no Cemitério da Penitência, na zona norte do Rio de Janeiro. Foto - Tomaz Silva/Agência Brasil\n\n\nNotícias relacionadas:Lembranças e saudades marcam Dia de Finados em Brasília .Finados: lei amplia olhar e sensibilidade para vontades antes da morte.Finados: 2 milhões de passageiros devem passar por aeroportos do país.Thamyres Jesus transformou a saudade do marido, morto em maio do ano passado, em palavras no mural. “É uma iniciativa interessante nesse dia em que a gente fica tão triste.”\n\n\n            \n        \n    \nFamílias no Cemitério da Penitência, na zona norte do Rio de Janeiro. Foto: Tomaz Silva/Agência Brasil - Tomaz Silva/Agência Brasil\n\n\nSua cunhada Aline da Silva, além de perder o irmão, em dezembro do mesmo ano perdeu a mãe. “É o segundo ano que a gente está aqui. A gente sente muita falta deles”, disse.\n\nHelena Bernardino perdeu a mãe oito anos atrás e todo Dia de Finados vai ao cemitério para homenageá-la e tentar aliviar um pouco a dor da perda. “O luto não passa. Ele atravessa a gente, não é a gente que atravessa o luto. A gente leva isso pro resto da vida. A gente precisa aprender um jeito de seguir com a vida, com essa dor. Fazer essas homenagens acaba minimizando um pouco essa dor, que nesses dias acaba aflorando”.\n\n\n            \n        \n    \nHelena Bernardino perdeu a mãe há oito anos - Foto - Tomaz Silva/Agência Brasil\n\n\nNo cemitério vizinho, São Francisco Xavier, os visitantes puderam assistir à apresentação de um coral e ver uma exposição de pinturas produzidas, durante oficinas de arte ao longo do mês de outubro, por pessoas que perderam pessoas queridas e participar de um curso de jardinagem.</p>",
+      "imagem": "https://imagens.ebc.com.br/92jCtUd3tKR0Ffl1NG-T98GEpvg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/toms5897.jpg?itok=QdBnIfqY",
+      "slug": "no-rio-familiares-soltam-baloes-em-homenagem-ao-dia-de-finados",
+      "pagina_local": "no-rio-familiares-soltam-baloes-em-homenagem-ao-dia-de-finados.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/no-rio-familiares-soltam-baloes-em-homenagem-finados",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
+    },
+    {
+      "titulo": "Forças do Ceará intervêm para garantir água após ameaça de facção",
+      "resumo": "As forças de segurança do Ceará tiveram que ser mobilizadas para garantir o fornecimento de água mineral para a população de Banabuiú, após criminosos ameaçarem comerciantes locais que, com medo de represálias, suspender...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>As forças de segurança do Ceará tiveram que ser mobilizadas para garantir o fornecimento de água mineral para a população de Banabuiú, após criminosos ameaçarem comerciantes locais que, com medo de represálias, suspenderam a venda de garrafões d´água na cidade.\n\nDesde a última sexta-feira (30), policiais militares vêm escoltando servidores da Companhia de Água e Esgoto do Ceará (Cagece) encarregados de auxiliar na distribuição de água para os moradores da cidade de cerca de 17 mil habitantes do Sertão Central do estado, a cerca de 220 quilômetros de Fortaleza.\n\nNotícias relacionadas:Justiça bloqueia R$ 327 mi do CV por venda ilegal de gás de cozinha.Mulher e filho de Marcinho VP são presos em operação da PF no Rio.PF faz ação para prender 23 envolvidos com facção criminosa no Rio.“A Cagece realiza a coleta dos garrafões com água nos fornecedores e os transporta até o município de Banabuiú, onde estão sendo comercializados”, informou a Secretaria da Segurança Pública e Defesa Social, em nota.\n\nAs ameaças aos comerciantes começaram a circular na cidade há duas semanas. Identificando-se como integrantes do Comando Vermelho (CV), os criminosos condicionaram a continuidade da venda de água na cidade a uma autorização do grupo, mediante o pagamento de uma taxa. Quem não aceitasse pagar a quantia cobrada sofreria as consequências, o que assustou donos de estabelecimentos.\n\nVídeos que circulam nas redes sociais expõem filas de moradores à espera do momento de encher garrafões d´água na Praça da Igreja Matriz, no último fim de semana. \n\nAinda de acordo com a secretaria estadual, o patrulhamento policial foi reforçado. Três suspeitos de integrar o braço local de uma facção criminosa com atuação de âmbito nacional foram detidos no último dia 22. Com eles, foram apreendidos um revólver calibre .38, munições, dinheiro em espécie, seis aparelhos celulares e um notebook. \n\nAlém disso, investigadores da Polícia Civil identificaram o suposto mandante das ameaças feitas a comerciantes da cidade. O homem, cujo identidade não foi divulgada, estaria no Rio de Janeiro e as autoridades cearenses estão trabalhando em conjunto com a Polícia Civil fluminense para detê-lo. A reportagem da Agência Brasil também entrou em contato com a prefeitura da cidade, mas não obteve retorno.</p>",
+      "imagem": "https://imagens.ebc.com.br/YJYmqn91zIG6MU1lrHPIcsNzVkU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/sem_titulo-3.jpg?itok=UCDn2AIe",
+      "slug": "forcas-do-ceara-intervem-para-garantir-agua-apos-ameaca-de-faccao",
+      "pagina_local": "forcas-do-ceara-intervem-para-garantir-agua-apos-ameaca-de-faccao.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/forcas-do-ceara-intervem-para-garantir-agua-apos-ameaca-de-faccao",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Lembranças e saudades marcam Dia de Finados em Brasília",
@@ -143,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio para sorteio de quarta vai a R$ 46 milhões",
@@ -156,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Recebimento de vales-alimentação e refeição mudam a partir do dia 7",
@@ -169,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Hoje é Dia: datas, fatos e feriados de novembro de 2026",
@@ -182,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     },
     {
       "titulo": "Inscrições para Prêmio Desenvolvimento em Jogo terminam neste domingo",
@@ -195,72 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
-    },
-    {
-      "titulo": "Inmet alerta para chuvas no Norte, Sudeste e Centro-Oeste",
-      "resumo": "O Instituto Nacional de Meteorologia (Inmet) divulgou alertas de perigo potencial de chuvas intensas neste sábado (31) em diversos partes do país. O aviso amarelo vale para partes do Sudeste, Norte e Centro-Oeste, além d...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Instituto Nacional de Meteorologia (Inmet) divulgou alertas de perigo potencial de chuvas intensas neste sábado (31) em diversos partes do país. O aviso amarelo vale para partes do Sudeste, Norte e Centro-Oeste, além do sul da Bahia.\n\nA previsão é de chuvas de até 50 milímetros (mm) por dia e ventos intensos, de até 60 quilômetros por hora (km/h).\n\nNotícias relacionadas:Chuvas fortes predominam nas regiões Sudeste e Centro-Oeste do país.No Sudeste, o alerta vale para todo o estado do Espírito Santo e partes do Rio de Janeiro, Minas Gerais e Bahia. \n\nNo Norte e Centro-Oeste, as o aviso indica que fortes podem afetar todo o território dos estados de Rondônia e Acre, além de partes do Amazonas, Pará e Tocantins e Mato Grosso. \n\nNeste domingo (1º), há alerta de perigo potencial de tempestade para Sul, Sudeste e Centro-Oeste. Além das chuvas e ventos intensos, há possibilidade de granizo em algumas localidades.\n\nO aviso vale para o Distrito Federal, quase todo o estado do Mato Grosso do Sul, além de partes do Paraná, São Paulo, Minas Gerais e Goiás.</p>",
-      "imagem": "https://imagens.ebc.com.br/9BCQTP13fHy3EMzWlNn8_QjDdy0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2024/03/22/temporalrj_19.jpg?itok=RSn-m6e5",
-      "slug": "inmet-alerta-para-chuvas-no-norte-sudeste-e-centro-oeste",
-      "pagina_local": "inmet-alerta-para-chuvas-no-norte-sudeste-e-centro-oeste.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/inmet-alerta-para-chuvas-no-norte-sudeste-e-centro-oeste",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
-    },
-    {
-      "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
-      "resumo": "Há 30 anos, Sandra Assali havia levado o marido, o médico cardiologista José Rahal Abu Assali, até o Aeroporto de Congonhas, na zona sul de São Paulo. Ele iria embarcar em um voo da então companhia aérea TAM (atual Latam...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Há 30 anos, Sandra Assali havia levado o marido, o médico cardiologista José Rahal Abu Assali, até o Aeroporto de Congonhas, na zona sul de São Paulo. Ele iria embarcar em um voo da então companhia aérea TAM (atual Latam) com destino ao Rio de Janeiro, onde daria aula em um congresso. Seria um bate e volta, já que o retorno à capital paulista era esperado para o mesmo dia.\n\nMas o cardiologista nunca chegou ao seu destino. Apenas 24 segundos depois da decolagem, de acordo com o relatório final elaborado pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), a aeronave em que ele estava bateu em três prédios e caiu em cima de diversas casas na Rua Luís Orsini de Castro, a cerca de 2 quilômetros do aeroporto. Com a queda, o avião pegou fogo, matando todas as 96 pessoas a bordo. Três pessoas que estavam no solo também morreram.\n\nNotícias relacionadas:Acidente com Fokker 100 exigiu mudanças na aviação brasileira.O acidente ocorreu por volta das 8h30 do dia 31 de outubro de 1996. Sandra tinha dois filhos pequenos naquela época. “O luto é permanente”, diz ela à reportagem da Agência Brasil.\n\n\n“A perda de alguém sempre marca. Você lembra o momento em que você recebeu essa notícia. Imagine então para um familiar. Para mim, a memória que eu tenho foi de ter deixado o meu marido no aeroporto e, em questão de 40 minutos, já tive a confirmação da perda dele.”\n\n\nSegundo Sandra, continuar falando sobre o acidente é importante para “manter essa data viva” e para que ela mesma se mantenha em movimento. “Isso é muito importante porque é isso que nos move, que faz a gente fazer as coisas acontecerem. A vida não tem preço, então esse é um assunto eterno”, afirmou.\n \n\n\n            \n        \n    \nSão Paulo - Rua Luís Orsini de Castro, no Jabaquara, onde há 30 anos caiu um avião modelo Fokker 100 da TAM - Foto: Rovena Rosa/Agência Brasil\n\n\nA associação\n\nDepois do acidente, a vida de Sandra e de todas aquelas famílias mudou completamente. “A vida dá, literalmente, uma guinada. E você se vê pai e mãe, algo que não era planejado. Aliás, nada daquilo era planejado. Pelo contrário, os planos eram muitos outros. E aí você tem que deixar tudo para lá porque agora há algo novo na sua vida. Receber essa informação, com esse impacto, e ter que trabalhar essa informação em você é muito complicado, para além do fato de que você está impactada, em choque, em sofrimento. Foi muito complexo”, disse.\n\nSem ter recebido o apoio necessário da empresa, ela e outros familiares de vítimas ajudaram a criar a primeira associação sobre um acidente aéreo do Brasil, a Associação Brasileira de Parentes e Amigos de Vítimas de Acidentes Aéreos (Abrapavaa), da qual Sandra é presidente. Um dos grandes marcos dessa associação foi ter ajudado a mudar a aviação no Brasil.\n\nAté 1996, quando ocorreu o acidente, as companhias aéreas ainda não eram obrigadas a fornecer assistência para as famílias de vítimas de acidentes. Mas, com muita luta, a associação conseguiu garantir que as empresas fossem obrigadas a garantir amparo e a assistência aos familiares em caso de acidentes aéreos.\n\n\n            \n        \n    \nA presidente da Associação Brasileira de Parentes e Amigos de Vítimas de Acidentes Aéreos (Abrapavaa), Sandra Assali - Foto: Sandra Assali/Arquivo Pessoal\n\n\n“Há um antes e um depois desse acidente. Mudou-se a forma de investigar [um acidente aéreo], mudou-se a forma das indenizações, mudou também a forma de se trabalhar com a reparação das famílias. Mudou até a assistência para familiares de vítimas, que não existia e passou a existir com a Abrapavaa. A associação trouxe, principalmente, uma forma de lidar com os familiares das vítimas. Esse foi um dos trabalhos que a gente conquistou”, destacou a presidente.\n\nDesde que foi criada, em 1997, a associação realizou uma série de congressos e acompanhou mais de 300 acidentes aéreos. “Só neste ano, tivemos 135 acidentes no Brasil. São muitos acidentes e tem muita coisa que, com certeza, dá para mudar e melhorar”, reforçou Sandra.\n\nO acidente\n\nA queda do Fokker 100 da TAM foi provocada por uma falha no reversor da turbina direita (o freio aerodinâmico), que abriu durante a decolagem. O reversor se abre para desacelerar o avião, preparando-o para o pouso. Mas, naquele dia, ele abriu na decolagem, em pleno voo. Isso foi como acionar o freio no momento em que a aeronave precisava acelerar para ganhar mais sustentação. Um problema para o qual o piloto e o copiloto não haviam sido treinados, já que as chances de que isso ocorresse eram raríssimas, da ordem de uma em 100 bilhões.\n\nDesestabilizado, o Fokker 100 \"tombou\" para a direita e atingiu prédios e casas até parar, provocando a morte de três pessoas em solo, matando além de passageiros e tripulantes. Após a investigação sobre as causas do acidente, nenhuma pessoa foi responsabilizada pela tragédia.\n\nProcurada pela Agência Brasil, a Latam Airlines Brasil informou que se solidariza com todas as pessoas Impactadas pelo trágico acidente. Em nota, a empresa destaca que, embora esteja consciente de que nada irá compensar as perdas dos entes queridos, “empenhou-se, desde o primeiro momento, em apoiar os familiares de todas as maneiras possíveis”.\n\n“A empresa informa que as causas do acidente foram esclarecidas em relatório do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa), publicado em 1997. O documento incluiu recomendações necessárias sobre mudanças em procedimentos adotados pela companhia na época, além de solicitar modificações técnicas à fabricante da aeronave, cujo modelo deixou a frota em 2008”, escreveu a aérea.</p>",
-      "imagem": "https://imagens.ebc.com.br/nrXwd7uk5J1s8gMRXEIFLMlU9xc=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/30/captura_de_tela_2026-10-30_as_16.56.06.jpg?itok=5dSFNIT9",
-      "slug": "luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam",
-      "pagina_local": "luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/luto-e-permanente-diz-viuva-30-anos-apos-acidente-com-fokker-da-tam",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
-    },
-    {
-      "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
-      "resumo": "Quem pretende fazer concurso público em 2027 pode se preparar. Segundo o Ministério da Gestão e da Inovação em Serviços Públicos (MGI), existe a expectativa de um novo Concurso Público Nacional Unificado (CPNU) no próxim...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Quem pretende fazer concurso público em 2027 pode se preparar. Segundo o Ministério da Gestão e da Inovação em Serviços Públicos (MGI), existe a expectativa de um novo Concurso Público Nacional Unificado (CPNU) no próximo ano com até 3 mil vagas. \n\nA realização do certame, porém, depende da aprovação, pelo Congresso Nacional, do Projeto de Lei Orçamentária Anual (PLOA) que permita espaço fiscal para preenchimento de novas vagas no serviço público.\n\nNotícias relacionadas:CNU 2025: sai nova lista de classificados para vagas remanescentes.Na nota enviada à Agencia Brasil, o MGI diz que considera o CNPU “uma política pública de renovação, modernização e democratização do acesso ao serviço público federal” e que a ideia é que ele se consolide como um processo permanente de seleção de servidores, com edições realizadas em ciclos regulares, idealmente a cada dois anos.\n\nO CNPU foi criado em 2023 pelo governo federal e ficou conhecido como “Enem dos Concursos”. O objetivo foi centralizar os processos seletivos para contratação de servidores públicos em diversos órgãos do Poder Executivo federal e aumentar os locais de prova pelo país.</p>",
-      "imagem": "https://imagens.ebc.com.br/bwffyjPtQuIon3XbqQ6kJel623o=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/10/05/0d7a9087.jpg?itok=2T1n0CbF",
-      "slug": "terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
-      "pagina_local": "terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/terceira-edicao-do-cnu-pode-ter-ate-3-mil-vagas",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
-    },
-    {
-      "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
-      "resumo": "A Corregedoria-Geral da Polícia Civil, a prefeitura de São Paulo e a Controladoria-Geral do município investigam uma suposta organização criminosa que obtinha irregularmente os registros de óbitos na capital paulista e r...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>A Corregedoria-Geral da Polícia Civil, a prefeitura de São Paulo e a Controladoria-Geral do município investigam uma suposta organização criminosa que obtinha irregularmente os registros de óbitos na capital paulista e repassava para empresas do setor funerário.  \n\nA segunda fase da Operação Luctus foi deflagrada nesta quinta-feira (29) para apurar mais informações. O grupo é investigado por crimes contra a administração pública, corrupção, acesso indevido a informações sigilosas, lavagem de capitais e outros delitos correlatos. \n\n\n“A investigação teve origem a pedido da prefeitura. A operação cumpriu mandados de busca e apreensão em 21 alvos, entre eles um policial civil, um funcionário da prefeitura e empresários do setor. Integrantes da Corregedoria do Município acompanharam as diligências”, informou a Secretaria de Segurança Pública do Estado de São Paulo (SSP-SP). \n\n\nSegundo a SSP-SP, a segunda fase da operação, pretende, além da responsabilização penal dos envolvidos, identificar vulnerabilidades no sistema e formas para aperfeiçoar os mecanismos de controle interno, governança e integridade. \n\nUma das empresas envolvidas é a concessionária Velar SP, um dos quatro grupos que administram os 22 cemitérios da capital paulista. A Velar é responsável por seis deles, como Vila Alpina, Itaquera e Freguesia do Ó. \n\nEm nota, a Velar afirmou que tomou conhecimento da Operação Luctus pela imprensa e até o momento não teve acesso aos autos nem à decisão judicial que fundamentou as diligências e que está à disposição das autoridades para contribuir com o pleno esclarecimento dos fatos. \n\n“A Velar reafirma seu compromisso com a lisura de sua atuação e com o respeito às famílias atendidas, repudia quaisquer práticas ilícitas e esclarece que já havia se colocado à disposição das autoridades para colaborar no esclarecimento dos fatos e de eventuais ilicitudes praticadas por quem quer que seja”, diz a nota.</p>",
-      "imagem": "https://imagens.ebc.com.br/fXmgHs6L2UzfwFAEnR7GT-Xu_vQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/994352-sp_05012016-05012016_abr8862-.jpg?itok=ZStJZ7yE",
-      "slug": "policia-de-sp-investiga-venda-de-dados-de-mortos-a-funerarias",
-      "pagina_local": "policia-de-sp-investiga-venda-de-dados-de-mortos-a-funerarias.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-de-sp-investiga-venda-de-dados-de-mortos-funerarias",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
-    },
-    {
-      "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
-      "resumo": "Mais de 2 milhões de passageiros devem circular por aeroportos do país, entre 30 de outubro e 3 de novembro, por causa do feriado de Finados lembrado na próxima segunda-feira (2). A expectativa é de mais de 10,3 mil voos...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Mais de 2 milhões de passageiros devem circular por aeroportos do país, entre 30 de outubro e 3 de novembro, por causa do feriado de Finados lembrado na próxima segunda-feira (2). A expectativa é de mais de 10,3 mil voos, de acordo com projeção Ministério do Turismo (MTur), com base em dados de operadoras e concessionárias que administram os principais aeroportos.\n\nPara o ministro do Turismo, Gustavo Feliciano, cada feriado é oportunidade para redescobrir o Brasil, com diversidade de destinos, paisagens, culturas e experiências.\n\n\nNotícias relacionadas:Motorista infarta e engavetamento de 20 veículos deixa feridos no Rio.Biometria facial será obrigatória para usuários de telefonia móvel.EBC conquista mais R$ 23 milhões para investimento na TV 3.0 no Brasil.\"Quando o brasileiro escolhe conhecer o próprio país, ele movimenta comunidades, fortalece pequenos empreendedores e contribui para que o turismo gere oportunidades em todas as regiões”, destaca o ministro.\n\n\nEm capitais como Belo Horizonte, Curitiba e Goiânia, o número de embarques e desembarques deve crescer 9,4%, na comparação com o mesmo período de 2025, o que representa mais de 255,2 mil passageiros nos estados.\n\nGuarulhos\n\nNo Aeroporto de Guarulhos, em São Paulo, o número de pessoas em circulação pelo terminal deve ser 3,6% maior em relação ao mesmo período de 2025, concentrando cerca de 824 mil em 4,5 mil voos previstos no fim de semana – a maior concentração do país, com 43,6% dos voos em território nacional.\n\nDo Sul ao Nordeste, os dados destacam a circulação de voos domésticos. Juntos, Porto Alegre e Fortaleza somam quase 200 mil passageiros, que devem movimentar um total de 1.374 voos domésticos.\n\nO roteiro dos brasileiros se divide principalmente entre grandes metrópoles e praias do Nordeste, com São Paulo e Rio de Janeiro liderando as buscas. Também aparecem Recife, Salvador, Fortaleza e Maceió, além de Porto Alegre, Curitiba, Foz do Iguaçu e Belo Horizonte.</p>",
-      "imagem": "https://imagens.ebc.com.br/1crjxCjilWk7lmD5mKwgZFvbifk=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/aeroporto_guarulhos.jpg?itok=pc0hO7Jh",
-      "slug": "finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
-      "pagina_local": "finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/finados-2-milhoes-de-passageiros-devem-passar-por-aeroportos-do-pais",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 15:23"
+      "coletado_em": "02/11/2026 às 23:23"
     }
   ]
 };
