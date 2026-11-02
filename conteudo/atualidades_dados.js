@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "02/11/2026 às 05:30:24",
+  "ultima_atualizacao": "02/11/2026 às 15:23:47",
   "total": 20,
   "atualidades": [
     {
@@ -13,12 +13,12 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Estudo mostra necessidade de proteger soja para evitar perdas",
       "resumo": "Estudo da Universidade Federal de Viçosa (UFV), em parceria com a Croplife Brasil, associação que reúne empresas de biotecnologia, melhoramento genético e defensivos agrícolas, mostrou que as lavouras de soja no país ter...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Estudo da Universidade Federal de Viçosa (UFV), em parceria com a Croplife Brasil, associação que reúne empresas de biotecnologia, melhoramento genético e defensivos agrícolas, mostrou que as lavouras de soja no país teriam perdas de até 55% na produtividade, caso não fossem protegidas contra pragas, doenças e ervas daninhas.\n\nDe acordo com a pesquisa, uma redução da produção poderia causar impactos negativos na economia brasileira e nos preços de produtos ao consumidor. \n\nNotícias relacionadas:Brasil abre mercado em Bangladesh e Colômbia para pecuária.Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas.No entanto, o uso de defensivos químicos é um método de proteção controverso, uma vez que algumas substâncias usadas para o manejo fitossanitário são nocivas ao meio ambiente e à saúde humana, segundo levantamento publicado por elo Instituto de Pesquisa Econômica Aplicada (Ipea).\n\nA soja, segundo o Ipea, responde, junto com o milho e a cana-de-açúcar, por 76% do consumo de agrotóxicos no Brasil.\n\nDoenças nas lavouras\n\nO estudo feito pela Universidade Federal de Viçosa trabalhou com simulações envolvendo quatro doenças (entre elas a ferrugem-asiática e a mancha-alvo), cinco pragas (como a mosca-branca) e nove plantas daninhas.\n\nOs pesquisadores analisaram três cenários, lavouras sem qualquer controle, com controle parcial (que garantiria até 40% de proteção da plantação) e com controle ótimo (80% de proteção).\n\nA universidade estimou que, com controle ótimo, a produtividade por hectare pode chegar a 72 sacas. O controle parcial garantiria uma produtividade de 52 sacas, ou seja, 28% a menos que o controle ótimo. Sem qualquer controle, seria de apenas 32 sacas, o que significa uma perda de 55%.\n\nCom isso, de acordo com o estudo, para compensar as perdas com a falta de controle fitossanitário, seria necessário plantar uma área adicional de 33,5 milhões de hectares, ou seja, quase do tamanho do estado de Goiás. A perda média, em cenário sem manejo (na comparação), chegaria a 121,3 milhões de toneladas, com um valor estimado de R$ 223,5 bilhões. \n\nCom o cenário de controle ótimo, a receita brasileira simulada com exportações de soja chega a US$ 44,2 bilhões. Sem controle, recua para US$ 26,6 bilhões, uma diferença potencial de US$ 17,6 bilhões por safra, segundo o estudo.\n\nA redução da oferta poderia gerar uma alta estimada no preço da soja de até 49%.\n\nHaveria, com isso, um aumento de cerca de 0,26 ponto percentual na inflação oficial, medida pelo IPCA, uma vez que a alta da soja teria impactos nos preços de produtos como óleo, leite e ovos.\n\n\n\"Essa redução da produtividade da soja, lá no produtor, acaba tendo um impacto significativo no preço da soja e na disponibilidade dos produtos no mercado final, por exemplo, de óleo de soja e do farelo, que é um subproduto da soja. Consequentemente, ia ter uma mudança no preço da carnes, carnes de porco, de frango, porque tudo isso está na cadeia de produção da soja\", destaca a pesquisadora da UFV Ana Carolyne Carvalho.\n\n\nO estudo considera quatro métodos de controle fitossanitário, que podem ser usados para evitar perdas nas lavouras: a biotecnologia (como os organismos geneticamente modificados), o melhoramento genético, os bioinsumos e os defensivos químicos, além do manejo integrado, que mistura dois ou mais desses métodos.\n\nDefensivos\n\nEstudo publicado pelo Instituto de Pesquisa Econômica Aplicada (Ipea) mostrou que, de 2003 a 2023, o uso dos defensivos químicos, popularmente chamados de agrotóxicos, cresceu 4,4 vezes no país, passando de um consumo anual de 180 mil toneladas para 800 mil toneladas.\n\nCom isso, o Brasil se tornou o país com maior uso de agrotóxicos por hectare plantado, 10,9 quilos por hectare (kg/ha), quatro vezes mais que os Estados Unios (2,85 kg/ha) e cinco vezes mais que a China (1,9 kg/ha).\n\n\n\"Os defensivos químicos podem apresentar riscos à saúde humana, incluindo efeitos agudos e crônicos, dependendo da toxicidade das substâncias e dos níveis de exposição. No ambiente, podem contaminar solos e recursos hídricos e afetar organismos não alvo, como polinizadores e organismos aquáticos, com consequências para a biodiversidade\", alerta o pesquisador da Empresa Brasileira de Pesquisa Agropecuária (Embrapa) Robson Barizon.\n\n\nBarizon alerta que organismos geneticamente modificados podem tanto servir como estratégia para reduzir o uso de agrotóxicos como para um incremento deles. \n\nIsso porque algumas plantas geneticamente modificadas são imunes a doenças e a predadores, dispensando, portanto, o uso de defensivos para protegê-las nesses aspectos.\n\nPor outro lado, algumas plantas OGM são também imunes ao efeito de agrotóxicos. Com isso, produtores podem elevar a dose dessas substâncias para ter mais efetividade na eliminação de ervas daninhas, que crescem no meio da lavoura.\n\n\n\"No caso dos OGM, aprovados para comercialização, não existem evidências científicas robustas de riscos adicionais à saúde humana associados ao seu consumo. Os possíveis impactos ambientais estão relacionados principalmente às características da modificação genética e às práticas agrícolas associadas, como o uso intensivo de herbicidas em culturas tolerantes, que pode favorecer a seleção de plantas daninhas resistentes\", explica Barizon.\n\n\nO coordenador de Sustentabilidade da Croplife, Pedro Duarte, afirma que há uma preocupação do setor com a segurança dos químicos usados na proteção das lavouras.\n\n\"Para que um produto seja aprovado no Brasil, um defensivo químico passa por muitos estudos. Há um investimento muito grande do setor para poder garantir que aquele produto aprovado tenha a segurança, quando aplicado dentro das recomendações\", afirma Duarte.\n\nDe 2005 a 2019, 3.151 novos agrotóxicos foram registrados para uso no Brasil, com apenas 20% desse total sendo considerado de baixa toxicidade, de acordo com a pesquisa do Ipea.\n\nDepois da promulgação da nova Lei dos Agrotóxicos (Lei 14.875/2023), segundo o Ipea, o ritmo de novos registros de defensivos químicos aumentou. Em 2024, foram 663 liberações de novos produtos, acima dos 555 registrados em 2023.\n\nDados do Ministério da Saúde divulgados pela organização não governamental (ONG) Repórter Brasil, mostram que de 2015 a 2025, foram registrados 73.391 casos de intoxicação por agrotóxico no país, sendo 9.729 apenas no ano passado.</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Estudo da Universidade Federal de Viçosa (UFV), em parceria com a Croplife Brasil, associação que reúne empresas de biotecnologia, melhoramento genético e defensivos agrícolas, mostrou que as lavouras de soja no país teriam perdas de até 55% na produtividade, caso não fossem protegidas contra pragas, doenças e ervas daninhas.\n\nDe acordo com a pesquisa, uma redução da produção poderia causar impactos negativos na economia brasileira e nos preços de produtos ao consumidor. \n\nNotícias relacionadas:Brasil abre mercado em Bangladesh e Colômbia para pecuária.Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas.No entanto, o uso de defensivos químicos é um método de proteção controverso, uma vez que algumas substâncias usadas para o manejo fitossanitário são nocivas ao meio ambiente e à saúde humana, segundo levantamento publicado por elo Instituto de Pesquisa Econômica Aplicada (Ipea).\n\nA soja, segundo o Ipea, responde, junto com o milho e a cana-de-açúcar, por 76% do consumo de agrotóxicos no Brasil.\n\nDoenças nas lavouras\n\nO estudo feito pela Universidade Federal de Viçosa trabalhou com simulações envolvendo quatro doenças (entre elas a ferrugem-asiática e a mancha-alvo), cinco pragas (como a mosca-branca) e nove plantas daninhas.\n\nOs pesquisadores analisaram três cenários, lavouras sem qualquer controle, com controle parcial (que garantiria até 40% de proteção da plantação) e com controle ótimo (80% de proteção).\n\nA universidade estimou que, com controle ótimo, a produtividade por hectare pode chegar a 72 sacas. O controle parcial garantiria uma produtividade de 52 sacas, ou seja, 28% a menos que o controle ótimo. Sem qualquer controle, seria de apenas 32 sacas, o que significa uma perda de 55%.\n\nCom isso, de acordo com o estudo, para compensar as perdas com a falta de controle fitossanitário, seria necessário plantar uma área adicional de 33,5 milhões de hectares, ou seja, quase do tamanho do estado de Goiás. A perda média, em cenário sem manejo (na comparação), chegaria a 121,3 milhões de toneladas, com um valor estimado de R$ 223,5 bilhões. \n\nCom o cenário de controle ótimo, a receita brasileira simulada com exportações de soja chega a US$ 44,2 bilhões. Sem controle, recua para US$ 26,6 bilhões, uma diferença potencial de US$ 17,6 bilhões por safra, segundo o estudo.\n\nA redução da oferta poderia gerar uma alta estimada no preço da soja de até 49%.\n\nHaveria, com isso, um aumento de cerca de 0,26 ponto percentual na inflação oficial, medida pelo IPCA, uma vez que a alta da soja teria impactos nos preços de produtos como óleo, leite e ovos.\n\n\n\"Essa redução da produtividade da soja, lá no produtor, acaba tendo um impacto significativo no preço da soja e na disponibilidade dos produtos no mercado final, por exemplo, de óleo de soja e do farelo, que é um subproduto da soja. Consequentemente, ia ter uma mudança no preço da carnes, carnes de porco, de frango, porque tudo isso está na cadeia de produção da soja\", destaca a pesquisadora da UFV Ana Carolyne Carvalho.\n\n\nO estudo considera quatro métodos de controle fitossanitário, que podem ser usados para evitar perdas nas lavouras: a biotecnologia (como os organismos geneticamente modificados), o melhoramento genético, os bioinsumos e os defensivos químicos, além do manejo integrado, que mistura dois ou mais desses métodos.\n\nPara o coordenador de Sustentabilidade da CropLife Brasil, Pedro Duarte, o estudo demonstra que a produtividade da agricultura brasileira depende da integração de diferentes tecnologias e estratégias de manejo.\n\n\"O melhoramento genético, os defensivos químicos, os bioinsumos e as boas práticas agrícolas são ferramentas complementares, que contribuem para proteger o potencial produtivo das lavouras\", afirma.\n\n\"Ao dimensionar os impactos econômicos, sociais e ambientais da ausência de controle fitossanitário, a pesquisa evidencia que investir em ciência, inovação e acesso à tecnologia é fundamental não apenas para a competitividade do agro, mas também para a segurança alimentar, a estabilidade dos preços e a sustentabilidade da produção brasileira”, completa Duarte. \n\nDefensivos\n\nEstudo publicado pelo Instituto de Pesquisa Econômica Aplicada (Ipea) mostrou que, de 2003 a 2023, o uso dos defensivos químicos, popularmente chamados de agrotóxicos, cresceu 4,4 vezes no país, passando de um consumo anual de 180 mil toneladas para 800 mil toneladas.\n\nCom isso, o Brasil se tornou o país com maior uso de agrotóxicos por hectare plantado, 10,9 quilos por hectare (kg/ha), quatro vezes mais que os Estados Unios (2,85 kg/ha) e cinco vezes mais que a China (1,9 kg/ha).\n\n\n\"Os defensivos químicos podem apresentar riscos à saúde humana, incluindo efeitos agudos e crônicos, dependendo da toxicidade das substâncias e dos níveis de exposição. No ambiente, podem contaminar solos e recursos hídricos e afetar organismos não alvo, como polinizadores e organismos aquáticos, com consequências para a biodiversidade\", alerta o pesquisador da Empresa Brasileira de Pesquisa Agropecuária (Embrapa) Robson Barizon.\n\n\nBarizon alerta que organismos geneticamente modificados podem tanto servir como estratégia para reduzir o uso de agrotóxicos como para um incremento deles. \n\nIsso porque algumas plantas geneticamente modificadas são imunes a doenças e a predadores, dispensando, portanto, o uso de defensivos para protegê-las nesses aspectos.\n\nPor outro lado, algumas plantas OGM são também imunes ao efeito de agrotóxicos. Com isso, produtores podem elevar a dose dessas substâncias para ter mais efetividade na eliminação de ervas daninhas, que crescem no meio da lavoura.\n\n\n\"No caso dos OGM, aprovados para comercialização, não existem evidências científicas robustas de riscos adicionais à saúde humana associados ao seu consumo. Os possíveis impactos ambientais estão relacionados principalmente às características da modificação genética e às práticas agrícolas associadas, como o uso intensivo de herbicidas em culturas tolerantes, que pode favorecer a seleção de plantas daninhas resistentes\", explica Barizon.\n\n\nO coordenador de Sustentabilidade da Croplife, Pedro Duarte, afirma que há uma preocupação do setor com a segurança dos químicos usados na proteção das lavouras.\n\n\"Para que um produto seja aprovado no Brasil, um defensivo químico passa por muitos estudos. Há um investimento muito grande do setor para poder garantir que aquele produto aprovado tenha a segurança, quando aplicado dentro das recomendações\", afirma Duarte.\n\nDe 2005 a 2019, 3.151 novos agrotóxicos foram registrados para uso no Brasil, com apenas 20% desse total sendo considerado de baixa toxicidade, de acordo com a pesquisa do Ipea.\n\nDepois da promulgação da nova Lei dos Agrotóxicos (Lei 14.875/2023), segundo o Ipea, o ritmo de novos registros de defensivos químicos aumentou. Em 2024, foram 663 liberações de novos produtos, acima dos 555 registrados em 2023.\n\nDados do Ministério da Saúde divulgados pela organização não governamental (ONG) Repórter Brasil, mostram que de 2015 a 2025, foram registrados 73.391 casos de intoxicação por agrotóxico no país, sendo 9.729 apenas no ano passado.</p>",
       "imagem": "https://imagens.ebc.com.br/E4D7_ZJOd0S4BRy_KyixxcammRA=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/50926862498_639e8931b8_o.jpg?itok=JKdxiSBz",
       "slug": "estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas",
       "pagina_local": "estudo-mostra-necessidade-de-proteger-soja-para-evitar-perdas.html",
@@ -26,12 +26,12 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Economistas propõem taxar ricos em vez de cortar gastos sociais",
       "resumo": "Economistas e outros especialistas divulgaram um manifesto, nesta sexta-feira (30), denunciando a pressão do mercado financeiro para que o governo eleito adote um programa de corte de gastos com a finalidade de estabiliz...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Economistas e outros especialistas divulgaram um manifesto, nesta sexta-feira (30), denunciando a pressão do mercado financeiro para que o governo eleito adote um programa de corte de gastos com a finalidade de estabilizar a dívida pública.\n\nO texto pede novo regime fiscal no país, menos rígido do que o atual arcabouço, além da mudança na meta de inflação e da tributação dos ricos no lugar de corte em despesas sociais.\n\nNotícias relacionadas:Acordo Mercosul-UE eleva exportações brasileiras em 21%.Brasil abre mercado em Bangladesh e Colômbia para pecuária.Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012.Assinado por 50 profissionais, o documento afirma que a Faria Lima - avenida no centro de São Paulo, sede dos principais bancos de investimentos, corretoras, escritórios, que representa o mercado financeiro do país - quer impor um “terceiro turno” presidencial com objetivo de fazer o presidente Luiz Inácio Lula da Silva adotar o programa de corte de despesas que seria defendido pelo candidato derrotado Flávio Bolsonaro.\n\n\n“Em 25 de outubro, a maioria do eleitorado reelegeu Lula e recusou o programa de Flávio Bolsonaro, que prometia cortar R$ 190 bilhões do gasto público. Um governo eleito por um levante popular contra a ameaça bolsonarista não pode escolher a via defendida pelos mais ricos”, diz o documento.\n\n\nOs especialistas argumentam que o problema da dívida pública é o custo com os juros fixados pelo Banco Central (BC), e não com os gastos da União. A dívida bruta do Brasil alcançou 82,9% do Produto Interno Bruto (PIB) em agosto deste ano. Em 2022, a dívida estava em 71,7% do PIB.\n\nO texto aponta como o principal responsável pelo aumento da dívida os juros reais praticados no Brasil, que são os maiores do mundo segundo ranking da Moneyou. Nos últimos doze meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento público, o que representa 8,9% do PIB brasileiro, segundo o BC. \n\n\n“O gasto com juros é mais de catorze vezes o déficit primário de R$ 82 bilhões. A inflação de doze meses, de 4,58% em setembro, passou do teto por causa da energia e dos alimentos, choques que a Selic [taxa de juros definida pelo BC] não corrige”, diz o manifesto.\n\n\nO Banco Central justifica os juros elevados, entre outros motivos, devido as pressões inflacionárias e aos déficits fiscais primários nas contas públicas. Segundo a autoridade monetária, os gastos primários acima da arrecadação pressionam a inflação.\n\nTributação de Altas Rendas\n\nNo lugar de um corte de gastos públicos, o que poderia afetar áreas sociais, os economistas defendem antecipar para o próximo ano a tributação mínima de 10% para pessoas de altas rendas, que recebem acima de R$ 600 mil por ano, conforme aprovada pela Lei 15.270 de 2025. \n\nIsso, porque a nova regra só vale para declaração de 2027 com lucros acumulados até 2025 podendo ser distribuídos sem imposto até 2028.  \n\n“Se aprovada por lei até 31 de dezembro, uma nova tributação do topo vale já em janeiro. Ela deve alcançar dividendos, juros sobre capital próprio e aplicações isentas. É preciso também rever isenções, regimes especiais e incentivos, que somam R$ 612,8 bilhões em gastos tributários”, diz o comunicado.\n\nNo Brasil, os recursos pagos aos acionistas por meio de dividendos são isentos de pagamento de Imposto de Renda (IR).\n\nSelic e meta de inflação\n\nO manifesto pede ainda que o Banco Central não promova nenhuma nova alta da taxa Selic, atualmente em 13,75% ao ano, e pede medidas para que a queda dos juros chegue às famílias e pequenas e médias empresas endividadas.\n\nOutra proposta é a revisão da meta da inflação, usada pelo BC para fixar os juros. Atualmente, o centro da meta de inflação está em 3% ao ano e é definida pelo Conselho Monetário Nacional (CMN), onde o governo federal tem maioria de votos.\n\n\n“Um novo decreto deve suprimir a carência de 36 meses criada em 2024 para mudar a meta. Propomos retomar o centro de 4,5%, vigente de 2005 a 2018, alongar o horizonte de convergência e dar peso efetivo ao pleno emprego, que a lei já inclui entre os objetivos do Banco Central”, diz o manifesto.\n\n\nNova regra fiscal\n\nOutra proposta é a aprovar no Congresso Nacional, ainda neste ano, nova regra fiscal para o Brasil que substitua o arcabouço fiscal, que limita o crescimento real das despesas a até 2,5% ao ano e até 70% do crescimento da receita.  \n\n\n“O limite atrelado a 70% da receita é incompatível com pisos de saúde e educação que crescem com a receita. As regras fiscais atuais também inibem os desafios do próximo mandato, como a reindustrialização com transição ecológica, que depende de investimento público, de aportes nas estatais e do crédito do BNDES”, diz o texto.\n\n\nO manifesto sugere que uma nova lei complementar deve excluir dos limites fiscais tanto o investimento público, o Bolsa Família e os pisos da saúde e educação, quanto os aportes nas estatais e no Banco Nacional de Desenvolvimento Econômico e Social (BNDES).\n\nCríticas ao ajuste fiscal\n\nOs especialistas ainda criticam membros do governo que tem defendido, nos últimos dias, medidas de ajuste fiscal, como o ministro da Fazenda, Dario Durigan.\n\n“O programa derrotado volta pela porta da Fazenda. Já vimos esse filme. Em 2024 e 2025, a Fazenda apertou o orçamento enquanto o Banco Central elevava a Selic de 10,5% para 15%. A avaliação positiva do governo caiu de 36% para 24%”, diz a nota.\n\nOs especialistas ainda argumentam que o ajuste fiscal de 2015 realizado pela presidente Dilma Rousseff contribuiu para recessão econômica daquele período, o que teria aberto caminho para o impeachment da petista.\n\n\n“Diante de um Congresso mais hostil, com 121 deputados do PL e 49 senadores de direita a partir de fevereiro, repetir a receita pode enfraquecer o apoio obtido nas ruas para a reeleição de Lula e tornar seu governo vulnerável a um novo golpe parlamentar”, diz o manifesto.\n\n\nEntre os economistas que assinam o texto, estão os professores da Unicamp, Pedro Paulo Zahluth Bastos e Simone Deos, da Universidade de Brasília (UnB), Maria de Lourdes Rollemberg Mollo, da Queen’s University Belfast, Alfredo Saad Filho, e da Universidade Federal Fluminense, Juliane Furno</p>",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Economistas e outros especialistas divulgaram um manifesto, nesta sexta-feira (30), denunciando a pressão do mercado financeiro para que o governo eleito adote um programa de corte de gastos com a finalidade de estabilizar a dívida pública.\n\nO texto pede novo regime fiscal no país, menos rígido do que o atual arcabouço, além da mudança na meta de inflação e da tributação dos ricos no lugar de corte em despesas sociais.\n\nNotícias relacionadas:Acordo Mercosul-UE eleva exportações brasileiras em 21%.Brasil abre mercado em Bangladesh e Colômbia para pecuária.Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012.Assinado por 50 profissionais, o documento afirma que a Faria Lima - avenida no centro de São Paulo, sede dos principais bancos de investimentos, corretoras, escritórios, que representa o mercado financeiro do país - quer impor um “terceiro turno” presidencial com objetivo de fazer o presidente Luiz Inácio Lula da Silva adotar o programa de corte de despesas que seria defendido pelo candidato derrotado Flávio Bolsonaro.\n\n\n“Em 25 de outubro, a maioria do eleitorado reelegeu Lula e recusou o programa de Flávio Bolsonaro, que prometia cortar R$ 190 bilhões do gasto público. Um governo eleito por um levante popular contra a ameaça bolsonarista não pode escolher a via defendida pelos mais ricos”, diz o documento.\n\n\nOs especialistas argumentam que o problema da dívida pública é o custo com os juros fixados pelo Banco Central (BC), e não com os gastos da União. A dívida bruta do Brasil alcançou 82,9% do Produto Interno Bruto (PIB) em agosto deste ano. Em 2022, a dívida estava em 71,7% do PIB.\n\nO texto aponta como o principal responsável pelo aumento da dívida os juros reais praticados no Brasil, que são os maiores do mundo segundo ranking da Moneyou. Nos últimos doze meses, os juros consumiram mais de R$ 1,1 trilhão do orçamento público, o que representa 8,9% do PIB brasileiro, segundo o BC. \n\n\n“O gasto com juros é mais de catorze vezes o déficit primário de R$ 82 bilhões. A inflação de doze meses, de 4,58% em setembro, passou do teto por causa da energia e dos alimentos, choques que a Selic [taxa de juros definida pelo BC] não corrige”, diz o manifesto.\n\n\nO Banco Central justifica os juros elevados, entre outros motivos, devido às pressões inflacionárias e aos déficits fiscais primários nas contas públicas. Segundo a autoridade monetária, os gastos primários acima da arrecadação pressionam a inflação.\n\nTributação de Altas Rendas\n\nNo lugar de um corte de gastos públicos, o que poderia afetar áreas sociais, os economistas defendem antecipar para o próximo ano a tributação mínima de 10% para pessoas de altas rendas, que recebem acima de R$ 600 mil por ano, conforme aprovada pela Lei 15.270 de 2025. \n\nIsso porque a nova regra só vale para declaração de 2027 com lucros acumulados até 2025 podendo ser distribuídos sem imposto até 2028.  \n\n“Se aprovada por lei até 31 de dezembro, uma nova tributação do topo vale já em janeiro. Ela deve alcançar dividendos, juros sobre capital próprio e aplicações isentas. É preciso também rever isenções, regimes especiais e incentivos, que somam R$ 612,8 bilhões em gastos tributários”, diz o comunicado.\n\nNo Brasil, os recursos pagos aos acionistas por meio de dividendos são isentos de pagamento de Imposto de Renda (IR).\n\nSelic e meta de inflação\n\nO manifesto pede ainda que o Banco Central não promova nenhuma nova alta da taxa Selic, atualmente em 13,75% ao ano, e pede medidas para que a queda dos juros chegue às famílias e pequenas e médias empresas endividadas.\n\nOutra proposta é a revisão da meta da inflação, usada pelo BC para fixar os juros. Atualmente, o centro da meta de inflação está em 3% ao ano e é definida pelo Conselho Monetário Nacional (CMN), onde o governo federal tem maioria de votos.\n\n\n“Um novo decreto deve suprimir a carência de 36 meses criada em 2024 para mudar a meta. Propomos retomar o centro de 4,5%, vigente de 2005 a 2018, alongar o horizonte de convergência e dar peso efetivo ao pleno emprego, que a lei já inclui entre os objetivos do Banco Central”, diz o manifesto.\n\n\nNova regra fiscal\n\nOutra proposta é a aprovar no Congresso Nacional, ainda neste ano, nova regra fiscal para o Brasil que substitua o arcabouço fiscal, que limita o crescimento real das despesas a até 2,5% ao ano e até 70% do crescimento da receita.  \n\n\n“O limite atrelado a 70% da receita é incompatível com pisos de saúde e educação que crescem com a receita. As regras fiscais atuais também inibem os desafios do próximo mandato, como a reindustrialização com transição ecológica, que depende de investimento público, de aportes nas estatais e do crédito do BNDES”, diz o texto.\n\n\nO manifesto sugere que uma nova lei complementar deve excluir dos limites fiscais tanto o investimento público, o Bolsa Família e os pisos da saúde e educação, quanto os aportes nas estatais e no Banco Nacional de Desenvolvimento Econômico e Social (BNDES).\n\nCríticas ao ajuste fiscal\n\nOs especialistas ainda criticam membros do governo que tem defendido, nos últimos dias, medidas de ajuste fiscal, como o ministro da Fazenda, Dario Durigan.\n\n“O programa derrotado volta pela porta da Fazenda. Já vimos esse filme. Em 2024 e 2025, a Fazenda apertou o orçamento enquanto o Banco Central elevava a Selic de 10,5% para 15%. A avaliação positiva do governo caiu de 36% para 24%”, diz a nota.\n\nOs especialistas ainda argumentam que o ajuste fiscal de 2015 realizado pela presidente Dilma Rousseff contribuiu para recessão econômica daquele período, o que teria aberto caminho para o impeachment da petista.\n\n\n“Diante de um Congresso mais hostil, com 121 deputados do PL e 49 senadores de direita a partir de fevereiro, repetir a receita pode enfraquecer o apoio obtido nas ruas para a reeleição de Lula e tornar seu governo vulnerável a um novo golpe parlamentar”, diz o manifesto.\n\n\nEntre os economistas que assinam o texto, estão os professores da Unicamp, Pedro Paulo Zahluth Bastos e Simone Deos, da Universidade de Brasília (UnB), Maria de Lourdes Rollemberg Mollo, da Queen’s University Belfast, Alfredo Saad Filho, e da Universidade Federal Fluminense, Juliane Furno</p>",
       "imagem": "https://imagens.ebc.com.br/CwEJdCMCQVdM5khEWkwNigL-mAQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/rvrsa_abr_001_030920213984.jpg?itok=9dGcFi2Q",
       "slug": "economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais",
       "pagina_local": "economistas-propoem-taxar-ricos-em-vez-de-cortar-gastos-sociais.html",
@@ -39,7 +39,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Acordo Mercosul-UE eleva exportações brasileiras em 21%",
@@ -52,7 +52,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
@@ -65,7 +65,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Aneel mantém bandeira tarifária verde em novembro",
@@ -78,7 +78,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Aneel prevê três leilões de transmissão de energia em 2027",
@@ -91,7 +91,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Com muita disputa, Aneel leiloou oito lotes de transmissão de energia",
@@ -104,7 +104,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Brasil abre mercado em Bangladesh e Colômbia para pecuária",
@@ -117,7 +117,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
@@ -130,7 +130,20 @@ const DADOS_ATUALIDADES = {
       "categoria": "Finanças do Cidadão",
       "orgao": "Economia & Finanças",
       "fonte": "EBC / Economia & Finanças (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
+    },
+    {
+      "titulo": "Lembranças e saudades marcam Dia de Finados em Brasília",
+      "resumo": "Gorete Nascimento, de 71 anos, saiu de casa hoje antes das 7h para cumprir o ritual que faz há 32 anos. Ela mora em Cidade Ocidental, município goiano que fica a 47 quilômetros de Brasília, onde parte da família foi ente...",
+      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>Gorete Nascimento, de 71 anos, saiu de casa hoje antes das 7h para cumprir o ritual que faz há 32 anos. Ela mora em Cidade Ocidental, município goiano que fica a 47 quilômetros de Brasília, onde parte da família foi enterrada, no Cemitério Campo da Esperança. Veio trazendo flores e produtos de limpeza para deixar o mármore da lápide branquinho. \n\nAo mostrar as fotos dos pais e das três irmãs que foram sepultadas no local, ela vai contando a história de cada um. Ao chegar na última, diz que a irmã fará 86 anos no próximo dia 6 de novembro. Com verbo no futuro mesmo. É que ela não conseguiu se despedir direito de Angelita, que faleceu no início da pandemia.\n\n\nNotícias relacionadas:Finados: lei amplia olhar e sensibilidade para vontades antes da morte.Zumbi, Finados e Proclamação: confira feriados nacionais de novembro.“Venho aqui sempre no dia de finados e também no aniversário de cada um porque sinto muita saudade deles. E para homenagear minha irmã, que também nunca deixava de vir aqui nessa data”, explicou. \n\n\n\n            \n        \n    \nA aposentada Neuza Maria visita o Campo da Esperança - Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\nA área onde a família de Gorete foi enterrada é antiga e tem túmulos altos, cada um de um jeito.\n\nJá os sogros de Neusa Maria Nora estão na ala nova, onde só é permitido colocar uma pequena placa com o nome e a foto dos mortos junto a um candelabro para velas. Ela diz que rezou por eles. Depois, se sentou em um banco na sombra e ficou observando.\n\n“Eu gosto de vir aqui e me lembrar que rico ou pobre, todos vamos terminar no mesmo lugar. Acho que as pessoas deveriam vir mais ao cemitério”, disse.\n\n\n            \n        \n    \n Ana Maria Soares, acompanhada dos filhos Priscila e Marcelo Soares - Fabio Rodrigues-Pozzebom/ Agência Brasil\n\n\nMarcelo Oliveira também trouxe flores para o pai. Ele diz que vem muitas vezes ao ano ao cemitério. É uma forma de parar e deixar as lembranças virem. Hoje, trouxe a mãe e a irmã. O irmão mais velho não conseguiu.\n\n\n“Ele nunca vem, diz que não consegue, fica muito emocionado”, explicou. \n\n\n \n\nTradição secular\n\nA tradição do Dia de Finados chegou ao Brasil junto com os portugueses católicos. A origem da data é atribuída ao monge beneditino Odilo de Cluny, da Abadia de Cluny, na França, que teria determinado, no ano 998, que todos os fiéis rezassem pelas almas dos falecidos em 2 de novembro, um dia depois da Festa de Todos os Santos. \n\nApesar da origem católica, a data também é lembrada por cristãos protestantes e praticantes de religiões de matriz africana como o  candomblé e a umbanda, que fazem rituais entre os dias 1º e 2 de novembro em homenagens aos ancestrais. \n\nA data, porém, só foi oficializada como feriado nacional em dezembro de 2002 por meio da Lei 10.607/2002, de autoria da então deputada federal Vanessa Grazziotin (PCdoB-AM).</p>",
+      "imagem": "https://imagens.ebc.com.br/Q6jW7Ap5r3knjokMV2VeacMbnJQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/11/02/pzzb9240.jpg?itok=RseATh2V",
+      "slug": "lembrancas-e-saudades-marcam-dia-de-finados-em-brasilia",
+      "pagina_local": "lembrancas-e-saudades-marcam-dia-de-finados-em-brasilia.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/saudades-emocionam-visitantes-do-campo-da-esperanca-em-brasilia",
+      "categoria": "Trabalho & Benefícios",
+      "orgao": "Trabalho & Previdência",
+      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Mega-Sena acumula; prêmio para sorteio de quarta vai a R$ 46 milhões",
@@ -143,7 +156,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Recebimento de vales-alimentação e refeição mudam a partir do dia 7",
@@ -156,7 +169,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Hoje é Dia: datas, fatos e feriados de novembro de 2026",
@@ -169,7 +182,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Inscrições para Prêmio Desenvolvimento em Jogo terminam neste domingo",
@@ -182,7 +195,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Inmet alerta para chuvas no Norte, Sudeste e Centro-Oeste",
@@ -195,7 +208,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "\"Luto é permanente\", diz viúva 30 anos após acidente com Fokker da TAM",
@@ -208,7 +221,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Terceira edição do CNU pode ter até 3 mil vagas",
@@ -221,7 +234,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Polícia de SP investiga venda de dados de mortos a funerárias",
@@ -234,7 +247,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     },
     {
       "titulo": "Finados: 2 milhões de passageiros devem passar por aeroportos do país",
@@ -247,20 +260,7 @@ const DADOS_ATUALIDADES = {
       "categoria": "Trabalho & Benefícios",
       "orgao": "Trabalho & Previdência",
       "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
-    },
-    {
-      "titulo": "Governo alerta para golpe envolvendo o Auxílio Reconstrução",
-      "resumo": "O Ministério da Integração e do Desenvolvimento Regional alerta para um golpe que circula por aplicativos de mensagens e redes sociais sobre o suposto pagamento de “Auxílio Reconstrução 2026”, no valor de R$ 1.680.\n\nA pu...",
-      "corpo_html": "<p class='text-base text-slate-700 leading-relaxed'>O Ministério da Integração e do Desenvolvimento Regional alerta para um golpe que circula por aplicativos de mensagens e redes sociais sobre o suposto pagamento de “Auxílio Reconstrução 2026”, no valor de R$ 1.680.\n\nA publicação afirma que o cidadão pode consultar se tem direito ao benefício por meio de um link falso e receber o valor. O benefício não existe, e a mensagem não é do governo federal.\n\nNotícias relacionadas:INSS alerta para golpes que usam informação falsa sobre biometria.Em sabatina, Flávio nega tentativa de golpe e defende fim da reeleição.Medida provisória quer coibir excesso de chamadas e golpes telefônicos.As informações oficiais sobre o Auxílio Reconstrução estão disponíveis apenas no site auxilioreconstrucao.dataprev.gov.br/reconstrucao/cidadao/ do benefício.\n\nO ministério reforça que a população deve desconfiar de mensagens que prometem o recebimento de benefícios mediante acesso a links ou fornecimento de informações pessoais em páginas não oficiais.\n\nBenefício\n\nO Auxílio Reconstrução é um benefício financeiro pago em parcela única pelo governo federal para apoiar famílias que sofreram perdas materiais ou ficaram desabrigados em decorrência de desastres naturais reconhecidos.</p>",
-      "imagem": "https://imagens.ebc.com.br/E3CFenWBEBmftw_Cyd0GH8VMJNg=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/03/23/_rbr5563ta_42_1.jpg?itok=ctBgVOhB",
-      "slug": "governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
-      "pagina_local": "governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/governo-alerta-para-golpe-envolvendo-o-auxilio-reconstrucao",
-      "categoria": "Trabalho & Benefícios",
-      "orgao": "Trabalho & Previdência",
-      "fonte": "EBC / Trabalho & Previdência (Canais Oficiais)",
-      "coletado_em": "02/11/2026 às 05:30"
+      "coletado_em": "02/11/2026 às 15:23"
     }
   ]
 };
