@@ -166,7 +166,7 @@ def executar(limite=0):
             if sucesso:
                 total_sucesso += 1
                 # Salva commit e envia a cada 20 matérias reescritas
-                if total_sucesso % 20 == 0:
+                if total_sucesso % 5 == 0:
                     salvar_commit_periodico(total_sucesso)
 
             if limite > 0 and total_sucesso >= limite:
