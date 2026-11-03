@@ -24,7 +24,7 @@ def salvar_commit_periodico(contador):
         subprocess.run(["git", "config", "--global", "user.email", "bot-editorial@cidadaoagora.com"], check=False)
         subprocess.run(["git", "add", "-A"], check=False)
         subprocess.run(["git", "commit", "-m", f"chore(ia): reescrita editorial de lote ({contador} matérias) [skip ci]"], check=False)
-        subprocess.run(["git", "push"], check=False)
+        subprocess.run(["git", "push", "origin", "HEAD:main"], check=False)
         print(f"  💾 Progresso salvo e commit enviado para o GitHub ({contador} matérias)!")
     except Exception as e:
         print(f"  ⚠️ Aviso ao fazer commit periódico: {e}")

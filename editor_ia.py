@@ -5,12 +5,16 @@ import time
 import urllib.request
 import urllib.error
 
-# Modelos do Gemini em ordem de prioridade
-MODELOS_GEMINI = [
+# Modelos padrão de fallback
+MODELOS_PREFERENCIAIS = [
     "gemini-1.5-flash",
     "gemini-2.0-flash",
-    "gemini-2.5-flash"
+    "gemini-2.5-flash",
+    "gemini-1.5-flash-8b",
+    "gemini-1.5-pro"
 ]
+
+_CACHE_MODELOS = None
 
 def obter_chave_api():
     """Busca a chave da API em variáveis de ambiente ou em arquivo .env"""
@@ -33,6 +37,51 @@ def obter_chave_api():
 
     return ""
 
+def descobrir_modelos_disponiveis(chave):
+    """Consulta a API do Google para descobrir quais modelos estão liberados para esta chave"""
+    global _CACHE_MODELOS
+    if _CACHE_MODELOS is not None:
+        return _CACHE_MODELOS
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={chave}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "CidadaoAgora-Editorial/1.0"})
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            modelos_api = [
+                m.get("name", "").replace("models/", "")
+                for m in data.get("models", [])
+                if "generateContent" in m.get("supportedGenerationMethods", [])
+            ]
+            # Prioriza os modelos mais rápidos (Flash)
+            ordenados = []
+            for pref in MODELOS_PREFERENCIAIS:
+                if pref in modelos_api:
+                    ordenados.append(pref)
+            for m in modelos_api:
+                if m not in ordenados and "flash" in m.lower():
+                    ordenados.append(m)
+            for m in modelos_api:
+                if m not in ordenados:
+                    ordenados.append(m)
+
+            if ordenados:
+                print(f"  🔍 Modelos Gemini disponíveis para esta chave: {ordenados[:4]}")
+                _CACHE_MODELOS = ordenados
+                return ordenados
+    except urllib.error.HTTPError as e:
+        corpo = ""
+        try:
+            corpo = e.read().decode("utf-8", errors="ignore")
+        except Exception:
+            pass
+        print(f"  ⚠️ Erro ao listar modelos Gemini (HTTP {e.code}): {corpo[:250]}")
+    except Exception as e:
+        print(f"  ⚠️ Erro de conexão ao listar modelos: {e}")
+
+    _CACHE_MODELOS = MODELOS_PREFERENCIAIS
+    return MODELOS_PREFERENCIAIS
+
 def limpar_texto_puro(texto_html_ou_puro):
     """Remove marcações HTML residuais para enviar texto limpo à IA"""
     if not texto_html_ou_puro:
@@ -46,24 +95,18 @@ def reescrever_com_ia(titulo_original, conteudo_texto, categoria="Notícias", or
     Recebe os dados apurados da notícia original e utiliza a IA do Google Gemini
     para gerar uma matéria jornalística 100% inédita, reestruturada e original,
     evitando reprovação por 'conteúdo copiado' no Google AdSense.
-    
-    Retorna um dicionário com:
-      - titulo: novo título exclusivo
-      - resumo: lead inédito
-      - destaques: lista de bullet points principais
-      - corpo_html: matéria completa reescrita com estilos Tailwind limpos
-    Ou None em caso de falha/ausência de chave (acionando o fallback).
     """
     chave = obter_chave_api()
     if not chave:
+        print("  ⚠️ [IA Gemini] GEMINI_API_KEY não foi encontrada no ambiente!")
         return None
 
     texto_limpo = limpar_texto_puro(conteudo_texto)
-    # Se o texto for muito curto, não tem substância suficiente para reescrever
-    if len(texto_limpo) < 150:
+    if len(texto_limpo) < 120:
+        print(f"  ⚠️ [IA Gemini] Conteúdo muito curto ({len(texto_limpo)} caracteres). Ignorando.")
         return None
 
-    # Limita o texto de entrada para não estourar tokens desnecessariamente
+    # Limita o texto de entrada para não estourar tokens
     if len(texto_limpo) > 6000:
         texto_limpo = texto_limpo[:6000]
 
@@ -119,22 +162,22 @@ Retorne a resposta ESTRITAMENTE em formato JSON no seguinte formato:
     }
 
     payload_bytes = json.dumps(payload).encode("utf-8")
+    modelos = descobrir_modelos_disponiveis(chave)
 
-    for modelo in MODELOS_GEMINI:
+    for modelo in modelos:
         endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}"
         req = urllib.request.Request(
             endpoint,
             data=payload_bytes,
-            headers={"Content-Type": "application/json"},
+            headers={"Content-Type": "application/json", "User-Agent": "CidadaoAgora-Editorial/1.0"},
             method="POST"
         )
 
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=35) as resp:
                 resposta_bruta = resp.read().decode("utf-8")
                 dados_resp = json.loads(resposta_bruta)
 
-                # Extrai o texto da resposta do Gemini
                 candidatos = dados_resp.get("candidates", [])
                 if not candidatos:
                     continue
@@ -143,7 +186,6 @@ Retorne a resposta ESTRITAMENTE em formato JSON no seguinte formato:
                 if not conteudo_resposta:
                     continue
 
-                # Remove eventuais blocos de código ```json ... ``` se vierem
                 texto_limpo_json = conteudo_resposta.strip()
                 if texto_limpo_json.startswith("```"):
                     texto_limpo_json = re.sub(r'^```(?:json)?\s*', '', texto_limpo_json)
@@ -151,27 +193,23 @@ Retorne a resposta ESTRITAMENTE em formato JSON no seguinte formato:
 
                 resultado = json.loads(texto_limpo_json)
 
-                # Valida se os campos essenciais estão presentes
                 if "titulo" in resultado and "corpo_html" in resultado and len(resultado["titulo"]) > 10:
-                    print(f"  ✨ [IA Gemini] Matéria reescrita com sucesso usando {modelo}: '{resultado['titulo'][:50]}...'")
-                    
-                    # Pausa de cortesia de 2 segundos para respeitar a cota gratuita (15 RPM)
+                    print(f"  ✨ [IA Gemini] Matéria reescrita com sucesso ({modelo}): '{resultado['titulo'][:50]}...'")
                     time.sleep(2.5)
                     return resultado
 
         except urllib.error.HTTPError as e:
-            # Se for 404 (modelo não existe), tenta o próximo da lista
-            if e.code == 404:
-                continue
-            # Se for 429 (rate limit), espera um pouco
-            elif e.code == 429:
-                print(f"  ⚠️ [IA Gemini] Limite de requisições atingido (429). Aguardando 5s...")
-                time.sleep(5)
-                continue
-            else:
-                print(f"  ⚠️ [IA Gemini] Erro HTTP {e.code} ao consultar modelo {modelo}: {e.reason}")
+            corpo_erro = ""
+            try:
+                corpo_erro = e.read().decode("utf-8", errors="ignore")
+            except Exception:
+                pass
+            print(f"  ⚠️ [IA Gemini] Erro HTTP {e.code} ao consultar modelo {modelo}: {corpo_erro[:200]}")
+            if e.code == 429:
+                print("  ⏳ [IA Gemini] Limite de requisições (429). Aguardando 10 segundos...")
+                time.sleep(10)
         except Exception as e:
-            print(f"  ⚠️ [IA Gemini] Falha ao processar com {modelo}: {e}")
+            print(f"  ⚠️ [IA Gemini] Falha com {modelo}: {e}")
 
     return None
 
@@ -203,12 +241,11 @@ def inserir_ads_no_corpo(corpo_html):
       <span>[Espaço Reservado - Banner Google AdSense In-Article Meio da Notícia]</span>
     </div>
     """
-    # Encontra posições de fechamento de </p>
     posicoes = [m.end() for m in re.finditer(r'</p>', corpo_html, flags=re.IGNORECASE)]
     if len(posicoes) >= 3:
-        ponto_insercao = posicoes[2] # Após o 3º parágrafo
+        ponto_insercao = posicoes[2]
         return corpo_html[:ponto_insercao] + "\n" + bloco_ad + "\n" + corpo_html[ponto_insercao:]
     elif len(posicoes) >= 2:
-        ponto_insercao = posicoes[1] # Após o 2º parágrafo
+        ponto_insercao = posicoes[1]
         return corpo_html[:ponto_insercao] + "\n" + bloco_ad + "\n" + corpo_html[ponto_insercao:]
     return corpo_html
