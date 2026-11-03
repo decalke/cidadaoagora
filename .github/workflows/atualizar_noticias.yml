@@ -42,6 +42,10 @@ jobs:
         run: |
           python conteudo/agente_atualidades.py
 
+      - name: Atualizar Sitemap XML Dinamicamente
+        run: |
+          python scripts/gerar_sitemap.py
+
       - name: Salvar e Publicar alterações no site
         run: |
           git config --global user.name "Robô Cidadão Agora [GitHub Action]"

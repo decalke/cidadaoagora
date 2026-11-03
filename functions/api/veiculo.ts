@@ -292,9 +292,24 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
       }
     }
 
+    // 6. Proteção de Dados LGPD: Sanitização e Mascaramento de PII
+    const veiculoSanitizado: any = { ...consultaVeiculo.veiculo };
+    delete veiculoSanitizado.documento_faturado;
+    delete veiculoSanitizado.tipo_faturado;
+    delete veiculoSanitizado.uf_faturado;
+
+    if (veiculoSanitizado.chassi && typeof veiculoSanitizado.chassi === 'string') {
+      const c = veiculoSanitizado.chassi.trim();
+      if (c.length >= 9) {
+        veiculoSanitizado.chassi = ${c.slice(0, 3)}***;
+      } else if (c.length > 4) {
+        veiculoSanitizado.chassi = ***;
+      }
+    }
+
     const payloadResposta = {
       sucesso: true,
-      veiculo: consultaVeiculo.veiculo,
+      veiculo: veiculoSanitizado,
       fipe: dadosFipe,
       ipvaEstimado,
       homologacao: consultaVeiculo.homologacao,

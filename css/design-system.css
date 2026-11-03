@@ -1,33 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --brand-900: #0F1B35;
-  --brand-700: #1E40AF;
-  --brand-600: #2563EB;
-  --accent: #F59E0B;
-  --success: #059669;
-  --danger: #DC2626;
-  --surface: #FFFFFF;
-  --surface-muted: #F6F8FC;
-  --text-primary: #172033;
-  --text-secondary: #526078;
-  --border: #D9E1EC;
-  --focus: #F59E0B;
+  --font-serif: 'Lora', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Paleta Editorial Orgânica (Design Humano / Jornalismo Independente) */
+  --surface-muted: #FAF9F5;       /* Fundo suave papel jornal aquecido */
+  --surface: #FFFFFF;             /* Superfície dos cartões */
+  --text-primary: #1A1A1A;        /* Tinta negra clássica */
+  --text-secondary: #52525B;      /* Cinza editorial legível */
+  --brand-900: #0C1E34;           /* Azul marinho nobre */
+  --brand-700: #14365D;           /* Tom secundário refinado */
+  --brand-600: #1B4D7E;           /* Azul editorial institucional */
+  --accent: #C2410C;              /* Terracota refinado (para destaque/urgência) */
+  --accent-hover: #9A3412;
+  --success: #047857;
+  --danger: #BE123C;
+  --border: #E5E5DF;              /* Linha sutil de papel */
+  --focus: #C2410C;
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
   --radius-full: 9999px;
   
-  --shadow-subtle: 0 1px 3px 0 rgb(15 27 53 / 0.05), 0 1px 2px -1px rgb(15 27 53 / 0.05);
-  --shadow-card: 0 4px 6px -1px rgb(15 27 53 / 0.07), 0 2px 4px -2px rgb(15 27 53 / 0.05);
-  --shadow-hover: 0 10px 15px -3px rgb(15 27 53 / 0.09), 0 4px 6px -4px rgb(15 27 53 / 0.05);
+  --shadow-subtle: 0 1px 3px 0 rgb(12 30 52 / 0.04), 0 1px 2px -1px rgb(12 30 52 / 0.04);
+  --shadow-card: 0 4px 6px -1px rgb(12 30 52 / 0.05), 0 2px 4px -2px rgb(12 30 52 / 0.04);
+  --shadow-hover: 0 8px 16px -2px rgb(12 30 52 / 0.08), 0 4px 6px -2px rgb(12 30 52 / 0.04);
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sans);
   color: var(--text-primary);
   background-color: var(--surface-muted);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tipografia Editorial de Manchetes (Serifada Clássica) */
+h1, h2, h3, .editorial-heading, .prose h1, .prose h2, .prose h3 {
+  font-family: var(--font-serif);
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
+}
+
+h1, .prose h1 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h2, .prose h2 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Divisores e Cabeçalhos de Seção Estilo Jornal */
+.section-editorial-header {
+  border-bottom: 2px solid var(--brand-900);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.section-editorial-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--brand-900);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Selo de Verificação e Supervisão Editorial */
+.editorial-badge-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: #F4F4EE;
+  color: var(--brand-900);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
 }
 
 /* Acessibilidade: foco visível consistente para navegação por teclado */
@@ -94,9 +154,9 @@ body {
   cursor: pointer;
 }
 .btn-secondary:hover {
-  background-color: var(--surface-muted);
-  border-color: #cbd5e1;
-  color: var(--brand-700);
+  background-color: #F4F4EE;
+  border-color: #CBD5E1;
+  color: var(--brand-900);
 }
 
 .btn-accent {
@@ -105,7 +165,7 @@ body {
   justify-content: center;
   gap: 0.5rem;
   background-color: var(--accent);
-  color: var(--brand-900) !important;
+  color: #ffffff !important;
   font-weight: 800;
   font-size: 0.875rem;
   padding: 0.75rem 1.25rem;
@@ -118,22 +178,21 @@ body {
   cursor: pointer;
 }
 .btn-accent:hover {
-  background-color: #d97706;
-  color: #ffffff !important;
+  background-color: var(--accent-hover);
   transform: translateY(-1px);
 }
 
-/* Cards do Design System com borda consistente entre 12px e 16px */
+/* Cards do Design System com acabamento editorial de papel */
 .ds-card {
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
   box-shadow: var(--shadow-subtle);
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 .ds-card-hover:hover {
-  border-color: #93c5fd;
+  border-color: #CBD5E1;
   box-shadow: var(--shadow-hover);
   transform: translateY(-2px);
 }
@@ -148,25 +207,25 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 0.25rem 0.625rem;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-sm);
 }
 .ds-badge-brand {
-  background-color: #eff6ff;
+  background-color: #EFF6FF;
   color: var(--brand-700);
-  border: 1px solid #bfdbfe;
+  border: 1px solid #BFDBFE;
 }
 .ds-badge-accent {
-  background-color: #fef3c7;
-  color: #92400e;
-  border: 1px solid #fde68a;
+  background-color: #FFF7ED;
+  color: var(--accent);
+  border: 1px solid #FFEDD5;
 }
 .ds-badge-success {
-  background-color: #ecfdf5;
+  background-color: #ECFDF5;
   color: var(--success);
-  border: 1px solid #a7f3d0;
+  border: 1px solid #A7F3D0;
 }
 
-/* Campos de Formulário (mínimo 16px de fonte para evitar zoom iOS) */
+/* Campos de Formulário */
 .ds-input {
   width: 100%;
   font-size: 1rem;
@@ -181,7 +240,7 @@ body {
 }
 .ds-input:focus {
   border-color: var(--brand-600);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  box-shadow: 0 0 0 3px rgba(27, 77, 126, 0.15);
   outline: none;
 }
 .ds-label {
@@ -203,24 +262,24 @@ body {
   line-height: 1.4;
 }
 .ds-alert-danger {
-  background-color: #fef2f2;
-  border: 1px solid #fecaca;
+  background-color: #FEF2F2;
+  border: 1px solid #FECACA;
   color: var(--danger);
 }
 .ds-alert-info {
-  background-color: #eff6ff;
-  border: 1px solid #bfdbfe;
+  background-color: #EFF6FF;
+  border: 1px solid #BFDBFE;
   color: var(--brand-700);
 }
 .ds-alert-success {
-  background-color: #ecfdf5;
-  border: 1px solid #a7f3d0;
+  background-color: #ECFDF5;
+  border: 1px solid #A7F3D0;
   color: var(--success);
 }
 
 /* Skeleton Loading */
 .ds-skeleton {
-  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background: linear-gradient(90deg, #F1F1ED 25%, #E5E5DF 50%, #F1F1ED 75%);
   background-size: 200% 100%;
   animation: ds-shimmer 1.5s infinite;
   border-radius: var(--radius-md);
@@ -234,7 +293,7 @@ body {
 .ds-modal-backdrop {
   position: fixed;
   inset: 0;
-  background-color: rgba(15, 27, 53, 0.6);
+  background-color: rgba(12, 30, 52, 0.6);
   backdrop-filter: blur(4px);
   z-index: 60;
   display: flex;
@@ -246,7 +305,7 @@ body {
   background-color: var(--surface);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
-  box-shadow: 0 20px 25px -5px rgb(15 27 53 / 0.2);
+  box-shadow: 0 20px 25px -5px rgb(12 30 52 / 0.2);
   max-width: 32rem;
   width: 100%;
   padding: 1.5rem;
@@ -262,7 +321,6 @@ body {
   text-align: center;
 }
 
-
 /* Estilização garantida para slots AdSense responsivos sem layout shifts ou zero-width */
 ins.adsbygoogle {
   display: block !important;
@@ -276,4 +334,39 @@ ins.adsbygoogle {
   ins.adsbygoogle {
     min-height: 50px;
   }
+}
+
+/* Prose Editorial para Artigos */
+.prose {
+  color: #27272A;
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+.prose p {
+  margin-bottom: 1.5rem;
+}
+.prose strong {
+  color: #09090B;
+  font-weight: 700;
+}
+.prose a {
+  color: var(--brand-600);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: color 0.15s ease;
+}
+.prose a:hover {
+  color: var(--accent);
+}
+.prose blockquote {
+  border-left: 3px solid var(--accent);
+  background-color: #F8F8F4;
+  padding: 1rem 1.25rem;
+  margin: 1.75rem 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: #27272A;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }

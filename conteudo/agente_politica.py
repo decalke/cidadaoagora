@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 FEEDS_POLITICA = [
     { "orgao": "Congresso & Planalto", "categoria": "Política Nacional", "url": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml" },
     { "orgao": "Justiça & Eleitoral", "categoria": "Justiça & TSE", "url": "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml" },
-    { "orgao": "Receita & Ministério da Fazenda", "categoria": "Novos Tributos & Economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml" }
+    {"orgao": "Direitos & Cidadania", "categoria": "Cidadania & Leis", "url": "https://agenciabrasil.ebc.com.br/rss/direitos-humanos/feed.xml"}
 ]
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -135,6 +135,30 @@ def gerar_pagina_politica(noticia):
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <meta name="theme-color" content="#2563EB">
+  <link rel="canonical" href="https://cidadaoagora.com.br/politica/{noticia['slug']}.html">
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{json.dumps(noticia.get('titulo', ''))[1:-1]}",
+    "image": ["{noticia.get('imagem', '')}"],
+    "datePublished": "{datetime.now().isoformat()}",
+    "dateModified": "{datetime.now().isoformat()}",
+    "author": [{{
+      "@type": "Organization",
+      "name": "Redação Cidadão Agora"
+    }}],
+    "publisher": {{
+      "@type": "Organization",
+      "name": "Cidadão Agora",
+      "logo": {{
+        "@type": "ImageObject",
+        "url": "https://cidadaoagora.com.br/apple-touch-icon.png"
+      }}
+    }},
+    "description": "{json.dumps(noticia.get('resumo', ''))[1:-1]}"
+  }}
+  </script>
   <link rel="stylesheet" href="../css/design-system.css">
   <link rel="stylesheet" href="../css/tailwind.min.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>

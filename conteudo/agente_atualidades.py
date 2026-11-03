@@ -10,8 +10,9 @@ from bs4 import BeautifulSoup
 
 # Feeds Oficiais de Dados Abertos voltados a Atualidades, Economia Prática, Trabalho & Consumidor
 FEEDS_ATUALIDADES = [
-    { "orgao": "Economia & Finanças", "categoria": "Finanças do Cidadão", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml" },
-    { "orgao": "Trabalho & Previdência", "categoria": "Trabalho & Benefícios", "url": "https://agenciabrasil.ebc.com.br/rss/geral/feed.xml" }
+    { "orgao": "Educação & Cidadania", "categoria": "Educação & Concursos", "url": "https://agenciabrasil.ebc.com.br/rss/educacao/feed.xml" },
+    { "orgao": "Saúde Pública", "categoria": "Saúde & Bem-Estar", "url": "https://agenciabrasil.ebc.com.br/rss/saude/feed.xml" },
+    { "orgao": "Meio Ambiente & Clima", "categoria": "Sustentabilidade", "url": "https://agenciabrasil.ebc.com.br/rss/meio-ambiente/feed.xml" }
 ]
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -134,6 +135,30 @@ def gerar_pagina_materia(materia):
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <meta name="theme-color" content="#2563EB">
+  <link rel="canonical" href="https://cidadaoagora.com.br/atualidades/{noticia['slug']}.html">
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{json.dumps(noticia.get('titulo', ''))[1:-1]}",
+    "image": ["{noticia.get('imagem', '')}"],
+    "datePublished": "{datetime.now().isoformat()}",
+    "dateModified": "{datetime.now().isoformat()}",
+    "author": [{{
+      "@type": "Organization",
+      "name": "Redação Cidadão Agora"
+    }}],
+    "publisher": {{
+      "@type": "Organization",
+      "name": "Cidadão Agora",
+      "logo": {{
+        "@type": "ImageObject",
+        "url": "https://cidadaoagora.com.br/apple-touch-icon.png"
+      }}
+    }},
+    "description": "{json.dumps(noticia.get('resumo', ''))[1:-1]}"
+  }}
+  </script>
   <link rel="stylesheet" href="../css/design-system.css">
   <link rel="stylesheet" href="../css/tailwind.min.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>

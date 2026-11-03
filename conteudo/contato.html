@@ -205,7 +205,7 @@
 
       setTimeout(() => {
         feedback.className = 'p-3.5 rounded-xl text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 block';
-        feedback.innerHTML = `Obrigado pelo contato, ${nome}! Sua mensagem sobre "${assunto}" foi registrada com sucesso. Retornaremos no endereço ${email} em até 48 horas úteis.`;
+        feedback.textContent = `Obrigado pelo contato, ${nome}! Sua mensagem sobre "${assunto}" foi registrada com sucesso. Retornaremos no endereço ${email} em até 48 horas úteis.`;
         document.getElementById('form-contato').reset();
         btn.disabled = false;
         btn.innerHTML = '<i data-lucide="send" class="w-4 h-4"></i><span>Enviar Mensagem</span>';

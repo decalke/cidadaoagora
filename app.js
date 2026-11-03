@@ -986,8 +986,26 @@ async function verificarPlacaUnificada(event) {
         usoDiario.contador += 1;
         localStorage.setItem('uso_consultas_placa', JSON.stringify(usoDiario));
 
-        // Salva os dados completos desta placa no cache do navegador
-        localStorage.setItem(cacheKey, JSON.stringify(data));
+        // Salva apenas os dados públicos essenciais no cache do navegador (LGPD e Privacidade)
+        const cachePublico = {
+          sucesso: true,
+          veiculo: {
+            placa: data.veiculo.placa || raw,
+            marca: data.veiculo.marca || data.veiculo.fabricante || '',
+            modelo: data.veiculo.modelo || '',
+            ano_fabricacao: data.veiculo.ano_fabricacao,
+            ano_modelo: data.veiculo.ano_modelo,
+            cor: data.veiculo.cor || '',
+            combustivel: data.veiculo.combustivel || '',
+            uf_jurisdicao: data.veiculo.uf_jurisdicao || '',
+            cidade: data.veiculo.cidade || '',
+            marcaDetalhes: data.veiculo.marcaDetalhes || null,
+            modeloDetalhes: data.veiculo.modeloDetalhes || null,
+          },
+          fipe: data.fipe || null,
+          ipvaEstimado: data.ipvaEstimado || null,
+        };
+        localStorage.setItem(cacheKey, JSON.stringify(cachePublico));
 
         exibirDadosVeiculoReal(data.veiculo, data.fipe, data.ipvaEstimado);
       } else {
