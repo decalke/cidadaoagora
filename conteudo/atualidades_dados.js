@@ -1,5 +1,5 @@
 const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "03/11/2026 às 15:06:55",
+  "ultima_atualizacao": "03/11/2026 às 21:03:02",
   "total": 0,
   "atualidades": []
 };
