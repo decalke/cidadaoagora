@@ -46,6 +46,7 @@ jobs:
             echo "Nenhuma alteração pendente."
           else
             git commit -m "chore(ia): conclusão da reescrita editorial do histórico [skip ci]"
-            git push
+            git pull --rebase origin main
+          git push origin HEAD:main
             echo "Todas as matérias atualizadas foram publicadas!"
           fi
