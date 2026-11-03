@@ -370,3 +370,51 @@ ins.adsbygoogle {
   color: #27272A;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
+
+
+/* ==========================================================================
+   SOBREPOSIÇÃO EDITORIAL DAS CLASSES LEGADAS DO TAILWIND
+   Garante que o novo visual orgânico seja aplicado instantaneamente em todas as páginas,
+   mesmo onde existem classes arbitrárias como [#2563EB] ou [#F6F8FC]
+   ========================================================================== */
+
+/* Fundo suave de papel jornal aquecido */
+body, .bg-\[\#F6F8FC\], .bg-slate-50 {
+  background-color: var(--surface-muted) !important;
+}
+
+/* Tipografia Editorial Lora (Serif) em Manchetes e Títulos */
+h1, h2, h3, h4,
+.editorial-heading,
+.prose h1, .prose h2, .prose h3,
+.text-2xl.font-black,
+.text-xl.font-black,
+.text-lg.font-black {
+  font-family: var(--font-serif) !important;
+  letter-spacing: -0.015em;
+}
+
+/* Identidade Visual Nobre: substitui o azul cobalto pelo azul editorial nobre */
+.bg-\[\#2563EB\], .bg-blue-600 {
+  background-color: var(--brand-600) !important;
+}
+.bg-\[\#1E40AF\], .bg-blue-700 {
+  background-color: var(--brand-700) !important;
+}
+.text-\[\#2563EB\], .text-blue-600 {
+  color: var(--brand-600) !important;
+}
+.text-\[\#1E40AF\], .text-blue-700 {
+  color: var(--brand-700) !important;
+}
+.border-\[\#2563EB\], .border-blue-600 {
+  border-color: var(--brand-600) !important;
+}
+
+/* Tinta negra clássica e linhas de papel */
+.text-\[\#0F1B35\], .text-slate-900 {
+  color: var(--text-primary) !important;
+}
+.border-\[\#D9E1EC\], .border-slate-200 {
+  border-color: var(--border) !important;
+}
