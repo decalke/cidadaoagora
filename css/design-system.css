@@ -418,3 +418,7 @@ h1, h2, h3, h4,
 .border-\[\#D9E1EC\], .border-slate-200 {
   border-color: var(--border) !important;
 }
+
+/* Identidade Cidadão Agora 3 — editorial e utilitária. */
+:root{--surface-muted:#f8f7f3;--surface:#fff;--text-primary:#102a43;--text-secondary:#5e6973;--brand-900:#102a43;--brand-700:#1e40af;--brand-600:#2563eb;--border:#d9dedf;--focus:#2563eb;--radius-sm:3px;--radius-md:5px;--radius-lg:7px;--shadow-subtle:none;--shadow-card:0 2px 8px #102a4308;--shadow-hover:0 4px 14px #102a430c}
+.ds-card{box-shadow:none;border-radius:6px}.ds-card-hover:hover{transform:none;border-color:#8ca6bc;box-shadow:var(--shadow-card)}.btn-primary,.btn-secondary,.btn-accent,.ds-input{border-radius:4px}.btn-primary:hover,.btn-secondary:hover,.btn-accent:hover{transform:none}.ds-badge{border-radius:3px;font-size:10px;letter-spacing:.7px}.prose{font-size:1.065rem;line-height:1.9}.prose h2{margin-top:2.4rem}.prose blockquote{border-color:#2563eb;background:#f3f6f8;border-radius:0}.ds-modal{border-radius:8px}body:not(.portal-home) header{box-shadow:none!important}body:not(.portal-home) header h1,body:not(.portal-home) header .font-black{letter-spacing:-.6px}body:not(.portal-home) main>article>h1{line-height:1.2}body:not(.portal-home) footer a{ text-underline-offset:4px }@media(prefers-reduced-motion:reduce){.ds-card,.btn-primary,.btn-secondary,.btn-accent{transition:none}.ds-skeleton{animation:none}}
