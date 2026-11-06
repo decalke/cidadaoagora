@@ -73,7 +73,7 @@ def main(limit):
                 continue
             old=links.get(link,{})
             slug=old.get('slug') or re.sub(r'[^a-z0-9]+','-',__import__('unicodedata').normalize('NFKD',result['titulo']).encode('ascii','ignore').decode().lower()).strip('-')[:65]+'-'+hashlib.sha1(link.encode()).hexdigest()[:8]
-            item={'titulo':result['titulo'],'resumo':result['resumo'],'corpo_html':result['corpo_html'],'destaques_html':formatar_bloco_destaques(result['destaques']),'slug':slug,'pagina_local':slug+'.html','link_oficial':link,'categoria':category,'fonte':'Agência Brasil / EBC','imagem':'/assets/v4/brasil-cotidiano.webp','coletado_em':datetime.now(timezone.utc).isoformat(),'reescrito_ia':True,'editorial_v4':True,'modelo':result['modelo']}
+            item={'titulo':result['titulo'],'resumo':result['resumo'],'corpo_html':result['corpo_html'],'destaques_html':formatar_bloco_destaques(result['destaques']),'slug':slug,'pagina_local':slug+'.html','link_oficial':link,'categoria':category,'fonte':'Agência Brasil / EBC','imagem':'/assets/v4/brasil-cotidiano.webp','coletado_em':datetime.now(timezone.utc).isoformat(),'reescrito_ia':True,'editorial_v4':True,'modelo':result['modelo'],'checagem_automatica':result.get('checagem_automatica',False)}
             write(item,folder)
             bases[folder]['noticias']=[item]+[x for x in bases[folder].get('noticias',[]) if x.get('link_oficial')!=link]
             bases[folder]['noticias']=bases[folder]['noticias'][:80]
