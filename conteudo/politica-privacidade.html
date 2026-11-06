@@ -49,73 +49,84 @@
       
       <div class="border-b border-slate-200 pb-4">
         <h1 class="text-2xl sm:text-3xl font-black text-slate-900">Política de Privacidade</h1>
-        <p class="text-xs text-slate-400 mt-1">Última atualização: Outubro de 2026 • Em conformidade com a LGPD (Lei nº 13.709/2018)</p>
+        <p class="text-xs text-slate-500 mt-1">Diretrizes de transparência sobre tratamento de dados e navegação no portal Cidadão Agora</p>
       </div>
 
       <section class="space-y-3">
         <h2 class="text-base font-bold text-slate-900">1. Informações Gerais</h2>
         <p>
-          O portal <strong>Cidadão Agora</strong> tem o compromisso de proteger a privacidade e os dados pessoais de seus usuários. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos as informações fornecidas por você ao utilizar nossas ferramentas de utilidade pública, calculadoras e ler nossas notícias.
+          O portal <strong>Cidadão Agora</strong> preza pela transparência quanto ao tratamento de informações técnicas e dados fornecidos pelos usuários em suas ferramentas de utilidade pública e páginas informativas.
         </p>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">2. Ferramentas e Processamento Local (Sem Coleta de Dados Pessoais)</h2>
+        <h2 class="text-base font-bold text-slate-900">2. Como os Dados são Processados em Cada Ferramenta</h2>
         <p>
-          Nossas ferramentas interativas — incluindo, mas não se limitando a: <em>Gerador de Recibos, Gerador de Contratos, Declaração de Residência, Declaração de Hipossuficiência, Gerador de Orçamento, Nota Promissória, Validador de CPF, Consulta de Processos e Calculadoras Trabalhistas</em> — operam <strong>estritamente no lado do cliente (client-side)</strong>.
+          O funcionamento das ferramentas do portal divide-se em duas categorias de processamento:
         </p>
-        <div class="bg-emerald-50 border-l-4 border-emerald-600 p-3.5 rounded-r-lg text-emerald-950 font-medium text-xs space-y-1">
-          <p class="font-bold flex items-center gap-1.5 text-emerald-800">
-            <i data-lucide="shield-check" class="w-4 h-4"></i>
-            Garantia de Privacidade e Blindagem de Dados:
-          </p>
-          <p>
-            Nenhum dado sensível digitado nos formulários (nomes, CPFs, CNPJs, valores monetários ou endereços) é enviado, transferido ou armazenado em nenhum banco de dados ou servidor. Todos os cálculos, certidões e PDFs são gerados diretamente na memória temporária do seu próprio navegador e descartados assim que a página é fechada.
-          </p>
+        
+        <div class="space-y-3 text-xs">
+          <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-1.5">
+            <h3 class="font-bold text-slate-900 text-sm">A. Ferramentas de Processamento Exclusivamente Local (no seu navegador)</h3>
+            <p class="text-slate-600">
+              Nas seguintes ferramentas, os dados preenchidos nos formulários não são enviados a nossos servidores e são manipulados apenas na memória temporária do seu navegador:
+            </p>
+            <ul class="list-disc pl-5 space-y-1 text-slate-600">
+              <li><strong>Validador de CPF:</strong> O cálculo matemático dos dígitos verificadores ocorre no seu navegador. O número não é transmitido a servidores.</li>
+              <li><strong>Calculadoras Trabalhistas (Rescisão CLT, Férias e Décimo Terceiro):</strong> Salários, datas e descontos são calculados diretamente no script local.</li>
+              <li><strong>Calculadora de Reajuste de Aluguel:</strong> Os cálculos percentuais são realizados localmente.</li>
+              <li><strong>Geradores de Documentos e Recibos (PDF):</strong> Recibos, declarações de residência e hipossuficiência, contratos, notas promissórias e orçamentos são renderizados diretamente no navegador pelo mecanismo em JavaScript e baixados para seu dispositivo.</li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-1.5">
+            <h3 class="font-bold text-slate-900 text-sm">B. Ferramentas que Realizam Consultas a APIs e Serviços Externos</h3>
+            <p class="text-slate-600">
+              Para retornar dados atualizados, algumas ferramentas transmitem o identificador pesquisado para serviços e APIs públicas:
+            </p>
+            <ul class="list-disc pl-5 space-y-1 text-slate-600">
+              <li><strong>Consulta de CEP:</strong> O CEP pesquisado é enviado para serviços abertos de geolocalização postal (BrasilAPI / ViaCEP) para obter logradouro, bairro, município e UF.</li>
+              <li><strong>Consulta de CNPJ / MEI:</strong> O número do CNPJ é consultado na base pública de dados abertos da Receita Federal via BrasilAPI para retornar razão social e situação cadastral.</li>
+              <li><strong>Consulta Veicular e Tabela FIPE:</strong> A placa informada é transmitida para verificação de dados públicos do veículo e a cotação de valor médio de mercado é requisitada na API pública da FIPE (Parallelum).</li>
+              <li><strong>Indicadores Econômicos:</strong> As séries históricas e cotações de Dólar, Selic e IPCA são consumidas diretamente dos serviços de dados abertos do Banco Central do Brasil (SGS).</li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">3. Criptografia em Trânsito e Camada de Segurança</h2>
+        <h2 class="text-base font-bold text-slate-900">3. Segurança na Transmissão</h2>
         <p>
-          Toda a navegação no portal <strong>Cidadão Agora</strong> é protegida por criptografia de ponta a ponta através do protocolo <strong>HTTPS / TLS 1.3</strong> com cabeçalho <em>Strict-Transport-Security (HSTS)</em> ativo, além de políticas restritivas de <em>Content-Security-Policy (CSP)</em>, <em>X-Frame-Options</em> (proteção contra clickjacking) e <em>X-Content-Type-Options</em>.
-        </p>
-        <p>
-          Nas consultas de placas de veículos, os dados trafegam exclusivamente via conexão cifrada e segura com a infraestrutura de borda (Edge Cloudflare) e não são armazenados em disco, nem vinculados a qualquer identidade ou dado pessoal do usuário.
+          Toda a navegação no portal é protegida por conexão criptografada via protocolo <strong>HTTPS (TLS)</strong>, assegurando que o tráfego entre seu dispositivo e nossos servidores não seja interceptado em texto claro.
         </p>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">4. Cookies, Google AdSense e Métricas Anonimizadas</h2>
+        <h2 class="text-base font-bold text-slate-900">4. Cookies, Publicidade e Tecnologias de Métricas</h2>
         <p>
-          Utilizamos serviços de publicidade de terceiros, como o <strong>Google AdSense</strong>, para veicular anúncios que sustentam a gratuidade de nossos serviços. O Google utiliza cookies (como o cookie DoubleClick DART) para veicular anúncios.
+          O portal utiliza ferramentas de terceiros para viabilizar seu funcionamento e manutenção:
+        </p>
+        <ul class="list-disc pl-5 space-y-1.5 text-xs text-slate-600">
+          <li><strong>Cookies Essenciais:</strong> Armazenam preferências locais de navegação e consentimento.</li>
+          <li><strong>Métricas de Acesso (Google Analytics 4):</strong> Utilizado com mascaramento de IP para entender agregadamente os padrões de visitação e aprimorar a usabilidade das ferramentas.</li>
+          <li><strong>Publicidade (Google AdSense):</strong> Parceiros de mídia podem utilizar cookies para veiculação de anúncios. O usuário pode personalizar ou restringir o uso de cookies de publicidade por meio das <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">Configurações de Anúncios do Google</a> ou do painel de preferências do portal.</li>
+        </ul>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-base font-bold text-slate-900">5. Direitos do Usuário e Contato</h2>
+        <p>
+          O usuário pode a qualquer momento revogar ou alterar suas preferências de cookies pelo botão de configuração presente no rodapé do portal.
         </p>
         <p>
-          Para fins de medição de audiência, utilizamos o <strong>Google Analytics 4</strong> configurado com <strong>anonimização estrita de endereço IP (anonymize_ip: true)</strong> e desativação de sinais de personalização de anúncios sem consentimento.
-        </p>
-        <p>
-          Você pode desativar ou personalizar o uso de cookies de publicidade a qualquer momento acessando as <a href="https://adssettings.google.com" target="_blank" rel="noopener" class="text-blue-600 underline">Configurações de Anúncios do Google</a> ou através do gerenciador de cookies em nosso rodapé.
+          Para dúvidas, sugestões ou solicitações relativas a privacidade, entre em contato pelo e-mail: <strong>contato@cidadaoagora.com.br</strong>.
         </p>
       </section>
 
       <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">5. Seus Direitos como Titular de Dados (Art. 18 da LGPD)</h2>
+        <h2 class="text-base font-bold text-slate-900">6. Independência Institucional</h2>
         <p>
-          Em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)</strong>, você tem total controle sobre seus dados. Como nosso modelo arquitetural é estritamente estático e <em>zero-knowledge</em> (não retemos banco de dados com seus dados pessoais), você não corre risco de vazamento de credenciais ou prontuários cadastrais em nosso ambiente.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">6. Fontes Públicas e Isenção de Vínculo Governamental</h2>
-        <p>
-          O Cidadão Agora é um portal informativo e utilitário independente e <strong>não possui nenhum vínculo institucional com o Governo Federal</strong>, tribunais judiciais, Detrans ou autarquias públicas. As ferramentas realizam cálculos matemáticos abertos e direcionam para consultas oficiais em conformidade com a <em>Lei de Acesso à Informação (Lei nº 12.527/2011)</em>.
-        </p>
-      </section>
-
-      <section class="space-y-3">
-        <h2 class="text-base font-bold text-slate-900">7. Encarregado de Proteção de Dados (DPO) e Contato</h2>
-        <p>
-          Caso tenha dúvidas sobre esta política, requisições sobre privacidade ou deseje mais esclarecimentos, entre em contato diretamente pelo e-mail institucional: <strong>contato@cidadaoagora.com.br</strong>.
+          O Cidadão Agora é um portal independente mantido sem subvenção governamental e não é representante oficial de órgãos públicos. As ferramentas disponibilizadas têm caráter prático, informativo e facilitador.
         </p>
       </section>
 

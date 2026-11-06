@@ -21,8 +21,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
   <link rel="manifest" href="../site.webmanifest">
   <meta name="theme-color" content="#2563EB">
-  <title>Validador Oficial de CPF & Região Fiscal - Cidadão Agora</title>
-  <meta name="description" content="Valide números de CPF pelo algoritmo oficial da Receita Federal e descubra a região fiscal de emissão. 100% seguro e sem armazenar dados.">
+  <title>Validador de CPF & Região Fiscal - Cidadão Agora</title>
+  <meta name="description" content="Valide a coerência dos dígitos verificadores de qualquer CPF pelo cálculo de Módulo 11 e identifique a região fiscal de emissão. Processamento local no navegador.">
   <link rel="canonical" href="https://cidadaoagora.com.br/servicos/validador-cpf">
 
   <!-- Schema.org WebApplication & FAQPage -->
@@ -32,11 +32,11 @@
     "@graph": [
       {
         "@type": "WebApplication",
-        "name": "Validador Oficial de CPF & Região Fiscal",
+        "name": "Validador de CPF & Região Fiscal",
         "url": "https://cidadaoagora.com.br/servicos/validador-cpf",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
-        "description": "Validação matemática de números de CPF baseada no algoritmo oficial de Módulo 11 da Receita Federal do Brasil."
+        "description": "Validação matemática dos dígitos verificadores do CPF baseada na fórmula de Módulo 11."
       },
       {
         "@type": "FAQPage",
@@ -104,15 +104,16 @@
     <section class="ds-card p-6 sm:p-8 space-y-6">
       <div>
         <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-blue-50 text-[#1E40AF] border border-blue-200 mb-2">
-          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
-          <span>Algoritmo Matemático Oficial Módulo 11</span>
+          <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+          <span>Cálculo Algorítmico Módulo 11</span>
         </div>
-        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Validador de CPF & Região Fiscal de Emissão</h1>
+        <h1 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">Validador de CPF & Região Fiscal</h1>
         <p class="text-xs sm:text-sm text-[#526078] mt-1.5 leading-relaxed">
-          Verifique se os dígitos verificadores do CPF são matematicamente válidos e identifique os estados federativos correspondentes à região fiscal de registro.
+          Verifique a consistência matemática dos dois dígitos verificadores do CPF e identifique a região fiscal de registro com base no 9º dígito.
         </p>
       </div>
 
+      <!-- FORMULÁRIO COM AVISO CLARO DE LIMITES -->
       <form id="form-cpf" onsubmit="validarCPF(event)" class="space-y-4" novalidate>
         <div>
           <label for="input-cpf" class="ds-label text-xs uppercase tracking-wider text-slate-700 font-bold mb-1.5">
@@ -138,6 +139,12 @@
               <i data-lucide="check-circle" class="w-4 h-4"></i>
               <span>Validar CPF</span>
             </button>
+          </div>
+
+          <!-- AVISO OBRIGATÓRIO DE LIMITES DO RESULTADO -->
+          <div class="mt-2.5 flex items-start gap-2 p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-600">
+            <i data-lucide="info" class="w-4 h-4 text-blue-600 shrink-0 mt-0.5"></i>
+            <span><strong>Aviso importante:</strong> Confere apenas os dígitos verificadores. Não consulta nome, situação cadastral, dívidas ou benefícios.</span>
           </div>
         </div>
       </form>
@@ -222,7 +229,7 @@
       <section class="space-y-3">
         <h3 class="text-base sm:text-lg font-bold text-[#0F1B35] flex items-center gap-2">
           <i data-lucide="calculator" class="w-4 h-4 text-emerald-600"></i>
-          <span>2. Como Funciona o Algoritmo Matemático Oficial (Módulo 11)?</span>
+          <span>2. Como funciona a regra matemática dos dígitos verificadores (Módulo 11)</span>
         </h3>
         <p>
           Um número de CPF não é uma sequência aleatória. Ele é composto por exatamente 11 algarismos na estrutura <code>ABC.DEF.GHI-JK</code>, divididos em três grupos funcionais:
@@ -323,7 +330,7 @@
           <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
             <strong class="text-slate-900 block font-bold text-sm">O validador armazena o CPF digitado?</strong>
             <p class="text-[#526078]">
-              Não. O Cidadão Agora utiliza tecnologia 100% client-side (no seu navegador). O cálculo matemático ocorre na memória do seu dispositivo e nenhuma informação é enviada para servidores ou gravada em bancos de dados.
+              Não. O processamento é realizado localmente no seu próprio navegador (client-side). O cálculo matemático ocorre na memória do seu dispositivo e o número digitado não é enviado a nossos servidores nem armazenado em bancos de dados.
             </p>
           </div>
 

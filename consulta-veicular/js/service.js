@@ -354,37 +354,37 @@ const ConsultaVeicularService = (function() {
       proprietarios: Math.max(1, Math.min(3, Math.floor(anosDeUso / 2) + 1)),
       quilometragem: {
         media: `${kmEstimado.toLocaleString('pt-BR')} km`,
-        evolucao: "Consistente com ano/modelo (Auditoria realizada em vistorias oficiais)"
+        evolucao: "Estimativa estatística com base no ano de fabricação (~12.500 km/ano)"
       },
       leilao: {
         consta: false,
-        tipo: "Nada consta",
-        detalhe: "Nenhuma passagem por leilão público, financeiro, judicial ou de seguradora encontrada."
+        tipo: "Demonstração",
+        detalhe: "Dados ilustrativos de demonstração. Relatórios comerciais com busca em leilões exigem birô conveniado."
       },
       sinistro: {
         consta: false,
-        tipo: "Nada consta",
-        detalhe: "Sem registro de perda total (PT), indenização integral ou danos estruturais."
+        tipo: "Demonstração",
+        detalhe: "Dados ilustrativos de demonstração. Não substitui vistoria cautelar presencial."
       },
       debitos: {
         total: 0,
         multas: 0,
         ipvaPendente: false,
-        detalhe: "Veículo 100% regularizado perante o DETRAN, sem multas em aberto ou dívida ativa de IPVA."
+        detalhe: "Consulte débitos, IPVA e multas em aberto diretamente no portal do DETRAN da UF de registro."
       },
       restricoes: {
         consta: false,
         judiciais: false,
         administrativas: false,
-        detalhe: "Sem bloqueio Renajud, roubo/furto ou restrições administrativas ativas."
+        detalhe: "Exemplo ilustrativo de formato. Bloqueios Renajud dependem de checagem em base judicial."
       },
       gravame: {
         consta: false,
-        detalhe: "Sem alienação fiduciária ativa no Sistema Nacional de Gravames (SNG). Veículo quitado."
+        detalhe: "Consulte a situação de gravame e alienação fiduciária junto ao órgão de trânsito estadual."
       },
       recall: {
         pendente: false,
-        detalhe: "Todas as campanhas de recall preventivo atendidas pela montadora."
+        detalhe: "Verifique pendências de recall no portal do fabricante ou no aplicativo Carteira Digital de Trânsito."
       },
       codigoLaudo: laudoId,
       dataConsulta: new Date().toLocaleDateString('pt-BR'),
