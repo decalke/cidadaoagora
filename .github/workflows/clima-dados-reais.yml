@@ -1,0 +1,36 @@
+name: Atualizar fontes oficiais do clima
+on:
+  schedule:
+    - cron: '15,45 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-clima-oficial
+  cancel-in-progress: false
+jobs:
+  clima:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Consultar fontes oficiais sem substituir dados em caso de falha
+        continue-on-error: true
+        run: python scripts/atualizar_clima.py
+      - name: Publicar cópias atualizadas
+        run: |
+          git config user.name "Clima Cidadão Agora [GitHub Action]"
+          git config user.email "bot-clima@cidadaoagora.com"
+          git add clima/data/
+          if git diff --cached --quiet; then
+            echo "Nenhum dado novo disponível."
+            exit 0
+          fi
+          git commit -m "chore(clima): atualizar fontes oficiais INMET e NOAA"
+          git pull --rebase origin main
+          git push origin main
