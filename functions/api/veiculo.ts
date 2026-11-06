@@ -301,9 +301,9 @@ export async function onRequestPost(context: { request: Request; env: Env }): Pr
     if (veiculoSanitizado.chassi && typeof veiculoSanitizado.chassi === 'string') {
       const c = veiculoSanitizado.chassi.trim();
       if (c.length >= 9) {
-        veiculoSanitizado.chassi = ${c.slice(0, 3)}***;
+        veiculoSanitizado.chassi = `${c.slice(0, 3)}***`;
       } else if (c.length > 4) {
-        veiculoSanitizado.chassi = ***;
+        veiculoSanitizado.chassi = "***";
       }
     }
 
