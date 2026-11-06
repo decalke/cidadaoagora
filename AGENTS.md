@@ -50,3 +50,15 @@ Você tem acesso ao Cloudflare Pages via CLI para acompanhar o ciclo de vida dos
 - Google Analytics: `G-C8ZSTXP9WQ`
 - Todas as ferramentas do portal devem rodar no cliente (JavaScript puro e jsPDF), preservando a privacidade (LGPD) e custo zero de infraestrutura.
 - Não insira senhas ou chaves em arquivos de texto.
+
+## Reconstrução v4 — novembro de 2026
+- Home nova: `index.html`; identidade compartilhada: `assets/v4/v4.css` e `v4-shell.js`.
+- Catálogo: `assets/v4/services.json` (27 ferramentas). Formulários anteriores mantêm rotas, IDs e cálculos no cliente.
+- Três ferramentas novas: planejador financeiro, lista de compras e comparador por unidade.
+- Consentimento v4: métricas e AdSense carregam somente após escolha de opcionais; preservar anúncios afastados das ações.
+- Clima: `clima/` e `scripts/atualizar_clima.py`; dados INMET/IBGE/NOAA, sem inventar observações. Dados antigos devem ficar explicitamente indisponíveis.
+- Editorial: `.github/workflows/editorial-v4.yml`, `editor_ia.py`, `scripts/editorial_pipeline.py` e `editorial_templates.py`. Gemini gera síntese estruturada e faz segunda checagem factual automática; falhas adiam publicação. Não existe garantia de revisão humana.
+- Sem autorização comercial para fotos EBC: usar somente imagens próprias/liberadas. Ilustrações de IA devem informar que não retratam o fato. Não restaurar cópias integrais do acervo antigo.
+- Robôs antigos de cópia foram desativados. A nova rotina editorial roda de hora em hora na branch padrão; o clima mantém rotina própria.
+- Autenticação deve ser verificada sem exibir chaves. Não presumir que OAuth Wrangler ou credenciais continuam válidos.
+- Antes de publicar: verificar alterações, testes adequados e backup. Commit, pull --rebase origin main, push origin main. Não apagar histórico nem executar force push.

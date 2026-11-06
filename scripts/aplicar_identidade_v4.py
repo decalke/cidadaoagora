@@ -15,7 +15,7 @@ def process(path):
         text=text.replace('</head>',LOADER+'</head>')
     # As tecnologias opcionais são inicializadas pela escolha de privacidade do novo shell.
     text=re.sub(r'<script\b[^>]+src=["\'][^"\']*(?:googletagmanager|pagead2\.googlesyndication)[^"\']*["\'][^>]*>\s*</script>','',text,flags=re.I)
-    text=re.sub(r'<script(?:\s[^>]*)?>\s*(?:(?!</script>).)*?gtag\([\s\S]*?</script>','',text,flags=re.I)
+    text=re.sub(r'<script\b[^>]*>(?:(?!</script>)[\s\S])*?gtag\((?:(?!</script>)[\s\S])*?</script>','',text,flags=re.I)
     if any(part in path.parts for part in ['noticias','politica','atualidades']):
         text=re.sub(r'(<img\b[^>]*\bsrc=["\'])https?://[^"\']*(?:ebc\.com\.br|agenciabrasil|flickr)[^"\']*(["\'])',lambda m:m[1]+IMAGE+m[2],text,flags=re.I)
         text=re.sub(r'(<meta\b[^>]*(?:og:image|twitter:image)[^>]*content=["\'])https?://[^"\']*(["\'])',lambda m:m[1]+'https://cidadaoagora.com.br'+IMAGE+m[2],text,flags=re.I)
