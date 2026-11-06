@@ -4,6 +4,7 @@ import json
 import os
 import re
 import urllib.request
+import urllib.error
 from pathlib import Path
 
 MODELOS_PREFERENCIAIS = ['gemini-2.5-flash', 'gemini-2.5-flash-lite']
@@ -87,6 +88,14 @@ def reescrever_com_ia(titulo_original, conteudo_texto, categoria='Notícias', or
             result['modelo']=model
             print('Editorial: síntese estruturada validada com '+model+'.')
             return result
+        except urllib.error.HTTPError as error:
+            status = ''
+            try:
+                payload = json.loads(error.read().decode('utf-8'))
+                status = payload.get('error',{}).get('status','')
+            except Exception:
+                pass
+            print('Editorial: modelo '+model+' retornou HTTP '+str(error.code)+' '+status+'. Nenhuma chave foi registrada.')
         except Exception as error:
             # Não imprimir URL/credenciais/corpo da resposta de erro.
             print('Editorial: fonte de IA indisponível ('+type(error).__name__+').')
