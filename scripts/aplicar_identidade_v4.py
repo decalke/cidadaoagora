@@ -1,10 +1,12 @@
 """Aplica a nova estrutura visual preservando formulários, IDs e URLs existentes."""
 import json
 import re
+import sys
 from pathlib import Path
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
 LOADER='<link rel="stylesheet" href="/assets/v4/v4.css?v=4.0"><script defer src="/assets/v4/v4-shell.js?v=4.0"></script>'
 IMAGE='/assets/v4/brasil-cotidiano.webp'
 
@@ -25,6 +27,7 @@ def process(path):
         path.write_text(text,encoding='utf-8')
 
 def editorial_feed():
+    from scripts.editorial_images import image_for
     entries=[]
     for rel in ['noticias/noticias.json','conteudo/politica.json','conteudo/atualidades.json']:
         p=ROOT/rel
@@ -36,7 +39,8 @@ def editorial_feed():
         for item in items:
             if not item.get('editorial_v4'):
                 continue
-            entries.append({'title':item['titulo'],'summary':item.get('resumo',''),'category':item.get('categoria','Notícias'),'url':'/'+folder+'/'+item.get('pagina_local',item['slug']+'.html'),'image':IMAGE,'imageAlt':'Ilustração do cotidiano brasileiro gerada por IA; não retrata o fato noticiado.','source':item.get('link_oficial',''),'date':item.get('coletado_em','')})
+            illustration=image_for(item)
+            entries.append({'title':item['titulo'],'summary':item.get('resumo',''),'category':item.get('categoria','Notícias'),'url':'/'+folder+'/'+item.get('pagina_local',item['slug']+'.html'),'image':illustration['src'],'imageAlt':illustration['alt'],'source':item.get('link_oficial',''),'date':item.get('coletado_em','')})
     (ROOT/'assets/v4/editorial.json').write_text(json.dumps({'items':entries},ensure_ascii=False),encoding='utf-8')
 
 if __name__=='__main__':

@@ -14,6 +14,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from editor_ia import obter_chave_api,reescrever_com_ia,formatar_bloco_destaques
 from scripts.editorial_templates import write
+from scripts.editorial_images import image_for
 FEEDS=[('noticias','Economia & cotidiano','https://agenciabrasil.ebc.com.br/rss/economia/feed.xml'),('politica','Política & direitos','https://agenciabrasil.ebc.com.br/rss/politica/feed.xml'),('noticias','Brasil & cidadania','https://agenciabrasil.ebc.com.br/rss/geral/feed.xml'),('politica','Justiça & direitos','https://agenciabrasil.ebc.com.br/rss/justica/feed.xml')]
 PATHS={'noticias':'noticias/noticias.json','politica':'conteudo/politica.json','atualidades':'conteudo/atualidades.json'}
 def get(url):
@@ -74,6 +75,7 @@ def main(limit):
             old=links.get(link,{})
             slug=old.get('slug') or re.sub(r'[^a-z0-9]+','-',__import__('unicodedata').normalize('NFKD',result['titulo']).encode('ascii','ignore').decode().lower()).strip('-')[:65]+'-'+hashlib.sha1(link.encode()).hexdigest()[:8]
             item={'titulo':result['titulo'],'resumo':result['resumo'],'corpo_html':result['corpo_html'],'destaques_html':formatar_bloco_destaques(result['destaques']),'slug':slug,'pagina_local':slug+'.html','link_oficial':link,'categoria':category,'fonte':'Agência Brasil / EBC','imagem':'/assets/v4/brasil-cotidiano.webp','coletado_em':datetime.now(timezone.utc).isoformat(),'reescrito_ia':True,'editorial_v4':True,'modelo':result['modelo'],'checagem_automatica':result.get('checagem_automatica',False)}
+            item['imagem']=image_for(item)['src']
             write(item,folder)
             bases[folder]['noticias']=[item]+[x for x in bases[folder].get('noticias',[]) if x.get('link_oficial')!=link]
             bases[folder]['noticias']=bases[folder]['noticias'][:80]
