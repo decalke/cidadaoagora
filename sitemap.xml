@@ -252,4 +252,40 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/noticias/brasil-mantem-a-lideranca-no-ranking-global-de-juros-reais-d56c6e19.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/noticias/minha-casa-minha-vida-rural-governo-autoriza-novas-moradias-para-o-cam.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/noticias/receita-federal-intercepta-conteiner-com-r-9-46-milhoes-em-artigos-esp.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/politica/ex-funcionarios-da-oi-comecam-a-receber-verbas-indenizatorias-5050adf7.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/politica/governo-sanciona-lei-que-cria-o-exame-nacional-de-avaliacao-da-fo-d1956c33.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cidadaoagora.com.br/politica/silencio-do-senado-e-acoes-judiciais-marcam-situacao-de-senador-n-93f00fb9.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

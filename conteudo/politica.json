@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "06/11/2026 às 17:27:16",
-  "total": 30,
+  "ultima_atualizacao": "2026-11-06T22:33:35.629592+00:00",
+  "total": 3,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -481,6 +481,56 @@
       "fonte": "EBC / Direitos & Cidadania (Canais Oficiais)",
       "coletado_em": "03/11/2026 às 06:12",
       "reescrito_ia": true
+    }
+  ],
+  "noticias": [
+    {
+      "titulo": "Silêncio do Senado e ações judiciais marcam situação de senador no exterior",
+      "resumo": "O Senado Federal ainda não esclareceu a situação regimental e funcional do senador Flávio Bolsonaro após sua viagem ao exterior. A ausência de posicionamento oficial ocorre enquanto parlamentares e advogados questionam a participação remota e o pagamento de verbas públicas ao parlamentar.",
+      "corpo_html": "<h2>Indefinição no Senado</h2><p>Há dez dias, o Senado Federal não responde a questionamentos sobre a situação regimental e funcional do senador Flávio Bolsonaro, que deixou o Brasil. A indefinição impede debates sobre eventuais sanções, restrições à participação remota, registro de faltas e a suspensão de pagamentos de salários e verbas de gabinete. A assessoria do parlamentar também não respondeu aos questionamentos enviados.</p><h2>Questionamentos no plenário</h2><p>Durante sessão plenária, o senador Randolfe Rodrigues pediu à Presidência do Senado que esclareça se houve comunicação oficial sobre a viagem ao exterior e defendeu a anulação do voto do parlamentar em uma proposta recente. O presidente do Senado, Davi Alcolumbre, afirmou que vai analisar os pontos apresentados com a assessoria da Casa, com base nos regimentos internos.</p><h2>Ação judicial e regras de ausência</h2><p>Dois advogados ingressaram com uma ação popular na 6ª Vara Federal do Rio de Janeiro solicitando a interrupção dos pagamentos de subsídios e verbas públicas ao senador. Especialistas apontam que as normas exigem pedido prévio de licença à Mesa Diretora para ausências, procedimento que não teria ocorrido.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Senado Federal mantém silêncio por dez dias sobre a situação regimental do parlamentar.</li><li>Senador Randolfe Rodrigues pediu esclarecimentos à Mesa Diretora sobre a viagem e a validade de votos à distância.</li><li>Ação popular protocolada na Justiça Federal pede a suspensão do pagamento de subsídios e verbas de gabinete.</li></ul></aside>",
+      "slug": "silencio-do-senado-e-acoes-judiciais-marcam-situacao-de-senador-n-93f00fb9",
+      "pagina_local": "silencio-do-senado-e-acoes-judiciais-marcam-situacao-de-senador-n-93f00fb9.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/sem-posicao-do-senado-regras-sobre-flavio-seguem-indefinidas",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:33:25.337257+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite"
+    },
+    {
+      "titulo": "Ex-funcionarios da Oi comecam a receber verbas indenizatorias",
+      "resumo": "Ex-trabalhadores da operadora de telefonia Oi passaram a receber valores rescisorios de natureza indenizatoria nesta sexta-feira. A acao integra o processo de recuperacao e falencia da companhia conduzido pela Justica.",
+      "corpo_html": "<h2>Inicio dos repasses</h2><p>Os antigos colaboradores da empresa de telefonia Oi iniciaram o recebimento de verbas rescisorias de natureza indenizatoria nesta sexta-feira. Nesta primeira fase, a distribuicao ocorre atraves de rateio proporcional entre os profissionais desligados que sao classificados como credores extraconcursais.</p><h2>Criterios e valores</h2><p>Os pagamentos possuem o limite de R$ 15 mil por pessoa, observando o montante dos creditos e o saldo de recursos disponiveis em caixa. A liberacao foi estabelecida pela juiza titular da 7ª Vara Empresarial da Capital, Simone Gastesi Chevrand, com aprovacao dos administradores judiciais Bruno Rezende e Adriano Pinto Machado.</p><h2>Contexto da empresa</h2><p>A Justica tem direcionado prioridade para a quitacao de direitos trabalhistas utilizando recursos da massa falida. A falencia foi decretada pela 1ª Camara de Direito Privado do Tribunal de Justica do Rio, apos tramites judiciais envolvendo dividas multibilionarias e credores da companhia de telecomunicacoes.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pagamentos comecaram em 6 de dezembro.</li><li>Limite inicial e de R$ 15 mil por pessoa.</li><li>Total destinado ate o momento e de R$ 7,8 milhoes.</li></ul></aside>",
+      "slug": "ex-funcionarios-da-oi-comecam-a-receber-verbas-indenizatorias-5050adf7",
+      "pagina_local": "ex-funcionarios-da-oi-comecam-a-receber-verbas-indenizatorias-5050adf7.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ex-funcionarios-e-colaboradores-da-oi-comecam-receber-indenizacoes",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:33:13.458337+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite"
+    },
+    {
+      "titulo": "Governo sanciona lei que cria o Exame Nacional de Avaliação da Formação Médica",
+      "resumo": "O presidente Luiz Inácio Lula da Silva sancionou a lei que institui o Exame Nacional de Avaliação da Formação Médica, de caráter obrigatório para avaliar os estudantes e a qualidade dos cursos. A medida se aplica aos alunos que ingressarem nas graduações de medicina a partir de 19 de junho de 2026.",
+      "corpo_html": "<h2>Aplicação e Regras</h2><p>A nova legislação estabelece que o exame será realizado em três etapas ao longo da graduação, abrangendo o segundo, o quarto e o sexto ano do curso. A exigência é direcionada aos estudantes que ingressaram nas graduações de medicina a partir de 19 de junho de 2026, data de publicação da medida provisória que originou a regra. Estudantes já matriculados anteriormente e profissionais com diploma reconhecido continuam sob as normas anteriores.</p><h2>Objetivos e Supervisão</h2><p>A avaliação tem a finalidade de identificar dificuldades de aprendizagem, medir o desempenho dos alunos, acompanhar a qualidade dos cursos de medicina e subsidiar políticas públicas para o setor. A aplicação ocorrerá por meio de parceria entre o Ministério da Educação, o Ministério da Saúde e o Conselho Federal de Medicina. A lei prevê supervisão para instituições que apresentem resultados insatisfatórios, podendo haver corte de vagas e suspensão de vestibulares.</p><h2>Declarações Oficiais</h2><p>Autoridades presentes na cerimônia destacaram que a iniciativa visa assegurar uma prestação de serviços de saúde mais qualificada para a população e fortalecer o Sistema Único de Saúde. Representantes da área médica e ministerial apontaram que o monitoramento do progresso na formação acadêmica ajudará a regular o funcionamento das instituições de ensino e a garantir profissionais preparados para o atendimento.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O Enamed será aplicado em três momentos da graduação: no segundo, no quarto e no sexto ano.</li><li>A aprovação no exame passa a ser condição para o exercício da medicina para os novos ingressantes.</li><li>Instituições com resultados insatisfatórios poderão sofrer redução de vagas e suspensão de vestibulares.</li></ul></aside>",
+      "slug": "governo-sanciona-lei-que-cria-o-exame-nacional-de-avaliacao-da-fo-d1956c33",
+      "pagina_local": "governo-sanciona-lei-que-cria-o-exame-nacional-de-avaliacao-da-fo-d1956c33.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-exame-que-ira-avaliar-qualidade-de-alunos-de-medicina",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:33:03.656895+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite"
     }
   ]
 }
