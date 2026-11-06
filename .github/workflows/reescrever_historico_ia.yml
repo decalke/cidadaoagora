@@ -1,52 +1,8 @@
-name: Reescrever Historico com IA Gemini
-
+name: Fluxo anterior — substituído pelo Editorial v4
 on:
   workflow_dispatch:
-    inputs:
-      limite:
-        description: 'Limite de matérias a reescrever nesta rodada (deixe 0 para todas as 570)'
-        required: false
-        default: '0'
-
 jobs:
-  reescrever-historico:
+  orientacao:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
-
-    permissions:
-      contents: write
-
-    env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
     steps:
-      - name: Baixar o código do repositório
-        uses: actions/checkout@v4
-
-      - name: Configurar o Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Instalar bibliotecas necessárias
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests urllib3 beautifulsoup4
-
-      - name: Executar Reescrita Editorial com IA
-        run: |
-          python reescrever_historico.py --limite ${{ inputs.limite || 0 }}
-
-      - name: Salvar e Publicar alterações restantes no site
-        run: |
-          git config --global user.name "Robô Editorial Cidadão Agora [IA]"
-          git config --global user.email "bot-editorial@cidadaoagora.com"
-          git add -A
-          if git diff --staged --quiet; then
-            echo "Nenhuma alteração pendente."
-          else
-            git commit -m "chore(ia): conclusão da reescrita editorial do histórico [skip ci]"
-            git pull --rebase origin main
-          git push origin HEAD:main
-            echo "Todas as matérias atualizadas foram publicadas!"
-          fi
+      - run: echo "Utilize Editorial com IA e testes v4. O fluxo anterior foi desativado para não publicar cópias como fallback."

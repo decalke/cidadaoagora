@@ -29,11 +29,11 @@
   <script src="../js/lucide.min.js"></script>
 
   <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+
   <script defer src="../js/ads-safe.js"></script>
 
   <!-- Google Analytics 4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -59,13 +59,13 @@
       box-shadow: 0 10px 25px -5px rgba(15, 27, 53, 0.12), 0 8px 10px -6px rgba(15, 27, 53, 0.08);
     }
   </style>
-</head>
+<link rel="stylesheet" href="/assets/v4/v4.css?v=4.0"><script defer src="/assets/v4/v4-shell.js?v=4.0"></script></head>
 <body class="bg-[#F8FAFC] text-[#0F1B35] font-sans antialiased min-h-screen flex flex-col selection:bg-blue-100 selection:text-blue-900">
 
   <!-- CABEÇALHO MODERNO -->
   <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#D9E1EC] transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-      
+
       <!-- LOGO -->
       <a href="../index.html" class="flex items-center gap-2.5 group">
         <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black text-lg shadow-sm group-hover:scale-105 transition-transform">
@@ -102,18 +102,18 @@
 
   <!-- HERO SECTION PRINCIPAL (INSPIRADO NAS REFERÊNCIAS VISUAIS MODERNAS) -->
   <section class="relative overflow-hidden pt-6 pb-12 sm:pt-12 sm:pb-20 bg-gradient-to-b from-[#F0F5FF] via-white to-[#F8FAFC]">
-    
+
     <!-- Elementos Decorativos de Fundo -->
     <div class="absolute -top-32 -left-32 w-96 h-96 bg-blue-200/40 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute top-1/2 -right-32 w-96 h-96 bg-amber-200/30 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
-      
+
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-        
+
         <!-- COLUNA ESQUERDA: CHAMADA & FERRAMENTA DE BUSCA -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          
+
           <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold">
             <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
             <span>Base SENATRAN, DETRAN & FIPE 2026 Sincronizadas</span>
@@ -130,7 +130,7 @@
 
           <!-- CARD DA FERRAMENTA DE CONSULTA PELA PLACA (DESIGN INSPIRADO NA IMAGEM 1 E 2) -->
           <div id="placa-box" class="bg-white rounded-3xl p-5 sm:p-7 border border-[#D9E1EC] placa-shadow max-w-lg mx-auto lg:mx-0 space-y-5">
-            
+
             <div class="flex items-center justify-between">
               <span class="text-xs font-black uppercase tracking-wider text-[#0F1B35] flex items-center gap-1.5">
                 <i data-lucide="car" class="w-4 h-4 text-blue-600"></i>
@@ -144,10 +144,10 @@
 
             <!-- MOCKUP OFICIAL INTERATIVO DA PLACA MERCOSUL -->
             <form onsubmit="executarConsultaHistorico(event)" class="space-y-4">
-              
+
               <div class="relative max-w-xs sm:max-w-sm mx-auto">
                 <div class="w-full bg-white border-[3px] border-slate-900 rounded-2xl shadow-md overflow-hidden text-center transition-all focus-within:ring-4 focus-within:ring-blue-500/20 focus-within:border-blue-600">
-                  
+
                   <!-- Tarja Azul Mercosul -->
                   <div class="bg-[#003399] text-white px-3 py-1.5 flex items-center justify-between font-sans select-none">
                     <div class="flex items-center gap-1.5">
@@ -238,12 +238,12 @@
 
         <!-- COLUNA DIREITA: IMAGEM DO CARRO MODERNO + CARD FLUTUANTE DE HISTÓRICO (INSPIRADO NA IMAGEM 1) -->
         <div class="lg:col-span-5 relative flex items-center justify-center">
-          
+
           <div class="relative w-full max-w-lg">
-            
+
             <!-- CARD FLUTUANTE DE HISTÓRICO COMPLETO (GLASSMORPHISM IDÊNTICO À IMAGEM 1) -->
             <div class="glass-card rounded-3xl p-5 shadow-xl mb-4 sm:mb-6 border border-white/80 space-y-3.5 relative z-20">
-              
+
               <div class="flex items-center justify-between border-b border-slate-100 pb-3">
                 <div class="flex items-center gap-2">
                   <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center">
@@ -263,7 +263,7 @@
 
               <!-- GRID DE STATUS EM MINI CARDS (CÓPIA FIEL DA IMAGEM 1) -->
               <div class="grid grid-cols-2 gap-2 text-xs">
-                
+
                 <div class="bg-slate-50/90 p-2.5 rounded-xl border border-slate-200/60">
                   <span class="text-[10px] text-slate-500 font-medium block">Situação do veículo</span>
                   <div class="flex items-center gap-1.5 mt-0.5">
@@ -331,7 +331,7 @@
 
       <!-- 3 BENEFÍCIOS RÁPIDOS EM CARDS PILL (INSPIRADO NA PARTE INFERIOR DA IMAGEM 1) -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 sm:pt-14">
-        
+
         <div class="bg-white p-4 sm:p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs flex items-center gap-4">
           <div class="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
             <i data-lucide="file-check-2" class="w-6 h-6"></i>
@@ -369,10 +369,10 @@
 
   <!-- ÁREA DE RESULTADO DA CONSULTA (CHAMARIZ GRATUITO + UPSELL INTELIGENTE) -->
   <section id="area-resultado" class="hidden max-w-7xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 space-y-8" aria-live="polite">
-    
+
     <!-- CARD 1: IDENTIFICAÇÃO GRATUITA DO VEÍCULO (O CHAMARIZ) -->
     <div class="ds-card p-6 sm:p-8 bg-white border border-[#D9E1EC] shadow-md space-y-6">
-      
+
       <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-100 gap-3">
         <div>
           <span class="text-xs font-black uppercase tracking-wider text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 inline-flex items-center gap-1.5">
@@ -392,10 +392,10 @@
 
       <!-- DADOS PRINCIPAIS DO VEÍCULO + FOTO REAL DO MODELO -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-        
+
         <!-- Detalhes do Veículo -->
         <div class="lg:col-span-7 space-y-4">
-          
+
           <div class="flex items-center gap-4">
             <div id="res-logo-box" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center p-3 shrink-0 shadow-2xs">
               <div id="res-logo-svg" class="w-full h-full flex items-center justify-center font-bold text-xs text-slate-600"></div>
@@ -472,7 +472,7 @@
 
     <!-- CARD 2: O UPSELL DO RELATÓRIO COMPLETO (LAUDO COM DADOS BLOQUEADOS 🔒) -->
     <div class="bg-gradient-to-br from-slate-900 via-[#0F1B35] to-blue-950 rounded-3xl p-6 sm:p-10 text-white shadow-xl space-y-6 relative overflow-hidden">
-      
+
       <!-- Efeito de Luz -->
       <div class="absolute top-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -498,7 +498,7 @@
 
       <!-- PRÉVIA DOS DADOS BLOQUEADOS (EFEITO BLUR COM CADEADOS) -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 text-xs relative z-10">
-        
+
         <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md space-y-2">
           <div class="flex items-center justify-between">
             <span class="text-slate-300 font-medium">Passagem por Leilão</span>
@@ -557,13 +557,13 @@
          data-ad-slot="2396617448"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
-    
+
   </div>
 
   <!-- SEÇÃO DE PLANOS E PREÇOS (R$ 9,90 | R$ 14,90 | R$ 19,90) -->
   <section id="planos" class="py-12 sm:py-16 bg-white border-t border-b border-[#D9E1EC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
-      
+
       <div class="text-center max-w-2xl mx-auto space-y-2">
         <span class="ds-badge ds-badge-brand">Escolha seu Laudo</span>
         <h2 class="text-2xl sm:text-4xl font-black text-[#0F1B35]">
@@ -576,7 +576,7 @@
 
       <!-- GRID COM OS 3 PLANOS -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 items-stretch">
-        
+
         <!-- PLANO 1: BÁSICO (R$ 9,90) -->
         <div class="bg-white rounded-3xl p-6 sm:p-7 border border-[#D9E1EC] shadow-xs flex flex-col justify-between hover:border-blue-300 transition-all">
           <div class="space-y-4">
@@ -636,7 +636,7 @@
 
         <!-- PLANO 2: COMPLETO (R$ 14,90) - O MAIS POPULAR / DESTAQUE -->
         <div class="bg-white rounded-3xl p-6 sm:p-7 border-2 border-blue-600 shadow-xl flex flex-col justify-between relative transform md:-translate-y-2">
-          
+
           <div class="absolute -top-3.5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-[11px] font-black uppercase tracking-wider px-3.5 py-1 rounded-full shadow-sm">
             🔥 Mais Escolhido
           </div>
@@ -785,7 +785,7 @@
   <!-- SEÇÃO: O QUE CONSULTAMOS (INSPIRADO NA IMAGEM 2) -->
   <section id="o-que-consultamos" class="py-12 sm:py-16 bg-[#F8FAFC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
-      
+
       <div class="max-w-2xl mx-auto text-center space-y-2">
         <span class="ds-badge ds-badge-accent">Transparência Total</span>
         <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
@@ -797,7 +797,7 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        
+
         <div class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs space-y-3">
           <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold">
             <i data-lucide="gavel" class="w-5 h-5"></i>
@@ -846,7 +846,7 @@
   <!-- SEÇÃO: COMO FUNCIONA EM 3 PASSOS -->
   <section id="como-funciona" class="py-12 sm:py-16 bg-white border-t border-[#D9E1EC]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 space-y-10">
-      
+
       <div class="text-center max-w-2xl mx-auto space-y-2">
         <span class="ds-badge ds-badge-brand">Passo a Passo</span>
         <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
@@ -858,7 +858,7 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
-        
+
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 text-center space-y-3">
           <div class="w-12 h-12 rounded-full bg-blue-600 text-white font-black text-lg flex items-center justify-center mx-auto shadow-sm">
             1
@@ -897,7 +897,7 @@
   <!-- SEÇÃO FAQ (DÚVIDAS FREQUENTES) -->
   <section id="duvidas" class="py-12 sm:py-16 bg-[#F8FAFC] border-t border-[#D9E1EC]">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 space-y-8">
-      
+
       <div class="text-center space-y-2">
         <span class="ds-badge ds-badge-accent">Perguntas Frequentes</span>
         <h2 class="text-2xl sm:text-3xl font-black text-[#0F1B35]">
@@ -906,7 +906,7 @@
       </div>
 
       <div class="space-y-3 text-xs sm:text-sm">
-        
+
         <details class="bg-white p-5 rounded-2xl border border-[#D9E1EC] shadow-2xs group cursor-pointer">
           <summary class="font-bold text-[#0F1B35] flex items-center justify-between list-none">
             <span>Preciso saber o RENAVAM ou CPF para consultar?</span>
@@ -955,7 +955,7 @@
   <!-- MODAL INTERATIVO DE CHECKOUT PIX E CARTÃO -->
   <div id="modal-checkout" class="fixed inset-0 z-50 bg-slate-900/70 backdrop-blur-xs hidden items-center justify-center p-4">
     <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 space-y-5 shadow-2xl border border-slate-200 relative animate-in fade-in zoom-in-95 duration-200">
-      
+
       <!-- Botão Fechar -->
       <button type="button" onclick="fecharCheckout()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 p-1 rounded-full touch-target">
         <i data-lucide="x" class="w-5 h-5"></i>
@@ -998,7 +998,7 @@
 
       <!-- ÁREA PIX -->
       <div id="checkout-area-pix" class="space-y-4">
-        
+
         <div class="bg-emerald-50/70 p-3.5 rounded-2xl border border-emerald-200 text-center space-y-2">
           <div class="w-36 h-36 bg-white p-2 rounded-xl mx-auto border border-emerald-200 shadow-xs flex items-center justify-center">
             <!-- QR CODE PIX REALISTA EM SVG -->
@@ -1006,11 +1006,11 @@
               <rect width="28" height="28" x="6" y="6"/>
               <rect width="20" height="20" x="10" y="10" fill="#fff"/>
               <rect width="12" height="12" x="14" y="14"/>
-              
+
               <rect width="28" height="28" x="66" y="6"/>
               <rect width="20" height="20" x="70" y="10" fill="#fff"/>
               <rect width="12" height="12" x="74" y="14"/>
-              
+
               <rect width="28" height="28" x="6" y="66"/>
               <rect width="20" height="20" x="10" y="70" fill="#fff"/>
               <rect width="12" height="12" x="14" y="74"/>
@@ -1285,7 +1285,7 @@
 
     async function executarConsultaHistorico(e) {
       if (e && e.preventDefault) e.preventDefault();
-      
+
       const erroDiv = document.getElementById('historico-erro');
       erroDiv.classList.add('hidden');
 
@@ -1485,7 +1485,7 @@
 
       document.getElementById('modal-plano-nome').innerText = planoNome;
       document.getElementById('modal-plano-preco').innerText = preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-      
+
       const v = veiculoAtualConsultado;
       const descVeiculo = v ? `${v.placa} • ${v.marca} ${v.modelo}` : "Veículo informado na consulta";
       document.getElementById('modal-resumo-veiculo').innerText = descVeiculo;

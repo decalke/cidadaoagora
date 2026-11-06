@@ -36,7 +36,7 @@
     $('count-atencao').textContent=fresh()?states.filter(s=>stateRisk(s)===1).length+' / 27':'—';
     $('data-status').textContent=snapshot?'INMET consultado em '+date(snapshot.collectedAt)+(fresh()?' · atualização periódica':' · cópia desatualizada; classificação indisponível'):'Avisos INMET indisponíveis. Consulte a fonte oficial.';
   }
-  function alertBlock(a){const box=el('article',undefined,'official-alert');box.append(el('strong',a.event+' · '+({Moderate:'Perigo potencial',Severe:'Perigo',Extreme:'Grande perigo'}[a.severity]||a.severity)),el('p','Validade: '+date(a.start)+' até '+date(a.end)),el('p',a.description),el('p',a.instruction),sourceLink('Consultar aviso original no INMET →',a.url));return box}
+  function alertBlock(a){const box=el('details',undefined,'official-alert');box.append(el('summary',a.event+' · '+({Moderate:'Perigo potencial',Severe:'Perigo',Extreme:'Grande perigo'}[a.severity]||a.severity)),el('p','Validade: '+date(a.start)+' até '+date(a.end)),el('p',a.description),el('p',a.instruction),sourceLink('Consultar aviso original no INMET →',a.url));return box}
   async function openCity(c){
     lastFocus=document.activeElement;const version=++requestVersion,content=$('cidade-detalhes');content.replaceChildren();content.append(el('h2',c.name+' / '+c.uf));content.firstChild.id='cidade-titulo';
     const risk=cityRisk(c);content.append(el('div',marks[risk]+' '+labels[risk],'city-status r'+risk),el('p','População residente: '+fmt(c.pop)+' · IBGE, Censo 2022.'));
@@ -45,7 +45,7 @@
     cityAlerts(c).forEach(a=>content.append(alertBlock(a)));
     const upcoming=(snapshot?.alerts||[]).filter(a=>a.cities.includes(c.id)&&Date.parse(a.start)>Date.now()&&Date.parse(a.end)>Date.now());
     if(fresh()&&upcoming.length){content.append(el('h3','Avisos com início futuro'));upcoming.forEach(a=>content.append(alertBlock(a)))}
-    const forecast=el('section');forecast.append(el('h3','Previsão do INMET'),el('p','Consultando a fonte oficial…'));content.append(forecast);
+    const forecast=el('section');forecast.append(el('h3','Previsão do INMET'),el('p','Consultando a fonte oficial…'));content.append(forecast);content.insertBefore(forecast,content.children[3]||null);
     $('detalhes').showModal();$('fechar').focus();
     try{
       const response=await fetch('https://apiprevmet3.inmet.gov.br/previsao/'+encodeURIComponent(c.id),{signal:AbortSignal.timeout(15000)});if(!response.ok)throw Error('Fonte indisponível');const json=await response.json();
@@ -54,7 +54,7 @@
       const entries=Object.entries(days).filter(([key])=>/^\d{2}\/\d{2}\/\d{4}$/.test(key)).sort(([a],[b])=>a.split('/').reverse().join('-').localeCompare(b.split('/').reverse().join('-')));
       const today=new Date().toLocaleDateString('en-CA',{timeZone:'America/Sao_Paulo'});let count=0;
       for(const [day,value]of entries){const iso=day.split('/').reverse().join('-');if(iso<today)continue;const periods=value.manha||value.tarde||value.noite?Object.entries(value).filter(([key])=>['manha','tarde','noite'].includes(key)):[['dia',value]];
-        const card=el('div',undefined,'forecast-day');card.append(el('h3',day));
+        const card=el('details',undefined,'forecast-day');card.open=count===0;card.append(el('summary',day));
         for(const [period,p]of periods){if(!p||typeof p!=='object')continue;const heading={manha:'Manhã',tarde:'Tarde',noite:'Noite',dia:'Dia'}[period];card.append(el('p',heading+': '+(p.resumo||'Descrição não informada')));const number=n=>n!==null&&n!==''&&n!==undefined&&Number.isFinite(Number(n))?String(n)+' °C':'não informada';card.append(el('p','Mínima: '+number(p.temp_min)+' · Máxima: '+number(p.temp_max)));if(p.int_vento)card.append(el('p','Vento: '+p.int_vento+(p.dir_vento?' · '+p.dir_vento:'')));}
         forecast.append(card);count++;
       }

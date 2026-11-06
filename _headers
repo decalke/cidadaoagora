@@ -64,3 +64,6 @@
 
 /clima/data/*
   Cache-Control: public, max-age=60, must-revalidate
+
+/assets/v4/*
+  Cache-Control: public, max-age=300, must-revalidate

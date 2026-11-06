@@ -1,5 +1,1 @@
-const DADOS_ATUALIDADES = {
-  "ultima_atualizacao": "06/11/2026 às 17:28:32",
-  "total": 0,
-  "atualidades": []
-};
+const DADOS_ATUALIDADES = {"ultima_atualizacao": "06/11/2026 às 17:28:32", "total": 0, "atualidades": []};

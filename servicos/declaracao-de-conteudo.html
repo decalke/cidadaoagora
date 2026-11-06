@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -10,7 +10,7 @@
     gtag('config', 'G-C8ZSTXP9WQ', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
   </script>
   <!-- Google AdSense Oficial -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+
   <script defer src="../js/ads-safe.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -231,7 +231,7 @@
       }
     }
   </style>
-</head>
+<link rel="stylesheet" href="/assets/v4/v4.css?v=4.0"><script defer src="/assets/v4/v4-shell.js?v=4.0"></script></head>
 <body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
 
   <!-- CABEÇALHO PADRONIZADO -->
@@ -308,7 +308,7 @@
         <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-3">
           Passo 1: Selecione o Formato Desejado:
         </label>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <!-- CARD MODELO 1: SIMPLIFICADA ETIQUETA -->
           <label class="modelo-radio cursor-pointer">
@@ -363,7 +363,7 @@
 
     <!-- ÁREA DE TRABALHO: FORMULÁRIO (ESQUERDA) + LIVE PREVIEW (DIREITA) -->
     <div class="declaracao-main-grid">
-      
+
       <!-- COLUNA DO FORMULÁRIO -->
       <div id="painel-controles" class="w-full space-y-6 no-print">
 
@@ -599,7 +599,7 @@
 
       <!-- COLUNA DA PRÉ-VISUALIZAÇÃO AO VIVO (DIREITA) -->
       <div class="w-full space-y-3 coluna-preview-sticky">
-        
+
         <div class="flex items-center justify-between no-print px-1">
           <div class="flex items-center gap-2">
             <i data-lucide="eye" class="w-4 h-4 text-slate-500"></i>
@@ -613,7 +613,7 @@
         <!-- CONTAINER DA FOLHA/ETIQUETA -->
         <div class="doc-preview-wrapper">
           <div id="documento-impresso" class="doc-page doc-simplificado">
-            
+
             <!-- CABEÇALHO DO DOCUMENTO CORREIOS -->
             <div class="text-center border-b border-black pb-1 mb-1.5">
               <div class="text-[11pt] font-black tracking-tight leading-tight uppercase">DECLARAÇÃO DE CONTEÚDO</div>
@@ -622,7 +622,7 @@
 
             <!-- SEÇÃO REMETENTE E DESTINATÁRIO -->
             <div class="correios-box mb-1.5 text-[7pt] leading-tight">
-              
+
               <!-- LINHA REMETENTE -->
               <div class="p-1 border-b border-black bg-slate-50">
                 <span class="font-bold uppercase text-[7.5pt] block">1. REMETENTE:</span>
@@ -748,7 +748,7 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-[#526078] leading-relaxed">
-        
+
         <div class="space-y-2">
           <h3 class="font-bold text-[#0F1B35] flex items-center gap-2 text-base">
             <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600"></i>
@@ -832,7 +832,7 @@
       const hoje = new Date().toISOString().split('T')[0];
       const campoData = document.getElementById('input-data-emissao');
       if (campoData) campoData.value = hoje;
-      
+
       renderizarItens();
       atualizarPreview();
       if (window.lucide) window.lucide.createIcons();
@@ -851,7 +851,7 @@
         labelTamanho.innerText = 'Formato: 10 × 15 cm (Etiqueta)';
         campoObs.classList.add('hidden');
         docSecaoObs.classList.add('hidden');
-        
+
         // Se houver mais de 5 itens ao mudar para simplificado, ajusta
         if (listaItens.length > 5) {
           alert('O modelo Simplificado comporta no máximo 5 itens. Foram mantidos os primeiros 5.');
@@ -958,7 +958,7 @@
       let v = inputElement.value.replace(/\D/g, "");
       let numero = Number(v) / 100;
       inputElement.value = numero.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-      
+
       const item = listaItens.find(i => i.id === id);
       if (item) {
         item.valor = numero;
@@ -1118,7 +1118,7 @@
           if (dados.uf) document.getElementById(`${tipo}-uf`).value = dados.uf;
           statusEl.innerText = 'Endereço encontrado!';
           setTimeout(() => { statusEl.innerText = ''; }, 3000);
-          
+
           if (tipo === 'rem' && !document.getElementById('input-local-emissao').value) {
             document.getElementById('input-local-emissao').value = `${dados.localidade} - ${dados.uf}`;
           }
@@ -1181,7 +1181,7 @@
     function imprimirDeclaracao() {
       // Ajusta classe no body para disparar as regras de impressão adequadas
       document.body.classList.remove('imprimindo-simplificado', 'imprimindo-completo');
-      
+
       // Injeta regra @page dinâmica para garantir o corte exato do papel na impressora
       let styleEl = document.getElementById('print-page-style');
       if (!styleEl) {

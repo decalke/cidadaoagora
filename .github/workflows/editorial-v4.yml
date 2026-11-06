@@ -1,0 +1,64 @@
+name: Editorial com IA e testes v4
+on:
+  push:
+    branches: [reconstrucao-v4]
+    paths:
+      - 'editor_ia.py'
+      - 'scripts/editorial_pipeline.py'
+      - 'testar_editorial_ia.py'
+      - '.github/workflows/editorial-v4.yml'
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: Quantidade máxima de sínteses no lote
+        default: '8'
+      publicar:
+        description: Salvar o resultado na mesma branch
+        type: boolean
+        default: true
+  schedule:
+    - cron: '10 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: editorial-v4-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install beautifulsoup4
+      - name: Testar Gemini real sem publicar matéria de teste
+        run: python testar_editorial_ia.py
+      - name: Preparar sínteses factuais com IA
+        run: python scripts/editorial_pipeline.py --limit "${{ inputs.limite || '6' }}"
+      - name: Aplicar identidade visual e atualizar índice
+        run: |
+          python scripts/aplicar_identidade_v4.py
+          python scripts/gerar_sitemap.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verificacao-editorial-v4
+          path: |
+            editorial-test-report.json
+            editorial-pipeline-report.json
+      - name: Salvar a edição validada
+        if: github.event_name == 'schedule' || github.event_name == 'push' || inputs.publicar
+        run: |
+          git config user.name "Editorial Cidadão Agora [GitHub Action]"
+          git config user.email "bot-editorial@cidadaoagora.com"
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore(editorial): publicar sinteses validadas com IA"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

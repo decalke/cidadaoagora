@@ -1,0 +1,31 @@
+(() => {
+  'use strict';
+  const logo='<a class="v4-logo" href="/" aria-label="Cidadão Agora, início"><span class="v4-logo-mark">c<span>↗</span></span><span>cidadão<b>agora</b><small>Seu dia, mais simples.</small></span></a>';
+  const nav='<a href="/#ferramentas">Ferramentas</a><a href="/clima/">Clima</a><a href="/conteudo/noticias">Notícias</a><a href="/conteudo/politica">Política</a><a href="/guias/">Guias</a>';
+  function initialize(){
+    document.body.classList.add('v4-site');
+    document.querySelectorAll('body>header,body>footer,#menu-mobile').forEach(n=>n.remove());
+    document.querySelectorAll('body>.edition-bar,body>.masthead,body>.demo').forEach(n=>n.remove());
+    const header=document.createElement('header');header.className='v4-header';header.innerHTML='<div class="v4-width">'+logo+'<nav aria-label="Principal">'+nav+'</nav><a class="v4-header-cta" href="/#ferramentas">O que você precisa? <span>↗</span></a><button type="button" id="v4-menu-toggle" aria-expanded="false" aria-controls="v4-mobile-menu" aria-label="Abrir navegação">☰</button></div><nav id="v4-mobile-menu" aria-label="Navegação no celular" hidden>'+nav+'</nav>';document.body.prepend(header);
+    const toggle=document.getElementById('v4-menu-toggle'),menu=document.getElementById('v4-mobile-menu');toggle.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Abrir navegação':'Fechar navegação');menu.hidden=expanded});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.hidden=true;toggle.setAttribute('aria-expanded','false')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+    const footer=document.createElement('footer');footer.className='v4-footer';footer.innerHTML='<div class="v4-width"><div class="v4-footer-top"><div>'+logo+'<p>Informação, serviços e boas ideias<br>para a vida acontecer.</p></div><nav aria-label="Explore"><strong>Explore</strong>'+nav+'</nav><nav aria-label="Transparência"><strong>Prazer, Cidadão Agora.</strong><a href="/conteudo/sobre">Sobre o portal</a><a href="/conteudo/contato">Fale com a gente</a><a href="/conteudo/politica-privacidade">Privacidade</a><a href="/conteudo/termos-de-uso">Termos de uso</a><button type="button" id="v4-cookie-settings">Preferências de privacidade</button></nav></div><div class="v4-footer-bottom"><span>© '+new Date().getFullYear()+' Cidadão Agora</span><span>Portal independente. Não somos um site do governo.</span><a href="#">De volta ao topo ↑</a></div></div>';document.body.append(footer);
+    document.getElementById('lgpd-banner')?.remove();document.getElementById('modal-cookies')?.remove();
+    let consent='';try{consent=localStorage.getItem('cidadao_consent_v4')||''}catch{}
+    function optionalServices(){
+      if(document.getElementById('v4-analytics-script'))return;
+      window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag('consent','default',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'denied'});window.gtag('js',new Date());window.gtag('config','G-C8ZSTXP9WQ',{allow_google_signals:false,allow_ad_personalization_signals:false});
+      const analytics=document.createElement('script');analytics.id='v4-analytics-script';analytics.async=true;analytics.src='https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ';document.head.append(analytics);
+      const ads=document.createElement('script');ads.async=true;ads.crossOrigin='anonymous';ads.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448';ads.addEventListener('load',()=>{document.querySelectorAll('ins.adsbygoogle:not([data-adsbygoogle-status])').forEach(()=>{try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch{}})});document.head.append(ads);
+    }
+    function showConsent(){
+      document.getElementById('v4-cookie')?.remove();const banner=document.createElement('div');banner.id='v4-cookie';banner.className='v4-cookie';banner.setAttribute('role','region');banner.setAttribute('aria-label','Preferências de privacidade');banner.innerHTML='<strong>Você escolhe sua privacidade.</strong><p>As ferramentas funcionam com recursos essenciais. Com sua permissão, ativamos métricas e anúncios do Google. <a href="/conteudo/politica-privacidade">Entenda como usamos os dados.</a></p><div><button type="button" data-consent="essential">Só essenciais</button><button type="button" data-consent="all">Permitir opcionais</button></div>';banner.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{consent=button.dataset.consent;try{localStorage.setItem('cidadao_consent_v4',consent)}catch{}if(consent==='all')optionalServices();else window.gtag?.('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});banner.remove()}));document.body.append(banner);
+    }
+    window.abrirConfiguracoesCookies=showConsent;document.getElementById('v4-cookie-settings').addEventListener('click',showConsent);if(consent==='all')optionalServices();else if(!consent)showConsent();
+    if(!document.querySelector('.v4-home')&&!document.querySelector('.v4-tools')&&!document.querySelector('.v4-newsroom')&&!location.pathname.startsWith('/clima'))document.body.classList.add('v4-internal');
+    // Identificação explícita das ilustrações em conteúdo jornalístico.
+    if(/^\/(noticias|politica|atualidades)\/[^/]+/.test(location.pathname)){
+      document.querySelectorAll('main img').forEach(image=>{if(/imagens\.ebc|agenciabrasil|flickr/.test(image.src)){image.src='/assets/v4/brasil-cotidiano.webp';image.alt='Ilustração do cotidiano brasileiro gerada por inteligência artificial; não retrata o fato noticiado.';const caption=document.createElement('p');caption.className='v4-image-caption';caption.textContent='Ilustração gerada por IA. Não retrata o acontecimento noticiado.';image.insertAdjacentElement('afterend',caption)}});
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initialize);else initialize();
+})();

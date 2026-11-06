@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <!-- Google tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8ZSTXP9WQ"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -10,7 +10,7 @@
     gtag('config', 'G-C8ZSTXP9WQ', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });
   </script>
   <!-- Google AdSense Oficial -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1173007636108448" crossorigin="anonymous"></script>
+
   <script defer src="../js/ads-safe.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -98,7 +98,7 @@
       box-shadow: 0 0 0 2px #2563EB;
     }
   </style>
-</head>
+<link rel="stylesheet" href="/assets/v4/v4.css?v=4.0"><script defer src="/assets/v4/v4-shell.js?v=4.0"></script></head>
 <body class="bg-[#F6F8FC] text-[#172033] min-h-screen flex flex-col antialiased">
 
   <header class="bg-white border-b border-[#D9E1EC] sticky top-0 z-40 shadow-xs">
@@ -132,7 +132,7 @@
       </div>
 
       <form id="form-recibo" onsubmit="processarRecibo(event)" class="space-y-6">
-        
+
         <!-- DADOS DO RECIBO -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
@@ -168,7 +168,7 @@
             Escolha o Tamanho da Folha de Impressão:
           </label>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            
+
             <!-- OPÇÃO 1: MEIA FOLHA A5 (RECOMENDADO) -->
             <label class="cursor-pointer opcao-card relative">
               <input type="radio" name="rec_tamanho" value="a5" checked class="sr-only">
@@ -244,7 +244,7 @@
             Escolha o Formato de Download do Arquivo:
           </label>
           <div class="grid grid-cols-3 gap-3">
-            
+
             <label class="cursor-pointer opcao-card">
               <input type="radio" name="rec_formato" value="pdf" checked class="sr-only">
               <div class="p-3 rounded-xl border-2 border-slate-200 hover:border-emerald-400 transition-all flex items-center justify-center gap-2 font-bold text-xs bg-white text-slate-700">
@@ -334,12 +334,12 @@
            data-ad-slot="2396617448"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
-      
+
 </div>
 
     <!-- ARTIGO EDUCATIVO E GUIA COMPLETO -->
     <article class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 space-y-8 text-sm leading-relaxed text-slate-600">
-      
+
       <!-- SEÇÃO 1: VALIDADE JURÍDICA E CÓDIGO CIVIL -->
       <section class="space-y-3">
         <h2 class="text-xl font-black text-slate-900">
@@ -361,7 +361,7 @@
         <p>
           Para que o documento tenha eficácia probatória plena em eventuais disputas judiciais, juizados especiais ou fiscalizações da Receita Federal, ele deve conter:
         </p>
-        
+
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
           <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
             <h4 class="font-bold text-slate-900 text-sm">1. Identificação Completa das Partes</h4>
@@ -448,7 +448,7 @@
         <h2 class="text-xl font-black text-slate-900">
           Perguntas Frequentes sobre Recibos de Pagamento (FAQ)
         </h2>
-        
+
         <div class="space-y-3">
           <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-1">
             <h3 class="text-sm font-bold text-slate-900">Recibo em PDF com assinatura digital (Gov.br) é válido?</h3>
@@ -526,7 +526,7 @@
 
     async function processarRecibo(e) {
       e.preventDefault();
-      
+
       const btn = document.getElementById('btn-gerar');
       const btnTexto = document.getElementById('btn-texto');
       const valor = document.getElementById('rec-valor').value.trim();
@@ -591,7 +591,7 @@
 
     async function baixarPDF(valor, data, pagador, desc, emissor, doc, hashRecibo, tamanho, nomeBase) {
       const { jsPDF } = window.jspdf;
-      
+
       let config = { orientation: 'p', unit: 'mm', format: 'a4' };
       let larguraPagina = 210;
       let yInicio = 30;
@@ -633,7 +633,7 @@
       const yTexto = yInicio + 15;
       pdf.setDrawColor(226, 232, 240);
       pdf.setFillColor(248, 250, 252);
-      
+
       const corpoTexto = `Recebi(emos) de ${pagador} a quantia de R$ ${valor}, referente a ${desc}, concedendo plena, rasa e geral quitação pela quantia recebida.`;
       const splitTexto = pdf.splitTextToSize(corpoTexto, margemDir - margemEsq - 10);
       const alturaBox = (splitTexto.length * 6) + 12;

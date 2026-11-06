@@ -65,6 +65,9 @@ def gerar_sitemap():
         if not os.path.exists(pasta):
             continue
         for f in sorted(glob.glob(f"{pasta}/*.html")):
+            with open(f, "r", encoding="utf-8", errors="ignore") as pagina:
+                if 'noindex,follow' in pagina.read():
+                    continue
             nome_arquivo = os.path.basename(f)
             if nome_arquivo == "index.html":
                 continue
