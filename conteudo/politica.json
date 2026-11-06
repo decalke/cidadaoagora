@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-06T22:33:35.629592+00:00",
-  "total": 3,
+  "ultima_atualizacao": "2026-11-06T22:41:47.546062+00:00",
+  "total": 6,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Governo federal anuncia a criação do Ministério da Segurança Pública por meio de Medida Provisória",
+      "resumo": "O presidente Luiz Inácio Lula da Silva informou que enviará uma Medida Provisória para instituir a nova pasta com o objetivo de intensificar o combate ao crime organizado. A decisão ocorre após a aprovação da Proposta de Emenda à Constituição da Segurança Pública no Senado.",
+      "corpo_html": "<h2>Anúncio da Medida Provisória</h2><p>O presidente Luiz Inácio Lula da Silva declarou que formalizará a criação do Ministério da Segurança Pública através de uma Medida Provisória. A decisão foi mencionada durante uma transmissão ao vivo com o deputado federal André Janones, após a tramitação de uma Proposta de Emenda à Constituição na área pelo Senado na última terça-feira.</p><h2>Objetivos e atuação da pasta</h2><p>A implementação do novo ministério está associada ao Programa Brasil contra o Crime Organizado. A proposta prevê ações voltadas para o combate ao tráfico de armas e explosivos, a asfixia financeira de milícias e organizações criminosas, e o fortalecimento da segurança nos estabelecimentos prisionais, além de articular políticas nacionais com estados e municípios.</p><h2>Tramitação da norma</h2><p>Medidas Provisórias produzem efeitos jurídicos imediatos no momento de sua edição, permitindo a criação oficial da pasta. No entanto, para que o texto adquira caráter permanente e se converta em lei, a matéria precisa passar pela análise e aprovação da Câmara dos Deputados e do Senado dentro do prazo de vigência estabelecido.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Criação do Ministério da Segurança Pública será formalizada por Medida Provisória.</li><li>PEC da Segurança Pública foi aprovada por 73 votos no Senado.</li><li>Nova pasta visa coordenar ações integradas entre União, estados e municípios.</li></ul></aside>",
+      "slug": "governo-federal-oficializa-criacao-do-ministerio-da-seguranca-publica-",
+      "pagina_local": "governo-federal-oficializa-criacao-do-ministerio-da-seguranca-publica-.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:41:44.544421+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal homologa acordo de colaboração premiada ligado a investigações financeiras",
+      "resumo": "O presidente do Supremo Tribunal Federal validou o acordo de colaboração firmado entre a Procuradoria-Geral da República e o fundador de uma empresa de investimentos. A investigação aborda suspeitas de irregularidades financeiras envolvendo uma instituição bancária e tratativas de aquisição por um banco público.",
+      "corpo_html": "<h2>Homologação do acordo</h2><p>O presidente do Supremo Tribunal Federal, ministro Edson Fachin, realizou a homologação do acordo de delação premiada estabelecido com o fundador e ex-presidente da Reag Investimentos, João Carlos Mansur. O ajuste foi pactuado junto à Procuradoria-Geral da República e encontra-se sob sigilo de Justiça.</p><h2>Contexto das investigações</h2><p>O investigado foi alvo de mandados de busca e apreensão no mês de janeiro durante uma etapa da Operação Compliance Zero. A apuração concentra-se em supostas fraudes financeiras no Banco Master e na tentativa de aquisição da instituição pelo Banco Regional de Brasília, banco público associado ao Governo do Distrito Federal.</p><h2>Situação da empresa</h2><p>A instituição Reag passou por processo de liquidação determinado pelo Banco Central em decorrência de infrações graves às regulamentações aplicáveis aos integrantes do Sistema Financeiro Nacional.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A decisão de homologação foi proferida pelo ministro Edson Fachin.</li><li>O investigado é o fundador e ex-presidente da Reag Investimentos.</li><li>O caso tramita sob sigilo de Justiça.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-homologa-acordo-de-colaboracao-premiada--eb78d97a",
+      "pagina_local": "supremo-tribunal-federal-homologa-acordo-de-colaboracao-premiada--eb78d97a.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-homologa-delacao-de-investigado-no-caso-master",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:41:32.099107+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Metas para o desenvolvimento nacional e transicao energetica",
+      "resumo": "O presidente Luiz Inácio Lula da Silva declarou o objetivo de transformar o Brasil em país desenvolvido em quatro anos. A afirmação ocorreu durante reunião do Conselho Nacional de Política Energética.",
+      "corpo_html": "<h2>Perspectivas economicas e energeticas</h2><p>Durante a reunião do Conselho Nacional de Política Energética, o presidente apontou que o país possui vantagens em energia renovável, minerais críticos e terras raras. Ele destacou o Mapa do Caminho para a transição energética e mencionou que o governo pretende atrair investimentos para data centers, exigindo que os empreendimentos gerem a energia que consomem sem utilizar a rede destinada à população.</p><h2>Articulacao politica e contas publicas</h2><p>O governo obteve aprovação de medidas econômicas e estruturais mesmo sem maioria no Congresso Nacional, resultado atribuído à capacidade de negociação. Em relação às contas públicas, foi mencionado que o déficit fiscal de 2,8% foi revertido em orçamento superavitário, com a garantia de que a população de menor renda não arcará com os custos do ajuste fiscal.</p><h2>Investimentos e infraestrutura</h2><p>A administração federal defendeu a contratação de financiamentos para obras estruturantes, como ferrovias, estradas, pontes e aeroportos, desde que voltadas para a criação de novos ativos patrimoniais e mantida a capacidade de pagamento. A combinação entre responsabilidade fiscal e social foi apontada como base para o crescimento econômico.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O presidente afirmou ter pressa para elevar o patamar econômico nacional.</li><li>O governo exigirá que novos data centers produzam a própria energia.</li><li>O déficit fiscal inicial de 2,8% foi citado junto a medidas de responsabilidade social.</li></ul></aside>",
+      "slug": "metas-para-o-desenvolvimento-nacional-e-transicao-energetica-fb1596ef",
+      "pagina_local": "metas-para-o-desenvolvimento-nacional-e-transicao-energetica-fb1596ef.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-levar-brasil-condicao-de-pais-desenvolvido-em-quatro-anos",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-06T22:41:18.767294+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Silêncio do Senado e ações judiciais marcam situação de senador no exterior",
       "resumo": "O Senado Federal ainda não esclareceu a situação regimental e funcional do senador Flávio Bolsonaro após sua viagem ao exterior. A ausência de posicionamento oficial ocorre enquanto parlamentares e advogados questionam a participação remota e o pagamento de verbas públicas ao parlamentar.",
