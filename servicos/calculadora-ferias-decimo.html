@@ -148,7 +148,7 @@
 
 </div>
 
-  </main>
+  <p class="v4-notice">Os resultados desta ferramenta são brutos, antes de INSS e IRRF. O décimo terceiro é dividido em duas parcelas brutas iguais apenas para ilustrar o total; a parcela efetivamente paga pode ter descontos.</p></main>
 
   <footer class="bg-white border-t border-slate-200 py-6 mt-auto text-center text-xs text-slate-400">
     <p>© 2026 Cidadão Agora - Utilitários Digitais Gratuitos. Todos os direitos reservados.</p>
@@ -159,7 +159,7 @@
 
     function calcularFerias() {
       const sal = parseFloat(document.getElementById('ferias-salario').value) || 0;
-      const dias = parseInt(document.getElementById('ferias-dias').value) || 30;
+      const dias = parseInt(document.getElementById('ferias-dias').value); if (!(dias>=1&&dias<=30)) return alert('Informe de 1 a 30 dias.');
       if (sal <= 0) return alert('Informe seu salário.');
 
       const valorDias = (sal / 30) * dias;
@@ -174,7 +174,7 @@
 
     function calcularDecimo() {
       const sal = parseFloat(document.getElementById('decimo-salario').value) || 0;
-      const meses = parseInt(document.getElementById('decimo-meses').value) || 12;
+      const meses = parseInt(document.getElementById('decimo-meses').value); if (!(meses>=1&&meses<=12)) return alert('Informe de 1 a 12 meses.');
       if (sal <= 0) return alert('Informe seu salário.');
 
       const totalProp = (sal / 12) * meses;

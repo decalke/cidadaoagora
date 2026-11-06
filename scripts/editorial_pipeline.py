@@ -28,7 +28,7 @@ def get(url):
         return data
 def source_text(url):
     soup=BeautifulSoup(get(url),'html.parser')
-    body=soup.select_one('[property="content:encoded"]') or soup.select_one('.field--name-body') or soup.find('article')
+    body=soup.select_one('.conteudo-noticia') or soup.select_one('[property="content:encoded"]') or soup.select_one('.field--name-body') or soup.find('article')
     if not body:
         raise ValueError('Corpo da fonte não localizado')
     for node in body.select('script,style,nav,footer,.related-news,.social-share'):

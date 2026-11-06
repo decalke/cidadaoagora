@@ -509,7 +509,7 @@ function setCalcMode(mode) {
 function calcularRescisao() {
   const salario = parseFloat(document.getElementById('calc-salario').value) || 0;
   const motivo = document.getElementById('calc-motivo').value;
-  const meses = parseInt(document.getElementById('calc-meses').value) || 0;
+  const meses = Math.max(0,Math.min(12,parseInt(document.getElementById('calc-meses').value)||0));
   const aviso = document.getElementById('calc-aviso').value;
 
   if (salario <= 0) {
@@ -545,53 +545,27 @@ function calcularRescisao() {
   document.getElementById('resultado-rescisao').classList.remove('hidden');
 }
 
-function calcularSalarioLiquido() {
-  const bruto = parseFloat(document.getElementById('calc-salario-liq').value) || 0;
-  const dependentes = parseInt(document.getElementById('calc-dependentes').value) || 0;
-
-  if (bruto <= 0) {
-    alert("Informe um salário bruto válido.");
-    return;
-  }
-
-  // Tabela INSS Progressiva (Estimativa 2025/2026)
-  let inss = 0;
-  if (bruto <= 1412.00) {
-    inss = bruto * 0.075;
-  } else if (bruto <= 2666.68) {
-    inss = (1412 * 0.075) + ((bruto - 1412) * 0.09);
-  } else if (bruto <= 4000.03) {
-    inss = (1412 * 0.075) + ((2666.68 - 1412) * 0.09) + ((bruto - 2666.68) * 0.12);
-  } else if (bruto <= 7786.02) {
-    inss = (1412 * 0.075) + ((2666.68 - 1412) * 0.09) + ((4000.03 - 2666.68) * 0.12) + ((bruto - 4000.03) * 0.14);
-  } else {
-    inss = 908.85; // Teto do INSS
-  }
-
-  // Base IRRF
-  const deducaoDep = dependentes * 189.59;
-  const baseIR = bruto - inss - deducaoDep;
-  let irrf = 0;
-
-  if (baseIR <= 2259.20) {
-    irrf = 0;
-  } else if (baseIR <= 2826.65) {
-    irrf = (baseIR * 0.075) - 169.44;
-  } else if (baseIR <= 3751.05) {
-    irrf = (baseIR * 0.15) - 381.44;
-  } else if (baseIR <= 4664.68) {
-    irrf = (baseIR * 0.225) - 662.77;
-  } else {
-    irrf = (baseIR * 0.275) - 896.00;
-  }
-  if (irrf < 0) irrf = 0;
-
-  const liquido = bruto - inss - irrf;
-
-  document.getElementById('res-inss').innerText = `- ${formatarMoeda(inss)}`;
-  document.getElementById('res-irrf').innerText = `- ${formatarMoeda(irrf)}`;
-  document.getElementById('res-liquido').innerText = formatarMoeda(liquido);
-
+// Competência janeiro/2026: INSS MPS/MF 13/2026 e tabela mensal RFB 2026.
+function calcularDescontos2026(bruto, dependentes=0) {
+  bruto=Math.max(0,Number(bruto)||0);dependentes=Math.max(0,Math.trunc(Number(dependentes)||0));
+  const faixas=[[1621,.075],[2902.84,.09],[4354.27,.12],[8475.55,.14]];
+  let anterior=0,inss=0;
+  for(const [limite,aliquota] of faixas){inss+=Math.max(0,Math.min(bruto,limite)-anterior)*aliquota;anterior=limite;}
+  inss=Math.round((inss+Number.EPSILON)*100)/100;
+  const deducao=Math.max(inss+dependentes*189.59,607.20),base=Math.max(0,bruto-deducao);
+  let ir=base<=2428.80?0:base<=2826.65?base*.075-182.16:base<=3751.05?base*.15-394.16:base<=4664.68?base*.225-675.49:base*.275-908.73;
+  const redutor=bruto<=5000?ir:bruto<=7350?Math.max(0,978.62-.133145*bruto):0;
+  ir=Math.round((Math.max(0,ir-redutor)+Number.EPSILON)*100)/100;
+  return {inss,irrf:ir,liquido:Math.round((bruto-inss-ir)*100)/100};
+}
+function calcularSalarioLiquido(){
+  const bruto=parseFloat(document.getElementById('calc-salario-liq').value)||0;
+  const dependentes=parseInt(document.getElementById('calc-dependentes').value)||0;
+  if(bruto<=0){alert('Informe um salário bruto válido.');return;}
+  const result=calcularDescontos2026(bruto,dependentes);
+  document.getElementById('res-inss').innerText='- '+formatarMoeda(result.inss);
+  document.getElementById('res-irrf').innerText='- '+formatarMoeda(result.irrf);
+  document.getElementById('res-liquido').innerText=formatarMoeda(result.liquido);
   document.getElementById('resultado-salario').classList.remove('hidden');
 }
 
