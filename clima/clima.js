@@ -71,5 +71,30 @@
   $('detalhes').addEventListener('close',()=>lastFocus?.focus());
   $('detalhes').addEventListener('click',e=>{if(e.target===$('detalhes')){const r=$('detalhes').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('detalhes').close()}});
   ['RS','AM','RJ','PA'].forEach((uf,i)=>{const c=cities.find(city=>city.state===uf);const b=document.createElement('button');b.type='button';b.className='alert';const small=document.createElement('small');small.textContent='! PERIGO · SIMULAÇÃO';const name=document.createElement('strong');name.textContent=c.name+' / '+uf;const p=document.createElement('p');p.textContent=['Chuva intensa e possibilidade de alagamentos.','Calor intenso e redução do nível dos rios.','Chuva intensa e risco de deslizamentos.','Chuvas persistentes e risco de inundação.'][i];const link=document.createElement('span');link.textContent='Ver detalhes fictícios →';b.append(small,name,p,link);b.addEventListener('click',()=>openCity(c));$('alert-list').append(b)});
+
+  const scenarios={
+    moderado:{title:'Aquecimento moderado',temp:28.4,values:[.2,.4,.7,.9,1.2,1.4],prob:[70,20,10]},
+    intenso:{title:'Super El Niño · aquecimento intenso',temp:29.6,values:[.4,.8,1.3,1.8,2.2,2.6],prob:[85,10,5]}
+  };
+  function scenarioChange(){
+    const key=document.querySelector('input[name="cenario"]:checked').value;
+    const s=scenarios[key],months=['Junho','Julho','Agosto','Setembro','Outubro','Novembro'];
+    $('resumo-cenario').textContent=key==='intenso'?'Aquecimento intenso':'Aquecimento moderado';
+    $('pacifico-temp').textContent=fmt(s.temp)+' °C';
+    $('pacifico-anomalia').textContent='+'+fmt(s.values.at(-1))+' °C';
+    $('cenario-titulo').textContent=s.title+' · simulação';
+    const points=s.values.map((v,i)=>(i?'L':'M')+(30+i*89)+' '+(140-v/3*120)).join('');
+    $('grafico-linha').setAttribute('d',points);$('grafico-area').setAttribute('d',points+'L475 140H30Z');
+    const series=s.values.map((v,i)=>months[i]+': +'+fmt(v)+' °C').join('; ');
+    $('serie-valores').textContent=series+'. Todos os valores são fictícios.';
+    $('grafico-descricao').textContent='Série fictícia. '+series;
+    $('prob-legenda').replaceChildren();
+    ['nino','neutro','nina'].forEach((name,i)=>{
+      $('prob-'+name).style.width=s.prob[i]+'%';
+      const li=document.createElement('li');li.textContent=['El Niño','Neutro','La Niña'][i]+': '+s.prob[i]+'%';$('prob-legenda').append(li);
+    });
+  }
+  document.querySelectorAll('input[name="cenario"]').forEach(input=>input.addEventListener('change',scenarioChange));
+  scenarioChange();
   render();window.lucide?.createIcons();
 })();
