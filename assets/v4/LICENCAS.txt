@@ -1,0 +1,3 @@
+qrcode-generator (Kazuhiko Arase), MIT. Biblioteca distribuída com seu aviso de licença no arquivo qrcode.js.
+As ilustrações brasil-cotidiano.webp e clima-brasil.webp foram geradas por IA para este portal e não representam fatos jornalísticos.
+Lucide: ISC, biblioteca existente do portal.

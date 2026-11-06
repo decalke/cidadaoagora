@@ -80,7 +80,7 @@
 
       <div class="space-y-6">
         <!-- Dropzone de Arquivo -->
-        <div class="border-2 border-dashed border-slate-300 hover:border-orange-500 rounded-2xl p-8 text-center transition cursor-pointer bg-slate-50 relative" onclick="document.getElementById('input-arquivo').click()">
+        <div id="image-dropzone" role="button" tabindex="0" aria-label="Selecionar ou arrastar uma imagem" class="border-2 border-dashed border-slate-300 hover:border-orange-500 rounded-2xl p-8 text-center transition cursor-pointer bg-slate-50 relative" onclick="document.getElementById('input-arquivo').click()">
           <input type="file" id="input-arquivo" accept="image/png, image/jpeg, image/webp" class="hidden" onchange="tratarArquivo(event)">
           <div class="flex flex-col items-center justify-center space-y-2">
             <div class="w-14 h-14 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center">
@@ -111,7 +111,7 @@
           <div class="flex justify-end pt-3 border-t border-slate-200">
             <button onclick="executarConversao()" class="w-full sm:w-auto bg-orange-600 hover:bg-orange-700 text-white font-extrabold px-6 py-3 rounded-xl transition shadow-md flex items-center justify-center gap-2">
               <i data-lucide="download" class="w-4 h-4"></i>
-              Converter e Baixar Agora
+              Converter imagem
             </button>
           </div>
         </div>
@@ -171,11 +171,18 @@
     if (window.lucide) window.lucide.createIcons();
 
     let arquivoCarregado = null;
+    let downloadUrl=null;
+    const zone=document.getElementById('image-dropzone');
+    zone.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();document.getElementById('input-arquivo').click()}});
+    zone.addEventListener('dragover',e=>e.preventDefault());
+    zone.addEventListener('drop',e=>{e.preventDefault();e.stopPropagation();tratarArquivo({target:{files:e.dataTransfer.files}})});
     let imagemObjeto = null;
 
     function tratarArquivo(e) {
       const file = e.target.files[0];
       if (!file) return;
+      if(!['image/png','image/jpeg','image/webp'].includes(file.type)||file.size>20*1024*1024){alert('Selecione PNG, JPG ou WEBP com até 20 MB.');return;}
+      document.getElementById('conversion-result')?.remove();
 
       arquivoCarregado = file;
       document.getElementById('nome-arquivo').innerText = file.name;
@@ -184,7 +191,9 @@
       const reader = new FileReader();
       reader.onload = function(evt) {
         imagemObjeto = new Image();
+        imagemObjeto.onerror=function(){alert('Não foi possível abrir esta imagem. Escolha outro arquivo.');};
         imagemObjeto.onload = function() {
+          if(imagemObjeto.naturalWidth*imagemObjeto.naturalHeight>30000000){imagemObjeto=null;alert('A imagem excede 30 megapixels. Reduza a resolução antes de converter.');return;}
           document.getElementById('img-preview').src = evt.target.result;
           document.getElementById('painel-conversao').classList.remove('hidden');
         };
@@ -212,12 +221,17 @@
 
       ctx.drawImage(imagemObjeto, 0, 0);
 
-      const dadosUrl = canvas.toDataURL(formato, 0.92);
-      const link = document.createElement('a');
-      const nomeBase = arquivoCarregado.name.substring(0, arquivoCarregado.name.lastIndexOf('.')) || 'imagem';
-      link.download = `${nomeBase}_convertido.${extensao}`;
-      link.href = dadosUrl;
-      link.click();
+      canvas.toBlob(blob=>{
+        if(!blob){alert('Não foi possível converter a imagem.');return;}
+        if(downloadUrl)URL.revokeObjectURL(downloadUrl);
+        downloadUrl=URL.createObjectURL(blob);
+        document.getElementById('conversion-result')?.remove();
+        const result=document.createElement('div');result.id='conversion-result';result.className='v4-notice';
+        const status=document.createElement('p');status.setAttribute('role','status');status.textContent='Arquivo '+extensao.toUpperCase()+' pronto · '+(blob.size/1024).toFixed(1)+' KB';
+        const link=document.createElement('a');link.className='v4-btn';link.href=downloadUrl;
+        const nomeBase=arquivoCarregado.name.replace(/\.[^.]+$/,'')||'imagem';link.download=nomeBase+'_convertido.'+extensao;link.textContent='Baixar arquivo '+extensao.toUpperCase()+' ↓';
+        result.append(status,link);document.getElementById('painel-conversao').append(result);
+      },formato,0.92);
     }
   </script>
 </body>
