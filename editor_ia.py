@@ -7,7 +7,7 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-MODELOS_PREFERENCIAIS = ['gemini-2.5-flash', 'gemini-2.5-flash-lite']
+MODELOS_PREFERENCIAIS = ['gemini-3.5-flash-lite', 'gemini-3.6-flash', 'gemini-3.1-flash-lite']
 _CACHE_MODELOS = None
 
 def obter_chave_api():
@@ -38,6 +38,7 @@ def descobrir_modelos_disponiveis(chave):
         available = [m['name'].replace('models/','') for m in data.get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])]
         _CACHE_MODELOS = [m for m in MODELOS_PREFERENCIAIS if m in available]
         _CACHE_MODELOS += [m for m in available if 'flash' in m and not any(x in m for x in ['preview','image','audio','live','tts','exp']) and m not in _CACHE_MODELOS]
+        print('Editorial: modelos elegíveis '+', '.join(_CACHE_MODELOS[:4])+'.')
         return _CACHE_MODELOS[:2]
     except Exception:
         return MODELOS_PREFERENCIAIS
@@ -92,7 +93,7 @@ def reescrever_com_ia(titulo_original, conteudo_texto, categoria='Notícias', or
             status = ''
             try:
                 payload = json.loads(error.read().decode('utf-8'))
-                status = payload.get('error',{}).get('status','')
+                status = payload.get('error',{}).get('status','')+' '+payload.get('error',{}).get('message','').replace(key,'[REDACTED]')[:240]
             except Exception:
                 pass
             print('Editorial: modelo '+model+' retornou HTTP '+str(error.code)+' '+status+'. Nenhuma chave foi registrada.')
