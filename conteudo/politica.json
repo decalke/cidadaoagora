@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-06T22:41:47.546062+00:00",
-  "total": 6,
+  "ultima_atualizacao": "2026-11-07T02:47:44.452003+00:00",
+  "total": 8,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministério do Trabalho registra mais de 7 mil denúncias de assédio eleitoral",
+      "resumo": "O Ministério do Trabalho e Emprego contabilizou mais de 7 mil relatos de assédio eleitoral no ambiente laboral. A pasta e órgãos competentes analisam as ocorrências para verificar a veracidade e aplicar as penalidades cabíveis previstas na legislação.",
+      "corpo_html": "<h2>Volume de Notificações</h2><p>O Ministério do Trabalho e Emprego informou que o número de notificações de assédio eleitoral passou de 7 mil. O crescimento nos relatos ocorreu principalmente após o segundo turno das eleições presidenciais, impulsionado por publicações em redes sociais que mencionavam demissões ou boicotes por preferência política. A pasta ressalta que as notificações englobam tanto situações reais quanto relatos que ainda precisam passar por apuração detalhada para confirmar a veracidade.</p><h2>Orientação do Governo</h2><p>Durante entrevista coletiva, o ministro Luiz Marinho apelou para que empregadores que tenham ameaçado ou demitido funcionários por motivos políticos façam uma retratação pública nas redes sociais. A declaração indicou que a prioridade é garantir o respeito aos direitos trabalhistas e que o foco inicial não é a punição preventiva, embora o governo reitere que condutas discriminatórias confirmadas serão severamente punidas.</p><h2>Consequências Legais</h2><p>As denúncias recebidas são avaliadas pela Auditoria Fiscal do Trabalho. O Ministério Público do Trabalho pode exigir a interrupção da conduta ilegal, retratação em até 24 horas e pagamento de indenizações por danos morais. Em casos de dispensa discriminatória, o trabalhador pode requerer a reintegração com pagamento de salários do período de afastamento ou o recebimento em dobro da remuneração correspondente, além de multas e restrições a empréstimos para a empresa.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O total de notificações ultrapassou a marca de 7 mil casos.</li><li>O ministro Luiz Marinho orientou empresários a recuarem e se retratarem publicamente em caso de ameaças.</li><li>A legislação brasileira proíbe discriminação política e prevê punições severas para empregadores.</li></ul></aside>",
+      "slug": "ministerio-do-trabalho-registra-mais-de-7-mil-denuncias-de-assedio-ele",
+      "pagina_local": "ministerio-do-trabalho-registra-mais-de-7-mil-denuncias-de-assedio-ele.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/assedio-eleitoral-supera-7-mil-denuncias-aponta-ministerio",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/clima-brasil.webp",
+      "coletado_em": "2026-11-07T02:47:34.045042+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça Federal rejeita ação de improbidade administrativa contra o ex-presidente Jair Bolsonaro",
+      "resumo": "A Justiça Federal rejeitou uma ação de improbidade apresentada pelo Ministério Público Federal referente ao período em que o investigado atuava como deputado federal. A acusação envolvia a contratação de uma secretária parlamentar que residia em Angra dos Reis.",
+      "corpo_html": "<h2>Decisão judicial</h2><p>A Justiça Federal decidiu rejeitar na quinta-feira (5) a ação protocolada pelo Ministério Público Federal contra o ex-presidente Jair Bolsonaro. O processo tratava do período em que Bolsonaro exerceu o mandato de deputado federal.</p><h2>Argumentos da acusação</h2><p>O Ministério Público apontava que a ex-secretária parlamentar Walderice Santos da Conceição foi indicada em fevereiro de 2003 para o gabinete, mas não exerceria a função. A acusação indicava que ela seria funcionária fantasma e pedia o ressarcimento de R$ 280 mil.</p><h2>Fundamentação do magistrado</h2><p>O juiz federal Rodrigo de Godoy Mendes entendeu que não houve desvio de verba parlamentar. Segundo a decisão, saques em dinheiro vivo ocorriam porque a servidora morava em localidade sem agência bancária, sendo possível conciliar o comércio local com as funções de assessoria parlamentar descentralizada.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Ação de improbidade administrativa foi rejeitada pela Justiça Federal</li><li>Acusação apontava suposta funcionária fantasma no gabinete parlamentar</li><li>Ministério Público Federal pode apresentar recurso contra a decisão</li></ul></aside>",
+      "slug": "justica-federal-rejeita-acao-de-improbidade-administrativa-contra-bb2b2e5b",
+      "pagina_local": "justica-federal-rejeita-acao-de-improbidade-administrativa-contra-bb2b2e5b.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-federal-rejeita-acao-de-improbidade-contra-bolsonaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-07T02:47:19.062309+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Governo federal anuncia a criação do Ministério da Segurança Pública por meio de Medida Provisória",
       "resumo": "O presidente Luiz Inácio Lula da Silva informou que enviará uma Medida Provisória para instituir a nova pasta com o objetivo de intensificar o combate ao crime organizado. A decisão ocorre após a aprovação da Proposta de Emenda à Constituição da Segurança Pública no Senado.",
