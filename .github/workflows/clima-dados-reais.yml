@@ -25,6 +25,9 @@ jobs:
       - name: Atualizar medições municipais de Itajaí
         continue-on-error: true
         run: python scripts/atualizar_itajai.py
+      - name: Atualizar fontes municipais de Blumenau
+        continue-on-error: true
+        run: python scripts/atualizar_blumenau.py
       - name: Publicar cópias atualizadas
         run: |
           git config user.name "Clima Cidadão Agora [GitHub Action]"
