@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-07T10:00:07.107168+00:00",
-  "total": 11,
+  "ultima_atualizacao": "2026-11-07T20:52:34.238777+00:00",
+  "total": 14,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Boletim médico aponta normalidade em exames do presidente Luiz Inácio Lula da Silva",
+      "resumo": "O presidente Luiz Inácio Lula da Silva realizou exames de rotina em um hospital em São Paulo após viagem. O boletim médico divulgado informou que os resultados estão dentro da normalidade.",
+      "corpo_html": "<h2>Internação e procedimentos</h2><p>O presidente Luiz Inácio Lula da Silva viajou para São Paulo e foi internado no Hospital Sírio-Libanês para a realização de exames de rotina que já estavam previamente agendados.</p><h2>Avaliação médica</h2><p>Um boletim médico publicado às 23h informou que os exames realizados pelo presidente estão dentro da normalidade. Ele está sob os cuidados das equipes médicas coordenadas pelos profissionais citados no documento oficial.</p><h2>Continuidade das atividades</h2><p>Após a realização dos procedimentos e a divulgação da avaliação clínica, o presidente seguiu normalmente com a sua agenda habitual de trabalho.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Exames de rotina realizados em São Paulo</li><li>Resultados avaliados como normais por boletim médico</li><li>Retorno à agenda habitual de trabalho</li></ul></aside>",
+      "slug": "boletim-medico-confirma-exames-normais-do-presidente-lula-apos-interna",
+      "pagina_local": "boletim-medico-confirma-exames-normais-do-presidente-lula-apos-interna.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/exames-do-presidente-lula-estao-dentro-da-normalidade-diz-boletim",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-07T20:52:31.236973+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Procurador-geral da Republica solicita ao Supremo Tribunal Federal a suspensao de processos sobre proibicao de plataformas de apostas",
+      "resumo": "A Procuradoria-Geral da Republica requisitou ao Supremo Tribunal Federal a interrupcao nacional de todas as acoes judiciais que questionam a proibicao das plataformas de jogos online imposta pelo governo federal. O pedido visa evitar a geracao de instabilidade juridica decorrente de decisoes divergentes sobre o assunto.",
+      "corpo_html": "<h2>Pedido de suspensao nacional</h2><p>O procurador-geral da Republica solicitou ao Supremo Tribunal Federal a paralisacao em todo o pais dos processos que questionam a proibicao das plataformas de jogos online conhecida como bets. De acordo com a manifestacao encaminhada a Corte, a multiplicacao de decisoes judiciais divergentes que permitem a operacao de casas de apostas resulta em inseguranca juridica. A medida busca sobrestar o tramite de todas as acoes que tratam da constitucionalidade da Medida Provisoria 1.394/2026 ate que ocorra um julgamento definitivo pelo tribunal.</p><h2>Tramitacao no Supremo Tribunal Federal</h2><p>A peticao apresentada pela Procuradoria-Geral da Republica foi direcionada ao ministro Luiz Fux, que atua como relator de quatro acoes judiciais voltadas a contestar a constitucionalidade da medida provisoria que determinou a proibicao dos jogos online. O objetivo do pedido e congelar o andamento de tais processos ate uma determinacao final sobre o tema.</p><h2>Contexto das decisoes recentes</h2><p>Na quinta-feira (5), a segunda instancia da Justica Federal em Sao Paulo anulou uma decisao liminar que permitia o funcionamento de tres empresas de apostas online. A intervencao da Procuradoria-Geral da Republica ocorre em meio a esse cenario de contestacoes judiciais sobre a restricao imposta as operadoras do setor.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pedido enviado ao Supremo Tribunal Federal nesta sexta-feira (6)</li><li>Solicitacao assinada pelo procurador-geral da Republica, Paulo Gonet</li><li>Encaminhado ao ministro relator Luiz Fux</li></ul></aside>",
+      "slug": "procurador-geral-da-republica-solicita-ao-supremo-tribunal-federa-d21def63",
+      "pagina_local": "procurador-geral-da-republica-solicita-ao-supremo-tribunal-federa-d21def63.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-suspensao-de-acoes-contra-proibicao-de-bets",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-07T20:52:19.751116+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Senador Flávio Bolsonaro vota de forma remota a partir dos Estados Unidos",
+      "resumo": "O senador Flávio Bolsonaro participou de votação no Senado brasileiro de maneira remota enquanto está nos Estados Unidos. A atuação ocorreu durante sessão que aprovou por unanimidade a Proposta de Emenda à Constituição da Segurança Pública.",
+      "corpo_html": "<h2>Participação remota em sessões</h2><p>O parlamentar registrou presença e votou remotamente durante a sessão ordinária do Senado que aprovou a Proposta de Emenda à Constituição da Segurança Pública. A votação ocorreu enquanto o senador estava no exterior. Durante a sessão, ele manifestou apoio à proposta principal do governo federal, votou favoravelmente a uma emenda sobre recursos para as Forças Armadas e posicionou-se contrariamente ao destaque apresentado pelo relator referente à separação de temas sobre maioridade penal.</p><h2>Investigações e contexto da viagem</h2><p>O senador deixou o país após o segundo turno das eleições. A viagem contrariou ordem de entrega de passaportes à Polícia Federal emitida por ministro do Supremo Tribunal Federal. O parlamentar é alvo de investigações criminais na corte por suposta lavagem de dinheiro relacionada a bets e possui mandato válido até janeiro de 2027, mantendo o acesso ao sistema de deliberação remota da casa legislativa.</p><h2>Questionamentos jurídicos</h2><p>A Mesa Diretora do Senado não recebeu comunicação prévia sobre a ausência do parlamentar no país. Um advogado autor de uma ação popular que pede a suspensão do pagamento de salários e verbas de gabinete apontou que as regras exigem pedido de licença prévia para ausências, avaliando os desdobramentos da participação remota nas medidas judiciais em andamento.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O parlamentar registrou presença e votou a favor da PEC da Segurança Pública.</li><li>A viagem ocorreu após determinação judicial para entrega de passaportes em investigação no STF.</li><li>Ações judiciais questionam a manutenção de pagamentos e a ausência de licença prévia.</li></ul></aside>",
+      "slug": "flavio-bolsonaro-vota-de-forma-remota-dos-eua-na-pec-da-seguranca-apos",
+      "pagina_local": "flavio-bolsonaro-vota-de-forma-remota-dos-eua-na-pec-da-seguranca-apos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/nos-eua-flavio-bolsonaro-vota-remotamente-favor-da-pec-da-seguranca",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-07T20:52:07.959958+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Presidente do Senado retira proposta de redução da maioridade penal da pauta para aguardar análise da Câmara",
       "resumo": "O presidente do Senado, Davi Alcolumbre, retirou da pauta a Proposta de Emenda à Constituição que trata da redução da maioridade penal, atendendo a um pedido da liderança da Câmara dos Deputados. O tema tramita atualmente por meio de diferentes propostas apresentadas por parlamentares e passa a ser debatido no âmbito da Câmara.",
