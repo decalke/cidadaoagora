@@ -76,15 +76,15 @@
       <form id="form-hipo" onsubmit="gerarHipoPDF(event)" class="space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome Completo do Declarante</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-nome">Nome Completo do Declarante</label>
             <input type="text" id="hipo-nome" placeholder="Ex: Maria Aparecida dos Santos" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nacionalidade</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-nacionalidade">Nacionalidade</label>
             <input type="text" id="hipo-nacionalidade" value="Brasileiro(a)" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Estado Civil</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-civil">Estado Civil</label>
             <select id="hipo-civil" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900">
               <option value="Solteiro(a)">Solteiro(a)</option>
               <option value="Casado(a)">Casado(a)</option>
@@ -94,27 +94,27 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Profissão</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-profissao">Profissão</label>
             <input type="text" id="hipo-profissao" placeholder="Ex: Autônomo(a) / Desempregado(a)" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-cpf">CPF</label>
             <input type="text" id="hipo-cpf" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900 font-mono" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">RG / Órgão Emissor</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-rg">RG / Órgão Emissor</label>
             <input type="text" id="hipo-rg" placeholder="Ex: 12.345.678-9 SSP/SP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Cidade e Estado de Residência</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-cidade">Cidade e Estado de Residência</label>
             <input type="text" id="hipo-cidade" placeholder="Ex: Campinas - SP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Endereço Residencial Completo</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-end">Endereço Residencial Completo</label>
             <input type="text" id="hipo-end" placeholder="Rua, Número, Bairro, CEP" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900" required>
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Finalidade da Declaração</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="hipo-motivo">Finalidade da Declaração</label>
             <select id="hipo-motivo" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-violet-500 text-slate-900">
               <option value="requerer a concessão dos benefícios da GRATUIDADE DA JUSTIÇA">Processo Judicial / Justiça Gratuita</option>
               <option value="requerer a ISENÇÃO DE TAXA DE INSCRIÇÃO EM CONCURSO PÚBLICO ou vestibular">Isenção de Concurso Público / Vestibular</option>

@@ -4,12 +4,18 @@
   const nav='<a href="/#ferramentas">Ferramentas</a><a href="/clima/">Clima</a><a href="/conteudo/noticias">Notícias</a><a href="/conteudo/politica">Política</a><a href="/guias/">Guias</a>';
   function initialize(){
     document.body.classList.add('v4-site');
+    const main=document.querySelector('main');
+    if(main&&!document.querySelector('a.skip,a.skip-link,.v4-skip-link')){
+      if(!main.id)main.id='v4-main-content';
+      const skip=document.createElement('a');skip.className='v4-skip-link';skip.href='#'+main.id;skip.textContent='Pular para o conteúdo';document.body.prepend(skip);
+    }
     document.querySelectorAll('body>header,body>footer,#menu-mobile').forEach(n=>n.remove());
     document.querySelectorAll('body>.edition-bar,body>.masthead,body>.demo').forEach(n=>n.remove());
     const header=document.createElement('header');header.className='v4-header';header.innerHTML='<div class="v4-width">'+logo+'<nav aria-label="Principal">'+nav+'</nav><a class="v4-header-cta" href="/#ferramentas">O que você precisa? <span>↗</span></a><button type="button" id="v4-menu-toggle" aria-expanded="false" aria-controls="v4-mobile-menu" aria-label="Abrir navegação">☰</button></div><nav id="v4-mobile-menu" aria-label="Navegação no celular" hidden>'+nav+'</nav>';document.body.prepend(header);
     const toggle=document.getElementById('v4-menu-toggle'),menu=document.getElementById('v4-mobile-menu');toggle.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));toggle.setAttribute('aria-label',expanded?'Abrir navegação':'Fechar navegação');menu.hidden=expanded});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.hidden=true;toggle.setAttribute('aria-expanded','false')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.hidden=true;toggle.setAttribute('aria-expanded','false')}});
     const footer=document.createElement('footer');footer.className='v4-footer';footer.innerHTML='<div class="v4-width"><div class="v4-footer-top"><div>'+logo+'<p>Informação, serviços e boas ideias<br>para a vida acontecer.</p></div><nav aria-label="Explore"><strong>Explore</strong>'+nav+'</nav><nav aria-label="Transparência"><strong>Prazer, Cidadão Agora.</strong><a href="/conteudo/sobre">Sobre o portal</a><a href="/conteudo/contato">Fale com a gente</a><a href="/conteudo/politica-privacidade">Privacidade</a><a href="/conteudo/termos-de-uso">Termos de uso</a><button type="button" id="v4-cookie-settings">Preferências de privacidade</button></nav></div><div class="v4-footer-bottom"><span>© '+new Date().getFullYear()+' Cidadão Agora</span><span>Portal independente. Não somos um site do governo.</span><a href="#">De volta ao topo ↑</a></div></div>';document.body.append(footer);
     document.getElementById('lgpd-banner')?.remove();document.getElementById('modal-cookies')?.remove();
+    const skip=document.querySelector('.v4-skip-link');if(skip)document.body.prepend(skip);
     let consent='';try{consent=localStorage.getItem('cidadao_consent_v4')||''}catch{}
     function optionalServices(){
       if(document.getElementById('v4-analytics-script'))return;

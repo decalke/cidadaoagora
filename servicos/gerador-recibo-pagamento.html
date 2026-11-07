@@ -131,27 +131,27 @@
         <!-- DADOS DO RECIBO -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Valor do Recibo (R$)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-valor">Valor do Recibo (R$)</label>
             <input type="text" id="rec-valor" placeholder="Ex: 850,00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900 font-bold" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Data de Emissão</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-data">Data de Emissão</label>
             <input type="date" id="rec-data" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900" required>
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome do Pagador (Quem realizou o pagamento)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-pagador">Nome do Pagador (Quem realizou o pagamento)</label>
             <input type="text" id="rec-pagador" placeholder="Nome completo ou Razão Social" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900" required>
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Referente a (Descrição detalhada do serviço / venda)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-descricao">Referente a (Descrição detalhada do serviço / venda)</label>
             <textarea id="rec-descricao" rows="2" placeholder="Ex: Serviços de manutenção residencial e pintura referente à 1ª parcela" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900" required></textarea>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome do Emissor / Beneficiário (Quem recebeu)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-emissor">Nome do Emissor / Beneficiário (Quem recebeu)</label>
             <input type="text" id="rec-emissor" placeholder="Seu nome completo ou MEI" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">CPF ou CNPJ do Emissor</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="rec-doc">CPF ou CNPJ do Emissor</label>
             <input type="text" id="rec-doc" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-500 text-slate-900 font-mono" required autocomplete="off">
           </div>
         </div>

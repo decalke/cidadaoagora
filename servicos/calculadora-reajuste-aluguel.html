@@ -80,7 +80,7 @@
       <form id="form-aluguel" onsubmit="calcularAluguel(event)" class="space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Valor Atual do Aluguel (R$)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="input-valor-aluguel">Valor Atual do Aluguel (R$)</label>
             <input 
               type="number" 
               id="input-valor-aluguel" 
@@ -91,7 +91,7 @@
             >
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Índice Contratual</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="select-indice">Índice Contratual</label>
             <select id="select-indice" onchange="atualizarTaxaSugerida()" class="w-full px-3.5 py-3 rounded-xl border border-slate-300 font-semibold text-slate-800 text-sm outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm bg-white">
               <option value="ipca">IPCA (IBGE) - Padrão Mais Utilizado</option>
               <option value="igpm">IGP-M (FGV) - Tradicional Imobiliário</option>
@@ -99,7 +99,7 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Taxa Acumulada em 12 Meses (%)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="input-taxa">Taxa Acumulada em 12 Meses (%)</label>
             <input 
               type="number" 
               id="input-taxa" 

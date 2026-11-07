@@ -76,15 +76,15 @@
       <form id="form-residencia" onsubmit="gerarResidenciaPDF(event)" class="space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nome Completo do Declarante</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-nome">Nome Completo do Declarante</label>
             <input type="text" id="res-nome" placeholder="Seu nome completo" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nacionalidade</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-nacionalidade">Nacionalidade</label>
             <input type="text" id="res-nacionalidade" value="Brasileiro(a)" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Estado Civil</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-civil">Estado Civil</label>
             <select id="res-civil" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900 bg-white">
               <option value="Solteiro(a)">Solteiro(a)</option>
               <option value="Casado(a)">Casado(a)</option>
@@ -94,23 +94,23 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Número do RG</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-rg">Número do RG</label>
             <input type="text" id="res-rg" placeholder="Ex: 00.000.000-0 SSP/UF" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Número do CPF</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-cpf">Número do CPF</label>
             <input type="text" id="res-cpf" placeholder="000.000.000-00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900 font-mono" required>
           </div>
           <div class="sm:col-span-2">
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Endereço Completo de Residência (Rua, Número, Bairro, CEP)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-endereco">Endereço Completo de Residência (Rua, Número, Bairro, CEP)</label>
             <input type="text" id="res-endereco" placeholder="Ex: Rua das Flores, nº 123, Bairro Centro, CEP: 00000-000" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Cidade / UF</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-cidade">Cidade / UF</label>
             <input type="text" id="res-cidade" placeholder="Ex: Florianópolis - SC" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Data da Declaração</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="res-data">Data da Declaração</label>
             <input type="date" id="res-data" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-500 text-slate-900" required>
           </div>
         </div>

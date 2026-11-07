@@ -8,9 +8,20 @@ em conformidade com os padrões do Google e Bing.
 
 import os
 import glob
+from pathlib import Path
+from html.parser import HTMLParser
 from datetime import datetime
 
 DOMINIO_BASE = "https://cidadaoagora.com.br"
+
+
+class RobotsParser(HTMLParser):
+    noindex = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'meta' and attrs.get('name', '').lower() == 'robots':
+            self.noindex = self.noindex or 'noindex' in attrs.get('content', '').lower()
 
 def formatar_data_mtime(caminho):
     try:
@@ -78,6 +89,18 @@ def gerar_sitemap():
                 "changefreq": freq,
                 "priority": prio
             })
+
+    # Hubs e painéis locais também devem sobreviver às gerações do robô editorial.
+    for pasta, prio in [("guias", "0.8"), ("clima", "0.8")]:
+        for path in sorted(Path(pasta).rglob("*.html")):
+            text = path.read_text(encoding="utf-8")
+            robots = RobotsParser()
+            robots.feed(text)
+            if robots.noindex:
+                continue
+            relative = path.as_posix()
+            rota = relative[:-10] if relative.endswith('index.html') else relative[:-5]
+            urls.append({"loc": f"{DOMINIO_BASE}/{rota}", "lastmod": formatar_data_mtime(path), "changefreq": "daily", "priority": prio})
 
     # Construção do XML
     xml_linhas = [

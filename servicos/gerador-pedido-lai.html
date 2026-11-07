@@ -80,11 +80,11 @@
       <form id="form-lai" onsubmit="gerarTextoLAI(event)" class="space-y-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Órgão Público Destinatário</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="lai-orgao">Órgão Público Destinatário</label>
             <input type="text" id="lai-orgao" placeholder="Ex: Prefeitura Municipal, Ministério da Saúde..." required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Assunto / Categoria</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="lai-tema">Assunto / Categoria</label>
             <select id="lai-tema" onchange="sugerirTexto()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none bg-white font-medium">
               <option value="licitacoes">Contratos e Licitações Públicas</option>
               <option value="gastos">Prestação de Contas e Gastos Públicos</option>
@@ -96,7 +96,7 @@
         </div>
 
         <div>
-          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Informações Específicas Solicitadas</label>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="lai-detalhes">Informações Específicas Solicitadas</label>
           <textarea id="lai-detalhes" rows="4" required placeholder="Descreva os dados, números de contratos ou períodos que deseja obter..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-sky-500 outline-none"></textarea>
         </div>
 
@@ -115,7 +115,7 @@
             <span id="btn-copiar-label">Copiar Texto</span>
           </button>
         </div>
-        <textarea id="lai-saida" readonly rows="9" class="w-full p-4 rounded-xl border border-slate-300 bg-slate-50 font-mono text-xs text-slate-800 leading-relaxed outline-none"></textarea>
+        <textarea id="lai-saida" readonly rows="9" class="w-full p-4 rounded-xl border border-slate-300 bg-slate-50 font-mono text-xs text-slate-800 leading-relaxed outline-none" aria-label="Texto do pedido de acesso à informação gerado"></textarea>
 
         <div class="p-4 bg-sky-50 rounded-xl border border-sky-200 text-xs text-sky-950 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <span>Onde protocolar este pedido gratuitamente:</span>

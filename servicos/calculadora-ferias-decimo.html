@@ -81,11 +81,11 @@
             Simular Valor das Férias
           </h2>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="ferias-salario">Salário Bruto (R$)</label>
             <input type="number" step="0.01" id="ferias-salario" placeholder="Ex: 3000.00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-slate-900">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Dias de Férias</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="ferias-dias">Dias de Férias</label>
             <select id="ferias-dias" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm">
               <option value="30">30 dias (Férias integrais)</option>
               <option value="20">20 dias (Vendeu 10 dias / Abono pecuniário)</option>
@@ -111,11 +111,11 @@
             Simular 13º Salário
           </h2>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Salário Bruto (R$)</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="decimo-salario">Salário Bruto (R$)</label>
             <input type="number" step="0.01" id="decimo-salario" placeholder="Ex: 3000.00" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-slate-900">
           </div>
           <div>
-            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Meses Trabalhados no Ano</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1" for="decimo-meses">Meses Trabalhados no Ano</label>
             <input type="number" min="1" max="12" id="decimo-meses" value="12" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm">
           </div>
           <button onclick="calcularDecimo()" class="w-full bg-slate-900 hover:bg-black text-white font-bold py-3 rounded-xl text-xs transition">
