@@ -22,6 +22,9 @@ jobs:
       - name: Consultar fontes oficiais sem substituir dados em caso de falha
         continue-on-error: true
         run: python scripts/atualizar_clima.py
+      - name: Atualizar medições municipais de Itajaí
+        continue-on-error: true
+        run: python scripts/atualizar_itajai.py
       - name: Publicar cópias atualizadas
         run: |
           git config user.name "Clima Cidadão Agora [GitHub Action]"

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Monitoramento de Itajaí: rios, chuva e alertas | Cidadão Agora</title>
+<meta name="description" content="Níveis dos rios e chuva em Itajaí, com medições da Defesa Civil municipal, histórico das estações e avisos oficiais do INMET.">
+<link rel="canonical" href="https://cidadaoagora.com.br/clima/itajai/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/v4/v4.css?v=4.0"><link rel="stylesheet" href="itajai.css?v=1">
+<script defer src="itajai.js?v=1"></script><script defer src="/assets/v4/v4-shell.js?v=4.0"></script>
+</head>
+<body class="v4-site">
+<a class="skip" href="#conteudo">Pular para o monitoramento</a>
+<header class="local-header"><a href="/">Cidadão <strong>Agora</strong></a><a href="/clima/">← Clima do Brasil</a></header>
+<main id="conteudo">
+<section class="hero"><p class="eyebrow">SANTA CATARINA · VALE DO ITAJAÍ</p><h1>Itajaí, de olho<br>na água e no tempo.</h1><p>Rios, chuva e avisos oficiais em um só lugar.</p><nav aria-label="Seções"><a href="#rios">Níveis dos rios</a><a href="#chuvas">Chuva</a><a href="#avisos">Avisos</a><a href="#cameras">Câmeras</a></nav></section>
+<div class="toolbar"><p id="status" role="status">Consultando a cópia das fontes oficiais…</p><button id="atualizar" type="button">Atualizar painel ↻</button></div>
+<p class="notice">Atualização periódica, sujeita a atraso. Medições vencidas ficam indisponíveis. Siga os comunicados da Defesa Civil; a situação de uma estação não representa toda a cidade.</p>
+<section id="avisos"><div class="heading"><div><p class="eyebrow">INMET · MUNICÍPIO 4208203</p><h2>Avisos para Itajaí</h2></div><a href="https://avisos.inmet.gov.br/" target="_blank" rel="noopener noreferrer">Consultar INMET ↗</a></div><div id="alertas" aria-live="polite">Carregando avisos…</div></section>
+<section id="rios"><div class="heading"><div><p class="eyebrow">DEFESA CIVIL MUNICIPAL</p><h2>Como estão os rios?</h2></div><a href="https://monitoramento.defesacivil.itajai.sc.gov.br/monitoramento/rios?municipio_id=1" target="_blank" rel="noopener noreferrer">Fonte e monitoramento oficial ↗</a></div><p>Itajaí-Açu, Itajaí-Mirim e ribeirões. As cotas são referências próprias de cada estação; não compare níveis entre pontos diferentes.</p><label for="filtro">Filtrar estações <input id="filtro" type="search" placeholder="Rio, local ou código da estação"></label><div id="estacoes" class="grid" aria-live="polite">Carregando medições…</div></section>
+<section id="chuvas"><div class="heading"><div><p class="eyebrow">CHUVA OBSERVADA · MILÍMETROS</p><h2>Quanto choveu?</h2></div><a href="https://monitoramento.defesacivil.itajai.sc.gov.br/monitoramento/chuvas?municipio_id=1" target="_blank" rel="noopener noreferrer">Consultar pluviômetros ↗</a></div><div id="pluviometros" class="grid">Carregando acumulados…</div></section>
+<section class="grid resources"><article id="cameras" class="card"><p class="eyebrow">IMAGENS PÚBLICAS</p><h2>Câmeras ao vivo</h2><p class="badge">Transmissão indisponível neste painel</p><p>Nenhuma câmera com transmissão pública e permissão de incorporação foi confirmada para esta primeira versão.</p><a href="https://defesacivil.itajai.sc.gov.br/monitoramento/mapa" target="_blank" rel="noopener noreferrer">Abrir o mapa oficial de monitoramento ↗</a></article>
+<article class="card"><p class="eyebrow">DEFESA CIVIL</p><h2>Informação para agir</h2><p>Emergências: <a href="tel:199">Defesa Civil 199</a> · <a href="tel:193">Bombeiros 193</a>.</p><p>Para cadastrar alertas por SMS, envie o CEP desejado para 40199.</p><a href="https://defesacivil.itajai.sc.gov.br/" target="_blank" rel="noopener noreferrer">Comunicados, abrigos e canais oficiais ↗</a><p><a href="https://www.gov.br/anatel/pt-br/dados/utilidade-publica/alertas-de-desastres/alerta-via-sms" target="_blank" rel="noopener noreferrer">Como receber alertas oficiais ↗</a></p></article></section>
+<details class="card"><summary>Fontes, atualização e limites</summary><p>Fonte das medições: Telemetria / Defesa Civil de Itajaí. Os horários são apresentados no fuso de Brasília. A coleta municipal está programada a cada 30 minutos pelo GitHub Actions, sem garantia de pontualidade. O botão atualizar relê a cópia disponível.</p><p>Limite de validade deste painel: 90 minutos para a cópia municipal e 60 minutos para cada medição. Avisos INMET exigem cópia completa com menos de 3 horas e validade vigente. O portal não emite alertas próprios nem estima valores ausentes.</p><p>Gráficos representam o histórico recebido da fonte, sem previsão ou interpolação de medições ausentes. Tendência e situação são informadas pela fonte municipal. Ausência de aviso não significa ausência de risco.</p></details>
+</main><footer> Cidadão Agora · Serviço independente de consulta a fontes públicas. <a href="/conteudo/politica-privacidade">Privacidade</a></footer>
+</body></html>
