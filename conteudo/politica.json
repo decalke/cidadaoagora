@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-07T02:47:44.452003+00:00",
-  "total": 8,
+  "ultima_atualizacao": "2026-11-07T10:00:07.107168+00:00",
+  "total": 11,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Presidente do Senado retira proposta de redução da maioridade penal da pauta para aguardar análise da Câmara",
+      "resumo": "O presidente do Senado, Davi Alcolumbre, retirou da pauta a Proposta de Emenda à Constituição que trata da redução da maioridade penal, atendendo a um pedido da liderança da Câmara dos Deputados. O tema tramita atualmente por meio de diferentes propostas apresentadas por parlamentares e passa a ser debatido no âmbito da Câmara.",
+      "corpo_html": "<h2>Retirada de pauta e articulação política</h2><p>O presidente do Senado, Davi Alcolumbre (União-AP), retirou da pauta a Proposta de Emenda à Constituição sobre a redução da maioridade penal de 18 anos para 16 anos. A medida atendeu a um pedido formulado pelo presidente da Câmara, Hugo Motta (Republicanos-PB). Com a decisão, o Senado aguardará o andamento da discussão na Câmara dos Deputados, onde o tema será debatido em comissão especial.</p><h2>Desmembramento das propostas</h2><p>A articulação envolveu a separação do assunto em relação à PEC da Segurança Pública. A oposição tentou incluir a redução da maioridade no texto principal, mas a questão foi tratada em emendas separadas apresentadas pelos senadores Rogério Marinho (PL-RN) e Camilo Santana (PT-CE). O texto defendido por Camilo Santana fixa a idade em 16 anos para crimes hediondos, enquanto a proposta de Rogério Marinho propõe 16 anos como regra geral e 14 anos para crimes hediondos, tortura, tráfico de drogas, terrorismo e organização criminosa.</p><h2>Tramitação na Câmara dos Deputados</h2><p>Na Câmara dos Deputados, a discussão ocorre por meio da PEC 32/2015 em uma comissão especial que analisa o tema em conjunto com outras propostas similares. O texto dessa comissão estabelece a maioridade penal e civil aos 16 anos. A expectativa informada é de que o tema seja votado na Câmara e posteriormente retorne para análise dos senadores.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Alcolumbre retirou a discussão da PEC que reduzia a maioridade penal para 16 anos.</li><li>A decisão ocorreu após solicitação do presidente da Câmara dos Deputados, Hugo Motta.</li><li>O assunto foi desmembrado e tratado em propostas distintas apresentadas no Congresso.</li></ul></aside>",
+      "slug": "maioridade-penal-senado-adia-votacao-e-aguarda-definicao-da-camara-dos",
+      "pagina_local": "maioridade-penal-senado-adia-votacao-e-aguarda-definicao-da-camara-dos.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/alcolumbre-retira-maioridade-penal-da-pauta-e-vai-aguardar-camara",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-07T10:00:04.105657+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça Federal em São Paulo suspende liminar que permitia funcionamento de três casas de apostas",
+      "resumo": "A segunda instância da Justiça Federal derrubou a autorização que permitia a operação de três plataformas de apostas online pertencentes a um mesmo grupo empresarial. A medida decorre de um recurso apresentado pela Advocacia-Geral da União.",
+      "corpo_html": "<h2>Suspensão das atividades</h2><p>A Justiça Federal em São Paulo reverteu a liberação concedida anteriormente a três casas de apostas online. Com a nova determinação da segunda instância, as plataformas vinculadas à empresa CDA Gaming ficam impedidas de operar até o julgamento definitivo do processo.</p><h2>Atuação da Advocacia-Geral da União</h2><p>A mudança no cenário judicial ocorreu em decorrência de um recurso protocolado pela Advocacia-Geral da União. O órgão contestou a autorização que havia permitido o funcionamento dos sites Casa de Apostas, Betsul e Jogo Online.</p><h2>Contexto regulatório</h2><p>A determinação ocorre após o governo federal estabelecer a proibição das atividades de empresas que operam sites de apostas online no país. A restrição aos sites ligados ao grupo CDA Gaming permanece válida até que o tribunal emita uma decisão final sobre o caso.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão afeta três plataformas de apostas online.</li><li>Medida foi tomada pela segunda instância da Justiça Federal em São Paulo.</li><li>Recurso foi apresentado pela Advocacia-Geral da União.</li></ul></aside>",
+      "slug": "justica-federal-em-sao-paulo-suspende-liminar-que-permitia-funcio-d09fe0a0",
+      "pagina_local": "justica-federal-em-sao-paulo-suspende-liminar-que-permitia-funcio-d09fe0a0.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-suspende-decisao-que-liberou-o-funcionamento-de-tres-bets",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-07T09:59:50.789681+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Presidente defende responsabilidade fiscal e jurídica para atrair investimentos",
+      "resumo": "O chefe do Executivo declarou que o país necessita de estabilidade financeira e segurança jurídica para atrair capital estrangeiro. Além disso, a autoridade destacou a importância de parcerias internacionais na exploração de minerais e agradeceu aos eleitores pela participação no pleito.",
+      "corpo_html": "<h2>Atração de investimentos</h2><p>Durante reunião do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos, o presidente ressaltou que a manutenção de contas equilibradas e a seriedade institucional são fundamentais para conquistar a confiança dos mercados e incentivar aportes financeiros estrangeiros.</p><h2>Exploração mineral</h2><p>O governo manifestou o interesse em estabelecer parcerias com outros países para a exploração e a transformação de riquezas minerais, pontuando que o Estado não pretende atuar de forma isolada na condução desse processo.</p><h2>Reconhecimento aos eleitores</h2><p>O mandatário mencionou o resultado do pleito realizado em 25 de outubro e agradeceu o empenho da população, incluindo jovens e idosos, que participaram da mobilização nas ruas e nas urnas.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Defesa de uma economia previsível e organizada</li><li>Busca por parcerias internacionais em minerais críticos</li><li>Menção ao apoio popular recebido nas urnas</li></ul></aside>",
+      "slug": "lula-defende-contas-publicas-equilibradas-e-parcerias-internacionais-p",
+      "pagina_local": "lula-defende-contas-publicas-equilibradas-e-parcerias-internacionais-p.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-economia-arrumada-para-atrair-investimentos",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/comercio.webp",
+      "coletado_em": "2026-11-07T09:59:35.689322+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministério do Trabalho registra mais de 7 mil denúncias de assédio eleitoral",
       "resumo": "O Ministério do Trabalho e Emprego contabilizou mais de 7 mil relatos de assédio eleitoral no ambiente laboral. A pasta e órgãos competentes analisam as ocorrências para verificar a veracidade e aplicar as penalidades cabíveis previstas na legislação.",
