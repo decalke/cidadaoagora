@@ -6,7 +6,7 @@ Você tem permissão total para ler, criar, editar arquivos, executar comandos d
 ---
 
 ## 🛠️ AMBIENTE E ACESSOS CONFIGURADOS
-- **Raiz do Projeto:** `C:\Users\clebi\Documents\antigravity\happy-faraday`
+- **Raiz do Projeto:** `C:\Users\clebi\projetos\cidadaoagora`
 - **Repositório:** `decalke/cidadaoagora` | **Branch:** `main`
 - **Hospedagem:** Cloudflare Pages (Projeto: `cidadaoagora` | Conta: `decalke@gmail.com`)
 - **Git Credential Helper:** Configurado como `store` em `~/.git-credentials`. Todos os comandos `git pull`, `git fetch` e `git push origin main` funcionam diretamente no seu terminal sem erros de autenticação (401 resolvido).
@@ -62,3 +62,4 @@ Você tem acesso ao Cloudflare Pages via CLI para acompanhar o ciclo de vida dos
 - Robôs antigos de cópia foram desativados. A nova rotina editorial roda de hora em hora na branch padrão; o clima mantém rotina própria.
 - Autenticação deve ser verificada sem exibir chaves. Não presumir que OAuth Wrangler ou credenciais continuam válidos.
 - Antes de publicar: verificar alterações, testes adequados e backup. Commit, pull --rebase origin main, push origin main. Não apagar histórico nem executar force push.
+
