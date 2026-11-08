@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-07T20:52:34.238777+00:00",
-  "total": 14,
+  "ultima_atualizacao": "2026-11-08T00:32:05.031341+00:00",
+  "total": 16,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Receita Federal apreende drogas e medicamentos irregulares em transportadora no Rio de Janeiro",
+      "resumo": "A Receita Federal apreendeu encomendas com drogas e medicamentos controlados irregulares em um galpão na zona norte do Rio de Janeiro. A fiscalização contou com cães de faro e estimou o valor das retenções em R$ 356 mil.",
+      "corpo_html": "<h2>Ação de fiscalização</h2><p>A operação foi realizada pela Receita Federal em um galpão de transportadora situado na Pavuna, na zona norte do Rio de Janeiro. A inspeção contou com o auxílio da equipe K9, formada por cães de faro, para localizar os pacotes suspeitos. O valor estimado das retenções totaliza R$ 356 mil.</p><h2>Entorpecentes encontrados</h2><p>Os agentes identificaram encomendas com drogas escondidas no interior de capacetes como forma de burlar a fiscalização. Foram apreendidos cerca de 3.600 comprimidos de ecstasy, pesando aproximadamente 2 kg, além de 1,070 kg de skunk e 20 gramas de MDMA. Essas remessas tinham como destino os estados da Bahia, Minas Gerais e Paraíba. Os entorpecentes foram entregues às autoridades para os devidos procedimentos de investigação criminal.</p><h2>Medicamento controlado</h2><p>Além das drogas, a fiscalização reteve uma remessa contendo 246 unidades de tirzepatida, um medicamento de comercialização controlada para emagrecimento que apresentava indícios de irregularidade. O pacote tinha origem no município paulista de Barueri e como destino final o estado do Rio de Janeiro.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Apreensão ocorreu em uma transportadora na Pavuna, zona norte do Rio de Janeiro.</li><li>Materiais ilícitos estavam ocultos dentro de capacetes para evitar a fiscalização.</li><li>Destinos das remessas incluíam os estados da Bahia, Minas Gerais e Paraíba.</li></ul></aside>",
+      "slug": "receita-federal-apreende-drogas-e-medicamentos-irregulares-em-tra-a6a2027e",
+      "pagina_local": "receita-federal-apreende-drogas-e-medicamentos-irregulares-em-tra-a6a2027e.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/rio-receita-apreende-entorpecentes-em-galpao-de-transportadora",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-08T00:31:50.334950+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Proposta de mudanca no sistema eleitoral para deputado e vereador",
+      "resumo": "Lideranças partidárias na Câmara dos Deputados apresentaram uma proposta para substituir o sistema de voto proporcional pelo voto distrital misto. A mudança afetaria a eleição de deputados e vereadores, com regras de transição previstas para pleitos futuros.",
+      "corpo_html": "<h2>Funcionamento atual do sistema proporcional</h2><p>Atualmente, a escolha de deputados federais, estaduais, distritais e vereadores ocorre por meio do sistema proporcional. O cálculo utiliza o quociente eleitoral, obtido pela divisão dos votos válidos pelo número de vagas. Candidatos são eleitos conforme o desempenho de suas legendas ou federações, havendo também a exigência de que alcancem pelo menos 10% do quociente eleitoral para garantir uma cadeira.</p><h2>Estrutura do voto distrital misto</h2><p>A mudança em discussão prevê a divisão das cadeiras legislativas em dois formatos. Metade dos parlamentares seria escolhida por meio de distritos territoriais, onde vence o candidato mais votado daquela área. A outra metade seria definida por meio de listas partidárias fechadas elaboradas previamente pelos partidos e federações.</p><h2>Cronograma e articulação politica</h2><p>Articuladores da medida pretendem avançar com a Proposta de Emenda à Constituição ainda no atual ano legislativo. O cronograma inicial estabelece regras de transição para o pleito de 2030, alcançando a adoção integral do novo modelo na eleição de 2034, com diálogos previstos entre diferentes correntes partidárias.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A proposta foi apresentada por parlamentares do Centrão na Câmara dos Deputados.</li><li>O modelo misto combina votação distrital e lista partidária fechada.</li><li>A implementação completa do novo sistema está projetada para o ano de 2034.</li></ul></aside>",
+      "slug": "reforma-eleitoral-camara-articula-fim-do-sistema-proporcional-e-propoe",
+      "pagina_local": "reforma-eleitoral-camara-articula-fim-do-sistema-proporcional-e-propoe.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/entenda-diferenca-entre-o-voto-proporcional-e-o-voto-distrital-misto",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-08T00:31:37.464168+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Boletim médico aponta normalidade em exames do presidente Luiz Inácio Lula da Silva",
       "resumo": "O presidente Luiz Inácio Lula da Silva realizou exames de rotina em um hospital em São Paulo após viagem. O boletim médico divulgado informou que os resultados estão dentro da normalidade.",
