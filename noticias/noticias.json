@@ -1,7 +1,41 @@
 {
-  "ultima_atualizacao": "2026-11-08T15:07:31.195444+00:00",
-  "total": 48,
+  "ultima_atualizacao": "2026-11-08T19:40:15.242153+00:00",
+  "total": 50,
   "noticias": [
+    {
+      "titulo": "Acidente em Barra Mansa deixa dez mortos após veículo cair em lago",
+      "resumo": "Um capotamento na noite de sábado resultou na morte de cinco adultos e cinco crianças na região sul fluminense. As autoridades estaduais mobilizaram equipes de resgate e a Polícia Civil abriu investigação para apurar os fatos.",
+      "corpo_html": "<h2>Ocorrência e Resgate</h2><p>Na noite de sábado, um veículo capotou e caiu em um lago situado em Barra Mansa, no sul do estado do Rio de Janeiro. A situação mobilizou o Corpo de Bombeiros Militar, que enviou aproximadamente 30 bombeiros vindos de cinco unidades diferentes. A operação contou com o emprego de dez viaturas, uma embarcação e dois mergulhadores. Quando as equipes conseguiram retirar o automóvel, as dez pessoas que estavam a bordo já se encontravam sem vida.</p><h2>Investigação Policial</h2><p>O caso passou a ser apurado pela Polícia Civil por meio da 90ª Delegacia de Polícia localizada em Barra Mansa. Os agentes realizaram a perícia técnica no local do acidente e efetuaram a apreensão dos documentos do veículo. Em seguida, os corpos das vítimas fatais foram encaminhados ao Instituto Médico Legal localizado no município de Volta Redonda para os procedimentos cabíveis.</p><h2>Posicionamento Oficial</h2><p>Diante do ocorrido, o Governo do Estado do Rio de Janeiro divulgou uma nota oficial na qual expressa profundo pesar pelas dez mortes registradas no município. As autoridades continuam com os trabalhos de apuração para esclarecer as circunstâncias exatas que provocaram o capotamento e a queda do automóvel no lago.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Dez pessoas faleceram na ocorrência, sendo cinco adultos e cinco crianças.</li><li>O veículo envolvido capotou e caiu em um lago no município fluminense.</li><li>O Corpo de Bombeiros mobilizou cerca de 30 profissionais para o atendimento.</li></ul></aside>",
+      "slug": "acidente-em-barra-mansa-deixa-dez-mortos-apos-veiculo-cair-em-lag-730e6b5f",
+      "pagina_local": "acidente-em-barra-mansa-deixa-dez-mortos-apos-veiculo-cair-em-lag-730e6b5f.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/dez-pessoas-morrem-em-acidente-em-barra-mansa-no-rio-de-janeiro",
+      "categoria": "Brasil & cidadania",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-08T19:40:12.241738+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Aposta única de Goiânia fatura prêmio principal da Mega-Sena",
+      "resumo": "Uma aposta realizada na capital de Goiás acertou as seis dezenas do concurso recente da loteria. O próximo sorteio ocorre na terça-feira com estimativa de prêmio inicial.",
+      "corpo_html": "<h2>Resultado do concurso</h2><p>O Concurso 3.083 da Mega-Sena teve suas seis dezenas sorteadas no domingo. Os números que saíram no globo foram 22, 25, 29, 37, 46 e 54.</p><h2>Premiação e localidade</h2><p>Apenas uma aposta simples, registrada na Casa Lotérica Ponto Certo em Goiânia, acertou a combinação completa. O valor destinado ao apostador é de R$ 59.526.903,72.</p><h2>Próxima extração</h2><p>O próximo concurso da modalidade está marcado para terça-feira, dia 10. A estimativa inicial para o prêmio principal é de R$ 3,5 milhões, com possibilidade de registro de bilhetes até as 20h nos canais oficiais.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Aposta ganhadora foi feita na modalidade simples em Goiânia</li><li>Prêmio pago ao vencedor totaliza mais de cinquenta e nove milhões de reais</li><li>Próximo sorteio da modalidade está agendado para terça-feira</li></ul></aside>",
+      "slug": "aposta-unica-de-goiania-fatura-premio-principal-da-mega-sena-855b7801",
+      "pagina_local": "aposta-unica-de-goiania-fatura-premio-principal-da-mega-sena-855b7801.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/aposta-de-goiania-leva-premio-da-mega-sena-veja-dezenas-sorteadas",
+      "categoria": "Brasil & cidadania",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-08T19:40:06.568790+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Rio de Janeiro registra chuvas intensas e rajadas de vento neste sábado",
       "resumo": "O estado do Rio de Janeiro foi atingido por chuvas moderadas a fortes e rajadas de vento, com previsão de continuidade até o domingo. Órgãos estaduais intensificaram o monitoramento e o atendimento de ocorrências em todo o território fluminense.",
