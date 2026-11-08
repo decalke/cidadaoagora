@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-08T19:40:15.244278+00:00",
-  "total": 21,
+  "ultima_atualizacao": "2026-11-08T23:41:31.510384+00:00",
+  "total": 23,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Justiça do Rio converte em preventiva a prisão de lutador acusado de agressões na Tijuca",
+      "resumo": "A Justiça fluminense converteu em preventiva a prisão temporária de um lutador de jiu-jitsu apontado por invadir imóveis e atacar duas vizinhas em um prédio residencial na Tijuca. O homem responde por tentativa de feminicídio, lesão corporal, invasão de domicílio e resistência à prisão.",
+      "corpo_html": "<h2>Conversão da Prisão</h2><p>A Justiça do Rio de Janeiro determinou a conversão da prisão temporária para preventiva do lutador de jiu-jitsu Lucas Portela Fontana Gomes, de 32 anos. A magistrada responsável apontou que a continuidade da medida é necessária para o andamento do mandado expedido pelo Plantão Judiciário do Tribunal de Justiça. O morador é acusado de tentativa de feminicídio, lesão corporal, invasão de domicílio e resistência à prisão após ocorrência registrada na madrugada de uma quinta-feira.</p><h2>Investigação e Relato Policial</h2><p>Conforme o registro policial, o suspeito arrombou a porta de uma moradora de 81 anos e a agrediu com socos, causando traumatismo cranioencefálico e perda de consciência. Outra vizinha, de 40 anos, foi atacada com dezenas de golpes ao sair do elevador após ouvir pedidos de socorro, sofrendo agressões físicas e ameaças de morte antes de conseguir escapar com a ajuda do porteiro do prédio. Em depoimento prestado às autoridades, o investigado afirmou fazer uso de maconha, cocaína, antidepressivos e anabolizantes.</p><h2>Abordagem e Atendimento</h2><p>Policiais militares e agentes da guarda municipal foram acionados para conter o indivíduo no local. Durante a ação, houve resistência e luta corporal, e o homem tentou retirar a arma de um policial militar. Os agentes dispararam contra o agressor, atingindo-o nas pernas e no pé, o que permitiu a sua imobilização. A vítima de 40 anos recebeu atendimento do Corpo de Bombeiros, foi levada ao Hospital Municipal Souza Aguiar, medicada e liberada.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A prisão temporária do lutador foi convertida em preventiva por decisão judicial.</li><li>O investigado é acusado de invadir residências e agredir duas vizinhas durante a madrugada.</li><li>O suspeito resistiu à abordagem policial e acabou baleado e imobilizado.</li></ul></aside>",
+      "slug": "justica-do-rio-converte-em-preventiva-a-prisao-de-lutador-acusado-ee7655cc",
+      "pagina_local": "justica-do-rio-converte-em-preventiva-a-prisao-de-lutador-acusado-ee7655cc.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-do-rj-mantem-prisao-de-lutador-que-agrediu-vizinhas",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-08T23:41:16.462676+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Polícia Federal investiga ameaças contra a deputada federal eleita Ana Elisa",
+      "resumo": "A Polícia Federal abriu investigação sobre as ameaças de morte e ofensas racistas recebidas pela deputada federal eleita Ana Elisa Santos Silva. O caso é conduzido em Minas Gerais com apoio técnico especializado e cooperação policial internacional.",
+      "corpo_html": "<h2>Investigação em andamento</h2><p>A Polícia Federal informou que apura as ameaças divulgadas pela parlamentar eleita. O trabalho investigativo inclui diligências especializadas e pedidos de cooperação policial internacional para identificar os responsáveis pelas mensagens.</p><h2>Relato da parlamentar</h2><p>Em vídeo publicado em redes sociais, a deputada relatou ter perdido a liberdade após vencer a eleição. Segundo o material divulgado, os e-mails recebidos continham declarações racistas e descrições sobre a execução dos crimes.</p><h2>Atuação das autoridades</h2><p>O caso é apurado pela delegacia da Polícia Federal em Divinópolis, no estado de Minas Gerais, com o suporte técnico da Diretoria de Combate a Crimes Cibernéticos. Detalhes adicionais não foram divulgados devido ao sigilo das apurações.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A deputada relatou em vídeo que recebeu mensagens com ameaças de morte e injúrias racistas.</li><li>As apurações estão sob responsabilidade da Polícia Federal em Divinópolis e contam com cooperação internacional.</li><li>A Operação Aggregatio, realizada em outubro de 2026, utilizou técnicas digitais para identificar autores de crimes virtuais contra autoridades.</li></ul></aside>",
+      "slug": "policia-federal-investiga-ameacas-contra-a-deputada-federal-eleit-2be15ce7",
+      "pagina_local": "policia-federal-investiga-ameacas-contra-a-deputada-federal-eleit-2be15ce7.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/pf-investiga-ameacas-recebidas-pela-deputada-eleita-ana-elisa",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-08T23:41:05.022313+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Responsabilidade por dividas e regras de inventario apos falecimento",
       "resumo": "As dividas deixadas por uma pessoa falecida sao pagas exclusivamente com o patrimonio do espolio, sem comprometer os bens pessoais dos herdeiros. O processo de inventario possui prazos legais e regras especificas que envolvem a quitacao de obrigacoes e o pagamento de impostos.",
