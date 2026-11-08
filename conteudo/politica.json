@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-08T00:32:05.031341+00:00",
-  "total": 16,
+  "ultima_atualizacao": "2026-11-08T07:17:23.021074+00:00",
+  "total": 20,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,74 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Participantes de evento em Brasília debatem estratégias para ampliar a presença feminina no poder",
+      "resumo": "Comunicadoras e especialistas reunidas em conferência internacional destacaram a importância da articulação em rede e do combate à desinformação para ampliar a participação das mulheres nos espaços de poder. O evento abordou caminhos para uma justiça mais igualitária e a superação de barreiras culturais.",
+      "corpo_html": "<h2>Articulação e histórico</h2><p>Durante a conferência internacional “Mulheres que movem a justiça”, realizada em Brasília, participantes defenderam a formação de redes de apoio. Foi relembrada a mobilização suprapartidária conhecida como “lobby do batom”, ocorrida durante a Assembleia Nacional Constituinte de 1987-1988, que garantiu diversos direitos ainda vigentes.</p><h2>Desafios no Judiciario e na comunicação</h2><p>O evento abordou a previsão de que pelo menos 40% dos cargos vitalícios serão nomeados na próxima década, o que pode ampliar a presença feminina no Judiciário. Foi apontada a necessidade de combater mensagens misóginas e a desinformação disseminada por grupos radicais, além da importância de o sistema de justiça tratar denúncias de forma adequada.</p><h2>Direitos e conscientização cultural</h2><p>Diferentes profissionais compartilharam iniciativas voltadas para a educação jurídica e a valorização do trabalho doméstico e familiar no contexto de divórcios. Defendeu-se a necessidade de reconhecer o machismo como elemento cultural a ser enfrentado com informações objetivas e apoio mútuo entre as mulheres.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A união de mulheres em redes de apoio foi apontada como estratégia essencial para a sobrevivência e o combate ao machismo.</li><li>A renovação de cargos vitalícios na próxima década foi citada como oportunidade para a ocupação feminina no Judiciário.</li><li>Especialistas apontaram que a desinformação e mensagens misóginas devem ser combatidas por profissionais da comunicação.</li></ul></aside>",
+      "slug": "participantes-de-evento-em-brasilia-debatem-estrategias-para-ampl-ddc78e16",
+      "pagina_local": "participantes-de-evento-em-brasilia-debatem-estrategias-para-ampl-ddc78e16.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/mulheres-defendem-articulacao-em-rede-para-ampliar-participacao",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/comercio.webp",
+      "coletado_em": "2026-11-08T07:17:20.018961+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Ministério Público denuncia médica no Rio de Janeiro por morte após procedimento estético",
+      "resumo": "A profissional foi denunciada pelo Ministério Público do Estado do Rio de Janeiro após o falecimento de uma paciente decorrente de uma cirurgia estética. A Justiça determinou a suspensão imediata do exercício da medicina pela acusada.",
+      "corpo_html": "<h2>Detalhes da denúncia</h2><p>O Ministério Público do Estado do Rio de Janeiro apresentou denúncia contra a médica Geysa Leal Correa relacionada à morte de Aline Heloisa Lima Santos de Oliveira. O procedimento cirúrgico ocorreu no Centro Médico Icaraí, situado no município de São Gonçalo. Conforme o relato ministerial, a paciente sofreu perfurações no intestino em três pontos distintos durante a intervenção.</p><h2>Evolução do caso e atendimento</h2><p>Após a cirurgia, a paciente relatou dores fortes e dificuldades respiratórias, mas os sintomas foram desconsiderados pela profissional. A transferência para outra unidade hospitalar ocorreu apenas no dia seguinte devido à piora do estado clínico. A paciente faleceu em 22 de novembro de 2023 em decorrência de infecção generalizada.</p><h2>Medidas judiciais e histórico</h2><p>O processo foi aceito pelo juízo da 4ª Vara Criminal da Comarca de São Gonçalo, que ordenou a interrupção das atividades médicas da acusada. A acusação aponta que a profissional não possuía titulação em cirurgia plástica e que o estabelecimento não contava com infraestrutura para emergências. A promotoria também registrou antecedentes envolvendo outros óbitos e complicações graves em procedimentos anteriores.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A paciente passou por uma cirurgia de lipoescultura em 13 de novembro de 2023.</li><li>A investigação aponta perfuração intestinal e falta de recursos adequados no local.</li><li>A Justiça determinou a suspensão imediata da atuação profissional da médica.</li></ul></aside>",
+      "slug": "justica-suspende-medica-apos-morte-de-paciente-decorrente-de-lipoescul",
+      "pagina_local": "justica-suspende-medica-apos-morte-de-paciente-decorrente-de-lipoescul.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/medica-e-denunciada-justica-apos-morte-de-paciente-em-lipoescultura",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-08T07:16:55.869041+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça Federal concede liminar para funcionamento de três casas de apostas",
+      "resumo": "O Tribunal Regional Federal da 3ª Região autorizou por meio de liminar o retorno das atividades de três plataformas de apostas pertencentes à empresa CDA Gaming. A decisão atende a um pedido formal da companhia e suspende temporariamente os efeitos da proibição governamental para o grupo.",
+      "corpo_html": "<h2>Autorização judicial</h2><p>A desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região, em São Paulo, concedeu uma liminar que permite a retomada das operações das plataformas Casa de Apostas, Betsul e Jogo Online. A autorização beneficia exclusivamente a empresa CDA Gaming LTDA, mantendo a interrupção para as demais companhias do setor até novas deliberações.</p><h2>Argumentação e impactos</h2><p>No pedido apresentado à Justiça, a defesa apontou que a empresa possui autorização onerosa válida até 31 de dezembro de 2029, após o pagamento de R$ 30 milhões. A magistrada apontou potencial prejuízo com a interrupção repentina dos serviços e mencionou que a medida do governo federal poderia gerar impactos nas relações contratuais.</p><h2>Contexto das restrições</h2><p>O governo federal havia estabelecido a interrupção das operações de apostas em todo o país devido a preocupações com o endividamento das famílias. A Advocacia-Geral da União declarou que pretende recorrer da decisão liminar atual. O tema também é debatido em outras instâncias, como no Supremo Tribunal Federal.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão do TRF-3 beneficia as plataformas Casa de Apostas, Betsul e Jogo Online.</li><li>A Advocacia-Geral da União informou que vai recorrer da medida judicial.</li><li>A empresa alegou o pagamento prévio de R$ 30 milhões para exploração da atividade.</li></ul></aside>",
+      "slug": "justica-derruba-liminarmente-proibicao-para-tres-casas-de-apostas-liga",
+      "pagina_local": "justica-derruba-liminarmente-proibicao-para-tres-casas-de-apostas-liga.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-autoriza-volta-do-funcionamento-de-tres-bets-no-brasil",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-08T07:16:49.286244+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça Eleitoral disponibiliza atendimento remoto com intérpretes de Libras",
+      "resumo": "O Tribunal Superior Eleitoral lançou uma plataforma digital para mediar a comunicação por videochamada entre eleitores com deficiência auditiva e servidores públicos. O serviço abrange tribunais de todo o país e brasileiros no exterior, oferecendo também a opção de atendimento presencial equipado nas unidades.",
+      "corpo_html": "<h2>Funcionamento da plataforma</h2><p>A ferramenta permite a comunicação por videochamada ou mensagens de texto por meio de bate-papo on-line. Um intérprete traduz a Língua Brasileira de Sinais para o português durante o atendimento prestado pelos servidores da Justiça Eleitoral. O acesso pode ocorrer por computadores, tablets ou celulares, utilizando link, QR Code ou aplicativo específico.</p><h2>Acesso e infraestrutura</h2><p>O serviço conta com internet patrocinada, possibilitando a realização de videochamadas sem deduzir a franquia de dados móveis mediante a instalação prévia do aplicativo ICON. Unidades presenciais e a Ouvidoria dos tribunais regionais possuem equipamentos para conectar os usuários à central, servindo também para quem comparecer sem dispositivos próprios.</p><h2>Público e abrangência</h2><p>A iniciativa alcança o TSE, os 27 tribunais regionais eleitorais e eleitores residentes no exterior durante o horário regular de funcionamento. Dados apontam que o país possui mais de 2 milhões de pessoas surdas ou com deficiência auditiva, sendo que aproximadamente 182,3 mil eleitores cadastrados possuem essa deficiência.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Lançamento da Central de Intermediação em Libras pelo TSE.</li><li>Atendimento disponível nos 27 TREs, no TSE e para brasileiros no exterior.</li><li>Plataforma acessível por videochamada e mensagens de texto.</li></ul></aside>",
+      "slug": "justica-eleitoral-disponibiliza-atendimento-remoto-com-interprete-d9cedd8d",
+      "pagina_local": "justica-eleitoral-disponibiliza-atendimento-remoto-com-interprete-d9cedd8d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-eleitoral-tera-atendimento-remoto-em-libras",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-08T07:16:42.873654+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Receita Federal apreende drogas e medicamentos irregulares em transportadora no Rio de Janeiro",
       "resumo": "A Receita Federal apreendeu encomendas com drogas e medicamentos controlados irregulares em um galpão na zona norte do Rio de Janeiro. A fiscalização contou com cães de faro e estimou o valor das retenções em R$ 356 mil.",
