@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-09T06:15:41.102358+00:00",
-  "total": 25,
+  "ultima_atualizacao": "2026-11-09T17:26:40.943825+00:00",
+  "total": 27,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministro do Supremo Tribunal Federal suspende punição aplicada pelo CNJ a juíza federal",
+      "resumo": "O ministro Luiz Fux suspendeu a decisão do Conselho Nacional de Justiça que afastava a juíza federal Gabriela Hardt de suas funções. A medida liminar restabelece os vencimentos integrais da magistrada e garante seu retorno às atividades após o término de sua licença médica.",
+      "corpo_html": "<h2>Motivos da Suspensão</h2><p>O ministro Luiz Fux fundamentou a suspensão da penalidade na ocorrência da prescrição da pretensão punitiva. Segundo a análise, o Conselho Nacional de Justiça ultrapassou o limite temporal de cinco anos entre a ciência inicial da conduta apurada e a abertura formal do Processo Administrativo Disciplinar. A decisão aponta ainda que a legislação veda punições a magistrados baseadas unicamente em divergências de interpretação legal que devam ser revistas por instâncias recursais superiores.</p><h2>Origem do Processo</h2><p>A investigação disciplinar teve como foco a homologação de um acordo firmado em 2019 entre a força-tarefa da Operação Lava Jato e a Petrobras. O pacto previa a destinação de valores recuperados a um fundo voltado ao combate à corrupção. A tramitação do caso no Conselho Nacional de Justiça avançou após diligências de correição realizadas em Curitiba, culminando na condenação da juíza ao regime de disponibilidade com vencimentos proporcionais em agosto do ano corrente.</p><h2>Efeitos da Medida Cautelar</h2><p>Com a decisão provisória proferida no Supremo Tribunal Federal, a juíza federal volta a receber seus salários de forma integral, além de reaver gratificações e benefícios que haviam sido cortados. Atualmente em licença médica, a magistrada poderá retornar ao exercício de suas funções na 23ª Vara Federal em Curitiba assim que o afastamento de saúde for encerrado, mantendo-se a determinação até a análise definitiva do mandado de segurança.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão do STF suspende afastamento de dois anos imposto pelo Conselho Nacional de Justiça.</li><li>Ministro apontou extrapolação do prazo prescricional entre o conhecimento dos fatos e a abertura de processo.</li><li>Magistrada recupera o direito aos vencimentos integrais e benefícios do cargo.</li></ul></aside>",
+      "slug": "ministro-do-supremo-tribunal-federal-suspende-punicao-aplicada-pe-b30ef542",
+      "pagina_local": "ministro-do-supremo-tribunal-federal-suspende-punicao-aplicada-pe-b30ef542.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fux-suspende-afastamento-de-juiza-da-lava-jato-punida-pelo-cnj",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-09T17:26:24.225032+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Relator apresenta diretrizes de proposta para transição ao sistema de voto distrital misto",
+      "resumo": "O deputado Domingos Neto apresentou as diretrizes de uma proposta para alterar o atual sistema proporcional de votação para o modelo distrital misto no país. O objetivo é votar a mudança no ano corrente, com implementação prevista para eleições municipais e gerais futuras.",
+      "corpo_html": "<h2>Diretrizes e cronograma</h2><p>O relator apresentou as novas regras na Associação Comercial de São Paulo. A intenção é que a votação ocorra no ano corrente. A implementação do novo sistema está projetada para as eleições municipais e para as eleições gerais. Uma regra de transição para votações anteriores ainda está em debate pelos parlamentares.</p><h2>Funcionamento do voto</h2><p>O projeto estabelece um voto único para o eleitor, que servirá tanto para candidatos do distrito quanto para a lista partidária. As vagas de lista fechada serão definidas com base no somatório dos votos que cada partido obtiver em todos os distritos do estado. Municípios com mais de 200 mil eleitores adotariam o modelo, enquanto os demais manteriam a votação proporcional.</p><h2>Critérios e regras dos distritos</h2><p>Para evitar a manipulação de limites territoriais, os distritos deverão ser definidos com base em dados do censo, permitindo variação de 5% a 10% no total de eleitores entre os territórios. Os distritos devem ser contínuos e respeitar limites municipais. A lista fechada dos partidos também incluirá regras para intercalar a participação de homens e mulheres.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A proposta prevê voto único por eleitor para o sistema distrital e de lista partidária.</li><li>A mudança afeta a Câmara Federal, assembleias estaduais e distrital, além de câmaras de vereadores.</li><li>Municípios com mais de 200 mil eleitores seriam submetidos ao sistema distrital misto.</li></ul></aside>",
+      "slug": "relator-apresenta-diretrizes-de-proposta-para-transicao-ao-sistem-f4c768da",
+      "pagina_local": "relator-apresenta-diretrizes-de-proposta-para-transicao-ao-sistem-f4c768da.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-do-distrital-misto-propoe-voto-unico-para-distrital-e-lista",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-09T17:26:10.667267+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Articulações no Senado Antecipam Disputa Pela Presidência da Casa em 2027",
       "resumo": "A oposição no Senado Federal iniciou articulações para lançar candidaturas à presidência da Casa para a próxima legislatura. O pleito ocorre no dia 1 de fevereiro de 2027, data que marca a posse dos parlamentares.",
