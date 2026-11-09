@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-08T23:41:31.510384+00:00",
-  "total": 23,
+  "ultima_atualizacao": "2026-11-09T06:15:41.102358+00:00",
+  "total": 25,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Articulações no Senado Antecipam Disputa Pela Presidência da Casa em 2027",
+      "resumo": "A oposição no Senado Federal iniciou articulações para lançar candidaturas à presidência da Casa para a próxima legislatura. O pleito ocorre no dia 1 de fevereiro de 2027, data que marca a posse dos parlamentares.",
+      "corpo_html": "<h2>Articulação da Oposição</h2><p>A menos de três meses da posse dos parlamentares eleitos, marcada para o dia 1 de fevereiro de 2027, o campo oposicionista no Senado Federal movimenta-se para apresentar candidaturas competitivas. O resultado das urnas garantiu ao Partido Liberal a maior bancada, com 29 integrantes, contando com o apoio de legendas alinhadas ao bolsonarismo para fazer frente à tentativa de reeleição do atual presidente.</p><h2>Candidaturas Declaradas</h2><p>O Partido Liberal oficializou a indicação do atual líder da oposição, Rogério Marinho, após reunião com parlamentares. A senadora Tereza Cristina também manifestou intenção de concorrer ao cargo, afirmando que a direita terá um único candidato escolhido por estratégia e diálogo entre os aliados do mesmo campo político, negando divisão interna.</p><h2>Cenário da Situação</h2><p>Do lado governista, o atual presidente do Senado ainda não formalizou sua candidatura, embora ela seja considerada certa. A disputa na Casa legislativa ocorrerá no mesmo dia em que os novos parlamentares tomam posse e definem a nova composição diretiva.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O Partido Liberal contará com a maior bancada no Senado, totalizando 29 integrantes.</li><li>Rogério Marinho e Tereza Cristina colocaram seus nomes como opções da oposição para o comando da Casa.</li><li>A eleição para a presidência do Senado acontece no mesmo dia da posse dos parlamentares em 1 de fevereiro de 2027.</li></ul></aside>",
+      "slug": "articulacoes-no-senado-antecipam-disputa-pela-presidencia-da-casa-c8f62bdc",
+      "pagina_local": "articulacoes-no-senado-antecipam-disputa-pela-presidencia-da-casa-c8f62bdc.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/movimentacoes-no-senado-antecipam-disputa-pelo-comando-da-casa-em-2027",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-09T06:15:38.099840+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Presidente realiza pronunciamento sobre economia, segurança e reformas",
+      "resumo": "Em pronunciamento transmitido na noite de domingo (8), o presidente Luiz Inácio Lula da Silva reafirmou o compromisso com a responsabilidade fiscal e anunciou propostas para a segurança e a economia. O discurso de aproximadamente sete minutos abordou investimentos, reformas institucionais e ações direcionadas ao bem-estar social.",
+      "corpo_html": "<h2>Diretrizes econômicas e investimentos</h2><p>Durante a mensagem de sete minutos transmitida na noite de domingo (8), o presidente Luiz Inácio Lula da Silva destacou a intenção de elevar os investimentos públicos para 20% do Produto Interno Bruto (PIB), reforçando o respeito às regras fiscais vigentes. O chefe do Poder Executivo expressou preocupação com a trajetória da dívida pública e os juros elevados, apontando a necessidade de gerar condições para a redução das taxas com foco no estímulo aos microempreendedores individuais e à economia popular. Além disso, mencionou parcerias com o setor empresarial para impulsionar a economia criativa, digital e verde, visando a abertura de mercados internacionais.</p><h2>Propostas fiscais, sociais e institucionais</h2><p>No âmbito social e tributário, o pronunciamento indicou ações imediatas, entre elas a extinção de impostos incidentes sobre os itens da cesta básica e o envio de proposta ao Congresso Nacional para zerar a tarifa do transporte público aos finais de semana. O presidente defendeu também a urgência de debates sobre reformas na estrutura política e no Poder Judiciário, enfatizando a importância de ter magistrados isentos e éticos no combate à corrupção, sonegadores e crime organizado. O discurso incluiu ainda atenção às políticas voltadas à proteção de crianças, jovens e idosos.</p><h2>Segurança pública e contexto eleitoral</h2><p>Em relação à segurança pública, foi anunciada a criação do Ministério da Segurança Pública por meio de Medida Provisória, convidando estados e municípios a atuarem de forma integrada contra facções criminosas, milícias e violência contra mulheres e meninas. Ao fazer o balanço do processo eleitoral, o presidente agradeceu o apoio de jovens e idosos nas urnas, criticou a disseminação de conteúdos falsos pelas Big Techs e afirmou que a nação não é local para quem se esquiva de responsabilidades, em referência ao seu opositor no pleito, o senador Flávio Bolsonaro. Por fim, defendeu a construção de pontes para assegurar estabilidade institucional.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Compromisso de elevar os investimentos públicos para 20% do Produto Interno Bruto (PIB) mantendo a responsabilidade fiscal.</li><li>Proposição de criação do Ministério da Segurança Pública por meio de Medida Provisória para integração no combate ao crime.</li><li>Apresentação de medidas econômicas como a isenção de imposto na cesta básica e gratuidade do transporte público nos fins de semana.</li></ul></aside>",
+      "slug": "presidente-realiza-pronunciamento-sobre-economia-seguranca-e-refo-8923e56b",
+      "pagina_local": "presidente-realiza-pronunciamento-sobre-economia-seguranca-e-refo-8923e56b.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-busca-conciliacao-e-se-compromete-com-responsabilidade-fiscal",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/economia.webp",
+      "coletado_em": "2026-11-09T06:15:31.962335+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.6-flash",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Justiça do Rio converte em preventiva a prisão de lutador acusado de agressões na Tijuca",
       "resumo": "A Justiça fluminense converteu em preventiva a prisão temporária de um lutador de jiu-jitsu apontado por invadir imóveis e atacar duas vizinhas em um prédio residencial na Tijuca. O homem responde por tentativa de feminicídio, lesão corporal, invasão de domicílio e resistência à prisão.",
