@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-10T01:30:10.996521+00:00",
-  "total": 29,
+  "ultima_atualizacao": "2026-11-10T09:45:15.329379+00:00",
+  "total": 32,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Procuradoria-Geral da República solicita encerramento de inquérito no Supremo",
+      "resumo": "A Procuradoria-Geral da República solicitou ao Supremo Tribunal Federal o encerramento definitivo da investigação conhecida como inquérito das fake news. O pedido foi enviado de maneira sigilosa ao presidente da corte, ministro Edson Fachin.",
+      "corpo_html": "<h2>Solicitação de encerramento</h2><p>A Procuradoria-Geral da República apresentou ao Supremo Tribunal Federal um pedido para o arquivamento definitivo do inquérito das fake news. Segundo o entendimento do órgão, a investigação já cumpriu o objetivo para o qual foi criada. A solicitação foi encaminhada de forma sigilosa ao presidente do tribunal, ministro Edson Fachin, e não existe um prazo estabelecido para que ocorra uma decisão.</p><h2>Histórico da investigação</h2><p>O inquérito foi aberto em março de 2019 pelo então presidente do STF, ministro Dias Toffoli, com a justificativa de combater a veiculação de notícias capazes de atingir a honorabilidade e a segurança da corte, de seus integrantes e de seus parentes. No mês passado, o ministro Edson Fachin retirou a relatoria do caso do ministro Alexandre de Moraes.</p><h2>Próximos passos no tribunal</h2><p>Em outubro, o presidente do Supremo afirmou que tem a intenção de encerrar todo o inquérito. A concretização da medida depende da verificação de pendências e de eventuais solicitações de diligências direcionadas à PGR e à Polícia Federal. Atualmente, foram identificados 108 procedimentos investigatórios que mantêm vínculo com este inquérito.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pedido de arquivamento foi protocolado pela PGR nesta segunda-feira (9)</li><li>Documento foi enviado sem divulgação de detalhes adicionais</li><li>Presidente do STF identificou 108 procedimentos investigatórios vinculados ao caso</li></ul></aside>",
+      "slug": "procuradoria-geral-da-republica-solicita-encerramento-de-inquerit-e41f1539",
+      "pagina_local": "procuradoria-geral-da-republica-solicita-encerramento-de-inquerit-e41f1539.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-pede-ao-supremo-arquivamento-do-inquerito-das-fake-news",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T09:45:12.327218+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça Federal suspende norma sobre cartões de vale-refeição e vale-alimentação",
+      "resumo": "A Justiça Federal determinou a suspensão das novas regras governamentais que ampliavam a aceitação de cartões de vale-refeição e vale-alimentação nas máquinas de pagamento. Com a medida, as normas anteriores voltam a vigorar e a União tem a possibilidade de recorrer.",
+      "corpo_html": "<h2>Contexto da suspensão</h2><p>A Justiça Federal determinou a suspensão das normas editadas pelo governo federal para ampliar a aceitação de cartões de vale-refeição e vale-alimentação no comércio. As alterações haviam entrado em vigor no último sábado e o retorno aos critérios anteriores ocorre por determinação judicial.</p><h2>Origem da ação</h2><p>A medida judicial decorre de uma ação protocolada pela Associação Brasileira das Empresas de Benefícios ao Trabalhador. O magist responsável entendeu que o Poder Executivo excedeu sua competência legal ao determinar um sistema aberto sem previsão na lei original do programa.</p><h2>Desdobramentos</h2><p>Com a invalidação temporária da mudança, restabelecem-se as restrições anteriores quanto à quantidade de terminais de pagamento aptos a processar os benefícios. A União tem direito de interpor recurso contra a sentença proferida pela 22ª Vara Federal Cível.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão foi proferida nesta segunda-feira</li><li>Ação judicial foi movida pela ABBT</li><li>Normas anteriores voltam a valer temporariamente</li></ul></aside>",
+      "slug": "justica-federal-suspende-norma-sobre-cartoes-de-vale-refeicao-e-v-57e16d9d",
+      "pagina_local": "justica-federal-suspende-norma-sobre-cartoes-de-vale-refeicao-e-v-57e16d9d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-suspende-regra-que-ampliou-aceitacao-de-vr-e-va-em-maquininhas",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T09:43:25.805655+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal determina o arquivamento do inquérito das Fake News",
+      "resumo": "O presidente do STF, ministro Edson Fachin, ordenou o encerramento definitivo da investigação após solicitação da Procuradoria-Geral da República. A medida preserva a validade de procedimentos anteriores e de investigações autônomas derivadas.",
+      "corpo_html": "<h2>Determinação da corte</h2><p>O presidente do Supremo Tribunal Federal, ministro Edson Fachin, determinou o encerramento definitivo do inquérito das Fake News nesta segunda-feira (9). A ordem atendeu a uma solicitação apresentada pela Procuradoria-Geral da República, que entendeu que a apuração já cumpriu seus objetivos.</p><h2>Manutenção de atos anteriores</h2><p>A resolução estabelece que o encerramento não invalida os procedimentos investigatórios executados desde a criação da investigação em 2019. As ações penais decorrentes das apurações continuam válidas, assim como as frentes investigativas autônomas que já estão em curso.</p><h2>Fundamentação da medida</h2><p>Ao proferir a decisão, o ministro argumentou que o procedimento não pode prosseguir por tempo indeterminado. Segundo a manifestação, falta base para manter a investigação matriz funcionando indefinidamente como eixo central para novas linhas investigativas sem uma reavaliação objetiva.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pedido de arquivamento foi apresentado pela Procuradoria-Geral da República.</li><li>Decisão mantém válidas as ações penais e investigações autônomas em andamento.</li><li>Ministro destacou que investigações não devem tramitar de maneira perpétua.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-determina-o-arquivamento-do-inquerito-da-da3f87cd",
+      "pagina_local": "supremo-tribunal-federal-determina-o-arquivamento-do-inquerito-da-da3f87cd.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-ministro-fachin-arquiva-inquerito-das-fake-news",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T09:42:36.774198+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Judiciario e MPU solicitam recursos para quitacao de beneficios",
       "resumo": "O Poder Judiciario e o Ministerio Publico da Uniao comunicaram a necessidade de creditos adicionais para custear beneficios autorizados. A situacao foi levada ao Supremo Tribunal Federal pela Advocacia-General da Uniao diante da ausencia de previsao orcamentaria.",
