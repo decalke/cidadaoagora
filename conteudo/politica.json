@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-10T09:45:15.329379+00:00",
-  "total": 32,
+  "ultima_atualizacao": "2026-11-10T23:15:55.007388+00:00",
+  "total": 34,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Defesa de Daniel Vorcaro solicita nova análise de soltura ao STF e recorre à CIDH",
+      "resumo": "A defesa do ex-banqueiro Daniel Vorcaro pediu ao presidente do Supremo Tribunal Federal que envie um novo pleito de liberdade para decisão do ministro mais antigo da Corte. Simultaneamente, os advogados protocolaram petição na Corte Interamericana de Direitos Humanos solicitando a soltura imediata do investigado.",
+      "corpo_html": "<h2>Ações no Supremo Tribunal Federal</h2><p>A defesa solicitou ao presidente da Corte que encaminhe um novo pedido de soltura para deliberação do ministro mais antigo do tribunal. Os advogados também protocolaram um agravo regimental questionando a decisão que concentrou na presidência a competência para julgar medidas urgentes relativas à investigação.</p><h2>Recurso internacional</h2><p>Em paralelo aos procedimentos internos, a defesa ingressou com uma petição na Corte Interamericana de Direitos Humanos. O argumento central é de que a condução atual do processo afronta preceitos internacionais e constitucionais sobre a definição prévia de competência de magistrados para casos criminais.</p><h2>Contexto da prisão e investigações</h2><p>O investigado está sob custódia preventiva desde março na unidade prisional Papudinha, localizada no Distrito Federal. As apurações em andamento envolvem suspeitas de fraudes financeiras de grande proporção e corrupção de agentes públicos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pedido de soltura foi direcionado para avaliação do decano do Supremo Tribunal Federal.</li><li>Defesa acionou a Corte Interamericana de Direitos Humanos com alegação de violação ao princípio do juiz natural.</li><li>Ex-banqueiro está preso preventivamente desde o mês de março no Distrito Federal.</li></ul></aside>",
+      "slug": "defesa-de-daniel-vorcaro-solicita-nova-analise-de-soltura-ao-stf--56b75a40",
+      "pagina_local": "defesa-de-daniel-vorcaro-solicita-nova-analise-de-soltura-ao-stf--56b75a40.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/defesa-de-vorcaro-reforca-pedido-de-soltura-no-stf",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T23:15:52.004701+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Ministro Flávio Dino conduz audiência sobre aplicação da escala de dois dias de descanso",
+      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal, declarou que a audiência de conciliação sobre a escala 5x2 serve para debater a implementação da medida e não o seu mérito político. A sessão busca mapear controvérsias e debater prazos e regras levantadas por entidades setoriais e sindicais.",
+      "corpo_html": "<h2>Objetivo da audiência</h2><p>Durante a abertura da sessão, o ministro Flávio Dino afirmou que o intuito não é rediscutir o mérito da política pública, competência atribuída ao Congresso Nacional. A finalidade do encontro é listar as controvérsias referentes à execução prática da Emenda Constitucional que trata do repouso semanal e da alteração de jornadas.</p><h2>Ações e questionamentos setoriais</h2><p>A Confederação Nacional do Comércio de Bens, Serviços e Turismo e a Confederação Nacional da Indústria ajuizaram ações diretas de inconstitucionalidade pedindo a suspensão da medida. As entidades apontaram o receio de falta de tempo para que setores e sindicatos firmem acordos para a transição das jornadas semanais e a ampliação dos dias de descanso.</p><h2>Flexibilização e negociação</h2><p>Participam da audiência 21 entidades representativas. Entre os debates, apontou-se a necessidade de flexibilizar regras de compensação de folgas para atividades específicas, como na exploração petrolífera, onde trabalhadores atuam embarcados por períodos superiores a cinco dias. O relator indicou que decidirá sobre a flexibilização por negociação coletiva nos próximos dias.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Sessão no Supremo Tribunal Federal foca na aplicação da Emenda Constitucional da escala 5x2.</li><li>Ações diretas de inconstitucionalidade foram apresentadas pela CNC e CNI.</li><li>Ministro indicou que o limitador mensal ou semanal poderá ser flexibilizado por negociação coletiva.</li></ul></aside>",
+      "slug": "ministro-flavio-dino-conduz-audiencia-sobre-aplicacao-da-escala-d-e9a47121",
+      "pagina_local": "ministro-flavio-dino-conduz-audiencia-sobre-aplicacao-da-escala-d-e9a47121.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/dino-audiencia-e-sobre-aplicacao-de-5x2-e-nao-para-questionar-medida",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T23:14:45.629453+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Procuradoria-Geral da República solicita encerramento de inquérito no Supremo",
       "resumo": "A Procuradoria-Geral da República solicitou ao Supremo Tribunal Federal o encerramento definitivo da investigação conhecida como inquérito das fake news. O pedido foi enviado de maneira sigilosa ao presidente da corte, ministro Edson Fachin.",
