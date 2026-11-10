@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-09T17:26:40.943825+00:00",
-  "total": 27,
+  "ultima_atualizacao": "2026-11-10T01:30:10.996521+00:00",
+  "total": 29,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Judiciario e MPU solicitam recursos para quitacao de beneficios",
+      "resumo": "O Poder Judiciario e o Ministerio Publico da Uniao comunicaram a necessidade de creditos adicionais para custear beneficios autorizados. A situacao foi levada ao Supremo Tribunal Federal pela Advocacia-General da Uniao diante da ausencia de previsao orcamentaria.",
+      "corpo_html": "<h2>Pedido de recursos</h2><p>O Poder Judiciario e o Ministerio Publico da Uniao informaram ao Supremo Tribunal Federal a necessidade de R$ 533 milhoes extras para realizar o pagamento de verbas indenizatorias. O valor foi apurado apos constatar que nao ha dinheiro previsto no Orcamento para cobrir as despesas.</p><h2>Valores por orgao</h2><p>Do montante total necessario, o Poder Judiciario precisa de R$ 208,9 milhoes para a quitacao dos pagamentos. No Ministerio Publico, a despesa calculada para atender as demandas e de R$ 324 milhoes.</p><h2>Manifestacao da AGU</h2><p>A Advocacia-General da Uniao apresentou um pedido de esclarecimento ao Supremo Tribunal Federal relatando a insuficiencia de dotacao orcamentaria. O orgao solicita que a Corte decida qual procedimento deve ser adotado para o cumprimento da decisao que autorizou os pagamentos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Necessidade total de R$ 533 milhoes</li><li>Falta de recursos no Orcamento</li><li>Consulta formal apresentada ao STF</li></ul></aside>",
+      "slug": "judiciario-e-mpu-solicitam-recursos-para-quitacao-de-beneficios-0ad0efcd",
+      "pagina_local": "judiciario-e-mpu-solicitam-recursos-para-quitacao-de-beneficios-0ad0efcd.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/judiciario-e-mpu-querem-r-533-milhoes-para-pagar-penduricalhos",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-10T01:29:42.652346+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Câmara Legislativa do Distrito Federal avalia proposta sobre reeleição da Mesa Diretora",
+      "resumo": "A Câmara Legislativa do Distrito Federal pauta a votação em segundo turno da Proposta de Emenda à Lei Orgânica que trata da recondução de membros da Mesa Diretora. O texto busca alinhar regras locais às diretrizes constitucionais federais e foi aprovado anteriormente em primeiro turno.",
+      "corpo_html": "<h2>Tramitação e Regras</h2><p>A Proposta de Emenda à Lei Orgânica nº 22/2026 deve ser analisada em segundo turno e caráter conclusivo na sessão ordinária. A iniciativa propõe manter os mandatos de dois anos e vedar a reeleição dentro de uma mesma legislatura, permitindo a disputa para parlamentares que renovarem seus mandatos no início de um novo ciclo legislativo.</p><h2>Impacto na Composição</h2><p>Caso a medida seja aprovada, oito dos nove atuais integrantes da Mesa Diretora que renovaram seus mandatos nas urnas estarão aptos a concorrer aos mesmos postos diretivos, incluindo o presidente Wellington Luiz e o primeiro-secretário Pastor Daniel de Castro. Apenas a segunda vice-presidenta atual não obteve novo mandato.</p><h2>Debates e Entendimentos</h2><p>Autores da matéria apontam conformidade com o Artigo 57 da Constituição Federal. Por outro lado, parlamentares contrários manifestaram ressalvas quanto a possíveis questionamentos de constitucionalidade relacionados a mandatos consecutivos e decisões anteriores do Supremo Tribunal Federal sobre a alternância de poder.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A proposta consta da pauta da sessão ordinária marcada para esta terça-feira (10).</li><li>O texto recebeu 17 votos a favor e 6 contrários na votação de primeiro turno ocorrida em 27 de outubro.</li><li>A medida pode permitir que oito dos atuais integrantes da Mesa Diretora disputem a permanência nos cargos para o período de 2027 a 2029.</li></ul></aside>",
+      "slug": "camara-legislativa-do-distrito-federal-avalia-proposta-sobre-reel-91605d39",
+      "pagina_local": "camara-legislativa-do-distrito-federal-avalia-proposta-sobre-reel-91605d39.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/cldf-vota-proposta-que-libera-reeleicao-de-membros-da-mesa-diretora",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-10T01:29:29.618017+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministro do Supremo Tribunal Federal suspende punição aplicada pelo CNJ a juíza federal",
       "resumo": "O ministro Luiz Fux suspendeu a decisão do Conselho Nacional de Justiça que afastava a juíza federal Gabriela Hardt de suas funções. A medida liminar restabelece os vencimentos integrais da magistrada e garante seu retorno às atividades após o término de sua licença médica.",
