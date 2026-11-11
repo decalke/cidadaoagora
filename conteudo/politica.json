@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-10T23:15:55.007388+00:00",
-  "total": 34,
+  "ultima_atualizacao": "2026-11-11T06:05:25.784159+00:00",
+  "total": 37,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Polícia Civil de São Paulo investiga vídeo gravado na residência de Fernando Henrique Cardoso",
+      "resumo": "As autoridades paulistas apuram a conduta de um homem que entrou no apartamento do ex-presidente Fernando Henrique Cardoso e publicou imagens do imóvel e do político nas redes sociais. A denúncia foi apresentada pela esposa do ex-presidente, que apontou exposição indevida da intimidade.",
+      "corpo_html": "<h2>Abertura da investigação policial</h2><p>A Polícia Civil de São Paulo instaurou procedimento para apurar a entrada de um homem no apartamento do ex-presidente Fernando Henrique Cardoso, de 95 anos. O caso passou a ser investigado com fundamento nas regras do Estatuto da Pessoa Idosa, após registro de boletim de ocorrência feito pela esposa do ex-presidente, Patrícia Kundrát. Inicialmente registrado no 23º Distrito Policial como difamação, o inquérito foi transferido para o 4º Distrito Policial.</p><h2>Conteúdo e repercussão da gravação</h2><p>O material foi veiculado no TikTok por Wesley Oliveira, que exibiu cômodos, obras de arte e objetos pessoais do imóvel situado no bairro de Higienópolis, na capital paulista. No registro, o autor também filmou o ex-presidente sentado. A denúncia aponta que a intenção foi desrespeitar e expor a intimidade. Em notas publicadas nas redes sociais, o autor da filmagem alegou ter recebido autorização para o ingresso e defendeu a exposição de pessoas com demência.</p><h2>Contexto jurídico e previsões legais</h2><p>A legislação prevê punições para quem exibe por meios de comunicação imagens que depreciem ou firam a dignidade de idosos. O Artigo 105 do Estatuto da Pessoa Idosa estabelece pena de um a três anos de reclusão, além de multa, para esse tipo de conduta. Adicionalmente, familiares movem uma ação judicial de interdição devido ao diagnóstico de Alzheimer em estágio avançado, com o objetivo de garantir a proteção jurídica e a gestão dos atos civis.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Investigação foi aberta pela Polícia Civil com base no Estatuto da Pessoa Idosa.</li><li>Gravação foi divulgada na plataforma TikTok e mostrava cômodos e o ex-presidente.</li><li>Esposa registrou boletim de ocorrência por falta de consentimento para a exposição.</li></ul></aside>",
+      "slug": "policia-civil-de-sao-paulo-investiga-video-gravado-na-residencia--f9661355",
+      "pagina_local": "policia-civil-de-sao-paulo-investiga-video-gravado-na-residencia--f9661355.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/policia-investiga-homem-que-gravou-video-com-fernando-henrique-cardoso",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-11T06:05:13.565389+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Encontro entre Brasil e Turquia aborda comércio bilateral e cooperação climática",
+      "resumo": "Os presidentes do Brasil e da Turquia reuniram-se para discutir a expansão das relações comerciais e parcerias estratégicas. O mandatário brasileiro também cumpre agenda voltada para a participação na 31ª Conferência sobre Mudança do Clima.",
+      "corpo_html": "<h2>Relações comerciais e bilaterais</h2><p>Durante o encontro entre os líderes dos dois países, foram tratadas formas de ampliar rapidamente o volume de transações comerciais. O valor registrado atualmente nas trocas entre as nações alcançou 5,9 bilhões de dólares. Além disso, houve menção ao interesse em estabelecer uma parceria mais robusta no setor de defesa e de buscar cooperação relacionada a minerais críticos e terras raras, tema que conta com um conselho voltado para definir políticas nacionais e promover o processamento em território brasileiro.</p><h2>Participação na Conferência do Clima</h2><p>O chefe do Executivo brasileiro participa da Cúpula de Líderes na cidade turca de Antália, sede do evento. A programação inclui dois discursos, sendo o primeiro durante a cerimônia de abertura, reservada a um grupo reduzido de chefes de Estado. A segunda fala, mais curta e com duração de até três minutos, ocorrerá na sessão aberta a todas as delegações presentes. O representante brasileiro também deve participar de uma reunião específica sobre florestas e financiamento voltada ao Fundo Florestas Tropicais para Sempre.</p><h2>Contexto diplomático e ambiental</h2><p>A viagem ocorre após o Brasil sediar a edição anterior do evento climático na cidade de Belém, no Pará. Durante as conversas, foi mencionada a disposição brasileira em auxiliar para o êxito da conferência atual, além de levar adiante as iniciativas iniciadas em solo nacional. Integrantes do Ministério das Relações Exteriores apontam a participação de destaque do líder brasileiro na abertura como um indicador da relevância atribuída ao país na pauta ambiental internacional.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O comércio bilateral entre Brasil e Turquia atingiu 5,9 bilhões de dólares.</li><li>O presidente brasileiro cumpre agenda na COP31 nos dias 11 e 12.</li><li>Foram debatidas parcerias em defesa e na área de minerais críticos.</li></ul></aside>",
+      "slug": "encontro-entre-brasil-e-turquia-aborda-comercio-bilateral-e-coope-e1e2c19d",
+      "pagina_local": "encontro-entre-brasil-e-turquia-aborda-comercio-bilateral-e-coope-e1e2c19d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-presidente-da-turquia-se-reunem-e-falam-de-comercio-bilateral",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/clima-brasil.webp",
+      "coletado_em": "2026-11-11T06:04:53.872892+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "TSE aplica multa à Meta por descumprimento de decisões durante o período eleitoral",
+      "resumo": "O Tribunal Superior Eleitoral aplicou uma penalidade financeira à empresa responsável por redes sociais devido à entrega de dados insuficientes sobre denúncias de favorecimento político. A investigação sobre a conduta da companhia nas eleições continuará em andamento na corte.",
+      "corpo_html": "<h2>Origem da representação</h2><p>A medida ocorreu após uma representação apresentada pela coligação que apoiou a reeleição do presidente Luiz Inácio Lula da Silva. A acusação apontou tratamento diferenciado para limitar o alcance de publicações favoráveis ao candidato e beneficiar a campanha de Flávio Bolsonaro, mencionando questões como anúncios pagos com recursos externos e uso de inteligência artificial.</p><h2>Avaliação do relator</h2><p>O relator do caso destacou que a companhia deixou de cumprir exigências de esclarecimento ao longo do período eleitoral e forneceu dados genéricos e agregados, o que prejudicou a verificação das alegações. O entendimento foi acompanhado de forma unânime pelos demais integrantes do tribunal durante a sessão de julgamento.</p><h2>Posicionamento da empresa</h2><p>A defesa da companhia classificou as acusações como falsas e sem comprovação de atuação não paritária. Em manifestação anterior enviada ao tribunal, a empresa argumentou que os levantamentos externos sobre o direcionamento de conteúdo desconsideraram as estratégias digitais distintas de cada campanha.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A penalidade aplicada foi de R$ 7,5 milhões.</li><li>O relator apontou falta de transparência e dados apresentados em língua estrangeira.</li><li>A empresa negou as acusações e afirmou que as alegações são infundadas.</li></ul></aside>",
+      "slug": "tse-aplica-multa-a-meta-por-descumprimento-de-decisoes-durante-o--c0f4b667",
+      "pagina_local": "tse-aplica-multa-a-meta-por-descumprimento-de-decisoes-durante-o--c0f4b667.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tse-multa-meta-em-r-75-milhoes-por-descumprir-decisao-nas-eleicoes",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-11T06:04:40.173409+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Defesa de Daniel Vorcaro solicita nova análise de soltura ao STF e recorre à CIDH",
       "resumo": "A defesa do ex-banqueiro Daniel Vorcaro pediu ao presidente do Supremo Tribunal Federal que envie um novo pleito de liberdade para decisão do ministro mais antigo da Corte. Simultaneamente, os advogados protocolaram petição na Corte Interamericana de Direitos Humanos solicitando a soltura imediata do investigado.",
