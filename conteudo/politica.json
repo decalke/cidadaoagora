@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-11T14:14:33.830015+00:00",
-  "total": 40,
+  "ultima_atualizacao": "2026-11-11T21:55:17.919072+00:00",
+  "total": 43,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Congresso Nacional prorroga vigência de medida provisória sobre plataformas de apostas",
+      "resumo": "A Medida Provisória que proíbe a exploração e a publicidade de bets no país teve sua vigência prorrogada por mais 60 dias conforme ato publicado no Diário Oficial da União. A norma estabeleceu o fim das operações das empresas do setor no território nacional e determinou regras para a restituição de saldos aos apostadores.",
+      "corpo_html": "<h2>Prorrogação e regras iniciais</h2><p>O Congresso Nacional prorrogou por 60 dias o prazo da Medida Provisória 1.394/2026, responsável por proibir a oferta, a intermediação, a exploração e a propaganda de apostas on-line em todo o território nacional. Publicada originalmente em setembro, a determinação exigiu o encerramento das atividades das empresas e definiu parâmetros para a devolução dos valores depositados pelos usuários em suas contas virtuais.</p><h2>Fiscalização e impactos apontados</h2><p>A medida instituiu o Comitê Interinstitucional de Fiscalização da Exploração e da Publicidade Ilegal de Apostas de Quota Fixa para combater plataformas irregulares, contando com reforço estrutural para investigações financeiras conduzidas pelo Ministério da Justiça e Segurança Pública e pela Polícia Federal. O governo justificou a decisão com base em estudos sobre prejuízos ao orçamento familiar, à saúde mental e ao endividamento, mencionando perdas financeiras das famílias brasileiras no ano de 2025.</p><h2>Análise judicial e histórico</h2><p>O Supremo Tribunal Federal analisa a constitucionalidade da norma por meio de ações diretas de inconstitucionalidade apresentadas por entidades do setor. A pedido da Procuradoria-Geral da República, o ministro Luiz Fux determinou a suspensão de processos judiciais correlatos em âmbito nacional até a deliberação do plenário. Anteriormente, as apostas de quota fixa haviam sido autorizadas pela Lei nº 13.756 de 2018 e regulamentadas pela Lei nº 14.790 de 2023, autorizações que foram revogadas com a edição da atual medida provisória.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O ato de prorrogação foi assinado pelo senador Davi Alcolumbre.</li><li>A norma criou um comitê interinstitucional para fiscalizar atividades ilegais do setor.</li><li>O Supremo Tribunal Federal analisa ações sobre a constitucionalidade da medida.</li></ul></aside>",
+      "slug": "congresso-nacional-prorroga-vigencia-de-medida-provisoria-sobre-p-bb940973",
+      "pagina_local": "congresso-nacional-prorroga-vigencia-de-medida-provisoria-sobre-p-bb940973.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-prorroga-por-60-dias-mp-que-proibe-bets-no-pais",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-11T21:55:14.917035+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Justiça determina desocupação de imóvel alugado por lutador preso no Rio",
+      "resumo": "O Poder Judiciário estabeleceu o prazo de 15 dias para a saída do morador de um apartamento situado na capital fluminense. A medida visa resguardar a integridade das vítimas que habitam na mesma edificação.",
+      "corpo_html": "<h2>Determinação judicial</h2><p>A ordem de desocupação foi emitida pela Justiça fluminense para o apartamento alugado localizado na Avenida Maracanã. Caso o local não seja deixado voluntariamente no prazo estipulado, poderá ocorrer o despejo compulsório. O magist responsável apontou que a conduta do locatário configura infração contratual e legal grave, tornando insustentável a manutenção da locação no mesmo prédio onde residem as vítimas.</p><h2>Contexto do caso</h2><p>O locatário está sob custódia desde o dia 5, tendo a prisão temporária convertida em preventiva em data posterior. As investigações apontam que ele responde perante a justiça por tentativa de feminicídio, lesão corporal, invasão de domicílio e resistência à abordagem policial. A resolução judicial destacou a necessidade de evitar o restabelecimento de convívio forçado e proximidade com as moradoras caso ocorra soltura.</p><h2>Ocorrência no condomínio</h2><p>Os registros policiais detalham episódios de violência contra duas moradoras do edifício, incluindo uma idosa e outra mulher que tentou intervir na situação. A segunda vítima sofreu múltiplos golpes e precisou de atendimento médico hospitalar antes de receber alta. Durante a intervenção das forças de segurança, houve resistência e luta corporal, resultando na imobilização do suspeito por agentes policiais.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Prazo estipulado para a saída do imóvel é de 15 dias.</li><li>Decisão menciona infração contratual e legal nas regras de convivência.</li><li>Indivíduo encontra-se preso preventivamente após agressões registradas no condomínio.</li></ul></aside>",
+      "slug": "justica-determina-desocupacao-de-imovel-alugado-por-lutador-preso-d9befad4",
+      "pagina_local": "justica-determina-desocupacao-de-imovel-alugado-por-lutador-preso-d9befad4.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-da-15-dias-para-lutador-de-jiu-jitsu-desocupar-apartamento",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-11T21:55:02.246693+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Projetos de servidores públicos concorrem ao Prêmio Espírito Público",
+      "resumo": "Quatorze iniciativas de servidores públicos brasileiros de todas as regiões disputam a oitava edição do Prêmio Espírito Público. Os vencedores de cada categoria receberão premiação em dinheiro e serão revelados em dezembro, em Brasília.",
+      "corpo_html": "<h2>Iniciativas finalistas e votação</h2><p>Um total de 14 projetos elaborados por servidores públicos das cinco regiões brasileiras disputa a oitava edição do Prêmio Espírito Público. As propostas foram escolhidas entre 867 inscrições recebidas. Os trabalhos finalistas passam por avaliação técnica de especialistas e também por votação popular, que fica aberta até o dia 27.</p><h2>Categorias e premiação</h2><p>A premiação contempla sete categorias distintas, que abrangem desenvolvimento social, educação, gestão de pessoas, gestão e transformação digital, meio ambiente e emergência climática, saúde e segurança pública. Os vencedores de cada uma das sete áreas receberão o valor de R$ 12 mil.</p><h2>Divulgação dos resultados</h2><p>O anúncio oficial dos vencedores ocorrerá em uma cerimônia realizada em Brasília, no Distrito Federal, no dia 9 de dezembro. Na mesma ocasião, o projeto que obtiver a maior votação do público receberá um certificado na modalidade Prêmio Especial do Público, sem acréscimo de premiação financeira.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Catorze finalistas competem em sete categorias</li><li>Prêmio em dinheiro para os vencedores é de R$ 12 mil</li><li>Cerimônia de anúncio está marcada para o dia 9 de dezembro</li></ul></aside>",
+      "slug": "projetos-de-servidores-publicos-concorrem-ao-premio-espirito-publ-a0458532",
+      "pagina_local": "projetos-de-servidores-publicos-concorrem-ao-premio-espirito-publ-a0458532.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/projetos-de-servidores-publicos-disputam-sete-premios-de-r-12-mil",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-11T21:54:49.613300+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Debate sobre a Proposta de Emenda Constitucional da Maioridade Penal na Câmara",
       "resumo": "O relator da Proposta de Emenda Constitucional sobre a redução da maioridade penal na Câmara dos Deputados defende a punição criminal aos 16 anos com cumprimento de pena em locais separados dos adultos. O texto é debatido em comissão especial e envolve articulações entre parlamentares, governo federal e o Poder Judiciário.",
