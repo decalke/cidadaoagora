@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-11T06:05:25.784159+00:00",
-  "total": 37,
+  "ultima_atualizacao": "2026-11-11T14:14:33.830015+00:00",
+  "total": 40,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Debate sobre a Proposta de Emenda Constitucional da Maioridade Penal na Câmara",
+      "resumo": "O relator da Proposta de Emenda Constitucional sobre a redução da maioridade penal na Câmara dos Deputados defende a punição criminal aos 16 anos com cumprimento de pena em locais separados dos adultos. O texto é debatido em comissão especial e envolve articulações entre parlamentares, governo federal e o Poder Judiciário.",
+      "corpo_html": "<h2>Tramitação e Previsão de Votação</h2><p>A comissão especial que analisa a Proposta de Emenda Constitucional tem previsão de votar a matéria até o final de novembro. O presidente da Câmara dos Deputados, Hugo Motta, assumiu o compromisso de levar o texto ao plenário na primeira semana de dezembro. A articulação legislativa também contou com a movimentação no Senado Federal, onde o presidente Davi Alcolumbre retirou de pauta uma proposta equivalente para aguardar a deliberação da Câmara.</p><h2>Posicionamentos do Governo e Estatísticas</h2><p>Durante audiência pública, representantes do Ministério da Justiça e Segurança Pública afirmaram que a pasta admite a redução da maioridade penal de forma excepcional para crimes hediondos, desde que cumprida em estabelecimentos distintos. Dados apresentados indicam que condenados por atos infracionais violentos representam 9,8% dos adolescentes privados de liberdade, enquanto roubo e tráfico somam 57%. Autoridades apontam ainda que o sistema juvenil apresenta menor reincidência e maior rapidez nos julgamentos em comparação ao sistema penal de adultos.</p><h2>Divergências e Possíveis Desdobramentos</h2><p>O tema divide opiniões entre os parlamentares da comissão especial. Enquanto defensores apontam a gravidade de atos cometidos por jovens, críticos argumentam que a medida pode gerar encarceramento em massa e que o problema da violência não se resolve por essa via. Especialistas também alertam sobre a possibilidade de a matéria ser contestada no Supremo Tribunal Federal por envolver cláusula pétrea constitucional, ao passo que o relator sugeriu a inclusão de um dispositivo para submeter a medida a um referendo popular em 2028.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O deputado Mendonça Filho anunciou que apresentará relatório favorável à redução da maioridade penal para 16 anos.</li><li>O Ministério da Justiça e Segurança Pública indicou que o governo federal aceita debater a redução de forma excepcional para crimes hediondos.</li><li>Parlamentares, magistrados e representantes governamentais divergem sobre a eficácia da medida e o risco de judicialização no Supremo Tribunal Federal.</li></ul></aside>",
+      "slug": "debate-sobre-a-proposta-de-emenda-constitucional-da-maioridade-pe-9caa12b6",
+      "pagina_local": "debate-sobre-a-proposta-de-emenda-constitucional-da-maioridade-pe-9caa12b6.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-defende-reducao-da-maioridade-penal-com-prisoes-separadas",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-11T14:14:30.826901+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Operação do Ministério Público mira empresários ligados à Refit por suspeita de fraude fiscal",
+      "resumo": "O Ministério Público do Rio de Janeiro cumpriu mandados de prisão e de busca e apreensão contra suspeitos de envolvimento em uma fraude fiscal milionária no estado. A investigação apura crimes tributários que estariam associados à Refinaria de Manguinhos e a distribuidoras ligadas à cadeia de combustíveis.",
+      "corpo_html": "<h2>Mandados e prisões</h2><p>O Ministério Público do Rio de Janeiro cumpriu 17 mandados de prisão e 19 mandados de busca e apreensão. As ordens foram autorizadas pela 2ª Vara Especializada da Comarca da Capital e executadas nos estados do Rio de Janeiro e de São Paulo. Até o momento da publicação, dez pessoas já haviam sido detidas.</p><h2>Empresas investigadas</h2><p>A apuração da promotoria envolve a Refinaria de Manguinhos, conhecida como Refit, e diversas distribuidoras, incluindo Flagler, Fera, Direcional, World Comércio, Phaenarete, Vaishia e 76 Oil. Segundo o Ministério Público, o grupo teria sonegado cerca de R$ 5,5 bilhões em tributos estaduais.</p><h2>Estrutura e alvos</h2><p>De acordo com os promotores, a Refit controlava toda a cadeia produtiva de óleo e derivados. Entre os alvos dos mandados estão familiares do controlador da empresa, além de um suplente de deputado federal e um piloto de Fórmula Truck. O controlador da companhia é apontado como responsável por utilizar pessoas de confiança para manter o domínio societário.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Dez pessoas foram presas até o momento da publicação das informações.</li><li>A investigação apura uma sonegação estimada em R$ 5,5 bilhões.</li><li>As diligências foram realizadas no Rio de Janeiro e em São Paulo.</li></ul></aside>",
+      "slug": "operacao-do-ministerio-publico-mira-empresarios-ligados-a-refit-p-43db0a3f",
+      "pagina_local": "operacao-do-ministerio-publico-mira-empresarios-ligados-a-refit-p-43db0a3f.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/mp-mira-empresarios-ligados-refit-por-fraude-fiscal-de-r-55",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-11T14:12:26.539727+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Discurso de Lula na Cúpula de Líderes sobre Florestas destaca urgência climática e proteção ambiental",
+      "resumo": "Durante evento internacional na Turquia, o presidente brasileiro defendeu que o planeta não pode aguardar enquanto conflitos consomem recursos. O pronunciamento enfatizou a importância dos biomas tropicais e apontou avanços na preservação nacional.",
+      "corpo_html": "<h2>Contexto do pronunciamento</h2><p>O posicionamento foi apresentado na Cúpula de Líderes sobre Florestas, realizada durante a trigésima primeira Conferência das Nações Unidas sobre Mudanças Climáticas na cidade de Antália, na Turquia. Devido a um quadro de rouquidão, o texto preparado pelo chefe do Executivo brasileiro foi lido pelo ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco.</p><h2>Alertas sobre o clima e as florestas</h2><p>O material apontou que a ausência de compromissos com a diminuição de emissões e com a descarbonização representa um risco severo para as florestas tropicais. Foi ressaltado que a conservação e o desenvolvimento não são incompatíveis e que as nações com florestas tropicais devem ocupar posição central nas resoluções climáticas globais.</p><h2>Ações e resultados internos</h2><p>O governo destacou a combinação de prevenção, instrumentos econômicos, recuperação de vegetação e bioeconomia para gerar renda a partir da floresta preservada. Foram mencionadas quedas no desmatamento, sendo setenta porcento na Amazônia e cerca de cinquenta porcento no Cerrado, além da homologação de terras indígenas e da expansão de áreas protegidas.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Fala foi lida pelo ministro do Meio Ambiente devido à rouquidão do presidente.</li><li>Alerta sobre o rompimento do equilíbrio climático global caso os biomas alcancem o ponto de não retorno.</li><li>Menção a reduções expressivas no desmatamento na Amazônia e no Cerrado.</li></ul></aside>",
+      "slug": "discurso-de-lula-na-cupula-de-lideres-sobre-florestas-destaca-urg-e3369ba5",
+      "pagina_local": "discurso-de-lula-na-cupula-de-lideres-sobre-florestas-destaca-urg-e3369ba5.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-planeta-nao-pode-esperar-em-meio-guerras-e-conflitos",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/clima-brasil.webp",
+      "coletado_em": "2026-11-11T14:11:42.827166+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Polícia Civil de São Paulo investiga vídeo gravado na residência de Fernando Henrique Cardoso",
       "resumo": "As autoridades paulistas apuram a conduta de um homem que entrou no apartamento do ex-presidente Fernando Henrique Cardoso e publicou imagens do imóvel e do político nas redes sociais. A denúncia foi apresentada pela esposa do ex-presidente, que apontou exposição indevida da intimidade.",
