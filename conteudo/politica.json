@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-11T21:55:17.919072+00:00",
-  "total": 43,
+  "ultima_atualizacao": "2026-11-12T02:56:36.044486+00:00",
+  "total": 46,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Projetos de lei voltados à saúde feminina avançam na Câmara dos Deputados",
+      "resumo": "Duas propostas legislativas focadas na saúde e dignidade das mulheres registraram avanços nas comissões da Câmara dos Deputados. As medidas tratam da distribuição municipal de absorventes e da implementação de atendimento remoto para gestantes em regiões isoladas.",
+      "corpo_html": "<h2>Distribuição de absorventes</h2><p>Uma das propostas que avançou determina que todas as cidades brasileiras disponham de pelo menos um local para a distribuição gratuita de absorventes higiênicos femininos. A medida busca tornar mais efetiva a política pública de saúde menstrual em regiões que não possuem estabelecimentos credenciados ao Programa Farmácia Popular do Brasil ou outros canais de distribuição, com foco na redução das desigualdades sociais e de gênero.</p><h2>Atendimento remoto para gestantes</h2><p>Outro texto que evoluiu na Casa visa assegurar o acompanhamento contínuo no pré-natal e no pós-parto para gestantes residentes em áreas rurais ou de difícil acesso. A relatoria substituiu o termo telemedicina por telessaúde para incluir profissionais de enfermagem obstétrica, nutrição, psicologia e assistência social, mantendo o caráter complementar às consultas presenciais do Sistema Único de Saúde.</p><h2>Proteção e infraestrutura</h2><p>Para viabilizar o atendimento remoto, o projeto determina a garantia de acesso à internet de qualidade, equipamentos adequados e parcerias com unidades de saúde locais para exames físicos. O texto também estabelece que as comunicações ocorram em ambiente reservado para assegurar o encaminhamento sigiloso de eventuais vítimas de violência doméstica para a rede de proteção.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O projeto sobre distribuição de absorventes higiênicos deve seguir para análise no Senado.</li><li>A proposta de atendimento remoto para gestantes prevê acompanhamento multidisciplinar complementar.</li><li>O serviço digital também busca funcionar como ferramenta de proteção contra a violência doméstica.</li></ul></aside>",
+      "slug": "projetos-de-lei-voltados-a-saude-feminina-avancam-na-camara-dos-d-9ea9dec2",
+      "pagina_local": "projetos-de-lei-voltados-a-saude-feminina-avancam-na-camara-dos-d-9ea9dec2.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/projetos-de-lei-que-envolvem-saude-feminina-avancam-na-camara",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-12T02:56:27.610978+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Procuradoria-Geral da República manifesta-se pela manutenção da prisão de Daniel Vorcaro no Supremo Tribunal Federal",
+      "resumo": "O procurador-geral da República enviou ao Supremo Tribunal Federal um parecer favorável à manutenção da prisão do ex-banqueiro Daniel Vorcaro. A defesa havia solicitado a revogação da medida cautelar, enquanto as investigações da Polícia Federal apontam indiciamentos por fraudes financeiras.",
+      "corpo_html": "<h2>Parecer da Procuradoria</h2><p>O procurador-geral da República, Paulo Gonet, enviou ao Supremo Tribunal Federal um parecer favorável à manutenção da prisão do ex-banqueiro Daniel Vorcaro. A manifestação ocorreu após solicitação do presidente da corte, ministro Edson Fachin, motivada por um pedido da defesa pela revogação da prisão. Vorcaro encontra-se custodiado no presídio da Papudinha, no Distrito Federal, desde março deste ano. Segundo a Procuradoria, a liberdade do investigado representaria risco às investigações, à ordem pública e à instrução criminal, apontando a gravidade dos delitos e a atuação relevante do investigado em organização criminosa.</p><h2>Indiciamento pela Polícia Federal</h2><p>No início do mês, a Polícia Federal indiciou Daniel Vorcaro junto a outros 14 investigados em decorrência de fraudes financeiras relacionadas ao Banco Regional de Brasília. O relatório policial aponta que o ex-banqueiro teve atuação direta e reiterada em operações com carteiras de créditos irregulares do Banco Master que resultaram em prejuízos ao Banco de Brasília.</p><h2>Posicionamento da Defesa</h2><p>Após a conclusão parcial das investigações pela Polícia Federal, os representantes legais do ex-banqueiro criticaram o indiciamento. A defesa declarou que a corporação repete narrativas anteriores sem avançar nas apurações e sustentou que o negócio envolvendo a empresa de fachada Tirreno não foi finalizado. Conforme os advogados, as carteiras foram substituídas por outros ativos que geraram resultados positivos para o Banco de Brasília, e nenhuma perícia oficial teria constatado prejuízos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Parecer da Procuradoria-Geral da República defende a manutenção da custódia do ex-banqueiro.</li><li>Polícia Federal indiciou Vorcaro e outras 14 pessoas por fraudes financeiras.</li><li>Defesa do investigado contesta as acusações e afirma que não houve prejuízo apurado.</li></ul></aside>",
+      "slug": "procuradoria-geral-da-republica-manifesta-se-pela-manutencao-da-p-0b141d47",
+      "pagina_local": "procuradoria-geral-da-republica-manifesta-se-pela-manutencao-da-p-0b141d47.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-envia-ao-supremo-parecer-favoravel-manter-prisao-de-vorcaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-12T02:56:14.959686+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Debate sobre a maioridade penal aborda a situação do sistema prisional",
+      "resumo": "Comissões da Câmara dos Deputados realizaram audiências públicas para discutir a Proposta de Emenda à Constituição que trata da redução da maioridade penal. Especialistas, parlamentares e representantes governamentais debateram os reflexos da medida nas prisões brasileiras.",
+      "corpo_html": "<h2>Audiências na Câmara dos Deputados</h2><p>Duas comissões da Câmara dos Deputados dedicaram audiências públicas para analisar a Proposta de Emenda à Constituição 32/2015, relacionada à redução da maioridade penal. Os encontros contaram com a presença de juristas, advogados, profissionais de segurança pública e representantes do governo federal e do Ministério Público.</p><h2>Discussão sobre o sistema prisional</h2><p>Durante os debates, diferentes visões foram expuestas sobre o impacto de enviar adolescentes a estabelecimentos prisionais de adultos. Enquanto alguns participantes manifestaram receio quanto ao fortalecimento de facções criminosas e à falta de ressocialização, defensores da mudança citaram a necessidade de locais separados para o cumprimento de penas.</p><h2>Dados e alternativas apresentados</h2><p>Representantes governamentais e do Ministério Público informaram dados relativos aos menores em medidas socioeducativas e ao universo de adultos presos. Foram discutidas também alternativas no âmbito do Estatuto da Criança e do Adolescente para lidar com infrações graves sem recorrer ao sistema prisional comum.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Duas comissões da Câmara dos Deputados realizaram audiências simultâneas sobre a matéria.</li><li>Participantes apontaram preocupações com a integridade do sistema prisional.</li><li>Dados sobre menores cumprindo medidas socioeducativas e o total de adultos presos foram apresentados no debate.</li></ul></aside>",
+      "slug": "debate-sobre-a-maioridade-penal-aborda-a-situacao-do-sistema-pris-9d10c30a",
+      "pagina_local": "debate-sobre-a-maioridade-penal-aborda-a-situacao-do-sistema-pris-9d10c30a.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/precariedade-do-sistema-prisional-entra-no-debate-da-maioridade-penal",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-12T02:56:05.740127+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Congresso Nacional prorroga vigência de medida provisória sobre plataformas de apostas",
       "resumo": "A Medida Provisória que proíbe a exploração e a publicidade de bets no país teve sua vigência prorrogada por mais 60 dias conforme ato publicado no Diário Oficial da União. A norma estabeleceu o fim das operações das empresas do setor no território nacional e determinou regras para a restituição de saldos aos apostadores.",
