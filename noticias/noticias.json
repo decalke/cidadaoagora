@@ -1,7 +1,24 @@
 {
-  "ultima_atualizacao": "2026-11-12T10:59:31.650623+00:00",
+  "ultima_atualizacao": "2026-11-12T18:54:56.955345+00:00",
   "total": 80,
   "noticias": [
+    {
+      "titulo": "Petrobras fecha acordo para adquirir controle total da empresa Logum Logística",
+      "resumo": "A Petrobras firmou contrato para comprar a totalidade das ações da Logum Logística, passando a deter 100% da empresa voltada ao transporte e armazenamento de etanol. O negócio, divulgado em comunicado a investidores, ainda depende da aprovação do Conselho Administrativo de Defesa Econômica.",
+      "corpo_html": "<h2>Detalhes da transação e pagamentos</h2><p>A Petrobras fechou os termos para adquirir os 70% do capital social da Logum Logística que pertenciam à Raízen Energia, à Copersucar e à Uniduto Logística. O valor acordado foi de R$ 620 milhões, com pagamento dividido em três parcelas e sujeito a ajustes previstos contratualmente. A conclusão da operação permanece condicionada ao cumprimento de exigências contratuais e ao aval do Conselho Administrativo de Defesa Econômica.</p><h2>Infraestrutura e rota de transporte</h2><p>Com sede no Rio de Janeiro, a Logum opera uma rede com mais de 1 mil quilômetros de dutos e terminais situados em municípios como Uberaba, Ribeirão Preto e Paulínia. O sistema recebe etanol do interior por rodovias e o conduz por dutos até polos de distribuição em São Paulo e no Rio de Janeiro, além de alcançar um terminal marítimo na Baía de Guanabara para cabotagem e exportação.</p><h2>Estratégia e impacto ambiental</h2><p>Segundo a estatal, a compra insere a empresa no principal corredor logístico de etanol do país e integra a malha dutoviária ao Sistema Petrobras. A companhia pontuou que o transporte por dutos apresenta menor intensidade de emissões de gases do efeito estufa em comparação às rodovias, reduzindo a circulação de caminhões e contribuindo para a diversificação rentável do portfólio.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A estatal já detinha 30% da companhia e acordou pagar R$ 620 milhões pelos 70% restantes.</li><li>A transação envolve a infraestrutura de dutos e terminais localizados em São Paulo, Minas Gerais e Rio de Janeiro.</li><li>A operação está alinhada ao plano de negócios da empresa para o setor de fontes renováveis e baixo carbono.</li></ul></aside>",
+      "slug": "petrobras-fecha-acordo-para-adquirir-controle-total-da-empresa-lo-9fddeef2",
+      "pagina_local": "petrobras-fecha-acordo-para-adquirir-controle-total-da-empresa-lo-9fddeef2.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-faz-acordo-para-deter-100-da-transportadora-de-etanol-logum",
+      "categoria": "Economia & cotidiano",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/economia.webp",
+      "coletado_em": "2026-11-12T18:53:42.116375+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Governo propõe retirar subsídios ao diesel da meta fiscal de 2026",
       "resumo": "O governo federal enviou ao Congresso Nacional um projeto de lei complementar para excluir até R$ 10,5 bilhões em subsídios ao diesel do cálculo da meta fiscal de 2026. A medida faz parte de um pacote de ajuste fiscal e depende de aprovação legislativa para entrar em vigor.",
@@ -1290,21 +1307,6 @@
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
       "coletado_em": "06/11/2026 às 17:22",
-      "reescrito_ia": false
-    },
-    {
-      "titulo": "Estudo revela que 83,6% das regiões turísticas do Brasil sofrem com impactos de desastres climáticos",
-      "resumo": "Conteúdo do acervo em revisão editorial. Consulte a publicação de origem.",
-      "conteudo_completo": "",
-      "corpo_html": "",
-      "destaques_html": "",
-      "imagem": "/assets/v4/brasil-cotidiano.webp",
-      "slug": "estudo-revela-que-83-6-das-regioes-turisticas-do-brasil-sofrem-com-imp",
-      "pagina_local": "estudo-revela-que-83-6-das-regioes-turisticas-do-brasil-sofrem-com-imp.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/mudancas-climaticas-836-das-areas-turisticas-estao-vulneraveis",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "06/11/2026 às 17:23",
       "reescrito_ia": false
     }
   ]
