@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-12T02:56:36.044486+00:00",
-  "total": 46,
+  "ultima_atualizacao": "2026-11-12T10:59:31.652517+00:00",
+  "total": 48,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Conselho da Justiça Federal retira pedido de crédito suplementar para gratificações",
+      "resumo": "O presidente do Conselho da Justiça Federal desistiu de solicitar crédito extra para quitar verbas indenizatórias e gratificações de magistrados. A medida foi tomada após a identificação de novas receitas e adequações nas contas do órgão.",
+      "corpo_html": "<h2>Cancelamento do pedido de recursos</h2><p>O presidente do Conselho da Justiça Federal informou formalmente a desistência de requerer crédito extra para o pagamento de verbas indenizatórias e gratificações adicionais aos vencimentos dos magistrados. A comunicação foi enviada por meio de ofício.</p><h2>Motivação financeira</h2><p>A mudança de posição ocorreu devido ao surgimento de novos aportes de receitas e adequações orçamentárias características do final do ano. Com empenhos e despesas não efetuadas, a reanálise das contas apontou que o Judiciário possui verbas próprias para os pagamentos.</p><h2>Contexto das solicitações</h2><p>A solicitação anterior de recursos adicionais havia gerado repercussão e questionamentos por parte da Advocacia-Geral da União junto ao Supremo Tribunal Federal, em meio a discussões sobre o teto remuneratório e os limites para gratificações e adicionais na magistratura.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Desistência de crédito extra no valor de R$ 208,9 milhões</li><li>Justificativa baseada no surgimento de novos aportes de receitas</li><li>Questionamentos anteriores feitos pela Advocacia-Geral da União</li></ul></aside>",
+      "slug": "conselho-da-justica-federal-retira-pedido-de-credito-suplementar--6e2bdb64",
+      "pagina_local": "conselho-da-justica-federal-retira-pedido-de-credito-suplementar--6e2bdb64.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-federal-desiste-de-r-209-mi-extra-para-pagar-penduricalhos",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-12T10:58:47.973693+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Câmara Legislativa do Distrito Federal aprova reeleição na Mesa Diretora",
+      "resumo": "A Câmara Legislativa do Distrito Federal aprovou uma proposta de emenda que autoriza deputados distritais reeleitos a disputarem cargos na Mesa Diretora para os dois primeiros anos da legislatura seguinte. A nova norma passará a valer para a próxima escolha dos dirigentes da Casa, marcada para o início do próximo mandato.",
+      "corpo_html": "<h2>Detalhes da votação e da proposta</h2><p>A Proposta de Emenda à Lei Orgânica nº 22/2026 foi aprovada em segundo turno durante sessão ordinária, após já ter passado pelo crivo em primeiro turno em 27 de outubro. A iniciativa altera as regras para a composição da Mesa Diretora e permite que parlamentares que já integravam o colegiado possam concorrer a novos postos de comando no início da legislatura subsequente, desde que para cargos diferentes.</p><h2>Alinhamento com entendimentos jurídicos</h2><p>Os autores da medida apontaram que o objetivo foi ajustar o texto local à Constituição Federal e às diretrizes do Supremo Tribunal Federal, que estabelecem limites para reconduções sucessivas em cargos diretivos no legislativo. A alteração desfaz uma mudança feita em 2024 que havia gerado novas interpretações sobre a permanência nos postos de comando da Casa.</p><h2>Próximos passos e eleição dos dirigentes</h2><p>Com a promulgação da norma, oito dos nove atuais integrantes da Mesa Diretora que conseguiram reeleição nas urnas ficam aptos a disputar cargos diretivos para o biênio inicial da nova legislatura. A definição dos nomes que ocuparão as funções na Mesa Diretora ocorrerá no dia 6 de janeiro, data em que os parlamentares tomarão posse de seus mandatos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Aprovação ocorreu por 15 votos a 1 em segundo turno.</li><li>A norma retoma a redação original da Lei Orgânica anterior a 2024.</li><li>A escolha dos novos membros da Mesa Diretora ocorrerá em 6 de janeiro.</li></ul></aside>",
+      "slug": "camara-legislativa-do-distrito-federal-aprova-reeleicao-na-mesa-d-04f16ea4",
+      "pagina_local": "camara-legislativa-do-distrito-federal-aprova-reeleicao-na-mesa-d-04f16ea4.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/cldf-aprova-reeleicao-de-membros-da-mesa-diretora",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-12T10:58:07.568363+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Projetos de lei voltados à saúde feminina avançam na Câmara dos Deputados",
       "resumo": "Duas propostas legislativas focadas na saúde e dignidade das mulheres registraram avanços nas comissões da Câmara dos Deputados. As medidas tratam da distribuição municipal de absorventes e da implementação de atendimento remoto para gestantes em regiões isoladas.",
