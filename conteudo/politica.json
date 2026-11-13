@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-12T18:54:56.957250+00:00",
-  "total": 48,
+  "ultima_atualizacao": "2026-11-13T00:16:20.884778+00:00",
+  "total": 52,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,74 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Emissao da Carteira de Identidade Nacional alcanca quase 70 milhoes de pessoas",
+      "resumo": "Quase 70 milhoes de cidadaos ja emitiram a nova Carteira de Identidade Nacional, que adota o Cadastro de Pessoa Fisica como numero unico. A meta do governo federal e universalizar a emissao do documento ate o final de 2030.",
+      "corpo_html": "<h2>Substituicao do Registro Geral</h2><p>A nova Carteira de Identidade Nacional utiliza o Cadastro de Pessoa Fisica como numero unico e possui validade em todo o territorio nacional. O modelo anterior tem validade prevista ate 28 de fevereiro de 2032. O objetivo da pasta responsavel e antecipar a universalizacao do documento para todos os brasileiros ate o final de 2030.</p><h2>Comunicacao institucional e seguranca</h2><p>O governo federal enviou mais de 120 milhoes de mensagens verificadas via aplicativo de mensagens para usuarios da plataforma Gov.br. As comunicacoes trazem avisos personalizados sobre beneficios e exames. A administracao federal esclarece que nao sao enviadas mensagens solicitando atualizacao cadastral, senhas, codigos de verificacao ou pagamento de taxas.</p><h2>Novas ferramentas tecnologicas</h2><p>Esta prevista a lancamento de uma ferramenta de inteligencia artificial transacional destinada a facilitar o cadastro de microempreendedores individuais e agricultores familiares no programa Contrata Mais Brasil. A plataforma conecta agentes publicos a prestadores locais para fornecimento de servicos e alimentos, registrando valores superiores a R$ 100 milhoes em contratações.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O documento substitui gradualmente o antigo Registro Geral em todo o pais.</li><li>A validade do modelo anterior estende-se ate 28 de fevereiro de 2032.</li><li>A estrategia federal utiliza comunicacao digital para avisos institucionais e servicos.</li></ul></aside>",
+      "slug": "emissao-da-carteira-de-identidade-nacional-alcanca-quase-70-milho-f2a463d0",
+      "pagina_local": "emissao-da-carteira-de-identidade-nacional-alcanca-quase-70-milho-f2a463d0.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/quase-70-milhoes-ja-emitiram-nova-carteira-de-identidade-nacional",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-13T00:16:17.882193+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal suspende imunidade em casos de violência patrimonial doméstica",
+      "resumo": "O Supremo Tribunal Federal decidiu por unanimidade suspender a regra que impedia a punição de crimes patrimoniais cometidos contra mulheres no âmbito doméstico. A medida afeta disposições do Código Penal que vigoravam desde 1940.",
+      "corpo_html": "<h2>Decisão do Supremo Tribunal Federal</h2><p>O plenário do Supremo Tribunal Federal determinou a suspensão da regra que isentava de punição homens que cometiam crimes contra o patrimônio de mulheres no contexto de violência doméstica e familiar. A deliberação ocorreu com voto unânime dos ministros da Corte após julgamento iniciado em dias anteriores.</p><h2>Contexto histórico da norma</h2><p>A disposição estava estabelecida no Artigo 181 do Código Penal e vigorava desde 1940, mantendo previsões de legislações anteriores do período imperial. O entendimento apontado durante o julgamento indicou que a finalidade original da norma era proteger a figura masculina detentora do poder familiar em épocas com estruturas jurídicas distintas.</p><h2>Origem das ações e manifestações</h2><p>O tema chegou à Corte por meio de ações apresentadas pela Associação Nacional dos Membros do Ministério Público e por um partido político. Órgãos jurídicos e representantes manifestaram-se contrários à vigência da imunidade por considerarem que ela contrariava preceitos constitucionais de igualdade e dignidade.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão tomada por unanimidade pelos ministros do STF</li><li>Fim da isenção de pena para crimes como furto, estelionato e apropriação indébita entre cônjuges</li><li>Entendimento de que a regra anterior violava a Constituição de 1988 e tratados internacionais</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-suspende-imunidade-em-casos-de-violencia-96396ee8",
+      "pagina_local": "supremo-tribunal-federal-suspende-imunidade-em-casos-de-violencia-96396ee8.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-derruba-imunidade-para-punir-violencia-patrimonial-contra-mulheres",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-13T00:16:11.607155+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Congresso Nacional aprova 24 projetos com créditos suplementares para ministérios e órgãos públicos",
+      "resumo": "O Congresso Nacional aprovou 24 projetos de lei do Congresso Nacional com a abertura de créditos suplementares e adicionais que totalizam R$ 152,4 bilhões. Os textos contemplam ministérios, tribunais, agências reguladoras e empresas públicas, seguindo agora para sanção presidencial.",
+      "corpo_html": "<h2>Distribuição de Recursos</h2><p>O montante total de R$ 152,4 bilhões foi direcionado a diferentes áreas da administração pública. O maior repasse ocorreu por meio do PLN 23 de 2026, com R$ 149,4 bilhões voltados aos Ministérios da Previdência e do Desenvolvimento e Assistência Social, Família e Combate à Fome para a manutenção de programas como o Bolsa Família e o Benefício de Prestação Continuada. Outras parcelas contemplaram os Ministérios da Ciência e Tecnologia (R$ 13 milhões), da Fazenda (R$ 34 milhões), da Justiça e Segurança Pública, de Minas e Energia (R$ 543 milhões somados), além de recursos para a Justiça Federal, do Trabalho, Ministério Público da União e o Ministério da Educação, junto aos Transportes.</p><h2>Debates e Argumentos no Plenário</h2><p>A votação dos projetos gerou divergências entre parlamentares da base governista e da oposição. Deputados do partido Novo criticaram os valores e a votação em bloco de propostas consideradas astronômicas, apontando problemas na dinâmica orçamentária. Em contrapartida, parlamentares do Centrão e da base do governo defenderam que o orçamento é dinâmico, necessitando de ajustes e remanejamentos ao longo do ano para atender a demandas de áreas como segurança e rodovias federais.</p><h2>Votação em Separado da Eletronuclear</h2><p>A pedido da oposição, o PLN 25 foi votado separadamente, destinando R$ 290 milhões para a empresa Eletronuclear dar continuidade às obras e à compra de equipamentos da usina nuclear de Angra III. A oposição votou contrária, argumentando sobre o impacto fiscal e o déficit nas contas públicas. A liderança do governo defendeu a medida, sustentando que manter a obra paralisada gera custos elevados e que a conclusão da usina poderá beneficiar milhões de residências com energia elétrica. O texto foi aprovado na Câmara por 261 votos a 155 e, no Senado, por votação simbólica.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Aprovação de 24 PLNs com valor total de R$ 152,4 bilhões para diversas pastas e órgãos públicos.</li><li>O PLN 23 destinou R$ 149,4 bilhões para os Ministérios da Previdência e da Assistência Social, garantindo recursos para o Bolsa Família e o BPC.</li><li>O PLN 25, que destina R$ 290 milhões para a Eletronuclear em Angra III, foi votado em separado e gerou debate entre base e oposição.</li></ul></aside>",
+      "slug": "congresso-nacional-aprova-24-projetos-com-creditos-suplementares--a6596615",
+      "pagina_local": "congresso-nacional-aprova-24-projetos-com-creditos-suplementares--a6596615.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-aprova-24-projetos-com-credito-suplementar-para-ministerios",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-13T00:16:00.164882+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Declarações presidenciais sobre a autoridade climática do Brasil na agenda ambiental global",
+      "resumo": "O presidente Luiz Inácio Lula da Silva afirmou que o país possui ampla autoridade para discutir pautas ambientais e climáticas internacionais. Representantes de movimentos sociais e de povos originários também apresentaram demandas por financiamento e participação ativa em conferências.",
+      "corpo_html": "<h2>Posicionamento sobre autoridade ambiental</h2><p>Durante evento com a sociedade civil na 31ª Conferência das Nações Unidas sobre Mudanças Climáticas, o chefe do Executivo declarou que nenhum território no planeta possui mais autoridade que o país para abordar o clima e a preservação ambiental. O governante pontuou que o compromisso firmado em relação ao desmatamento zero foi assumido com a própria consciência nacional e não com nações estrangeiras.</p><h2>Abordagem sobre investimentos e financiamento</h2><p>Ao mencionar o mecanismo financeiro voltado para florestas tropicais, o presidente ressaltou que a iniciativa não representa pedido de doações, mas sim uma proposta de investimento com retorno financeiro para os colaboradores, destinando parte dos recursos aos países detentores de áreas florestais.</p><h2>Demandas de juventude e povos indígenas</h2><p>Porta-vozes da sociedade civil participaram da reunião para reivindicar prioridade política em compromissos climáticos. A representação da juventude pediu inclusão remunerada na execução de projetos. Já o movimento indígena defendeu a presença constante em eventos internacionais, a demarcação e desintrusão de territórios originários e a garantia de financiamento direto para a conservação da biodiversidade.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O presidente pontuou que o Brasil possui planejamento pronto para a pauta ambiental.</li><li>O compromisso com o desmatamento zero foi definido como um pacto com a consciência nacional.</li><li>Lideranças indígenas e de jovens cobraram investimento direto e demarcação de terras.</li></ul></aside>",
+      "slug": "declaracoes-presidenciais-sobre-a-autoridade-climatica-do-brasil--e7bca5bb",
+      "pagina_local": "declaracoes-presidenciais-sobre-a-autoridade-climatica-do-brasil--e7bca5bb.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-nenhum-pais-tem-mais-autoridade-para-tratar-de-clima-que-brasil",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/clima-brasil.webp",
+      "coletado_em": "2026-11-13T00:15:39.858334+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Conselho da Justiça Federal retira pedido de crédito suplementar para gratificações",
       "resumo": "O presidente do Conselho da Justiça Federal desistiu de solicitar crédito extra para quitar verbas indenizatórias e gratificações de magistrados. A medida foi tomada após a identificação de novas receitas e adequações nas contas do órgão.",

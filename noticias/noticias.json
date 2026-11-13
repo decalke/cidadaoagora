@@ -1,7 +1,41 @@
 {
-  "ultima_atualizacao": "2026-11-12T18:54:56.955345+00:00",
+  "ultima_atualizacao": "2026-11-13T00:16:20.882601+00:00",
   "total": 80,
   "noticias": [
+    {
+      "titulo": "Empresa Brasil de Comunicação obtém selo Diamante em transparência",
+      "resumo": "A Empresa Brasil de Comunicação alcançou o selo Diamante do Radar Nacional da Transparência Pública com índice de 97,43%. O resultado demonstra evolução nos índices obtidos em ciclos anteriores da avaliação coordenada por tribunais de contas.",
+      "corpo_html": "<h2>Avaliação de transparência pública</h2><p>A Empresa Brasil de Comunicação recebeu o selo Diamante do Radar Nacional de Transparência Pública relativo ao ano de 2026. A instituição alcançou um índice final de 97,43% na avaliação e atendeu integralmente aos critérios essenciais estabelecidos pelo programa.</p><h2>Evolução histórica do índice</h2><p>A pontuação obtida representa uma melhora em comparação ao ciclo anterior, quando o índice registrado foi de 85,16% com classificação Elevado. No ano de 2024, a entidade já havia conquistado o selo Diamante com 95,63%, enquanto no primeiro ano da série histórica, em 2023, o resultado foi de 85,03% com classificação Ouro.</p><h2>Sobre a iniciativa</h2><p>O Radar Nacional da Transparência Pública é uma iniciativa vinculada ao Programa Nacional de Transparência Pública, sob coordenação da Associação dos Membros dos Tribunais de Contas do Brasil e em parceria com os tribunais de contas do país. O processo examina a transparência ativa dos portais institucionais quanto à publicação espontânea de dados administrativos, contratos, licitações, despesas e canais de atendimento.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Índice final de 97,43% com atendimento total dos critérios essenciais</li><li>Melhoria na pontuação em relação ao ciclo anterior</li><li>Avaliação coordenada pela Atricon e pelos tribunais de contas</li></ul></aside>",
+      "slug": "empresa-brasil-de-comunicacao-obtem-selo-diamante-em-transparenci-e2d3acdc",
+      "pagina_local": "empresa-brasil-de-comunicacao-obtem-selo-diamante-em-transparenci-e2d3acdc.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/ebc-recebe-selo-diamante-em-avaliacao-de-transparencia-publica",
+      "categoria": "Brasil & cidadania",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/brasil-cotidiano.webp",
+      "coletado_em": "2026-11-13T00:16:05.804481+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Caixa Seguridade confirma vazamento de dados de clientes após incidente cibernético",
+      "resumo": "A Caixa Seguridade comunicou que um ataque cibernético à sua subsidiária resultou no vazamento de informações de milhões de clientes ativos. A empresa afirmou que dados financeiros e senhas não foram comprometidos e acionou autoridades competentes.",
+      "corpo_html": "<h2>Incidente e dados afetados</h2><p>A Caixa Seguridade comunicou ao mercado que a subsidiária Caixa Vida e Previdência sofreu um ataque cibernético em 6 de novembro. O incidente provocou a cópia indevida de informações de 7,6 milhões de clientes ativos, além de dados de ex-clientes. As informações vazadas incluem CPFs, endereços, telefones, e-mails e datas de nascimento.</p><h2>Segurança financeira</h2><p>Conforme a apuração preliminar divulgada pela companhia, não foram identificados indícios de comprometimento de dados financeiros ou de autenticação. Isso abrange valores de apólices, saldos de previdência, dados bancários e senhas, que permaneceriam preservados.</p><h2>Ações e investigações</h2><p>A empresa informou que os mecanismos usados no ataque foram bloqueados e novas barreiras de proteção foram adotadas. Uma investigação técnica com consultoria externa foi iniciada. A Autoridade Nacional de Proteção de Dados e outros órgãos foram notificados em 11 de novembro, e os titulares afetados estão recebendo orientações.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Ataque ocorreu em 6 de novembro.</li><li>Afetou 7,6 milhões de clientes ativos.</li><li>Dados financeiros e senhas não foram comprometidos.</li></ul></aside>",
+      "slug": "caixa-seguridade-confirma-vazamento-de-dados-de-clientes-apos-inc-cf9a64f6",
+      "pagina_local": "caixa-seguridade-confirma-vazamento-de-dados-de-clientes-apos-inc-cf9a64f6.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-seguridade-informa-ataque-cibernetico-e-vazamento-de-dados",
+      "categoria": "Economia & cotidiano",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/economia.webp",
+      "coletado_em": "2026-11-13T00:15:34.060543+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Petrobras fecha acordo para adquirir controle total da empresa Logum Logística",
       "resumo": "A Petrobras firmou contrato para comprar a totalidade das ações da Logum Logística, passando a deter 100% da empresa voltada ao transporte e armazenamento de etanol. O negócio, divulgado em comunicado a investidores, ainda depende da aprovação do Conselho Administrativo de Defesa Econômica.",
@@ -1277,36 +1311,6 @@
       "categoria": "Últimas Notícias",
       "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
       "coletado_em": "06/11/2026 às 17:21",
-      "reescrito_ia": false
-    },
-    {
-      "titulo": "Inclusão Escolar: Estudo Mostra Avanços no Ensino Fundamental, mas Revela Desafios Críticos no Ensino Médio",
-      "resumo": "Conteúdo do acervo em revisão editorial. Consulte a publicação de origem.",
-      "conteudo_completo": "",
-      "corpo_html": "",
-      "destaques_html": "",
-      "imagem": "/assets/v4/brasil-cotidiano.webp",
-      "slug": "inclusao-escolar-estudo-mostra-avancos-no-ensino-fundamental-mas-revel",
-      "pagina_local": "inclusao-escolar-estudo-mostra-avancos-no-ensino-fundamental-mas-revel.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/aprendizagem-de-alunos-com-deficiencia-avanca-no-brasil",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "06/11/2026 às 17:22",
-      "reescrito_ia": false
-    },
-    {
-      "titulo": "UFRJ concede título de doutor honoris causa à escritora Conceição Evaristo",
-      "resumo": "Conteúdo do acervo em revisão editorial. Consulte a publicação de origem.",
-      "conteudo_completo": "",
-      "corpo_html": "",
-      "destaques_html": "",
-      "imagem": "/assets/v4/brasil-cotidiano.webp",
-      "slug": "ufrj-concede-titulo-de-doutor-honoris-causa-a-escritora-conceicao-evar",
-      "pagina_local": "ufrj-concede-titulo-de-doutor-honoris-causa-a-escritora-conceicao-evar.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/conceicao-evaristo-recebe-titulo-de-doutor-honoris-causa-pela-ufrj",
-      "categoria": "Últimas Notícias",
-      "fonte": "Agência Brasil / EBC (Empresa Brasil de Comunicação)",
-      "coletado_em": "06/11/2026 às 17:22",
       "reescrito_ia": false
     }
   ]
