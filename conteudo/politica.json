@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-13T00:16:20.884778+00:00",
-  "total": 52,
+  "ultima_atualizacao": "2026-11-13T07:54:17.574544+00:00",
+  "total": 54,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Supremo Tribunal Federal encerra litígios sobre perdas financeiras na caderneta de poupança",
+      "resumo": "O plenário do Supremo Tribunal Federal confirmou a validade da homologação de um acordo para finalizar os processos judiciais sobre perdas em planos econômicos. Com a decisão, a Corte rejeitou recursos de entidades e manteve o prazo de adesão até junho de 2027.",
+      "corpo_html": "<h2>Confirmação do encerramento</h2><p>O Supremo Tribunal Federal validou a decisão que homologou o acordo voltado a encerrar as ações judiciais sobre perdas financeiras de poupadores decorrentes de planos econômicos das décadas de 1980 e 1990. Os ministros do plenário rejeitaram três recursos protocolados por entidades que não possuíam legitimidade jurídica para contestar a determinação da Corte. O desfecho resultou na conclusão definitiva do caso.</p><h2>Prazos e abrangência</h2><p>A Corte manteve vigente até junho de 2027 o prazo limite para que os interessados possam realizar a adesão ao acordo firmado. A conciliação abrange a correção de valores aplicados em contas de caderneta de poupança durante o período de vigência de planos econômicos específicos, contemplando as medidas implementadas nos anos de 1987, 1989 e 1991.</p><h2>Histórico da negociação</h2><p>O pacto consensual final foi chancelado pelo STF em março de 2018. O entendimento conjunto foi construído por meio de tratativas envolvendo a Advocacia-Geral da União, instituições bancárias e associações orientadas para a defesa dos direitos do consumidor, com o objetivo de solucionar os litígios judiciais pendentes sobre a matéria.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>STF determinou o encerramento definitivo do processo nesta quinta-feira (12).</li><li>Prazo para adesão ao acordo foi mantido até junho de 2027.</li><li>Acordo original foi homologado em março de 2018 entre AGU, bancos e associações.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-encerra-litigios-sobre-perdas-financeira-55ea0272",
+      "pagina_local": "supremo-tribunal-federal-encerra-litigios-sobre-perdas-financeira-55ea0272.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-encerra-processo-sobre-perdas-inflacionarias-em-planos-economicos",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-13T07:53:55.654305+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Senado aprova texto-base de projeto de ajuste fiscal do governo",
+      "resumo": "O Senado aprovou o texto-base do projeto de ajuste fiscal do governo com previsão de economia nas contas públicas. A proposta segue agora para análise de destaques e posterior envio à Câmara dos Deputados.",
+      "corpo_html": "<h2>Votação e Tramitação</h2><p>O Senado aprovou nesta quinta-feira o texto-base do projeto de ajuste fiscal após quase quatro horas de votação. O requerimento de urgência foi aprovado por 40 votos a 38, permitindo a análise direta no plenário. Os destaques serão analisados posteriormente, com previsão para terça-feira, e o projeto seguirá para a Câmara dos Deputados.</p><h2>Medidas e Projeções</h2><p>O projeto prevê uma redução linear de 10% nos benefícios tributários, com exceções para áreas como folha de pagamentos, tecnologia da informação, semicondutores e isenção de veículos para pessoas com deficiência e autistas. A proposta também reduz o limite de crescimento das despesas em anos de contenção fiscal, retira receitas extraordinárias de exportações de petróleo do piso da saúde até 2030, estabelece prazo de 120 dias para regulamentar pagamentos acima do teto do funcionalismo público de R$ 46,3 mil, e flexibiliza despesas de até R$ 10,5 bilhões para subsídios ao diesel em 2026.</p><h2>Justificativa e Contexto</h2><p>O governo defende que o pacote é necessário para conter despesas, ampliar a arrecadação e abrir espaço no Orçamento de 2027 para a meta de superávit primário de 0,5% do PIB, o que equivale a R$ 73,2 bilhões. A oposição criticou a rapidez da tramitação e classificou a medida como aumento de impostos. A discussão acontece em um cenário de preocupação com a trajetória da dívida pública, que atinge cerca de 83% do Produto Interno Bruto.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Aprovação do texto-base por 45 votos a 31 no Senado.</li><li>Economia estimada entre R$ 50 bilhões e R$ 60 bilhões em 2027.</li><li>Dívida pública brasileira estimada em R$ 11,1 trilhões, equivalente a cerca de 83% do PIB.</li></ul></aside>",
+      "slug": "senado-aprova-texto-base-de-projeto-de-ajuste-fiscal-do-governo-711ae7d5",
+      "pagina_local": "senado-aprova-texto-base-de-projeto-de-ajuste-fiscal-do-governo-711ae7d5.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-texto-base-de-pacote-que-preve-economia-de-ate-r-60-bi",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-13T07:53:42.751524+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Emissao da Carteira de Identidade Nacional alcanca quase 70 milhoes de pessoas",
       "resumo": "Quase 70 milhoes de cidadaos ja emitiram a nova Carteira de Identidade Nacional, que adota o Cadastro de Pessoa Fisica como numero unico. A meta do governo federal e universalizar a emissao do documento ate o final de 2030.",
