@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-13T07:54:17.574544+00:00",
-  "total": 54,
+  "ultima_atualizacao": "2026-11-13T22:35:35.679095+00:00",
+  "total": 56,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Presidente Lula chega às Filipinas para agenda oficial e participação na Cúpula da Asean",
+      "resumo": "O presidente Luiz Inácio Lula da Silva desembarcou nas Filipinas nesta sexta-feira para cumprir compromissos oficiais e participar da Cúpula da Associação de Nações do Sudeste Asiático. O objetivo principal da viagem é estreitar relações e buscar a elevação do patamar diplomático e comercial brasileiro junto ao bloco.",
+      "corpo_html": "<h2>Chegada e Encontros Oficiais</h2><p>O presidente Luiz Inácio Lula da Silva chegou às Filipinas nesta sexta-feira. A programação oficial ocorre nos dias 14 e 15, período em que o mandatário participa como convidado da Cúpula da Associação de Nações do Sudeste Asiático. Estão programados encontros bilaterais, incluindo reunião com o presidente filipino Ferdinand Marcos Jr, além de participação no Fórum Empresarial Brasil-Filipinas.</p><h2>Relação com o Bloco Asiático</h2><p>O governo brasileiro formalizou em janeiro o pedido para ampliar o relacionamento com a Asean. A intenção é passar de Parceiro de Diálogo Setorial para Parceiro de Diálogo, que representa o nível mais elevado de engajamento. Caso a solicitação seja aprovada, o país integrará um grupo que já inclui nações como Estados Unidos, Canadá, Japão e Coreia do Sul.</p><h2>Temas Tratados na Viagem</h2><p>De acordo com o Itamaraty, as conversas durante os eventos programados abordarão assuntos voltados ao comércio, ao desenvolvimento e às parcerias internacionais. A visita tem como foco o fortalecimento das relações bilaterais, a ampliação de oportunidades de investimentos e a aproximação com outras nações para abrir novos caminhos econômicos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Chegada ocorreu nesta sexta-feira com compromissos oficiais agendados para os dias 14 e 15.</li><li>Governo brasileiro busca elevar o nível de engajamento para Parceiro de Diálogo da Asean.</li><li>Agenda inclui encontros bilaterais, Fórum Empresarial e reunião com o presidente filipino Ferdinand Marcos Jr.</li></ul></aside>",
+      "slug": "presidente-lula-chega-as-filipinas-para-agenda-oficial-e-particip-6115365e",
+      "pagina_local": "presidente-lula-chega-as-filipinas-para-agenda-oficial-e-particip-6115365e.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-chega-filipinas-brasil-quer-ser-parceiro-de-dialogo-da-asean",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-13T22:35:27.140861+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Presidente do Supremo Tribunal Federal defende nomeação de magistrada negra para a Corte",
+      "resumo": "O ministro Edson Fachin declarou apoio à chegada de uma ministra negra ao Supremo Tribunal Federal durante evento no Rio de Janeiro. Na ocasião, ele também apontou dados estatísticos sobre a representatividade racial no sistema judicial brasileiro.",
+      "corpo_html": "<h2>Pronunciamento no evento</h2><p>Durante sua participação no Encontro Nacional de Juízas e Juízes Negros, realizado no Rio de Janeiro, o ministro Edson Fachin mencionou a existência de magistradas qualificadas para ocupar futuras vagas na Suprema Corte do país. O magistrado destacou o perfil das profissionais que integraram o evento.</p><h2>Cenário da representatividade no Judiciário</h2><p>O presidente do tribunal apresentou estatísticas do Conselho Nacional de Justiça que mostram a proporção de pessoas negras entre juízes e servidores públicos da área. Conforme os dados citados, essa configuração decorre de processos históricos e estruturais relacionados à desigualdade racial.</p><h2>Composição e futuras vagas na Corte</h2><p>O Supremo Tribunal Federal é composto por 11 ministros e atualmente possui cadeira vaga. O funcionamento do tribunal prevê novas saídas nos próximos anos em decorrência da aposentadoria compulsória de integrantes ao atingirem a idade limite estabelecida.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Fachin participou do Encontro Nacional de Juízas e Juízes Negros na capital fluminense.</li><li>Dados indicam que pessoas negras compõem uma minoria entre juízes e servidores do Judiciário.</li><li>O STF possui vagas e previsões de novas aposentadorias nos próximos anos.</li></ul></aside>",
+      "slug": "presidente-do-supremo-tribunal-federal-defende-nomeacao-de-magist-63906b36",
+      "pagina_local": "presidente-do-supremo-tribunal-federal-defende-nomeacao-de-magist-63906b36.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-defende-indicacao-de-ministra-negra-para-o-stf",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-13T22:35:14.580406+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Supremo Tribunal Federal encerra litígios sobre perdas financeiras na caderneta de poupança",
       "resumo": "O plenário do Supremo Tribunal Federal confirmou a validade da homologação de um acordo para finalizar os processos judiciais sobre perdas em planos econômicos. Com a decisão, a Corte rejeitou recursos de entidades e manteve o prazo de adesão até junho de 2027.",
