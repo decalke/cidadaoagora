@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-14T17:03:43.300296+00:00",
-  "total": 62,
+  "ultima_atualizacao": "2026-11-14T21:26:40.766918+00:00",
+  "total": 64,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministério Público investiga supostos desvios de R$ 21 milhões em eventos esportivos na capital paulista",
+      "resumo": "O Ministério Público de São Paulo abriu apuração sobre suspeitas de irregularidades em contratos ligados a eventos esportivos na cidade. A denúncia aponta possíveis superfaturamentos e falta de execução de atividades previstas.",
+      "corpo_html": "<h2>Origem da investigação</h2><p>O Ministério Público de São Paulo recebeu denúncia sobre supostos desvios de recursos públicos relacionados a eventos esportivos na capital. A apuração foi iniciada após o recebimento de documentos apresentados pela equipe do vice-prefeito Ricardo Augusto de Mello Araújo.</p><h2>Acusações e contratos</h2><p>A denúncia aponta indícios de superfaturamento, ausência de realização de atividades pagas e favorecimento a quatorze entidades, entre associações e organizações não governamentais. Os apontamentos referem-se à Virada Esportiva 2026, organizada pela Secretaria Municipal de Esportes e Lazer, citando exemplos de custos elevados em comparação com valores praticados no mercado.</p><h2>Providências dos órgãos competentes</h2><p>Os promotores responsáveis solicitaram a instauração de inquérito policial que tramitará na Delegacia de Polícia de Proteção à Cidadania. Além disso, foi oficiada a prefeitura para que envie toda a documentação pertinente ao evento esportivo no prazo de dez dias.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Investigação envolve montante estimado em R$ 21 milhões.</li><li>Denúncia foi apresentada pelo vice-prefeito Ricardo Augusto de Mello Araújo.</li><li>Dez dias é o prazo estipulado para o envio de documentação pela prefeitura.</li></ul></aside>",
+      "slug": "ministerio-publico-investiga-supostos-desvios-de-r-21-milhoes-em--e0f2b2e5",
+      "pagina_local": "ministerio-publico-investiga-supostos-desvios-de-r-21-milhoes-em--e0f2b2e5.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/mp-apura-desvio-de-r-21-milhoes-em-eventos-esportivos-na-cidade-de-sp",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-14T21:26:37.764161+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal suspende prazos processuais devido a falhas na Microsoft",
+      "resumo": "A contagem de prazos no sistema judiciário brasileiro foi interrompida nos dias 12 e 13 de novembro após instabilidade generalizada nos servidores da Microsoft. A medida foi adotada pela presidência do Conselho Nacional de Justiça atendendo a um pedido protocolado pela Ordem dos Advogados do Brasil.",
+      "corpo_html": "<h2>Decisão sobre os prazos</h2><p>O presidente do Supremo Tribunal Federal e do Conselho Nacional de Justiça determinou a interrupção da contagem dos prazos processuais em todo o país. O retorno da normalidade está programado para a próxima segunda-feira. A decisão atendeu a uma solicitação apresentada pela Ordem dos Advogados do Brasil, que apontou riscos de danos ao trabalho da advocacia e ao andamento das ações judiciais.</p><h2>Impacto tecnológico</h2><p>A pane tecnológica afetou ferramentas digitais de comunicação e colaboração, incluindo o programa de correio eletrônico Outlook e as transmissões realizadas pela plataforma Teams. De acordo com os registros oficiais, o sistema eletrônico de julgamentos e as atividades jurisdicionais propriamente ditas mantiveram o funcionamento sem interrupções decorrentes do problema.</p><h2>Posicionamento da empresa</h2><p>As falhas nas ferramentas da Microsoft persistiram por mais de 12 horas, gerando impactos nas comunicações em escala mundial. A companhia justificou que a interrupção ocorreu em decorrência de problemas técnicos em seus servidores, declarando ainda que não há indícios ou conhecimento de qualquer atividade maliciosa associada ao episódio.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Suspensão de prazos atinge todo o judiciário nacional nos dias 12 e 13 de novembro.</li><li>Pedido foi formalizado pela Ordem dos Advogados do Brasil para evitar prejuízos.</li><li>Serviços como Outlook e Teams ficaram fora do ar por mais de 12 horas globalmente.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-suspende-prazos-processuais-devido-a-fal-f03d0986",
+      "pagina_local": "supremo-tribunal-federal-suspende-prazos-processuais-devido-a-fal-f03d0986.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-suspende-prazos-processuais-apos-instabilidade-da-microsoft",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-14T21:26:07.316302+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Presidente cobra retratação da imprensa após decisão judicial sobre imóvel em Guarujá",
       "resumo": "O presidente Luiz Inácio Lula da Silva declarou publicamente que aguarda uma retratação dos veículos de comunicação pelas acusações relacionadas a um apartamento no litoral paulista. A manifestação ocorre após a Justiça Federal determinar a liberação dos recursos obtidos com o leilão do bem para a construtora responsável.",
