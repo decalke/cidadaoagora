@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-14T10:25:13.189205+00:00",
-  "total": 59,
+  "ultima_atualizacao": "2026-11-14T17:03:43.300296+00:00",
+  "total": 62,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Presidente cobra retratação da imprensa após decisão judicial sobre imóvel em Guarujá",
+      "resumo": "O presidente Luiz Inácio Lula da Silva declarou publicamente que aguarda uma retratação dos veículos de comunicação pelas acusações relacionadas a um apartamento no litoral paulista. A manifestação ocorre após a Justiça Federal determinar a liberação dos recursos obtidos com o leilão do bem para a construtora responsável.",
+      "corpo_html": "<h2>Declarações sobre o caso</h2><p>Durante uma transmissão ao vivo realizada a partir da Turquia, onde participava de um evento internacional, o presidente Luiz Inácio Lula da Silva afirmou que espera uma retratação da imprensa brasileira a respeito do caso do apartamento triplex localizado em Guarujá. O chefe do Executivo lembrou o período em que permaneceu preso e argumentou que a reparação deveria ter o mesmo destaque dado às acusações divulgadas no passado pelos veículos de comunicação.</p><h2>Decisão sobre os valores</h2><p>A Justiça Federal determinou recentemente que o valor de R$ 2,4 milhões arrecadado no leilão do imóvel, realizado em 2018, seja repassado ao grupo da empreiteira OAS. O juiz responsável apontou a inexistência de investigações em andamento ou de fundamentos jurídicos que sustentem a retenção da quantia, entendimento que contou com a concordância do Ministério Público Federal para a liberação dos recursos depositados em conta judicial.</p><h2>Histórico do processo</h2><p>O imóvel situado no Edifício Solaris foi associado ao presidente durante as investigações da Operação Lava Jato, que apontava o bem como vantagem indevida. As condenações anteriores foram anuladas pelo Supremo Tribunal Federal devido a nulidades processuais. Com o envio do caso para a Justiça Federal de Brasília e o posterior pedido de arquivamento por parte do Ministério Público Federal em razão da prescrição, a ação foi encerrada.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Lula cobrou um pedido de desculpas em letras garrafais da imprensa</li><li>A Justiça Federal determinou que o dinheiro do leilão seja entregue à OAS</li><li>O processo relacionado ao imóvel foi arquivado anteriormente</li></ul></aside>",
+      "slug": "presidente-cobra-retratacao-da-imprensa-apos-decisao-judicial-sob-3b6f1e9e",
+      "pagina_local": "presidente-cobra-retratacao-da-imprensa-apos-decisao-judicial-sob-3b6f1e9e.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-cobra-pedido-de-desculpas-da-imprensa-sobre-triplex-em-guaruja",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-14T17:03:40.297888+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Ministro do Supremo Tribunal Federal acusa Sergio Moro de interferência nas eleições de 2018",
+      "resumo": "O ministro Gilmar Mendes afirmou que o ex-juiz Sergio Moro manipulou a Justiça para impedir a candidatura de Luiz Inácio Lula da Silva em 2018. A declaração ocorreu após o senador comentar que a condenação do atual presidente foi anulada por motivos formais.",
+      "corpo_html": "<h2>Declarações sobre a operação</h2><p>O ministro Gilmar Mendes declarou nas redes sociais que a sentença do caso triplex não foi anulada apenas por detalhes processuais. Segundo o magistrado, existem provas de que Sergio Moro manipulou o sistema de Justiça em conjunto com o ex-procurador Deltan Dallagnol para retirar o atual presidente da disputa eleitoral de 2018.</p><h2>Devolução de valores</h2><p>Uma decisão judicial determinou a restituição de R$ 2,4 milhões para a empreiteira OAS. O montante havia sido arrecadado por meio do leilão do apartamento triplex localizado no Guarujá, imóvel que a força-tarefa da Operação Lava Jato atribuía a Lula, após o reconhecimento de que a propriedade pertencia à construtora.</p><h2>Repercussão do caso</h2><p>O presidente Luiz Inácio Lula da Silva cobrou um pedido de desculpas da imprensa brasileira a respeito da cobertura sobre o triplex. Procurada pela Agência Brasil, a assessoria do senador Sergio Moro comunicou que o parlamentar optou por não comentar as declarações feitas pelo ministro do Supremo Tribunal Federal.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Gilmar Mendes acusou Sergio Moro e Deltan Dallagnol de conluio na Lava Jato.</li><li>A Justiça determinou a devolução de R$ 2,4 milhões para a empreiteira OAS.</li><li>A assessoria de Sergio Moro informou que o senador não comentará as declarações.</li></ul></aside>",
+      "slug": "ministro-do-supremo-tribunal-federal-acusa-sergio-moro-de-interfe-8fff22b8",
+      "pagina_local": "ministro-do-supremo-tribunal-federal-acusa-sergio-moro-de-interfe-8fff22b8.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-14T17:03:27.869689+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Decisao sobre instalacao de CPMI do Banco Master compete ao presidente do Congresso",
+      "resumo": "O presidente do Congresso Nacional reafirmou que a prerrogativa de definir o momento da leitura do requerimento de criacao da CPMI do Banco Master e exclusiva da presidencia. Parlamentares divergiram sobre o andamento da medida e o encaminhamento de recursos regimentais.",
+      "corpo_html": "<h2>Posicao da Presidencia do Congresso</h2><p>O presidente do Congresso Nacional reafirmou que a decisao sobre a abertura da comissao mista de inquerito cabe a presidencia do Legislativo. Segundo a Mesa Diretora, a avaliacao sobre o momento adequado para a leitura do requerimento esta sob a alcada da funcao legislativa, contrariando o argumento de que a instalacao seria automatica apos a obtencao das assinaturas.</p><h2>Cobranças e Divergências Partidárias</h2><p>Representantes do partido Novo cobraram a leitura imediata do pedido de autoria de um deputado federal e criticaram a recusa, recorrendo formalmente da determinacao. Por outro lado, um vice-lider do governo na Camara avaliou que a instalacao deveria ocorrer em outro periodo legislativo e mencionou investigacoes em curso sobre recursos destinados a producao audiovisual.</p><h2>Orgaos de Investigacao Envolvidos</h2><p>O presidente do Senado tambem pontuou que os fatos relacionados ao banco alvo da comissao ja sao objeto de apuracao por parte do Ministerio Publico Federal, da Policia Federal e do Supremo Tribunal Federal. O recurso apresentado contra o ato da presidencia devera ser encaminhado a Comissao de Constituicao e Justica no momento oportuno.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Presidente do Congresso declara que decisao sobre leitura de requerimento cabe a ele</li><li>Partido Novo cobrou publicamente a instalacao da comissao de inquerito</li><li>Recurso contra a decisao sera enviado a Comissao de Constituicao e Justica</li></ul></aside>",
+      "slug": "decisao-sobre-instalacao-de-cpmi-do-banco-master-compete-ao-presi-b5f7bff3",
+      "pagina_local": "decisao-sobre-instalacao-de-cpmi-do-banco-master-compete-ao-presi-b5f7bff3.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/alcolumbre-reafirma-que-decisao-sobre-cpmi-do-banco-master-cabe-ele",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-14T17:03:16.515282+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Congresso aprova projeto de reestruturação de carreiras e reajustes para servidores federais",
       "resumo": "O Congresso Nacional aprovou uma proposta que promove a reestruturação e prevê reajustes salariais para servidores de diversos órgãos federais. A medida altera o orçamento de 2026 e utiliza a redistribuição de recursos já existentes sem elevar o gasto total.",
