@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-13T22:35:35.679095+00:00",
-  "total": 56,
+  "ultima_atualizacao": "2026-11-14T10:25:13.189205+00:00",
+  "total": 59,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Congresso aprova projeto de reestruturação de carreiras e reajustes para servidores federais",
+      "resumo": "O Congresso Nacional aprovou uma proposta que promove a reestruturação e prevê reajustes salariais para servidores de diversos órgãos federais. A medida altera o orçamento de 2026 e utiliza a redistribuição de recursos já existentes sem elevar o gasto total.",
+      "corpo_html": "<h2>Órgãos contemplados na proposta</h2><p>O projeto aprovado abrange trabalhadores e carreiras da Receita Federal, do Instituto Nacional do Seguro Social (INSS), do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), do Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio), da Fundação Nacional do Índio (Funai), do Departamento Nacional de Auditoria do SUS (Denasus) e do magistério federal.</p><h2>Alterações no orçamento e cargos</h2><p>A aprovação modifica a Lei Orçamentária Anual de 2026. Conforme o Executivo, a iniciativa envolve a redistribuição de recursos orçamentários já previstos, sem ampliação da despesa total. O texto contempla a criação e o provimento de cargos, funções e gratificações, além de concessões de reajustes salariais e reposicionamentos.</p><h2>Tramitação e justificativa</h2><p>A matéria teve origem inicial voltada apenas para a Receita Federal, mas o governo adicionou os demais grupos por meio de mensagem modificativa. O relator, deputado Luiz Gastão, apontou que as motivações apresentadas nas exposições de motivos foram consideradas adequadas para justificar o aval à medida.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Aprovação ocorreu nesta quinta-feira (12) pelo Congresso Nacional.</li><li>A medida impacta servidores da Receita Federal, INSS, Ibama, ICMBio, Funai, Denasus e professores federais.</li><li>O governo informou que a iniciativa redistribui verbas orçamentárias atuais sem gerar aumento de despesa total.</li></ul></aside>",
+      "slug": "congresso-aprova-projeto-de-reestruturacao-de-carreiras-e-reajust-4dfffd6f",
+      "pagina_local": "congresso-aprova-projeto-de-reestruturacao-de-carreiras-e-reajust-4dfffd6f.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-aprova-reestruturacao-de-carreiras-na-receita-ibama-e-inss",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-14T10:25:10.186203+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "STF registra quatro votos para manter início da escala de trabalho 5x2 em dezembro",
+      "resumo": "O Supremo Tribunal Federal contabilizou quatro votos favoráveis para referendar a liminar que define as regras de transição da nova escala de trabalho. A votação virtual sobre o tema tem encerramento previsto para a próxima segunda-feira.",
+      "corpo_html": "<h2>Andamento da votação no Supremo Tribunal Federal</h2><p>O Supremo Tribunal Federal registrou quatro votos para referendar a liminar que estabeleceu regras de transição para o início da escala de trabalho 5x2. O relator do caso é o ministro Flávio Dino, e a decisão foi acompanhada pelos ministros Alexandre de Moraes, Cármen Lúcia e Gilmar Mendes. A conclusão da votação em ambiente virtual está programada para ocorrer na segunda-feira.</p><h2>Regras da transição e carga horária</h2><p>A decisão do relator permite que a carga horária de 42 horas semanais seja distribuída ao longo de cinco dias de trabalho, com jornadas diárias de até 8 horas e 24 minutos durante o período de transição. A implantação da nova escala foi mantida para o dia 16 de dezembro deste ano, conforme a determinação estabelecida na liminar.</p><h2>Contexto da mudança na legislação</h2><p>Anteriormente, o Senado Federal aprovou o fim da escala 6x1 em uma decisão que garantiu dois dias de descanso remunerado semanal, com jornada máxima em 5x2 e sem redução de salários. A transição estipulada incluiu a alteração da jornada anterior para novos limites e contou com apoio de parlamentares da base governista e da oposição, após votação que também passou pela Câmara dos Deputados.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Quatro ministros acompanharam o voto do relator Flávio Dino.</li><li>A nova jornada prevê 42 horas semanais divididas em cinco dias.</li><li>A implementação das regras está mantida para 16 de dezembro.</li></ul></aside>",
+      "slug": "stf-registra-quatro-votos-para-manter-inicio-da-escala-de-trabalh-706659a6",
+      "pagina_local": "stf-registra-quatro-votos-para-manter-inicio-da-escala-de-trabalh-706659a6.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-tem-4-votos-para-manter-inicio-da-escala-5x2-em-dezembro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-14T10:24:58.096618+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Consulta publica recebe sugestoes para protecao de criancas na internet",
+      "resumo": "O governo esta coletando contribuicoes da sociedade para elaborar o plano trienal de protecao de criancas e adolescentes no ambiente digital. O prazo para envio das sugestoes vai ate a proxima terca-feira.",
+      "corpo_html": "<h2>Envio de contribuicoes</h2><p>O Comitê Intersetorial da Política Nacional de Promoção e Proteção dos Direitos da Criança e do Adolescente no Ambiente Digital aceita propostas ate a proxima terca-feira, dia 17. O objetivo da iniciativa e recolher participacoes para o planejamento de acoes prioritarias voltadas ao setor.</p><h2>Participantes habilitados</h2><p>Podem enviar colaboracoes criancas, adolescentes, conselhos de direitos, conselhos tutelares e organizacoes nao governamentais. Tambem participam gestores publicos, profissionais da area, instituicoes de ensino, familias e demais interessados.</p><h2>Proximas etapas</h2><p>Apos o fim da consulta publica, as manifestacoes serao reunidas e analisadas junto com reunioes tecnicas anteriores. O material servira de base para o aperfeicoamento e a geracao da versao final do documento pelo comite.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Prazo de participacao encerra na proxima terca-feira</li><li>Plano abrange o periodo de 2027 a 2029</li><li>Consulta e aberta a diversos setores da sociedade e cidadaos interessados</li></ul></aside>",
+      "slug": "consulta-publica-recebe-sugestoes-para-protecao-de-criancas-na-in-80c4575d",
+      "pagina_local": "consulta-publica-recebe-sugestoes-para-protecao-de-criancas-na-in-80c4575d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/governo-recebe-sugestoes-para-proteger-criancas-no-ambiente-digital",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/clima-brasil.webp",
+      "coletado_em": "2026-11-14T10:24:46.385697+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Presidente Lula chega às Filipinas para agenda oficial e participação na Cúpula da Asean",
       "resumo": "O presidente Luiz Inácio Lula da Silva desembarcou nas Filipinas nesta sexta-feira para cumprir compromissos oficiais e participar da Cúpula da Associação de Nações do Sudeste Asiático. O objetivo principal da viagem é estreitar relações e buscar a elevação do patamar diplomático e comercial brasileiro junto ao bloco.",
