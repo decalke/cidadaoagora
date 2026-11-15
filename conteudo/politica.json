@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-15T17:03:49.261718+00:00",
-  "total": 68,
+  "ultima_atualizacao": "2026-11-15T21:44:21.325957+00:00",
+  "total": 69,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,23 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministro do Supremo Tribunal Federal rejeita pedido de segundo turno no Rio de Janeiro",
+      "resumo": "O ministro Cristiano Zanin negou seguimento a uma ação protocolada pelo PSD que buscava a realização de segundo turno para o governo fluminense. A decisão manteve o resultado da retotalização de votos feita pelo Tribunal Superior Eleitoral.",
+      "corpo_html": "<h2>Decisão do Supremo</h2><p>O ministro Cristiano Zanin rejeitou dar andamento a um processo que pedia a realização de segundo turno nas eleições para o governo do Rio de Janeiro. A medida foi tomada em resposta a uma solicitação apresentada pelo PSD, partido do candidato Eduardo Paes, que pedia a suspensão da decisão do Tribunal Superior Eleitoral.</p><h2>Retotalização de votos</h2><p>A controvérsia teve origem quando o TSE anulou os votos obtidos por um candidato e determinou a retotalização dos sufrágios para o cargo de governador. Com a nova contagem, o percentual de votos válidos ultrapassou a marca necessária, resultando na eleição de Douglas Ruas no primeiro turno.</p><h2>Fundamentação jurídica</h2><p>Na avaliação do ministro, o instrumento processual escolhido pelo partido não pode ser aplicado para contestar decisões judiciais específicas do tribunal eleitoral. A defesa da legenda argumentava que a definição de um segundo turno deveria decorrer diretamente da escolha dos eleitores e não de desdobramentos processuais.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Ação foi movida pelo PSD após retotalização de votos</li><li>Ministro apontou inadequação processual da ADPF</li><li>Douglas Ruas foi eleito no primeiro turno após recontagem</li></ul></aside>",
+      "slug": "ministro-do-supremo-tribunal-federal-rejeita-pedido-de-segundo-tu-47736520",
+      "pagina_local": "ministro-do-supremo-tribunal-federal-rejeita-pedido-de-segundo-tu-47736520.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/zanin-rejeita-acao-para-determinar-segundo-turno-para-o-governo-do-rio",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-15T21:44:12.397212+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Procurador-geral da República manifesta-se contra pedido de revisão de condenação no Supremo Tribunal Federal",
       "resumo": "O procurador-geral da República enviou ao Supremo Tribunal Federal um parecer contrariando o pedido de revisão criminal apresentado pela defesa do ex-presidente Jair Bolsonaro. A petição anterior buscava anular a condenação aplicada pela Primeira Turma da Corte.",
