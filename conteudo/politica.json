@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-15T09:16:55.360346+00:00",
-  "total": 66,
+  "ultima_atualizacao": "2026-11-15T17:03:49.261718+00:00",
+  "total": 68,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Procurador-geral da República manifesta-se contra pedido de revisão de condenação no Supremo Tribunal Federal",
+      "resumo": "O procurador-geral da República enviou ao Supremo Tribunal Federal um parecer contrariando o pedido de revisão criminal apresentado pela defesa do ex-presidente Jair Bolsonaro. A petição anterior buscava anular a condenação aplicada pela Primeira Turma da Corte.",
+      "corpo_html": "<h2>Manifestação da Procuradoria</h2><p>O chefe do Ministério Público federal enviou ao Supremo Tribunal Federal um posicionamento contrariando o pedido de revisão criminal protocolado pela defesa do ex-presidente. No documento, a instituição apontou que os elementos probatórios considerados pelo tribunal evidenciaram a existência de uma estrutura organizada com objetivos específicos.</p><h2>Argumentos apresentados</h2><p>A defesa do ex-presidente havia protocolado o pedido para anular a decisão da Primeira Turma que resultou em uma condenação de 27 anos e três meses de reclusão. Entre os pontos levantados pelos advogados estavam alegações de supostas irregularidades processuais, como restrições no acesso a documentos investigativos e ausência de manifestações do órgão ministerial em etapas específicas.</p><h2>Próximas etapas processuais</h2><p>Após a formalização da manifestação pelo procurador-geral, cabe ao ministro relator do processo liberar a matéria para apreciação no plenário do tribunal. O magistrado assumiu a relatoria por integrar um colegiado diferente daquele que julgou originalmente a ação penal.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Parecer foi enviado ao Supremo Tribunal Federal</li><li>Defesa solicitou revisão de decisão da Primeira Turma</li><li>Ministro relator encaminhará o processo para julgamento</li></ul></aside>",
+      "slug": "procurador-geral-da-republica-manifesta-se-contra-pedido-de-revis-2897a4f8",
+      "pagina_local": "procurador-geral-da-republica-manifesta-se-contra-pedido-de-revis-2897a4f8.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-e-contra-revisar-condenacao-de-jair-bolsonaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-15T17:03:41.613435+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal instala Oxê de Xangô no Salão Nobre",
+      "resumo": "O Supremo Tribunal Federal inaugura uma representação do Oxê de Xangô em seu Salão Nobre para simbolizar a justiça e a diversidade. A instalação atende a um pleito do Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras.",
+      "corpo_html": "<h2>Símbolo e significado</h2><p>O Oxê de Xangô consiste em um machado dotado de duas lâminas pontiagudas, representando a imparcialidade nas decisões e a ausência de privilégios para lados opostos. A peça está associada ao orixá da lei e da justiça dentro das crenças de matriz africana. A solenidade de descerramento ocorre no hall do Salão Nobre, situado no segundo andar do edifício-sede da Corte, às 18h.</p><h2>Origem da demanda</h2><p>A instalação da escultura atende a um requerimento formulado pelo Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras protocolado em fevereiro de 2025. O pedido surgiu na sequência de um julgamento do Plenário ocorrido em novembro de 2024, no qual o tribunal definiu que a exibição de símbolos religiosos em repartições públicas não infringe a neutralidade do Estado nem a liberdade de crença.</p><h2>Contexto institucional</h2><p>A Secretaria de Equidade, Diversidade e Inclusão do STF viabilizou a colocação da obra, programada para anteceder a data dedicada à Consciência Negra em 20 de novembro. O órgão máximo do Judiciário destacou em comunicado oficial que a medida reforça o respeito à pluralidade cultural e religiosa do país.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Inauguração marcada para a próxima terça-feira (17) no Salão Nobre do STF.</li><li>Peça simboliza a igualdade nos julgamentos na tradição yorubá.</li><li>Iniciativa decorre de solicitação apresentada pelo Idafro em fevereiro de 2025.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-instala-oxe-de-xango-no-salao-nobre-2115df6f",
+      "pagina_local": "supremo-tribunal-federal-instala-oxe-de-xango-no-salao-nobre-2115df6f.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/oxe-de-xango-simbolo-da-justica-sera-inaugurado-no-stf",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-15T17:03:22.754606+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Autoridades defendem asfixia financeira de facções criminosas",
       "resumo": "Representantes do governo e do Ministério Público apontaram o bloqueio de recursos como prioridade para combater o crime organizado. O tema foi debatido durante a 24ª Reunião Plenária da Estratégia Nacional de Combate à Corrupção e à Lavagem de Dinheiro, realizada no Rio de Janeiro.",
