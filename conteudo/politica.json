@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-14T21:26:40.766918+00:00",
-  "total": 64,
+  "ultima_atualizacao": "2026-11-15T01:51:57.907133+00:00",
+  "total": 66,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Autoridades defendem asfixia financeira de facções criminosas",
+      "resumo": "Representantes do governo e do Ministério Público apontaram o bloqueio de recursos como prioridade para combater o crime organizado. O tema foi debatido durante a 24ª Reunião Plenária da Estratégia Nacional de Combate à Corrupção e à Lavagem de Dinheiro, realizada no Rio de Janeiro.",
+      "corpo_html": "<h2>Enfrentamento econômico</h2><p>O ministro da Justiça e Segurança Pública afirmou que a responsabilização criminal é essencial, mas precisa vir acompanhada da identificação e do bloqueio das estruturas financeiras das facções. Conforme o posicionamento divulgado, sem cortar o fluxo de recursos, o grupo criminoso consegue recompor rapidamente sua capacidade de atuação.</p><h2>Integração institucional</h2><p>O procurador-geral de Justiça do Rio de Janeiro apontou que a criminalidade atua de forma local, interestadual e transnacional, exigindo maior articulação entre União, estados e municípios. A asfixia financeira foi apontada como o principal instrumento para reduzir o poder econômico e a capacidade de corrupção dessas estruturas.</p><h2>Plenária e planejamento</h2><p>O evento reuniu autoridades públicas e privadas para avaliar as iniciativas conduzidas em 2026 e estabelecer as prioridades para o combate à corrupção e à lavagem de dinheiro no ano de 2027. O alinhamento é coordenado pela Secretaria Nacional de Justiça com a participação de diferentes órgãos governamentais.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Ministro defende bloqueio de estruturas financeiras de facções</li><li>Procurador destaca investigação patrimonial e recuperação de ativos</li><li>Reunião definiu prioridades para o enfrentamento à corrupção em 2027</li></ul></aside>",
+      "slug": "autoridades-defendem-asfixia-financeira-de-faccoes-criminosas-8240ed24",
+      "pagina_local": "autoridades-defendem-asfixia-financeira-de-faccoes-criminosas-8240ed24.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/ministro-da-justica-defende-enfraquecimento-economico-de-faccoes",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/economia.webp",
+      "coletado_em": "2026-11-15T01:51:43.321736+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Senado avalia projeto de ajuste fiscal com foco no equilíbrio das contas públicas",
+      "resumo": "O Senado Federal planeja votar nesta quinta-feira projeto de lei complementar com medidas de ajuste fiscal para o controle dos gastos públicos. A proposta visa gerar economia multibilionária e busca o cumprimento da meta fiscal estipulada para os próximos anos.",
+      "corpo_html": "<h2>Tramitação e debates no Congresso</h2><p>O projeto de lei complementar foi apresentado na quarta-feira pelo ministro do Planejamento e Orçamento, Bruno Moretti, durante audiência pública na Comissão Mista de Orçamento. Na sequência, o texto foi apresentado pelo senador Jaques Wagner para apreciação no Senado. O relator da matéria, Eduardo Baga, propôs um substitutivo com ajustes redacionais. O presidente do Senado, Davi Alcolumbre, indicou que a votação poderá ser transferida para a próxima semana caso as lideranças apontem necessidade de mais tempo para analisar o texto.</p><h2>Medidas de contenção e controle de despesas</h2><p>O texto prevê um mecanismo adicional de contenção de despesas que restringe o crescimento real dos gastos federais a 2% em 2027, caso haja risco de descumprimento do limite inferior da meta fiscal. Atualmente, o arcabouço fiscal permite expansão de até 2,5%. Essa restrição pode gerar uma contenção de R$ 12,8 bilhões no Orçamento e o bloqueio não poderá ser revertido durante o exercício mesmo se houver melhora na arrecadação.</p><h2>Incentivos fiscais e regras para a saúde</h2><p>A iniciativa engloba modificações na política de incentivos fiscais e nos mecanismos de compensação tributária das empresas, visando ampliar a arrecadação e corrigir distorções. Além disso, o projeto propõe estender até 2030 a regra que exclui receitas extraordinárias da exploração de petróleo e gás da base de cálculo da Receita Corrente Líquida, utilizada no piso constitucional da saúde. O conjunto de medidas apoia a meta de obter superávit primário de 0,5% do PIB em 2027, equivalente a R$ 73,2 bilhões, com expectativa de atingir 1,5% do PIB em 2030.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O impacto econômico previsto do projeto é de quase R$ 60 bilhões.</li><li>A proposta inclui limitar o crescimento real dos gastos federais a 2% em 2027.</li><li>O pacote integra a estratégia governamental para alcançar superávit primário de 0,5% do PIB em 2027.</li></ul></aside>",
+      "slug": "senado-avalia-projeto-de-ajuste-fiscal-com-foco-no-equilibrio-das-647808d4",
+      "pagina_local": "senado-avalia-projeto-de-ajuste-fiscal-com-foco-no-equilibrio-das-647808d4.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-deve-votar-ajuste-fiscal-com-previsao-de-economia-de-r-60-bi",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/economia.webp",
+      "coletado_em": "2026-11-15T01:51:32.759272+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministério Público investiga supostos desvios de R$ 21 milhões em eventos esportivos na capital paulista",
       "resumo": "O Ministério Público de São Paulo abriu apuração sobre suspeitas de irregularidades em contratos ligados a eventos esportivos na cidade. A denúncia aponta possíveis superfaturamentos e falta de execução de atividades previstas.",
