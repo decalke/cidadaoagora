@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-16T09:32:45.190980+00:00",
-  "total": 69,
+  "ultima_atualizacao": "2026-11-16T20:27:24.370436+00:00",
+  "total": 70,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,23 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Lula e Pedro Sánchez reúnem-se em Madri e abordam temas globais",
+      "resumo": "O presidente Luiz Inácio Lula da Silva encontrou-se com o chefe do governo espanhol, Pedro Sánchez, para tratar da defesa da democracia e de pautas internacionais. Durante o diálogo, os líderes discutiram reformas no sistema multilateral e parcerias globais.",
+      "corpo_html": "<h2>Encontro em Madri e agenda política</h2><p>Na manhã de segunda-feira, dia 16, o presidente Luiz Inácio Lula da Silva esteve em Madri com o presidente do governo da Espanha, Pedro Sánchez, durante retorno de sua viagem às Filipinas. Os chefes de Estado abordaram o enfrentamento ao discurso de ódio e a desinformação, além de ressaltarem a relevância de políticas sociais de inclusão para manter a estabilidade democrática na América Latina e na Europa. A conversa também tratou do cenário político espanhol, onde a população vai às urnas em 29 de novembro para eleger os integrantes de 350 cadeiras do Congresso.</p><h2>Reforma multilateral e apoio na ONU</h2><p>O diálogo incluiu propostas para o Conselho de Segurança das Nações Unidas, com Lula defendendo atualizações no funcionamento do colegiado, que tem poder de veto detido por Estados Unidos, China, Rússia, França e Reino Unido. Sánchez expressou apoio a uma eventual candidatura da América Latina para a Secretaria-Geral da instituição. O mandato do atual ocupante do cargo, o português António Guterres, termina em 1º de janeiro de 2027.</p><h2>Compromissos ambientais e viagens internacionais</h2><p>O presidente brasileiro detalhou compromissos assumidos em passagens anteriores pela Turquia, por ocasião da COP 31, e pelas Filipinas, onde participou da reunião da Associação de Nações do Sudeste Asiático. Lula destacou a receptividade internacional ao Fundo Florestas para Sempre e compartilhou os planos elaborados pelo Brasil para zerar o desmatamento e promover a transição para o fim do uso de combustíveis fósseis.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Debate sobre o combate à desinformação e o fortalecimento das instituições democráticas.</li><li>Apoio da Espanha a uma candidatura da América Latina para a liderança da ONU.</li><li>Apresentação de iniciativas ambientais brasileiras sobre desmatamento e transição energética.</li></ul></aside>",
+      "slug": "lula-e-pedro-sanchez-reunem-se-em-madri-e-abordam-temas-globais-8bc7fd47",
+      "pagina_local": "lula-e-pedro-sanchez-reunem-se-em-madri-e-abordam-temas-globais-8bc7fd47.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-sanchez-defendem-uniao-contra-avanco-da-extrema-direita",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-16T20:25:32.920948+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.6-flash",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministro do Supremo Tribunal Federal rejeita pedido de segundo turno no Rio de Janeiro",
       "resumo": "O ministro Cristiano Zanin negou seguimento a uma ação protocolada pelo PSD que buscava a realização de segundo turno para o governo fluminense. A decisão manteve o resultado da retotalização de votos feita pelo Tribunal Superior Eleitoral.",
