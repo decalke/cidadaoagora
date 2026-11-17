@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-17T03:48:54.527767+00:00",
-  "total": 70,
+  "ultima_atualizacao": "2026-11-17T22:17:42.074645+00:00",
+  "total": 73,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Lideranças do Congresso pedem ao STF julgamento sobre projeto que altera penas",
+      "resumo": "Os presidentes da Câmara dos Deputados e do Senado Federal reuniram-se com um ministro do Supremo Tribunal Federal para solicitar a liberação do julgamento de ações relativas a uma lei sobre dosimetria. A legislação em questão, que reduz penas para condenados por crimes contra a democracia ocorridos em 8 de janeiro de 2023, encontra-se suspensa por decisão cautelar.",
+      "corpo_html": "<h2>Encontro institucional</h2><p>Os chefes da Câmara dos Deputados e do Senado Federal reuniram-se com o ministro Alexandre de Moraes para pedir a inclusão das ações sobre o projeto de lei na pauta do Plenário do Supremo Tribunal Federal. O objetivo manifestado pelas lideranças é que ocorra uma deliberação definitiva ainda neste ano sobre a validade da norma aprovada pelo Parlamento.</p><h2>Contestação judicial e veto</h2><p>A legislação que trata da dosimetria das penas foi suspensa em maio por decisão do relator dos processos. A validade da norma é questionada por Ações Diretas de Inconstitucionalidade ajuizadas pela Associação Brasileira de Imprensa e por federação partidária. O texto original havia sido integralmente vetado pela Presidência da República sob o argumento de violação ao interesse público, mas o veto presidencial acabou derrubado pelo Congresso Nacional.</p><h2>Mudanças no cálculo das penas</h2><p>O projeto estabelece que a punição para crimes de tentativa de acabar com o Estado Democrático de Direito e de golpe de Estado, cometidos no mesmo contexto, utilize a penalidade mais grave em vez da soma de ambas. As alterações no cálculo e na calibragem das sanções mínimas e máximas podem abranger diversos condenados pelo Supremo Tribunal Federal relacionados aos eventos de 8 de janeiro.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Reunião envolveu os presidentes da Câmara e do Senado e um ministro do STF.</li><li>A lei contestada reduz penas para crimes julgados no contexto dos atos de 8 de janeiro de 2023.</li><li>A norma está suspensa desde maio por decisão cautelar do tribunal.</li></ul></aside>",
+      "slug": "liderancas-do-congresso-pedem-ao-stf-julgamento-sobre-projeto-que-87d34754",
+      "pagina_local": "liderancas-do-congresso-pedem-ao-stf-julgamento-sobre-projeto-que-87d34754.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-pede-que-stf-julgue-lei-que-beneficia-condenados-pelo-81",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-17T22:17:29.861868+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Procuradoria-Geral da República manifesta-se favorável à prorrogação de inquérito sobre financiamento de filme",
+      "resumo": "O procurador-geral da República enviou ao Supremo Tribunal Federal um parecer favorável para estender por 90 dias a investigação envolvendo repasses financeiros para uma cinebiografia. O pedido de dilação do prazo partiu da Polícia Federal para a conclusão de diligências pendentes.",
+      "corpo_html": "<h2>Manifestação da Procuradoria</h2><p>O procurador-geral da República, Paulo Gonet, enviou ao Supremo Tribunal Federal um parecer favorável à prorrogação do inquérito pelo período de 90 dias. A manifestação atende a um pedido apresentado pela Polícia Federal, indicando que a continuidade da coleta de informações é adequada e cabível.</p><h2>Motivos para a prorrogação</h2><p>Segundo a Polícia Federal, o prazo adicional é necessário para a finalização de perícias contábeis e para o aguardo da tramitação de um pedido de cooperação internacional com os Estados Unidos. O objetivo é obter registros financeiros de entidades estrangeiras apontadas como destinatárias de repasses ligados ao caso.</p><h2>Origem e contexto do caso</h2><p>A apuração tramita no Supremo Tribunal Federal após solicitação de investigação apresentada pelo deputado federal Lindberg Farias. Os investigadores analisam documentos entregues por um delator e apuram repasses destinados a um fundo de investimentos criado no exterior para financiar as gravações do filme.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>PGR apoia extensão de 90 dias para inquérito policial</li><li>Polícia Federal aponta necessidade de perícias e cooperação internacional</li><li>Investigação abrange repasses vinculados a fundo de investimentos</li></ul></aside>",
+      "slug": "procuradoria-geral-da-republica-manifesta-se-favoravel-a-prorroga-e3b2c41d",
+      "pagina_local": "procuradoria-geral-da-republica-manifesta-se-favoravel-a-prorroga-e3b2c41d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-e-a-favor-de-prorrogacao-de-investigacao-do-caso-dark-horse",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-17T22:17:16.918872+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Decreto de regulamentação da nova escala de trabalho será assinado na quinta-feira",
+      "resumo": "O governo federal vai assinar na próxima quinta-feira o decreto que regulamenta a nova jornada de trabalho com cinco dias de atividade e dois de descanso. A medida ocorre após a aprovação legislativa que alterou o formato anterior e reduziu a carga horária semanal.",
+      "corpo_html": "<h2>Regulamentação e prazos</h2><p>O presidente Luiz Inácio Lula da Silva assinará a regulamentação em um evento aberto à imprensa. A norma tem o propósito de orientar empregados e empregadores nas negociações necessárias para a implementação válida em todo o território nacional. A exigência passará a valer a partir de 16 de dezembro, servindo também como diretriz para o entendimento das regras de transição.</p><h2>Mudanças na jornada</h2><p>A alteração decorre da aprovação do fim do modelo anterior pelo Congresso Nacional. Com a nova legislação, os trabalhadores passam a contar com dois dias de descanso remunerado por semana, em uma jornada máxima de cinco dias trabalhados. Além disso, o total de horas semanais cai de 44 para 40, acompanhado por um período de transição definido em 14 meses.</p><h2>Contexto judicial e apoio</h2><p>O andamento do tema também repercute no Supremo Tribunal Federal, onde ações sobre as normas de transição terão julgamento definitivo sobre o mérito. O encerramento do formato anterior contou com apoio expressivo da sociedade, conforme levantamento estatístico realizado no mês de fevereiro por instituto de pesquisa.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Assinatura do decreto está marcada para quinta-feira, às 9h, no Palácio do Planalto.</li><li>Cumprimento da nova escala de cinco dias de trabalho por dois de descanso começa em 16 de dezembro.</li><li>Jornada semanal passa de 44 para 40 horas com regra de transição de 14 meses.</li></ul></aside>",
+      "slug": "decreto-de-regulamentacao-da-nova-escala-de-trabalho-sera-assinad-b97ef51e",
+      "pagina_local": "decreto-de-regulamentacao-da-nova-escala-de-trabalho-sera-assinad-b97ef51e.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/decreto-que-regulamenta-escala-5x2-sera-assinado-quinta-feira",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/comercio.webp",
+      "coletado_em": "2026-11-17T22:17:02.849821+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Lula e Pedro Sánchez reúnem-se em Madri e abordam temas globais",
       "resumo": "O presidente Luiz Inácio Lula da Silva encontrou-se com o chefe do governo espanhol, Pedro Sánchez, para tratar da defesa da democracia e de pautas internacionais. Durante o diálogo, os líderes discutiram reformas no sistema multilateral e parcerias globais.",
