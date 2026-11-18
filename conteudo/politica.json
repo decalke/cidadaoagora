@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-17T22:17:42.074645+00:00",
-  "total": 73,
+  "ultima_atualizacao": "2026-11-18T04:15:22.824229+00:00",
+  "total": 75,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Defesa de Daniel Vorcaro solicita julgamento de pedido de liberdade no Supremo Tribunal Federal",
+      "resumo": "A defesa do ex-banqueiro Daniel Vorcaro protocolou uma petição para que o Supremo Tribunal Federal analise um pedido de soltura antes do vencimento do prazo de reavaliação da prisão. O ex-banqueiro está custodiado no Distrito Federal e foi indiciado pela Polícia Federal em um caso de fraudes financeiras.",
+      "corpo_html": "<h2>Pedido de andamento processual</h2><p>A defesa do ex-banqueiro Daniel Vorcaro protocolou uma petição para solicitar ao Supremo Tribunal Federal o julgamento de um pedido de soltura apresentado na semana passada. Os advogados informaram ao presidente da Corte que as regras processuais determinam a renovação da necessidade de manutenção da custódia a cada 90 dias, sendo o prazo limite o dia 29 de novembro. O pedido requer que os autos sejam enviados ao ministro mais antigo da Segunda Turma para a apreciação da liberdade.</p><h2>Posição da Procuradoria-Geral</h2><p>O procurador-geral da República enviou ao Supremo um parecer favorável à continuidade da prisão preventiva de Vorcaro. No documento, apontou-se que a eventual soltura do investigado poderia representar comprometimento para o andamento das apurações em curso. O ex-banqueiro está detido no presídio da Papudinha, no Distrito Federal, desde março.</p><h2>Investigação da Polícia Federal</h2><p>A Polícia Federal indiciou o ex-banqueiro e outras 14 pessoas por suspeita de fraudes financeiras envolvendo o Banco Regional de Brasília. Segundo o relatório policial, o investigado teve participação direta em operações com carteiras de créditos irregulares. A defesa criticou o indiciamento, argumentando que a corporação repetiu narrativas anteriores e que nenhuma perícia oficial constatou prejuízos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Petição enviada ao presidente do STF aponta que a necessidade de prisão deve ser renovada a cada 90 dias, com prazo vencendo em 29 de novembro.</li><li>A defesa solicita que o caso seja encaminhado ao ministro mais antigo da Segunda Turma da Corte.</li><li>A Polícia Federal indiciou o ex-banqueiro e mais 14 investigados por fraudes financeiras ligadas a operações de crédito.</li></ul></aside>",
+      "slug": "defesa-de-daniel-vorcaro-solicita-julgamento-de-pedido-de-liberda-7c7876ca",
+      "pagina_local": "defesa-de-daniel-vorcaro-solicita-julgamento-de-pedido-de-liberda-7c7876ca.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/defesa-pede-que-supremo-julgue-pedido-para-soltar-vorcaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-18T04:14:50.352700+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Senado adia votação de destaques do projeto de ajuste fiscal",
+      "resumo": "A votação dos destaques do projeto de lei de ajuste fiscal no Senado foi adiada para quarta-feira devido à falta de entendimento entre a base governista e a oposição. A proposta prevê medidas para reduzir despesas e ampliar a arrecadação, gerando divergências sobre pontos específicos do texto.",
+      "corpo_html": "<h2>Motivo do adiamento</h2><p>A sessão em plenário ocorreu e o presidente do Senado comunicou o adiamento da votação dos destaques ao texto-base do projeto de lei de ajuste fiscal para quarta-feira a pedido do relator da matéria, o senador Eduardo Braga. O relator buscou construir entendimento com os autores dos destaques do PLP 299/2026 para aprimorar o tema, uma vez que a falta de consenso entre base do governo e oposição inviabilizou a conclusão da votação.</p><h2>Medidas e impactos previstos</h2><p>O projeto de lei abrange medidas para reduzir despesas e ampliar a arrecadação, com expectativa de economia entre R$ 50 bilhões e R$ 60 bilhões em 2027. O texto propõe alterações no arcabouço fiscal, redução do limite de crescimento dos gastos acima da inflação, diminuição de benefícios tributários, adiamento de repasses da Lei Kandir e prazo para regulamentação de pagamentos acima do teto do funcionalismo público.</p><h2>Principais pontos em disputa</h2><p>Os destaques em análise incluem propostas para retirar a autorização de limitação de créditos tributários empresariais, impedir o adiamento de repasses da Lei Kandir a estados e municípios, e reduzir ainda mais o limite de crescimento das despesas públicas em anos de contenção fiscal, além de discutir a exclusão de subsídios ao diesel da meta fiscal de 2026.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O adiamento foi comunicado pelo presidente do Senado, Davi Alcolumbre, a pedido do relator Eduardo Braga.</li><li>O projeto estima economia entre R$ 50 bilhões e R$ 60 bilhões em 2027, conforme o Ministério do Planejamento.</li><li>Destaques apresentados por parlamentares incluem propostas de alteração em créditos tributários, repasses da Lei Kandir e limites de despesas.</li></ul></aside>",
+      "slug": "senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal-a3e79712",
+      "pagina_local": "senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal-a3e79712.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-18T04:14:33.484452+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Lideranças do Congresso pedem ao STF julgamento sobre projeto que altera penas",
       "resumo": "Os presidentes da Câmara dos Deputados e do Senado Federal reuniram-se com um ministro do Supremo Tribunal Federal para solicitar a liberação do julgamento de ações relativas a uma lei sobre dosimetria. A legislação em questão, que reduz penas para condenados por crimes contra a democracia ocorridos em 8 de janeiro de 2023, encontra-se suspensa por decisão cautelar.",
