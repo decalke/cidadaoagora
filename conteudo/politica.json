@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-18T13:58:15.974894+00:00",
-  "total": 75,
+  "ultima_atualizacao": "2026-11-19T03:20:26.032968+00:00",
+  "total": 77,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministro Wellington Dias destaca avanços globais e nacionais contra a fome em evento na FAO",
+      "resumo": "Durante reunião na sede da FAO em Roma, o ministro Wellington Dias apontou progressos na erradicação da fome e celebrou os dois anos da Aliança Global contra a Fome e a Pobreza. O encontro também integrou o lançamento de um relatório internacional com iniciativas adotadas por dezenas de países desde julho de 2024.",
+      "corpo_html": "<h2>Participação do Brasil na FAO</h2><p>O governo brasileiro participou de uma reunião na sede da Organização das Nações Unidas para a Alimentação e a Agricultura, em Roma, na Itália. O ministro Wellington Dias participou do evento para pontuar os progressos obtidos globalmente na área e ressaltar o histórico brasileiro de enfrentamento à insegurança alimentar.</p><h2>Aliança Global e Relatório de Ações</h2><p>A ocasião marcou o aniversário de dois anos da Aliança Global contra a Fome e a Pobreza, criada no âmbito da presidência do G20 em 2024. Durante a programação, ocorreu o lançamento do relatório intitulado Corrida para 2030, que compila dezenas de medidas implementadas por dezenas de países para ampliar a proteção social e o acesso a alimentos.</p><h2>Dados Estatísticos</h2><p>Informações divulgadas no evento indicam quedas em índices de insegurança alimentar no país com base em levantamentos institucionais e da FAO. Os registros apontam reduções em percentuais de domicílios afetados, além da indicação de milhões de pessoas que deixaram a faixa de vulnerabilidade alimentar.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Encontro ocorreu na sede da FAO em Roma na quarta-feira (18).</li><li>Aliança Global contra a Fome e a Pobreza completa dois anos.</li><li>Relatório aponta dezenas de ações executadas por países desde 2024.</li></ul></aside>",
+      "slug": "ministro-wellington-dias-destaca-avancos-globais-e-nacionais-cont-23fabc47",
+      "pagina_local": "ministro-wellington-dias-destaca-avancos-globais-e-nacionais-cont-23fabc47.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/na-fao-wellington-dias-celebra-avancos-no-combate-fome",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-19T03:20:17.187759+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Diretor-geral da Polícia Federal entrega relatórios do caso Banco Master ao presidente do STF",
+      "resumo": "O diretor-geral da Polícia Federal repassou ao presidente do Supremo Tribunal Federal documentos com menções a ministros localizadas nas investigações do Banco Master. O material será encaminhado à Procuradoria-Geral da República para avaliação das medidas cabíveis.",
+      "corpo_html": "<h2>Entrega dos documentos</h2><p>O diretor-geral da Polícia Federal, Andrei Rodrigues, encontrou-se com o presidente do Supremo Tribunal Federal, Edson Fachin, para repassar os relatórios decorrentes das apurações sobre o Banco Master. A documentação contém citações a ministros da Corte encontradas durante as diligências. O Supremo Tribunal Federal informou que o conteúdo permanece sob sigilo para preservar as apurações em andamento e cumprir as normas legais.</p><h2>Tramitação e encaminhamento</h2><p>Com o recebimento do material, a presidência do Supremo Tribunal Federal fará o envio dos relatórios para a Procuradoria-Geral da República. Caberá ao procurador-geral da República examinar os dados e definir quais providências devem ser adotadas. A relatoria do caso no tribunal permanece sob responsabilidade de Edson Fachin pelo menos até o fim de janeiro.</p><h2>Afastamento de delegados</h2><p>Durante audiência pública na Comissão de Constituição e Justiça do Senado, o diretor-geral da Polícia Federal abordou a substituição dos delegados que conduziam o inquérito. Segundo a direção da corporação, houve divergências na produção dos relatórios e descumprimento de orientações, o que motivou a retirada dos policiais de cargos de chefia.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Entrega de documentos ocorreu em reunião noturna no Supremo Tribunal Federal.</li><li>Material será analisado pela Procuradoria-Geral da República.</li><li>Delegados responsáveis pelas investigações foram afastados de suas funções de chefia.</li></ul></aside>",
+      "slug": "diretor-geral-da-policia-federal-entrega-relatorios-do-caso-banco-65585099",
+      "pagina_local": "diretor-geral-da-policia-federal-entrega-relatorios-do-caso-banco-65585099.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/andrei-entrega-fachin-relatorios-sobre-ministros-no-caso-master",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-19T03:19:58.780822+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Defesa de Daniel Vorcaro solicita julgamento de pedido de liberdade no Supremo Tribunal Federal",
       "resumo": "A defesa do ex-banqueiro Daniel Vorcaro protocolou uma petição para que o Supremo Tribunal Federal analise um pedido de soltura antes do vencimento do prazo de reavaliação da prisão. O ex-banqueiro está custodiado no Distrito Federal e foi indiciado pela Polícia Federal em um caso de fraudes financeiras.",
