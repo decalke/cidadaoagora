@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-19T03:20:26.032968+00:00",
-  "total": 77,
+  "ultima_atualizacao": "2026-11-19T12:57:48.364731+00:00",
+  "total": 80,
   "politica": [
     {
       "titulo": "Governo federal oficializará criação do Ministério da Segurança Pública via Medida Provisória",
@@ -484,6 +484,57 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Comissão do Senado aprova aumento de pena para motorista sob efeito de álcool ou drogas",
+      "resumo": "A Comissão de Constituição e Justiça aprovou o projeto que eleva o tempo de reclusão para homicídio culposo e lesão corporal causados por motoristas alcoolizados ou sob efeito de substâncias entorpecentes. O texto segue para análise na Câmara dos Deputados, a menos que haja recurso para votação no plenario do Senado.",
+      "corpo_html": "<h2>Alterações nas penas de reclusão</h2><p>O projeto aprovado altera as punições previstas para motoristas que consomem álcool ou drogas que comprometam a condução e provoquem acidentes. Para o homicídio culposo no trânsito nessas condições, o tempo de reclusão foi elevado dos atuais cinco a oito anos para o patamar de seis a dez anos. No caso de lesão corporal grave ou gravíssima cometida nas mesmas circunstâncias, a pena passa de dois a cinco anos de prisão para o intervalo de três a seis anos.</p><h2>Tramitação no Congresso Nacional</h2><p>A aprovação ocorreu na Comissão de Constituição e Justiça em caráter terminativo. Dessa forma, a matéria dispensa votação no plenário do Senado Federal e segue diretamente para análise na Câmara dos Deputados. O encaminhamento direto ocorre desde que não seja apresentado recurso contestando o caráter terminativo da votação na comissão.</p><h2>Discussão sobre prisão preventiva</h2><p>A proposta original continha a previsão de inclusão no Código de Processo Penal de um dispositivo para permitir a prisão preventiva em situações de homicídio ou lesão corporal grave causados por motorista sob influência de álcool e drogas. A relatora ponderou que a exigência não é adequada para crimes culposos, nos quais não há intenção de matar, apontando que medidas cautelares rígidas demandam a existência de dolo.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Nova pena para homicídio culposo passa para seis a dez anos de reclusão.</li><li>Lesão corporal grave ou gravíssima passa a ter pena de três a seis anos de prisão.</li><li>Projeto segue diretamente para a Câmara dos Deputados em caráter terminativo.</li></ul></aside>",
+      "slug": "comissao-do-senado-aprova-aumento-de-pena-para-motorista-sob-efei-e856d185",
+      "pagina_local": "comissao-do-senado-aprova-aumento-de-pena-para-motorista-sob-efei-e856d185.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ccj-do-senado-eleva-pena-para-motorista-que-mata-sob-alcool-ou-drogas",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-19T12:57:45.358937+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Polícia Federal entregará ao STF relatórios sobre citações a ministros no caso Master",
+      "resumo": "O diretor-geral da Polícia Federal informou que repassará ao Supremo Tribunal Federal os documentos referentes a menções a ministros encontradas nas investigações do Banco Master. A medida ocorre após esclarecimentos prestados no Senado sobre a alteração de relatórios e a saída de delegados.",
+      "corpo_html": "<h2>Audiência no Senado e entrega de material</h2><p>O diretor-geral da Polícia Federal informou que entregará ao presidente do Supremo Tribunal Federal, Edson Fachin, os relatórios que tratam de menções a ministros da Corte identificadas nas investigações do Banco Master. A entrega do material ocorre após declarações feitas durante audiência pública na Comissão de Constituição e Justiça do Senado, que contou com a presença do ministro da Justiça e Segurança Pública para prestar esclarecimentos sobre a alteração de relatórios e o afastamento de delegados.</p><h2>Orientação do STF e contexto da investigação</h2><p>A elaboração dos documentos ocorreu após o início do julgamento para analisar mensagens do ex-banqueiro Daniel Vorcaro ao ministro Alexandre de Moraes, em setembro. Em outubro, o presidente do STF determinou a confecção de relatórios com todas as menções a ministros encontradas no celular, acompanhadas de contexto e em caráter descritivo. Contudo, a avaliação da direção da Polícia Federal foi de que os delegados responsáveis descumpriram a orientação ao produzirem relatórios fora do contexto exigido.</p><h2>Substituição de delegados e justificativas</h2><p>A direção da corporação retirou dois delegados de funções de chefia nas investigações e na coordenação de combate à corrupção. A decisão foi justificada como quebra de confiança e alteração burocrática, uma vez que relatórios foram inseridos no sistema da corporação sem passar pela minuta prévia solicitada. O diretor-geral afirmou que nenhum policial foi removido da unidade e que a medida teve o objetivo de proteger os profissionais, a instituição e a higidez do processo judicial.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Entrega de relatórios e HD com materiais ao presidente do STF, Edson Fachin.</li><li>Esclarecimentos prestados pelo diretor-geral da PF em audiência pública na CCJ do Senado.</li><li>Explicação sobre a saída de delegados de funções de chefia e a preservação da higidez do processo.</li></ul></aside>",
+      "slug": "policia-federal-entregara-ao-stf-relatorios-sobre-citacoes-a-mini-45bd9cd2",
+      "pagina_local": "policia-federal-entregara-ao-stf-relatorios-sobre-citacoes-a-mini-45bd9cd2.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/caso-master-pf-entregara-ao-stf-relatorios-sobre-citacoes-a-ministros",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-19T12:57:15.412279+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Senado aprova projeto de ajuste fiscal do governo sem alterações",
+      "resumo": "O Senado Federal aprovou o projeto de ajuste fiscal do governo sem aceitar as mudanças propostas pela oposição. A matéria segue agora para análise na Câmara dos Deputados.",
+      "corpo_html": "<h2>Aprovação e Medidas</h2><p>O Senado Federal aprovou o projeto de ajuste fiscal do governo no fim da tarde da última quarta-feira (18), após a rejeição de três destaques da oposição que tentavam modificar o conteúdo. O Projeto de Lei Complementar (PLP 299/2026) estipula medidas para conter despesas e ampliar a arrecadação, gerando uma economia calculada entre R$ 45,1 bilhões e R$ 56,1 bilhões no ano de 2027. O texto altera o arcabouço fiscal para permitir bloqueios adicionais de gastos e reduz de 2,5% para 2% o limite de expansão das despesas acima da inflação nos anos em que houver medidas de contenção. A proposta também diminui benefícios tributários e fixa prazo de 120 dias para o Congresso regulamentar os pagamentos que superem o teto do funcionalismo público, atualmente fixado em R$ 46,3 mil.</p><h2>Negociações e Acordo sobre a Lei Kandir</h2><p>Durante a votação, houve um acordo entre o relator, senador Eduardo Braga (MDB-AM), e o líder da oposição, Rogério Marinho (PL-RN), resultando na retirada de uma emenda. A negociação modulou o repasse anual do governo federal aos estados com base na Lei Kandir para R$ 2 bilhões anuais entre os anos de 2028 e 2030. Na formulação inicial do ajuste, o valor caía para R$ 1 bilhão por ano com parcelamento posterior entre 2031 e 2037. A Lei Kandir, em vigor desde 1996, isentou exportadoras do ICMS para estimular o setor, ficando a União responsável por compensar os estados pelas perdas de arrecadação.</p><h2>Próximos Passos</h2><p>Com a conclusão da votação no plenário do Senado, a matéria prossegue para tramitação na Câmara dos Deputados. A análise pelos deputados deve acontecer na semana seguinte, em razão da viagem oficial do presidente da Casa, Hugo Motta (Republicanos-AP), para a Argentina. Antes de se ausentar, o dirigente da Câmara já havia sinalizado que pautará a proposta de maneira imediata após o retorno ao plenário.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Economia estimada entre R$ 45,1 bilhões e R$ 56,1 bilhões em 2027.</li><li>Rejeição de três destaques apresentados pela oposição no plenário.</li><li>Acordo modulou os repasses anuais aos estados baseados na Lei Kandir.</li></ul></aside>",
+      "slug": "senado-aprova-projeto-de-ajuste-fiscal-do-governo-sem-alteracoes-83b0160e",
+      "pagina_local": "senado-aprova-projeto-de-ajuste-fiscal-do-governo-sem-alteracoes-83b0160e.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-rejeita-mudancas-no-texto-e-aprova-ajuste-fiscal-do-governo",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-19T12:56:43.885158+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministro Wellington Dias destaca avanços globais e nacionais contra a fome em evento na FAO",
       "resumo": "Durante reunião na sede da FAO em Roma, o ministro Wellington Dias apontou progressos na erradicação da fome e celebrou os dois anos da Aliança Global contra a Fome e a Pobreza. O encontro também integrou o lançamento de um relatório internacional com iniciativas adotadas por dezenas de países desde julho de 2024.",
