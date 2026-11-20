@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-20T03:08:11.104510+00:00",
+  "ultima_atualizacao": "2026-11-20T11:29:04.198448+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Supremo Tribunal Federal instala escultura que representa símbolo da Justiça na tradição iorubá",
+      "resumo": "O Supremo Tribunal Federal incorporou de forma definitiva ao seu acervo a escultura do Oxê de Xangô. A instalação da peça integra as atividades referentes ao Dia Nacional da Consciência Negra.",
+      "corpo_html": "<h2>Cerimônia e Integração ao Acervo</h2><p>O Supremo Tribunal Federal realizou nesta terça-feira (17) a inauguração da escultura do Oxê de Xangô em suas dependências. A peça passa a integrar permanentemente o patrimônio artístico e cultural da instituição após pedidos formalizados por organizações e lideranças religiosas.</p><h2>Origem da Solicitação</h2><p>A inclusão do item no acervo foi requerida ao comando do tribunal pelo Instituto de Defesa dos Direitos das Religiões Afro-Brasileiras juntamente com outras entidades representativas. Os pedidos ocorreram após o entendimento da Corte de que a presença de elementos religiosos em prédios públicos não viola o princípio da laicidade estatal.</p><h2>Significado e Declarações</h2><p>Na cultura iorubá, o artefato representa a busca pela verdade, o equilíbrio e a autoridade ligados a Xangô. Durante o evento de instalação, o presidente da Corte enfatizou que o texto constitucional garante a liberdade de culto e a preservação das liturgias, destacando que o exercício pleno da fé exige convivência harmoniosa e conhecimento mútuo.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Iniciativa inédita realizada na terça-feira (17)</li><li>Escultura ficará permanentemente no acervo da Corte</li><li>Peça foi solicitada por entidades de matriz africana</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-instala-escultura-que-representa-simbolo-5018dcf6",
+      "pagina_local": "supremo-tribunal-federal-instala-escultura-que-representa-simbolo-5018dcf6.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-inaugura-simbolo-da-justica-na-tradicao-ioruba",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-20T11:29:01.195550+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Julgamento da Lei da Dosimetria é marcado no Supremo Tribunal Federal",
+      "resumo": "O ministro Alexandre de Moraes pautou para o dia 4 de dezembro a análise da validade da legislação que modifica o cálculo de penas. A discussão ocorre no plenário virtual da Corte após reuniões com líderes legislativos.",
+      "corpo_html": "<h2>Agendamento da pauta</h2><p>O ministro Alexandre de Moraes, do Supremo Tribunal Federal, definiu a data de 4 de dezembro para a análise sobre a validade da legislação que altera o cálculo das penas de condenados pelos atos de 8 de janeiro de 2023. A definição ocorreu após conversas com os presidentes da Câmara dos Deputados, Hugo Motta, e do Senado, Davi Alcolumbre, que defenderam a liberação do processo para inclusão na pauta do tribunal.</p><h2>Ações em análise</h2><p>O plenário virtual da Corte examinará quatro ações que contestam a Lei 15.402 de 2026, popularmente conhecida como Lei da Dosimetria. A referida norma foi promulgada no dia 8 de maio, depois que o Congresso derrubou o veto do presidente Luiz Inácio Lula da Silva referente à anistia das penalidades aplicadas.</p><h2>Suspensão anterior</h2><p>Anteriormente, o ministro havia suspendido a aplicação da regra ao analisar o caso de uma condenada que pedia a aplicação imediata da norma. O entendimento foi de que a análise dos pedidos de redução precisava aguardar o julgamento das ações que questionam a validade geral do texto no Supremo Tribunal Federal.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Julgamento virtual agendado para o dia 4 de dezembro.</li><li>Quatro ações questionam a Lei 15.402 de 2026.</li><li>Processo liberado após contato de presidentes da Câmara e do Senado.</li></ul></aside>",
+      "slug": "julgamento-da-lei-da-dosimetria-e-marcado-no-supremo-tribunal-fed-c2601d21",
+      "pagina_local": "julgamento-da-lei-da-dosimetria-e-marcado-no-supremo-tribunal-fed-c2601d21.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-pauta-julgamento-da-lei-da-dosimetria-para-o-dia-4-de-dezembro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-20T11:28:34.934241+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Presidente garante manutenção de direitos e prioridade no controle fiscal",
       "resumo": "O presidente Luiz Inácio Lula da Silva afirmou que os direitos conquistados pela população não sofrerão reduções durante sua gestão. Ele também ressaltou que a responsabilidade com as contas públicas é uma diretriz central de sua administração.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/justica.webp",
       "coletado_em": "2026-11-07T09:59:50.789681+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Presidente defende responsabilidade fiscal e jurídica para atrair investimentos",
-      "resumo": "O chefe do Executivo declarou que o país necessita de estabilidade financeira e segurança jurídica para atrair capital estrangeiro. Além disso, a autoridade destacou a importância de parcerias internacionais na exploração de minerais e agradeceu aos eleitores pela participação no pleito.",
-      "corpo_html": "<h2>Atração de investimentos</h2><p>Durante reunião do Conselho Nacional para Industrialização de Minerais Críticos e Estratégicos, o presidente ressaltou que a manutenção de contas equilibradas e a seriedade institucional são fundamentais para conquistar a confiança dos mercados e incentivar aportes financeiros estrangeiros.</p><h2>Exploração mineral</h2><p>O governo manifestou o interesse em estabelecer parcerias com outros países para a exploração e a transformação de riquezas minerais, pontuando que o Estado não pretende atuar de forma isolada na condução desse processo.</p><h2>Reconhecimento aos eleitores</h2><p>O mandatário mencionou o resultado do pleito realizado em 25 de outubro e agradeceu o empenho da população, incluindo jovens e idosos, que participaram da mobilização nas ruas e nas urnas.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Defesa de uma economia previsível e organizada</li><li>Busca por parcerias internacionais em minerais críticos</li><li>Menção ao apoio popular recebido nas urnas</li></ul></aside>",
-      "slug": "lula-defende-contas-publicas-equilibradas-e-parcerias-internacionais-p",
-      "pagina_local": "lula-defende-contas-publicas-equilibradas-e-parcerias-internacionais-p.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-economia-arrumada-para-atrair-investimentos",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/comercio.webp",
-      "coletado_em": "2026-11-07T09:59:35.689322+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Ministério do Trabalho registra mais de 7 mil denúncias de assédio eleitoral",
-      "resumo": "O Ministério do Trabalho e Emprego contabilizou mais de 7 mil relatos de assédio eleitoral no ambiente laboral. A pasta e órgãos competentes analisam as ocorrências para verificar a veracidade e aplicar as penalidades cabíveis previstas na legislação.",
-      "corpo_html": "<h2>Volume de Notificações</h2><p>O Ministério do Trabalho e Emprego informou que o número de notificações de assédio eleitoral passou de 7 mil. O crescimento nos relatos ocorreu principalmente após o segundo turno das eleições presidenciais, impulsionado por publicações em redes sociais que mencionavam demissões ou boicotes por preferência política. A pasta ressalta que as notificações englobam tanto situações reais quanto relatos que ainda precisam passar por apuração detalhada para confirmar a veracidade.</p><h2>Orientação do Governo</h2><p>Durante entrevista coletiva, o ministro Luiz Marinho apelou para que empregadores que tenham ameaçado ou demitido funcionários por motivos políticos façam uma retratação pública nas redes sociais. A declaração indicou que a prioridade é garantir o respeito aos direitos trabalhistas e que o foco inicial não é a punição preventiva, embora o governo reitere que condutas discriminatórias confirmadas serão severamente punidas.</p><h2>Consequências Legais</h2><p>As denúncias recebidas são avaliadas pela Auditoria Fiscal do Trabalho. O Ministério Público do Trabalho pode exigir a interrupção da conduta ilegal, retratação em até 24 horas e pagamento de indenizações por danos morais. Em casos de dispensa discriminatória, o trabalhador pode requerer a reintegração com pagamento de salários do período de afastamento ou o recebimento em dobro da remuneração correspondente, além de multas e restrições a empréstimos para a empresa.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O total de notificações ultrapassou a marca de 7 mil casos.</li><li>O ministro Luiz Marinho orientou empresários a recuarem e se retratarem publicamente em caso de ameaças.</li><li>A legislação brasileira proíbe discriminação política e prevê punições severas para empregadores.</li></ul></aside>",
-      "slug": "ministerio-do-trabalho-registra-mais-de-7-mil-denuncias-de-assedio-ele",
-      "pagina_local": "ministerio-do-trabalho-registra-mais-de-7-mil-denuncias-de-assedio-ele.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/assedio-eleitoral-supera-7-mil-denuncias-aponta-ministerio",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/clima-brasil.webp",
-      "coletado_em": "2026-11-07T02:47:34.045042+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
