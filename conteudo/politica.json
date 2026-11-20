@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-20T11:29:04.198448+00:00",
+  "ultima_atualizacao": "2026-11-20T20:06:38.407182+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Fachin retira sigilo de relatório da Polícia Federal com citações a André Mendonça",
+      "resumo": "O presidente do Supremo Tribunal Federal atendeu a um pedido do próprio ministro citado nas apurações sobre o caso Master. O material encaminhado à Procuradoria-Geral da República reúne menções a integrantes da Corte localizadas em investigações policiais.",
+      "corpo_html": "<h2>Liberação do documento judicial</h2><p>O presidente do Supremo Tribunal Federal, Edson Fachin, determinou o encerramento do segredo de justiça relativo ao relatório policial sobre o ministro André Mendonça nesta sexta-feira (20). A medida foi tomada a partir do requerimento do magistrado citado nos autos da PET 17.146/DF, que optou por abrir mão do sigilo e demandar a divulgação completa das informações. O material foi repassado ao procurador-geral da República, Paulo Gonet, após a entrega oficial dos documentos pela chefia da Polícia Federal na quarta-feira (18).</p><h2>Origem das investigações e relatoria</h2><p>A elaboração dos relatórios descritivos foi encomendada pelo presidente da Corte para mapear as referências a ministros achadas no aparelho celular de Daniel Vorcaro, proprietário do Banco Master. Edson Fachin assumiu a condução dos procedimentos relacionados ao caso Master em meio a questionamentos sobre a proximidade entre integrantes do tribunal e o antigo banqueiro. O ministro deve permanecer na liderança do processo pelo menos até o término de janeiro.</p><h2>Mudanças na equipe de delegados</h2><p>Em depoimento prestado à Comissão de Constituição e Justiça do Senado na quarta-feira (18), o diretor-geral da Polícia Federal, Andrei Rodrigues, abordou o desligamento dos delegados Daniel Mostardeiro Cola e Wedson Cajé Lopes. Segundo o dirigente, os investigadores inseriram dados desconsiderando as diretrizes fixadas pela presidência do tribunal, o que provocou o rompimento da confiança. A situação culminou com o afastamento de ambos dos postos de comando da Coordenação-Geral de Repressão à Corrupção, Crimes Financeiros e Lavagem de Dinheiro.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A decisão do ministro Edson Fachin atende à solicitação direta de André Mendonça para dar publicidade aos autos da PET 17.146/DF.</li><li>Os documentos elaborados pela Polícia Federal analisam dados encontrados no telefone celular do empresário Daniel Vorcaro.</li><li>O comando da corporação justificou a substituição de delegados por descumprimento de orientações sobre o contexto das citações.</li></ul></aside>",
+      "slug": "fachin-retira-sigilo-de-relatorio-da-policia-federal-com-citacoes-8cd59a67",
+      "pagina_local": "fachin-retira-sigilo-de-relatorio-da-policia-federal-com-citacoes-8cd59a67.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-manda-quebrar-sigilo-de-relatorio-da-pf-com-mencoes-mendonca",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-20T20:06:35.403899+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.6-flash",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Supremo Tribunal Federal mantém a prisão preventiva do ex-banqueiro Daniel Vorcaro",
+      "resumo": "O presidente do STF, Edson Fachin, rejeitou o pedido de soltura apresentado pela defesa de Daniel Vorcaro. A decisão acompanha o entendimento da Procuradoria-Geral da República sobre a necessidade da medida cautelar.",
+      "corpo_html": "<h2>Decisão do STF</h2><p>O presidente do Supremo Tribunal Federal, Edson Fachin, rejeitou nesta sexta-feira (20) o pedido de soltura protocolado pela defesa de Daniel Vorcaro. O ex-banqueiro permanece no presídio da Papudinha, no Distrito Federal, onde está detido desde março deste ano. A manutenção da prisão preventiva atende ao parecer contrário à soltura apresentado pelo procurador-geral da República, Paulo Gonet.</p><h2>Fundamentos da medida</h2><p>Segundo a decisão do ministro, a custódia cautelar é necessária para assegurar o andamento das investigações relacionadas ao caso Master. O magistrado apontou que a posição de destaque e coordenação ocupada pelo investigado na estrutura do grupo, somada à sua capacidade de influência sobre agentes públicos e particulares, justifica a manutenção da medida para evitar interferências no processo.</p><h2>Posicionamento da defesa</h2><p>A Polícia Federal indiciou Vorcaro e mais 14 investigados no início do mês devido a fraudes financeiras envolvendo o Banco Regional de Brasília. Em nota, a defesa criticou o indiciamento e afirmou que a corporação repete a mesma narrativa sem avançar. Os advogados sustentam que as operações com carteiras de créditos irregulares geraram resultados positivos para o banco e que nenhuma perícia oficial constatou prejuízos.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Prisão preventiva mantida pelo presidente do STF nesta sexta-feira</li><li>Defesa apontou que negócios geraram resultados positivos</li><li>Investigação envolve suspeitas de fraudes financeiras</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-mantem-a-prisao-preventiva-do-ex-banquei-ecd7c04d",
+      "pagina_local": "supremo-tribunal-federal-mantem-a-prisao-preventiva-do-ex-banquei-ecd7c04d.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/presidente-do-supremo-mantem-prisao-de-vorcaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-20T20:05:38.100938+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Supremo Tribunal Federal instala escultura que representa símbolo da Justiça na tradição iorubá",
       "resumo": "O Supremo Tribunal Federal incorporou de forma definitiva ao seu acervo a escultura do Oxê de Xangô. A instalação da peça integra as atividades referentes ao Dia Nacional da Consciência Negra.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/instituicoes.webp",
       "coletado_em": "2026-11-07T20:52:07.959958+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Presidente do Senado retira proposta de redução da maioridade penal da pauta para aguardar análise da Câmara",
-      "resumo": "O presidente do Senado, Davi Alcolumbre, retirou da pauta a Proposta de Emenda à Constituição que trata da redução da maioridade penal, atendendo a um pedido da liderança da Câmara dos Deputados. O tema tramita atualmente por meio de diferentes propostas apresentadas por parlamentares e passa a ser debatido no âmbito da Câmara.",
-      "corpo_html": "<h2>Retirada de pauta e articulação política</h2><p>O presidente do Senado, Davi Alcolumbre (União-AP), retirou da pauta a Proposta de Emenda à Constituição sobre a redução da maioridade penal de 18 anos para 16 anos. A medida atendeu a um pedido formulado pelo presidente da Câmara, Hugo Motta (Republicanos-PB). Com a decisão, o Senado aguardará o andamento da discussão na Câmara dos Deputados, onde o tema será debatido em comissão especial.</p><h2>Desmembramento das propostas</h2><p>A articulação envolveu a separação do assunto em relação à PEC da Segurança Pública. A oposição tentou incluir a redução da maioridade no texto principal, mas a questão foi tratada em emendas separadas apresentadas pelos senadores Rogério Marinho (PL-RN) e Camilo Santana (PT-CE). O texto defendido por Camilo Santana fixa a idade em 16 anos para crimes hediondos, enquanto a proposta de Rogério Marinho propõe 16 anos como regra geral e 14 anos para crimes hediondos, tortura, tráfico de drogas, terrorismo e organização criminosa.</p><h2>Tramitação na Câmara dos Deputados</h2><p>Na Câmara dos Deputados, a discussão ocorre por meio da PEC 32/2015 em uma comissão especial que analisa o tema em conjunto com outras propostas similares. O texto dessa comissão estabelece a maioridade penal e civil aos 16 anos. A expectativa informada é de que o tema seja votado na Câmara e posteriormente retorne para análise dos senadores.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Alcolumbre retirou a discussão da PEC que reduzia a maioridade penal para 16 anos.</li><li>A decisão ocorreu após solicitação do presidente da Câmara dos Deputados, Hugo Motta.</li><li>O assunto foi desmembrado e tratado em propostas distintas apresentadas no Congresso.</li></ul></aside>",
-      "slug": "maioridade-penal-senado-adia-votacao-e-aguarda-definicao-da-camara-dos",
-      "pagina_local": "maioridade-penal-senado-adia-votacao-e-aguarda-definicao-da-camara-dos.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/alcolumbre-retira-maioridade-penal-da-pauta-e-vai-aguardar-camara",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/instituicoes.webp",
-      "coletado_em": "2026-11-07T10:00:04.105657+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Justiça Federal em São Paulo suspende liminar que permitia funcionamento de três casas de apostas",
-      "resumo": "A segunda instância da Justiça Federal derrubou a autorização que permitia a operação de três plataformas de apostas online pertencentes a um mesmo grupo empresarial. A medida decorre de um recurso apresentado pela Advocacia-Geral da União.",
-      "corpo_html": "<h2>Suspensão das atividades</h2><p>A Justiça Federal em São Paulo reverteu a liberação concedida anteriormente a três casas de apostas online. Com a nova determinação da segunda instância, as plataformas vinculadas à empresa CDA Gaming ficam impedidas de operar até o julgamento definitivo do processo.</p><h2>Atuação da Advocacia-Geral da União</h2><p>A mudança no cenário judicial ocorreu em decorrência de um recurso protocolado pela Advocacia-Geral da União. O órgão contestou a autorização que havia permitido o funcionamento dos sites Casa de Apostas, Betsul e Jogo Online.</p><h2>Contexto regulatório</h2><p>A determinação ocorre após o governo federal estabelecer a proibição das atividades de empresas que operam sites de apostas online no país. A restrição aos sites ligados ao grupo CDA Gaming permanece válida até que o tribunal emita uma decisão final sobre o caso.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão afeta três plataformas de apostas online.</li><li>Medida foi tomada pela segunda instância da Justiça Federal em São Paulo.</li><li>Recurso foi apresentado pela Advocacia-Geral da União.</li></ul></aside>",
-      "slug": "justica-federal-em-sao-paulo-suspende-liminar-que-permitia-funcio-d09fe0a0",
-      "pagina_local": "justica-federal-em-sao-paulo-suspende-liminar-que-permitia-funcio-d09fe0a0.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-suspende-decisao-que-liberou-o-funcionamento-de-tres-bets",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/justica.webp",
-      "coletado_em": "2026-11-07T09:59:50.789681+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
