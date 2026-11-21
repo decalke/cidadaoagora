@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-21T09:41:51.590256+00:00",
+  "ultima_atualizacao": "2026-11-21T17:26:09.953535+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Governo federal presta apoio a município gaúcho atingido por tempestade e discute ações climáticas",
+      "resumo": "O presidente Luiz Inácio Lula da Silva manifestou solidariedade aos moradores de Tupanciretã, no Rio Grande do Sul, após uma tempestade severa atingir a região. Além disso, o chefe do Executivo abordou temas como a participação do Brasil em conferência internacional sobre o clima e agendas futuras.",
+      "corpo_html": "<h2>Solidariedade e atuação governamental</h2><p>Durante transmissão pelas redes sociais a partir da Granja do Torto, o presidente Luiz Inácio Lula da Silva mencionou os estragos causados pelo temporal em Tupanciretã, no Rio Grande do Sul, na madrugada de sexta-feira. A ocorrência resultou em três mortes e aproximadamente 60 feridos, além de danos extensos em milhares de residências e escolas. Representantes de pastas federais, incluindo os ministérios da Integração Nacional e da Saúde, deslocaram-se para o local para coordenar as ações de recuperação em cooperação com autoridades estaduais.</p><h2>Conferência internacional e propostas climáticas</h2><p>O mandatário comentou a atuação do país na 31ª Conferência das Nações Unidas sobre Mudanças Climáticas, realizada em Antália, na Turquia. Segundo a avaliação apresentada, a delegação nacional participou com propostas consideradas relevantes, incluindo diretrizes sobre o afastamento de combustíveis fósseis e a busca por financiamento voltado a transições justas em nações de menor renda.</p><h2>Saúde e compromissos institucionais</h2><p>Durante a mesma comunicação pública, o presidente mencionou o quadro de rouquidão persistente que enfrenta há mais de uma semana, atribuindo os sintomas ao cansaço decorrente do processo eleitoral, e informou que exames médicos não apontaram anormalidades. Adicionalmente, foi confirmada uma visita à Universidade Federal Fluminense, em Niterói, no estado do Rio de Janeiro, para o próximo dia 27.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Temporal em Tupanciretã deixou três mortos e cerca de 60 feridos.</li><li>Ministros foram enviados ao Rio Grande do Sul para atuar junto ao governo estadual.</li><li>Presidente confirmou agenda na Universidade Federal Fluminense na próxima sexta-feira.</li></ul></aside>",
+      "slug": "governo-federal-presta-apoio-a-municipio-gaucho-atingido-por-temp-6bba826a",
+      "pagina_local": "governo-federal-presta-apoio-a-municipio-gaucho-atingido-por-temp-6bba826a.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-presta-solidariedade-cidade-gaucha-devastada-por-tempestade",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-21T17:26:06.950014+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Presidente Lula defende ajuste fiscal e anuncia novas diretrizes em transmissão ao vivo",
+      "resumo": "Durante transmissão nas redes sociais, o presidente Luiz Inácio Lula da Silva defendeu o projeto de ajuste fiscal do governo e criticou questionamentos do setor financeiro. Na ocasião, o chefe do Executivo também comentou sobre previdência, salário mínimo e planos para a criação de uma pasta voltada à terceira idade.",
+      "corpo_html": "<h2>Defesa do ajuste fiscal</h2><p>O presidente Luiz Inácio Lula da Silva defendeu o projeto de ajuste fiscal do governo, aprovado pelo Senado e encaminhado para análise da Câmara dos Deputados. A proposta busca reduzir despesas e ampliar a arrecadação, com uma economia estimada entre R$ 45,1 bilhões e R$ 56,1 bilhões em 2027 para os cofres públicos federais. Segundo o presidente, a medida é necessária para garantir a governança sobre o orçamento e não prevê cortes em programas sociais destinados à população de menor renda, contando com cerca de R$ 33 bilhões obtidos por meio da redução de isenções fiscais e limitações de compensações tributárias para grandes empresas.</p><h2>Previdência e salário mínimo</h2><p>Durante a transmissão, Lula negou que o governo vá aumentar a idade mínima para a aposentadoria durante este mandato, enfatizando que o foco será a fiscalização rigorosa para combater irregularidades e abusos com os recursos da Previdência Social. O presidente também reafirmou a manutenção da política de reajuste do salário mínimo acima da inflação, argumentando sobre a importância dessa diretriz para a preservação do poder de compra do piso nacional.</p><h2>Propostas para idosos e transporte</h2><p>O chefe do Executivo anunciou a intenção de criar um ministério voltado à população idosa, cujo objetivo central será o estabelecimento de centros de lazer e espaços de cuidado para a terceira idade, sem focar na construção de asilos. Conforme dados do Censo Demográfico de 2022 do Instituto Brasileiro de Geografia e Estatística, o país contava com 32,1 milhões de pessoas com 60 anos ou mais. Além disso, o presidente mencionou a Proposta de Emenda Constitucional enviada ao Congresso que visa instituir tarifa zero no transporte público aos finais de semana, financiada com parte das emendas parlamentares impositivas.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O projeto de ajuste fiscal prevê economia estimada entre R$ 45,1 bilhões e R$ 56,1 bilhões em 2027.</li><li>O presidente afirmou que o mandato atual não terá aumento na idade mínima para aposentadoria.</li><li>Foi anunciada a intenção de criar um ministério voltado à população idosa, com foco em centros de lazer.</li></ul></aside>",
+      "slug": "presidente-lula-defende-ajuste-fiscal-e-anuncia-novas-diretrizes--630c7c3f",
+      "pagina_local": "presidente-lula-defende-ajuste-fiscal-e-anuncia-novas-diretrizes--630c7c3f.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-21T17:25:59.111073+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ministro do STF vota pela manutenção de medidas cautelares aplicadas a senador",
       "resumo": "O ministro Alexandre de Moraes votou para manter a proibição de saída do país e a entrega de passaportes do senador Flávio Bolsonaro. O julgamento ocorre no plenário virtual da Primeira Turma do Supremo Tribunal Federal.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/justica.webp",
       "coletado_em": "2026-11-08T07:16:42.873654+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Receita Federal apreende drogas e medicamentos irregulares em transportadora no Rio de Janeiro",
-      "resumo": "A Receita Federal apreendeu encomendas com drogas e medicamentos controlados irregulares em um galpão na zona norte do Rio de Janeiro. A fiscalização contou com cães de faro e estimou o valor das retenções em R$ 356 mil.",
-      "corpo_html": "<h2>Ação de fiscalização</h2><p>A operação foi realizada pela Receita Federal em um galpão de transportadora situado na Pavuna, na zona norte do Rio de Janeiro. A inspeção contou com o auxílio da equipe K9, formada por cães de faro, para localizar os pacotes suspeitos. O valor estimado das retenções totaliza R$ 356 mil.</p><h2>Entorpecentes encontrados</h2><p>Os agentes identificaram encomendas com drogas escondidas no interior de capacetes como forma de burlar a fiscalização. Foram apreendidos cerca de 3.600 comprimidos de ecstasy, pesando aproximadamente 2 kg, além de 1,070 kg de skunk e 20 gramas de MDMA. Essas remessas tinham como destino os estados da Bahia, Minas Gerais e Paraíba. Os entorpecentes foram entregues às autoridades para os devidos procedimentos de investigação criminal.</p><h2>Medicamento controlado</h2><p>Além das drogas, a fiscalização reteve uma remessa contendo 246 unidades de tirzepatida, um medicamento de comercialização controlada para emagrecimento que apresentava indícios de irregularidade. O pacote tinha origem no município paulista de Barueri e como destino final o estado do Rio de Janeiro.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Apreensão ocorreu em uma transportadora na Pavuna, zona norte do Rio de Janeiro.</li><li>Materiais ilícitos estavam ocultos dentro de capacetes para evitar a fiscalização.</li><li>Destinos das remessas incluíam os estados da Bahia, Minas Gerais e Paraíba.</li></ul></aside>",
-      "slug": "receita-federal-apreende-drogas-e-medicamentos-irregulares-em-tra-a6a2027e",
-      "pagina_local": "receita-federal-apreende-drogas-e-medicamentos-irregulares-em-tra-a6a2027e.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/rio-receita-apreende-entorpecentes-em-galpao-de-transportadora",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/saude.webp",
-      "coletado_em": "2026-11-08T00:31:50.334950+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Proposta de mudanca no sistema eleitoral para deputado e vereador",
-      "resumo": "Lideranças partidárias na Câmara dos Deputados apresentaram uma proposta para substituir o sistema de voto proporcional pelo voto distrital misto. A mudança afetaria a eleição de deputados e vereadores, com regras de transição previstas para pleitos futuros.",
-      "corpo_html": "<h2>Funcionamento atual do sistema proporcional</h2><p>Atualmente, a escolha de deputados federais, estaduais, distritais e vereadores ocorre por meio do sistema proporcional. O cálculo utiliza o quociente eleitoral, obtido pela divisão dos votos válidos pelo número de vagas. Candidatos são eleitos conforme o desempenho de suas legendas ou federações, havendo também a exigência de que alcancem pelo menos 10% do quociente eleitoral para garantir uma cadeira.</p><h2>Estrutura do voto distrital misto</h2><p>A mudança em discussão prevê a divisão das cadeiras legislativas em dois formatos. Metade dos parlamentares seria escolhida por meio de distritos territoriais, onde vence o candidato mais votado daquela área. A outra metade seria definida por meio de listas partidárias fechadas elaboradas previamente pelos partidos e federações.</p><h2>Cronograma e articulação politica</h2><p>Articuladores da medida pretendem avançar com a Proposta de Emenda à Constituição ainda no atual ano legislativo. O cronograma inicial estabelece regras de transição para o pleito de 2030, alcançando a adoção integral do novo modelo na eleição de 2034, com diálogos previstos entre diferentes correntes partidárias.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A proposta foi apresentada por parlamentares do Centrão na Câmara dos Deputados.</li><li>O modelo misto combina votação distrital e lista partidária fechada.</li><li>A implementação completa do novo sistema está projetada para o ano de 2034.</li></ul></aside>",
-      "slug": "reforma-eleitoral-camara-articula-fim-do-sistema-proporcional-e-propoe",
-      "pagina_local": "reforma-eleitoral-camara-articula-fim-do-sistema-proporcional-e-propoe.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/entenda-diferenca-entre-o-voto-proporcional-e-o-voto-distrital-misto",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/instituicoes.webp",
-      "coletado_em": "2026-11-08T00:31:37.464168+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
