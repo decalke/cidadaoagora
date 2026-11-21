@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-21T17:26:09.953535+00:00",
+  "ultima_atualizacao": "2026-11-21T23:08:58.322262+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,23 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ex-presidente Jair Bolsonaro é internado em unidade de terapia intensiva no Distrito Federal",
+      "resumo": "O ex-presidente Jair Bolsonaro encontra-se internado em uma unidade de terapia intensiva em Brasília devido a um diagnóstico de abdômen agudo obstrutivo. Ele apresenta quadro clínico estável e permanece sem previsão de alta hospitalar.",
+      "corpo_html": "<h2>Atendimento e Estado de Saúde</h2><p>O ex-presidente Jair Bolsonaro foi hospitalizado após apresentar dor e distensão abdominal. A equipe médica iniciou procedimentos que incluem hidratação, jejum oral com suporte nutricional e uso de sonda gástrica. O boletim médico informa que o paciente está consciente, orientado, respira sem ajuda de aparelhos e mantém estabilidade clínica, sem previsão de liberação da unidade de saúde.</p><h2>Histórico e Deslocamento</h2><p>O atendimento inicial ocorreu após o ex-presidente relatar fortes dores, o que motivou a recomendação de seu médico particular para transferência ao hospital. O trajeto a partir de sua residência contou com acompanhamento de viaturas da Polícia Militar. O material informativo registra que ele cumpre pena em prisão domiciliar e se recupera de um quadro anterior de pneumonia bacteriana.</p><h2>Autorização de Visitas</h2><p>O Supremo Tribunal Federal liberou o acesso de familiares para visitas durante o período de internação hospitalar. A decisão estabelece o cumprimento das normas de segurança do estabelecimento médico e proíbe rigorosamente a entrada de dispositivos eletrônicos, como aparelhos celulares e câmeras, capazes de capturar áudios ou imagens do custodiado.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Internação ocorreu no Hospital DF Star, em Brasília</li><li>Diagnóstico médico indica abdômen agudo obstrutivo</li><li>Ministro do STF autorizou visitas de familiares com restrições</li></ul></aside>",
+      "slug": "ex-presidente-jair-bolsonaro-e-internado-em-unidade-de-terapia-in-71fd0ab3",
+      "pagina_local": "ex-presidente-jair-bolsonaro-e-internado-em-unidade-de-terapia-in-71fd0ab3.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-21T23:08:43.534462+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Governo federal presta apoio a município gaúcho atingido por tempestade e discute ações climáticas",
       "resumo": "O presidente Luiz Inácio Lula da Silva manifestou solidariedade aos moradores de Tupanciretã, no Rio Grande do Sul, após uma tempestade severa atingir a região. Além disso, o chefe do Executivo abordou temas como a participação do Brasil em conferência internacional sobre o clima e agendas futuras.",
@@ -1822,23 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/justica.webp",
       "coletado_em": "2026-11-08T07:16:49.286244+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Justiça Eleitoral disponibiliza atendimento remoto com intérpretes de Libras",
-      "resumo": "O Tribunal Superior Eleitoral lançou uma plataforma digital para mediar a comunicação por videochamada entre eleitores com deficiência auditiva e servidores públicos. O serviço abrange tribunais de todo o país e brasileiros no exterior, oferecendo também a opção de atendimento presencial equipado nas unidades.",
-      "corpo_html": "<h2>Funcionamento da plataforma</h2><p>A ferramenta permite a comunicação por videochamada ou mensagens de texto por meio de bate-papo on-line. Um intérprete traduz a Língua Brasileira de Sinais para o português durante o atendimento prestado pelos servidores da Justiça Eleitoral. O acesso pode ocorrer por computadores, tablets ou celulares, utilizando link, QR Code ou aplicativo específico.</p><h2>Acesso e infraestrutura</h2><p>O serviço conta com internet patrocinada, possibilitando a realização de videochamadas sem deduzir a franquia de dados móveis mediante a instalação prévia do aplicativo ICON. Unidades presenciais e a Ouvidoria dos tribunais regionais possuem equipamentos para conectar os usuários à central, servindo também para quem comparecer sem dispositivos próprios.</p><h2>Público e abrangência</h2><p>A iniciativa alcança o TSE, os 27 tribunais regionais eleitorais e eleitores residentes no exterior durante o horário regular de funcionamento. Dados apontam que o país possui mais de 2 milhões de pessoas surdas ou com deficiência auditiva, sendo que aproximadamente 182,3 mil eleitores cadastrados possuem essa deficiência.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Lançamento da Central de Intermediação em Libras pelo TSE.</li><li>Atendimento disponível nos 27 TREs, no TSE e para brasileiros no exterior.</li><li>Plataforma acessível por videochamada e mensagens de texto.</li></ul></aside>",
-      "slug": "justica-eleitoral-disponibiliza-atendimento-remoto-com-interprete-d9cedd8d",
-      "pagina_local": "justica-eleitoral-disponibiliza-atendimento-remoto-com-interprete-d9cedd8d.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-eleitoral-tera-atendimento-remoto-em-libras",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/justica.webp",
-      "coletado_em": "2026-11-08T07:16:42.873654+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
