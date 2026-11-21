@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-21T01:27:35.436287+00:00",
+  "ultima_atualizacao": "2026-11-21T09:41:51.590256+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,23 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Ministro do STF vota pela manutenção de medidas cautelares aplicadas a senador",
+      "resumo": "O ministro Alexandre de Moraes votou para manter a proibição de saída do país e a entrega de passaportes do senador Flávio Bolsonaro. O julgamento ocorre no plenário virtual da Primeira Turma do Supremo Tribunal Federal.",
+      "corpo_html": "<h2>Julgamento em andamento</h2><p>O ministro Alexandre de Moraes votou para manter a própria decisão que determinou a entrega de passaportes e proibiu o senador Flávio Bolsonaro de deixar o país. A manifestação ocorreu durante a análise de um recurso interposto pela defesa.</p><h2>Fundamentação da decisão</h2><p>Segundo o magistrado, os elementos reunidos apontam a atuação do investigado com potencial de atrapalhar as apurações em andamento por meio da saída do distrito da culpa, ratificando os fundamentos das cautelares.</p><h2>Próximos passos na Corte</h2><p>A votação permanece aberta no plenário virtual da Primeira Turma do Supremo Tribunal Federal até segunda-feira. Ainda faltam os votos dos ministros Flávio Dino, Cristiano Zanin e Cármen Lúcia.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Voto de Moraes foi proferido nesta sexta-feira.</li><li>Defesa apresentou recurso contra a decisão anterior.</li><li>Julgamento no plenário virtual segue aberto até segunda-feira.</li></ul></aside>",
+      "slug": "ministro-do-stf-vota-pela-manutencao-de-medidas-cautelares-aplica-7d821528",
+      "pagina_local": "ministro-do-stf-vota-pela-manutencao-de-medidas-cautelares-aplica-7d821528.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-vota-para-manter-apreensao-de-passaportes-de-flavio-bolsonaro",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-21T09:41:48.586985+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Relatório da Polícia Federal aponta ausência de diálogos diretos entre Daniel Vorcaro e André Mendonça",
       "resumo": "A Polícia Federal informou ao Supremo Tribunal Federal que não foram localizadas conversas diretas entre o ex-banqueiro Daniel Vorcaro e o ministro André Mendonça. O material foi entregue ao relator do caso Master, ministro Edson Fachin, que encaminhou o documento à Procuradoria-Geral da República.",
@@ -1822,23 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/instituicoes.webp",
       "coletado_em": "2026-11-08T00:31:37.464168+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Boletim médico aponta normalidade em exames do presidente Luiz Inácio Lula da Silva",
-      "resumo": "O presidente Luiz Inácio Lula da Silva realizou exames de rotina em um hospital em São Paulo após viagem. O boletim médico divulgado informou que os resultados estão dentro da normalidade.",
-      "corpo_html": "<h2>Internação e procedimentos</h2><p>O presidente Luiz Inácio Lula da Silva viajou para São Paulo e foi internado no Hospital Sírio-Libanês para a realização de exames de rotina que já estavam previamente agendados.</p><h2>Avaliação médica</h2><p>Um boletim médico publicado às 23h informou que os exames realizados pelo presidente estão dentro da normalidade. Ele está sob os cuidados das equipes médicas coordenadas pelos profissionais citados no documento oficial.</p><h2>Continuidade das atividades</h2><p>Após a realização dos procedimentos e a divulgação da avaliação clínica, o presidente seguiu normalmente com a sua agenda habitual de trabalho.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Exames de rotina realizados em São Paulo</li><li>Resultados avaliados como normais por boletim médico</li><li>Retorno à agenda habitual de trabalho</li></ul></aside>",
-      "slug": "boletim-medico-confirma-exames-normais-do-presidente-lula-apos-interna",
-      "pagina_local": "boletim-medico-confirma-exames-normais-do-presidente-lula-apos-interna.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/exames-do-presidente-lula-estao-dentro-da-normalidade-diz-boletim",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/saude.webp",
-      "coletado_em": "2026-11-07T20:52:31.236973+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
