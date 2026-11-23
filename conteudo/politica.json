@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-22T03:09:54.547517+00:00",
+  "ultima_atualizacao": "2026-11-23T00:48:58.045031+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Nova regulamentação do CNJ determina inclusão de intervenção policial em certidões de óbito",
+      "resumo": "O Conselho Nacional de Justiça estabeleceu uma norma para registrar explicitamente circunstâncias de mortes decorrentes de ações policiais nas certidões de óbito. A medida visa padronizar os documentos, banir termos estigmatizantes e permitir a retificação de registros anteriores pelos familiares.",
+      "corpo_html": "<h2>Padronização e termos vedados</h2><p>A resolução estabelece uma redação padronizada para identificar óbitos ocorridos no contexto de intervenções de órgãos de segurança pública. Além disso, a norma proíbe expressamente o uso de termos estigmatizantes, tais como auto de resistência, resistência seguida de morte e confronto, nos registros e certidões abrangidos pela nova regulamentação.</p><h2>Correção de documentos e registros anteriores</h2><p>A medida possibilita que familiares solicitem a alteração de registros antigos que não continham a informação sobre as circunstâncias do falecimento. Caso a família possua documentação suficiente, como decisões judiciais definitivas ou relatórios de comissões da verdade, o procedimento pode ser realizado diretamente no Cartório de Registro Civil. Na falta desses documentos, é possível buscar o reconhecimento judicial.</p><h2>Consolidação de dados estatísticos</h2><p>O Operador Nacional do Registro Civil de Pessoas Naturais tem o prazo de 90 dias após a publicação da resolução para implementar um campo específico na Central de Informações do Registro Civil. Os cartórios farão a comunicação dos registros e das retificações para viabilizar a consolidação de dados em um painel público nacional.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A norma proíbe o uso de termos como auto de resistência e confronto nos documentos oficiais.</li><li>Familiares podem solicitar a correção de registros antigos diretamente nos cartórios com documentação adequada.</li><li>O Operador Nacional do Registro Civil criará um campo específico para consolidar estatísticas em um painel público.</li></ul></aside>",
+      "slug": "nova-regulamentacao-do-cnj-determina-inclusao-de-intervencao-poli-340f92d1",
+      "pagina_local": "nova-regulamentacao-do-cnj-determina-inclusao-de-intervencao-poli-340f92d1.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/cnj-cria-regra-para-corrigir-registros-por-mortes-em-acoes-policiais",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-23T00:48:55.041380+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Ex-presidente Jair Bolsonaro permanece internado na UTI em Brasília",
+      "resumo": "O ex-presidente Jair Bolsonaro continua internado em uma unidade de terapia intensiva de um hospital em Brasília devido a um quadro de abdômen agudo obstrutivo, sem previsão de alta. O boletim médico indica que ele está clinicamente estável e em tratamento clínico.",
+      "corpo_html": "<h2>Atendimento e Internação</h2><p>O ex-presidente deu entrada no Hospital DF Star, em Brasília, após sentir fortes dores abdominais e passar mal. O encaminhamento foi recomendado por seu médico particular após exames. O trajeto até o hospital foi acompanhado por viaturas da Polícia Militar. A equipe médica confirmou o diagnóstico de abdômen agudo obstrutivo.</p><h2>Estado de Saúde e Tratamento</h2><p>Segundo o boletim médico divulgado, o paciente apresenta-se clinicamente estável, mantendo tratamento clínico, jejum e suporte nutricional. Ele também se recupera de uma pneumonia bacteriana. O hospital informou que ainda não há previsão de alta hospitalar.</p><h2>Autorização de Visitas</h2><p>O ministro Alexandre de Moraes, do Supremo Tribunal Federal, autorizou que os filhos e a enteada do ex-presidente possam visitá-lo durante o período de internação hospitalar. A medida estabelece o cumprimento dos horários de visitas e das regras de segurança do hospital, incluindo a proibição do ingresso de celulares, câmeras ou aparelhos eletrônicos para registro de imagens ou áudios.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Internação ocorreu após o ex-presidente apresentar dores e distensão abdominal na sexta-feira.</li><li>Boletim médico aponta que o paciente está clinicamente estável e em jejum com suporte nutricional.</li><li>Ministro do Supremo Tribunal Federal autorizou visitas de familiares sob regras de segurança.</li></ul></aside>",
+      "slug": "ex-presidente-jair-bolsonaro-permanece-internado-na-uti-em-brasil-ca656ba5",
+      "pagina_local": "ex-presidente-jair-bolsonaro-permanece-internado-na-uti-em-brasil-ca656ba5.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/saude.webp",
+      "coletado_em": "2026-11-23T00:48:43.771643+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Ex-presidente Jair Bolsonaro é internado em unidade de terapia intensiva no Distrito Federal",
       "resumo": "O ex-presidente Jair Bolsonaro encontra-se internado em uma unidade de terapia intensiva em Brasília devido a um diagnóstico de abdômen agudo obstrutivo. Ele apresenta quadro clínico estável e permanece sem previsão de alta hospitalar.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/comercio.webp",
       "coletado_em": "2026-11-08T07:17:20.018961+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Ministério Público denuncia médica no Rio de Janeiro por morte após procedimento estético",
-      "resumo": "A profissional foi denunciada pelo Ministério Público do Estado do Rio de Janeiro após o falecimento de uma paciente decorrente de uma cirurgia estética. A Justiça determinou a suspensão imediata do exercício da medicina pela acusada.",
-      "corpo_html": "<h2>Detalhes da denúncia</h2><p>O Ministério Público do Estado do Rio de Janeiro apresentou denúncia contra a médica Geysa Leal Correa relacionada à morte de Aline Heloisa Lima Santos de Oliveira. O procedimento cirúrgico ocorreu no Centro Médico Icaraí, situado no município de São Gonçalo. Conforme o relato ministerial, a paciente sofreu perfurações no intestino em três pontos distintos durante a intervenção.</p><h2>Evolução do caso e atendimento</h2><p>Após a cirurgia, a paciente relatou dores fortes e dificuldades respiratórias, mas os sintomas foram desconsiderados pela profissional. A transferência para outra unidade hospitalar ocorreu apenas no dia seguinte devido à piora do estado clínico. A paciente faleceu em 22 de novembro de 2023 em decorrência de infecção generalizada.</p><h2>Medidas judiciais e histórico</h2><p>O processo foi aceito pelo juízo da 4ª Vara Criminal da Comarca de São Gonçalo, que ordenou a interrupção das atividades médicas da acusada. A acusação aponta que a profissional não possuía titulação em cirurgia plástica e que o estabelecimento não contava com infraestrutura para emergências. A promotoria também registrou antecedentes envolvendo outros óbitos e complicações graves em procedimentos anteriores.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A paciente passou por uma cirurgia de lipoescultura em 13 de novembro de 2023.</li><li>A investigação aponta perfuração intestinal e falta de recursos adequados no local.</li><li>A Justiça determinou a suspensão imediata da atuação profissional da médica.</li></ul></aside>",
-      "slug": "justica-suspende-medica-apos-morte-de-paciente-decorrente-de-lipoescul",
-      "pagina_local": "justica-suspende-medica-apos-morte-de-paciente-decorrente-de-lipoescul.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/medica-e-denunciada-justica-apos-morte-de-paciente-em-lipoescultura",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/saude.webp",
-      "coletado_em": "2026-11-08T07:16:55.869041+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Justiça Federal concede liminar para funcionamento de três casas de apostas",
-      "resumo": "O Tribunal Regional Federal da 3ª Região autorizou por meio de liminar o retorno das atividades de três plataformas de apostas pertencentes à empresa CDA Gaming. A decisão atende a um pedido formal da companhia e suspende temporariamente os efeitos da proibição governamental para o grupo.",
-      "corpo_html": "<h2>Autorização judicial</h2><p>A desembargadora Adriana Pileggi, do Tribunal Regional Federal da 3ª Região, em São Paulo, concedeu uma liminar que permite a retomada das operações das plataformas Casa de Apostas, Betsul e Jogo Online. A autorização beneficia exclusivamente a empresa CDA Gaming LTDA, mantendo a interrupção para as demais companhias do setor até novas deliberações.</p><h2>Argumentação e impactos</h2><p>No pedido apresentado à Justiça, a defesa apontou que a empresa possui autorização onerosa válida até 31 de dezembro de 2029, após o pagamento de R$ 30 milhões. A magistrada apontou potencial prejuízo com a interrupção repentina dos serviços e mencionou que a medida do governo federal poderia gerar impactos nas relações contratuais.</p><h2>Contexto das restrições</h2><p>O governo federal havia estabelecido a interrupção das operações de apostas em todo o país devido a preocupações com o endividamento das famílias. A Advocacia-Geral da União declarou que pretende recorrer da decisão liminar atual. O tema também é debatido em outras instâncias, como no Supremo Tribunal Federal.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Decisão do TRF-3 beneficia as plataformas Casa de Apostas, Betsul e Jogo Online.</li><li>A Advocacia-Geral da União informou que vai recorrer da medida judicial.</li><li>A empresa alegou o pagamento prévio de R$ 30 milhões para exploração da atividade.</li></ul></aside>",
-      "slug": "justica-derruba-liminarmente-proibicao-para-tres-casas-de-apostas-liga",
-      "pagina_local": "justica-derruba-liminarmente-proibicao-para-tres-casas-de-apostas-liga.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/justica-autoriza-volta-do-funcionamento-de-tres-bets-no-brasil",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/justica.webp",
-      "coletado_em": "2026-11-08T07:16:49.286244+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
