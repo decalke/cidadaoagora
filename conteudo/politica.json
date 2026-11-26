@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-26T05:00:55.195157+00:00",
+  "ultima_atualizacao": "2026-11-26T15:07:15.047137+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Procuradoria-Geral da República apresenta denúncia contra o deputado Gustavo Gayer no Supremo Tribunal Federal",
+      "resumo": "A Procuradoria-Geral da República enviou ao Supremo Tribunal Federal uma denúncia contra o deputado Gustavo Gayer por acusações relacionadas a desvio de recursos públicos. O documento aponta a utilização de verba parlamentar para fins particulares, incluindo o aluguel de um imóvel e a contratação de empresa de fachada.",
+      "corpo_html": "<h2>Detalhes da Acusação</h2><p>O parlamentar foi acusado dos crimes de associação criminosa, peculato e uso de documento falso. De acordo com o documento enviado ao Supremo Tribunal Federal, a Polícia Federal concluiu que o deputado liderou um esquema voltado ao desvio de verbas destinadas ao custeio de atividades de gabinete.</p><h2>Uso de Recursos e Envolvimento de Funcionários</h2><p>A acusação aponta que o esquema utilizava uma empresa de fachada e que funcionários do gabinete foram mobilizados para administrar negócios particulares do parlamentar. A denúncia menciona a emissão de notas fiscais falsas e o uso de um imóvel alugado com recursos da Câmara dos Deputados.</p><h2>Próximos Passos e Defesa</h2><p>O ministro Alexandre de Moraes atuará como relator e abrirá prazo para manifestação das defesas, cabendo à Primeira Turma da Corte decidir sobre o recebimento da denúncia ou o arquivamento do caso. Em publicação em rede social, o deputado classificou o inquérito como vergonhoso e afirmou que o local investigado abriga seu escritório político.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>A acusação foi formalizada pela subprocuradora-geral da República Luiza Cristina Fonseca Frischeisen.</li><li>A investigação teve origem na apreensão do telefone de um ex-assessor do parlamentar.</li><li>O relator do processo na Corte é o ministro Alexandre de Moraes.</li></ul></aside>",
+      "slug": "procuradoria-geral-da-republica-apresenta-denuncia-contra-o-deput-381a77aa",
+      "pagina_local": "procuradoria-geral-da-republica-apresenta-denuncia-contra-o-deput-381a77aa.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/pgr-denuncia-deputado-gustavo-gayer-por-desvio-de-cota-parlamentar",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-26T15:06:45.042667+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Câmara dos Deputados aprova projeto de ajuste fiscal para o ano de 2027",
+      "resumo": "A Câmara dos Deputados aprovou o Projeto de Lei Complementar 299/26 sem alterações durante sessão na madrugada desta terça-feira (24). A proposta, que segue agora para sanção presidencial, estabelece novas regras para o controle de despesas e alcance de metas fiscais a partir de 2027.",
+      "corpo_html": "<h2>Tramitação e aprovação</h2><p>A Câmara dos Deputados aprovou na madrugada desta terça-feira (24) o Projeto de Lei Complementar (PLP) 299/26, que trata do ajuste fiscal nas contas públicas em 2027. O texto foi votado sem modificações devido à rejeição dos destaques apresentados. Como a matéria já havia sido aprovada pelo Senado na quarta-feira anterior (18), o projeto segue diretamente para a sanção presidencial.</p><h2>Regras e limites de despesas</h2><p>A partir de 2027, caso o relatório bimestral de receitas e despesas aponte necessidade para o cumprimento da meta fiscal, o governo poderá bloquear despesas além do exigido pelo mecanismo atual da Lei de Responsabilidade Fiscal. Com a medida, o crescimento real da despesa em relação ao ano anterior ficará limitado a 2%, em comparação ao patamar atual de 2,5% permitido pelo arcabouço fiscal. Esse contingenciamento adicional recairá sobre despesas do Poder Executivo.</p><h2>Transparência e metas</h2><p>O projeto estabelece que, quando o resultado primário do governo no ano anterior for inferior a 0,5% do Produto Interno Bruto, o Executivo deverá apresentar à Comissão Mista de Orçamento os fatores que motivaram o resultado e as ações planejadas para a sua melhoria. A redução ou o cancelamento de dotações orçamentárias decorrentes do ajuste deverão ser formalizados por meio da lei orçamentária, especificando os valores e as programações afetadas.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O texto foi aprovado sem alterações após a rejeição dos destaques apresentados.</li><li>A matéria segue para sanção presidencial após já ter passado pelo Senado.</li><li>O projeto altera o limite de crescimento real da despesa para o Executivo em caso de contingenciamento adicional.</li></ul></aside>",
+      "slug": "camara-dos-deputados-aprova-projeto-de-ajuste-fiscal-para-o-ano-d-ae850714",
+      "pagina_local": "camara-dos-deputados-aprova-projeto-de-ajuste-fiscal-para-o-ano-d-ae850714.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/camara-aprova-ajuste-fiscal-sem-alteracoes-projeto-segue-para-sancao",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-26T15:06:26.935300+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Justiça aceita denúncia e torna réu investigado por agressão a professor no Rio",
       "resumo": "A Justiça do Rio de Janeiro aceitou a denúncia contra um dos acusados de espancar o professor André Luis Oliveira no centro da capital fluminense. A vítima permanece internada em estado grave com complicações médicas decorrentes dos ferimentos.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/justica.webp",
       "coletado_em": "2026-11-10T09:43:25.805655+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Supremo Tribunal Federal determina o arquivamento do inquérito das Fake News",
-      "resumo": "O presidente do STF, ministro Edson Fachin, ordenou o encerramento definitivo da investigação após solicitação da Procuradoria-Geral da República. A medida preserva a validade de procedimentos anteriores e de investigações autônomas derivadas.",
-      "corpo_html": "<h2>Determinação da corte</h2><p>O presidente do Supremo Tribunal Federal, ministro Edson Fachin, determinou o encerramento definitivo do inquérito das Fake News nesta segunda-feira (9). A ordem atendeu a uma solicitação apresentada pela Procuradoria-Geral da República, que entendeu que a apuração já cumpriu seus objetivos.</p><h2>Manutenção de atos anteriores</h2><p>A resolução estabelece que o encerramento não invalida os procedimentos investigatórios executados desde a criação da investigação em 2019. As ações penais decorrentes das apurações continuam válidas, assim como as frentes investigativas autônomas que já estão em curso.</p><h2>Fundamentação da medida</h2><p>Ao proferir a decisão, o ministro argumentou que o procedimento não pode prosseguir por tempo indeterminado. Segundo a manifestação, falta base para manter a investigação matriz funcionando indefinidamente como eixo central para novas linhas investigativas sem uma reavaliação objetiva.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Pedido de arquivamento foi apresentado pela Procuradoria-Geral da República.</li><li>Decisão mantém válidas as ações penais e investigações autônomas em andamento.</li><li>Ministro destacou que investigações não devem tramitar de maneira perpétua.</li></ul></aside>",
-      "slug": "supremo-tribunal-federal-determina-o-arquivamento-do-inquerito-da-da3f87cd",
-      "pagina_local": "supremo-tribunal-federal-determina-o-arquivamento-do-inquerito-da-da3f87cd.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-ministro-fachin-arquiva-inquerito-das-fake-news",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/justica.webp",
-      "coletado_em": "2026-11-10T09:42:36.774198+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Judiciario e MPU solicitam recursos para quitacao de beneficios",
-      "resumo": "O Poder Judiciario e o Ministerio Publico da Uniao comunicaram a necessidade de creditos adicionais para custear beneficios autorizados. A situacao foi levada ao Supremo Tribunal Federal pela Advocacia-General da Uniao diante da ausencia de previsao orcamentaria.",
-      "corpo_html": "<h2>Pedido de recursos</h2><p>O Poder Judiciario e o Ministerio Publico da Uniao informaram ao Supremo Tribunal Federal a necessidade de R$ 533 milhoes extras para realizar o pagamento de verbas indenizatorias. O valor foi apurado apos constatar que nao ha dinheiro previsto no Orcamento para cobrir as despesas.</p><h2>Valores por orgao</h2><p>Do montante total necessario, o Poder Judiciario precisa de R$ 208,9 milhoes para a quitacao dos pagamentos. No Ministerio Publico, a despesa calculada para atender as demandas e de R$ 324 milhoes.</p><h2>Manifestacao da AGU</h2><p>A Advocacia-General da Uniao apresentou um pedido de esclarecimento ao Supremo Tribunal Federal relatando a insuficiencia de dotacao orcamentaria. O orgao solicita que a Corte decida qual procedimento deve ser adotado para o cumprimento da decisao que autorizou os pagamentos.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Necessidade total de R$ 533 milhoes</li><li>Falta de recursos no Orcamento</li><li>Consulta formal apresentada ao STF</li></ul></aside>",
-      "slug": "judiciario-e-mpu-solicitam-recursos-para-quitacao-de-beneficios-0ad0efcd",
-      "pagina_local": "judiciario-e-mpu-solicitam-recursos-para-quitacao-de-beneficios-0ad0efcd.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/judiciario-e-mpu-querem-r-533-milhoes-para-pagar-penduricalhos",
-      "categoria": "Justiça & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/justica.webp",
-      "coletado_em": "2026-11-10T01:29:42.652346+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
