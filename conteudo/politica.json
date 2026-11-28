@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-28T01:56:50.424597+00:00",
+  "ultima_atualizacao": "2026-11-28T10:18:38.892817+00:00",
   "total": 80,
   "politica": [
     {
@@ -484,6 +484,40 @@
     }
   ],
   "noticias": [
+    {
+      "titulo": "Supremo Tribunal Federal mantém prisão preventiva de ex-presidente do BRB",
+      "resumo": "O presidente do STF, ministro Edson Fachin, negou pedido de prisão domiciliar para Paulo Henrique Costa, ex-presidente do Banco Regional de Brasília. A decisão atende ao posicionamento da Procuradoria-Geral da República, que apontou a permanência dos motivos que causaram a detenção.",
+      "corpo_html": "<h2>Decisão da Corte</h2><p>O presidente do Supremo Tribunal Federal, ministro Edson Fachin, manteve a prisão preventiva de Paulo Henrique Costa, ex-presidente do Banco Regional de Brasília. A solicitação da defesa visava obter a conversão para prisão domiciliar. O pedido foi rejeitado sob o argumento de que os requisitos legais para o benefício não foram preenchidos. A Procuradoria-Geral da República manifestou-se contrária à soltura, sustentando que as motivações iniciais para a detenção continuam presentes. Os representantes legais do ex-dirigente haviam argumentado que ele não oferecia perigo à ordem econômica e social devido ao afastamento profissional e à cooperação com o processo.</p><h2>Investigação e Indiciamento</h2><p>O ex-presidente do BRB é alvo da Operação Compliance Zero, que investiga fraudes financeiras e corrupção envolvendo agentes públicos e o antigo Banco Master. Em outubro, a Polícia Federal indiciou Costa, o proprietário do banco e outros investigados por organização criminosa, lavagem de dinheiro e gestão fraudulenta de instituição financeira. As apurações indicam prejuízos ao BRB que somam R$ 2,7 bilhões, com perdas ligadas a carteiras de crédito inexistentes vinculadas a uma empresa de fachada operada pelo Master. A falta de publicidade nos balanços do banco levou a Comissão de Valores Mobiliários a suspender o registro da instituição como companhia aberta.</p><h2>Supostas Irregularidades</h2><p>As autoridades policiais apontam que a detenção ocorreu após identificação de indícios de acerto entre o ex-dirigente do banco público e o comando da instituição financeira privada. Segundo o apurado, o pagamento de propina estimado em R$ 146,5 milhões teria sido combinado por meio de imóveis, em contrapartida à aprovação de transações comerciais entre o BRB e o banco investigado. A defesa do ex-presidente segue em contato com os órgãos de imprensa.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Ministro Edson Fachin negou a substituição da prisão preventiva por domiciliar.</li><li>Defesa alegou ausência de risco social e cooperação com as investigações.</li><li>Investigação aponta prejuízo de R$ 2,7 bilhões ao BRB.</li></ul></aside>",
+      "slug": "supremo-tribunal-federal-mantem-prisao-preventiva-de-ex-president-eb7ec35b",
+      "pagina_local": "supremo-tribunal-federal-mantem-prisao-preventiva-de-ex-president-eb7ec35b.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-mantem-prisao-de-paulo-henrique-costa-ex-presidente-do-brb",
+      "categoria": "Justiça & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/justica.webp",
+      "coletado_em": "2026-11-28T10:18:14.666843+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
+    {
+      "titulo": "Presidente defende ajustes em programas sociais e aponta controle de gastos públicos",
+      "resumo": "Durante discurso em Niterói, o presidente Luiz Inácio Lula da Silva afirmou que haverá revisões nos programas sociais para garantir que apenas quem possui direito receba os auxílios. Ele também mencionou a necessidade de investimentos na industrialização e na educação, além de maior rigor nos gastos do governo.",
+      "corpo_html": "<h2>Revisão de benefícios</h2><p>O presidente declarou que o governo federal fará uma verificação nos programas sociais. O objetivo é impedir que pessoas que não preenchem os requisitos recebam auxílios, assegurando que os recursos cheguem aos beneficiários legítimos. Como exemplo, foi mencionada a situação de um município com mais pescadores registrados do que o total de moradores.</p><h2>Economia e ministério</h2><p>Para impulsionar o crescimento do país, o chefe do Executivo destacou a importância de investir na industrialização e de controlar os gastos públicos de forma adequada. Além disso, o Palácio do Planalto confirmou a indicação de Luiz Carlos Trabuco para chefiar o Ministério da Fazenda no mandato com início em janeiro.</p><h2>Encontro com estudantes</h2><p>A declaração ocorreu durante uma visita a estudantes em Niterói, no estado do Rio de Janeiro. Na ocasião, o presidente agradeceu o apoio recebido da comunidade acadêmica da Universidade Federal Fluminense durante o período eleitoral e reiterou o compromisso com a continuidade dos investimentos na educação.</p>",
+      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Defesa de ajustes em programas sociais para evitar pagamentos indevidos</li><li>Garantia de que investimentos na área da educação serão mantidos</li><li>Indicação da escolha de Luiz Carlos Trabuco para o Ministério da Fazenda</li></ul></aside>",
+      "slug": "presidente-defende-ajustes-em-programas-sociais-e-aponta-controle-dc3b6707",
+      "pagina_local": "presidente-defende-ajustes-em-programas-sociais-e-aponta-controle-dc3b6707.html",
+      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-garante-beneficios-em-novo-governo-mas-defende-revisao",
+      "categoria": "Política & direitos",
+      "fonte": "Agência Brasil / EBC",
+      "imagem": "/assets/v4/editorial/instituicoes.webp",
+      "coletado_em": "2026-11-28T10:18:02.698700+00:00",
+      "reescrito_ia": true,
+      "editorial_v4": true,
+      "modelo": "gemini-3.5-flash-lite",
+      "checagem_automatica": true
+    },
     {
       "titulo": "Lula projeta espaços de convivência e lazer para a população idosa",
       "resumo": "O presidente Luiz Inácio Lula da Silva apresentou uma proposta para implantar locais públicos voltados ao lazer, atividades físicas e atendimento médico para idosos em parceria com prefeituras. A declaração ocorreu durante visita ao programa de extensão Renascer no Hospital Universitário Gaffrée e Guinle, no Rio de Janeiro.",
@@ -1805,40 +1839,6 @@
       "fonte": "Agência Brasil / EBC",
       "imagem": "/assets/v4/editorial/justica.webp",
       "coletado_em": "2026-11-11T21:55:02.246693+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Projetos de servidores públicos concorrem ao Prêmio Espírito Público",
-      "resumo": "Quatorze iniciativas de servidores públicos brasileiros de todas as regiões disputam a oitava edição do Prêmio Espírito Público. Os vencedores de cada categoria receberão premiação em dinheiro e serão revelados em dezembro, em Brasília.",
-      "corpo_html": "<h2>Iniciativas finalistas e votação</h2><p>Um total de 14 projetos elaborados por servidores públicos das cinco regiões brasileiras disputa a oitava edição do Prêmio Espírito Público. As propostas foram escolhidas entre 867 inscrições recebidas. Os trabalhos finalistas passam por avaliação técnica de especialistas e também por votação popular, que fica aberta até o dia 27.</p><h2>Categorias e premiação</h2><p>A premiação contempla sete categorias distintas, que abrangem desenvolvimento social, educação, gestão de pessoas, gestão e transformação digital, meio ambiente e emergência climática, saúde e segurança pública. Os vencedores de cada uma das sete áreas receberão o valor de R$ 12 mil.</p><h2>Divulgação dos resultados</h2><p>O anúncio oficial dos vencedores ocorrerá em uma cerimônia realizada em Brasília, no Distrito Federal, no dia 9 de dezembro. Na mesma ocasião, o projeto que obtiver a maior votação do público receberá um certificado na modalidade Prêmio Especial do Público, sem acréscimo de premiação financeira.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>Catorze finalistas competem em sete categorias</li><li>Prêmio em dinheiro para os vencedores é de R$ 12 mil</li><li>Cerimônia de anúncio está marcada para o dia 9 de dezembro</li></ul></aside>",
-      "slug": "projetos-de-servidores-publicos-concorrem-ao-premio-espirito-publ-a0458532",
-      "pagina_local": "projetos-de-servidores-publicos-concorrem-ao-premio-espirito-publ-a0458532.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/projetos-de-servidores-publicos-disputam-sete-premios-de-r-12-mil",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/instituicoes.webp",
-      "coletado_em": "2026-11-11T21:54:49.613300+00:00",
-      "reescrito_ia": true,
-      "editorial_v4": true,
-      "modelo": "gemini-3.5-flash-lite",
-      "checagem_automatica": true
-    },
-    {
-      "titulo": "Debate sobre a Proposta de Emenda Constitucional da Maioridade Penal na Câmara",
-      "resumo": "O relator da Proposta de Emenda Constitucional sobre a redução da maioridade penal na Câmara dos Deputados defende a punição criminal aos 16 anos com cumprimento de pena em locais separados dos adultos. O texto é debatido em comissão especial e envolve articulações entre parlamentares, governo federal e o Poder Judiciário.",
-      "corpo_html": "<h2>Tramitação e Previsão de Votação</h2><p>A comissão especial que analisa a Proposta de Emenda Constitucional tem previsão de votar a matéria até o final de novembro. O presidente da Câmara dos Deputados, Hugo Motta, assumiu o compromisso de levar o texto ao plenário na primeira semana de dezembro. A articulação legislativa também contou com a movimentação no Senado Federal, onde o presidente Davi Alcolumbre retirou de pauta uma proposta equivalente para aguardar a deliberação da Câmara.</p><h2>Posicionamentos do Governo e Estatísticas</h2><p>Durante audiência pública, representantes do Ministério da Justiça e Segurança Pública afirmaram que a pasta admite a redução da maioridade penal de forma excepcional para crimes hediondos, desde que cumprida em estabelecimentos distintos. Dados apresentados indicam que condenados por atos infracionais violentos representam 9,8% dos adolescentes privados de liberdade, enquanto roubo e tráfico somam 57%. Autoridades apontam ainda que o sistema juvenil apresenta menor reincidência e maior rapidez nos julgamentos em comparação ao sistema penal de adultos.</p><h2>Divergências e Possíveis Desdobramentos</h2><p>O tema divide opiniões entre os parlamentares da comissão especial. Enquanto defensores apontam a gravidade de atos cometidos por jovens, críticos argumentam que a medida pode gerar encarceramento em massa e que o problema da violência não se resolve por essa via. Especialistas também alertam sobre a possibilidade de a matéria ser contestada no Supremo Tribunal Federal por envolver cláusula pétrea constitucional, ao passo que o relator sugeriu a inclusão de um dispositivo para submeter a medida a um referendo popular em 2028.</p>",
-      "destaques_html": "<aside class=\"v4-editorial-note\"><strong>Em poucas palavras</strong><ul><li>O deputado Mendonça Filho anunciou que apresentará relatório favorável à redução da maioridade penal para 16 anos.</li><li>O Ministério da Justiça e Segurança Pública indicou que o governo federal aceita debater a redução de forma excepcional para crimes hediondos.</li><li>Parlamentares, magistrados e representantes governamentais divergem sobre a eficácia da medida e o risco de judicialização no Supremo Tribunal Federal.</li></ul></aside>",
-      "slug": "debate-sobre-a-proposta-de-emenda-constitucional-da-maioridade-pe-9caa12b6",
-      "pagina_local": "debate-sobre-a-proposta-de-emenda-constitucional-da-maioridade-pe-9caa12b6.html",
-      "link_oficial": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-defende-reducao-da-maioridade-penal-com-prisoes-separadas",
-      "categoria": "Política & direitos",
-      "fonte": "Agência Brasil / EBC",
-      "imagem": "/assets/v4/editorial/instituicoes.webp",
-      "coletado_em": "2026-11-11T14:14:30.826901+00:00",
       "reescrito_ia": true,
       "editorial_v4": true,
       "modelo": "gemini-3.5-flash-lite",
